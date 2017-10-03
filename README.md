@@ -20,6 +20,6 @@ Ops and Tactics is written by Sweet Soul Bro !!H5XdMKmBv5G and any who wish to c
 
 The code is licenced under GPL 3.
 
-As the JSON and XML files contain Ops and Tactics content, they are subject to the same licence Ops and Tactics is under, not GPL 3.
+The JSON and XML files that contain Ops and Tactics content are subject to the same licence Ops and Tactics is under, not GPL 3.
 
 Ops and Tactics is licenced under the D20 OGL. More information can be found at www.opsandtactics.com.
