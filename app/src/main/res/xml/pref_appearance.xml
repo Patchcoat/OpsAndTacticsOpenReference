@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- these settings decide the appearance of the app -->
+
+    <ListPreference
+        android:defaultValue="40"
+        android:entries="@array/pref_header_size_titles"
+        android:entryValues="@array/pref_header_size_values"
+        android:key="header_size"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_header_size" />
+
+    <ListPreference
+        android:defaultValue="13"
+        android:entries="@array/pref_font_size_titles"
+        android:entryValues="@array/pref_font_size_values"
+        android:key="font_size"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_font_size" />
+
+    <ListPreference
+        android:defaultValue="roboto.ttf"
+        android:entries="@array/pref_body_font_titles"
+        android:entryValues="@array/pref_body_font_values"
+        android:key="body_font"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_body_font" />
+
+    <ListPreference
+        android:defaultValue="mono_spatial.ttf"
+        android:entries="@array/pref_secondary_font_titles"
+        android:entryValues="@array/pref_secondary_font_values"
+        android:key="secondary_font"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_secondary_font" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_theme_titles"
+        android:entryValues="@array/pref_theme_values"
+        android:key="theme"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_theme" />
+
+</PreferenceScreen>

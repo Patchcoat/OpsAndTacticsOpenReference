@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header>Improving Ability Scores</header>
+        <text>   A character’s ability scores can change in a multitude of ways, from poisons and diseases to training. A character may also improve their ability score by practicing the ability. In order for a character to improve an ability, they must practice it for one week per ability point improvement, plus one additional week per point that the score you are attempting to improve is above 10, up to a score of 26. After they have practiced the number of weeks they wish to study or practice for, their ability score goes up by the number of points selected. A character must maintain these upgrades with regular practice, by taking at least two hours out of each week to practice and keep their skills up. Common ways to practice to improve ability scores include</text>
+        <text><b>Strength</b></text>
+        <list>
+            <text>Weight training</text>
+            <text>Anaerobic gym exercise</text>
+            <text>Melee weapon practice</text>
+        </list>
+        <text><b>Intelligence</b></text>
+        <list>
+            <text>Studying academic subjects</text>
+            <text>Studying debates, logic, and reasoning</text>
+        </list>
+        <text><b>Dexterity</b></text>
+        <list>
+            <text>Yoga and stretching</text>
+            <text>Gymnastics</text>
+            <text>Marksmanship practice</text>
+        </list>
+        <text><b>Wisdom</b></text>
+        <list>
+            <text>Situational awareness training</text>
+            <text>Meditation</text>
+        </list>
+        <text><b>Constitution</b></text>
+        <list>
+            <text>Cardiovascular training</text>
+            <text>Aerobic gym exercise</text>
+        </list>
+        <text><b>Charisma</b></text>
+        <list>
+            <text>Practice debating, arguing, and talking</text>
+            <text>Practice persuading, intimidating, and beguiling</text>
+        </list>
+    </item>
+</body>

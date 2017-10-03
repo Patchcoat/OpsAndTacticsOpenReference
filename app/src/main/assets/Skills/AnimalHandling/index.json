@@ -1,0 +1,32 @@
+[
+  {
+    "text":"Introduction",
+    "link":"Skills/AnimalHandling/Introduction.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Handle an Animal",
+    "link":"",
+    "type":""
+  },
+  {
+    "text":"Push an Animal",
+    "link":"",
+    "type":""
+  },
+  {
+    "text":"Teach an Animal a Trick",
+    "link":"",
+    "type":""
+  },
+  {
+    "text":"Train an Animal for a General Purpose",
+    "link":"",
+    "type":""
+  },
+  {
+    "text":"Rear a Wild Animal",
+    "link":"",
+    "type":""
+  }
+]

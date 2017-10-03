@@ -1,0 +1,797 @@
+[
+  {
+    "text": "Bookmarks",
+    "book": "bookmarks",
+    "children": [
+      {
+        "text": "Add New Collection",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Remove Collection",
+        "link": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "text": "The Basics",
+    "book": "core_rulebook",
+    "children": [
+      {
+        "text": "What is Ops and Tactics?",
+        "link": "Basics/WhatIs.xml",
+        "type": "xml"
+      },
+      {
+        "text": "Basic Task Resolution System",
+        "link": "Basics/TaskResolution.xml",
+        "type": "xml"
+      },
+      {
+        "text": "Ability Scores",
+        "link": "Basics/AbilityScores.xml",
+        "type": "xml"
+      },
+      {
+        "text": "Creating Ability Scores",
+        "link": "Basics/CreatingAbility.xml",
+        "type": "xml"
+      },
+      {
+        "text": "Improving Ability Scores",
+        "link": "Basics/ImprovingAbility.xml",
+        "type": "xml"
+      }
+    ]
+  },
+  {
+    "text": "Characters",
+    "book": "core_rulebook",
+    "children": [
+      {
+        "text": "Character Features and Creating Characters",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Leveling Characters",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Characters",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Defining your Character",
+        "link": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "text": "Occupations",
+    "book": "core_rulebook",
+    "children": [
+      {
+        "text": "Starting Occupation",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Changing Occupations",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Occupations",
+        "link": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "text": "Skills",
+    "book": "core_rulebook",
+    "children": [
+      {
+        "text": "Introduction",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Acquiring Skills",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Using Skills",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Acrobatics (DEX)",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Animal Handling (CHA)",
+        "link": "Skills/AnimalHandling/index.json",
+        "type": "list"
+      },
+      {
+        "text": "Athletics (STR)",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Craft (INT)",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Demolitions (INT) Trained Only",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Disable Device (INT) Trained Only",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Drive (DEX)",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Knowledge (INT) Trained Only",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Linguistics (None) Trained Only",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Perception (WIS)",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Perform (CHA)",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Pilot (DEX) Trained Only",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Presence (CHA)",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Ride (DEX)",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Stealth (DEX)",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Speechcraft (CHA)",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Technology Use (INT)",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Treat Injury (WIS)",
+        "link": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "text": "Feats",
+    "book": "core_rulebook",
+    "children": [
+      {
+        "text": "Introduction",
+        "link": "Feats/Introduction.xml",
+        "type": "xml"
+      },
+      {
+        "text": "All Feats",
+        "link": "All",
+        "type": "feat"
+      },
+      {
+        "text": "Archery And Crossbow Feats",
+        "link": "Archery And Crossbow Feats",
+        "type": "feat"
+      },
+      {
+        "text": "Armor Feats",
+        "link": "Armor Feats",
+        "type": "feat"
+      },
+      {
+        "text": "Assault Rifle and Carbine Rifle Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Axe Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Automatic Weapons Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Combat Sword Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Distance Rifle Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Explosive Weapons Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Fencing Sword Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "General Combat Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Handgun Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Heavy Melee Weapon Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Machine Gun Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Melee Combat Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "PDW Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Ranged Combat Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Saving Throw Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Shotgun Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Simple Weapon Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Skill Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Spear Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Staff Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Thrown Weapon Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Two Weapon Fighting Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Unarmed Combat Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Vehicle Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Weapon Proficiency Feats",
+        "link": "Weapon Proficiency Feats",
+        "type": "feat"
+      }
+    ]
+  },
+  {
+    "text": "Combat",
+    "book": "core_rulebook",
+    "children": [
+      {
+        "text": "Introduction",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Combat Statistics",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Injury and Death",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Healing",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Temporary Hit Points",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Combat Points",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Saves",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Initiative",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Surprise",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Actions in Combat",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Attack Actions",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Move Actions",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Speak Action",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Miscellaneous Actions",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Movement and Position",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Vehicle Movement and Combat",
+        "link": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "text": "Equipment",
+    "book": "core_rulebook",
+    "children": [
+      {
+        "text": "Restricted Objects",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Purchasing a License",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "The Black Market",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "New Vs. Used",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Mastercraft Objects",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Concealed Weapons and Objects",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Living in Luxury",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Carry Capacity",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "General Equipment",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Armor",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Weapons",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Weapon Upgrades",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Ammunition",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Vehicles",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Lifestyle and Services",
+        "link": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "text": "Game Mastering",
+    "book": "core_rulebook",
+    "children": [
+      {
+        "text": "The Role of the Game Master",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "NPCs",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "NPC Occupations",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Snipers",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Setting Prices",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Encounter Goals",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Environments",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Conditions Summary",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Firearms Manufacturers",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Weapons in Use",
+        "link": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "text": "Variant Rules",
+    "book": "core_rulebook",
+    "children": [
+      {
+        "text": "Fast Damage",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Gridless Combat",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Overpenetration and Missed Shots",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Simple Firearms",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Race Construction",
+        "link": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "text": "Simplified Quick Action Tactics System",
+    "book": "simplified_tactics",
+    "children": [
+      {
+        "text": "The Basics",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Characters",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Skills",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Combat",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Equipment",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Game Mastering",
+        "link": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "text": "Advanced Arms",
+    "book": "advanced_arms",
+    "children": [
+      {
+        "text": "Advanced Arms",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "New Races",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "New Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "New Equipment",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "New Combat Actions",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Sub-Atmospheric and Deep Space Vehicles",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Plasmasmithing",
+        "link": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "text": "Modern Magika",
+    "book": "modern_magika",
+    "children": [
+      {
+        "text": "Modern Magika",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Races",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Magic",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Occupations",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Skills",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Feats",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Equipment",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Combat Actions",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Variant Rules",
+        "link": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "text": "Field Identification Guide",
+    "book": "field_identification_guide",
+    "children": [
+      {
+        "text": "Enemies, NPCs and Monster Statistics",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Monster Statistics",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "NPCs and Antagonist",
+        "link": "",
+        "type": ""
+      }
+    ]
+  },
+  {
+    "text": "Procedural Weapons",
+    "book": "procedural_weapons",
+    "children": [
+      {
+        "text": "Procedural Weapons",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Cased and Shelled Firearms",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Plasma Arms",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Laser Arms",
+        "link": "",
+        "type": ""
+      },
+      {
+        "text": "Ammunition and Equipment",
+        "link": "",
+        "type": ""
+      }
+    ]
+  }
+]

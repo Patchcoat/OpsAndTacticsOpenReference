@@ -1,0 +1,170 @@
+[
+  {
+    "category":"Archery And Crossbow Feats",
+    "name":"Archery Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Bows)"
+    ],
+    "benefit":"When firing a bow, crossbow, or speargun the CP cost is 2 less.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"",
+        "benefit":""
+      }
+  },
+  {
+    "category":"Archery And Crossbow Feats",
+    "name":"Archery Master",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Bows)",
+      "Archery Specialist"
+    ],
+    "benefit":"Reloading a Crossbow or Bow Cost 0 Combat Points.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"",
+        "benefit":""
+      }
+  },
+  {
+    "category":"Archery And Crossbow Feats",
+    "name":"Double Bowman",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Bows)"
+    ],
+    "benefit":"When using a bow, you may fire a second arrow at a single target, at a −2 CP cost and with a −4 penalty to attack. If the attack is successful, it deals +1 damage dice.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"",
+        "benefit":""
+      }
+  },
+  {
+    "category":"Armor Feats",
+    "name":"Heavy Armor Proficiency",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"When the character wears heavy armor, they can add the armor’s equipment bonus to their DEF, and the armor’s skill penalty only applies to the following skills: Acrobatics, Athletics, and Stealth",
+    "example":"",
+    "normal":"A character who wears armor with which they are not proficient only receives the Damage Reduction bonus and suffer the armor’s skill penalty on the listed skill checks.",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"1 day",
+        "benefit":"Can gain up to +3 to Defense when wearing heavy armor"
+      }
+  },
+  {
+    "category":"Armor Feats",
+    "name":"Light Armor Proficiency",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"When the character wears light armor, they can add the armor’s equipment bonus to their DEF, and the armor’s skill penalty only applies to the following skills: Acrobatics, Athletics, and Stealth",
+    "example":"",
+    "normal":"A character who wears armor with which they are not proficient only receives the Damage Reduction bonus and suffer the armor’s skill penalty on the listed skill checks.",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"1 day",
+        "benefit":"Can gain up to +1 to Defense when wearing light armor"
+      }
+  },
+  {
+    "category":"Armor Feats",
+    "name":"Medium Armor Proficiency",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"When the character medium heavy armor, they can add the armor’s equipment bonus to their DEF, and the armor’s skill penalty only applies to the following skills: Acrobatics, Athletics, and Stealth",
+    "example":"",
+    "normal":"A character who wears armor with which they are not proficient only receives the Damage Reduction bonus and suffer the armor’s skill penalty on the listed skill checks.",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"1 day",
+        "benefit":"Can gain up to +2 to Defense when wearing medium armor"
+      }
+  },
+  {
+    "category":"Armor Feats",
+    "name":"Armor Mastery",
+    "intro":"",
+    "prerequisite":[
+      "Light Armor Proficiency",
+      "Medium Armor Proficiency",
+      "Heavy Armor Proficiency",
+      "Armor Optimization"
+    ],
+    "benefit":"The character reduces the CP penalty by half rounded up, and receives a +1 to the maximum AGL limit. They also receive a +5 to the AP score of the armor they are wearing. This bonus only applies while the character is wearing the armor, and once he removes the armor, the armor loses this bonus.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"",
+        "benefit":""
+      }
+  },
+  {
+    "category":"Armor Feats",
+    "name":"Armor Optimization",
+    "intro":"",
+    "prerequisite":[
+      "Light Armor Proficiency",
+      "Medium Armor Proficiency",
+      "Heavy Armor Proficiency"
+    ],
+    "benefit":"When the character wears any armor, they gain a +1 to the DEF equipment bonus, and reduce the armor penalty by 1.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"",
+        "benefit":""
+      }
+  },
+  {
+    "category":"Weapon Proficiency Feats",
+    "name":"Archaic Weapons Proficiency",
+    "intro":"Choose a weapon group from the following list: bows, combat swords, fencing swords, axes, staffs, spears, picks, or maces.",
+    "prerequisite":[],
+    "benefit":"The character makes attack rolls with weapon normally.",
+    "example":"",
+    "normal":"A character who uses a weapon without being proficient with it takes a −4 penalty on attack rolls.",
+    "special":"A character may take this feat up to four times. Each time a character takes the feat, they select a different weapon group.",
+    "tutoring":{
+        "categories":"Bows, Combat Swords, Fencing Swords, Axes, Staves, Spears, Picks, and Maces",
+        "time":"1 day",
+        "benefit":"Attack penalty is reduced to −2"
+      }
+  },
+  {
+    "category":"Weapon Proficiency Feats",
+    "name":"Improvised Weapon Proficiency",
+    "intro":"",
+    "prerequisite":[
+      "Proficient with weapon"
+    ],
+    "benefit":"You are considered proficient with all improvised weapons that you would not be proficient with under normal means. The GM decides which improvised weapon fits into which category. Also, the chance for an improvised weapon to break is reduced to 20%.",
+    "example":"Someone with Archaic Weapon Proficiency (Axes) might be able to pick up a camp axe and use it as a hand axe with no penalty.",
+    "normal":"Without this feat, a character takes a −2 non-proficient penalty with all improvised weapons. Improvised weapons have a 50% chance of breaking.",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"",
+        "benefit":""
+      }
+  }
+]
