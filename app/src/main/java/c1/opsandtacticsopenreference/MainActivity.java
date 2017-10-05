@@ -351,8 +351,8 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < jsonBookmarks.length(); i++){
             TextAssetLink bookmark = new TextAssetLink(
                     jsonBookmarks.getJSONObject(i).getString("name"),
-                    jsonBookmarks.getJSONObject(i).getString("link"),
-                    jsonBookmarks.getJSONObject(i).getString("type"));
+                    "bookmarks/" + jsonBookmarks.getJSONObject(i).getString("name"),
+                    "list");
             bookmarks.add(i, bookmark);
         }
         listDataChild.put(listDataHeader.get(0), bookmarks);

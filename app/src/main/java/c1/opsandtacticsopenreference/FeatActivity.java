@@ -47,6 +47,9 @@ public class FeatActivity extends AppCompatActivity {
     int altBackground;
     int tableBorder;
     int boxBorder;
+    // Bookmarks
+    String bookmarkCollection;
+    String featLink;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +63,10 @@ public class FeatActivity extends AppCompatActivity {
         super.onResume();
         // setup Preferences
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(FeatActivity.this);
+        // Bookmark Prefs
+        bookmarkCollection = sharedPref.getString("bookmark_collection", "");
+
+        // Appearance Prefs
         String headerTextSizeString = sharedPref.getString("header_size", "");
         String bodyTextSizeString = sharedPref.getString("font_size", "");
         String theme = sharedPref.getString("theme","");
@@ -142,6 +149,7 @@ public class FeatActivity extends AppCompatActivity {
         // Get the Intent that started this activity and extract the string
         Intent intent = getIntent();
         String feat = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        featLink = feat;
         String specificFeat = "";
         String featCategory = "";
         if (feat.contains("/")){
@@ -477,6 +485,14 @@ public class FeatActivity extends AppCompatActivity {
         }
     }
 
+    private void createBookmark() throws JSONException {
+        Log.i("Bookmark Collection", bookmarkCollection);
+        Log.i("Bookmark Link", featLink);
+        String jsonString = loadJSONFromAsset("Bookmarks.json");
+        JSONArray bookmarkList = new JSONArray(jsonString);
+
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -512,6 +528,11 @@ public class FeatActivity extends AppCompatActivity {
                 return true;
 
             case R.id.action_bookmark:
+                try {
+                    createBookmark();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
                 Toast.makeText(
                         getApplicationContext(),
                         "Bookmark", Toast.LENGTH_SHORT)

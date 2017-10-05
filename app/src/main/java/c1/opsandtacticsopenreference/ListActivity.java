@@ -193,8 +193,21 @@ public class ListActivity extends AppCompatActivity {
         linearLayout = (LinearLayout) findViewById(R.id.parentLayout);
 
         // JSON
-        String jsonString = loadJSONFromAsset(page);
-        JSONArray listItems = new JSONArray(jsonString);
+        String jsonString;
+        JSONArray listItems = new JSONArray();
+        if (page.split("/")[0].equals("bookmarks")) {
+            jsonString = loadJSONFromAsset("Bookmarks.json");
+            JSONArray bookmarkCategories = new JSONArray(jsonString);
+            for (int i = 0; i < bookmarkCategories.length(); i++){
+                if (bookmarkCategories.getJSONObject(i).getString("name").equals(page.split("/")[1])){
+                    listItems = bookmarkCategories.getJSONObject(i).getJSONArray("bookmarks");
+                    break;
+                }
+            }
+        } else {
+            jsonString = loadJSONFromAsset(page);
+            listItems = new JSONArray(jsonString);
+        }
 
         // List of items
         final List<TextAssetLink> items = new ArrayList<TextAssetLink>();
