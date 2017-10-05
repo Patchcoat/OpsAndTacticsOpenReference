@@ -345,6 +345,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Populate bookmarks
+
+        DBHandler db = new DBHandler(this);
+
         jsonString = loadJSONFromAsset("Bookmarks.json");
         JSONArray jsonBookmarks = new JSONArray(jsonString);
         List<TextAssetLink> bookmarks = listDataChild.get(listDataHeader.get(0));

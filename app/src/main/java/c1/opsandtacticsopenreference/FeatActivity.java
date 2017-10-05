@@ -488,8 +488,6 @@ public class FeatActivity extends AppCompatActivity {
     private void createBookmark() throws JSONException {
         Log.i("Bookmark Collection", bookmarkCollection);
         Log.i("Bookmark Link", featLink);
-        String jsonString = loadJSONFromAsset("Bookmarks.json");
-        JSONArray bookmarkList = new JSONArray(jsonString);
 
     }
 

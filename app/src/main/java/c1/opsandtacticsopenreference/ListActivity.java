@@ -195,6 +195,7 @@ public class ListActivity extends AppCompatActivity {
         // JSON
         String jsonString;
         JSONArray listItems = new JSONArray();
+        // check if reading from a file or bookmarks
         if (page.split("/")[0].equals("bookmarks")) {
             jsonString = loadJSONFromAsset("Bookmarks.json");
             JSONArray bookmarkCategories = new JSONArray(jsonString);
