@@ -54,6 +54,9 @@ public class ListActivity extends AppCompatActivity {
     int boxBorder;
     private static final String ns = null;
 
+    // Bookmarks
+    DBHandler db;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -195,37 +198,30 @@ public class ListActivity extends AppCompatActivity {
         // JSON
         String jsonString;
         JSONArray listItems = new JSONArray();
+        // List of items
+        List<TextAssetLink> items = new ArrayList<TextAssetLink>();
         // check if reading from a file or bookmarks
         if (page.split("/")[0].equals("bookmarks")) {
-            jsonString = loadJSONFromAsset("Bookmarks.json");
-            JSONArray bookmarkCategories = new JSONArray(jsonString);
-            for (int i = 0; i < bookmarkCategories.length(); i++){
-                if (bookmarkCategories.getJSONObject(i).getString("name").equals(page.split("/")[1])){
-                    listItems = bookmarkCategories.getJSONObject(i).getJSONArray("bookmarks");
-                    break;
-                }
-            }
+            db = new DBHandler(getApplicationContext());
+            items = db.getAllBookByCollectTAL(page.split("/")[1]);
         } else {
             jsonString = loadJSONFromAsset(page);
             listItems = new JSONArray(jsonString);
-        }
 
-        // List of items
-        final List<TextAssetLink> items = new ArrayList<TextAssetLink>();
+            // iterate through and add items to the list
+            int i;
+            for (i = 0; i < listItems.length(); i++) {
+                TextAssetLink item = new TextAssetLink(
+                        listItems.getJSONObject(i).getString("text"),
+                        listItems.getJSONObject(i).getString("link"),
+                        listItems.getJSONObject(i).getString("type"));
+                items.add(item);
+                Log.i("Text",item.Text());
+            }
+        }
 
         // List View
         final ListView itemList = new ListView(this);
-
-        // iterate through and add items to the list
-        int i;
-        for (i = 0; i < listItems.length(); i++) {
-            TextAssetLink item = new TextAssetLink(
-                    listItems.getJSONObject(i).getString("text"),
-                    listItems.getJSONObject(i).getString("link"),
-                    listItems.getJSONObject(i).getString("type"));
-            items.add(item);
-            Log.i("Text",item.Text());
-        }
 
         // because the custom adapter works with an Array list but not a List
         ArrayList<TextAssetLink> stringArray = new ArrayList<TextAssetLink>(items);
@@ -239,12 +235,13 @@ public class ListActivity extends AppCompatActivity {
                 font, textColor, background);
         itemList.setAdapter(modeListAdapter);
         // Make items in the list clickable
+        final List<TextAssetLink> finalItems = items;
         itemList.setOnItemClickListener(new OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position,
                                     long id) {
                 Intent intent = null;
-                switch(items.get(position).AssetType()){
+                switch(finalItems.get(position).AssetType()){
                     case "xml":
                         intent = new Intent(view.getContext(), XMLActivity.class);
                         break;
@@ -257,7 +254,7 @@ public class ListActivity extends AppCompatActivity {
                     default:
                 }
                 if (intent != null) {
-                    String page = new String(items.get(position).AssetLink());
+                    String page = new String(finalItems.get(position).AssetLink());
                     intent.putExtra(EXTRA_MESSAGE, page);
                     startActivity(intent);
                 }

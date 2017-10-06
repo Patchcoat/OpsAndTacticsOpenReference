@@ -12,6 +12,13 @@ public class Bookmark {
     public Bookmark()
     {
     }
+    public Bookmark(String text, String link, String type)
+    {
+        this.id=id;
+        this.text=text;
+        this.link=link;
+        this.type=type;
+    }
     public Bookmark(int id, String text, String link, String type)
     {
         this.id=id;

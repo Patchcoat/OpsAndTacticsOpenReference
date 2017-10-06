@@ -10,6 +10,9 @@ public class Collection {
     public Collection(){
 
     }
+    public Collection(String collection){
+        this.collection=collection;
+    }
     public Collection(int id, String collection){
         this.id=id;
         this.collection=collection;

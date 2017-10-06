@@ -61,12 +61,28 @@ public class MainActivity extends AppCompatActivity {
     int boxBorder;
     // Books
     ArrayList<String> ruleBooks = new ArrayList<String>();
+    // Bookmarks
+    DBHandler db;
 
     @Override
     @SuppressWarnings("ResourceType")
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        db = new DBHandler(getApplicationContext());
+
+        // Nuke the database, this is for testing.
+        db.onUpgrade(db.getWritableDatabase(), 0, 0);
+
+        // Creating a collection
+        Collection collection = new Collection("default");
+        long collection_id = db.addCollection(collection);
+
+        // Creating a bookmark
+        Bookmark bookmark = new Bookmark("Ability Scores", "Basics/AbilityScores.xml", "xml");
+        long bookmark_id = db.addBookmark(bookmark, new long[]{collection_id});
+
     }
 
     @Override
@@ -346,17 +362,27 @@ public class MainActivity extends AppCompatActivity {
 
         // Populate bookmarks
 
-        DBHandler db = new DBHandler(this);
-
-        jsonString = loadJSONFromAsset("Bookmarks.json");
-        JSONArray jsonBookmarks = new JSONArray(jsonString);
+//        jsonString = loadJSONFromAsset("Bookmarks.json");
+//        JSONArray jsonBookmarks = new JSONArray(jsonString);
+//        List<TextAssetLink> bookmarks = listDataChild.get(listDataHeader.get(0));
+//        for (int i = 0; i < jsonBookmarks.length(); i++){
+//            TextAssetLink bookmark = new TextAssetLink(
+//                    jsonBookmarks.getJSONObject(i).getString("name"),
+//                    "bookmarks/" + jsonBookmarks.getJSONObject(i).getString("name"),
+//                    "list");
+//            bookmarks.add(i, bookmark);
+//        }
+        List<Collection> allCollections = db.getAllCollections();
         List<TextAssetLink> bookmarks = listDataChild.get(listDataHeader.get(0));
-        for (int i = 0; i < jsonBookmarks.length(); i++){
+        int i = 0;
+        for (Collection collection : allCollections) {
+            Log.d("Tag Name", collection.getCollection());
             TextAssetLink bookmark = new TextAssetLink(
-                    jsonBookmarks.getJSONObject(i).getString("name"),
-                    "bookmarks/" + jsonBookmarks.getJSONObject(i).getString("name"),
+                    collection.getCollection(),
+                    "bookmarks/" + collection.getCollection(),
                     "list");
             bookmarks.add(i, bookmark);
+            i++;
         }
         listDataChild.put(listDataHeader.get(0), bookmarks);
     }
