@@ -11,6 +11,7 @@
 
     <!-- Bookmark Strings -->
     <string name="add_collection_dialog">New Collection Name</string>
+    <string name="remove_collection_dialog">Collection to Remove</string>
 
     <!-- Strings related to Settings -->
 

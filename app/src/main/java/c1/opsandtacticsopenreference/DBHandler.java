@@ -238,6 +238,23 @@ public class DBHandler extends SQLiteOpenHelper {
         }
         return collections;
     }
+    // Getting one collection
+    public Collection getCollection(int id) {
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        String selectQuery = "SELECT  * FROM " + TABLE_COLLECTIONS + " WHERE "
+                + KEY_ID + " = " + id;
+        Cursor cursor = db.rawQuery(selectQuery, null);
+
+        if (cursor != null)
+            cursor.moveToFirst();
+
+        Collection collection = new Collection();
+        collection.setId(cursor.getInt(cursor.getColumnIndex(KEY_ID)));
+        collection.setCollection(cursor.getString(cursor.getColumnIndex(KEY_COLLECTION)));
+
+        return collection;
+    }
     // Updating a collection
     public int updateCollection(Collection collection) {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -269,6 +286,28 @@ public class DBHandler extends SQLiteOpenHelper {
         // now delete the collection
         db.delete(TABLE_COLLECTIONS, KEY_ID + " = ?",
                 new String[] { String.valueOf(collection.getId()) });
+    }
+    // Deleting a collection via ID
+    public void deleteCollectionID(int id, boolean should_delete_all_book_collect) {
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        // before deleting collection
+        // check if bookmarks under this collection should also be deleted
+        if (should_delete_all_book_collect) {
+            // get all todos under this collection
+            Collection collection = getCollection(id);
+            List<Bookmark> allBooksUnderCollect = getAllBookmarksByCollection(collection.getCollection());
+
+            // delete all bookmarks
+            for (Bookmark bookmark : allBooksUnderCollect) {
+                // delete bookmark
+                deleteBookmark(bookmark.getId());
+            }
+        }
+
+        // now delete the collection
+        db.delete(TABLE_COLLECTIONS, KEY_ID + " = ?",
+                new String[] { String.valueOf(id) });
     }
     /*******************************************************************
      * Bookmark Collections

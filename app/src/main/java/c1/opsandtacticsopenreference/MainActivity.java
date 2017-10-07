@@ -6,6 +6,8 @@ import java.util.List;
 
 import java.io.InputStream;
 import java.io.IOException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import android.app.Activity;
 import android.content.Context;
@@ -32,7 +34,10 @@ import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.LinearLayout;
 import android.widget.Toast;
+import android.widget.TextView;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.Toolbar;
@@ -279,14 +284,73 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    public void textDialog(String text){
+        // get prompts.xml view
+        LayoutInflater li = LayoutInflater.from(this);
+        View promptsView = li.inflate(R.layout.text_dialog, null);
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        // set prompts.xml to alert dialog builder
+        alertDialogBuilder.setView(promptsView);
+
+        final TextView textView = (TextView) promptsView
+                .findViewById(R.id.textView);
+
+        textView.setText(text);
+
+        // set dialog message
+        alertDialogBuilder
+                .setCancelable(false)
+                .setPositiveButton("OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog,int id) {
+                                // restart the add collection dialog
+                                // the only dialog that calls this
+                                addCollectionDialog();
+                            }
+                        });
+
+        // create alert dialog
+        AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // show it
+        alertDialog.show();
+    }
+
     public void addCollection(String newCollectionName){
-        Log.i("New Collection", newCollectionName);
         // Creating a collection
-        if (!newCollectionName.isEmpty()){
-            Collection collection = new Collection(newCollectionName);
-            long collection_id = db.addCollection(collection);
-            onResume();
+        // Remove any spaces that come before or after the input
+        Pattern pattern = Pattern.compile("^\\s*(.*?)\\s*$");
+        Matcher matcher = pattern.matcher(newCollectionName);
+        if (matcher.find())
+        {
+            newCollectionName = matcher.group(1);
+        } else {
+            textDialog("Collection name cannot be blank!");
+            return;
         }
+        List<Collection> collections = db.getAllCollections();
+        List<String> collections_string = new ArrayList<String>();
+        // fill the string array with string from the collection array
+        for (int i = 0; i < collections.size(); i++){
+            collections_string.add(i, collections.get(i).getCollection());
+        }
+        // check to see if input is empty
+        if (newCollectionName.isEmpty()){
+            db.closeDB();
+            textDialog("Collection name can't be blank!");
+            return;
+        }
+        // check to see if a collection already exists
+        if (collections_string.contains(newCollectionName)) {
+            db.closeDB();
+            textDialog("That collection already exists!");
+            return;
+        }
+        // if everything checks out, add the collection
+        Collection collection = new Collection(newCollectionName);
+        long collection_id = db.addCollection(collection);
+        db.closeDB();
+        onResume();
     }
 
     public void addCollectionDialog(){
@@ -325,11 +389,70 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void removeCollection(int collection_id){
-
+        // Delete collection at specific ID
+        db.deleteCollectionID(collection_id+1, true);
+        db.closeDB();
+        onResume();
     }
 
     public void removeCollectionDialog(){
+        // get prompts.xml view
+        LayoutInflater li = LayoutInflater.from(this);
+        View promptsView = li.inflate(R.layout.remove_collection, null);
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        // set prompts.xml to alert dialog builder
+        alertDialogBuilder.setView(promptsView);
 
+        // Populate dialog with
+        final RadioGroup radioGroup = (RadioGroup) promptsView
+                .findViewById(R.id.radioGroup);
+        List<Collection> collections = db.getAllCollections();
+        RadioButton[] radioButtons = new RadioButton[collections.size()];
+        for (int i = 1; i < collections.size(); i++) {
+            radioButtons[i] = new RadioButton(this);
+            radioGroup.addView(radioButtons[i]);
+            radioButtons[i].setText(collections.get(i).getCollection());
+        }
+
+        // set dialog message
+        alertDialogBuilder
+                .setCancelable(true)
+                .setPositiveButton("OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog,int id) {
+                                // get user input and add it as a collection
+                                int radio_id = radioGroup.getCheckedRadioButtonId();
+                                if (radio_id >= 0) {
+                                    removeCollection(radio_id);
+                                }
+                            }
+                        })
+                .setNegativeButton("Cancel",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog,int id) {
+                                dialog.cancel();
+                            }
+                        });
+
+        // create alert dialog
+        final AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // show it
+        alertDialog.show();
+
+        // make the button disabled...
+        alertDialog.getButton(AlertDialog.BUTTON_POSITIVE).setEnabled(false);
+
+        // ...until a radio button is selected
+        for (int i = 1; i < radioButtons.length; i++) {
+            radioButtons[i].setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    alertDialog.getButton(AlertDialog.BUTTON_POSITIVE).setEnabled(true);
+                }
+            });
+        }
+
+        db.closeDB();
     }
 
     @Override
