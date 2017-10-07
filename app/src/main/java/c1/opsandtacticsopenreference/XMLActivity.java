@@ -10,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.graphics.drawable.VectorDrawableCompat;
 import android.text.style.ForegroundColorSpan;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -39,6 +40,9 @@ import org.xmlpull.v1.XmlPullParserException;
 import java.io.InputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
 
 public class XMLActivity extends AppCompatActivity {
 
@@ -56,6 +60,10 @@ public class XMLActivity extends AppCompatActivity {
     int tableBorder;
     int boxBorder;
     private static final String ns = null;
+    // Bookmarks
+    String bookmarkCollection;
+    String pageLink;
+    DBHandler db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -147,6 +155,11 @@ public class XMLActivity extends AppCompatActivity {
         // Get the Intent that started this activity and extract the string
         Intent intent = getIntent();
         String page = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+
+        pageLink = page;
+        bookmarkCollection = "default";
+        SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
+        bookmarkCollection = settings.getString("bookmarkCollection", "default");
 
         // Change the background color of the most parent layout
         linearLayout = (LinearLayout) findViewById(R.id.TopLevelLayout);
@@ -730,6 +743,35 @@ public class XMLActivity extends AppCompatActivity {
         }
     }
 
+    public void createBookmark(){
+        Log.i("Bookmark Collection", bookmarkCollection);
+        Log.i("Bookmark Link", pageLink);
+        String bookmarkName = new String();
+        Pattern pattern = Pattern.compile("([^\\/]*?)(?=\\.)");
+        Matcher matcher = pattern.matcher(pageLink);
+        if (matcher.find())
+        {
+            bookmarkName = matcher.group(1);
+        }
+        Log.i("Bookmark Name", bookmarkName);
+
+
+        db = DBHandler.getInstance(getApplicationContext());
+
+        List<Collection> collections = db.getAllCollections();
+        long collection_id = 1;
+        for (int i = 0; i < collections.size(); i++){
+            Log.i("Collection", collections.get(i).getCollection());
+            if (collections.get(i).getCollection().equals(bookmarkCollection)){
+                collection_id = collections.get(i).getId();
+                break;
+            }
+        }
+
+        Bookmark bookmark = new Bookmark(bookmarkName, pageLink, "xml");
+        long bookmark_id = db.addBookmark(bookmark, new long[]{collection_id});
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -745,6 +787,7 @@ public class XMLActivity extends AppCompatActivity {
             }
         }
         Drawable upArrow;
+        // TODO make it so that if the page is bookmarked in the current collection the icon changes
 
         // set back arrow tint
         upArrow = VectorDrawableCompat.create(getResources(), R.drawable.ic_arrow_back_black_24dp, null);
@@ -765,6 +808,7 @@ public class XMLActivity extends AppCompatActivity {
                 return true;
 
             case R.id.action_bookmark:
+                createBookmark();
                 Toast.makeText(
                         getApplicationContext(),
                         "Bookmark", Toast.LENGTH_SHORT)
@@ -780,6 +824,13 @@ public class XMLActivity extends AppCompatActivity {
                 page = new String("About.xml");
                 intent.putExtra(EXTRA_MESSAGE, page);
                 startActivity(intent);
+                return true;
+
+            case R.id.action_bookmark_collection:
+                Toast.makeText(
+                        getApplicationContext(),
+                        "Collection", Toast.LENGTH_SHORT)
+                        .show();
                 return true;
 
             default:

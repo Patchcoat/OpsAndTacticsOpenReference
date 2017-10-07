@@ -17,11 +17,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View.OnLongClickListener;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListAdapter;
@@ -55,6 +57,7 @@ public class ListActivity extends AppCompatActivity {
     private static final String ns = null;
 
     // Bookmarks
+    Boolean bookmark;
     DBHandler db;
 
     @Override
@@ -202,8 +205,9 @@ public class ListActivity extends AppCompatActivity {
         List<TextAssetLink> items = new ArrayList<TextAssetLink>();
         // check if reading from a file or bookmarks
         if (page.split("/")[0].equals("bookmarks")) {
-            db = new DBHandler(getApplicationContext());
+            db = DBHandler.getInstance(getApplicationContext());
             items = db.getAllBookByCollectTAL(page.split("/")[1]);
+            bookmark = true;
         } else {
             jsonString = loadJSONFromAsset(page);
             listItems = new JSONArray(jsonString);
@@ -218,6 +222,7 @@ public class ListActivity extends AppCompatActivity {
                 items.add(item);
                 Log.i("Text",item.Text());
             }
+            bookmark = false;
         }
 
         // List View
@@ -248,9 +253,6 @@ public class ListActivity extends AppCompatActivity {
                     case "feat":
                         intent = new Intent(view.getContext(), FeatActivity.class);
                         break;
-                    case "list":
-                        intent = new Intent(view.getContext(), ListActivity.class);
-                        break;
                     default:
                 }
                 if (intent != null) {
@@ -258,6 +260,28 @@ public class ListActivity extends AppCompatActivity {
                     intent.putExtra(EXTRA_MESSAGE, page);
                     startActivity(intent);
                 }
+            }
+        });
+        itemList.setOnItemLongClickListener(new OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view,
+                                           int position, long id) {
+                switch(finalItems.get(position).AssetType()){
+                    case "xml":
+                        Toast.makeText(
+                                getApplicationContext(),
+                                "Long Click XML", Toast.LENGTH_SHORT)
+                                .show();
+                        break;
+                    case "feat":
+                        Toast.makeText(
+                                getApplicationContext(),
+                                "Long Click feat", Toast.LENGTH_SHORT)
+                                .show();
+                        break;
+                    default:
+                }
+                return true;
             }
         });
         linearLayout.addView(itemList);
@@ -278,6 +302,7 @@ public class ListActivity extends AppCompatActivity {
             }
         }
         Drawable upArrow;
+        // TODO make it so that if the page is bookmarked in the current collection the icon changes
 
         // set back arrow tint
         upArrow = VectorDrawableCompat.create(getResources(), R.drawable.ic_arrow_back_black_24dp, null);
@@ -306,6 +331,13 @@ public class ListActivity extends AppCompatActivity {
                 page = new String("About.xml");
                 intent.putExtra(EXTRA_MESSAGE, page);
                 startActivity(intent);
+                return true;
+
+            case R.id.action_bookmark_collection:
+                Toast.makeText(
+                        getApplicationContext(),
+                        "Collection", Toast.LENGTH_SHORT)
+                        .show();
                 return true;
 
             default:

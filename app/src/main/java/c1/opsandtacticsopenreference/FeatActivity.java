@@ -50,6 +50,7 @@ public class FeatActivity extends AppCompatActivity {
     // Bookmarks
     String bookmarkCollection;
     String featLink;
+    DBHandler db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,8 +64,6 @@ public class FeatActivity extends AppCompatActivity {
         super.onResume();
         // setup Preferences
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(FeatActivity.this);
-        // Bookmark Prefs
-        bookmarkCollection = sharedPref.getString("bookmark_collection", "");
 
         // Appearance Prefs
         String headerTextSizeString = sharedPref.getString("header_size", "");
@@ -149,7 +148,11 @@ public class FeatActivity extends AppCompatActivity {
         // Get the Intent that started this activity and extract the string
         Intent intent = getIntent();
         String feat = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+
         featLink = feat;
+        SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
+        bookmarkCollection = settings.getString("bookmarkCollection", "default");
+
         String specificFeat = "";
         String featCategory = "";
         if (feat.contains("/")){
@@ -485,9 +488,31 @@ public class FeatActivity extends AppCompatActivity {
         }
     }
 
-    private void createBookmark() throws JSONException {
+    private void createBookmark(){
         Log.i("Bookmark Collection", bookmarkCollection);
         Log.i("Bookmark Link", featLink);
+        String bookmarkName = new String();
+        if (featLink.contains("/")){
+            bookmarkName = featLink.split("/")[1];
+        } else {
+            bookmarkName = featLink;
+        }
+        Log.i("Bookmark Name", bookmarkName);
+
+        db = DBHandler.getInstance(getApplicationContext());
+
+        List<Collection> collections = db.getAllCollections();
+        long collection_id = 1;
+        for (int i = 0; i < collections.size(); i++){
+            Log.i("Collection", collections.get(i).getCollection());
+            if (collections.get(i).getCollection().equals(bookmarkCollection)){
+                collection_id = collections.get(i).getId();
+                break;
+            }
+        }
+
+        Bookmark bookmark = new Bookmark(bookmarkName, featLink, "feat");
+        long bookmark_id = db.addBookmark(bookmark, new long[]{collection_id});
 
     }
 
@@ -526,11 +551,7 @@ public class FeatActivity extends AppCompatActivity {
                 return true;
 
             case R.id.action_bookmark:
-                try {
-                    createBookmark();
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
+                createBookmark();
                 Toast.makeText(
                         getApplicationContext(),
                         "Bookmark", Toast.LENGTH_SHORT)
@@ -546,6 +567,13 @@ public class FeatActivity extends AppCompatActivity {
                 page = new String("About.xml");
                 intent.putExtra(EXTRA_MESSAGE, page);
                 startActivity(intent);
+                return true;
+
+            case R.id.action_bookmark_collection:
+                Toast.makeText(
+                        getApplicationContext(),
+                        "Collection", Toast.LENGTH_SHORT)
+                        .show();
                 return true;
 
             default:

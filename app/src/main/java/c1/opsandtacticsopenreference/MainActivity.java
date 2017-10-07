@@ -8,6 +8,8 @@ import java.io.InputStream;
 import java.io.IOException;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.content.res.TypedArray;
 import android.graphics.Color;
@@ -21,6 +23,7 @@ import android.preference.PreferenceManager;
 import android.support.v4.graphics.drawable.DrawableCompat;
 import android.util.Log;
 import android.view.View;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MenuItem.OnActionExpandListener;
@@ -31,6 +34,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 import android.widget.EditText;
 import android.support.v4.view.MenuItemCompat;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.SearchView;
 import android.support.v7.app.AppCompatActivity;
@@ -70,19 +74,40 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        db = new DBHandler(getApplicationContext());
+        db = DBHandler.getInstance(getApplicationContext());
 
-        // Nuke the database, this is for testing.
-        db.onUpgrade(db.getWritableDatabase(), 0, 0);
+        /*******************************************
+         *              Danger Zone                *
+         *******************************************/
+        // This is for testing. This line of code will Nuke the bookmark database.
+        // It will destroy all bookmarks and all bookmark collections.
+        // Seriously. This line of code should not be used in production.
+        // db.onUpgrade(db.getWritableDatabase(), 0, 0);
+        /*******************************************
+         *   You are now leaving the Danger Zone   *
+         *******************************************/
 
-        // Creating a collection
-        Collection collection = new Collection("default");
-        long collection_id = db.addCollection(collection);
+        List<Collection> collections = db.getAllCollections();
+        boolean default_exists = false;
+        for (int i = 0; i < collections.size(); i++){
+            if (collections.get(i).getCollection().equals("default")){
+                default_exists = true;
+                // Set default as the chosen category
+                SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
+                SharedPreferences.Editor settings_editor = settings.edit();
+                settings_editor.putString("bookmarkCollection", "default");
+                break;
+            }
+        }
 
-        // Creating a bookmark
-        Bookmark bookmark = new Bookmark("Ability Scores", "Basics/AbilityScores.xml", "xml");
-        long bookmark_id = db.addBookmark(bookmark, new long[]{collection_id});
+        if (!default_exists) {
 
+            // Creating a collection
+            Collection collection = new Collection("default");
+            long collection_id = db.addCollection(collection);
+        }
+
+        db.closeDB();
     }
 
     @Override
@@ -233,6 +258,12 @@ public class MainActivity extends AppCompatActivity {
                     case "list":
                         intent = new Intent(v.getContext(), ListActivity.class);
                         break;
+                    case "add_collection":
+                        addCollectionDialog();
+                        break;
+                    case "remove_collection":
+                        removeCollectionDialog();
+                        break;
                     default:
                 }
                 if (intent != null) {
@@ -246,6 +277,59 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+    }
+
+    public void addCollection(String newCollectionName){
+        Log.i("New Collection", newCollectionName);
+        // Creating a collection
+        if (!newCollectionName.isEmpty()){
+            Collection collection = new Collection(newCollectionName);
+            long collection_id = db.addCollection(collection);
+            onResume();
+        }
+    }
+
+    public void addCollectionDialog(){
+        // get prompts.xml view
+        LayoutInflater li = LayoutInflater.from(this);
+        View promptsView = li.inflate(R.layout.add_collection, null);
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        // set prompts.xml to alert dialog builder
+        alertDialogBuilder.setView(promptsView);
+
+        final EditText userInput = (EditText) promptsView
+                .findViewById(R.id.editTextInput);
+
+        // set dialog message
+        alertDialogBuilder
+                .setCancelable(true)
+                .setPositiveButton("OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog,int id) {
+                                // get user input and add it as a collection
+                                addCollection(userInput.getText().toString());
+                            }
+                        })
+                .setNegativeButton("Cancel",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog,int id) {
+                                dialog.cancel();
+                            }
+                        });
+
+        // create alert dialog
+        AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // show it
+        alertDialog.show();
+    }
+
+    public void removeCollection(int collection_id){
+
+    }
+
+    public void removeCollectionDialog(){
+
     }
 
     @Override
@@ -290,6 +374,13 @@ public class MainActivity extends AppCompatActivity {
                 page = new String("About.xml");
                 intent.putExtra(EXTRA_MESSAGE, page);
                 startActivity(intent);
+                return true;
+
+            case R.id.action_bookmark_collection:
+                Toast.makeText(
+                        getApplicationContext(),
+                        "Collection", Toast.LENGTH_SHORT)
+                        .show();
                 return true;
 
             default:
@@ -361,17 +452,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Populate bookmarks
-
-//        jsonString = loadJSONFromAsset("Bookmarks.json");
-//        JSONArray jsonBookmarks = new JSONArray(jsonString);
-//        List<TextAssetLink> bookmarks = listDataChild.get(listDataHeader.get(0));
-//        for (int i = 0; i < jsonBookmarks.length(); i++){
-//            TextAssetLink bookmark = new TextAssetLink(
-//                    jsonBookmarks.getJSONObject(i).getString("name"),
-//                    "bookmarks/" + jsonBookmarks.getJSONObject(i).getString("name"),
-//                    "list");
-//            bookmarks.add(i, bookmark);
-//        }
         List<Collection> allCollections = db.getAllCollections();
         List<TextAssetLink> bookmarks = listDataChild.get(listDataHeader.get(0));
         int i = 0;

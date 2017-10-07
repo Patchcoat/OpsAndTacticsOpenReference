@@ -15,6 +15,7 @@ import java.util.ArrayList;
 
 public class DBHandler extends SQLiteOpenHelper {
 
+    private static DBHandler sInstance;
     // Database Version
     private static final int DATABASE_VERSION = 1;
     // Database Name
@@ -59,6 +60,16 @@ public class DBHandler extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_BOOK_COLLECT);
         // Creating tables again
         onCreate(db);
+    }
+    public static synchronized DBHandler getInstance(Context context) {
+
+        // Use the application context, which will ensure that you
+        // don't accidentally leak an Activity's context.
+        // See this article for more information: http://bit.ly/6LRzfx
+        if (sInstance == null) {
+            sInstance = new DBHandler(context.getApplicationContext());
+        }
+        return sInstance;
     }
     /*******************************************************************
      * Bookmarks

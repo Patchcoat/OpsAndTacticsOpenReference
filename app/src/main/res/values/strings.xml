@@ -2,24 +2,20 @@
     <string name="app_name">Ops And Tactics Open Reference</string>
     <string name="action_settings">Settings</string>
     <string name="action_search">Search</string>
+    <string name="action_bookmark_collection">Bookmark Collection</string>
     <string name="action_bookmark">Bookmark</string>
     <string name="action_about">About</string>
     <string name="title_activity_settings">Settings</string>
 
     <string name="search_hint">Search Rulebooks</string>
 
+    <!-- Bookmark Strings -->
+    <string name="add_collection_dialog">New Collection Name</string>
+
     <!-- Strings related to Settings -->
 
     <!-- General settings -->
     <string name="pref_header_general">General</string>
-
-    <string name="pref_title_pref_bookmark_collection">Bookmark Collection</string>
-    <string-array name="pref_bookmark_collection">
-        <item>default</item>
-    </string-array>
-    <string-array name="pref_bookmark_collection_values">
-        <item>default</item>
-    </string-array>
 
     <!-- Settings for Notifications -->
     <string name="pref_header_appearance">Appearance</string>

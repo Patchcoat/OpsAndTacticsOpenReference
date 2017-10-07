@@ -6,12 +6,12 @@
       {
         "text": "Add New Collection",
         "link": "",
-        "type": ""
+        "type": "add_collection"
       },
       {
         "text": "Remove Collection",
         "link": "",
-        "type": ""
+        "type": "remove_collection"
       }
     ]
   },
