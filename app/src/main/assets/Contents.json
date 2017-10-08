@@ -98,7 +98,7 @@
     "book": "core_rulebook",
     "children": [
       {
-        "text": "Introduction",
+        "text": "Skills Introduction",
         "link": "",
         "type": ""
       },
@@ -209,7 +209,7 @@
     "book": "core_rulebook",
     "children": [
       {
-        "text": "Introduction",
+        "text": "Feats Introduction",
         "link": "Feats/Introduction.xml",
         "type": "xml"
       },

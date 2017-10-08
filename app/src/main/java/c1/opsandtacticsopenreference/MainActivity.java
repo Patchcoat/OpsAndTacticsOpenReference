@@ -51,6 +51,7 @@ import org.json.JSONArray;
 public class MainActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "c1.opsandtacticsopenrefernece.MESSAGE";
+    public static final String EXTRA_MESSAGE2 = "c1.opsandtacticsopenrefernece.MESSAGE2";
 
     ExpandableListAdapter listAdapter;
     ExpandableListView expListView;
@@ -252,6 +253,7 @@ public class MainActivity extends AppCompatActivity {
                                         int groupPosition, int childPosition, long id) {
                 Intent intent = null;
                 String page = null;
+                String name = null;
                 switch(listDataChild.get(
                         listDataHeader.get(groupPosition)).get(
                         childPosition).AssetType()){
@@ -273,17 +275,22 @@ public class MainActivity extends AppCompatActivity {
                     default:
                 }
                 if (intent != null) {
-                    page = new String(
-                            listDataChild.get(
+                    page = listDataChild.get(
                                     listDataHeader.get(groupPosition)).get(
-                                    childPosition).AssetLink());
+                                    childPosition).AssetLink();
+                    name = listDataChild.get(
+                                    listDataHeader.get(groupPosition)).get(
+                                    childPosition).Text();
                     intent.putExtra(EXTRA_MESSAGE, page);
+                    intent.putExtra(EXTRA_MESSAGE2, name);
                     startActivity(intent);
                 }
                 return false;
             }
         });
     }
+
+    // Bookmark related stuff
 
     public void textDialog(String text){
         // get prompts.xml view
@@ -529,6 +536,8 @@ public class MainActivity extends AppCompatActivity {
         db.closeDB();
     }
 
+    // Menu related
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -572,6 +581,7 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(this, XMLActivity.class);
                 page = new String("About.xml");
                 intent.putExtra(EXTRA_MESSAGE, page);
+                intent.putExtra(EXTRA_MESSAGE2, "About Ops and Tactics");
                 startActivity(intent);
                 return true;
 

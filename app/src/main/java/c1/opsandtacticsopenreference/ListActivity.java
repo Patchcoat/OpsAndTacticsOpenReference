@@ -48,6 +48,8 @@ import java.util.List;
 public class ListActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "c1.opsandtacticsopenrefernece.MESSAGE";
+    public static final String EXTRA_MESSAGE2 = "c1.opsandtacticsopenrefernece.MESSAGE2";
+
     LinearLayout linearLayout = null;
     String bodyFont;
     String secondaryFont;
@@ -269,7 +271,9 @@ public class ListActivity extends AppCompatActivity {
                 }
                 if (intent != null) {
                     String page = new String(finalItems.get(position).AssetLink());
+                    String name = new String(finalItems.get(position).Text());
                     intent.putExtra(EXTRA_MESSAGE, page);
+                    intent.putExtra(EXTRA_MESSAGE2, name);
                     startActivity(intent);
                 }
             }
@@ -411,7 +415,6 @@ public class ListActivity extends AppCompatActivity {
             }
         }
         Drawable upArrow;
-        // TODO make it so that if the page is bookmarked in the current collection the icon changes
 
         // set back arrow tint
         upArrow = VectorDrawableCompat.create(getResources(), R.drawable.ic_arrow_back_black_24dp, null);
@@ -439,6 +442,7 @@ public class ListActivity extends AppCompatActivity {
                 intent = new Intent(this, XMLActivity.class);
                 page = new String("About.xml");
                 intent.putExtra(EXTRA_MESSAGE, page);
+                intent.putExtra(EXTRA_MESSAGE2, "About Ops and Tactics");
                 startActivity(intent);
                 return true;
 

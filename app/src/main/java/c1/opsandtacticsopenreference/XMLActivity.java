@@ -53,6 +53,7 @@ import java.util.regex.Matcher;
 public class XMLActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "c1.opsandtacticsopenrefernece.MESSAGE";
+    public static final String EXTRA_MESSAGE2 = "c1.opsandtacticsopenrefernece.MESSAGE2";
     LinearLayout linearLayout = null;
     String bodyFont;
     String secondaryFont;
@@ -69,6 +70,7 @@ public class XMLActivity extends AppCompatActivity {
     // Bookmarks
     String bookmarkCollection;
     String pageLink;
+    String pageName;
     DBHandler db;
 
     @Override
@@ -165,8 +167,10 @@ public class XMLActivity extends AppCompatActivity {
         // Get the Intent that started this activity and extract the string
         Intent intent = getIntent();
         String page = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        String name = intent.getStringExtra(MainActivity.EXTRA_MESSAGE2);
 
         pageLink = page;
+        pageName = name;
         SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
         bookmarkCollection = settings.getString("bookmarkCollection", "default");
 
@@ -755,15 +759,7 @@ public class XMLActivity extends AppCompatActivity {
     public void createBookmark(){
         Log.i("Bookmark Collection", bookmarkCollection);
         Log.i("Bookmark Link", pageLink);
-        String bookmarkName = new String();
-        Pattern pattern = Pattern.compile("([^\\/]*?)(?=\\.)");
-        Matcher matcher = pattern.matcher(pageLink);
-        if (matcher.find())
-        {
-            bookmarkName = matcher.group(1);
-        }
-        Log.i("Bookmark Name", bookmarkName);
-        // TODO fix the displaying of the Bookmark name
+        Log.i("Bookmark Name", pageName);
 
         db = DBHandler.getInstance(getApplicationContext());
 
@@ -777,7 +773,7 @@ public class XMLActivity extends AppCompatActivity {
             }
         }
 
-        Bookmark bookmark = new Bookmark(bookmarkName, pageLink, "xml");
+        Bookmark bookmark = new Bookmark(pageName, pageLink, "xml");
         long bookmark_id = db.addBookmark(bookmark, new long[]{collection_id});
     }
 
@@ -899,6 +895,7 @@ public class XMLActivity extends AppCompatActivity {
                 intent = new Intent(this, XMLActivity.class);
                 page = new String("About.xml");
                 intent.putExtra(EXTRA_MESSAGE, page);
+                intent.putExtra(EXTRA_MESSAGE2, "About Ops and Tactics");
                 startActivity(intent);
                 return true;
 

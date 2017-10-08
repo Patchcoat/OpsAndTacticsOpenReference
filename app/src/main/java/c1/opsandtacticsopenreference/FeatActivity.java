@@ -40,6 +40,8 @@ import java.util.ArrayList;
 public class FeatActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "c1.opsandtacticsopenrefernece.MESSAGE";
+    public static final String EXTRA_MESSAGE2 = "c1.opsandtacticsopenrefernece.MESSAGE2";
+
     LinearLayout linearLayout = null;
     String bodyFont;
     String secondaryFont;
@@ -642,6 +644,7 @@ public class FeatActivity extends AppCompatActivity {
                 intent = new Intent(this, XMLActivity.class);
                 page = new String("About.xml");
                 intent.putExtra(EXTRA_MESSAGE, page);
+                intent.putExtra(EXTRA_MESSAGE2, "About Ops and Tactics");
                 startActivity(intent);
                 return true;
 
