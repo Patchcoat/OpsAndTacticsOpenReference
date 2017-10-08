@@ -33,6 +33,7 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import org.json.JSONArray;
@@ -208,11 +209,17 @@ public class ListActivity extends AppCompatActivity {
         JSONArray listItems = new JSONArray();
         // List of items
         List<TextAssetLink> items = new ArrayList<TextAssetLink>();
+        List<Bookmark> bookmarks = new ArrayList<Bookmark>();
         // check if reading from a file or bookmarks
         if (page.split("/")[0].equals("bookmarks")) {
             db = DBHandler.getInstance(getApplicationContext());
             items = db.getAllBookByCollectTAL(page.split("/")[1]);
+            bookmarks = db.getAllBookmarksByCollection(page.split("/")[1]);
             bookmark = true;
+            for (int i = 0; i < items.size(); i++){
+                Log.i("Item:",items.get(i).Text());
+            }
+            db.closeDB();
         } else {
             jsonString = loadJSONFromAsset(page);
             listItems = new JSONArray(jsonString);
@@ -267,37 +274,61 @@ public class ListActivity extends AppCompatActivity {
                 }
             }
         });
-        itemList.setOnItemLongClickListener(new OnItemLongClickListener() {
-            @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view,
-                                           int position, long id) {
-                switch(finalItems.get(position).AssetType()){
-                    case "xml":
-                        Toast.makeText(
-                                getApplicationContext(),
-                                "Long Click XML", Toast.LENGTH_SHORT)
-                                .show();
-                        break;
-                    case "feat":
-                        Toast.makeText(
-                                getApplicationContext(),
-                                "Long Click feat", Toast.LENGTH_SHORT)
-                                .show();
-                        break;
-                    default:
+        final String category = page.split("/")[1];
+        final List<Bookmark> finalBookmarks = bookmarks;
+        if (bookmark) {
+            itemList.setOnItemLongClickListener(new OnItemLongClickListener() {
+                @Override
+                public boolean onItemLongClick(AdapterView<?> parent, View view,
+                                               int position, long id) {
+                    deleteBookmarkDialog(finalBookmarks.get(position).getId());
+                    return true;
                 }
-                return true;
-            }
-        });
+            });
+        }
         linearLayout.addView(itemList);
     }
 
-    public void deleteBookmark(int collection_id){
-
+    public void deleteBookmark(int bookmark_id){
+        db = DBHandler.getInstance(getApplicationContext());
+        db.deleteBookmark((long) bookmark_id);
+        db.deleteBookCollect((long) bookmark_id);
+        db.closeDB();
+        onResume();
     }
 
-    public void deleteBookmarkDialog(){
+    public void deleteBookmarkDialog(final int bookmark_id){
+        // get prompts.xml view
+        LayoutInflater li = LayoutInflater.from(this);
+        View promptsView = li.inflate(R.layout.delete_bookmark, null);
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        // set prompts.xml to alert dialog builder
+        alertDialogBuilder.setView(promptsView);
 
+        final TextView textView = (TextView) promptsView
+                .findViewById(R.id.textView);
+
+        // set dialog message
+        alertDialogBuilder
+                .setCancelable(false)
+                .setPositiveButton("Delete",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog,int id) {
+                                deleteBookmark(bookmark_id);
+                            }
+                        })
+                .setNegativeButton("Cancel",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog,int id) {
+                                dialog.cancel();
+                            }
+                        });
+
+        // create alert dialog
+        AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // show it
+        alertDialog.show();
     }
 
     public void selectCollection(int collection_id){
