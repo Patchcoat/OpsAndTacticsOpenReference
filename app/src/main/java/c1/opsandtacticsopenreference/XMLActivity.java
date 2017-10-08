@@ -72,6 +72,7 @@ public class XMLActivity extends AppCompatActivity {
     String pageLink;
     String pageName;
     DBHandler db;
+    MenuItem bookmarkMenuItem;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -756,6 +757,7 @@ public class XMLActivity extends AppCompatActivity {
         }
     }
 
+    // Bookmark Stuff
     public void createBookmark(){
         Log.i("Bookmark Collection", bookmarkCollection);
         Log.i("Bookmark Link", pageLink);
@@ -763,10 +765,27 @@ public class XMLActivity extends AppCompatActivity {
 
         db = DBHandler.getInstance(getApplicationContext());
 
+        List<Bookmark> bookmarks = db.getAllBookmarksByCollection(bookmarkCollection);
+        int bookmarkToDelete = -1;
+        for (int i = 0; i < bookmarks.size(); i++){
+            if (bookmarks.get(i).getLink().equals(pageLink)){
+                Log.i("Similarity Found!", bookmarks.get(i).getLink());
+                bookmarkToDelete = bookmarks.get(i).getId();
+                break;
+            }
+        }
+
+        // if a match is found, toggle the bookmark instead of creating another one.
+        if (bookmarkToDelete >= 0){
+            deleteBookmark(bookmarkToDelete);
+            db.closeDB();
+            return;
+        }
+
         List<Collection> collections = db.getAllCollections();
         long collection_id = 1;
+        // get the ID of the current collection
         for (int i = 0; i < collections.size(); i++){
-            Log.i("Collection", collections.get(i).getCollection());
             if (collections.get(i).getCollection().equals(bookmarkCollection)){
                 collection_id = collections.get(i).getId();
                 break;
@@ -775,6 +794,8 @@ public class XMLActivity extends AppCompatActivity {
 
         Bookmark bookmark = new Bookmark(pageName, pageLink, "xml");
         long bookmark_id = db.addBookmark(bookmark, new long[]{collection_id});
+        changeBookmarkIcon();
+        db.closeDB();
     }
 
     public void selectCollection(int collection_id){
@@ -786,6 +807,7 @@ public class XMLActivity extends AppCompatActivity {
         settings_editor.apply();
         bookmarkCollection = collection;
         db.closeDB();
+        changeBookmarkIcon();
     }
 
     public void selectCollectionDialog(){
@@ -844,6 +866,39 @@ public class XMLActivity extends AppCompatActivity {
         db.closeDB();
     }
 
+    public void deleteBookmark(int bookmark_id){
+        db = DBHandler.getInstance(getApplicationContext());
+        db.deleteBookmark((long) bookmark_id);
+        db.deleteBookCollect((long) bookmark_id);
+        db.closeDB();
+        changeBookmarkIcon();
+        db.closeDB();
+        onResume();
+    }
+
+    public void changeBookmarkIcon(){
+        List<Bookmark> bookmarks = db.getAllBookmarksByCollection(bookmarkCollection);
+        boolean bookmarked = false;
+        for (int i = 0; i < bookmarks.size(); i++){
+            if (bookmarks.get(i).getLink().equals(pageLink)){
+                bookmarked = true;
+                break;
+            }
+        }
+        Drawable bookmarkedIcon = VectorDrawableCompat.create(
+                getResources(), R.drawable.ic_bookmark_black_24dp, null);
+        Drawable unbookmarkedIcon  = VectorDrawableCompat.create(
+                getResources(), R.drawable.ic_bookmark_border_black_24dp, null);
+        bookmarkedIcon.setColorFilter(textColor, PorterDuff.Mode.SRC_ATOP);
+        unbookmarkedIcon.setColorFilter(textColor, PorterDuff.Mode.SRC_ATOP);
+        if (bookmarked){
+            bookmarkMenuItem.setIcon(bookmarkedIcon);
+        } else {
+            bookmarkMenuItem.setIcon(unbookmarkedIcon);
+        }
+        db.closeDB();
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -858,8 +913,11 @@ public class XMLActivity extends AppCompatActivity {
                 drawable.setColorFilter(textColor, PorterDuff.Mode.SRC_ATOP);
             }
         }
+        bookmarkMenuItem = menu.findItem(R.id.action_bookmark);
+
+        changeBookmarkIcon();
+
         Drawable upArrow;
-        // TODO make it so that if the page is bookmarked in the current collection the icon changes
 
         // set back arrow tint
         upArrow = VectorDrawableCompat.create(getResources(), R.drawable.ic_arrow_back_black_24dp, null);
@@ -881,10 +939,6 @@ public class XMLActivity extends AppCompatActivity {
 
             case R.id.action_bookmark:
                 createBookmark();
-                Toast.makeText(
-                        getApplicationContext(),
-                        "Bookmark", Toast.LENGTH_SHORT)
-                        .show();
                 return true;
 
             case R.id.action_search:

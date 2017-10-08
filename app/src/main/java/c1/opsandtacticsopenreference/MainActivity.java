@@ -98,20 +98,19 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < collections.size(); i++){
             if (collections.get(i).getCollection().equals("default")){
                 default_exists = true;
-                // Set default as the chosen category
-                SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
-                SharedPreferences.Editor settings_editor = settings.edit();
-                settings_editor.putString("bookmarkCollection", "default");
-                settings_editor.apply();
                 break;
             }
         }
 
         if (!default_exists) {
-
             // Creating a collection
             Collection collection = new Collection("default");
             long collection_id = db.addCollection(collection);
+            // Set default as the chosen category
+            SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
+            SharedPreferences.Editor settings_editor = settings.edit();
+            settings_editor.putString("bookmarkCollection", "default");
+            settings_editor.apply();
         }
 
         db.closeDB();
@@ -399,6 +398,20 @@ public class MainActivity extends AppCompatActivity {
 
     public void removeCollection(int collection_id){
         db = DBHandler.getInstance(getApplicationContext());
+        // Delete bookmarks in collection
+        List<Bookmark> bookmarks =
+                db.getAllBookmarksByCollection(db.getCollection(collection_id).getCollection());
+        for (int i = 0; i < bookmarks.size(); i++){
+            db.deleteBookmark((long) bookmarks.get(i).getId());
+            db.deleteBookCollect((long) bookmarks.get(i).getId());
+        }
+        SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
+        String currentCattegory = settings.getString("bookmarkCollection", "default");
+        if (currentCattegory.equals(db.getCollection(collection_id).getCollection())){
+            SharedPreferences.Editor settings_editor = settings.edit();
+            settings_editor.putString("bookmarkCollection", "default");
+            settings_editor.apply();
+        }
         // Delete collection at specific ID
         db.deleteCollectionID(collection_id, true);
         db.closeDB();

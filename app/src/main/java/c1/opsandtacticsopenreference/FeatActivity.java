@@ -499,6 +499,7 @@ public class FeatActivity extends AppCompatActivity {
         }
     }
 
+    // Bookmark Stuff
     private void createBookmark(){
         Log.i("Bookmark Collection", bookmarkCollection);
         Log.i("Bookmark Link", featLink);
@@ -609,6 +610,7 @@ public class FeatActivity extends AppCompatActivity {
             }
         }
         Drawable upArrow;
+        // TODO make it so that if the page is bookmarked in the current collection the icon changes
 
         // set back arrow tint
         upArrow = VectorDrawableCompat.create(getResources(), R.drawable.ic_arrow_back_black_24dp, null);
@@ -630,10 +632,6 @@ public class FeatActivity extends AppCompatActivity {
 
             case R.id.action_bookmark:
                 createBookmark();
-                Toast.makeText(
-                        getApplicationContext(),
-                        "Bookmark", Toast.LENGTH_SHORT)
-                        .show();
                 return true;
 
             case R.id.action_search:

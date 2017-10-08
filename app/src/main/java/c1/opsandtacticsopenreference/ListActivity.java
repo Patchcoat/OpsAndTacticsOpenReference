@@ -218,9 +218,6 @@ public class ListActivity extends AppCompatActivity {
             items = db.getAllBookByCollectTAL(page.split("/")[1]);
             bookmarks = db.getAllBookmarksByCollection(page.split("/")[1]);
             bookmark = true;
-            for (int i = 0; i < items.size(); i++){
-                Log.i("Item:",items.get(i).Text());
-            }
             db.closeDB();
         } else {
             jsonString = loadJSONFromAsset(page);
