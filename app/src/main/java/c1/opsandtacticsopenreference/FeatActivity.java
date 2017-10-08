@@ -58,6 +58,7 @@ public class FeatActivity extends AppCompatActivity {
     String bookmarkCollection;
     String featLink;
     DBHandler db;
+    MenuItem bookmarkMenuItem;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -513,6 +514,23 @@ public class FeatActivity extends AppCompatActivity {
 
         db = DBHandler.getInstance(getApplicationContext());
 
+        List<Bookmark> bookmarks = db.getAllBookmarksByCollection(bookmarkCollection);
+        int bookmarkToDelete = -1;
+        for (int i = 0; i < bookmarks.size(); i++){
+            if (bookmarks.get(i).getLink().equals(featLink)){
+                Log.i("Similarity Found!", bookmarks.get(i).getLink());
+                bookmarkToDelete = bookmarks.get(i).getId();
+                break;
+            }
+        }
+
+        // if a match is found, toggle the bookmark instead of creating another one.
+        if (bookmarkToDelete >= 0){
+            deleteBookmark(bookmarkToDelete);
+            db.closeDB();
+            return;
+        }
+
         List<Collection> collections = db.getAllCollections();
         long collection_id = 1;
         for (int i = 0; i < collections.size(); i++){
@@ -525,7 +543,8 @@ public class FeatActivity extends AppCompatActivity {
 
         Bookmark bookmark = new Bookmark(bookmarkName, featLink, "feat");
         long bookmark_id = db.addBookmark(bookmark, new long[]{collection_id});
-
+        changeBookmarkIcon();
+        db.closeDB();
     }
 
     public void selectCollection(int collection_id){
@@ -537,6 +556,7 @@ public class FeatActivity extends AppCompatActivity {
         settings_editor.apply();
         bookmarkCollection = collection;
         db.closeDB();
+        changeBookmarkIcon();
     }
 
     public void selectCollectionDialog(){
@@ -595,6 +615,39 @@ public class FeatActivity extends AppCompatActivity {
         db.closeDB();
     }
 
+    public void deleteBookmark(int bookmark_id){
+        db = DBHandler.getInstance(getApplicationContext());
+        db.deleteBookmark((long) bookmark_id);
+        db.deleteBookCollect((long) bookmark_id);
+        db.closeDB();
+        changeBookmarkIcon();
+        db.closeDB();
+        onResume();
+    }
+
+    public void changeBookmarkIcon(){
+        List<Bookmark> bookmarks = db.getAllBookmarksByCollection(bookmarkCollection);
+        boolean bookmarked = false;
+        for (int i = 0; i < bookmarks.size(); i++){
+            if (bookmarks.get(i).getLink().equals(featLink)){
+                bookmarked = true;
+                break;
+            }
+        }
+        Drawable bookmarkedIcon = VectorDrawableCompat.create(
+                getResources(), R.drawable.ic_bookmark_black_24dp, null);
+        Drawable unbookmarkedIcon  = VectorDrawableCompat.create(
+                getResources(), R.drawable.ic_bookmark_border_black_24dp, null);
+        bookmarkedIcon.setColorFilter(textColor, PorterDuff.Mode.SRC_ATOP);
+        unbookmarkedIcon.setColorFilter(textColor, PorterDuff.Mode.SRC_ATOP);
+        if (bookmarked){
+            bookmarkMenuItem.setIcon(bookmarkedIcon);
+        } else {
+            bookmarkMenuItem.setIcon(unbookmarkedIcon);
+        }
+        db.closeDB();
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -609,6 +662,10 @@ public class FeatActivity extends AppCompatActivity {
                 drawable.setColorFilter(textColor, PorterDuff.Mode.SRC_ATOP);
             }
         }
+        bookmarkMenuItem = menu.findItem(R.id.action_bookmark);
+
+        changeBookmarkIcon();
+
         Drawable upArrow;
         // TODO make it so that if the page is bookmarked in the current collection the icon changes
 

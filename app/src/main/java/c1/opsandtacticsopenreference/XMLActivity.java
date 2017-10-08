@@ -759,17 +759,12 @@ public class XMLActivity extends AppCompatActivity {
 
     // Bookmark Stuff
     public void createBookmark(){
-        Log.i("Bookmark Collection", bookmarkCollection);
-        Log.i("Bookmark Link", pageLink);
-        Log.i("Bookmark Name", pageName);
-
         db = DBHandler.getInstance(getApplicationContext());
 
         List<Bookmark> bookmarks = db.getAllBookmarksByCollection(bookmarkCollection);
         int bookmarkToDelete = -1;
         for (int i = 0; i < bookmarks.size(); i++){
             if (bookmarks.get(i).getLink().equals(pageLink)){
-                Log.i("Similarity Found!", bookmarks.get(i).getLink());
                 bookmarkToDelete = bookmarks.get(i).getId();
                 break;
             }
