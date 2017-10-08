@@ -667,8 +667,7 @@ public class FeatActivity extends AppCompatActivity {
         changeBookmarkIcon();
 
         Drawable upArrow;
-        // TODO make it so that if the page is bookmarked in the current collection the icon changes
-
+        
         // set back arrow tint
         upArrow = VectorDrawableCompat.create(getResources(), R.drawable.ic_arrow_back_black_24dp, null);
         upArrow.setColorFilter(textColor, PorterDuff.Mode.SRC_ATOP);
