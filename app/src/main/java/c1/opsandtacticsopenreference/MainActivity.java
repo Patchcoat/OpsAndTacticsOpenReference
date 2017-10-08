@@ -101,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
                 SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
                 SharedPreferences.Editor settings_editor = settings.edit();
                 settings_editor.putString("bookmarkCollection", "default");
+                settings_editor.apply();
                 break;
             }
         }
@@ -317,6 +318,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addCollection(String newCollectionName){
+        db = DBHandler.getInstance(getApplicationContext());
         // Creating a collection
         // Remove any spaces that come before or after the input
         Pattern pattern = Pattern.compile("^\\s*(.*?)\\s*$");
@@ -389,8 +391,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void removeCollection(int collection_id){
+        db = DBHandler.getInstance(getApplicationContext());
         // Delete collection at specific ID
-        db.deleteCollectionID(collection_id+1, true);
+        db.deleteCollectionID(collection_id, true);
         db.closeDB();
         onResume();
     }
@@ -408,10 +411,15 @@ public class MainActivity extends AppCompatActivity {
                 .findViewById(R.id.radioGroup);
         List<Collection> collections = db.getAllCollections();
         RadioButton[] radioButtons = new RadioButton[collections.size()];
-        for (int i = 1; i < collections.size(); i++) {
+        for (int i = 0; i < collections.size(); i++) {
             radioButtons[i] = new RadioButton(this);
-            radioGroup.addView(radioButtons[i]);
             radioButtons[i].setText(collections.get(i).getCollection());
+            radioButtons[i].setId(i);
+            if (i>0) {
+                radioGroup.addView(radioButtons[i]);
+            }
+            Log.i("Collection Id",
+                    radioButtons[i].getText() + String.valueOf(radioButtons[i].getId()));
         }
 
         // set dialog message
@@ -421,7 +429,7 @@ public class MainActivity extends AppCompatActivity {
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog,int id) {
                                 // get user input and add it as a collection
-                                int radio_id = radioGroup.getCheckedRadioButtonId();
+                                int radio_id = radioGroup.getCheckedRadioButtonId()+1;
                                 if (radio_id >= 0) {
                                     removeCollection(radio_id);
                                 }
@@ -451,6 +459,72 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
+
+        db.closeDB();
+    }
+
+    public void selectCollection(int collection_id){
+        db = DBHandler.getInstance(getApplicationContext());
+        String collection = db.getCollection(collection_id).getCollection();
+        SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
+        SharedPreferences.Editor settings_editor = settings.edit();
+        settings_editor.putString("bookmarkCollection", collection);
+        settings_editor.apply();
+        db.closeDB();
+    }
+
+    public void selectCollectionDialog(){
+        // Settings
+        SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
+        // get prompts.xml view
+        LayoutInflater li = LayoutInflater.from(this);
+        View promptsView = li.inflate(R.layout.select_collection, null);
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        // set prompts.xml to alert dialog builder
+        alertDialogBuilder.setView(promptsView);
+        // Populate dialog with
+        final RadioGroup radioGroup = (RadioGroup) promptsView
+                .findViewById(R.id.radioGroup);
+        List<Collection> collections = db.getAllCollections();
+        RadioButton[] radioButtons = new RadioButton[collections.size()];
+        for (int i = 0; i < collections.size(); i++) {
+            radioButtons[i] = new RadioButton(this);
+            radioGroup.addView(radioButtons[i]);
+            radioButtons[i].setText(collections.get(i).getCollection());
+            radioButtons[i].setId(i);
+            // set the radio button for the enabled collection true
+            radioButtons[i].setChecked(false);
+            if (collections.get(i).getCollection().equals(
+                    settings.getString("bookmarkCollection", "default"))){
+                radioButtons[i].setChecked(true);
+            }
+        }
+
+        // set dialog message
+        alertDialogBuilder
+                .setCancelable(true)
+                .setPositiveButton("OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog,int id) {
+                                // get user input and add it as a collection
+                                int radio_id = radioGroup.getCheckedRadioButtonId()+1;
+                                if (radio_id >= 0) {
+                                    selectCollection(radio_id);
+                                }
+                            }
+                        })
+                .setNegativeButton("Cancel",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog,int id) {
+                                dialog.cancel();
+                            }
+                        });
+
+        // create alert dialog
+        final AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // show it
+        alertDialog.show();
 
         db.closeDB();
     }
@@ -486,10 +560,12 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.action_search:
                 onSearchRequested();
-//                Toast.makeText(
-//                        getApplicationContext(),
-//                        "Search", Toast.LENGTH_SHORT)
-//                        .show();
+/*
+                Toast.makeText(
+                        getApplicationContext(),
+                        "Search", Toast.LENGTH_SHORT)
+                        .show();
+*/
                 return true;
 
             case R.id.action_about:
@@ -500,10 +576,7 @@ public class MainActivity extends AppCompatActivity {
                 return true;
 
             case R.id.action_bookmark_collection:
-                Toast.makeText(
-                        getApplicationContext(),
-                        "Collection", Toast.LENGTH_SHORT)
-                        .show();
+                selectCollectionDialog();
                 return true;
 
             default:

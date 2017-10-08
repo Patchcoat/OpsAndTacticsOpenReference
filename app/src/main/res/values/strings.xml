@@ -12,6 +12,8 @@
     <!-- Bookmark Strings -->
     <string name="add_collection_dialog">New Collection Name</string>
     <string name="remove_collection_dialog">Collection to Remove</string>
+    <string name="select_collection_dialog">Current Bookmark Collection</string>
+    <string name="delete_bookmark_dialog">Delete Bookmark?</string>
 
     <!-- Strings related to Settings -->
 

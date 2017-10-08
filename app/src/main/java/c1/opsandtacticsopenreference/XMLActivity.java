@@ -1,8 +1,10 @@
 package c1.opsandtacticsopenreference;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.TypedArray;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Build;
@@ -12,12 +14,16 @@ import android.support.graphics.drawable.VectorDrawableCompat;
 import android.text.style.ForegroundColorSpan;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -69,6 +75,10 @@ public class XMLActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_xml);
+
+        // Bookmarks
+        db = DBHandler.getInstance(getApplicationContext());
+        db.closeDB();
     }
 
     @Override
@@ -157,7 +167,6 @@ public class XMLActivity extends AppCompatActivity {
         String page = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
         pageLink = page;
-        bookmarkCollection = "default";
         SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
         bookmarkCollection = settings.getString("bookmarkCollection", "default");
 
@@ -754,7 +763,7 @@ public class XMLActivity extends AppCompatActivity {
             bookmarkName = matcher.group(1);
         }
         Log.i("Bookmark Name", bookmarkName);
-
+        // TODO fix the displaying of the Bookmark name
 
         db = DBHandler.getInstance(getApplicationContext());
 
@@ -770,6 +779,73 @@ public class XMLActivity extends AppCompatActivity {
 
         Bookmark bookmark = new Bookmark(bookmarkName, pageLink, "xml");
         long bookmark_id = db.addBookmark(bookmark, new long[]{collection_id});
+    }
+
+    public void selectCollection(int collection_id){
+        db = DBHandler.getInstance(getApplicationContext());
+        String collection = db.getCollection(collection_id).getCollection();
+        SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
+        SharedPreferences.Editor settings_editor = settings.edit();
+        settings_editor.putString("bookmarkCollection", collection);
+        settings_editor.apply();
+        bookmarkCollection = collection;
+        db.closeDB();
+    }
+
+    public void selectCollectionDialog(){
+        // Settings
+        SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
+        // get prompts.xml view
+        LayoutInflater li = LayoutInflater.from(this);
+        View promptsView = li.inflate(R.layout.select_collection, null);
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        // set prompts.xml to alert dialog builder
+        alertDialogBuilder.setView(promptsView);
+        // Populate dialog with
+        final RadioGroup radioGroup = (RadioGroup) promptsView
+                .findViewById(R.id.radioGroup);
+        List<Collection> collections = db.getAllCollections();
+        RadioButton[] radioButtons = new RadioButton[collections.size()];
+        for (int i = 0; i < collections.size(); i++) {
+            radioButtons[i] = new RadioButton(this);
+            radioGroup.addView(radioButtons[i]);
+            radioButtons[i].setText(collections.get(i).getCollection());
+            radioButtons[i].setId(i);
+            // set the radio button for the enabled collection true
+            radioButtons[i].setChecked(false);
+            if (collections.get(i).getCollection().equals(
+                    settings.getString("bookmarkCollection", "default"))){
+                radioButtons[i].setChecked(true);
+            }
+        }
+
+        // set dialog message
+        alertDialogBuilder
+                .setCancelable(true)
+                .setPositiveButton("OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog,int id) {
+                                // get user input and add it as a collection
+                                int radio_id = radioGroup.getCheckedRadioButtonId()+1;
+                                if (radio_id >= 0) {
+                                    selectCollection(radio_id);
+                                }
+                            }
+                        })
+                .setNegativeButton("Cancel",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog,int id) {
+                                dialog.cancel();
+                            }
+                        });
+
+        // create alert dialog
+        final AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // show it
+        alertDialog.show();
+
+        db.closeDB();
     }
 
     @Override
@@ -827,10 +903,7 @@ public class XMLActivity extends AppCompatActivity {
                 return true;
 
             case R.id.action_bookmark_collection:
-                Toast.makeText(
-                        getApplicationContext(),
-                        "Collection", Toast.LENGTH_SHORT)
-                        .show();
+                selectCollectionDialog();
                 return true;
 
             default:

@@ -1,5 +1,6 @@
 package c1.opsandtacticsopenreference;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.TypedArray;
@@ -10,17 +11,21 @@ import android.graphics.drawable.Drawable;
 import android.preference.PreferenceManager;
 import android.support.graphics.drawable.VectorDrawableCompat;
 import android.support.v4.graphics.drawable.DrawableCompat;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -56,6 +61,10 @@ public class FeatActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feat);
+
+        // Bookmarks
+        db = DBHandler.getInstance(getApplicationContext());
+        db.closeDB();
     }
 
     @Override
@@ -516,6 +525,73 @@ public class FeatActivity extends AppCompatActivity {
 
     }
 
+    public void selectCollection(int collection_id){
+        db = DBHandler.getInstance(getApplicationContext());
+        String collection = db.getCollection(collection_id).getCollection();
+        SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
+        SharedPreferences.Editor settings_editor = settings.edit();
+        settings_editor.putString("bookmarkCollection", collection);
+        settings_editor.apply();
+        bookmarkCollection = collection;
+        db.closeDB();
+    }
+
+    public void selectCollectionDialog(){
+        // Settings
+        SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
+        // get prompts.xml view
+        LayoutInflater li = LayoutInflater.from(this);
+        View promptsView = li.inflate(R.layout.select_collection, null);
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        // set prompts.xml to alert dialog builder
+        alertDialogBuilder.setView(promptsView);
+        // Populate dialog with
+        final RadioGroup radioGroup = (RadioGroup) promptsView
+                .findViewById(R.id.radioGroup);
+        List<Collection> collections = db.getAllCollections();
+        RadioButton[] radioButtons = new RadioButton[collections.size()];
+        for (int i = 0; i < collections.size(); i++) {
+            radioButtons[i] = new RadioButton(this);
+            radioGroup.addView(radioButtons[i]);
+            radioButtons[i].setText(collections.get(i).getCollection());
+            radioButtons[i].setId(i);
+            // set the radio button for the enabled collection true
+            radioButtons[i].setChecked(false);
+            if (collections.get(i).getCollection().equals(
+                    settings.getString("bookmarkCollection", "default"))){
+                radioButtons[i].setChecked(true);
+            }
+        }
+
+        // set dialog message
+        alertDialogBuilder
+                .setCancelable(true)
+                .setPositiveButton("OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog,int id) {
+                                // get user input and add it as a collection
+                                int radio_id = radioGroup.getCheckedRadioButtonId()+1;
+                                if (radio_id >= 0) {
+                                    selectCollection(radio_id);
+                                }
+                            }
+                        })
+                .setNegativeButton("Cancel",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog,int id) {
+                                dialog.cancel();
+                            }
+                        });
+
+        // create alert dialog
+        final AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // show it
+        alertDialog.show();
+
+        db.closeDB();
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -570,10 +646,7 @@ public class FeatActivity extends AppCompatActivity {
                 return true;
 
             case R.id.action_bookmark_collection:
-                Toast.makeText(
-                        getApplicationContext(),
-                        "Collection", Toast.LENGTH_SHORT)
-                        .show();
+                selectCollectionDialog();
                 return true;
 
             default:
