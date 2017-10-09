@@ -5,7 +5,7 @@ Ops and Tactics Open Reference is an android smartphone application that acts as
 
 ## Motivation
 
-This projects exists to make referencing the content within Ops and Tactics on a smartphone easier. I have tried to make it flexable enough that one can modify/delete the JSON and XML files and add one's own JSON and XML files to suit one's own needs should one chose to modify the app for to one's own system.
+This projects exists to make referencing the content within Ops and Tactics on a smartphone easier. I have tried to make it flexable enough that one can modify/delete the JSON and XML files and add new JSON and XML files to suit the needs of different systems.
 
 ##  Contributors
 
