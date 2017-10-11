@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header>Unemployed</header>
+        <text>   This occupation is a placeholder for when someone is between jobs, those not old enough to have a job, or those that do not have a fully steady job. People working with temp services, vagabonds and panhandlers, children, and those that scrape by doing odd jobs all fall into this category.</text>
+        <text><b>Starting Requirements</b> None</text>
+        <text><b>Job Change Requirements</b> None</text>
+        <text><b>Skills (1)</b> Any</text>
+        <text><b>Occupational Feats (1)</b> Any</text>
+        <text><b>Starting Wealth Points</b> 2d4 (Average 5)</text>
+        <text><b>Biweekly Wealth Points</b> 1d4 (Average 3)</text>
+    </item>
+</body>

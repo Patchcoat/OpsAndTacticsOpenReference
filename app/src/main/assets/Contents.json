@@ -83,18 +83,18 @@
     "children": [
       {
         "text": "Starting Occupation",
-        "link": "",
-        "type": ""
+        "link": "Occupations/StartingOccupations.xml",
+        "type": "xml"
       },
       {
         "text": "Changing Occupations",
-        "link": "",
-        "type": ""
+        "link": "Occupations/ChangingOccupations.xml",
+        "type": "xml"
       },
       {
         "text": "Occupations",
-        "link": "",
-        "type": ""
+        "link": "Occupations/OccupationList/index.json",
+        "type": "list"
       }
     ]
   },

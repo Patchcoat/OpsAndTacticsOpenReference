@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header>Investigative</header>
+        <text>   There are a number of jobs that fit within this occupation, including investigative reporters, photojournalists, private investigators, police detectives, criminologists, federal agents, criminal profilers, espionage agents, and any others who use their skills to gather information and analyze clues.</text>
+        <text><b>Starting Requirements</b> Age 23+</text>
+        <text><b>Job Change Requirements</b> A Craft (Visual Art or Writing) or a Knowledge (Streetwise) Skill Modifier of +15 or greater and a Perception Skill Modifier of +15 or greater.</text>
+        <text><b>Skills (2)</b> Craft (Visual art or writing), Knowledge (Streetwise), Perception, Presence, Speechcraft or Technology Use</text>
+        <text><b>Occupational Feats (1)</b> Alert, Confident, or Light Armor Proficiency</text>
+        <text><b>Starting Wealth Points</b> (2d4+2)×10 (Average 60)</text>
+        <text><b>Biweekly Wealth Points</b> (1d4+2)×10 (Average 30)</text>
+        <box>
+            <header>Equipment Notes</header>
+            <text>Federal agents and police detectives are issued the badge of their respective departments, a backup or full sized semi-automatic handgun in either 9x19mm, .38 Special, .357 Magnum, .40 S&amp;W, or .45 ACP that costs 25 WP or less, a pair of steel handcuffs, and a tactical holster. They may take the WP given to them, and add their own money, and purchase a more expensive firearm, as long as it meets the caliber requirements. The WP allocated for the issued firearm is for the firearm and extra magazines or speedloaders only, and does not cover any upgrades. JHP ammunition is provided for this firearm by the department. Federal agents or police detectives will only be issued a handgun if they have the Personal Firearms Proficiency Feat.</text>
+        </box>
+    </item>
+</body>

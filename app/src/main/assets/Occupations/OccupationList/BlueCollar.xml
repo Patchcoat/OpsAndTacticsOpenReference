@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header>Blue Collar</header>
+        <text>   Blue collar occupations include factory workers, food service jobs, construction, service industry jobs, taxi drivers, postal workers and any other jobs that are usually not considered to be desk jobs.</text>
+        <text><b>Starting Requirements</b> Age 18+</text>
+        <text><b>Job Change Requirements</b> An Animal Handling, Drive or Ride Skill Modifier of +15 or greater, or a Craft (Mechanical, Structural, Chemical, or Electrical) Skill Modifier of +10 or greater.</text>
+        <text><b>Skills (2)</b> Animal Handling, Craft (Mechanical, Structural, Chemical or Electronic), Drive, or Ride.</text>
+        <text><b>Starting Wealth Points</b> (1d4+3)×10 (Average 55)</text>
+        <text><b>Biweekly Wealth Points</b> 11d4 (Average 28)</text>
+    </item>
+</body>

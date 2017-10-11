@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header>Celebrity</header>
+        <text>   A celebrity is anyone who has been thrust into the spotlight of the public eye. Actors, entertainers of all types, newscasters, radio and television personalities and more fall under celebrity.</text>
+        <text><b>Starting Requirements</b> Age 15+</text>
+        <text><b>Job Change Requirements</b> A Craft (Visual art or Writing) or Perform (Any) Skill Modifier of +10 or greater and 300 WP which must be paid out for expenses.</text>
+        <text><b>Skills (1)</b> Craft (Visual art or Writing) or Perform (Any)</text>
+        <text><b>Starting Wealth Points</b> 12d4×10 (Average 300)</text>
+        <text><b>Biweekly Wealth Points</b> 6d4×10 (Average 150)</text>
+    </item>
+</body>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header>Starting Occupation</header>
+        <text>   A character may hold other jobs as their career unfolds, but the benefits of a starting occupation are only applied once, at the time of character creation. Many starting occupations have initial requirements that the character must meet to qualify for the occupation. If a character is selecting their first occupation they only need to meet the initial requirements, not the hiring requirements. Each occupation provides a number of additional permanent focused skills that the character can select from a list of choices. Once selected, a permanent focused skill is always considered to be a focused skill for the character. If the skill selected is already a focused skill for the character, they also gain a +1 bonus for that skill.</text>
+        <text>   Every level, a character also receives an additional +1 in the selected skill(s) they choose with their occupation.</text>
+        <text>   Some starting occupations provide a bonus feat. A character still must meet any prerequisites for these bonus Feats.</text>
+        <text>   Finally, a starting occupation determines how many Wealth Points a character receives at start, and what their biweekly salary is. The Wealth Points that are received to start with and biweekly are considered surplus for whatever a character may need. Their housing, basic food, and clothing needs are taken care of.</text>
+        <text>   Choose one occupation from the available selections and apply the benefits to the character as noted in the occupation's description.</text>
+    </item>
+</body>

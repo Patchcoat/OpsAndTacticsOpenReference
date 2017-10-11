@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header>Doctor</header>
+        <text>   A doctor can be a Physician (General Practitioner or Specialist), a Surgeon, a Psychiatrist or Psychologist, or a Pharmacist.</text>
+        <text><b>Starting Requirements</b> Age 25+</text>
+        <text><b>Job Change Requirements</b> A Craft (Pharmaceutical), Knowledge (Behavioral Sciences or Earth and Life Sciences), or Treat Injury Skill Modifier of +18 or greater.</text>
+        <text><b>Skills (2)</b> Craft (Pharmaceutical), Knowledge (Behavioral Sciences or Earth and Life Sciences) or Treat Injury</text>
+        <text><b>Occupational Feats (1)</b> Educated or Medicinal Expert</text>
+        <text><b>Starting Wealth Points</b> 8d4×10 (Average 200)</text>
+        <text><b>Biweekly Wealth Points</b> 4d4×10 (Average 100)</text>
+    </item>
+</body>
