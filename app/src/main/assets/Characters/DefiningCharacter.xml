@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header>Defining your Character</header>
+        <text><b>Name</b>   A name helps you define your character's background and ethnic origin. The name may fit your character's abilities or it may be dramatically different. A character's name also proves clues to his age and heritage.
+        </text>
+        <text><b>Gender</b>   The character can be either male or female.
+        </text>
+        <text><b>Age</b>   As the character ages, their physical ability scores decrease and their mental ability scores increase as detailed on the following table. The GM can decide what age brackets are suitable for each category, depending on the race of the character.
+        </text>
+        <table size="big">
+            <tr><header textAlign="center">Age Category</header><header textAlign="center">Ability Adjustments</header></tr>
+            <tr>
+                <text textAlign="center">Child</text>
+                <text>−3 to STR and CON; −1 to DEX, INT, WIS and CHA</text>
+            </tr>
+            <tr>
+                <text textAlign="center">Young adult</text>
+                <text textAlign="center">Original Scores</text>
+            </tr>
+            <tr>
+                <text textAlign="center">Adult</text>
+                <text textAlign="center">Original Scores</text>
+            </tr>
+            <tr>
+                <text textAlign="center">Middle Age</text>
+                <text>–2 to STR, DEX, and CON; +2 to INT, WIS and CHA</text>
+            </tr>
+            <tr>
+                <text textAlign="center">Old</text>
+                <text>−3 to STR, DEX, and CON; +3 to INT, WIS and CHA</text>
+            </tr>
+            <tr>
+                <text textAlign="center">Venerable</text>
+                <text>−4 to STR, DEX, and CON; +4 to INT, WIS and CHA</text>
+            </tr>
+        </table>
+        <text textAlign="center">Table 4: Aging Effects</text>
+        <text><b>Height and Weight</b>   When choosing your character's height and weight, try and keep his ability scores in mind, and what they say on the overall appearance of your character. You can also denote any specific or unique markings on the character, such as tattoos, scars, moles, and freckles.
+        </text>
+    </item>
+</body>

@@ -52,23 +52,28 @@
     "children": [
       {
         "text": "Character Features and Creating Characters",
-        "link": "",
-        "type": ""
+        "link": "Characters/CharacterFeatures.xml",
+        "type": "xml"
+      },
+      {
+        "text": "1st Level Characters",
+        "link": "Characters/FirstLevelCharacters.xml",
+        "type": "xml"
       },
       {
         "text": "Leveling Characters",
-        "link": "",
-        "type": ""
+        "link": "Characters/LevelingCharacters.xml",
+        "type": "xml"
       },
       {
         "text": "Characters",
-        "link": "",
-        "type": ""
+        "link": "Characters/Characters.xml",
+        "type": "xml"
       },
       {
         "text": "Defining your Character",
-        "link": "",
-        "type": ""
+        "link": "Characters/DefiningCharacter.xml",
+        "type": "xml"
       }
     ]
   },
