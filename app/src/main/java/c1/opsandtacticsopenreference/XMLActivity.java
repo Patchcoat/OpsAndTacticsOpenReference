@@ -327,7 +327,7 @@ public class XMLActivity extends AppCompatActivity {
         TableRow.LayoutParams tableParams =
                 new TableRow.LayoutParams(
                         TableLayout.LayoutParams.WRAP_CONTENT,
-                        TableLayout.LayoutParams.WRAP_CONTENT);
+                        TableLayout.LayoutParams.MATCH_PARENT);
         TableRow tableRow = new TableRow(this);
         tableRow.setLayoutParams(tableParams);
         while (parser.next() != XmlPullParser.END_TAG) {
@@ -338,7 +338,7 @@ public class XMLActivity extends AppCompatActivity {
             LinearLayout rowItem = new LinearLayout(this);
             TableRow.LayoutParams rowItemParams = new TableRow.LayoutParams(
                     TableRow.LayoutParams.WRAP_CONTENT,
-                    TableRow.LayoutParams.WRAP_CONTENT);
+                    TableRow.LayoutParams.MATCH_PARENT);
             rowItem.setLayoutParams(rowItemParams);
             if (name.equals("text")) {
                 String textAlign = parser.getAttributeValue(null, "textAlign");
@@ -358,6 +358,7 @@ public class XMLActivity extends AppCompatActivity {
                             rowItem.setGravity(Gravity.RIGHT);
                     }
                 }
+                rowItem.setVerticalGravity(Gravity.CENTER_VERTICAL);
             } else if (name.equals("header")) {
                 String textAlign = parser.getAttributeValue(null, "textAlign");
                 readHeader(parser, "13", textAlign, "#"+Integer.toHexString(altText), rowItem);
@@ -630,6 +631,7 @@ public class XMLActivity extends AppCompatActivity {
             int localColor = color;
             // Applies style to the tagged places
             // This whole section is one big, dirty hack.
+            fontFormat = bodyFont;
             if (name.equals("b")) {
                 tempText.replace( 0, tempText.length(), readStyle(parser, "b"));
                 fontFormat = new StringBuffer(fontFormat).insert(

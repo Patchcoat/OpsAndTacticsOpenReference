@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header>Gunsmithing</header>
+        <text>   A gunsmith is a person who repairs, modifies, designs, or builds firearms. This occupation is different from an armorer. The armorer primarily maintains (disassembly, cleaning) weapons and limited repairs involving parts replacement and possibly work involving accurization. A gunsmith does factory level repairs, renovation (such as applying metal finishes), and makes modifications and alterations for special uses. Gunsmiths may also apply carvings, engravings and other decorative features to an otherwise finished gun. Gunsmithing falls under Craft (Mechanical), and all the rolls and TNs are for that skill.
+        </text>
+        <header level="1">Crafting a brand new firearm</header>
+        <text>   When crafting a new firearm, a character must first pick what current category the firearm would fit into, or the best case that the firearm would fit into. Aspects such as caliber, magazine size, feed type, barrel length and range, and size, can all play into this.</text>
+        <text>   When crafting a firearm, a character must meet the minimum requirements for each category.</text>
+        <text>   A firearm may use preexisting magazines for +5 TN on the Craft (Mechanical) check.</text>
+        <text>   The GM decides, based on the firearm the players want to craft, what the size and weight of it would be.</text>
+        <text>   Crafting any firearm has a base TN of 5, with an error range of 40% and cost equal to the total TN. For every 4 points the Craft Check beats the DC by, the error range is reduced by 5%.
+        </text>
+    </item>
+</body>

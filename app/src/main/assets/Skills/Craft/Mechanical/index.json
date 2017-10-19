@@ -1,0 +1,57 @@
+[
+  {
+    "text":"Introduction",
+    "link":"Skills/Craft/Mechanical/Types.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Gunsmithing Introduction",
+    "link":"Skills/Craft/Mechanical/GunsmithingIntro.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Gunsmithing Handguns",
+    "link":"Skills/Craft/Mechanical/GunsmithingHandguns.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Gunsmithing Sub-Machine Guns",
+    "link":"Skills/Craft/Mechanical/GunsmithingSMGs.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Gunsmithing Rifles",
+    "link":"",
+    "type":""
+  },
+  {
+    "text":"Gunsmithing Shotguns",
+    "link":"",
+    "type":""
+  },
+  {
+    "text":"Gunsmithing Machine Guns",
+    "link":"",
+    "type":""
+  },
+  {
+    "text":"Gunsmithing Grenade Launchers",
+    "link":"",
+    "type":""
+  },
+  {
+    "text":"AR-15 Building",
+    "link":"",
+    "type":""
+  },
+  {
+    "text":"Performing Upgrades and Reloading",
+    "link":"",
+    "type":""
+  },
+  {
+    "text":"Repairing",
+    "link":"",
+    "type":""
+  }
+]

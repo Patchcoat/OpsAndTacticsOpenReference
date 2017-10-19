@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header level="1">Sub-Machine Guns</header>
+        <text>   Sub-Machine guns are generally sized between Medium and Large, and are chambered in a pistol caliber, such as 9x19mm or .40 S&amp;W. Sub-machine guns are created with a fixed stock. When crafting a weapon with automatic fire, the creator can choose what rate of fire the automatic fires at.
+        </text>
+        <text textAlign="center">SMGs are restricted to the following calibers:
+        </text>
+        <list type="unordered">
+            <text>.22 Long Rifle</text>
+            <text>.25 ACP</text>
+            <text>.17 HMR</text>
+            <text>.380 ACP</text>
+            <text>.32 ACP</text>
+            <text>.41 Rimfire</text>
+            <text>.32 Rimfire</text>
+            <text>8x22mm Nambu</text>
+            <text>9x19mm</text>
+            <text>9x18mm Makarov</text>
+            <text>.38 Special</text>
+            <text>.40 S&amp;W</text>
+            <text>.38 Long Colt</text>
+            <text>.38/200</text>
+            <text>.38 S&amp;W</text>
+            <text>.38 Super</text>
+            <text>.357 Magnum</text>
+            <text>.45 ACP</text>
+            <text>.45 GAP</text>
+            <text>.45 Long Colt</text>
+            <text>.41 Long Colt</text>
+            <text>7.63x25mm Mauser</text>
+            <text>7.62x25mm Tokarev</text>
+            <text>.455 Webley</text>
+            <text>.44 American</text>
+            <text>9mm Japanese Revolver</text>
+            <text>.44 Russian</text>
+            <text>7.62x38mmR Nagant</text>
+            <text>.357 SIG</text>
+            <text>10mm Auto</text>
+            <text>.44 Magnum</text>
+            <text>5.7x28mm</text>
+            <text>4.6x30mm</text>
+            <text>.44 Special</text>
+            <text>7.63mm Mannlicher</text>
+            <text>.454 Casull</text>
+            <text>.50 Action Express</text>
+        </list>
+        <text></text>
+        <table>
+            <tr>
+                <header>Type</header>
+                <header>Magazine</header>
+                <header>Caliber</header>
+                <header>Range</header>
+                <header>Firing Modes</header>
+            </tr>
+            <tr>
+                <text>Open Bolt SMG¹</text>
+                <text>Box Mag +1 TN for every
+round over 15 (Max 40)</text>
+                <text>+2 TN per category
+(2nd-5th category)</text>
+                <text>+1 TN for every 5' over
+10' (Max 60')</text>
+                <text><b>Semi-automatic</b> +8 TN
+<b>Fully Automatic</b> Free
+<b>2 Round Burst</b> +10 TN
+<b>3 Round Burst</b> +12 TN</text>
+            </tr>
+            <tr>
+                <text>Closed Bolt SMG¹</text>
+                <text>Box Mag +1 TN for every
+round over 15 (Max 40)</text>
+                <text>+2 TN per category
+(2nd-5th category)</text>
+                <text>+1 TN for every 5' over
+10' (Max 60')</text>
+                <text><b>Semi-automatic</b> Free
+<b>Fully Automatic</b> +7 TN
+<b>2 Round Burst</b> +12 TN
+<b>3 Round Burst</b> +13 TN</text>
+            </tr>
+        </table>
+        <text>1 A character can choose to craft a firearm to take the same kind of magazines from a preexisting Sub-Machine Guns. If the character does this, they do not have to add the TN to the firearm's total level, but the firearm must use the same caliber of ammunition that the corresponding magazine and firearm uses.</text>
+        <text textAlign="center">Table 16: Gunsmithing - Sub-Machine Gun
+        </text>
+    </item>
+</body>

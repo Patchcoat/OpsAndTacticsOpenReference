@@ -54,7 +54,7 @@
             </tr>
         </table>
         <table size="big">
-            <tr><header>Climbing TN Modifiers¹</header><header></header></tr>
+            <tr span="2"><header>Climbing TN Modifiers¹</header></tr>
             <tr>
                 <text>Climbing a location where you can brace against two opposite walls</text>
                 <text>-10</text>
@@ -68,8 +68,8 @@
                 <text>+5</text>
             </tr>
         </table>
-        <text>1 These modifiers are cumulative; use all that apply.
-        </text>
+        <text>1 These modifiers are cumulative; use all that apply.</text>
+        <text textAlign="center">Table 6: Athletics, Climb TN</text>
         <text><b>Try Again?</b></text>
         <text>   Yes, if the situation permits.
         </text>

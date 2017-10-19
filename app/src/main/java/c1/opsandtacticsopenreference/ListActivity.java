@@ -261,6 +261,9 @@ public class ListActivity extends AppCompatActivity {
                     case "xml":
                         intent = new Intent(view.getContext(), XMLActivity.class);
                         break;
+                    case "list":
+                        intent = new Intent(view.getContext(), ListActivity.class);
+                        break;
                     case "feat":
                         intent = new Intent(view.getContext(), FeatActivity.class);
                         break;

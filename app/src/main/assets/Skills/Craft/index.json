@@ -16,8 +16,8 @@
   },
   {
     "text":"Craft (Mechanical)",
-    "link":"Skills/Craft/Mechanical.xml",
-    "type":"xml"
+    "link":"Skills/Craft/Mechanical/index.json",
+    "type":"list"
   },
   {
     "text":"Craft (Pharmaceutical)",
@@ -25,7 +25,7 @@
     "type":"xml"
   },
   {
-    "text":"Craft(Structural)",
+    "text":"Craft (Structural)",
     "link":"Skills/Craft/Structural.xml",
     "type":"xml"
   },
