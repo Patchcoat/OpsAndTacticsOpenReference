@@ -6,27 +6,27 @@
   },
   {
     "text":"Handle an Animal",
-    "link":"",
-    "type":""
+    "link":"Skills/AnimalHandling/HandleAnimal.xml",
+    "type":"xml"
   },
   {
     "text":"Push an Animal",
-    "link":"",
-    "type":""
+    "link":"Skills/AnimalHandling/PushAnimal.xml",
+    "type":"xml"
   },
   {
     "text":"Teach an Animal a Trick",
-    "link":"",
-    "type":""
+    "link":"Skills/AnimalHandling/TeachAnimalTrick.xml",
+    "type":"xml"
   },
   {
     "text":"Train an Animal for a General Purpose",
-    "link":"",
-    "type":""
+    "link":"Skills/AnimalHandling/TrainAnimal.xml",
+    "type":"xml"
   },
   {
     "text":"Rear a Wild Animal",
-    "link":"",
-    "type":""
+    "link":"Skills/AnimalHandling/RearWildAnimal.xml",
+    "type":"xml"
   }
 ]

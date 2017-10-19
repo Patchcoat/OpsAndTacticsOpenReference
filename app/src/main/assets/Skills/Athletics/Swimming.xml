@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header>Swimming</header>
+        <text>   Make an Athletics check once per round while you are in the water. Success means you may swim at 5' per 3 CP. If you fail by 4 or less, you make no progress. If you fail by 5 or more, you go underwater.</text>
+        <text>   If you are underwater, either because you failed an Athletics check or because you are swimming underwater intentionally, you must hold your breath. You can hold your breath for a number of rounds equal to twice your CON score, but only if you spend less than 4 CP during your turn. If you spend more than 4 CP, that round counts as you having been underwater for 2 turns. After this period of time you must make a CON check [TN10] to continue holding your breath. For every round you pass this check the TN is increased by 1. If this check is failed, the character begins to drown. The TN for the check depends on the water, as given on the table below.</text>
+        <text>   Each hour that you swim, you must make an Athletics check [TN20] or take 1d6 points of non-lethal damage from fatigue.
+        </text>
+        <table>
+            <tr><header>Swim</header><header>TN</header></tr>
+            <tr><text>Calm Water</text><text>10</text></tr>
+            <tr><text>Rough Water</text><text>15</text></tr>
+            <tr><text>Stormy Water</text><text>20</text></tr>
+        </table>
+        <text>1 You can't take 10 on a Swim check in stormy water, even if you aren't otherwise being threatened or distracted.</text>
+        <text textAlign = "center">Table 5: Athletics, Swim TN</text>
+    </item>
+</body>

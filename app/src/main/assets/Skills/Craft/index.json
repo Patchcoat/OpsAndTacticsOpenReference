@@ -1,0 +1,42 @@
+[
+  {
+    "text":"Craft Introduction",
+    "link":"Skills/Craft/Introduction.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Craft (Chemical)",
+    "link":"Skills/Craft/Chemical.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Craft (Electronics)",
+    "link":"Skills/Craft/Electronics.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Craft (Mechanical)",
+    "link":"Skills/Craft/Mechanical.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Craft (Pharmaceutical)",
+    "link":"Skills/Craft/Pharmaceutical.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Craft(Structural)",
+    "link":"Skills/Craft/Structural.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Craft (Visual Art)",
+    "link":"Skills/Craft/VisualArt.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Craft (Writing)",
+    "link":"Skills/Craft/Writing.xml",
+    "type":"xml"
+  }
+]

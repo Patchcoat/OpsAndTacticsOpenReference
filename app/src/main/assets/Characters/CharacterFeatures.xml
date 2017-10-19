@@ -10,7 +10,7 @@
         </text>
         <text><b>Combat Points</b>   Combat Points are a measurement of how much a character can do in a single round. Each character has 15 Combat Points per round, or uses their Racial Combat Point Score.
         </text>
-        <text><b>Focused Skills</b>   This section of a character description denotes how many skills a character can select as focused skills, applying ranks to to them. A character only chooses these skills at 1st-level. A character gains at least 1 skill point per level, even if the character has an INT modifier penalty. A 1st-level character starts with 5 times the number of skill points they receive upon attaining each level beyond the 1[superscript:st].</text>
+        <text><b>Focused Skills</b>   This section of a character description denotes how many skills a character can select as focused skills, applying ranks to to them. A character only chooses these skills at 1ˢᵗ-level. A character gains at least 1 skill point per level, even if the character has an INT modifier penalty. A 1ˢᵗ-level character starts with 5 times the number of skill points they receive upon attaining each level beyond the 1ˢᵗ.</text>
         <text>The starting Skill Point formula is: <font fontName="secondary">((3 + INT Modifier + COP Increase) X 5)</font></text>
         <text>The leveling Skill Point formula is: <font fontName="secondary">(3 + INT Modifier + COP Increase)</font></text>
         <text>The Maximum Skill Point ranks for focused skills is: <font fontName="secondary">(Level + 4)</font></text>

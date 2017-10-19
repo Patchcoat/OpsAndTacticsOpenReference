@@ -104,23 +104,23 @@
     "children": [
       {
         "text": "Skills Introduction",
-        "link": "",
-        "type": ""
+        "link": "Skills/Introduction.xml",
+        "type": "xml"
       },
       {
         "text": "Acquiring Skills",
-        "link": "",
-        "type": ""
+        "link": "Skills/AcquiringSkills.xml",
+        "type": "xml"
       },
       {
         "text": "Using Skills",
-        "link": "",
-        "type": ""
+        "link": "Skills/UsingSkills.xml",
+        "type": "xml"
       },
       {
         "text": "Acrobatics (DEX)",
-        "link": "",
-        "type": ""
+        "link": "Skills/Acrobatics.xml",
+        "type": "xml"
       },
       {
         "text": "Animal Handling (CHA)",
@@ -129,13 +129,13 @@
       },
       {
         "text": "Athletics (STR)",
-        "link": "",
-        "type": ""
+        "link": "Skills/Athletics/index.json",
+        "type": "list"
       },
       {
         "text": "Craft (INT)",
-        "link": "",
-        "type": ""
+        "link": "Skills/Craft/index.json",
+        "type": "list"
       },
       {
         "text": "Demolitions (INT) Trained Only",

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header level = "1">Teach an Animal a Trick</header>
+        <text>   You can teach an animal a specific trick with 1 week of work and a successful Animal Handling check against the indicated TN. An animal with an INT score of 1 can learn a maximum of three tricks, while an animal with an INT score of 2 can learn a maximum of six tricks. Possible tricks (and their associated TNs) include, but are not necessarily limited to, the following:</text>
+        <text><b>Attack [TN20]</b>  The animal attacks apparent enemies. You may point to a particular creature that you wish the animal to attack, and it will comply if able. Normally, an animal will attack only humanoids, monstrous humanoids, giants, or other animals. Teaching an animal to attack all creatures (including such unnatural creatures as undead and aberrations) counts as two tricks.
+        </text>
+        <text><b>Come [TN15]</b>  The animal comes to you, even if it normally would not do so.
+        </text>
+        <text><b>Defend [TN20]</b>  The animal defends you (or is ready to defend you if no threat is present), even without any command being given. Alternatively, you can command the animal to defend another specific character.
+        </text>
+        <text><b>Down [TN15]</b>  The animal breaks off from combat or otherwise backs down. An animal that doesn't know this trick continues to fight until it must flee (due to injury, a fear effect, or the like) or its opponent is defeated.
+        </text>
+        <text><b>Fetch [TN15]</b>  The animal goes and gets something. If you do not point out a specific item, the animal fetches a random object.
+        </text>
+        <text><b>Guard [TN20]</b>  The animal stays in place and prevents others from approaching.
+        </text>
+        <text><b>Heel [TN15]</b>  The animal follows you closely, even to places where it normally wouldn't go.
+        </text>
+        <text><b>Perform [TN15]</b>  The animal performs a variety of simple tricks, such as sitting up, rolling over, roaring or barking, and so on.
+        </text>
+        <text><b>Seek [TN15]</b>  The animal moves into an area and looks around for anything that is obviously alive or animate.
+        </text>
+        <text><b>Stay [TN15]</b>  The animal stays in place, waiting for you to return. It does not challenge other creatures that come by, though it still defends itself if it needs to.
+        </text>
+        <text><b>Track [TN20]</b>  The animal tracks the scent presented to it. This requires the animal to have the scent ability.
+        </text>
+        <text><b>Work [TN15]</b>  The animal pulls or pushes a medium or heavy load.</text>
+    </item>
+</body>

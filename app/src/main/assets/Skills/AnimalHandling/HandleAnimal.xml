@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header level = "1">Handle an Animal</header>
+        <text>   This task involves commanding an animal to perform a task or trick that it knows. If the animal is wounded or has taken any non-lethal damage or ability score damage, the TN increases by 2. If your check succeeds, the animal performs the task or trick on its next action.</text>
+    </item>
+</body>

@@ -1,5 +1,6 @@
 package c1.opsandtacticsopenreference;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -13,12 +14,15 @@ import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.graphics.drawable.VectorDrawableCompat;
 import android.text.style.ForegroundColorSpan;
 import android.util.Log;
+import android.view.Display;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.WindowManager;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
@@ -35,6 +39,7 @@ import android.graphics.PorterDuff.Mode;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.util.Xml;
+import android.util.DisplayMetrics;
 import android.text.SpannableStringBuilder;
 import android.text.Spannable;
 import android.preference.PreferenceManager;
@@ -233,7 +238,7 @@ public class XMLActivity extends AppCompatActivity {
             String textAlign = parser.getAttributeValue(null, "textAlign");
             linearLayout = (LinearLayout) findViewById(R.id.parentLayout);
             if (name.equals("header")) {
-                readHeader(parser, parser.getAttributeValue(null, "level"), null, parser.getAttributeValue(null, "textAlign"), linearLayout);
+                readHeader(parser, parser.getAttributeValue(null, "level"), parser.getAttributeValue(null, "textAlign"), null, linearLayout);
             } else if (name.equals("text")) {
                 readText(parser, parser.getAttributeValue(null, "textAlign"), linearLayout, null, 0);
             } else if (name.equals("box")) {
@@ -242,12 +247,7 @@ public class XMLActivity extends AppCompatActivity {
             } else if (name.equals("list")){
                 readList(parser, parser.getAttributeValue(null, "type"), linearLayout);
             } else if (name.equals("table")){
-                boolean big = false;
-                if (parser.getAttributeValue(null, "size") != null &&
-                        parser.getAttributeValue(null, "size").equals("big")){
-                    big = true;
-                }
-                readTable(parser, linearLayout, big);
+                readTable(parser, linearLayout);
             } else {
                 skip(parser);
             }
@@ -255,11 +255,10 @@ public class XMLActivity extends AppCompatActivity {
     }
 
     // Processes table tags
-    private void readTable(XmlPullParser parser, LinearLayout container, boolean big) throws IOException, XmlPullParserException {
+    private void readTable(XmlPullParser parser, LinearLayout container) throws IOException, XmlPullParserException {
         parser.require(XmlPullParser.START_TAG, ns, "table");
         HorizontalScrollView scrollView = new HorizontalScrollView(this);
-        // if the table is particularly large then set it to wrap content
-        // otherwise sat it to expand fully
+        // Setup the views for the table
         scrollView.setLayoutParams(
                     new HorizontalScrollView.LayoutParams(
                             HorizontalScrollView.LayoutParams.MATCH_PARENT,
@@ -272,17 +271,12 @@ public class XMLActivity extends AppCompatActivity {
         linearLayoutParams.setMargins(10,0,10,0);
         localLinearLayout.setOrientation(LinearLayout.VERTICAL);
         localLinearLayout.setLayoutParams(linearLayoutParams);
-        if (big) {
-            scrollView.addView(localLinearLayout);
-        } else {
-            container.addView(localLinearLayout);
-        }
 
         TableLayout tableLayout = new TableLayout(this);
         TableLayout.LayoutParams tableLayoutParams= new TableLayout.LayoutParams(
                 TableLayout.LayoutParams.WRAP_CONTENT,
                 TableLayout.LayoutParams.WRAP_CONTENT);
-
+        // Read the table information
         tableLayout.setLayoutParams(tableLayoutParams);
         tableLayout.setStretchAllColumns(true);
         int tableRowNum = 0;
@@ -292,10 +286,11 @@ public class XMLActivity extends AppCompatActivity {
             }
             String name = parser.getName();
             if (name.equals("tr")){
-                if (tableRowNum == 0){
-                    readTableRow(parser, tableLayout, tableRowNum);
+                String span = parser.getAttributeValue(null, "span");
+                if (span != null){
+                    readTableRow(parser, tableLayout, tableRowNum, Integer.valueOf(span));
                 } else {
-                    readTableRow(parser, tableLayout, tableRowNum);
+                    readTableRow(parser, tableLayout, tableRowNum, -1);
                 }
             } else {
                 skip(parser);
@@ -313,13 +308,24 @@ public class XMLActivity extends AppCompatActivity {
         }
         localLinearLayout.addView(tableLayout);
         parser.require(XmlPullParser.END_TAG, ns, "table");
+        // Put the table in a scroll view if it's too wide to fit on screen
+        DisplayMetrics displaymetrics = new DisplayMetrics();
+        this.getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
+        int screenWidth = displaymetrics.widthPixels;
+        localLinearLayout.measure(ViewGroup.LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT);
+        int width=localLinearLayout.getMeasuredWidth();
+        if (screenWidth<width) {
+            scrollView.addView(localLinearLayout);
+        } else {
+            container.addView(localLinearLayout);
+        }
     }
 
     // Processes tr tags
-    private void readTableRow(XmlPullParser parser, TableLayout tableLayout, int tableRowNum) throws IOException, XmlPullParserException {
+    private void readTableRow(XmlPullParser parser, TableLayout tableLayout, int tableRowNum, int Span) throws IOException, XmlPullParserException {
         parser.require(XmlPullParser.START_TAG, ns, "tr");
-        TableLayout.LayoutParams tableParams =
-                new TableLayout.LayoutParams(
+        TableRow.LayoutParams tableParams =
+                new TableRow.LayoutParams(
                         TableLayout.LayoutParams.WRAP_CONTENT,
                         TableLayout.LayoutParams.WRAP_CONTENT);
         TableRow tableRow = new TableRow(this);
@@ -330,6 +336,10 @@ public class XMLActivity extends AppCompatActivity {
             }
             String name = parser.getName();
             LinearLayout rowItem = new LinearLayout(this);
+            TableRow.LayoutParams rowItemParams = new TableRow.LayoutParams(
+                    TableRow.LayoutParams.WRAP_CONTENT,
+                    TableRow.LayoutParams.WRAP_CONTENT);
+            rowItem.setLayoutParams(rowItemParams);
             if (name.equals("text")) {
                 String textAlign = parser.getAttributeValue(null, "textAlign");
                 readText(parser, textAlign, rowItem, null, 0);
@@ -384,8 +394,15 @@ public class XMLActivity extends AppCompatActivity {
             } else {
                 rowItem.setBackground(border);
             }
+            if (Span >= 0) {
+                TableRow.LayoutParams params = (TableRow.LayoutParams) rowItem.getLayoutParams();
+                params.span = Span; //amount of columns you will span
+                params.weight = 1;
+                rowItem.setLayoutParams(params);
+            }
             tableRow.addView(rowItem);
         }
+
         tableLayout.addView(tableRow);
         parser.require(XmlPullParser.END_TAG, ns, "tr");
     }
