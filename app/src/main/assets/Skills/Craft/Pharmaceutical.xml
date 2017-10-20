@@ -149,7 +149,8 @@ poison + 5</text>
         </table>
         <text textAlign="center">Table 39: Craft (Pharmaceutical), Antidote
         </text>
-        <text><b>Special</b> A character without a chemistry kit takes a −6 penalty on Craft (Pharmaceutical) checks.</text>
+        <text><b>Special</b></text>
+        <text>   A character without a chemistry kit takes a −6 penalty on Craft (Pharmaceutical) checks.</text>
         <text>   A character with 7 ranks in Knowledge (Earth and Life Sciences) can choose Craft (Pharmaceutical) to receive a +2 synergy bonus. If the character chooses Craft (Pharmaceutical), they cannot apply the synergy bonus to any other skill.</text>
     </item>
 </body>

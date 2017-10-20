@@ -17,7 +17,7 @@
         <header level="1">Advanced</header>
         <text>   This category includes items such as jet engines, complete automobiles, and Semi-automatic, Automatic, and select-fire firearms. The TN for these items is 30, the WP cost for a complex device will not exceed 500, and the time taken to build it will not exceed 60 hours.
         </text>
-        <header level="1">Special</header>
+        <text><b>Special</b></text>
         <text>   A character without a mechanics tool kit takes a −6 penalty on Craft (Mechanical) checks.</text>
         <text>   A character with 7 ranks in Knowledge (Physical Sciences) can choose Craft (Mechanical) to receive a +2 synergy bonus. If the character chooses Craft (Mechanical), they cannot apply the synergy bonus to any other skill.</text>
     </item>

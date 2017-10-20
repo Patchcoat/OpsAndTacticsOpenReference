@@ -417,7 +417,8 @@
         <text>   Repairing damage to a vehicle takes a full hour of work, a mechanical tool kit, a garage or some other suitable facility, and 5 WP of raw materials. Without the tool kit, a character takes a −6 penalty on their Craft check. At the end of the hour, make a Craft (Structural) check [TN20]. Success restores 2d6 HP. If damage remains, the character may continue to make repairs for as many hours as it takes to restore all of the vehicle's hit points, provided they have enough money for the raw materials.</text>
         <text>   Repairing damage to armor takes 30 minutes of work, a mechanical tool kit, and 2 WP of raw materials. Without the tool kit, a character takes a −6 penalty on their Craft check. At the end of the half hour, make a Craft (Structural) check [TN20]. Success restores 1d4 armor points. If damage remains, the character may continue to make repairs for as many minutes as it takes to restore all of the armors armor points.
         </text>
-        <text><b>Special</b> A character without a construction tool kit takes a −6 penalty on Craft (Structural) checks.</text>
+        <text><b>Special</b></text>
+        <text>   A character without a construction tool kit takes a −6 penalty on Craft (Structural) checks.</text>
         <text>   A character with 7 ranks in Knowledge (Physical Sciences) can choose Craft (Structural) to receive a +2 synergy bonus. If the character chooses Craft (Structural), they cannot apply the synergy bonus to any other skill.</text>
     </item>
 </body>
