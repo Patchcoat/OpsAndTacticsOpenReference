@@ -1,7 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
 <body>
     <item>
-        <header>Craft () Trained Only</header>
-        <text>   </text>
+        <header>Craft (Visual Art)</header>
+        <text>   This skill allows a character to create paintings or drawings, take photographs, use a video camera, or in some other way create a work of visual art. When attempting to create a work of visual art, the character simply makes a Craft (Visual Art) check, the result of which determines the quality of the work. Unless the effort is particularly elaborate or the character must acquire an expensive piece of equipment, the basic components has a WP cost of 4.</text>
+        <text>   Creating a work of visual art requires at least 12 CP, but usually takes an hour, a day, or more, depending on the scope of the project.
+        </text>
+        <table>
+            <tr>
+                <header textAlign="center">Skill Check Result</header>
+                <header textAlign="center">Effort Achieved</header>
+            </tr>
+            <tr>
+                <text textAlign="center">0-9</text>
+                <text textAlign="center">Untalented Amateur</text>
+            </tr>
+            <tr>
+                <text textAlign="center">10-19</text>
+                <text textAlign="center">Talented Amateur</text>
+            </tr>
+            <tr>
+                <text textAlign="center">20-24</text>
+                <text textAlign="center">Professional</text>
+            </tr>
+            <tr>
+                <text textAlign="center">25-30</text>
+                <text textAlign="center">Expert</text>
+            </tr>
+            <tr>
+                <text textAlign="center">31+</text>
+                <text textAlign="center">Master</text>
+            </tr>
+        </table>
+        <text textAlign="center">Table 42: Craft (Visual Art) Results
+        </text>
+        <text>   The character can also use Craft (Visual Art) to create false documents. The complexity of the document, the character's degree of familiarity with it, and whether the character needs to reproduce the signature or handwriting of a specific individual, provide modifiers to the Craft Check.</text>
+        <text>   The Craft (Visual Art) skill is also used to detect someone elses forgery. The result of the original Craft (Visual Art) check that created the document is opposed by a Craft check by the person who examines the document to check its authenticity. If the examiner's check result is equal to or higher than the original check, the document is determined to be fraudulent. The examiner gains bonuses or penalties on their check. A character can not try again since the forger isn't sure of the quality of the original forgery.
+        </text>
+        <table>
+            <tr>
+                <header>Document Type</header>
+                <header textAlign="center">Modifier</header>
+                <header textAlign="center">Time Taken</header>
+            </tr>
+            <tr>
+                <text>Simple (Business Card,
+Name Tag, Typed
+Letter)</text>
+                <text textAlign="center">+0</text>
+                <text textAlign="center">10 minutes</text>
+            </tr>
+            <tr>
+                <text>Moderate (Letterhead,
+Business Form)</text>
+                <text textAlign="center">-2</text>
+                <text textAlign="center">20 minutes</text>
+            </tr>
+            <tr>
+                <text>Complex (Stock
+Certificate, Driver's
+License)</text>
+                <text textAlign="center">-4</text>
+                <text textAlign="center">1 hour</text>
+            </tr>
+            <tr>
+                <text>Difficult (Passport)</text>
+                <text textAlign="center">-8</text>
+                <text textAlign="center">4 hours</text>
+            </tr>
+            <tr>
+                <text>Impossible
+(Military/Law
+Enforcement ID)</text>
+                <text textAlign="center">-15</text>
+                <text textAlign="center">1 day</text>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <header>Familiarity</header>
+                <header textAlign="center">Modifier</header>
+            </tr>
+            <tr>
+                <text>Document includes
+specific insignia or
+signature</text>
+                <text textAlign="center">-4</text>
+            </tr>
+            <tr>
+                <text>Forger is unfamiliar
+with document</text>
+                <text textAlign="center">-4</text>
+            </tr>
+            <tr>
+                <text>Forger is slightly
+familiar with document</text>
+                <text textAlign="center">+0</text>
+            </tr>
+            <tr>
+                <text>Forger is very familiar
+with document</text>
+                <text textAlign="center">+4</text>
+            </tr>
+            <tr>
+                <text>Forger has experience
+in type of document</text>
+                <text textAlign="center">+6</text>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <header>Forgery Check Modifier</header>
+                <header textAlign="center">Modifier</header>
+            </tr>
+            <tr>
+                <text>Type of document
+unknown to examiner</text>
+                <text textAlign="center">-4</text>
+            </tr>
+            <tr>
+                <text>Type of document
+somewhat known to
+examiner</text>
+                <text textAlign="center">-2</text>
+            </tr>
+            <tr>
+                <text>Type of document well
+known to examiner</text>
+                <text textAlign="center">+0</text>
+            </tr>
+            <tr>
+                <text>Examiner only casually
+reviews the document</text>
+                <text textAlign="center">-2</text>
+            </tr>
+            <tr>
+                <text>Document is put
+through additional tests</text>
+                <text textAlign="center">+4</text>
+            </tr>
+        </table>
+        <text textAlign="center">Table 43: Craft (Visual Art), Forgery
+        </text>
+        <text><b>Special</b> To forge documents and detect forgeries, one must be able to read and write the language in question.</text>
+        <text>   A character can take 10 when making a Forgery check</text>
+        <text>   A character without a forgery kit takes a −6 penalty on Forgery checks to create a document, and a character without an authentication kit takes a −6 on Forgery checks to detect a forgery.</text>
+        <text>   A character with 7 ranks in Knowledge (Art) can choose Craft (Visual Art) to receive a +2 synergy bonus. If the character chooses Craft (Visual Art), they cannot apply the synergy bonus to any other skill.
+        </text>
     </item>
 </body>

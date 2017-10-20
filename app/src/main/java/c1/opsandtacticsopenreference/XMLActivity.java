@@ -316,7 +316,14 @@ public class XMLActivity extends AppCompatActivity {
         int width=localLinearLayout.getMeasuredWidth();
         if (screenWidth<width) {
             scrollView.addView(localLinearLayout);
+        } else if (screenWidth<(width+20)){ // Margin is 10 on each side. 10+10=20
+            // This is if it's too wide to fit with margins, but too thin to  require
+            // a scroll view
+            linearLayoutParams.setMargins(0,0,0,0);
+            localLinearLayout.setLayoutParams(linearLayoutParams);
+            container.addView(localLinearLayout);
         } else {
+            // otherwise just use it with the standard margins
             container.addView(localLinearLayout);
         }
     }

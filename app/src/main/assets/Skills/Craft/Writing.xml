@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <body>
     <item>
-        <header>Craft () Trained Only</header>
-        <text>   </text>
+        <header>Craft (Writing)</header>
+        <text>   This skill allows a character to create short stories, novels, scripts and screenplays, newspaper articles and columns, and similar works of writing. When creating a work of writing, the player simply makes a Craft (Writing) check, the result of which determines the quality of the work. The WP cost is negligible.</text>
+        <text>   Creating a work of writing requires at least 1 hour, but usually takes a day, a week, or more, depending on the scope of the project.
+        </text>
+        <table>
+            <tr>
+                <header textAlign="center">Skill Check Result</header>
+                <header textAlign="center">Effort Achieved</header>
+            </tr>
+            <tr>
+                <text textAlign="center">0-9</text>
+                <text textAlign="center">Untalented Amateur</text>
+            </tr>
+            <tr>
+                <text textAlign="center">10-19</text>
+                <text textAlign="center">Talented Amateur</text>
+            </tr>
+            <tr>
+                <text textAlign="center">20-24</text>
+                <text textAlign="center">Professional</text>
+            </tr>
+            <tr>
+                <text textAlign="center">25-30</text>
+                <text textAlign="center">Expert</text>
+            </tr>
+            <tr>
+                <text textAlign="center">31+</text>
+                <text textAlign="center">Master</text>
+            </tr>
+        </table>
+        <text textAlign="center">Table 44: Craft (Writing), Results
+        </text>
+        <text><b>Special</b> A character with 7 ranks in Knowledge (Art) can choose Craft (Writing) to receive a +2 synergy bonus. If the character chooses Craft (Writing), they cannot apply the synergy bonus to any other skill.
+        </text>
     </item>
 </body>
