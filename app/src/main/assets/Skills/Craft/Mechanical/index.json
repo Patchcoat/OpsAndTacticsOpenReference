@@ -21,37 +21,47 @@
   },
   {
     "text":"Gunsmithing Rifles",
-    "link":"",
-    "type":""
+    "link":"Skills/Craft/Mechanical/GunsmithingRifles.xml",
+    "type":"xml"
   },
   {
     "text":"Gunsmithing Shotguns",
-    "link":"",
-    "type":""
+    "link":"Skills/Craft/Mechanical/GunsmithingShotguns.xml",
+    "type":"xml"
   },
   {
     "text":"Gunsmithing Machine Guns",
-    "link":"",
-    "type":""
+    "link":"Skills/Craft/Mechanical/GunsmithingMachineGuns.xml",
+    "type":"xml"
   },
   {
     "text":"Gunsmithing Grenade Launchers",
-    "link":"",
-    "type":""
+    "link":"Skills/Craft/Mechanical/GunsmithingGrenadeLaunchers.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Matchlocks & Flintlocks",
+    "link":"Skills/Craft/Mechanical/MatchlocksFlintlocks.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Ammo Categories",
+    "link":"Skills/Craft/Mechanical/AmmoCategories.xml",
+    "type":"xml"
   },
   {
     "text":"AR-15 Building",
-    "link":"",
-    "type":""
+    "link":"Skills/Craft/Mechanical/ARBuilding.xml",
+    "type":"xml"
   },
   {
     "text":"Performing Upgrades and Reloading",
-    "link":"",
-    "type":""
+    "link":"Skills/Craft/Mechanical/UpgradesAndReloading.xml",
+    "type":"xml"
   },
   {
     "text":"Repairing",
-    "link":"",
-    "type":""
+    "link":"Skills/Craft/Mechanical/Repairing.xml",
+    "type":"xml"
   }
 ]

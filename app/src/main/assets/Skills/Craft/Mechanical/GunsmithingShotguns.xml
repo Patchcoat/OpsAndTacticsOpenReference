@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header level="1">Sporting Shotguns</header>
+        <text>   Sporting shotguns are shotguns that are used for hunting, or other shooting related sports, such as clay pigeons. As such, they may have low capacities, and are either pump action or semi-automatic. They generally come with stocks, and usually have a ton of accessories to help the user hit their mark, including recoil reducing stocks, and sights. Ranges vary, but most are between 45 to 55 feet. All Sporting shotguns are crafted with a fixed stock.
+        </text>
+        <table>
+            <tr>
+                <header textAlign="center">Type</header>
+                <header textAlign="center">Magazine</header>
+                <header textAlign="center">Caliber</header>
+                <header textAlign="center">Range</header>
+                <header>Barrel</header>
+            </tr>
+            <tr>
+                <text textAlign="center">Single Shot</text>
+                <text textAlign="center">Internal: 1</text>
+                <text textAlign="center">1st category</text>
+                <text textAlign="center">+1 TN per every 5' over 15'
+(Max 60')</text>
+                <text><b>Slug</b> +3 TN
+<b>Removable Choke</b> +2 TN
+<b>Choked</b> Free
+<b>Straight</b> Free</text>
+            </tr>
+            <tr>
+                <text textAlign="center">SxS Double Shot</text>
+                <text textAlign="center">Internal: 2</text>
+                <text textAlign="center">1st category</text>
+                <text textAlign="center">+1 TN per every 5' over 15'
+(Max 60')</text>
+                <text><b>Slug</b> +3 TN
+<b>Removable Choke</b> +2 TN
+<b>Choked</b> Free
+<b>Straight</b> Free</text>
+            </tr>
+            <tr>
+                <text textAlign="center">OxU Double Shot</text>
+                <text textAlign="center">Internal: 2</text>
+                <text textAlign="center">1st category</text>
+                <text textAlign="center">+1 TN per every 5' over 15'
+(Max 60')</text>
+                <text><b>Slug</b> +3 TN
+<b>Removable Choke</b> +2 TN
+<b>Choked</b> Free
+<b>Straight</b> Free</text>
+            </tr>
+            <tr>
+                <text textAlign="center">Bolt Action¹</text>
+                <text textAlign="center">Internal: +1 TN for every
+round over 3 (Max 7)
+Box Mag: +2 TN for every
+round over 3 (Max 8)</text>
+                <text textAlign="center">1st category</text>
+                <text textAlign="center">+1 TN per every 5' over 15'
+(Max 60')</text>
+                <text><b>Slug</b> +3 TN
+<b>Removable Choke</b> +2 TN
+<b>Choked</b> Free
+<b>Straight</b> Free</text>
+            </tr>
+            <tr>
+                <text textAlign="center">Lever Action¹</text>
+                <text textAlign="center">Internal: +1 TN for every
+round over 4 (Max 7)
+Box Mag: +2 TN for every
+round over 3 (Max 10)</text>
+                <text textAlign="center">1st category</text>
+                <text textAlign="center">+1 TN per every 5' over 15'
+(Max 60')</text>
+                <text><b>Slug</b> +3 TN
+<b>Removable Choke</b> +2 TN
+<b>Choked</b> Free
+<b>Straight</b> Free</text>
+            </tr>
+            <tr>
+                <text textAlign="center">Pump Action¹</text>
+                <text textAlign="center">Internal: +1 TN for every
+round over 3 (Max 9)
+Box Mag: +2 TN for every
+round over 3 (Max 10)</text>
+                <text textAlign="center">1st category</text>
+                <text textAlign="center">+1 TN per every 5' over 15'
+(Max 60')</text>
+                <text><b>Slug</b> +3 TN
+<b>Removable Choke</b> +2 TN
+<b>Choked</b> Free
+<b>Straight</b> Free</text>
+            </tr>
+            <tr>
+                <text textAlign="center">Self Loading¹</text>
+                <text textAlign="center">Internal: +1 TN for every
+round over 4 (Max 9)
+Box Mag: +2 TN for every
+round over 3 (Max 20)</text>
+                <text textAlign="center">1st category</text>
+                <text textAlign="center">+1 TN per every 5' over 15'
+(Max 60')</text>
+                <text><b>Slug</b> +3 TN
+<b>Removable Choke</b> +2 TN
+<b>Choked</b> Free
+<b>Straight</b> Free</text>
+            </tr>
+        </table>
+        <text>1 A character can choose to craft a firearm to take the same kind of magazines from a preexisting Combat Shotguns. If the character does this, they do not have to add the TN to the firearm's total level, but the firearm must use the same caliber of ammunition that the corresponding magazine and firearm uses.</text>
+        <text textAlign="center">Table 22: Gunsmithing - Combat Shotgun
+        </text>
+        <header level="1">Combat Shotguns</header>
+        <text>   Combat Shotguns are almost exclusively in 12 Gauge, and are equipped with high capacity tubes. They will have straight barrels, and take advantage of combat sights and study stocks. Ranges are somewhat shorter, ranging from 45 to 50 feet. All Combat Shotguns are crafted with a straight barrel and a fixed stock.
+        </text>
+        <table>
+            <tr>
+                <header textAlign="center">Type</header>
+                <header textAlign="center">Magazine</header>
+                <header textAlign="center">Caliber</header>
+                <header textAlign="center">Range</header>
+            </tr>
+            <tr>
+                <text textAlign="center">SxS Double Shot</text>
+                <text textAlign="center">Internal: 2</text>
+                <text textAlign="center">1st Category</text>
+                <text textAlign="center">+1 TN per every 5' over 15'
+(Max 60')</text>
+            </tr>
+            <tr>
+                <text textAlign="center">OxU Double Shot</text>
+                <text textAlign="center">Internal: 2</text>
+                <text textAlign="center">1st Category</text>
+                <text textAlign="center">+1 TN per every 5' over 15'
+(Max 60')</text>
+            </tr>
+            <tr>
+                <text textAlign="center">Lever Action¹</text>
+                <text textAlign="center">Internal: +1 TN for every
+round over 4 (Max 7)
+Box Mag: +2 TN for every
+round over 3 (Max 10)</text>
+                <text textAlign="center">1st Category</text>
+                <text textAlign="center">+1 TN per every 5' over 15'
+(Max 60')</text>
+            </tr>
+            <tr>
+                <text textAlign="center">Pump Action¹</text>
+                <text textAlign="center">Internal: +1 TN for every
+round over 3 (Max 9)
+Box Mag: +2 TN for every
+round over 3 (Max 10)</text>
+                <text textAlign="center">1st Category</text>
+                <text textAlign="center">+1 TN per every 5' over 15'
+(Max 60')</text>
+            </tr>
+            <tr>
+                <text textAlign="center">Self Loading¹</text>
+                <text textAlign="center">Internal: +1 TN for every
+round over 4 (Max 9)
+Box Mag: +2 TN for every
+round over 3 (Max 20)</text>
+                <text textAlign="center">1st Category</text>
+                <text textAlign="center">+1 TN per every 5' over 15'
+(Max 60')</text>
+            </tr>
+        </table>
+        <text>1 A character can choose to craft a firearm to take the same kind of magazines from a preexisting Combat Shotguns. If the character does this, they do not have to add the TN to the firearm's total level, but the firearm must use the same caliber of ammunition that the corresponding magazine and firearm uses.</text>
+        <text textAlign="center">Table 23: Gunsmithing - Combat Shotgun
+        </text>
+    </item>
+</body>

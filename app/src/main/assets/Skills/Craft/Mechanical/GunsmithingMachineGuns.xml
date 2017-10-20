@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header level="1">Light Machine Guns</header>
+        <text>   Light Machine Guns are machine guns that fire an intermediate rifle cartridge, usually from a belt or a high capacity Magazine. They are almost always equipped with bipods and stocks, to help steady the firearm in its automatic fire. Because of their intended use, they rarely have a semi-automatic rate of fire. Their ranges can vary, but are generally between 80-120'. When crafting a weapon with automatic fire, the creator can choose what rate of fire the automatic fires at.
+        </text>
+        <table>
+            <tr>
+                <header textAlign="center">Type</header>
+                <header textAlign="center">Magazine</header>
+                <header textAlign="center">Caliber</header>
+                <header textAlign="center">Range</header>
+                <header>Firing Modes</header>
+            </tr>
+            <tr>
+                <text textAlign="center">LMG¹</text>
+                <text textAlign="center">Linked: +5 TN
+Box Mag: +1 TN for every 5
+rounds over 25 (Max 100)</text>
+                <text textAlign="center">+2 TN per category
+(7th-9th category)</text>
+                <text textAlign="center">+3 TN per every 5' over
+85' (Max 150')</text>
+                <text><b>Semi-automatic</b> +10 TN
+<b>Fully Automatic</b> Free
+<b>2 Round Burst</b> +11 TN
+<b>3 Round Burst</b> +12 TN</text>
+            </tr>
+        </table>
+        <text>1 A character can choose to craft a firearm to take the same kind of magazines from a preexisting Marksman Rifles. If the character does this, they do not have to add the TN to the firearm's total level, but the firearm must use the same caliber of ammunition that the corresponding magazine and firearm uses. A character can also choose to have a Light Machine Gun accept magazines as well as linked ammunition. This increases the TN by 10.</text>
+        <text textAlign="center">Table 24: Gunsmithing - Light Machine Gun
+        </text>
+        <header level="1">General Purpose Machine Guns</header>
+        <text>   General Purpose Machine Guns are machine guns that fire either an intermediate or full powered rifle cartridge, usually from a belt or a high capacity Magazine. They are almost always equipped with bipods and stocks, to help steady the firearm in its automatic fire. Because of their intended use, they rarely have a semi-automatic rate of fire. Their ranges can vary, but are generally between 100 to 150 feet. When crafting a weapon with automatic fire, the creator can choose what rate of fire the automatic fires at.
+        </text>
+        <table>
+            <tr>
+                <header textAlign="center">Type</header>
+                <header textAlign="center">Magazine</header>
+                <header textAlign="center">Caliber</header>
+                <header textAlign="center">Range</header>
+                <header>Firing Modes</header>
+            </tr>
+            <tr>
+                <text textAlign="center">GPMG¹</text>
+                <text textAlign="center">Linked: +4 TN
+Box Mag: +2 TN for every 5
+rounds over 25 (Max 100)</text>
+                <text textAlign="center">+2 TN per category
+(7th-9th category)</text>
+                <text textAlign="center">+3 TN per every 5'
+over 85' (Max 150')</text>
+                <text><b>Semi-automatic</b> +13 TN
+<b>Fully Automatic</b> Free
+<b>2 Round Burst</b> +14 TN
+<b>3 Round Burst</b> +15 TN</text>
+            </tr>
+        </table>
+        <text>1 A character can choose to craft a firearm to take the same kind of magazines from a preexisting Marksman Rifles. If the character does this, they do not have to add the TN to the firearm's total level, but the firearm must use the same caliber of ammunition that the corresponding magazine and firearm uses. A character can also choose to have a General Purpose Machine Gun accept magazines as well as Linked ammunition. This increases the TN by 14.</text>
+        <text textAlign="center">Table 25: Gunsmithing - General Purpose Machine Gun
+        </text>
+    </item>
+</body>

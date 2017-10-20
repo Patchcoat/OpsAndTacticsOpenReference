@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header level="1">AR-15 Building</header>
+        <text>   The AR pattern rifle is one of the most versatile rifles to exist, with tons of accessories made for it. Because of its design, it is very easy to switch out large parts, and design a customized, personal rifle.</text>
+        <text>   An AR is comprised of two major parts; an Upper Receiver, which includes the barrel and chamber, bolt, gas system, tactical rails, optics and optics mount. Because this part has the actual barrel and chamber, this is the part that actually determines the rifle's caliber, and a Lower Receiver, which encompasses the magazine well, the frame, the stock, and the trigger group.
+        </text>
+        <header level="2">Lower Receiver Types</header>
+        <text><b>Pistol</b> A pistol lower receiver is a stripped down receiver, containing the bare necessities for a fully functioning firearm, but not much else. Pistol lowers are equipped with a pistol grip, and do not have any way of mounting a stock to the frame. These lowers are generally marketed at the civilian market, and usually come in Semi-automatic only. Pistol Lower Receivers are considered Machine Pistols for the purpose of feats.
+        </text>
+        <text><b>Carbine</b> A carbine rifle lower receiver is a receiver that has a synthetic stock for weight, while still providing some support. These are the most common AR lowers, as they can be swapped out for a different stock, or used bare with a carbine length upper receiver. These lowers are the lowers found on the M4A1 and M4, and can be purchased with 3 round burst or Fully automatic firing modes (but not both), in addition to semi-automatic, or semi-automatic only.
+        </text>
+        <text><b>Assault Rifle</b> An assault rifle lower receiver is a receiver with the standard fixed stock. They are balanced for accuracy, but lack a bit on the weight aspect. These Lowers are the lowers found on the M16 Series of rifles, and can be purchased with 3 round burst or Fully automatic firing modes(But not both), in addition to semi-automatic, or semi-automatic only.
+        </text>
+        <text><b>Designated Marksman Rifle</b> A Designated Marksman Rifle lower receiver is a receiver that has been optimized for long range shooting, including a Precision Upgrade and either a synthetic stock, or a fixed stock. Because of their nature and intended purpose, they are usually semi-automatic only.
+        </text>
+        <table>
+            <tr>
+                <header>Lower Size</header>
+                <header textAlign="center">Upg</header>
+                <header textAlign="center">RoF</header>
+                <header textAlign="center">Sz.</header>
+                <header textAlign="center">Wt</header>
+                <header textAlign="center">Cost</header>
+                <header textAlign="center">Restr</header>
+                <header textAlign="center">Included Upgrades</header>
+            </tr>
+            <tr>
+                <text>Pistol</text>
+                <text textAlign="center">F</text>
+                <text textAlign="center">Semi</text>
+                <text textAlign="center">M</text>
+                <text textAlign="center">32</text>
+                <text textAlign="center">10</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">Permanent pistol grip</text>
+            </tr>
+            <tr>
+                <text>Carbine</text>
+                <text textAlign="center">F</text>
+                <text textAlign="center">Semi</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">40</text>
+                <text textAlign="center">13</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">Synthetic stock</text>
+            </tr>
+            <tr>
+                <text>Carbine</text>
+                <text textAlign="center">F</text>
+                <text textAlign="center">Semi/3RB</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">40</text>
+                <text textAlign="center">26</text>
+                <text textAlign="center">M&amp;P</text>
+                <text textAlign="center">Synthetic stock</text>
+            </tr>
+            <tr>
+                <text>Carbine</text>
+                <text textAlign="center">F</text>
+                <text textAlign="center">Semi/Auto(F)</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">40</text>
+                <text textAlign="center">28</text>
+                <text textAlign="center">M&amp;P</text>
+                <text textAlign="center">Synthetic stock</text>
+            </tr>
+            <tr>
+                <text>Assault Rifle</text>
+                <text textAlign="center">F</text>
+                <text textAlign="center">Semi</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">48</text>
+                <text textAlign="center">12</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">Fixed stock</text>
+            </tr>
+            <tr>
+                <text>Assault Rifle</text>
+                <text textAlign="center">F</text>
+                <text textAlign="center">Semi/3RB</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">48</text>
+                <text textAlign="center">25</text>
+                <text textAlign="center">M&amp;P</text>
+                <text textAlign="center">Fixed stock</text>
+            </tr>
+            <tr>
+                <text>Assault Rifle</text>
+                <text textAlign="center">F</text>
+                <text textAlign="center">Semi/Auto(F)</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">48</text>
+                <text textAlign="center">27</text>
+                <text textAlign="center">M&amp;P</text>
+                <text textAlign="center">Fixed stock</text>
+            </tr>
+            <tr>
+                <text>Designated Marksman Rifle</text>
+                <text textAlign="center">F</text>
+                <text textAlign="center">Semi</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">52</text>
+                <text textAlign="center">30</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">Precision upgrade, Fixed stock</text>
+            </tr>
+            <tr>
+                <text>Designated Marksman Rifle</text>
+                <text textAlign="center">F</text>
+                <text textAlign="center">Semi/3RB</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">52</text>
+                <text textAlign="center">45</text>
+                <text textAlign="center">M&amp;P</text>
+                <text textAlign="center">Precision upgrade, Fixed stock</text>
+            </tr>
+        </table>
+        <text textAlign="center">Table 29: AR15 Lower Receivers
+        </text>
+        <header level="2">Upper Receiver Types</header>
+        <text><b>Pistol</b> A pistol upper receiver is a receiver intended to be paired with a pistol lower. They typically have barrels about 6-7” long, which limits the gun's ability to be effectively engage in any long range fights. These are also mated with Carbine Rifle lowers, for those who need stabilized, high firepower, in a small configuration, and accuracy at longer ranges is not an issue. Because of its length, it skirts the penalties that are associated with using a rifle adjacently to someone.
+        </text>
+        <text><b>CQB Rifle</b> This upper has a barrel length between 10-12”, primarily used by special operations forces in urban, indoor, or other tight quarter locations. They have a good balance between maneuverability and range, but are still easily outclassed by the shortest of carbines. They go well with Carbine lowers, to make a light, effective rifle with good firepower. Because of its length, it skirts the penalties that are associated with using a rifle adjacently to someone.
+        </text>
+        <text><b>Carbine</b> This upper has a barrel length between 14-16”, and is the general size for soldiers who don't need a full sized rifle, such as those in vehicles. It is a good compromise between range and maneuverability, being the largest upper that doesn't receive penalties for fighting adjacent to an enemy. They are normally paired with Carbine lowers, or less often, Assault Rifle Uppers.
+        </text>
+        <text><b>Assault Rifle</b> At 18-20”, this upper has good range, at the loss of weight and maneuverability. These rifles are very common and popular with hunters, action shooter sport enthusiast, and multiple law enforcement agencies. The are commonly paired with Carbine Rifle lowers and Assault Rifle Lowers, but have also been paired with Designated Marksman Rifle lowers.</text>
+        <text>   All Upper Receivers do not come with any magazines.</text>
+        <text>   The X Products Can-Cannon uses 5.56 blanks to fire 12 oz soda cans. This weapon can also be used to launch thrown Smoke, Tear gas, Stun and Sting Grenades. This weapon must be used with blanks only. Using any other rounds in the Can-Cannon destroys the weapon. This weapon must be loaded with a new can or grenade after each shot, which takes 3 combat points. The Can-Cannon can not take advantage of any magnified optic.</text>
+        <text>   The Noveske Diplomat and SPR uppers come with the Heavy Barrel and Match Barrel upgrades.
+        </text>
+        <table>
+            <tr>
+                <header>Weapon</header>
+                <header textAlign="center">Caliber</header>
+                <header textAlign="center">Magazine</header>
+                <header textAlign="center">Upg</header>
+                <header textAlign="center">Rng</header>
+                <header textAlign="center">Upper</header>
+                <header textAlign="center">Sz</header>
+                <header textAlign="center">Wt</header>
+                <header textAlign="center">Cost</header>
+                <header textAlign="center">Err</header>
+                <header textAlign="center">Restr</header>
+            </tr>
+            <tr>
+                <text>Alexander Arms Incursion</text>
+                <text textAlign="center">6.5mm Grendel</text>
+                <text textAlign="center">Box:10|15:2/25:3</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">70'</text>
+                <text textAlign="center">Assault</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">40</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>Alexander Arms Overwatch A3</text>
+                <text textAlign="center">6.5mm Grendel</text>
+                <text textAlign="center">Box:10|15:2/25:3</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">90'</text>
+                <text textAlign="center">Assault</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">90</text>
+                <text textAlign="center">46</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>Del-Ton AR-15 Flat Top</text>
+                <text textAlign="center">5.56x45mm .223 Rem</text>
+                <text textAlign="center">M4/M16
+Box:5|10|20|30:1/100:8</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">75'</text>
+                <text textAlign="center">Assault</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">100</text>
+                <text textAlign="center">13</text>
+                <text textAlign="center">20%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>Del-Ton AR-15 Mil-Spec A2</text>
+                <text textAlign="center">5.56x45mm .223 Rem</text>
+                <text textAlign="center">M4/M16
+Box:5|10|20|30:1/100:8</text>
+                <text textAlign="center">B</text>
+                <text textAlign="center">75'</text>
+                <text textAlign="center">Assault</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">100</text>
+                <text textAlign="center">11</text>
+                <text textAlign="center">20%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>Del-Ton 16” Rifle Kit</text>
+                <text textAlign="center">5.56x45mm .223 Rem</text>
+                <text textAlign="center">M4/M16
+Box:5|10|20|30:1/100:8</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">60'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">11</text>
+                <text textAlign="center">20%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>DPMS .22 LR Assembly</text>
+                <text textAlign="center">.22 LR</text>
+                <text textAlign="center">AR .22LR Box:26:1/50:4</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">45'</text>
+                <text textAlign="center">Assault</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">100</text>
+                <text textAlign="center">16</text>
+                <text textAlign="center">15%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>DPMS Oracle 5.56 Kit</text>
+                <text textAlign="center">5.56x45mm .223 Rem</text>
+                <text textAlign="center">M4/M16
+Box:5|10|20|30:1/100:8</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">75'</text>
+                <text textAlign="center">Assault</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">100</text>
+                <text textAlign="center">18</text>
+                <text textAlign="center">5%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>Noveske Diplomat</text>
+                <text textAlign="center">6.8 Remington SPC</text>
+                <text textAlign="center">AR 6.8 Box:10|20:2/30:4</text>
+                <text textAlign="center">B O 4T</text>
+                <text textAlign="center">60'</text>
+                <text textAlign="center">Pistol</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">40</text>
+                <text textAlign="center">80</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>Noveske Light GPR</text>
+                <text textAlign="center">5.56x45mm .223 Rem</text>
+                <text textAlign="center">M4/M16
+Box:5|10|20|30:1/100:8</text>
+                <text textAlign="center">B O 4T</text>
+                <text textAlign="center">70'</text>
+                <text textAlign="center">CQB</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">62</text>
+                <text textAlign="center">68</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">R</text>
+            </tr>
+            <tr>
+                <text>Noveske Light Recce</text>
+                <text textAlign="center">5.56x45mm .223 Rem</text>
+                <text textAlign="center">M4/M16
+Box:5|10|20|30:1/100:8</text>
+                <text textAlign="center">B O 4T</text>
+                <text textAlign="center">85'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">70</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">R</text>
+            </tr>
+            <tr>
+                <text>Noveske Light Recce</text>
+                <text textAlign="center">.300 BLK</text>
+                <text textAlign="center">M4/M16
+Box:5|10|20|30:1/100:8</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">75'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">35</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">R</text>
+            </tr>
+            <tr>
+                <text>Noveske Recon</text>
+                <text textAlign="center">6.8 Remington SPC</text>
+                <text textAlign="center">AR 6.8 Box:10|20:2/30:4</text>
+                <text textAlign="center">B O 4T</text>
+                <text textAlign="center">90'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">75</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>Noveske Rogue Hunter</text>
+                <text textAlign="center">.300 BLK</text>
+                <text textAlign="center">M4/M16
+Box:5|10|20|30:1/100:8</text>
+                <text textAlign="center">B O 4T</text>
+                <text textAlign="center">80'</text>
+                <text textAlign="center">Assault</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">65</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">R</text>
+            </tr>
+            <tr>
+                <text>Noveske SPR</text>
+                <text textAlign="center">6.8 Remington SPC</text>
+                <text textAlign="center">AR 6.8 Box:10|20:2/30:4</text>
+                <text textAlign="center">B O 4T</text>
+                <text textAlign="center">120'</text>
+                <text textAlign="center">Assault</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">100</text>
+                <text textAlign="center">140</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>Olympic Arms 10mm</text>
+                <text textAlign="center">10mm Auto</text>
+                <text textAlign="center">Box:18:2</text>
+                <text textAlign="center">B</text>
+                <text textAlign="center">65'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">32</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>Olympic Arms .40 S&amp;W</text>
+                <text textAlign="center">.40 S&amp;W</text>
+                <text textAlign="center">Box:20:2</text>
+                <text textAlign="center">B</text>
+                <text textAlign="center">60'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">32</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>Olympic Arms .45 ACP</text>
+                <text textAlign="center">.45 ACP</text>
+                <text textAlign="center">Box:18:2</text>
+                <text textAlign="center">B</text>
+                <text textAlign="center">65'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">32</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>PWA PDW AR57</text>
+                <text textAlign="center">5.7x28mm</text>
+                <text textAlign="center">P90 Box:30:1/50:2</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">60'</text>
+                <text textAlign="center">CQB</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">62</text>
+                <text textAlign="center">20</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">R</text>
+            </tr>
+            <tr>
+                <text>PWA PDW AR57</text>
+                <text textAlign="center">5.7x28mm</text>
+                <text textAlign="center">P90 Box:30:1/50:2</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">80'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">30</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">R</text>
+            </tr>
+            <tr>
+                <text>RRA .458 SOCOM</text>
+                <text textAlign="center">.458 SOCOM</text>
+                <text textAlign="center">M4/M16 Box:10:1</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">72'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">45</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>RRA CAR-47 A4</text>
+                <text textAlign="center">7.62x39mm</text>
+                <text textAlign="center">AK-47
+Box:10|20|30:1/40:2/75:5</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">75'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">50</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>RA CAR-6.8 SPC A2</text>
+                <text textAlign="center">6.8 Remington SPC</text>
+                <text textAlign="center">AR 6.8 Box:10|20:2/30:4</text>
+                <text textAlign="center">B</text>
+                <text textAlign="center">65'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">42</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>RRA CAR-6.8 SPC A2</text>
+                <text textAlign="center">6.8 Remington SPC</text>
+                <text textAlign="center">AR 6.8 Box:10|20:2/30:4</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">65'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">42</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>RRA CAR-6.8 SPC A2</text>
+                <text textAlign="center">6.8 Remington SPC</text>
+                <text textAlign="center">AR 6.8 Box:10|20:2/30:4</text>
+                <text textAlign="center">B</text>
+                <text textAlign="center">85'</text>
+                <text textAlign="center">Assault</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">100</text>
+                <text textAlign="center">45</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>RRA LAR-6.8 SPC A2</text>
+                <text textAlign="center">6.8 Remington SPC</text>
+                <text textAlign="center">AR 6.8 Box:10|20:2/30:4</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">85'</text>
+                <text textAlign="center">Assault</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">100</text>
+                <text textAlign="center">45</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>RRA Pistol-9 A2</text>
+                <text textAlign="center">9x19mm</text>
+                <text textAlign="center">Uzi Box:20|32:1/50:2</text>
+                <text textAlign="center">B</text>
+                <text textAlign="center">40'</text>
+                <text textAlign="center">Pistol</text>
+                <text textAlign="center">M</text>
+                <text textAlign="center">40</text>
+                <text textAlign="center">31</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">R</text>
+            </tr>
+            <tr>
+                <text>RRA Pistol-9 A2</text>
+                <text textAlign="center">9x19mm</text>
+                <text textAlign="center">Uzi Box:20|32:1/50:2</text>
+                <text textAlign="center">B</text>
+                <text textAlign="center">40'</text>
+                <text textAlign="center">Pistol</text>
+                <text textAlign="center">M</text>
+                <text textAlign="center">40</text>
+                <text textAlign="center">31</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">R</text>
+            </tr>
+            <tr>
+                <text>RRA Pistol-9 A4</text>
+                <text textAlign="center">9x19mm</text>
+                <text textAlign="center">Uzi Box:20|32:1/50:2</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">40'</text>
+                <text textAlign="center">Pistol</text>
+                <text textAlign="center">M</text>
+                <text textAlign="center">40</text>
+                <text textAlign="center">32</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>RRA CAR-9 A2</text>
+                <text textAlign="center">9x19mm</text>
+                <text textAlign="center">Uzi Box:20|32:1/50:2</text>
+                <text textAlign="center">B</text>
+                <text textAlign="center">55'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">25</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>RRA CAR-9 A4</text>
+                <text textAlign="center">9x19mm</text>
+                <text textAlign="center">Uzi Box:20|32:1/50:2</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">55'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">27</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>RRA Mid Length-9 A2</text>
+                <text textAlign="center">9x19mm</text>
+                <text textAlign="center">Uzi Box:20|32:1/50:2</text>
+                <text textAlign="center">B</text>
+                <text textAlign="center">70'</text>
+                <text textAlign="center">Assault</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">100</text>
+                <text textAlign="center">28</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>RRA Mid Length-9 A4</text>
+                <text textAlign="center">9x19mm</text>
+                <text textAlign="center">Uzi Box:20|32:1/50:2</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">70'</text>
+                <text textAlign="center">Assault</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">100</text>
+                <text textAlign="center">31</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>RRA Pistol-15 A2</text>
+                <text textAlign="center">5.56x45mm .223 Rem</text>
+                <text textAlign="center">M4/M16
+Box:5|10|20|30:1/100:8</text>
+                <text textAlign="center">B</text>
+                <text textAlign="center">50'</text>
+                <text textAlign="center">Pistol</text>
+                <text textAlign="center">M</text>
+                <text textAlign="center">40'</text>
+                <text textAlign="center">30</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">R</text>
+            </tr>
+            <tr>
+                <text>RRA Pistol-15 A4</text>
+                <text textAlign="center">5.56x45mm .223 Rem</text>
+                <text textAlign="center">M4/M16
+Box:5|10|20|30:1/100:8</text>
+                <text textAlign="center">B O</text>
+                <text textAlign="center">50'</text>
+                <text textAlign="center">Pistol</text>
+                <text textAlign="center">M</text>
+                <text textAlign="center">40</text>
+                <text textAlign="center">30</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">R</text>
+            </tr>
+            <tr>
+                <text>S&amp;W M&amp;P15PSX</text>
+                <text textAlign="center">5.56x45mm .223 Rem</text>
+                <text textAlign="center">M4/M16
+Box:5|10|20|30:1/100:8</text>
+                <text textAlign="center">B O 4T</text>
+                <text textAlign="center">80'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">38</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>S&amp;W M&amp;P15R</text>
+                <text textAlign="center">5.45x39mm</text>
+                <text textAlign="center">Box:30:2</text>
+                <text textAlign="center">B O 4T</text>
+                <text textAlign="center">75'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">45</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>Taclite T1</text>
+                <text textAlign="center">.50 BMG</text>
+                <text textAlign="center">Int:1</text>
+                <text textAlign="center">B O 4T</text>
+                <text textAlign="center">190'</text>
+                <text textAlign="center">Assault</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">192</text>
+                <text textAlign="center">75</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>Taclite T1</text>
+                <text textAlign="center">.338 Lapua</text>
+                <text textAlign="center">Int:1</text>
+                <text textAlign="center">B O 4T</text>
+                <text textAlign="center">120'</text>
+                <text textAlign="center">Assault</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">192</text>
+                <text textAlign="center">75</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>Taclite T2</text>
+                <text textAlign="center">.50 BMG</text>
+                <text textAlign="center">AW50 Box:5:12</text>
+                <text textAlign="center">B O 4T</text>
+                <text textAlign="center">190'</text>
+                <text textAlign="center">Assault</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">240</text>
+                <text textAlign="center">125</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>T14</text>
+                <text textAlign="center">.410 Bore</text>
+                <text textAlign="center">Box:10:2</text>
+                <text textAlign="center">B</text>
+                <text textAlign="center">45'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">72</text>
+                <text textAlign="center">30</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+            <tr>
+                <text>X Products Can-Cannon</text>
+                <text textAlign="center">2d6 Bludgoning</text>
+                <text textAlign="center">M4/M16
+Box:5|10|20|30:1/100:8</text>
+                <text textAlign="center">O</text>
+                <text textAlign="center">45'</text>
+                <text textAlign="center">Carbine</text>
+                <text textAlign="center">L</text>
+                <text textAlign="center">70</text>
+                <text textAlign="center">16</text>
+                <text textAlign="center">0%</text>
+                <text textAlign="center">L</text>
+            </tr>
+        </table>
+        <text textAlign="center">Table 30/31: AR15 Upper Receivers
+        </text>
+    </item>
+</body>

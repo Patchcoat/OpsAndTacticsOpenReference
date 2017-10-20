@@ -78,66 +78,66 @@ rounds over 4 (Max 8 rounds)</text>
                 <header textAlign="center">Range</header>
             </tr>
             <tr>
-                <text>DAO Revolver</text>
-                <text>Cylinder: 6 for 2nd-3rd category
+                <text textAlign="center">DAO Revolver</text>
+                <text textAlign="center">Cylinder: 6 for 2nd-3rd category
 5 for 5th category</text>
-                <text>+3 TN per category
+                <text textAlign="center">+3 TN per category
 (2nd-4th category)</text>
-                <text>+2 TN per every 5' over
+                <text textAlign="center">+2 TN per every 5' over
 10' (Max 35')</text>
             </tr>
             <tr>
-                <text>Single Action Revolver</text>
-                <text>Cylinder: 6 for 2nd-3rd category
+                <text textAlign="center">Single Action Revolver</text>
+                <text textAlign="center">Cylinder: 6 for 2nd-3rd category
 5 for 4th category</text>
-                <text>+2 TN per category
+                <text textAlign="center">+2 TN per category
 (2nd-4th category)</text>
-                <text>+2 TN per every 5' over
+                <text textAlign="center">+2 TN per every 5' over
 10' (Max 35')</text>
             </tr>
             <tr>
-                <text>Double Action Revolver</text>
-                <text>Cylinder: 6 for 2nd-3rd category
+                <text textAlign="center">Double Action Revolver</text>
+                <text textAlign="center">Cylinder: 6 for 2nd-3rd category
 5 for 4th category</text>
-                <text>+3 TN per category
+                <text textAlign="center">+3 TN per category
 (2nd-4th category)</text>
-                <text>+2 TN per every 5' over
+                <text textAlign="center">+2 TN per every 5' over
 10' (Max 35')</text>
             </tr>
             <tr>
-                <text>Single Action Pistol¹</text>
-                <text>Box Mag: +2 TN for every
+                <text textAlign="center">Single Action Pistol¹</text>
+                <text textAlign="center">Box Mag: +2 TN for every
 2 rounds over 6 (Max 12 Rounds)</text>
-                <text>+3 TN per category
+                <text textAlign="center">+3 TN per category
 (2nd-5th category)</text>
-                <text>+1 TN per every 5' over
+                <text> textAlign="center"+1 TN per every 5' over
 10' (Max 35')</text>
             </tr>
             <tr>
-                <text>DA/SA Pistol¹</text>
-                <text>Box Mag: +2 TN for every
+                <text textAlign="center">DA/SA Pistol¹</text>
+                <text textAlign="center">Box Mag: +2 TN for every
 2 rounds over 6 (Max 12 Rounds)</text>
-                <text>+4 TN per category
+                <text textAlign="center">+4 TN per category
 (2nd-5th category)</text>
-                <text>+1 TN per every 5' over
+                <text textAlign="center">+1 TN per every 5' over
 10' (Max 35')</text>
             </tr>
             <tr>
-                <text>DAO Pistol¹</text>
-                <text>Box Mag: +2 TN for every
+                <text textAlign="center">DAO Pistol¹</text>
+                <text textAlign="center">Box Mag: +2 TN for every
 2 rounds over 6 (Max 12 Rounds)</text>
-                <text>+3 TN per category
+                <text textAlign="center">+3 TN per category
 (2nd-5th category)</text>
-                <text>+1 TN per every 5' over
+                <text textAlign="center">+1 TN per every 5' over
 10' (Max 35')</text>
             </tr>
             <tr>
-                <text>Preset Action Pistol¹</text>
-                <text>Box Mag: +2 TN for every
+                <text textAlign="center">Preset Action Pistol¹</text>
+                <text textAlign="center">Box Mag: +2 TN for every
 2 rounds over 6 (Max 12 Rounds)</text>
-                <text>+5 TN per category
+                <text textAlign="center">+5 TN per category
 (2nd-5th category)</text>
-                <text>+1 TN per every 5' over
+                <text textAlign="center">+1 TN per every 5' over
 10' (Max 35')</text>
             </tr>
         </table>
@@ -155,69 +155,69 @@ rounds over 4 (Max 8 rounds)</text>
                 <header textAlign="center">Range</header>
             </tr>
             <tr>
-                <text>DAO Revolver</text>
-                <text>Cylinder: 7 for 2nd-3rd category
+                <text textAlign="center">DAO Revolver</text>
+                <text textAlign="center">Cylinder: 7 for 2nd-3rd category
 6 for 4th category
 5 for 5th category</text>
-                <text>+3 TN per category
+                <text textAlign="center">+3 TN per category
 (2nd-5th category)</text>
-                <text>+2 TN per every 5' over
+                <text textAlign="center">+2 TN per every 5' over
 10' (Max 35')</text>
             </tr>
             <tr>
-                <text>Single Action Revolver</text>
-                <text>Cylinder: 7 for 2nd-3rd category
+                <text textAlign="center">Single Action Revolver</text>
+                <text textAlign="center">Cylinder: 7 for 2nd-3rd category
 6 for 4th category
 5 for 5th category</text>
-                <text>+2 TN per category
+                <text textAlign="center">+2 TN per category
 (2nd-5th category)</text>
-                <text>+2 TN per every 5' over
+                <text textAlign="center">+2 TN per every 5' over
 10' (Max 35')</text>
             </tr>
             <tr>
-                <text>Double Action Revolver</text>
-                <text>Cylinder: 7 for 2nd-3rd category
+                <text textAlign="center">Double Action Revolver</text>
+                <text textAlign="center">Cylinder: 7 for 2nd-3rd category
 6 for 4th category
 5 for 5th category</text>
-                <text>+3 TN per category
+                <text textAlign="center">+3 TN per category
 (2nd-5th category)</text>
-                <text>+2 TN per every 5' over
+                <text textAlign="center">+2 TN per every 5' over
 10' (Max 35')</text>
             </tr>
             <tr>
-                <text>Single Action Pistol¹</text>
-                <text>Box Mag: +1 TN for every 2
+                <text textAlign="center">Single Action Pistol¹</text>
+                <text textAlign="center">Box Mag: +1 TN for every 2
 rounds over 6 (Max 20 Rounds)</text>
-                <text>+3 TN per category
+                <text textAlign="center">+3 TN per category
 (2nd-5th category)</text>
-                <text>+1 TN per every 5' over
+                <text textAlign="center">+1 TN per every 5' over
 10' (Max 35')</text>
             </tr>
             <tr>
-                <text>DA/SA Pistol¹</text>
-                <text>Box Mag: +1 TN for every 2
+                <text textAlign="center">DA/SA Pistol¹</text>
+                <text textAlign="center">Box Mag: +1 TN for every 2
 rounds over 6 (Max 20 Rounds)</text>
-                <text>+4 TN per category
+                <text textAlign="center">+4 TN per category
 (2nd-5th category)</text>
-                <text>+1 TN per every 5' over
+                <text textAlign="center">+1 TN per every 5' over
 10' (Max 35')</text>
             </tr>
             <tr>
-                <text>DAO Pistol¹</text>
-                <text>Box Mag: +1 TN for every 2
+                <text textAlign="center">DAO Pistol¹</text>
+                <text textAlign="center">Box Mag: +1 TN for every 2
 rounds over 6 (Max 20 Rounds)</text>
-                <text>+3 TN per category
+                <text textAlign="center">+3 TN per category
 (2nd-5th category)</text>
-                <text>+1 TN per every 5' over
+                <text textAlign="center">+1 TN per every 5' over
 10' (Max 35')</text>
             </tr>
             <tr>
-                <text>Preset Action Pistol¹</text>
-                <text>Box Mag: +1 TN for every 2
+                <text textAlign="center">Preset Action Pistol¹</text>
+                <text textAlign="center">Box Mag: +1 TN for every 2
 rounds over 6 (Max 20 Rounds)</text>
-                <text>+5 TN per category
+                <text textAlign="center">+5 TN per category
 (2nd-5th category)</text>
-                <text>+1 TN per every 5' over
+                <text textAlign="center">+1 TN per every 5' over
 10' (Max 35')</text>
             </tr>
         </table>
@@ -316,7 +316,7 @@ rounds over 5 (Max 30)</text>
                 <header textAlign="center">Magazine</header>
                 <header textAlign="center">Caliber</header>
                 <header textAlign="center">Range</header>
-                <header textAlign="center">Firing Modes</header>
+                <header>Firing Modes</header>
             </tr>
             <tr>
                 <text textAlign="center">Open Bolt Machine Pistol¹</text>
@@ -326,7 +326,7 @@ round over 15 (Max 40)</text>
 (2nd-5th category)</text>
                 <text textAlign="center">+1 TN for every 5'
 over 15' (Max 45')</text>
-                <text textAlign="center"><b>Semi-automatic</b> +8 TN
+                <text><b>Semi-automatic</b> +8 TN
 <b>Fully Automatic</b> Free
 <b>2 Round Burst</b> +10 TN
 <b>3 Round Burst</b> +12 TN</text>
@@ -339,7 +339,7 @@ round over 15 (Max 40)</text>
 (2nd-5th category)</text>
                 <text textAlign="center">+1 TN for every 5'
 over 15' (Max 45')</text>
-                <text textAlign="center"><b>Semi-automatic</b> Free
+                <text><b>Semi-automatic</b> Free
 <b>Fully Automatic</b> +7 TN
 <b>2 Round Burst</b> +12 TN
 <b>3 Round Burst</b> +13 TN</text>
