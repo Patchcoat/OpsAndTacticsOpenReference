@@ -206,7 +206,6 @@ public class Searchable extends AppCompatActivity {
                 Log.i("Link", linkResult);
                 Log.i("Type", typeResult);
                 items.add(new TextAssetLink(nameResult, linkResult, typeResult));
-                //TODO make it fill the actual page
             } while (cursor.moveToNext()); // Returns true or false
             cursor.close();
         } else {
