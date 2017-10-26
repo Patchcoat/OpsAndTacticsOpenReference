@@ -250,6 +250,7 @@ public class ListActivity extends AppCompatActivity {
         CustomListAdapter modeListAdapter = new CustomListAdapter(this, stringArray,
                 font, textColor, background);
         itemList.setAdapter(modeListAdapter);
+
         // Make items in the list clickable
         final List<TextAssetLink> finalItems = items;
         itemList.setOnItemClickListener(new OnItemClickListener() {

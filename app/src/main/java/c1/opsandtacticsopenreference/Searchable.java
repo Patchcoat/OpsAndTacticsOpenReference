@@ -9,6 +9,7 @@ import android.database.Cursor;
 import android.database.SQLException;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
+import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -21,13 +22,19 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Searchable extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "c1.opsandtacticsopenrefernece.MESSAGE";
+    public static final String EXTRA_MESSAGE2 = "c1.opsandtacticsopenrefernece.MESSAGE2";
 
     LinearLayout linearLayout = null;
     String bodyFont;
@@ -69,13 +76,6 @@ public class Searchable extends AppCompatActivity {
         }catch(SQLException sqle){
 
             throw sqle;
-        }
-
-        // Get the intent, verify the action and get the query
-        Intent intent = getIntent();
-        if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
-            String query = intent.getStringExtra(SearchManager.QUERY);
-            Search(query);
         }
     }
 
@@ -167,28 +167,45 @@ public class Searchable extends AppCompatActivity {
         // Change the background color of the most parent layout
         linearLayout = (LinearLayout) findViewById(R.id.TopLevelLayout);
         linearLayout.setBackgroundColor(altBackground);
+
+        // Get the intent, verify the action and get the query
+        if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
+            String query = intent.getStringExtra(SearchManager.QUERY);
+            Search(query);
+        }
     }
 
     // preform the search
     private void Search(String query){
         Log.i("Search", query);
         Cursor cursor = db.search(query);
-
+        List<TextAssetLink> items = new ArrayList<>();
         // Only process a non-null cursor with rows.
         if (cursor != null && cursor.getCount() > 0) {
             // You must move the cursor to the first item.
             cursor.moveToFirst();
-            int index;
-            String result;
+            int nameIndex;
+            int linkIndex;
+            int typeIndex;
+            String nameResult;
+            String linkResult;
+            String typeResult;
             // Iterate over the cursor, while there are entries.
             do {
                 // Don't guess at the column index.
                 // Get the index for the named column.
-                index = cursor.getColumnIndex("page_name");
+                nameIndex = cursor.getColumnIndex("page_name");
+                linkIndex = cursor.getColumnIndex("page_link");
+                typeIndex = cursor.getColumnIndex("page_type");
                 // Get the value from the column for the current cursor.
-                result = cursor.getString(index);
+                nameResult = cursor.getString(nameIndex);
+                linkResult = cursor.getString(linkIndex);
+                typeResult = cursor.getString(typeIndex);
                 // Add result to what's already in the text view.
-                Log.i("result", result);
+                Log.i("Name", nameResult);
+                Log.i("Link", linkResult);
+                Log.i("Type", typeResult);
+                items.add(new TextAssetLink(nameResult, linkResult, typeResult));
                 //TODO make it fill the actual page
             } while (cursor.moveToNext()); // Returns true or false
             cursor.close();
@@ -196,6 +213,53 @@ public class Searchable extends AppCompatActivity {
             // Do nothing
         }
         db.close();
+
+        linearLayout = (LinearLayout) findViewById(R.id.parentLayout);
+
+        // List View
+        final ListView itemList = new ListView(this);
+
+        // because the custom adapter works with an Array list but not a List
+        ArrayList<TextAssetLink> stringArray = new ArrayList<TextAssetLink>(items);
+
+        // formatting
+        String fontFormat = bodyFont;
+        Typeface font = Typeface.createFromAsset(
+                getAssets(),
+                "font/"+fontFormat);
+        CustomListAdapter modeListAdapter = new CustomListAdapter(this, stringArray,
+                font, textColor, background);
+        itemList.setAdapter(modeListAdapter);
+
+        // Make items in the list clickable
+        final List<TextAssetLink> finalItems = items;
+        itemList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position,
+                                    long id) {
+                Intent intent = null;
+                switch(finalItems.get(position).AssetType()){
+                    case "xml":
+                        intent = new Intent(view.getContext(), XMLActivity.class);
+                        break;
+                    case "list":
+                        intent = new Intent(view.getContext(), c1.opsandtacticsopenreference.ListActivity.class);
+                        break;
+                    case "feat":
+                        intent = new Intent(view.getContext(), FeatActivity.class);
+                        break;
+                    default:
+                }
+                if (intent != null) {
+                    String page = new String(finalItems.get(position).AssetLink());
+                    String name = new String(finalItems.get(position).Text());
+                    intent.putExtra(EXTRA_MESSAGE, page);
+                    intent.putExtra(EXTRA_MESSAGE2, name);
+                    startActivity(intent);
+                }
+            }
+        });
+        linearLayout.addView(itemList);
     }
 
 

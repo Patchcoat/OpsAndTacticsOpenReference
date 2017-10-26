@@ -164,7 +164,7 @@ public class DataBaseHelper extends SQLiteOpenHelper{
     }
 
     public Cursor search (String searchString) {
-        String[] columns = new String[]{PAGE_NAME};
+        String[] columns = new String[]{PAGE_NAME, PAGE_LINK, PAGE_TYPE};
         searchString = "%" + searchString + "%";
         String where = PAGE_NAME + " LIKE ?";
         String[]whereArgs = new String[]{searchString};
