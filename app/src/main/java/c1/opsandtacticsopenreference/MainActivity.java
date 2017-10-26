@@ -179,6 +179,9 @@ public class MainActivity extends AppCompatActivity {
         tableBorder = ta.getColor(4, Color.DKGRAY);
         boxBorder = ta.getColor(5, Color.WHITE);
 
+        if (bodyFont.isEmpty()){
+            bodyFont = "roboto.ttf";
+        }
         String fontFormat = bodyFont;
         Typeface font = Typeface.createFromAsset(
                 getAssets(),

@@ -31,9 +31,7 @@ public class DataBaseHelper extends SQLiteOpenHelper{
     private static final String TAG = "SearchDatabase";
 
 
-    private static String DB_NAME = "SearchDB.db";
-    private static final String FTS_VIRTUAL_TABLE = "FTS";
-    private static final int DATABASE_VERSION = 1;
+    private static String DB_NAME = "SearchDB";
 
     private static String PAGE_NAME = "page_name";
     private static String PAGE_LINK = "page_link";
@@ -116,7 +114,7 @@ public class DataBaseHelper extends SQLiteOpenHelper{
     private void copyDataBase() throws IOException{
 
         //Open your local db as the input stream
-        InputStream myInput = myContext.getAssets().open(DB_NAME);
+        InputStream myInput = myContext.getAssets().open(DB_NAME+".db");
 
         // Path to the just created empty db
         String outFileName = DB_PATH + DB_NAME;
@@ -139,11 +137,10 @@ public class DataBaseHelper extends SQLiteOpenHelper{
     }
 
     public void openDataBase() throws SQLException{
-
         //Open the database
         String myPath = DB_PATH + DB_NAME;
         myDataBase = SQLiteDatabase.openDatabase(myPath, null, SQLiteDatabase.OPEN_READONLY);
-
+        Log.i("Database Open", "");
     }
 
     @Override
@@ -167,9 +164,9 @@ public class DataBaseHelper extends SQLiteOpenHelper{
     }
 
     public Cursor search (String searchString) {
-        String[] columns = new String[]{DB_NAME};
+        String[] columns = new String[]{PAGE_NAME};
         searchString = "%" + searchString + "%";
-        String where = DB_NAME + " LIKE ?";
+        String where = PAGE_NAME + " LIKE ?";
         String[]whereArgs = new String[]{searchString};
 
         Cursor cursor = null;

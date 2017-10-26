@@ -172,7 +172,29 @@ public class Searchable extends AppCompatActivity {
     // preform the search
     private void Search(String query){
         Log.i("Search", query);
-        db.search(query);
+        Cursor cursor = db.search(query);
+
+        // Only process a non-null cursor with rows.
+        if (cursor != null && cursor.getCount() > 0) {
+            // You must move the cursor to the first item.
+            cursor.moveToFirst();
+            int index;
+            String result;
+            // Iterate over the cursor, while there are entries.
+            do {
+                // Don't guess at the column index.
+                // Get the index for the named column.
+                index = cursor.getColumnIndex("page_name");
+                // Get the value from the column for the current cursor.
+                result = cursor.getString(index);
+                // Add result to what's already in the text view.
+                Log.i("result", result);
+                //TODO make it fill the actual page
+            } while (cursor.moveToNext()); // Returns true or false
+            cursor.close();
+        } else {
+            // Do nothing
+        }
         db.close();
     }
 
