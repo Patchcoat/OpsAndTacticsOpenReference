@@ -144,43 +144,43 @@
       },
       {
         "text": "Disable Device (INT) Trained Only",
-        "link": "",
-        "type": ""
+        "link": "Skills/DisableDefice.xml",
+        "type": "xml"
       },
       {
         "text": "Drive (DEX)",
-        "link": "",
-        "type": ""
+        "link": "Skills/Drive.xml",
+        "type": "xml"
       },
       {
         "text": "Knowledge (INT) Trained Only",
-        "link": "",
-        "type": ""
+        "link": "Skills/Knowledge.xml",
+        "type": "xml"
       },
       {
         "text": "Linguistics (None) Trained Only",
-        "link": "",
-        "type": ""
+        "link": "Skills/Linguistics.xml",
+        "type": "xml"
       },
       {
         "text": "Perception (WIS)",
-        "link": "",
-        "type": ""
+        "link": "Skills/Perception.xml",
+        "type": "xml"
       },
       {
         "text": "Perform (CHA)",
-        "link": "",
-        "type": ""
+        "link": "Skills/Perform.xml",
+        "type": "xml"
       },
       {
         "text": "Pilot (DEX) Trained Only",
-        "link": "",
-        "type": ""
+        "link": "Skills/Pilot.xml",
+        "type": "xml"
       },
       {
         "text": "Presence (CHA)",
-        "link": "",
-        "type": ""
+        "link": "Skills/Presence.xml",
+        "type": "xml"
       },
       {
         "text": "Ride (DEX)",
