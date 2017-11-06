@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header>Computer Hacking</header>
+        <text>   Breaking into a secure computer or network is often called hacking. When a character hacks, they attempt to invade a site. A site is a virtual location containing files, data, or applications. A site can be as small as a single computer, or as large as a corporate network connecting computers and data archives all over the world—the important thing is that access to the site connects the user to everything within it. Some sites can be accessed via the internet; others are not connected to any outside network and can only be tapped into by a user who physically accesses a computer connected to the site.</text>
+        <text>   Every site is overseen by a system administrator—the person in charge of the site, and who maintains its security. Often, the system administrator is the only person with access to all of a site's functions and data. A site can have more than one system administrator; large sites have a system administrator on duty at all times. A character is the system administrator of their personal computer.</text>
+        <text>   When a character hacks into a site, the visit is called a session. Once a character stops accessing the site, the session is over. The character can go back to the site in the future; when they do, it is a new session. Several steps are required to hack into a site
+        </text>
+        <header level="1">Covering Tracks</header>
+        <text>   This step is optional. By making a Technology Use check [TN20], a character can alter their identifying information. This imposes a −5 penalty on any attempt made to identify the character if their activity is detected.
+        </text>
+        <header level="1">Access the Site</header>
+        <text><b>Physical Access</b> A character gains physical access to the computer or a computer connected to the site. If the site being hacked is not connected to the internet, this is probably the only way a character can access it. A variety of skill checks may be required depending on the method used to gain access.
+        </text>
+        <text><b>Internet Access</b> Reaching a site over the net requires two Technology Use checks. The first check [TN10] is needed to find the site on the net. The second is a check to defeat computer security. Once a character has succeeded in both checks, the character has accessed the site.
+        </text>
+        <header level="1">Locate What You're Looking For</header>
+        <text>   To find the data (or application, or remote device) the character wants, make a Technology Use check. See Find File under the skill description.
+        </text>
+        <header level="1">Defeat File Security</header>
+        <text>   Many networks have additional file security. If that's the case, the character needs to make another check to defeat computer security.
+        </text>
+        <header level="1">Do Your Stuff</header>
+        <text>   Finally, the character can actually do what they came to do. If the character just wants to look at records, no additional check is needed. A character can also download data, although that often takes several rounds—or even several minutes, for especially large amounts of information—to complete. Altering or deleting records sometimes requires yet another check to defeat computer security. Other operations can be carried out according to the Technology Use skill description.
+        </text>
+    </item>
+</body>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header>Degrade Programming</header>
+        <text>   A character can destroy or alter applications on a computer to make use of that computer harder or impossible. The TN for the attempt depends on what the character tries to do. Crashing a computer simply shuts it down. Its user may restart it without making a skill check (however, restarting takes 1 minute). Destroying programming makes the computer unusable until the programming is repaired. Damaging programming imposes a −4 penalty on all Technology Use checks made with the computer (sometimes this is preferable to destroying the programming, since the user might not know that anything is wrong, and won't simply decide to use a different computer).</text>
+        <text>   A character can degrade the programming of multiple computers at a single site; doing so adds +2 to the TN for each additional computer.</text>
+        <text>   Fixing the degraded programming requires 1 hour and a Technology Use check against a TN equal to the TN for degrading it +5.
+        </text>
+    </item>
+</body>

@@ -184,28 +184,28 @@
       },
       {
         "text": "Ride (DEX)",
-        "link": "",
-        "type": ""
+        "link": "Skills/Ride.xml",
+        "type": "xml"
       },
       {
         "text": "Stealth (DEX)",
-        "link": "",
-        "type": ""
+        "link": "Skills/Stealth.xml",
+        "type": "xml"
       },
       {
         "text": "Speechcraft (CHA)",
-        "link": "",
-        "type": ""
+        "link": "Skills/Speechcraft.xml",
+        "type": "xml"
       },
       {
         "text": "Technology Use (INT)",
-        "link": "",
-        "type": ""
+        "link": "Skills/TechnologyUse/index.json",
+        "type": "list"
       },
       {
         "text": "Treat Injury (WIS)",
-        "link": "",
-        "type": ""
+        "link": "Skills/TreatInjury.xml",
+        "type": "xml"
       }
     ]
   },

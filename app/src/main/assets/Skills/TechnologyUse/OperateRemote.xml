@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header>Operate Remote Device</header>
+        <text>   Many devices are computer-operated via remote links. If the character has access to the computer that controls such systems, the character can either shut them off or change their operating parameters. The TN depends on the nature of the operation. If the character fails the check by 5 or more, the system immediately alerts its administrator that there has been an unauthorized use of the equipment. An alerted administrator may attempt to identify the character or cut off their access to the system.
+        </text>
+        <table>
+            <tr>
+                <header>Level of Security</header>
+                <header textAlign="center">TN</header>
+            </tr>
+            <tr>
+                <text>Minimum</text>
+                <text textAlign="center">15</text>
+            </tr>
+            <tr>
+                <text>Average</text>
+                <text textAlign="center">20</text>
+            </tr>
+            <tr>
+                <text>Exceptional</text>
+                <text textAlign="center">30</text>
+            </tr>
+            <tr>
+                <text>Maximum</text>
+                <text textAlign="center">35</text>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <header>Size of Site for file</header>
+                <header textAlign="center">TN</header>
+                <header textAlign="center">Time</header>
+            </tr>
+            <tr>
+                <text>Personal Computer</text>
+                <text textAlign="center">15</text>
+                <text textAlign="center">1 minute</text>
+            </tr>
+            <tr>
+                <text>Small office network</text>
+                <text textAlign="center">19</text>
+                <text textAlign="center">5 minutes</text>
+            </tr>
+            <tr>
+                <text>Large office network</text>
+                <text textAlign="center">23</text>
+                <text textAlign="center">15 minutes</text>
+            </tr>
+            <tr>
+                <text>Massive corporate network</text>
+                <text textAlign="center">35</text>
+                <text textAlign="center">30 minutes</text>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <header>Program Degradation Scope</header>
+                <header textAlign="center">TN</header>
+                <header textAlign="center">Time</header>
+            </tr>
+            <tr>
+                <text>Crash Computer</text>
+                <text textAlign="center">19</text>
+                <text textAlign="center">1 minute</text>
+            </tr>
+            <tr>
+                <text>Destroy programming</text>
+                <text textAlign="center">23</text>
+                <text textAlign="center">10 minutes</text>
+            </tr>
+            <tr>
+                <text>Damage programming</text>
+                <text textAlign="center">35</text>
+                <text textAlign="center">10 minutes</text>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <header>Remote Operation Device</header>
+                <header textAlign="center">TN</header>
+                <header textAlign="center">Time</header>
+            </tr>
+            <tr>
+                <text>Shut down passive remote
+(including cameras and door locks)</text>
+                <text textAlign="center">15</text>
+                <text textAlign="center">30 seconds per remote</text>
+            </tr>
+            <tr>
+                <text>Shut down active remote
+(including motion detectors and alarms)</text>
+                <text textAlign="center">20</text>
+                <text textAlign="center">30 seconds per remote</text>
+            </tr>
+            <tr>
+                <text>Reset parameters</text>
+                <text textAlign="center">25</text>
+                <text textAlign="center">1 minute per remote</text>
+            </tr>
+            <tr>
+                <text>Change passcodes</text>
+                <text textAlign="center">8</text>
+                <text textAlign="center">2 minutes</text>
+            </tr>
+            <tr>
+                <text>Minimum security</text>
+                <text textAlign="center">-5</text>
+                <text textAlign="center">-</text>
+            </tr>
+            <tr>
+                <text>Exceptional security</text>
+                <text textAlign="center">+5</text>
+                <text textAlign="center">-</text>
+            </tr>
+            <tr>
+                <text>Maximum security</text>
+                <text textAlign="center">+10</text>
+                <text textAlign="center">-</text>
+            </tr>
+        </table>
+        <text textAlign="center">Table 55: Technology Use, Systems TN and Time</text>
+        <text><b>Special</b></text>
+        <text>   A character can take 10 when using the Technology Use skill.
+        </text>
+        <text><b>Time</b></text>
+        <text>   Technology Use requires 12 CP. The GM may determine that some tasks require several rounds, a few minutes, or longer, as described above.
+        </text>
+    </item>
+</body>

@@ -1,0 +1,42 @@
+[
+  {
+    "text":"Technology Use Introduction",
+    "link":"Skills/TechnologyUse/Introduction.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Find File",
+    "link":"Skills/TechnologyUse/FindFile.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Defeat Computer Security",
+    "link":"Skills/TechnologyUse/DefeatSecurity.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Computer Hacking",
+    "link":"Skills/TechnologyUse/ComputerHacking.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Defend Security",
+    "link":"Skills/TechnologyUse/DefendSecurity.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Degrade Programming",
+    "link":"Skills/TechnologyUse/DegradeProgramming.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Write Program",
+    "link":"Skills/TechnologyUse/WriteProgram.xml",
+    "type":"xml"
+  },
+  {
+    "text":"Operate Remote Device",
+    "link":"Skills/TechnologyUse/OperateRemote.xml",
+    "type":"xml"
+  }
+]

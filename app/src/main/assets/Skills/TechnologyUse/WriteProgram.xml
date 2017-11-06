@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header>Write Program</header>
+        <text>   A character can create a program to help with a specific task. Doing so grants the character a +2 circumstance bonus to the task.</text>
+        <text>   A specific task, in this case, is one type of operation with one target.</text>
+        <text>   The TN to write a program is 20; the time required is 1 hour.
+        </text>
+    </item>
+</body>

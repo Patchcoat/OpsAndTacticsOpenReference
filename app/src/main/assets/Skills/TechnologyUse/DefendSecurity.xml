@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item>
+        <header>Defend Security</header>
+        <text>   If the character is the system administrator for a site (which may be as simple as being the owner of a laptop), they can defend the site against intruders. If the site alerts the character to an intruder, the character can attempt to cut off the intruder's access (end the intruder's session), or even to identify the intruder.</text>
+        <text>   To cut off access, make an opposed Technology Use check against the intruder. If the character succeeds, the intruder's session is ended. The intruder might be able to defeat the character's security and access their site again, but the intruder will have to start the hacking process all over. Attempting to cut off access takes all combat points.</text>
+        <text>   One surefire way to prevent further access is to simply shut the site down. With a single computer, that's often no big deal—but on a large site with many computers (or computers controlling functions that can't be interrupted), it may be time-consuming or even impossible.</text>
+        <text>   To identify the intruder, make an opposed Technology Use check against the intruder. If the character succeeds, the character learns the site from which the intruder is operating (if it is a single computer, the character learns the name of the computer's owner). Identifying the intruder requires 1 minute and is a separate check from cutting off access. This check can only be made if the intruder is accessing the character's site for the entire length of the check—if the intruder's session ends before the character finishes the check, the character automatically fails.
+        </text>
+    </item>
+</body>
