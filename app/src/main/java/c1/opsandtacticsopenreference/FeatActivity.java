@@ -36,6 +36,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 import java.util.ArrayList;
+import java.util.regex.Pattern;
 
 public class FeatActivity extends AppCompatActivity {
 
@@ -301,15 +302,15 @@ public class FeatActivity extends AppCompatActivity {
         // Populate list with feats from JSON file
         // This is horribly inefficient and should probably be improved
         for (int i = 0; i < feats.length(); i++){
+            fet++;
             // Single String feat aspects
             final String localCategory = new String(feats.getJSONObject(i).getString("category"));
             final String name = new String(feats.getJSONObject(i).getString("name"));
             if (!category.equals(localCategory)) {
                 category = localCategory;
                 cat++;
+                fet = 0;
                 printCategory = true;
-            } else {
-                printCategory = false;
             }
             if (!featCategory.equals(localCategory) && !featCategory.equals("All")){
                 continue;
@@ -323,14 +324,18 @@ public class FeatActivity extends AppCompatActivity {
             JSONArray prerequisite = feats.getJSONObject(i).getJSONArray("prerequisite");
             if ((!specificFeat.isEmpty() && !specificFeat.equals(name)) ||
                 (specificFeat.isEmpty() && !preFeats.isEmpty())){
-                fet++;
                 if (preFeats.isEmpty() || !preFeats.contains(name)){
                     continue;
                 }
             } else if (!specificFeat.isEmpty() && specificFeat.equals(name)){
                 if (prerequisite.length()>0 && preFeats.isEmpty()){
                     for (int j = 0; j < prerequisite.length() ; j++){
-                        preFeats.add(prerequisite.get(j).toString().split("(\\/| \\()")[0]);
+                        String tmp = prerequisite.get(j).toString().split("(\\/| \\()")[0];
+                        tmp = tmp.toString().split("\\d")[0];
+                        if (Pattern.matches("^(or ).+", tmp)){
+                            tmp = tmp.toString().split("^(or )")[1];
+                        }
+                        preFeats.add(tmp);
                     }
                 }
             }
@@ -343,6 +348,12 @@ public class FeatActivity extends AppCompatActivity {
             // if print category is true
             // and if the focus is on a single feat, and the feat contains pre-feats
             // then print the category name
+            if (cat == 25 && fet == 2){
+                Log.i("print cat", String.valueOf(printCategory));
+                Log.i("Spec feat is empty", String.valueOf(specificFeat.isEmpty()));
+                Log.i("Pre feats contains", String.valueOf(preFeats.contains(name)));
+                Log.i("Pre feats empty", String.valueOf(preFeats.isEmpty()));
+            }
             if (printCategory && (specificFeat.isEmpty() &&
                      (preFeats.contains(name) || preFeats.isEmpty()))){
                 TextView categoryText = new TextView(this);
@@ -356,7 +367,7 @@ public class FeatActivity extends AppCompatActivity {
                         "font/"+bodyFont);
                 categoryText.setTypeface(font);
                 linearLayout.addView(categoryText);
-                fet = 0;
+                printCategory = false;
             }
 
             LinearLayout featLayout = new LinearLayout(this);
@@ -367,7 +378,9 @@ public class FeatActivity extends AppCompatActivity {
             SpannableStringBuilder text;
             // Name
             if (!name.isEmpty()){
-                fet ++;
+                if (fet == 0) {
+                    fet++;
+                }
                 TextView nameText = new TextView(this);
                 nameText.setText(cat + "." + fet + "   " + name);
                 nameText.setTextSize((float) (headerTextSize*0.625));
@@ -593,7 +606,7 @@ public class FeatActivity extends AppCompatActivity {
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog,int id) {
                                 // get user input and add it as a collection
-                                int radio_id = radioGroup.getCheckedRadioButtonId()+1;
+                                int radio_id = (radioGroup.getCheckedRadioButtonId())+1;
                                 if (radio_id >= 0) {
                                     selectCollection(radio_id);
                                 }
