@@ -9,7 +9,7 @@ This projects exists to make referencing the content within Ops and Tactics on a
 
 ##  Contributors
 
-If you wish to contribute to this project make a pull request. The issue tracker is meant to track features and bugs.
+If you wish to contribute to this project make a pull request.
 
 Ops and Tactics is written by Sweet Soul Bro !!H5XdMKmBv5G and any who wish to contribute to the system should contact him. More information can be found at www.opsandtactics.com.
 
@@ -22,3 +22,9 @@ The code is licenced under GPL 3.
 Ops and Tactics is licenced under the Creative Commons. More information can be found at www.opsandtactics.com.
 
 The JSON and XML files that contain Ops and Tactics content are subject to the licence Ops and Tactics is under, not GPL 3.
+
+If you adapt this app to your own system, then the modifications you make to the code maintain GPL 3, but the XML and JSON files inherit the existing licence for your system.
+
+## Sent from the Class Project Slack
+
+Yes it's true. I am him, and he is me.
