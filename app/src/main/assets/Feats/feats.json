@@ -1,0 +1,3303 @@
+[
+  {
+    "category":"Archery And Crossbow Feats",
+    "name":"Archery Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Bows)"
+    ],
+    "benefit":"When firing a bow, crossbow, or speargun the CP cost is 2 less.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"",
+        "benefit":""
+      }
+  },
+  {
+    "category":"Archery And Crossbow Feats",
+    "name":"Archery Master",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Bows)",
+      "Archery Specialist"
+    ],
+    "benefit":"Reloading a Crossbow or Bow Cost 0 Combat Points.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"",
+        "benefit":""
+      }
+  },
+  {
+    "category":"Archery And Crossbow Feats",
+    "name":"Double Bowman",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Bows)"
+    ],
+    "benefit":"When using a bow, you may fire a second arrow at a single target, at a −2 CP cost and with a −4 penalty to attack. If the attack is successful, it deals +1 damage dice.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"",
+        "benefit":""
+      }
+  },
+  {
+    "category":"Armor Feats",
+    "name":"Heavy Armor Proficiency",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"When the character wears heavy armor, they can add the armor’s equipment bonus to their DEF, and the armor’s skill penalty only applies to the following skills: Acrobatics, Athletics, and Stealth",
+    "example":"",
+    "normal":"A character who wears armor with which they are not proficient only receives the Damage Reduction bonus and suffer the armor’s skill penalty on the listed skill checks.",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"1 day",
+        "benefit":"Can gain up to +3 to Defense when wearing heavy armor"
+      }
+  },
+  {
+    "category":"Armor Feats",
+    "name":"Light Armor Proficiency",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"When the character wears light armor, they can add the armor’s equipment bonus to their DEF, and the armor’s skill penalty only applies to the following skills: Acrobatics, Athletics, and Stealth",
+    "example":"",
+    "normal":"A character who wears armor with which they are not proficient only receives the Damage Reduction bonus and suffer the armor’s skill penalty on the listed skill checks.",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"1 day",
+        "benefit":"Can gain up to +1 to Defense when wearing light armor"
+      }
+  },
+  {
+    "category":"Armor Feats",
+    "name":"Medium Armor Proficiency",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"When the character medium heavy armor, they can add the armor’s equipment bonus to their DEF, and the armor’s skill penalty only applies to the following skills: Acrobatics, Athletics, and Stealth",
+    "example":"",
+    "normal":"A character who wears armor with which they are not proficient only receives the Damage Reduction bonus and suffer the armor’s skill penalty on the listed skill checks.",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"1 day",
+        "benefit":"Can gain up to +2 to Defense when wearing medium armor"
+      }
+  },
+  {
+    "category":"Armor Feats",
+    "name":"Armor Mastery",
+    "intro":"",
+    "prerequisite":[
+      "Light Armor Proficiency",
+      "Medium Armor Proficiency",
+      "Heavy Armor Proficiency",
+      "Armor Optimization"
+    ],
+    "benefit":"The character reduces the CP penalty by half rounded up, and receives a +1 to the maximum AGL limit. They also receive a +5 to the AP score of the armor they are wearing. This bonus only applies while the character is wearing the armor, and once he removes the armor, the armor loses this bonus.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"",
+        "benefit":""
+      }
+  },
+  {
+    "category":"Armor Feats",
+    "name":"Armor Optimization",
+    "intro":"",
+    "prerequisite":[
+      "Light Armor Proficiency",
+      "Medium Armor Proficiency",
+      "Heavy Armor Proficiency"
+    ],
+    "benefit":"When the character wears any armor, they gain a +1 to the DEF equipment bonus, and reduce the armor penalty by 1.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"",
+        "benefit":""
+      }
+  },
+  {
+  "category":"Assault Rifle and Carbine Rifle Feats",
+  "name":"Rifleman",
+  "intro":"",
+  "prerequisite":[
+    "Personal Firearms Proficiency",
+    "Rifle Specialist"
+  ],
+  "benefit":"When firing an assault, battle, carbine or target rifle the character receives a +1 to attack.",
+  "example":"",
+  "normal":"",
+  "special":"",
+  "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Assault Rifle and Carbine Rifle Feats",
+    "name":"Rifle Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency"
+    ],
+    "benefit":"When firing an assault, battle, carbine, or target rifle the CP cost is 1 less.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Assault Rifle and Carbine Rifle Feats",
+    "name":"Rifle Clubber",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Rifle Specialist",
+      "Rifleman"
+    ],
+    "benefit":"When executing a rifle butt attack with an assault, battle, carbine, or target rifle the character deals 1d8+POW modifier lethal damage.",
+    "example":"",
+    "normal":"Rifle butt attacks deal 1d6+POW modifier damage.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Assault Rifle and Carbine Rifle Feats",
+    "name":"Rifle Expert",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Rifle Specialist",
+      "Rifleman"
+    ],
+    "benefit":"When firing an assault, battle, carbine, or target rifle the CP cost is 1 less, when clearing a jammed assault, battle, or target rifle the CP cost is 10 less, and when attempting to repair an assault, battle, carbine, or target rifle the character receives a +2 bonus.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Assault Rifle and Carbine Rifle Feats",
+    "name":"Close Combat Rifleman",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Rifle Specialist",
+      "Rifleman"
+    ],
+    "benefit":"When targeting an adjacent opponent with an assault, battle, or target rifle the character takes no ranged attack penalties, and when using a carbine as a melee weapon the CP cost is reduced by 1.",
+    "example":"",
+    "normal":"When using an assault, battle, or target rifle against an adjacent opponent, the character takes a −4 penalty on all ranged attacks.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Axe Feats",
+    "name":"Axe Martial Arts",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Axes)"
+    ],
+    "benefit":"When wielding a battle-axe, broadaxe, or hand axe, the Critical Threat range for any of these weapons is 13-18.",
+    "example":"",
+    "normal":"The Critical Threat range for a battle-axe, broadaxe, or hand axe is 15-18.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Axe Feats",
+    "name":"Axe Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Axes)",
+      "Axe Martial Arts"
+    ],
+    "benefit":"When wielding a battle-axe, broadaxe, or hand axe, the Critical Threat range for any of these weapons is 12-18, and the character gains a +2 bonus to attacks.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Axe Feats",
+    "name":"Axe Mastery",
+    "intro":"Choose battle-axe, broadaxe, or hand axe.",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Axes)",
+      "Axe Martial Arts",
+      "Axe Specialist"
+    ],
+    "benefit":"When wielding the chosen weapon, the Critical Threat range for the chosen weapon is 11-18, and any natural roll of a 15-18 is an automatic hit.",
+    "example":"",
+    "normal":"16-18 are automatic hits without this feat.",
+    "special":"A character may take this feat up to three times. Each time a character takes the feat, they select a different weapon.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Automatic Weapons Feats",
+    "name":"Autofire Proficiency",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency"
+    ],
+    "benefit":"The character gains a +4 attack bonus when performing autofire attacks, a +1 attack bonus when performing bump fire attacks, and a +3 attack bonus when performing sweepfire and sprayfire attacks.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Automatic Weapons Feats",
+    "name":"Autofire Mastery",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Autofire Proficiency",
+      "Burst Fire Proficiency"
+    ],
+    "benefit":"The character gains a +4 attack bonus when performing all autofire, sprayfire, and sweepfire attacks.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Automatic Weapons Feats",
+    "name":"Burst Fire Proficiency",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Autofire Proficiency"
+    ],
+    "benefit":"The character gains a +4 attack bonus when performing burst fire attacks.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Automatic Weapons Feats",
+    "name":"Quickshot",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Autofire Proficiency"
+    ],
+    "benefit":"The character can treat an automatic-only weapon as if it has a semi-automatic rate of fire.",
+    "example":"",
+    "normal":"Automatic weapons can only be used to make burstfire, suppressive fire, and autofire attacks.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Automatic Weapons Feats",
+    "name":"Strafe",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Autofire Proficiency"
+    ],
+    "benefit":"When making an autofire attack, the character can choose an area of any four 5' squares as long as they are connected. The character gains a +2 attack bonus when performing sweepfire attacks.",
+    "example":"",
+    "normal":"An autofire attack can only be used on a 10' by 10' area.",
+    "special":"A character can only strafe a weapon with autofire, not bumpfire.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Combat Sword Feats",
+    "name":"Sword Martial Arts",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Combat Swords)"
+    ],
+    "benefit":"When wielding a shortsword, bastard sword, broadsword, or longsword the size class is considered to be one less.",
+    "example":"",
+    "normal":"",
+    "special":"When calculating the POW damage bonus, use the original size of the weapon.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Combat Sword Feats",
+    "name":"Sword Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Combat Swords)",
+      "Sword Martial Arts"
+    ],
+    "benefit":"When wielding a shortsword, bastard sword, broadsword, or longsword the character gains +1 damage die.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Combat Sword Feats",
+    "name":"Sword Mastery",
+    "intro":"Choose shortsword, bastard sword, broadsword, or longsword",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Combat Swords)",
+      "Sword Martial Arts",
+      "Sword Specialist"
+    ],
+    "benefit":"When wielding the chosen weapon the Critical Threat range is 12-18 and any natural roll of a 15-18 is an automatic hit.",
+    "example":"",
+    "normal":"16-18 are automatic hits without this feat.",
+    "special":"A character may take this feat up to four times. Each time a character takes the feat, they select a different weapon.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Distance Rifle Feats",
+    "name":"Anti-materiel Rifleman",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Distance Rifle Specialist"
+    ],
+    "benefit":"When firing an anti-materiel rifle the character receives a +1 to attack.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Distance Rifle Feats",
+    "name":"Anti-materiel Rifle Expert",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Distance Rifle Specialist",
+      "Anti-Materiel Rifleman",
+      "Recoil Management"
+    ],
+    "benefit":"When firing an anti-materiel rifle with a magnified optic, the CP cost is 3 less, when clearing a jammed anti-materiel rifle, the CP cost is 10 less, and when attempting to repair an anti-materiel rifle, the character gains a +2 bonus.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Distance Rifle Feats",
+    "name":"Controlled Shot",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Distance Rifle Specialist",
+      "Sniper"
+    ],
+    "benefit":"Once per round. when making a single shot attack with a bolt action or sniper rifle, the character gains a +8 bonus to attack. This attack must be the only attack the character makes this round.",
+    "example":"",
+    "normal":"",
+    "special":"This feat can also be used with the bonuses from the Dead Aim, Marksman Shot, and Master Sniper Shot feats.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Distance Rifle Feats",
+    "name":"Distance Rifle Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency"
+    ],
+    "benefit":"When firing an anti-materiel, bolt action, designated marksman rifle, or sniper rifle, the CP cost is 1 less.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Distance Rifle Feats",
+    "name":"Designated Marksman",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Distance Rifle Specialist"
+    ],
+    "benefit":"When firing a designated marksman rifle the character receives a +1 to attack.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Distance Rifle Feats",
+    "name":"Designated Marksman Rifle Expert",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Distance Rifle Specialist",
+      "Designated Marksman",
+      "Leading Target"
+    ],
+    "benefit":"When firing a designated marksman rifle with a magnified optic, the CP cost is 2 less. When clearing a jammed designated marksman rifle the CP cost is 9 less, and when attempting to repair a designated marksman rifle the character receives a +2 bonus.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Distance Rifle Feats",
+    "name":"Leading Target",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Distance Rifle Specialist",
+      "Designated Marksman"
+    ],
+    "benefit":"When attacking, a character may ignore the opponent's DEF bonuses due to movement.",
+    "example":"",
+    "normal":"",
+    "special":"All other defense bonuses due to armor, agility, and size still apply unless otherwise noted.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Distance Rifle Feats",
+    "name":"Recoil Management",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Distance Rifle Specialist",
+      "Anti-materiel Rifleman"
+    ],
+    "benefit":"When firing a anti-materiel rifle with a deployed bipod, a character may brace the rifle for an additional +2 bonus to attack.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Distance Rifle Feats",
+    "name":"Sniper",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Distance Rifle Specialist"
+    ],
+    "benefit":"When firing a bolt action or sniper rifle the character receives a +1 attack bonus.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Distance Rifle Feats",
+    "name":"Sniper Rifle Expert",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Distance Rifle Specialist",
+      "Sniper"
+    ],
+    "benefit":"When firing a bolt action or sniper rifle with a magnified optic, the CP cost is reduced by 4. When attempting to repair a bolt Action or sniper rifle, the character receives a +2 bonus.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Explosive Weapons Feats",
+    "name":"Explosive Weapons Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Explosive WeaponsProficiency"
+    ],
+    "benefit":"When firing a grenade launcher, rocket launcher, or mortar the CP cost is 1 less.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Explosive Weapons Feats",
+    "name":"Explosive Weapons Expert",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Explosive WeaponsProficiency",
+      "Explosive Weapon Specialist"
+    ],
+    "benefit":"When firing a grenade launcher, rocket launcher, or mortar, the CP cost is 1 less. Reloading a grenade launcher or rocket launcher with a filled box magazine cost 2 CP. Reloading a grenade launcher or rocket launcher that uses linked ammunition with a new link cost 3 CP. Reloading a grenade launcher or rocket launcher from loose rounds, or refilling a box magazine cost 1 CP per round loaded.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Fencing Sword Feats",
+    "name":"Fencing Martial Arts",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Fencing Swords)"
+    ],
+    "benefit":"When wielding a sabre cutlass, rapier, or parrying dagger, the character receives a +2 bonus against all Disarm attempts to disarm the wielder and a +1 bonus against all Sunder attempts against their weapon.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Fencing Sword Feats",
+    "name":"Fencing Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Fencing Swords)",
+      "Fencing Martial Arts"
+    ],
+    "benefit":"When wielding a sabre, cutlass, rapier, or parrying dagger, the character receives a +4 bonus to all Disarm attempts and a +4 bonus to all Sunder attempts.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Fencing Sword Feats",
+    "name":"Fencing Mastery",
+    "intro":"Choose Sabre, Cutlass, or Rapier.",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Fencing Swords)",
+      "Fencing Martial Arts",
+      "Fencing Specialist"
+    ],
+    "benefit":"When wielding the chosen weapon, the Critical Threat range for the selected weapon is 13-18, and any natural roll of a 15-18 is an automatic hit.",
+    "example":"",
+    "normal":"16-18 are automatic hits without this feat.",
+    "special":"A character may take this feat multiple times. Each time a character takes the feat, they select a different weapon.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"General Combat Feats",
+    "name":"Adrenaline Rush",
+    "intro":"",
+    "prerequisite":[
+      "Toughness",
+      "CON 13"
+    ],
+    "benefit":"Once per day, the character may gain extra CHP equal to their CON score / 2 for 5 rounds.",
+    "example":"",
+    "normal":"",
+    "special":"When the effect ends, and the character would be dying if the hit points were removed, the character instead drops to 0 CHP, in stabilized condition.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"General Combat Feats",
+    "name":"Blind Sense",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"In melee combat, every time the character misses because of concealment, the character can re-roll the miss chance roll once to see if they actually hit. The character takes only ½ the usual penalties for being unable to see. Darkness and poor visibility in general increase the character's CP cost to move by two, instead of four.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"General Combat Feats",
+    "name":"Combat Awareness",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"You take no penalty on Perception checks to spot things in or beyond your flank areas. The penalty to spot things in or beyond your rear area is −5.",
+    "example":"",
+    "normal":"The penalty on Perception checks to spot things in or beyond your flank areas is −5. The penalty to spot things in your rear area is −10.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"General Combat Feats",
+    "name":"Combat Expertise",
+    "intro":"",
+    "prerequisite":[
+      "INT 13"
+    ],
+    "benefit":"On your turn, before making any attack rolls, you can choose to subtract a number from your attack roll and add the same number to your defense score. This penalty may not exceed the character's BAB. The penalty on attack rolls and the bonus on defense score applies until your next turn. The bonus to the character's defense is a dodge bonus.",
+    "example":"",
+    "normal":"A character without the Combat Expertise feat can fight defensively by spending 9 CP to take a −4 penalty on attacks and gain a +2 Dodge bonus to DEF.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"General Combat Feats",
+    "name":"Danger Sense",
+    "intro":"",
+    "prerequisite":[
+      "Improved Initiative"
+    ],
+    "benefit":"Before combat starts, you may reroll an Initiative check you have just made. You use the better of your two rolls. You must decide to reroll before the first round starts.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"General Combat Feats",
+    "name":"Dodge",
+    "intro":"",
+    "prerequisite":[
+      "DEX 13"
+    ],
+    "benefit":"During the character's action, the character designates an opponent and receives a +3 dodge bonus to DEF against any subsequent attacks from that opponent. The character can select a new opponent on their action.",
+    "example":"",
+    "normal":"",
+    "special":"A condition that makes the character lose their DEX bonus to defense also makes the character lose dodge bonuses.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"General Combat Feats",
+    "name":"Emulation",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"Once per hour, the character can gain the benefits from a single proficiency feat for 5 rounds, that any non-hostile character within 40' possesses.",
+    "example":"",
+    "normal":"",
+    "special":"For the purpose of this feat, the feat “Combat Martial Arts” is considered a proficiency feat.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"General Combat Feats",
+    "name":"Evasion",
+    "intro":"",
+    "prerequisite":[
+      "DEX 13"
+    ],
+    "benefit":"When making a Reflex saving throw, the character takes ¼ damage with a successful saving throw. This talent may only be used when wearing no armor or light armor.",
+    "example":"",
+    "normal":"Successful Reflex saving throws reduce damage by ½.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"General Combat Feats",
+    "name":"Mobility",
+    "intro":"",
+    "prerequisite":[
+      "DEX 13",
+      "Dodge"
+    ],
+    "benefit":"The character gains a +4 dodge bonus to DEF against AoO provoked when the character moves out of a threatened square.",
+    "example":"",
+    "normal":"",
+    "special":"Any condition that makes a character lose their DEX bonus to defense also makes the character lose dodge bonuses.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"General Combat Feats",
+    "name":"Quick Draw Attack",
+    "intro":"",
+    "prerequisite":[
+      "Tactical Draw (selected weapon)",
+      "Proficient with weapon"
+    ],
+    "benefit":"A character may draw a weapon from a holster or sheath and immediately make a single attack with a −2 attack penalty for 5 CP. The weapon used must be the same one that the character has a Tactical Draw feat for.",
+    "example":"",
+    "normal":"",
+    "special":"Any feats or equipment that reduce the CP cost for a single attack or for drawing a weapon also reduce the CP cost for this attack.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"General Combat Feats",
+    "name":"Second Wind",
+    "intro":"",
+    "prerequisite":[
+      "Toughness"
+    ],
+    "benefit":"Once per hour, the character can restore a number of XHP equal to his CON score.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"General Combat Feats",
+    "name":"Tactical Draw",
+    "intro":"",
+    "prerequisite":[
+      "Proficient with weapon"
+    ],
+    "benefit":"Choose a specific weapon. The character can draw that weapon from a holster or sheath for 1 CP and from Waistband carry for 3 CP, and holster it for 1 CP.",
+    "example":"",
+    "normal":"A character can draw a weapon from a holster or sheath for 3 CP and from Waistband carry for 6 CP, and holster a weapon for 4 CP.",
+    "special":"This feat may be taken multiple times. Each time it is taken, it applies to a different weapon.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"General Combat Feats",
+    "name":"Toughness",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"The character gains +4 XHP and +1 CHP.",
+    "example":"",
+    "normal":"",
+    "special":"A character may take this feat multiple times. The effect stacks.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"General Combat Feats",
+    "name":"Weapon Focus",
+    "intro":"Choose a specific weapon. A character can choose unarmed strike or grapple for your weapon for purposes of this feat.",
+    "prerequisite":[
+      "Proficient with weapon"
+    ],
+    "benefit":"The character gains a +3 bonus on all attack rolls they make using the selected weapon.",
+    "example":"",
+    "normal":"",
+    "special":"A character may take this feat multiple times. Each time the character takes the feat, the character must select a different weapon. Weapons that are of similar build, such as full sized 1911s, may interchange this feat at the discression of the GM.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Handgun Feats",
+    "name":"Handgun Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency"
+    ],
+    "benefit":"When firing a holdout, backup, full-size, or target handgun the CP cost is 1 less.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Handgun Feats",
+    "name":"Pistol Expert",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Handgun Specialist",
+      "Pistoleer",
+      "Handgun Relolader",
+      "Skilled Pistol Magazine User"
+    ],
+    "benefit":"When firing a holdout, backup, full-size, or target handgun that uses magazines, the CP cost is 2 less. When clearing a jammed holdout, backup, full-size, or target handgun that uses magazines the CP cost is 9 less. When attempting to repair a holdout, backup, full-size, or target handgun that uses magazines, the character receives a +2 bonus.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Handgun Feats",
+    "name":"Pistoleer",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Handgun Specialist"
+    ],
+    "benefit":"When firing a holdout, backup, full-size, or target handgun that uses magazines, the character gains a +1 to attack.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Handgun Feats",
+    "name":"Revolver Expert",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Handgun Specialist",
+      "Wheelgunner",
+      "Handgun Reloader",
+      "Skilled Speedloader User"
+    ],
+    "benefit":"When firing a holdout, backup, full-size, or target handgun that has a cylinder the CP cost is reduced by 3. When attempting a potshot attack with a holdout, backup, full-size, or target handgun that has a cylinder the penalty is lowered to a −4, and when attempting to repair a holdout, backup, full-size,  or target handgun that has a cylinder the character receives a +2 bonus.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Handgun Feats",
+    "name":"Skilled Pistol Magazine User",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Handgun Relolader",
+      "Handgun Specialist",
+      "Pistoleer"
+    ],
+    "benefit":"Once per turn a character can reload a holdout, backup, full-size, or target pistol with a magazine.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Handgun Feats",
+    "name":"Skilled Speedloader User",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Handgun Relolader",
+      "Handgun Specialist",
+      "Wheelgunner"
+    ],
+    "benefit":"Once per turn a character can reload a holdout, backup, full-size, or target revolver with a speedloader.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Handgun Feats",
+    "name":"Wheelgunner",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Handgun Specialist"
+    ],
+    "benefit":"When firing a holdout, backup, full-size, or target handgun that uses a cylinder, the character gains a +1 to attack.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Heavy Melee Weapon Feats",
+    "name":"Heavy Melee Weapon Martial Arts",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Mace) or Archaic Weapons Proficiency (Pick)"
+    ],
+    "benefit":"When wielding a light mace, heavy mace, light pick, or heavy pick, the character receives +1 damage die of Bludgeoning damage.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Heavy Melee Weapon Feats",
+    "name":"Heavy Melee Weapon Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Mace) or Archaic Weapons Proficiency (Pick)",
+      "Heavy Melee Weapon Martial Arts Martial Arts"
+    ],
+    "benefit":"When wielding a light mace, heavy mace, light pick, or heavy pick, the character receives +1 damage die when Sundering an object.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Heavy Melee Weapon Feats",
+    "name":"Heavy Melee Weapon Mastery",
+    "intro":"Choose Light Mace, Heavy Mace, Light Pick, or Heavy Pick.",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Mace) or Archaic Weapons Proficiency (Pick)",
+      "Heavy Melee Weapon Martial Arts",
+      "Heavy Melee Weapon Specialist"
+    ],
+    "benefit":"When wielding the selected weapon, the Critical Threat range for the selected weapon is 12-18, and any natural roll of a 15-18 is an automatic hit.",
+    "example":"",
+    "normal":"16-18 are automatic hits without this feat.",
+    "special":"A character may take this feat up to four times. Each time a character takes the feat, they select a different weapon.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Machine Gun Feats",
+    "name":"Close Combat Machine Gunner",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Machine Gun Specialist",
+      "General Purpose Machine Gunner"
+    ],
+    "benefit":"When targeting an adjacent opponent with an LMG or GPMG the character takes no ranged attack penalties.",
+    "example":"",
+    "normal":"When using a machine gun against an adjacent opponent, the character takes a −8 penalty on all ranged attacks.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Machine Gun Feats",
+    "name":"General Purpose Machine Gunner",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearm Proficiency",
+      "Machine Gun Specialist"
+    ],
+    "benefit":"The character can fire any GPMG without penalty.",
+    "example":"",
+    "normal":"Characters without this feat take a −4 penalty to attacks made with GPMGs.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Machine Gun Feats",
+    "name":"Machine Gun Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency"
+    ],
+    "benefit":"When firing or reloading an LMG or GPMG the CP cost is 1 less.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Machine Gun Feats",
+    "name":"Machine Gun Expert",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Machine Gun Specialist",
+      "General Purpose Machine Gunner",
+      "Close Quarters Machine Gunner",
+      "Machine Gun Reload"
+    ],
+    "benefit":"When clearing a jammed LMG or GPMG the CP cost is 7 less and when attempting to repair an LMG or GPMG the character receives a +2 bonus.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Machine Gun Feats",
+    "name":"Machine Gun Reload",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Machine Gun Specialist",
+      "General Purpose Machine Gunner",
+      "Close Combat Machine Gunner"
+    ],
+    "benefit":"Reloading an LMG with a magazine costs 2 CP. Reloading an LMG or GPMG that uses linked ammunition with a new link costs 3 CP. Refilling a magazine costs 1 CP per round loaded. Refilling a magazine with a stripper clip costs 2 CP per clip.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Melee Combat Feats",
+    "name":"Cleave",
+    "intro":"",
+    "prerequisite":[
+      "Power Attack"
+    ],
+    "benefit":"Once per round, if you reduce a creature to 0 Core HP or less, you may immediately make a melee attack against another creature within reach for no CP cost. You may not take any movement before making this extra attack. The extra attack is with the same weapon as the attack that dropped the previous creature.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Melee Combat Feats",
+    "name":"Combat Intuition",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (any)",
+      "Combat Martial Arts",
+      "or Exotic Melee Weapon Proficiency"
+    ],
+    "benefit":"When engaged in melee combat with an enemy you made a successful melee attack on last round, you gain a +3 melee attack bonus to the current round, when attacking that enemy.",
+    "example":"",
+    "normal":"",
+    "special":"This bonus only applies to the last enemy you attacked successfully.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Melee Combat Feats",
+    "name":"Elusive Target",
+    "intro":"",
+    "prerequisite":[
+      "DEX 15",
+      "Evasive Martial Arts"
+    ],
+    "benefit":"When fighting an opponent or multiple opponents in melee, other opponents attempting to target the character with ranged attacks take a −2 penalty. This penalty is in addition to the normal −4 penalty for firing into melee, making the penalty to target to character −6.",
+    "example":"",
+    "normal":"",
+    "special":"An opponent with the Precise Shot feat has the penalty lessened to −4 when targeting the character.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Melee Combat Feats",
+    "name":"Evasive Martial Arts",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"The character gains a +2 dodge bonus to DEF against melee attacks.",
+    "example":"",
+    "normal":"",
+    "special":"A condition that makes the character lose their DEX bonus to defense also makes the character lose Dodge bonuses.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Melee Combat Feats",
+    "name":"Favored Type",
+    "intro":"Choose Bludgeoning, Piercing, Unarmed, or Slashing damage.",
+    "prerequisite":[
+      "The character gains a +1 attack bonus on all melee attack rolls they make using a weapon with the chosen type of damage."
+    ],
+    "benefit":"",
+    "example":"",
+    "normal":"",
+    "special":"A character may take this feat multiple times. Each time the character takes the feat, they select a different type of damage.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Melee Combat Feats",
+    "name":"Forgiving Damage",
+    "intro":"Choose Piercing, Slashing, Bludgeoning, or Unarmed damage.",
+    "prerequisite":[],
+    "benefit":"When attacked with the selected damage, the character gains a +2 Dodge DEF bonus against all attacks with this damage.",
+    "example":"",
+    "normal":"",
+    "special":"A character may take this feat multiple times. Each time the character takes the feat, they select a different type of damage.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Melee Combat Feats",
+    "name":"Forceful Strike",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"When the character calculates melee damage or uses a small or smaller melee weapon two-handed, they add 1½× their POW modifier to the damage. When wielding a two-handed weapon, they add 2× their POW modifier.",
+    "example":"",
+    "normal":"Using a two-handed weapon only grants a 1½× POW modifier, and using a small or smaller melee weapon two-handed grants a 1× POW modifier.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Melee Combat Feats",
+    "name":"Improved Disarm",
+    "intro":"",
+    "prerequisite":[
+      "INT 13",
+      "Combat Expertise"
+    ],
+    "benefit":"The character does not provoke an AoO when the character attempts to Disarm an opponent, nor does the opponent get a chance to Disarm the character.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Melee Combat Feats",
+    "name":"Improved Feint",
+    "intro":"",
+    "prerequisite":[
+      "INT 13",
+      "Combat Expertise"
+    ],
+    "benefit":"The character can make a Presence check in combat for 6 CP to feint. The character also receives a +2 bonus on Presence checks made to feint in melee combat.",
+    "example":"",
+    "normal":"Feinting in combat requires 8 CP.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Melee Combat Feats",
+    "name":"Improved Initiative",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"The character gains a +4 circumstance bonus on Initiative checks.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Melee Combat Feats",
+    "name":"Improved Reflexive Martial Arts",
+    "intro":"",
+    "prerequisite":[
+      "Reflexive Martial Arts"
+    ],
+    "benefit":"In melee combat, if an opponent attacks and misses you, you may immediately make a free Disarm or Trip attack against them, at a −4 to attack. This attack does not provoke an AoO.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Melee Combat Feats",
+    "name":"Improved Trip",
+    "intro":"",
+    "prerequisite":[
+      "INT 13",
+      "Combat Expertise"
+    ],
+    "benefit":"The character does not provoke an AoO when the character tries to Trip an opponent while the character is unarmed.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Melee Combat Feats",
+    "name":"Power Attack",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"On the character's turn, before making any attacks, the character may choose to take a penalty on all melee attack rolls and add the same number as a bonus to all melee damage rolls. This number may not exceed the character's BAB. The penalty on attacks and bonus on damage applies until the character's next turn.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Melee Combat Feats",
+    "name":"Reflexive Martial Arts",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"In melee combat if an opponent attacks and hits you, you may immediately make a free standard unarmed attack against them at a −4 penalty. This attack is taken after the character struck takes their damage. This attack does not provoke an AoO.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Melee Combat Feats",
+    "name":"Sunder",
+    "intro":"",
+    "prerequisite":[
+      "STR 13",
+      "Power Attack"
+    ],
+    "benefit":"When the character strikes an object held or carried by an opponent, such as a weapon, the character does not provoke an AoO. The character gains a +4 bonus on any attack roll made to attack an object held or carried by another character. The character deals double normal damage to objects, whether they are held or carried or not.",
+    "example":"",
+    "normal":"A character without this feat incurs an AoO when they strike at an object held or carried by another character.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Melee Combat Feats",
+    "name":"Weapon Finesse",
+    "intro":"Choose one light melee weapon. A character may choose unarmed strike as a weapon for the purposes of this feat.",
+    "prerequisite":[
+      "Proficient with weapon"
+    ],
+    "benefit":"With the selected melee weapon, the character may use their MRK modifier instead of their FOC modifier on attack rolls.",
+    "example":"",
+    "normal":"",
+    "special":"A character may take this feat multiple times. Each time the character takes the feat, the character must select a different weapon",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"PDW Feats",
+    "name":"PDW Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency"
+    ],
+    "benefit":"When firing a sub-machine gun or Machine Pistol, the CP cost is reduced by 1.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"PDW Feats",
+    "name":"Compact SMG Gunner",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "PDW Specialist"
+    ],
+    "benefit":"When firing a sub-machine gun with a folded folding stock or a Pistol grip, the character does not take any penalties to their attack from the stock.",
+    "example":"",
+    "normal":"A character without this feat takes a -3 penalty to all attacks with a folded folding stock or a pistol grip.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"PDW Feats",
+    "name":"Machine Pistoleer",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "PDW Specialist"
+    ],
+    "benefit":"Once per turn, the character can perform a burst fire, sprayfire or sweepfire attack with a machine pistol for half their normal CP cost, rounded up.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"PDW Feats",
+    "name":"PDW Expert",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "PDW Specialist"
+    ],
+    "benefit":"When firing a sub-machine gun or machine pistol the CP cost is reduced by 1. When clearing a jammed sub-machine gun or machine pistol the CP cost is reduced by 6, and when attempting to repair a sub-machine gun or machine pistol , the character receives a +2 bonus.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Dead Aim",
+    "intro":"",
+    "prerequisite":[
+      "Far Shot"
+    ],
+    "benefit":"Before making a ranged attack, the character may spend 12 CP to line up their shot. This grants the character a +2 circumstance bonus on their next attack roll. Once the character begins aiming they can't move until after the character makes their next attack, or the benefit of the feat is lost. Likewise,  if the character is disrupted or the character takes damage before they attack, the character loses the benefit of aiming.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Double Tap Proficiency",
+    "intro":"",
+    "prerequisite":[
+      "Point Blank Shot"
+    ],
+    "benefit":"The character gains a +4 attack bonus when performing double tap attacks.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Failure Drill Master",
+    "intro":"",
+    "prerequisite":[
+      "Point Blank Shot",
+      "Double Tap Proficiency"
+    ],
+    "benefit":"Up to twice per round, when a character executes a successful double tap attack, they can make a single shot attack for no combat points. Normal penalties and bonuses apply for this attack. This attack takes an additional round of ammunition beyond the two rounds used for double tap, and can not be performed if the firearm does not have it to use. This attack must be taken before the character's turn ends.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Fanning Proficiency",
+    "intro":"",
+    "prerequisite":[
+      "Point Blank Shot"
+    ],
+    "benefit":"The character gains a +2 attack bonus when performing Fanning attacks.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Fanning Expert",
+    "intro":"",
+    "prerequisite":[
+      "Fanning Proficiency",
+      "Point Blank Shot"
+    ],
+    "benefit":"The character gains an additional +3 attack bonus and the CP cost is 1 less when performing Fanning attacks.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Far Shot",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"When the character uses a firearm, paintball marker, bow, or crossbow, its range increment increases by 1½.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Marksman Shot",
+    "intro":"",
+    "prerequisite":[
+      "Far Shot",
+      "Dead Aim"
+    ],
+    "benefit":"The circumstance bonus from Dead Aim may be stacked each round the character spends aiming, up to a maximum of five rounds.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Master Sniper Shot",
+    "intro":"",
+    "prerequisite":[
+      "Far Shot",
+      "Dead Aim",
+      "Marksman Shot"
+    ],
+    "benefit":"The circumstance bonus from Dead Aim is increased to +3.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Favored Caliber",
+    "intro":"Choose a specific caliber. Crossbow bolts, arrows, spear gun spears, .68 caliber paintball rounds, 14mm less lethal rounds,  and taser cartridges may be selected for purposes of this feat.",
+    "prerequisite":[
+      "Proficient with weapon that fires selected caliber"
+    ],
+    "benefit":"The character gains a +1 attack bonus on all ranged attack rolls they make using a weapon firing the selected caliber. When using the caliber, the CRP is multiplied by .5 ,  rounded up.",
+    "example":"",
+    "normal":"",
+    "special":"A character may take this feat multiple times. Each time the character takes the feat, they select a different caliber.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Lever Shooter",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Point Blank Shot"
+    ],
+    "benefit":"When using a lever action firearm, a character can perform double tap attacks with the firearm.",
+    "example":"",
+    "normal":"Lever action firearms can only perform single shot and potshot attacks.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Pump Gunner",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Point Blank Shot"
+    ],
+    "benefit":"When using a pump action firearm, a character can perform double tap attacks with the firearm.",
+    "example":"",
+    "normal":"Pump action firearms can only perform single shot and potshot attacks.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Point Blank Shot",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"The character gains a +1 bonus on attack rolls with ranged weapons against opponents within 30 feet, and when performing a potshot attack with any weapon without a stock, or with an integral or folding stock in the folded position within 30 feet, the CP cost is 1 less.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Precise Shot",
+    "intro":"",
+    "prerequisite":[
+      "Point Blank Shot"
+    ],
+    "benefit":"The character can shoot or throw ranged weapons at an opponent engaged in melee without penalty.",
+    "example":"",
+    "normal":"A character takes a −4 penalty when using a ranged weapon to attack an opponent who is engaged in melee combat.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Sharpshooter",
+    "intro":"",
+    "prerequisite":[
+      "Point Blank Shot",
+      "Precise Shot"
+    ],
+    "benefit":"Your target only receives half of the bonus to DEF due to cover. This feat has no effect against foes with no cover or total cover.",
+    "example":"",
+    "normal":"Cover gives the full bonus to defense depending on how much cover they currently have.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Slamfire Proficiency",
+    "intro":"",
+    "prerequisite":[
+      "Point Blank Shot"
+    ],
+    "benefit":"The character gains a +2 attack bonus when performing Slamfire attacks.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Slamfire Expert",
+    "intro":"",
+    "prerequisite":[
+      "Slamfire Proficiency",
+      "Point Blank Shot"
+    ],
+    "benefit":"The character gains an additional +3 attack bonus and the CP cost is 1 less when performing Slamfire attacks.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Sling Steady",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency"
+    ],
+    "benefit":"When using a weapon with a sling attached the character gains a +2 to all ranged attacks using that weapon.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Spotter",
+    "intro":"",
+    "prerequisite":[
+      "Far Shot"
+    ],
+    "benefit":"The character may sight in a target using a telescopic sight for 3 CP.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Shotgun Reloader",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency"
+    ],
+    "benefit":"Reloading any shotgun with a magazine costs 2 CP. Reloading any shotgun from loose rounds or refilling a magazine costs 2 CP per round loaded. Once per turn, a character may load a shell directly into the barrel of a semi-automatic, pump, bolt,  or lever action shotgun at no CP cost.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Rifle Reloader",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency"
+    ],
+    "benefit":"Reloading any rifle or sub-machine gun with a magazine or full stripper clip costs 2 CP. Reloading any rifle or sub-machine gun from loose rounds or refilling a magazine or stripper clip costs 2 CP per round loaded. Refilling a magazine with a stripper clip costs 2 CP per clip. Once per round, the character may reload a single round into a bolt action or sniper rifle at no CP cost.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Ranged Combat Feats",
+    "name":"Handgun Reloader",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency"
+    ],
+    "benefit":"Reloading any handgun or machine pistol with a magazine or speedloader costs 2 CP. Reloading any handgun from loose rounds or refilling a magazine or speedloader costs 2 CP per round loaded.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Saving Throw Feats",
+    "name":"Great Fortitude",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"The character gains a +4 bonus on all Fortitude Saves.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Saving Throw Feats",
+    "name":"Iron Will",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"The character gains a +4 bonus on all Will Saves.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Saving Throw Feats",
+    "name":"Lightning Reflexes",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"The character gains a +4 bonus on all Reflex Saves.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Shotgun Feats",
+    "name":"Shotgunner",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Shotgun Specialist"
+    ],
+    "benefit":"When firing a pump, bolt, lever, semi- or fully automatic action shotgun the character gains a +1 to attack.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Shotgun Feats",
+    "name":"Shotgun Expert",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Shotgun Specialist",
+      "Shotgunner"
+    ],
+    "benefit":"When firing a semi- or fully automatic shotgun, the CP cost is 1 less, when clearing a jammed semi- or fully automatic shotgun the CP cost is 11 less, there is no CP cost to cycle a bolt, pump, or lever Action Shotgun and when attempting to repair a bolt, pump, lever semi- or fully automatic shotgun the character receives a +2 bonus.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Shotgun Feats",
+    "name":"Break Barrel Shotgunner",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Shotgun Specialist"
+    ],
+    "benefit":"When firing a single or double-barrel shotgun, the character receives a +3 to attack.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Shotgun Feats",
+    "name":"Break Barrel Shotgun Expert",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Shotgun Specialist",
+      "Break Barrel Shotgunner"
+    ],
+    "benefit":"When firing a single or double-barrel shotgun with a single shot attack the CP cost is 4 less, and when firing a single or double-barrel shotgun with a doublefire attack, the CP cost is 3 less, and when attempting to repair a single or double-barrel shotgun, the character receives a +6 bonus.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Shotgun Feats",
+    "name":"Close Combat Shotgunner",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Shotgun Specialist"
+    ],
+    "benefit":"When targeting an adjacent opponent with any shotgun the character takes no ranged attack penalties.",
+    "example":"",
+    "normal":"When using most shotguns against an adjacent opponent, the character takes a −3 penalty on all ranged attacks.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Shotgun Feats",
+    "name":"Double Fire Proficiency",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Break Barrel Shotgunner"
+    ],
+    "benefit":"The character gains a +4 attack bonus when performing doublefire attacks.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Shotgun Feats",
+    "name":"Shotgun Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency"
+    ],
+    "benefit":"When firing a shotgun the CP cost is reduced by 1.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Simple Weapon Feats",
+    "name":"",
+    "intro":"",
+    "prerequisite":[
+      "Simple Weapon Specialist"
+    ],
+    "benefit":"When wielding a light club, medium club, heavy club, tool hammer, or sledgehammer, the Critical Threat range is 14-18.",
+    "example":"",
+    "normal":"The Critical Threat range for a light club, medium club, heavy club, tool hammer, or sledgehammer is 16-18.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Simple Weapon Feats",
+    "name":"Club Expert",
+    "intro":"Choose light club, medium club, or heavy club.",
+    "prerequisite":[
+      "Simple Weapon Specialist",
+      "Blunt Specialist"
+    ],
+    "benefit":"When wielding the chosen weapon, the Critical Threat range for the selected weapon is 13-18.",
+    "example":"",
+    "normal":"",
+    "special":"A character may take this feat up to three times. Each time a character takes the feat, they select a different weapon.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Simple Weapon Feats",
+    "name":"Club Martial Arts",
+    "intro":"",
+    "prerequisite":[
+      "Simple Weapon Specialist",
+      "Blunt Specialist"
+    ],
+    "benefit":"When wielding a light club, medium club, or a heavy club, the character gains a +2 Attack Bonus.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Simple Weapon Feats",
+    "name":"Hammer Martial Arts",
+    "intro":"Select tool hammer or sledgehammer.",
+    "prerequisite":[
+      "Simple Weapon Specialist",
+      "Blunt Specialist"
+    ],
+    "benefit":"When wielding tool hammer or sledgehammer, the Critical Threat range is 13-18.",
+    "example":"",
+    "normal":"",
+    "special":"A character may take this feat up to two times. Each time a character takes the feat, they select a different weapon.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Simple Weapon Feats",
+    "name":"Hammer Expert",
+    "intro":"",
+    "prerequisite":[
+      "Simple Weapon Specialist",
+      "Blunt Specialist",
+      "Hammer Martial Arts"
+    ],
+    "benefit":"When wielding a tool hammer or sledgehammer, the Critical Threat range is 12-18.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Simple Weapon Feats",
+    "name":"Knife Martial Arts",
+    "intro":"",
+    "prerequisite":[
+      "Simple Weapon Specialist"
+    ],
+    "benefit":"When wielding an escape, combat, field, or pocket knife a character receives +1 damage die.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Simple Weapon Feats",
+    "name":"Shield Focus",
+    "intro":"",
+    "prerequisite":[
+      "Simple Weapon Specialist"
+    ],
+    "benefit":"When wielding a shield the Critical Threat range is 15-18.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Simple Weapon Feats",
+    "name":"",
+    "intro":"",
+    "prerequisite":[
+      "STR 13, Archaic Weapons Proficiency (Any)",
+      "Simple Weapon Specialist",
+      "Shield Focus"
+    ],
+    "benefit":"When using a shield in melee combat, a character gains a +3 equipment bonus to DEF.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Simple Weapon Feats",
+    "name":"Simple Weapon Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Simple Weapon Specialist"
+    ],
+    "benefit":"When attacking with a simple melee weapon the CP cost to attack is reduced by 1.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Acrobat",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"If the character does not have Acrobatics as a focused skill, they gain it as one, and have a +2 bonus to all Acrobatics checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has Acrobatics as a focused skill, they gain a +4 bonus to all Acrobatics checks instead.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Alert",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"If the character does not have Perception as a focused skill, they gain it as one, and have a +2 bonus to all Perception checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has Perception as a focused skill, they gain a +4 bonus to all Perception checks instead.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Animal Affinity",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"If the character does not have Animal Handling as a focused skill, they gain it as one, and have a +2 bonus to all Animal Handling checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has Animal Handling as a focused skill, they gain a +4 bonus to all Animal Handling checks instead.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Athlete",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"If the character does not have Athletics as a focused skill, they gain it as one, and have a +2 bonus to all Athletics checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has Athletics as a focused skill, they gain a +4 bonus to all Athletics checks instead.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Aviator",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"If the character does not have Pilot as a focused skill, they gain it as one, and have a +2 bonus to all Pilot checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has Pilot as a focused skill, they gain a +4 bonus to all Pilot checks instead.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Builder",
+    "intro":"Choose a single Craft skill (Structural, Chemical, Mechanical, or Electrical)",
+    "prerequisite":[],
+    "benefit":"If the character does not have that Craft skill as a focused skill, they gain it as one, and have a +2 bonus to all selected Craft skill checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has that Craft skill as a focused skill, they gain a +4 bonus to all selected Craft skill checks instead. This feat may be taken up to four times. Each time it is taken, it applies to a different Craft skill.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Cautious",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"If the character does not have Disable Device as a focused skill, they gain it as one, and have a +2 bonus to all Disable Device checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has Disable Device as a focused skill, they gain a +4 bonus to all Disable Device checks instead.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Confident",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"If the character does not have Presence as a focused skill, they gain it as one, and have a +2 bonus to all Presence checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has Presence as a focused skill, they gain a +4 bonus to all Presence checks instead.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Creative",
+    "intro":"Pick one Craft (Visual art or Writing) or Perform skill",
+    "prerequisite":[],
+    "benefit":"If the character does not have the selected skill as a focused skill, they gain it as one, and have a +2 bonus to all selected skill checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has the selected skill as a focused skill, they gain a +4 bonus to all selected skill checks instead. This feat can be taken multiple times. Each time it is taken, it applies to a different Craft or Perform skill.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Demolitions Expert",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"If the character does not have Demolitions as a focused skill, they gain it as one, and have a +2 bonus to all Demolitions checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has Demolitions as a focused skill, they gain a +4 bonus to all selected skill checks instead.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Educated",
+    "intro":"Pick a single Knowledge skill.",
+    "prerequisite":[],
+    "benefit":"If the character does not have the selected skill as a focused skill, they gain it as one, and have a +2 bonus to all selected skill checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has the selected skill as a focused skill, they gain a +4 bonus to all selected skill checks instead. This feat may be taken multiple times. Each time it is taken, it applies to a different Knowledge skill.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"First Aid Expert",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"If the character does not have Treat Injury as a focused skill, they gain it as one, and have a +2 bonus to all Treat Injury checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has Treat Injury as a focused skill, they gain a +4 bonus to all Treat Injury checks instead.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Hobbyist",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"A character may select any two unfocused skills. They are now considered focused skills.",
+    "example":"",
+    "normal":"",
+    "special":"The character may take this feat multiple times, selecting two different unfocused skills each time.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Healing Knack",
+    "intro":"",
+    "prerequisite":[
+      "Treat Injury 5 Ranks"
+    ],
+    "benefit":"The character does not require a first aid kit to stop bleeding, stabilize a dying character or to revive a dazed,  stunned or unconscious character.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Instructor",
+    "intro":"",
+    "prerequisite":[
+      "Any Skill 1 Rank"
+    ],
+    "benefit":"The character may instruct any other character when they attempt to use a skill, as long as they possess at least one rank in the skill they are instructing in. The instructed character gets a bonus equal to ¼ of the instructor's modifier to the skill.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Medicinal Expert",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"If the character does not have Craft (Pharmaceutical) as a focused skill, they gain it as one, and have a +2 bonus to all Craft (Pharmaceutical) checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has Craft (Pharmaceutical) as a focused skill, they gain a +4 bonus to all Craft (Pharmaceutical) checks instead.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Menacing",
+    "intro":"",
+    "prerequisite":[
+      "CON 13"
+    ],
+    "benefit":"The character may use their CON modifier on Presence checks to intimidate.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Mount Affinity",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"If the character does not have Ride as a focused skill, they gain it as one, and have a +2 bonus to all Ride checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has Ride as a focused skill, they gain a +4 bonus to all Ride checks instead.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Savant",
+    "intro":"Choose a focused skill.",
+    "prerequisite":[
+      "Known Skill (Any) 1 Rank"
+    ],
+    "benefit":"The character gains a bonus equal to their Character Level for that skill. This feat may be taken multiple times, each time selecting a different skill. When the character gains a level, they also receive a +1 miscellaneous bonus to the chosen skill.",
+    "example":"",
+    "normal":"",
+    "special":"A character may take this feat multiple times. Each time a character takes the feat, they select a different focused skill.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Stealthy",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"If the character does not have Stealth as a focused skill, they gain it as one, and have a +2 bonus to all Stealth checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has Stealth as a focused skill, they gain a +4 bonus to all Stealth checks instead.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Technosavant",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"If the character does not have Technology Use as a focused skill, they gain it as one, and have a +2 bonus to all Technology Use checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has Technology Use as a focused skill, they gain a +4 bonus to all Technology Use checks instead.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Vehicle Expert",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"The character gains a +4 bonus on all Drive checks. If the character does not have Drive as a focused skill, they gain it as one, and have a +2 bonus to all Drive checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has Drive as a focused skill, they gain a +4 bonus to all Drive checks instead.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Skill Feats",
+    "name":"Well Spoken",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"If the character does not have Speechcraft as a focused skill, they gain it as one, and have a +2 bonus to all Speechcraft checks.",
+    "example":"",
+    "normal":"",
+    "special":"If the character already has Speechcraft as a focused skill, they gain a +4 bonus to all Speechcraft checks instead.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Spear Feats",
+    "name":"Spear Martial Arts",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Spears)"
+    ],
+    "benefit":"When wielding a long spear, rifle bayonet, or short spear the Critical Threat range is 14-18.",
+    "example":"",
+    "normal":"The Critical Threat range for a long spear, rifle bayonet, or short spear is 16-18.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Spear Feats",
+    "name":"Spear Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Spears)",
+      "Spear Martial Arts",
+      "BAB 2+"
+    ],
+    "benefit":"When wielding a long spear, rifle bayonet, or short spear, the character gains an additional 5 feet of reach with the weapon and can strike adjacent foes with the weapon.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Spear Feats",
+    "name":"Spear Mastery",
+    "intro":"Choose long spear, rifle bayonet, or short spear.",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Spears)",
+      "Spear Martial Arts",
+      "Spear Specialist",
+      "BAB 4+"
+    ],
+    "benefit":"When wielding the chosen weapon the Critical Threat range is 12-18 and any natural roll of a 15-18 is an automatic hit.",
+    "example":"",
+    "normal":"16-18 are automatic hits without this feat.",
+    "special":"A character may take this feat up to three times. Each time a character takes the feat, they select a different weapon.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Staff Feats",
+    "name":"Staff Martial Arts",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Staffs)"
+    ],
+    "benefit":"When wielding a long, quarter, or short staff the Critical Threat range is 14-18.",
+    "example":"",
+    "normal":"The Critical Threat range for a long, quarter, or short staff is 16-18.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Staff Feats",
+    "name":"Staff Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Staffs)",
+      "Staff Martial Arts",
+      "BAB 2+"
+    ],
+    "benefit":"When wielding a long, quarter, or short staff the character gains an additional 5 feet of reach with the weapon and can strike adjacent foes with the weapon.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Staff Feats",
+    "name":"Staff Mastery",
+    "intro":"Choose long staff, quarter staff, or short staff.",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Staffs)",
+      "Staff Martial Arts",
+      "Staff Specialist",
+      "BAB 4+"
+    ],
+    "benefit":"When wielding the chosen weapon, the Critical Threat range is 12-18 and any natural roll of a 15-18 is an automatic hit.",
+    "example":"",
+    "normal":"16-18 are automatic hits without this feat.",
+    "special":"A character may take this feat up to three times. Each time a character takes the feat, they select a different weapon.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Thrown Weapon Feats",
+    "name":"Brutal Throw",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"You may add your POW modifier (instead of your MRK modifier) to attack rolls with thrown weapons. Also, when the character throws a weapon, its range increment is doubled,  increasing the thrown weapon range increment to 20'.",
+    "example":"",
+    "normal":"A character attacking with thrown weapons adds his MRK modifiers to the attack roll, and all thrown weapons have a range increment of 10'.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Thrown Weapon Feats",
+    "name":"Grenadier",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"The character gains a +3 attack bonus on all attacks made using a thrown explosive or splash weapon.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Thrown Weapon Feats",
+    "name":"Power Throw",
+    "intro":"",
+    "prerequisite":[
+      "STR 13",
+      "Brutal Throw",
+      "Power Attack"
+    ],
+    "benefit":"On the character's turn, before making any attacks, the character may choose to take a penalty on all thrown weapon attack rolls and add the same number as a bonus to all thrown weapon damage rolls. This number may not exceed the character's BAB. The penalty on attacks and bonus on damage applies until the character's next turn.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Two Weapon Fighting Feats",
+    "name":"Daishō User",
+    "intro":"",
+    "prerequisite":[
+      "STR 13",
+      "Archaic Weapons Proficiency (Any)",
+      "Two Weapon Melee Fighting"
+    ],
+    "benefit":"A character may wield a weapon they are proficient with in their primary hand and a light weapon in their off hand. When wielding two weapons in this manner, the primary weapon has a +2 attack bonus.",
+    "example":"",
+    "normal":"",
+    "special":"The benefits of the Two Weapons Melee fighting feat apply when using this feat.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Two Weapon Fighting Feats",
+    "name":"Daishō Master",
+    "intro":"",
+    "prerequisite":[
+      "STR 13",
+      "Archaic Weapons Proficiency (Any)",
+      "Two Weapon Melee Fighting",
+      "Two Weapon Defense",
+      "Improved Two Weapon Melee Fighting",
+      "Daishō User"
+    ],
+    "benefit":"A character may wield a weapon they are proficient with in their primary hand and a light weapon in their off hand. Both weapons receive a +3 attack bonus when they are wielded in this manner.",
+    "example":"",
+    "normal":"",
+    "special":"The benefits of the Improved Two Weapons Melee Fighting feat apply when using this feat.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Two Weapon Fighting Feats",
+    "name":"Improved Two-Weapon Melee Fighting",
+    "intro":"",
+    "prerequisite":[
+      "STR 13",
+      "Two-Weapon Melee Fighting"
+    ],
+    "benefit":"The character's penalties for fighting with two melee weapons are reduced by 4 for the primary hand and 8 for the off hand.",
+    "example":"",
+    "normal":"",
+    "special":"If the character has the Two Weapon Ranged Fighting feat, they can mix both Ranged and Melee weapons.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Two Weapon Fighting Feats",
+    "name":"Improved Two-Weapon Ranged Fighting",
+    "intro":"",
+    "prerequisite":[
+      "DEX 13",
+      "Two-Weapon Ranged Fighting",
+      "Proficient with weapon"
+    ],
+    "benefit":"The character's penalties for fighting with two ranged weapons are reduced by 2 for the primary hand and 6 for the off hand.",
+    "example":"",
+    "normal":"",
+    "special":"If the character has the Two Weapon Melee Fighting feat, they can mix both Ranged and Melee weapons.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Two Weapon Fighting Feats",
+    "name":"Two Weapon Defense",
+    "intro":"",
+    "prerequisite":[
+      "STR 13",
+      "Two Weapon Melee Fighting"
+    ],
+    "benefit":"When wielding a double weapon or two weapons (not including unarmed strikes), you gain a +1 equipment bonus to DEF.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Two Weapon Fighting Feats",
+    "name":"Two Weapon Melee Fighting",
+    "intro":"",
+    "prerequisite":[
+      "STR 13"
+    ],
+    "benefit":"The character's penalties for fighting with two melee weapons are reduced by 2 for the primary hand and 6 for the off hand.",
+    "example":"",
+    "normal":"",
+    "special":"If the character has the Two Weapon Ranged Fighting feat, they can mix both Ranged and Melee weapons.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Two Weapon Fighting Feats",
+    "name":"Two Weapon Ranged Fighting",
+    "intro":"",
+    "prerequisite":[
+      "DEX 13",
+      "Proficient with weapon"
+    ],
+    "benefit":"The character's penalties for fighting with two ranged weapons are reduced by 1 for the primary hand and 3 for the off hand.",
+    "example":"",
+    "normal":"",
+    "special":"If the character has the Two Weapon Melee feat, they can mix both Ranged and Melee weapons.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Unarmed Combat Feats",
+    "name":"Brawl",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"When making an unarmed attack, the character receives a +1 bonus on attack rolls, and the character deals non-lethal damage equal to 1d6+POW modifier.",
+    "example":"",
+    "normal":"Unarmed attacks normally deal non-lethal damage equal to 1d3+POW modifier.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Unarmed Combat Feats",
+    "name":"Brawl",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"When making an unarmed attack, the character receives a +1 bonus on attack rolls, and the character deals non-lethal damage equal to 1d6+POW modifier.",
+    "example":"",
+    "normal":"Unarmed attacks normally deal non-lethal damage equal to 1d3+POW modifier.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Unarmed Combat Feats",
+    "name":"Combat Martial Arts",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"With an unarmed strike, the character deals lethal or non-lethal damage (character's choice) equal to 1d4+POW. The character's unarmed attacks count as armed, which means that opponents do not get AoO when the character attacks them unarmed. The character may make AoO against opponents who provoke such attacks. Any feat that increases unarmed attack damage can be used for lethal or non-lethal attacks",
+    "example":"",
+    "normal":"A character deals only 1d3 points of non-lethal damage. Unarmed attacks normally provoke AoO and unarmed combatants cannot normally make AoO.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Unarmed Combat Feats",
+    "name":"Combat Throw",
+    "intro":"",
+    "prerequisite":[
+      "Evasive Martial Arts"
+    ],
+    "benefit":"The character gains a +3 bonus on opposed STR and DEX checks any time the character attempts Trip or Grapple attacks,  or when the character tries to avoid a Trip or Grapple attack made against him or her.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Unarmed Combat Feats",
+    "name":"Defensive Martial Arts",
+    "intro":"",
+    "prerequisite":[
+      "CON 13"
+    ],
+    "benefit":"The character gains 2/Unarmed Strike DR.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Unarmed Combat Feats",
+    "name":"Improved Brawl",
+    "intro":"",
+    "prerequisite":[
+      "Brawl",
+      "BAB 1+"
+    ],
+    "benefit":"When making an unarmed attack, the character receives a +2 bonus on their attack roll, and the character deals non-lethal damage equal to 1d8+POW.",
+    "example":"",
+    "normal":"Unarmed attacks normally deal non-lethal damage equal to 1d3+POW.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Unarmed Combat Feats",
+    "name":"Improved Combat Martial Arts",
+    "intro":"",
+    "prerequisite":[
+      "Combat Martial Arts",
+      "BAB 1+"
+    ],
+    "benefit":"The character's unarmed strike Critical Threat range improves to 15-18.",
+    "example":"",
+    "normal":"A character's unarmed strike Critical Threat range is 16-18 without this feat.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Unarmed Combat Feats",
+    "name":"Improved Defensive Martial Arts",
+    "intro":"",
+    "prerequisite":[
+      "CON 13",
+      "Defensive Martial Arts"
+    ],
+    "benefit":"The character gains 4/Unarmed Strike DR and 1/Bludgeoning DR.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Unarmed Combat Feats",
+    "name":"Knockout Punch",
+    "intro":"",
+    "prerequisite":[
+      "Brawl"
+    ],
+    "benefit":"A character can spend 12 CP to make a single attack with a −2 penalty. If this attack is successful the character gains +3 damage dice. After the attack is made the character is considered flat-footed for a single round. This damage is non-lethal damage.",
+    "example":"",
+    "normal":"",
+    "special":"Even if the character has the ability to treat unarmed damage as lethal damage, the damage from a knockout punch is always non-lethal.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Unarmed Combat Feats",
+    "name":"Pressure Point Strike",
+    "intro":"",
+    "prerequisite":[
+      "Combat Martial Arts",
+      "Weapon Finesse"
+    ],
+    "benefit":"When performing an unarmed strike, a character may use their AGL modifier for damage instead of their POW Modifier",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Unarmed Combat Feats",
+    "name":"Slam Throw",
+    "intro":"",
+    "prerequisite":[
+      "Evasive Martial Arts",
+      "Combat Throw"
+    ],
+    "benefit":"A successful trip attempt by the character deals 1d3+POW non-lethal damage to the target.",
+    "example":"",
+    "normal":"",
+    "special":"If a character that has any feats that turn non-lethal damage into lethal or increase the damage that unarmed attacks cause, these increase the damage done by this feat.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Unarmed Combat Feats",
+    "name":"Street Fighting",
+    "intro":"",
+    "prerequisite":[
+      "Brawl"
+    ],
+    "benefit":"Once per round, if the character makes a successful melee attack with an unarmed strike or a light weapon, the character deals an extra 1d4 points of lethal or non-lethal damage.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Unarmed Combat Feats",
+    "name":"Unarmed Combat Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Brawl"
+    ],
+    "benefit":"When making an unarmed called shot attack, the character receives a +4 competence bonus on their attack rolls.",
+    "example":"",
+    "normal":"Unarmed called shot attacks fall under normal called shot rules, and the penalties that are associated with them.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Vehicle Feats",
+    "name":"Aircraft Operations",
+    "intro":"   Select a class of aircraft (heavy aircraft, attack helicopters, or attack planes). The character is proficient at operating that class of aircraft.\n   The heavy aircraft class includes jumbo passenger airplanes,  large cargo planes, heavy bombers, and any other aircraft with three or more engines or jet engines.\n   Attack helicopters include any helicopter with weapons.\n   Attack planes include military fighter and ground attack planes.",
+    "prerequisite":[
+      "Pilot 5+"
+    ],
+    "benefit":"The character takes no penalty on Pilot checks or attack rolls made when operating an aircraft of the selected class.",
+    "example":"",
+    "normal":"Characters without this feat take a −4 penalty on Pilot checks made to operate an aircraft that falls in any of these classes, and on attacks made with aircraft weapons. There is no penalty when the character operates a general purpose aircraft.",
+    "special":"The character may gain this feat multiple times. Each time the character takes the feat, the character selects a different class of aircraft.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Vehicle Feats",
+    "name":"Drive-by Attack",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"The character takes no vehicle speed penalty when making an attack while in a moving vehicle. Also, if the character is the driver, they can spend CP to make an attack at any point along the vehicle's movement.",
+    "example":"",
+    "normal":"When attacking from a moving vehicle, a character takes a penalty based on the vehicle's speed. Passengers can ready an action to make an attack when their vehicle reaches a particular location, but the driver must make their attack either before or after the vehicle's movement.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Vehicle Feats",
+    "name":"Force Stop",
+    "intro":"",
+    "prerequisite":[
+      "Drive 5+ ranks",
+      "Vehicle Expert"
+    ],
+    "benefit":"When the character attempts a sideswipe stunt with a surface vehicle, the character can force the other vehicle to a stop by nudging it into a controlled sideways skid. In addition to the normal requirements for attempting a sideswipe stunt, the character must have sufficient movement remaining to move a number of squares equal to the character's turn number. After succeeding on the check to attempt the sideswipe, the character makes a Drive check opposed by the other driver. If the character succeeds, turn the other vehicle 90 degrees across the front of the character's, so that they form a tee. Move them forward a distance equal to the character's turn number. The vehicles end their movement at that location, at stationary speed, and take their normal sideswipe damage. If the character fails the check,  resolve the sideswipe normally.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Vehicle Feats",
+    "name":"Surface Vehicle Operation",
+    "intro":"   Select a class of surface vehicle (heavy wheeled, powerboat, sailboat, ship, or tracked). The character is proficient at operating that class of vehicle.\n   Heavy wheeled class includes all kinds of semi-trucks and tractor-trailers, as well as wheeled construction vehicles (such as earth movers) and wheeled armored vehicles (such as some armored personnel carriers).\n   Powerboats are engine-powered water vessels designed for operation by a single person and usually no more than 100 feet in length.\n   Sailboats are wind-powered water vessels.\n   Ships are large, multi-crewed water vessels.\n   Tracked vehicles include bulldozers and tanks and other military vehicles.",
+    "prerequisite":[
+      "Drive 5+"
+    ],
+    "benefit":"The character takes no penalty on Drive checks or attack rolls made when operating a surface vehicle of the selected class.",
+    "example":"",
+    "normal":"Characters without this feat take a −4 penalty on Drive checks made to operate a surface vehicle that falls under any of these classes, and to attacks made with vehicle weapons. There is no penalty for operating a general-purpose surface vehicle.",
+    "special":"A character may take this feat up to five times. Each time the character takes the feat, they select a different class of surface vehicle.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Vehicle Feats",
+    "name":"Vehicle Dodge",
+    "intro":"",
+    "prerequisite":[
+      "DEX 13",
+      "Drive or Pilot 8+",
+      "Vehicle Expert"
+    ],
+    "benefit":"When driving a vehicle, during the character's action the character designates an opposing vehicle or a single opponent. The character's vehicle and everyone aboard it receive a +4 dodge bonus to DEF against attacks from that vehicle or opponent. The character can select a new vehicle or opponent on their action.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Weapon Proficiency Feats",
+    "name":"Archaic Weapons Proficiency",
+    "intro":"Choose a weapon group from the following list: bows, combat swords, fencing swords, axes, staffs, spears, picks, or maces.",
+    "prerequisite":[],
+    "benefit":"The character makes attack rolls with weapon normally.",
+    "example":"",
+    "normal":"A character who uses a weapon without being proficient with it takes a −4 penalty on attack rolls.",
+    "special":"A character may take this feat up to four times. Each time a character takes the feat, they select a different weapon group.",
+    "tutoring":{
+        "categories":"Bows, Combat Swords, Fencing Swords, Axes, Staves, Spears, Picks, and Maces",
+        "time":"1 day",
+        "benefit":"Attack penalty is reduced to −2"
+      }
+  },
+  {
+    "category":"Weapon Proficiency Feats",
+    "name":"Exotic Firearms Proficiency",
+    "intro":"Choose either Cannons or Flamethrowers.",
+    "prerequisite":[
+      "Personal Firearms Proficiency",
+      "Autofire Proficiency"
+    ],
+    "benefit":"The character makes attack rolls with the weapon normally.",
+    "example":"",
+    "normal":"A character who uses a weapon without being proficient with it takes a −4 penalty on attack rolls.",
+    "special":"A character may take this feat up to two times. Each time a character takes the feat, they select a different weapon group. The flamethrower or flamer can not be used without this feat.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Weapon Proficiency Feats",
+    "name":"Exotic Melee Weapon Proficiency",
+    "intro":"Choose any two exotic melee weapons.",
+    "prerequisite":[],
+    "benefit":"When using a chosen exotic weapon, the character makes attack rolls with the weapon normally.",
+    "example":"",
+    "normal":"A character who uses a weapon without being proficient with it takes a −4 penalty to attack.",
+    "special":"A character may take this feat multiple times. Each time the character takes the feat, they select two different exotic melee weapons.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Weapon Proficiency Feats",
+    "name":"Personal Firearms Proficiency",
+    "intro":"",
+    "prerequisite":[],
+    "benefit":"The character can fire any personal firearm without penalty and may use the attack bonuses a firearm receives from upgrades.",
+    "example":"",
+    "normal":"Characters without this feat take a −4 penalty on attack rolls made with personal firearms, and may not use attack bonuses given by firearm upgrades.",
+    "special":"The character with this feat can use black powder firearms without penalty, but cannot reload them.",
+    "tutoring":{
+      "categories":"",
+      "time":"1 day",
+      "benefit":"Can reload firearms and attack penalty is reduced to −3"
+    }
+  },
+  {
+    "category":"Weapon Proficiency Feats",
+    "name":"Explosive Weapons Proficiency",
+    "intro":"",
+    "prerequisite":[
+      "Personal Firearms Proficiency"
+    ],
+    "benefit":"When using a grenade launcher, rocket launcher, or mortar the character makes attack rolls with the weapon normally.",
+    "example":"",
+    "normal":"A character who uses a weapon without being proficient with it takes a −4 penalty on attack rolls.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Weapon Proficiency Feats",
+    "name":"Improvised Weapon Proficiency",
+    "intro":"",
+    "prerequisite":[
+      "Proficient with weapon"
+    ],
+    "benefit":"You are considered proficient with all improvised weapons that you would not be proficient with under normal means. The GM decides which improvised weapon fits into which category. Also, the chance for an improvised weapon to break is reduced to 20%.",
+    "example":"Someone with Archaic Weapon Proficiency (Axes) might be able to pick up a camp axe and use it as a hand axe with no penalty.",
+    "normal":"Without this feat, a character takes a −2 non-proficient penalty with all improvised weapons. Improvised weapons have a 50% chance of breaking.",
+    "special":"",
+    "tutoring":{
+        "categories":"",
+        "time":"",
+        "benefit":""
+      }
+  }
+]
