@@ -24,7 +24,3 @@ Ops and Tactics is licenced under the Creative Commons. More information can be 
 The JSON and XML files that contain Ops and Tactics content are subject to the licence Ops and Tactics is under, not GPL 3.
 
 If you adapt this app to your own system, then the modifications you make to the code maintain GPL 3, but the XML and JSON files inherit the existing licence for your system.
-
-## Sent from the Class Project Slack
-
-Yes it's true. I am him, and he is me.
