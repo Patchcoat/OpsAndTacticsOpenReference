@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Animal Handling (CHA)</header>
+<box>
+<text>Animal Handling (CHA)  The character is trained at working with animals and can teach them tricks, get them to follow your simple commands, or even domesticate them.</text>
+</box>
+		<text>   This task involves commanding an animal to perform a task ornon-lethal damage or ability score damage, the TN increases by 2. If your check succeeds, the animal performs the task or trick on its next action.The TN for handling an animal is TN of the known trick − 5.</text>
+		<header level = "1">Push an Animal</header>
+		<text>   To push an animal means to get it to perform a task or trickThis category also covers making an animal perform a forced march or forcing it to hustle for more than 1 hour between sleep cycles. If the animal is wounded or has taken any non-lethal damage or ability score damage, the TN increases by 2. If your check succeeds, the animal performs the task or trick on its next action.</text>
+		<header level = "1">Teach an Animal a Trick</header>
+		<text>   You can teach an animal a specific trick with 1 week of work andanimal with an INT score of 1 can learn a maximum of four tricks, while an animal with an INT score of 2 can learn a maximum of eight tricks. Possible tricks (and their associated TNs) include, but are not necessarily limited to, the following:</text>
+		<text><b>Attack [TN20]</b></text>
+<text>   The animal attacks apparent enemies. You may point to aparticular creature that you wish the animal to attack, and it will comply if able. Normally, an animal will attack only sentient, mystical beast, giants, or other animals. Teaching an animal to attack all creatures (including such unnatural creatures as undead and aberrations) counts as two tricks.</text>
+		<text><b>Come [TN15]</b></text>
+<text>   The animal comes to you, even if it normally would not do so.</text>
+		<text><b>Defend [TN20]</b></text>
+<text>   The animal defends you (or is ready to defend you if no threat ispresent), even without any command being given. Alternatively, you can command the animal to defend another specific character.</text>
+		<text><b>Down [TN15]</b></text>
+<text>   The animal breaks off from combat or otherwise backs down. Ananimal that doesn&#x27;t know this trick continues to fight until it must flee (due to injury, a fear effect, or the like) or its opponent is defeated.</text>
+		<text><b>Fetch [TN15]</b></text>
+<text>   The animal goes and retrieves an item or object. If you do notpoint out a specific item, the animal fetches a random object.</text>
+		<text><b>Guard [TN20]</b></text>
+<text>   The animal stays in place and prevents others from approaching.The animal attacks any creature that steps within 20&#x27; of the object the animal is guarding, that has not been authorized by the command giver to approach.</text>
+		<text><b>Heel [TN15]</b></text>
+<text>   The animal follows you closely, even to places where it normallywouldn&#x27;t go.</text>
+		<text><b>Perform [TN15]</b></text>
+<text>   The animal performs a variety of simple tricks, such as sittingup, rolling over, roaring or barking, and so on.</text>
+		<text><b>Seek [TN15]</b></text>
+<text>   The animal moves into an area and looks around for anything thatis obviously alive or animate.</text>
+		<text><b>Stay [TN15]</b></text>
+<text>   The animal stays in place, waiting for you to return. It does notchallenge other creatures that come by, though it still defends itself if it needs to.</text>
+		<text><b>Track [TN20]</b></text>
+<text>   The animal tracks the scent presented to it. This requires theanimal to have the scent ability.</text>
+		<text><b>Work [TN15]</b></text>
+<text>   The animal pulls or pushes a medium or heavy load.</text>
+		<header level = "1">Train an Animal for a General Purpose</header>
+		<text>   Rather than teaching an animal individual tricks, you can simplyrepresents a preselected set of known tricks that fit into a common scheme, such as guarding or heavy labor. The animal must meet all the normal prerequisites for all tricks included in the training package. If the package includes more than three tricks, the animal must have an INT score of 2 or higher.</text>
+		<text>   An animal can be trained for only one general purpose, though ifbeyond those included in its general purpose), it may do so. Training an animal for a purpose requires fewer checks than teaching individual tricks does, but no less time.</text>
+		<text><b>Combat Training [TN20]</b></text>
+<text>   An animal trained to bear a rider into combat knows the tricksattack, come, defend, down, guard, and heel. Training an animal for combat riding takes 6 weeks. You may also upgrade an animal trained for riding to one trained for combat by spending 3 weeks and making a successful Animal Handling check [TN20]. The new general purpose and tricks completely replace the animal&#x27;s previous purpose and any tricks it once knew. Suitable mounts are trained in this way.</text>
+		<text><b>Fighting [TN20]</b></text>
+<text>   An animal trained to engage in combat knows the tricks attack,down, and stay. Training an animal for fighting takes 3 weeks.</text>
+		<text><b>Guarding [TN20]</b></text>
+<text>   An animal trained to guard knows the tricks attack, defend, down,and guard. Training an animal for guarding takes 4 weeks.</text>
+		<text><b>Heavy Labor [TN15]</b></text>
+<text>   An animal trained for heavy labor knows the tricks come and work.Training an animal for heavy labor takes 2 weeks.</text>
+		<text><b>Hunting [TN20]</b></text>
+<text>   An animal trained for hunting knows the tricks attack, down,fetch, heel, seek, and track. Training an animal for hunting takes 6 weeks.</text>
+		<text><b>Performance [TN15]</b></text>
+<text>   An animal trained for performance knows the tricks come, fetch,heel, perform, and stay. Training an animal for performance takes 5 weeks.</text>
+		<text><b>Riding [TN15]</b></text>
+<text>   An animal trained to bear a rider knows the tricks come, heel,and stay. Training an animal for riding takes 3 weeks.</text>
+		<header level = "1">Rear a Wild Animal</header>
+		<text>   To rear an animal means to raise a wild creature from infancy socreatures of the same kind at once.</text>
+		<text>   A successfully domesticated animal can be taught tricks at thedomesticated animal later.</text>
+		<text>   Try Again?</text>
+		<text>   Yes, except for rearing an animal.</text>
+		<text>   Time</text>
+		<text>   Varies. Handling an animal costs 6 Combat Points, while pushingframes noted above, you must spend half this time (at the rate of 3 hours per day per animal being handled) working toward completion of the task before you attempt the Animal Handling check. If the check fails, your attempt to teach, rear, or train the animal fails and you need not complete the teaching, rearing, or training time. If the check succeeds, you must invest the remainder of the time to complete the teaching, rearing, or training. If the time is interrupted or the task is not followed through to completion, the attempt to teach, rear, or train the animal automatically fails.</text>
+	</item>
+</body>

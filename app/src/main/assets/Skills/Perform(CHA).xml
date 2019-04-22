@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Perform (CHA)</header>
+<box>
+<text>Perform (CHA)  The character is skilled in a form of entertainment. This skill encompasses several categories, each of them treated as a separate skill. These categories are identified and defined below.</text>
+</box>
+		<header level = "1">Check</header>
+		<text>   The character is accomplished in some type of artisticcan impress audiences with their talent and skill. The quality of the character&#x27;s performance depends on their check result.</text>
+		<text>   The eight Perform categories and the qualities each one</text>
+<list type="unordered">
+<text>Act The character is capable of performing drama, comedy, or action-oriented roles with some level of skill.</text>
+<text>Dance The character is capable of performing rhythmic and patterned bodily movements to music.</text>
+<text>Keyboards The character is a musician gifted with a talent for playing keyboard musical instruments, such as piano, organ, and synthesizer.</text>
+<text>Percussion Instruments The character is a musician gifted with a talent for playing percussion musical instruments, such as drums, cymbals, triangle, xylophone, and tambourine.</text>
+<text>Sing The character is a musician gifted with a talent for producing musical tones with their voice.</text>
+<text>Stand-up The character is capable of performing a stand-up routine before an audience.</text>
+<text>Stringed Instruments The character is a musician gifted with a talent for playing stringed musical instruments, such as banjo, guitar, harp, lute, sitar, and violin.</text>
+<text>Wind Instruments The character is a musician gifted with a talent for playing wind musical instruments, such as flute, bugle, trumpet, tuba, bagpipes, and trombone.</text>
+</list>
+<table>
+<tr><header textAlign="center">Skill Check Result</header><header textAlign="center">Effort Achieved</header><header textAlign="center">Audience Reaction</header></tr>
+<tr>
+<text textAlign="center">10</text><text textAlign="center">Amateur performance</text><text textAlign="center">Audience may appreciate your performance, but isn&#x27;t impressed</text></tr>
+<tr>
+<text textAlign="center">15</text><text textAlign="center">Routine performance</text><text textAlign="center">Audience enjoys your performance, but it isn&#x27;t exceptional</text></tr>
+<tr>
+<text textAlign="center">20</text><text textAlign="center">Great performance</text><text textAlign="center">Audience highly impressed</text></tr>
+<tr>
+<text textAlign="center">25</text><text textAlign="center">Memorable performance</text><text textAlign="center">Audience enthusiastic</text></tr>
+<tr>
+<text textAlign="center">30</text><text textAlign="center">Masterful performance</text><text textAlign="center">Audience awed</text></tr>
+</table>
+		<text>   Special</text>
+		<text>   A character can take 10 when making a Perform check.</text>
+		<text>   A character without an appropriate instrument automatically(Stringed), or Perform (Wind) check they attempt. At the GM&#x27;s discretion, impromptu instruments may be employed, but the performer must take a −6 penalty on the check because their equipment, although usable, is inappropriate for the skill.</text>
+		<text>   Try Again?</text>
+		<text>   Not for the same performance and audience.</text>
+		<text>   Time</text>
+		<text>   A Perform check usually requires at least several minutes to an</text>
+	</item>
+</body>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Pilot (DEX) Trained Only</header>
+<box>
+<text>Pilot (DEX) Trained Only  This skill allows a character to successfully pilot aircraft of various types.</text>
+</box>
+		<text>   Normal</text>
+		<text>   A pilot can fly attack helicopters and military prop aircraft</text>
+		<text>   Special</text>
+		<text>   A character can take 10 when making a Pilot check.</text>
+		<text>   There is no penalty for operating a general-purpose fixed-winghelicopters, and attack planes) require the corresponding Aircraft Operation feat, or else the character takes a −4 penalty on Pilot checks.</text>
+		<text>   Time</text>
+		<text>   A Pilot check costs 6 Combat Points.</text>
+		<text>   Try again?</text>
+		<text>   Most Pilot checks have consequences for failure that make trying</text>
+	</item>
+</body>

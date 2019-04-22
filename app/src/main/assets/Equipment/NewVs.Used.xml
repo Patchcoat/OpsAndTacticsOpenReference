@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">New Vs. Used</header>
+<box>
+<text>New Vs. Used  The prices listed for the various objects are the price you&#x27;d pay for something NIB (New in Box), but often characters will either try to purchase something used or try to sell extra gear. When purchasing or selling something used, use these rates.</text>
+</box>
+<list type="unordered">
+<text>Like New 90% of normal price. No major problems, gear works as advertised and includes most, if not all of the listed equipment.</text>
+<text>Good 75% of normal price. Object shows some wear, but still works as advertised, does not include any of the extra listed gear outside of what&#x27;s attached to it.</text>
+<text>Fair 50% of normal price. Object shows wear and has light damage, firearms would have to be cleaned in this state, and cars may have to have minor repairs (15% HP lost or less).</text>
+<text>Usable 25% of normal price. Objects need repair to use functionally, firearms considered damaged and need to be repaired before use, cars would need major repairs (16-25% HP lost).</text>
+<text>Poor 10% of normal price. Objects are basically junk at this point. Firearms are no more than spare parts (or a spare magazine), a vehicle would have to be rebuilt from this stage (50% or more HP lost).</text>
+</list>
+	</item>
+</body>

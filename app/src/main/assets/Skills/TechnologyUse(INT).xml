@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Technology Use (INT)</header>
+<box>
+<text>Technology Use (INT)  Your character is skilled at using computers and technology to bypass security systems, destroy and create programs.</text>
+</box>
+		<header level = "1">Accessing Devices</header>
+		<text>   Accessing a computer or network without permission is known asSite is a virtual location that contains one or more Devices, which may each contain Data, Software Modules, and Actions. A Site can be as small as a single computer or a motion-activated light, or as large as a corporate network connecting computers and digital storage devices all over the world—The important thing is that access to a Site connects the user to everything within it. Some Sites can be accessed via the internet; others are not connected to any outside network and can only be tapped into by a user who physically accesses a Device connected to the Site.</text>
+		<text>   Every site is overseen by a system administrator—the person insystem administrator is the only person with access to all of a site&#x27;s functions and data. A site can have more than one system administrator; large sites have a system administrator on duty at all times. A character is the system administrator of their own devices.</text>
+		<text>   When a character hacks into a site, the visit is called ais over. The character can go back to the site in the future; when they do, it is a new session. Several steps are required to hack into a site. All Sites have a Security rating and a Complexity rating, which describe how difficult they are to hack into and how lengthy a process it is.</text>
+		<text>   This step is optional. By making a Technology Use check [TN20],a −5 penalty on any attempt made to identify the character if their activity is detected.</text>
+		<text>   There are two ways to do this: physically or remotely.</text>
+		<text>   Physical Access</text>
+<box>
+<text>A character gains access to a computer or other device connected connected to the internet, this is probably the only way a character can access it. A variety of skill checks may be required depending on the methods used to gain access.</text>
+</box>
+<box>
+<text>Reaching a site over medium or long range requires two Technology remotely. The second check has a TN determined by the Site&#x27;s Security.</text>
+</box>
+		<text>   Once a character has access to a site, they can begin attemptingsite. In a site that contains a desktop computer and a security camera, for instance, the character may try to access the footage data stored in the computer&#x27;s digital storage device, or they might attempt to shut down the camera or point it at the wall. Time spent on these actions does not need to be contiguous−a character may begin searching for a device, spending three Combat Points out of the total 18 CP required, draw a pistol and fire it with the remainder of their CP for the round, and resume their access attempt on the following round.</text>
+		<text>   To find the Device a character wants in an unfamiliar Site, thedetermined by the Security of the Site, and the time required is determined by the Access Range and the Site&#x27;s Complexity. Finding public information does not require this task. A character does not have to repeat this task to attempt to access the contents of an already-found Device.</text>
+		<text>   After finding what they&#x27;re after, the character makes acontrol of the targeted Data, Software Module, or Action. The TN for this check is determined by the Security of the Site and the File Security of the specific Data, Software module, or Action they&#x27;re targeting. The time required is determined by the Access Range and the Site&#x27;s Complexity.</text>
+		<text>   If the check is failed by 5 or more, the security systemunauthorized entry. An alerted administrator may attempt to identify the character or cut off the character&#x27;s access to the system.</text>
+		<text>   If the character beats the TN by 10 or more when attempting togains access to all of that Device&#x27;s contents.</text>
+		<text>   Once a character has found a Device in the network and defeatedaccess. Defeating the security of a desktop computer would allow the character to transfer files to or from its digital storage devices, for example, and accessing the lock of a computerized door would allow the character to lock or unlock it as they please.</text>
+		<text>   Operate Remote Device</text>
+		<text>   If a Device has Actions that the character has gained access to,check. The time required depends on the unmodified Access Range.</text>
+		<text>   Data Transfer</text>
+		<text>   If a Device has Storage that the character has gained access to,to their own device. The time required to initialize the transfer depends on the unmodified Access Range. The time required for the transfer to complete, which does not require the character&#x27;s active participation, depends on the size of the Data being transfered and the Access Range.</text>
+		<text>   Degrade Programming</text>
+		<text>   A character can destroy or alter applications on a Device theyharder or impossible. The TN for the attempt depends on what the character tries to do. Crashing a Device or Software Module simply shuts it down. Its user may restart it without making a skill check (however, restarting takes 1 minute). Destroying programming makes the Device or Software Module unusable until the programming is repaired. Damaging programming imposes a -4 penalty on all Technology Use checks made with the Device or Software Module, and requires a Technology Use check equal to the TN to damage the programming to notice.</text>
+		<text>   A character can degrade the programming of multiple devices orfor each additional target.</text>
+		<text>   Fixing degraded programming requires 1 hour and a Technology Use</text>
+		<header level = "1">Defend Security</header>
+		<text>   If the character is the system administrator for a site (whichcan defend the site against intruders. If the site alerts the character to an intruder, the character can attempt to cut off the intruder&#x27;s access (end the intruder&#x27;s session), regain control of hacked devices, or identify the intruder.</text>
+		<text>   To cut off access, make an opposed Technology Use check againstis ended. The intruder might be able to defeat the character&#x27;s security and access their site again, but the intruder will have to start the hacking process all over. The time required to attempt cutting off access is determined by the site complexity and access range.</text>
+		<text>   One surefire way to prevent further access is to simply shut theon a large site with many computers, or computers controlling functions that can&#x27;t be interrupted, it may be time-consuming or even impossible. Shutting a site down takes at least a number of rounds equal to the site complexity.</text>
+		<text>   To identify the intruder, make an opposed Technology Use checkSite from which the intruder is operating. If it is a single computer, the character learns the name of the computer&#x27;s owner. Identifying the intruder requires 1 minute, and automatically fails if the intruder ends their session before that time has elapsed.</text>
+		<header level = "1">Write Program</header>
+		<text>   A character can create a software module to help them performRAM as normal software modules, and provide the same bonus depending on their variety</text>
+		<text>   The TN to write a Lite Hacking Module is 15, and the time</text>
+		<text>   The TN to write a Standard Hacking Module is 20, and the time</text>
+		<text>   The TN to write a Full-featured Hacking Module is 25, and the</text>
+		<text>   Using a Hacking Module increases the time taken for tasks by themodules.</text>
+<table>
+<tr><header textAlign="center">Site Security</header><header textAlign="center">TN</header></tr>
+<tr>
+<text textAlign="center">Minimum</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">Average</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">Exceptional</text><text textAlign="center">30</text></tr>
+<tr>
+<text textAlign="center">Maximum</text><text textAlign="center">35</text></tr>
+<tr>
+<text textAlign="center">File Security</text><text textAlign="center">TN</text></tr>
+<tr>
+<text textAlign="center">None (Routine Functions, such as passcodes or payroll records)</text><text textAlign="center">−5</text></tr>
+<tr>
+<text textAlign="center">Standard (Passive Actions, such as cameras and locks)</text><text textAlign="center">+0</text></tr>
+<tr>
+<text textAlign="center">Secure (Active Functions, such as motion detectors and alarms)</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">Critical (Vital Functions, such as resetting parameters)</text><text textAlign="center">+10</text></tr>
+<tr>
+<text textAlign="center">Access Range</text><text textAlign="center">Base Time</text><text textAlign="center">Data Transfer Rate</text></tr>
+<tr>
+<text textAlign="center">Close (Adjacent to device)</text><text textAlign="center">6 CP</text><text textAlign="center">5 Storage per round</text></tr>
+<tr>
+<text textAlign="center">Medium (Within 15 miles of the device)</text><text textAlign="center">12 CP</text><text textAlign="center">1 Storage per round</text></tr>
+<tr>
+<text textAlign="center">Long (Further than 15 miles from the device)</text><text textAlign="center">1 Minute</text><text textAlign="center">1 Storage per minute</text></tr>
+<tr>
+<text textAlign="center">Site Complexity</text><text textAlign="center">Time Multiplier</text></tr>
+<tr>
+<text textAlign="center">Single device</text><text textAlign="center">1x</text></tr>
+<tr>
+<text textAlign="center">Small security system</text><text textAlign="center">3x</text></tr>
+<tr>
+<text textAlign="center">Large office network</text><text textAlign="center">10x</text></tr>
+<tr>
+<text textAlign="center">Massive corporate network</text><text textAlign="center">30x</text></tr>
+<tr>
+<text textAlign="center">Program Degradation Scope</text><text textAlign="center">TN</text><text textAlign="center">Time</text></tr>
+<tr>
+<text textAlign="center">Crash Computer</text><text textAlign="center">19</text><text textAlign="center">1 minute</text></tr>
+<tr>
+<text textAlign="center">Destroy programming</text><text textAlign="center">23</text><text textAlign="center">10 minutes</text></tr>
+<tr>
+<text textAlign="center">Damage programming</text><text textAlign="center">35</text><text textAlign="center">10 minutes</text></tr>
+</table>
+		<text>   Special</text>
+		<text>   A character can take 10 when using the Technology Use skill.</text>
+		<text>   Time</text>
+		<text>   Technology Use checks take different amounts of time based ona site is accessed, and the use of any hacking modules. Please refer to the specific task and table: “Technology use, Systems TN and Time” , to calculate these.</text>
+	</item>
+</body>

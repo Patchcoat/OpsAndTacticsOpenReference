@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Ammunition</header>
+<text><b>Ammunition</b></text>
+		<text>   Ammunition consists of the items required for ranged weapons to</text>
+<table>
+<tr><header textAlign="center">Type</header><header textAlign="center">Cost</header></tr>
+<tr>
+<text textAlign="center">Spear gun Spears (5)</text><text textAlign="center">1</text></tr>
+<tr>
+<text textAlign="center">CO₂ Cartridges (40)</text><text textAlign="center">1</text></tr>
+<tr>
+<text textAlign="center">Taser Cartridge</text><text textAlign="center">2</text></tr>
+<tr>
+<text textAlign="center">Flamer Fuel Cartridge (2)</text><text textAlign="center">1</text></tr>
+<tr>
+<text textAlign="center">Ballistic Knife Blades</text><text textAlign="center">2</text></tr>
+</table>
+		<header level = "1">.68 Paintball Ammunition</header>
+		<text>   Paintball ammunition is used in paintball markers. Ammunition</text>
+		<text>   Pepperball</text>
+<box>
+<text>This ammunition is paintball capsules filled with OC chemical [TN15] or be blinded for 1d4 rounds. A gas mask renders the target immune to the effects and a wet cloth held over the eyes, nose, and mouth provides a +2 to the Fortitude Saving Throw. If a character is already blinded due to an effect that would be ineffective due to a gas mask, the original blinding effect is removed, and the new effect immediately takes place.</text>
+</box>
+<box>
+<text>This ammunition is paintball capsules filled with extra strength Fortitude Saving Throw [TN20] or be blinded for 2d3 rounds. If a character is already blinded due to an effect that would be ineffective due to a gas mask, the original blinding effect is removed, and the new effect immediately takes place.</text>
+</box>
+<box>
+<text>This ammunition is paintball capsules filled with a highly paint on whatever it strikes. Marker ammunition is available in various colors.</text>
+</box>
+<box>
+<text>This ammunition is a hollow ball of nylon, used to break glass at </text>
+</box>
+<box>
+<text>This ammunition is a hard rubber ball used primarily as a self reusable, if collected.</text>
+</box>
+<box>
+<text>This ammunition is a soft rubber ball used to practice by both rounds are reusable, if collected. Practice ammunition is available in various colors.</text>
+</box>
+<table>
+<tr><header textAlign="center">Type</header><header textAlign="center">Cost</header><header textAlign="center">#/box</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Pepperball</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Pava Round</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Marker</text><text textAlign="center">1</text><text textAlign="center">500</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Glass Breaker</text><text textAlign="center">1</text><text textAlign="center">100</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Self Defense</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Practice</text><text textAlign="center">1</text><text textAlign="center">100</text><text textAlign="center">None</text></tr>
+</table>
+		<header level = "1">18mm Less Lethal</header>
+		<text>   18mm Less Lethal ammunition is used in the FN 303 series LessLess Lethal Launchers use.</text>
+		<text>   OC</text>
+<box>
+<text>This ammunition is an 18mm capsules filled with OC chemical [TN19] or be blinded for 4d2 rounds. A gas mask renders the target immune to the effects and a wet cloth held over the eyes, nose, and mouth provides a +2 to the Fortitude Saving Throw. If a character is already blinded due to an effect that would be ineffective due to a gas mask, the original blinding effect is removed, and the new effect immediately takes place.</text>
+</box>
+<box>
+<text>This ammunition is an 18mm capsules filled with a high visible, whatever it strikes. Marker ammunition is available in various colors.</text>
+</box>
+<box>
+<text>This ammunition is an 18mm capsules filled with an inert powder. </text>
+</box>
+<table>
+<tr><header textAlign="center">Type</header><header textAlign="center">Cost</header><header textAlign="center">#/box</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">OC</text><text textAlign="center">3</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Marker</text><text textAlign="center">3</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Impact</text><text textAlign="center">3</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+</table>
+		<header level = "1">Crossbow Bolt Heads and Arrowheads</header>
+		<text>   Crossbow bolts and arrowheads are used with bows and crossbows.</text>
+		<text>   Fieldpoint</text>
+<box>
+<text>These heads are the standard heads for arrows and crossbow bolts. </text>
+</box>
+<box>
+<text>These heads are rounded and made of plastic. They do non-lethal </text>
+</box>
+<box>
+<text>These heads are hardened and tapered for maximum penetration. </text>
+</box>
+<box>
+<text>These heads are wide and sharpened for maximum damage upon </text>
+</box>
+<table>
+<tr><header textAlign="center">Type</header><header textAlign="center">Cost/20</header></tr>
+<tr>
+<text textAlign="center">Fieldpoint</text><text textAlign="center">2</text></tr>
+<tr>
+<text textAlign="center">Blunt</text><text textAlign="center">2</text></tr>
+<tr>
+<text textAlign="center">Bodkin</text><text textAlign="center">4</text></tr>
+<tr>
+<text textAlign="center">Broadhead</text><text textAlign="center">5</text></tr>
+</table>
+		<header level = "1">Cased Ammunition</header>
+		<text>   Cased ammunition is ammunition that uses a metal case to holdof brass, steel, or aluminum. All calibers within a category have the same cost for the type of rounds listed.</text>
+<table>
+<tr><header textAlign="center">Type</header><header textAlign="center">Cost</header><header textAlign="center">#/box</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Rimfire</text></tr>
+<tr>
+<text textAlign="center">FMJ</text><text textAlign="center">1</text><text textAlign="center">500</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">JHP</text><text textAlign="center">1</text><text textAlign="center">400</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Explosive</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Match Grade</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tracer</text><text textAlign="center">1</text><text textAlign="center">100</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Frangible</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Blank</text><text textAlign="center">1</text><text textAlign="center">200</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Light Rimless Handgun</text></tr>
+<tr>
+<text textAlign="center">FMJ</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Surplus</text><text textAlign="center">1</text><text textAlign="center">200</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">JHP</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Frangible</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Match Grade</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Blank</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Intermediate Rimless Handgun</text></tr>
+<tr>
+<text textAlign="center">FMJ</text><text textAlign="center">1</text><text textAlign="center">100</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Surplus</text><text textAlign="center">1</text><text textAlign="center">400</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">JHP</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Ratshot</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Frangible</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Armor Piercing</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Non-Lethal</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Match Grade</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tracer</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Blank</text><text textAlign="center">1</text><text textAlign="center">200</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Heavy Rimless Handgun</text></tr>
+<tr>
+<text textAlign="center">FMJ</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Surplus</text><text textAlign="center">1</text><text textAlign="center">200</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">JHP</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Ratshot</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Frangible</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Armor Piercing</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Non-Lethal</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Match Grade</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tracer</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Blank</text><text textAlign="center">1</text><text textAlign="center">200</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Semi-Wadcutter</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Solid</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Light Rimmed Handgun</text></tr>
+<tr>
+<text textAlign="center">FMJ</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Surplus</text><text textAlign="center">1</text><text textAlign="center">100</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">JHP</text><text textAlign="center">1</text><text textAlign="center">30</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Ratshot</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Frangible</text><text textAlign="center">1</text><text textAlign="center">30</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Armor Piercing</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Tracer</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Blank</text><text textAlign="center">1</text><text textAlign="center">100</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">SJHP</text><text textAlign="center">1</text><text textAlign="center">30</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">SJSP</text><text textAlign="center">1</text><text textAlign="center">30</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Wadcutter</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Semi-Wadcutter</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Type</header><header textAlign="center">Cost</header><header textAlign="center">#/box</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Heavy Rimmed Handgun</text></tr>
+<tr>
+<text textAlign="center">FMJ</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Surplus</text><text textAlign="center">1</text><text textAlign="center">100</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">JHP</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Ratshot</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Frangible</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Armor Piercing</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Tracer</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Blank</text><text textAlign="center">1</text><text textAlign="center">100</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">SJHP</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">SJSP</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Wadcutter</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Semi-Wadcutter</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Solid</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Light Rifle</text></tr>
+<tr>
+<text textAlign="center">FMJ</text><text textAlign="center">1</text><text textAlign="center">40</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Surplus</text><text textAlign="center">1</text><text textAlign="center">160</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">JHP</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tracer</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Blank</text><text textAlign="center">1</text><text textAlign="center">100</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Armor Piercing</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Match Grade</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">SJSP</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Intermediate Rifle</text></tr>
+<tr>
+<text textAlign="center">FMJ</text><text textAlign="center">1</text><text textAlign="center">40</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Surplus</text><text textAlign="center">1</text><text textAlign="center">160</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">JHP</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Solid</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Frangible</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Incendiary</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Armor Piercing</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Match Grade</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tracer</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Blank</text><text textAlign="center">1</text><text textAlign="center">100</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">SJSP</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Heavy Rifle</text></tr>
+<tr>
+<text textAlign="center">FMJ</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Surplus</text><text textAlign="center">1</text><text textAlign="center">100</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">JHP</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Frangible</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Match Grade</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Incendiary</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Armor Piercing</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Tracer</text><text textAlign="center">1</text><text textAlign="center">30</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Blank</text><text textAlign="center">1</text><text textAlign="center">100</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">SJSP</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Explosive</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Solid</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Super Heavy Rifle</text></tr>
+<tr>
+<text textAlign="center">FMJ</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Surplus</text><text textAlign="center">1</text><text textAlign="center">40</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">JHP</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Frangible</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Match Grade</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Incendiary</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Armor Piercing</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Blank</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Explosive</text><text textAlign="center">1</text><text textAlign="center">1</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Solid</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Rimfire Ammunition</text>
+		<text>   A box of rimfire ammunition weighs 0.4 lb per 50 rounds.</text>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Recoil Mod</header><header textAlign="center">Craft Category</header></tr>
+<tr>
+<text textAlign="center">.41 Rimfire</text><text textAlign="center">1</text><text textAlign="center">+0</text><text textAlign="center">2nd</text></tr>
+<tr>
+<text textAlign="center">.22 Short</text><text textAlign="center">1d2</text><text textAlign="center">+0</text><text textAlign="center">2nd</text></tr>
+<tr>
+<text textAlign="center">.22 Long Rifle</text><text textAlign="center">1d4</text><text textAlign="center">+0</text><text textAlign="center">2nd</text></tr>
+<tr>
+<text textAlign="center">.32 Rimfire</text><text textAlign="center">2d3</text><text textAlign="center">+0</text><text textAlign="center">2nd</text></tr>
+<tr>
+<text textAlign="center">.17 HMR</text><text textAlign="center">1d4+2</text><text textAlign="center">-1</text><text textAlign="center">2nd</text></tr>
+<tr>
+<text textAlign="center">.22 WMR</text><text textAlign="center">2d4+2</text><text textAlign="center">-2</text><text textAlign="center">2nd</text></tr>
+<tr>
+<text textAlign="center">.44 Henry</text><text textAlign="center">2d6+1</text><text textAlign="center">-2</text><text textAlign="center">2nd</text></tr>
+</table>
+		<text>   Light Rimless Ammunition</text>
+		<text>   A box of light rimless ammunition weighs 0.5 lb per 50 rounds.</text>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Recoil Mod</header><header textAlign="center">Craft Category</header></tr>
+<tr>
+<text textAlign="center">.25 ACP</text><text textAlign="center">1d3</text><text textAlign="center">+0</text><text textAlign="center">2nd</text></tr>
+<tr>
+<text textAlign="center">.32 ACP</text><text textAlign="center">1d6</text><text textAlign="center">-1</text><text textAlign="center">2nd</text></tr>
+<tr>
+<text textAlign="center">7.65mm Longue</text><text textAlign="center">1d4+2</text><text textAlign="center">-1</text><text textAlign="center">3rd</text></tr>
+</table>
+		<text>   Intermediate Rimless Ammunition</text>
+		<text>   A box of intermediate rimless ammunition weighs 0.6 lb per 50</text>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Recoil Mod</header><header textAlign="center">Craft Category</header></tr>
+<tr>
+<text textAlign="center">.380 ACP</text><text textAlign="center">2d4</text><text textAlign="center">-1</text><text textAlign="center">2nd</text></tr>
+<tr>
+<text textAlign="center">8x22mm Nambu</text><text textAlign="center">2d4</text><text textAlign="center">-1</text><text textAlign="center">2nd</text></tr>
+<tr>
+<text textAlign="center">9x18mm PM</text><text textAlign="center">2d4+1</text><text textAlign="center">-1</text><text textAlign="center">3rd</text></tr>
+<tr>
+<text textAlign="center">9x19mm</text><text textAlign="center">2d6</text><text textAlign="center">-2</text><text textAlign="center">3rd</text></tr>
+<tr>
+<text textAlign="center">.40 S&amp;W</text><text textAlign="center">3d4</text><text textAlign="center">-3</text><text textAlign="center">3rd</text></tr>
+<tr>
+<text textAlign="center">.38 ACP</text><text textAlign="center">2d6+1</text><text textAlign="center">-2</text><text textAlign="center">3rd</text></tr>
+<tr>
+<text textAlign="center">.38 Super</text><text textAlign="center">3d4+3</text><text textAlign="center">-4</text><text textAlign="center">3rd</text></tr>
+<tr>
+<text textAlign="center">7.63x25mm Mauser</text><text textAlign="center">2d8</text><text textAlign="center">-3</text><text textAlign="center">4th</text></tr>
+<tr>
+<text textAlign="center">.22 TCM</text><text textAlign="center">2d3+3</text><text textAlign="center">-1</text><text textAlign="center">4th</text></tr>
+<tr>
+<text textAlign="center">7.63mm Mannlicher</text><text textAlign="center">1d6+4</text><text textAlign="center">-3</text><text textAlign="center">5th</text></tr>
+<tr>
+<text textAlign="center">.357 SIG</text><text textAlign="center">2d6+2</text><text textAlign="center">-3</text><text textAlign="center">5th</text></tr>
+<tr>
+<text textAlign="center">7.62x25mm Tokarev</text><text textAlign="center">2d8+2</text><text textAlign="center">-4</text><text textAlign="center">5th</text></tr>
+<tr>
+<text textAlign="center">9x23mm Steyr</text><text textAlign="center">2d6+3</text><text textAlign="center">-3</text><text textAlign="center">7th</text></tr>
+</table>
+		<text>   Heavy Rimless Ammunition</text>
+		<text>   A box of heavy rimless ammunition weighs 0.9 lb per 50 rounds.</text>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Recoil Mod</header><header textAlign="center">Craft Category</header></tr>
+<tr>
+<text textAlign="center">.45 ACP</text><text textAlign="center">3d4+2</text><text textAlign="center">-4</text><text textAlign="center">4th</text></tr>
+<tr>
+<text textAlign="center">.45 GAP</text><text textAlign="center">3d4+2</text><text textAlign="center">-4</text><text textAlign="center">4th</text></tr>
+<tr>
+<text textAlign="center">10mm Auto</text><text textAlign="center">2d6+4</text><text textAlign="center">-4</text><text textAlign="center">5th</text></tr>
+<tr>
+<text textAlign="center">.44 AMP</text><text textAlign="center">3d6</text><text textAlign="center">-4</text><text textAlign="center">5th</text></tr>
+<tr>
+<text textAlign="center">.45 Winchester Magnum</text><text textAlign="center">3d6+1</text><text textAlign="center">-4</text><text textAlign="center">5th</text></tr>
+<tr>
+<text textAlign="center">.50 GI</text><text textAlign="center">6d3+2</text><text textAlign="center">-7</text><text textAlign="center">5th</text></tr>
+<tr>
+<text textAlign="center">.475 Wildey Magnum</text><text textAlign="center">3d6+5</text><text textAlign="center">-6</text><text textAlign="center">5th</text></tr>
+<tr>
+<text textAlign="center">.460 Rowland</text><text textAlign="center">4d4+2</text><text textAlign="center">-5</text><text textAlign="center">6th</text></tr>
+<tr>
+<text textAlign="center">.50 Action Express</text><text textAlign="center">3d6+2</text><text textAlign="center">-5</text><text textAlign="center">6th</text></tr>
+</table>
+		<text>   Light Rimmed Ammunition</text>
+		<text>   A box of light rimmed ammunition weighs 0.6 lb per 50 rounds.</text>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Recoil Mod</header><header textAlign="center">Craft Category</header></tr>
+<tr>
+<text textAlign="center">.38 Long Colt</text><text textAlign="center">1d4</text><text textAlign="center">+0</text><text textAlign="center">3rd</text></tr>
+<tr>
+<text textAlign="center">.38/200</text><text textAlign="center">1d4+3</text><text textAlign="center">-1</text><text textAlign="center">3rd</text></tr>
+<tr>
+<text textAlign="center">.38 S&amp;W</text><text textAlign="center">1d4+3</text><text textAlign="center">-1</text><text textAlign="center">3rd</text></tr>
+<tr>
+<text textAlign="center">.38 Special</text><text textAlign="center">2d4+1</text><text textAlign="center">-1</text><text textAlign="center">3rd</text></tr>
+<tr>
+<text textAlign="center">.476 Enfield</text><text textAlign="center">1d4</text><text textAlign="center">+0</text><text textAlign="center">4th</text></tr>
+<tr>
+<text textAlign="center">9mm Japanese Revolver</text><text textAlign="center">1d6+2</text><text textAlign="center">-2</text><text textAlign="center">4th</text></tr>
+<tr>
+<text textAlign="center">7.62x38mmR</text><text textAlign="center">1d8+2</text><text textAlign="center">-3</text><text textAlign="center">4th</text></tr>
+</table>
+		<text>   Heavy Rimmed Ammunition</text>
+		<text>   A box of heavy rimmed ammunition weighs 1.0 lb per 50 rounds.</text>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Recoil Mod</header><header textAlign="center">Craft Category</header></tr>
+<tr>
+<text textAlign="center">.44 American</text><text textAlign="center">1d6+3</text><text textAlign="center">-2</text><text textAlign="center">4th</text></tr>
+<tr>
+<text textAlign="center">.44 Russian</text><text textAlign="center">1d6+3</text><text textAlign="center">-2</text><text textAlign="center">4th</text></tr>
+<tr>
+<text textAlign="center">.45 Schofield</text><text textAlign="center">2d4+3</text><text textAlign="center">-2</text><text textAlign="center">4th</text></tr>
+<tr>
+<text textAlign="center">.327 Federal Magnum</text><text textAlign="center">2d6+1</text><text textAlign="center">-2</text><text textAlign="center">4th</text></tr>
+<tr>
+<text textAlign="center">.45 Long Colt</text><text textAlign="center">2d6+1</text><text textAlign="center">-2</text><text textAlign="center">4th</text></tr>
+<tr>
+<text textAlign="center">.41 Long Colt</text><text textAlign="center">3d4+1</text><text textAlign="center">-3</text><text textAlign="center">4th</text></tr>
+<tr>
+<text textAlign="center">.455 Webley</text><text textAlign="center">3d4+1</text><text textAlign="center">-3</text><text textAlign="center">4th</text></tr>
+<tr>
+<text textAlign="center">.357 Magnum</text><text textAlign="center">3d4+3</text><text textAlign="center">-4</text><text textAlign="center">4th</text></tr>
+<tr>
+<text textAlign="center">.32-20 Winchester</text><text textAlign="center">1d10</text><text textAlign="center">-3</text><text textAlign="center">5th</text></tr>
+<tr>
+<text textAlign="center">.44 Special</text><text textAlign="center">1d6+4</text><text textAlign="center">-3</text><text textAlign="center">5th</text></tr>
+<tr>
+<text textAlign="center">.38-40 Winchester</text><text textAlign="center">1d6+5</text><text textAlign="center">-3</text><text textAlign="center">5th</text></tr>
+<tr>
+<text textAlign="center">.44-40 Winchester</text><text textAlign="center">1d10+5</text><text textAlign="center">-5</text><text textAlign="center">5th</text></tr>
+<tr>
+<text textAlign="center">.44 Magnum</text><text textAlign="center">3d6</text><text textAlign="center">-4</text><text textAlign="center">5th</text></tr>
+<tr>
+<text textAlign="center">.454 Casull</text><text textAlign="center">3d6+2</text><text textAlign="center">-5</text><text textAlign="center">6th</text></tr>
+<tr>
+<text textAlign="center">.500 S&amp;W Special</text><text textAlign="center">5d6+4</text><text textAlign="center">-8</text><text textAlign="center">6th</text></tr>
+<tr>
+<text textAlign="center">.500 Wyoming Express</text><text textAlign="center">4d6+2</text><text textAlign="center">-6</text><text textAlign="center">7th</text></tr>
+<tr>
+<text textAlign="center">.500 S&amp;W Magnum</text><text textAlign="center">7d6</text><text textAlign="center">-9</text><text textAlign="center">7th</text></tr>
+</table>
+		<text>   Light Rifle Ammunition</text>
+		<text>   A box of light rifle ammunition weighs 0.3 lb per 20 rounds.</text>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Recoil Mod</header><header textAlign="center">Craft Category</header></tr>
+<tr>
+<text textAlign="center">.17 Remington</text><text textAlign="center">2d6</text><text textAlign="center">-2</text><text textAlign="center">2nd</text></tr>
+<tr>
+<text textAlign="center">4.6x30mm</text><text textAlign="center">3d4−1</text><text textAlign="center">-3</text><text textAlign="center">5th</text></tr>
+<tr>
+<text textAlign="center">5.7x28mm</text><text textAlign="center">3d4−1</text><text textAlign="center">-3</text><text textAlign="center">5th</text></tr>
+</table>
+		<text>   Intermediate Rifle Ammunition</text>
+		<text>   A box of intermediate rifle ammunition weighs 0.5 lb per 20</text>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Recoil Mod</header><header textAlign="center">Craft Category</header></tr>
+<tr>
+<text textAlign="center">.30 Carbine</text><text textAlign="center">3d6+1</text><text textAlign="center">-4</text><text textAlign="center">6th</text></tr>
+<tr>
+<text textAlign="center">5.45x39mm</text><text textAlign="center">4d4</text><text textAlign="center">-4</text><text textAlign="center">7th</text></tr>
+<tr>
+<text textAlign="center">5.8x42mm</text><text textAlign="center">5d4</text><text textAlign="center">-5</text><text textAlign="center">7th</text></tr>
+<tr>
+<text textAlign="center">5.56x45mm</text><text textAlign="center">5d4</text><text textAlign="center">-5</text><text textAlign="center">7th</text></tr>
+<tr>
+<text textAlign="center">9x39mm</text><text textAlign="center">4d4+4</text><text textAlign="center">-6</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">6mm Lee Navy</text><text textAlign="center">5d4+2</text><text textAlign="center">-6</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">6.8mm Remington SPC</text><text textAlign="center">5d4+3</text><text textAlign="center">-6</text><text textAlign="center">9th</text></tr>
+</table>
+		<text>   Heavy Rifle Ammunition</text>
+		<text>   A box of heavy rifle ammunition weighs 0.8 lb per 20 rounds.</text>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Recoil Mod</header><header textAlign="center">Craft Category</header></tr>
+<tr>
+<text textAlign="center">6.5x50mm Arisaka</text><text textAlign="center">4d6</text><text textAlign="center">-5</text><text textAlign="center">7th</text></tr>
+<tr>
+<text textAlign="center">7.92x33mm Kurz</text><text textAlign="center">3d8</text><text textAlign="center">-5</text><text textAlign="center">7th</text></tr>
+<tr>
+<text textAlign="center">.243 Winchester</text><text textAlign="center">4d6+2</text><text textAlign="center">-6</text><text textAlign="center">7th</text></tr>
+<tr>
+<text textAlign="center">.300 AAC Blackout</text><text textAlign="center">4d6</text><text textAlign="center">-5</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">.30-30 Winchester</text><text textAlign="center">4d6+1</text><text textAlign="center">-5</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">6.5mm Grendel</text><text textAlign="center">4d6+1</text><text textAlign="center">-5</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">6.5x52mm Carcano</text><text textAlign="center">4d6+2</text><text textAlign="center">-6</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">7.62x39mm</text><text textAlign="center">4d6+2</text><text textAlign="center">-6</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">7.5x54mm French</text><text textAlign="center">4d6+4</text><text textAlign="center">-7</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">7.62x51mm</text><text textAlign="center">5d6</text><text textAlign="center">-6</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">8mm Lebel</text><text textAlign="center">5d6+1</text><text textAlign="center">-6</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">7x57mm Mauser</text><text textAlign="center">5d6+2</text><text textAlign="center">-7</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">7.62x54mmR</text><text textAlign="center">5d6+2</text><text textAlign="center">-7</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">.303 British</text><text textAlign="center">5d6+3</text><text textAlign="center">-7</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">.30-40 Krag</text><text textAlign="center">5d6+4</text><text textAlign="center">-8</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">7.7x58mm Arisaka</text><text textAlign="center">5d6+4</text><text textAlign="center">-8</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">7.5x55mm Swiss</text><text textAlign="center">5d6+4</text><text textAlign="center">-8</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">7.92x57mm Mauser</text><text textAlign="center">5d6+5</text><text textAlign="center">-8</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">.30-06 Springfield</text><text textAlign="center">6d6</text><text textAlign="center">-8</text><text textAlign="center">8th</text></tr>
+<tr>
+<text textAlign="center">.56-56 Spencer</text><text textAlign="center">2d10+5</text><text textAlign="center">-6</text><text textAlign="center">9th</text></tr>
+<tr>
+<text textAlign="center">.45-70 Government</text><text textAlign="center">3d10</text><text textAlign="center">-6</text><text textAlign="center">9th</text></tr>
+<tr>
+<text textAlign="center">.50-70 Government</text><text textAlign="center">3d10+5</text><text textAlign="center">-8</text><text textAlign="center">9th</text></tr>
+<tr>
+<text textAlign="center">.458 SOCOM</text><text textAlign="center">3d12</text><text textAlign="center">-7</text><text textAlign="center">9th</text></tr>
+</table>
+		<text>   Superheavy Rifle Ammunition</text>
+		<text>   A box of super heavy rifle ammunition weighs 1.9 lb per 20</text>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Recoil Mod</header><header textAlign="center">Craft Category</header></tr>
+<tr>
+<text textAlign="center">.300 Winchester Magnum</text><text textAlign="center">7d6</text><text textAlign="center">-9</text><text textAlign="center">9th</text></tr>
+<tr>
+<text textAlign="center">.338 Lapua Magnum</text><text textAlign="center">7d8</text><text textAlign="center">-10</text><text textAlign="center">9th</text></tr>
+<tr>
+<text textAlign="center">7.92x94mm</text><text textAlign="center">7d8</text><text textAlign="center">-10</text><text textAlign="center">10th</text></tr>
+<tr>
+<text textAlign="center">.50 BMG</text><text textAlign="center">10d8</text><text textAlign="center">-16</text><text textAlign="center">10th</text></tr>
+<tr>
+</tr>
+</table>
+		<text>   Full Metal Jacket (FMJ)</text>
+<box>
+<text>This ammunition consists of lead bullets encased in a metal no special rules.</text>
+</box>
+<box>
+<text>This ammunition consists of plain lead bullets that lacks the own. It provides +30% error range.</text>
+</box>
+<box>
+<text>This ammunition contains a conical cavity in the nose of the kinetic energy. It provides a +2 damage bonus plus +1 damage bonus per damage dice over 3, against unarmored targets.</text>
+</box>
+<box>
+<text>This ammunition contains a conical cavity in the nose of the energy, but the metal jacket extends about halfway up the bullet, exposing the bare lead underneath. It provides a +1 damage bonus per damage dice and +15% error range.</text>
+</box>
+<box>
+<text>This ammunition is a bullet that has the metal jacket that underneath. It provides a +2 damage bonus per damage dice and +15% error range.</text>
+</box>
+<box>
+<text>This ammunition is specifically constructed to pierce armor. When ballistic damage, it provides −1 ballistic damage die, but also provides +2 piercing damage dice, plus +1 piercing damage dice per 2 damage dice over 2.</text>
+</box>
+<box>
+<text>This ammunition contains a compound that burns rapidly and causes </text>
+</box>
+<box>
+<text>This ammunition is designed not to pierce solid surfaces such as penalty against armored targets and a +3 damage bonus against unarmored targets. Any object with a Hardness of 2 or greater immediately defeats this ammunition.</text>
+</box>
+<box>
+<text>This ammunition consists of a rubber bullet. Converts all damage range increments.</text>
+</box>
+<box>
+<text>This ammunition is of high quality, used for competition target when used with a match barrel and a +2 attack bonus when used with a precision barrel.</text>
+</box>
+<box>
+<text>This ammunition leaves a string of light when fired, allowing for bonus for all multi-shot attack rolls as long as 50% of the fired rounds are tracers.</text>
+</box>
+<box>
+<text>This ammunition lacks any projectile, simply creating a loud bang provides a 50% error range. If blank ammunition makes up more than one-fifth of the rounds fired, the firearm&#x27;s attack does no damage.</text>
+</box>
+<box>
+<text>This ammunition is a special-purpose flat-nosed bullet specially at subsonic velocities. It provides a +4 damage plus a +2 damage bonus per damage dice within the first range increment, against unarmored targets and a +30% error range. </text>
+</box>
+<box>
+<text>This ammunition is a compromise between the wadcutter and FMJ slightly tapered nose of a FMJ bullet. It provides a +2 damage per damage dice within the first two range increments, against unarmored targets and a +20% error range.</text>
+</box>
+<box>
+<text>This ammunition is a bullet that has a small cavity filled with something hard, such as bone. It grants +1 additional damage dice of concussion damage that affects the target&#x27;s CHP immediately and +10% error range.</text>
+</box>
+<box>
+<text>This ammunition is a bullet machined out of a solid piece of a +3 damage bonus per 2 damage dice over 3, increases the recoil penalty by 1 per damage dice over 2, and a +25% error range.</text>
+</box>
+<box>
+<text>This ammunition is a bullet with a plastic cap filled with shotgun. It grants a −8 damage penalty and a +2 attack bonus, but is only effective for 50&#x27;.</text>
+</box>
+		<header level = "1">Shell Ammunition</header>
+		<text>   Shell ammunition is ammunition that uses a plastic, brass, ortogether. All calibers within a category have the same cost for the type of rounds listed.</text>
+<table>
+<tr><header textAlign="center">Type</header><header textAlign="center">Cost</header><header textAlign="center">#/box</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Light Shotshell</text></tr>
+<tr>
+<text textAlign="center">00 Buckshot</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">#4 Buckshot</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">#6 Birdshot</text><text textAlign="center">1</text><text textAlign="center">40</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">#3 Birdshot</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Non-Lethal, rock salt</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Slug</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Frangible 00 Buckshot</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Frangible #3 Birdshot</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Saboted Slug</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Wax Slug</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Blank Shell</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">AP Shell</text><text textAlign="center">1</text><text textAlign="center">2</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Intermediate Shotshell</text></tr>
+<tr>
+<text textAlign="center">00 Buckshot</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">#4 Buckshot</text><text textAlign="center">1</text><text textAlign="center">30</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">#9 Birdshot</text><text textAlign="center">1</text><text textAlign="center">100</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">#6 Birdshot</text><text textAlign="center">1</text><text textAlign="center">100</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">#3 Birdshot</text><text textAlign="center">1</text><text textAlign="center">100</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Non-Lethal, beanbag</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Non-Lethal, rubber ball</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Non-Lethal, rock salt</text><text textAlign="center">1</text><text textAlign="center">200</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Slug</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">OC Shell</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Saboted Slug</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Blank Shell</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tracer</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Taser</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Frangible 00 Buckshot</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Frangible #6 Birdshot</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Frangible #3 Birdshot</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Breaching</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Explosive</text><text textAlign="center">4</text><text textAlign="center">1</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Flamethrower</text><text textAlign="center">2</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Flare</text><text textAlign="center">1</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Stun</text><text textAlign="center">1</text><text textAlign="center">2</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Strung Buck</text><text textAlign="center">1</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Magnum 00 Buckshot</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Magnum #4 Buckshot</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Magnum #9 Birdshot</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Magnum #6 Birdshot</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Magnum #3 Birdshot</text><text textAlign="center">1</text><text textAlign="center">15</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Magnum Slug</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Mini 00 Buckshot</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Mini Slug</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Wax Slug</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">AP Shell</text><text textAlign="center">1</text><text textAlign="center">2</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Flechette</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Type</header><header textAlign="center">Cost</header><header textAlign="center">#/box</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Heavy Shotshell</text></tr>
+<tr>
+<text textAlign="center">00 Buckshot</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">#4 Buckshot</text><text textAlign="center">1</text><text textAlign="center">30</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">#9 Birdshot</text><text textAlign="center">1</text><text textAlign="center">100</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">#6 Birdshot</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">#3 Birdshot</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Slug</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Magnum 00 Buckshot</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Magnum #4 Buckshot</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Magnum #9 Birdshot</text><text textAlign="center">1</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Magnum #6 Birdshot</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Magnum #3 Birdshot</text><text textAlign="center">1</text><text textAlign="center">15</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Magnum Slug</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Light Shotshell Ammunition</text>
+		<text>   A box of light shotshells weighs 0.4 lb per 25 rounds.</text>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Caliber Recoil Mod</header><header textAlign="center">Craft Category</header></tr>
+<tr>
+<text textAlign="center">.410 Bore</text><text textAlign="center">3d4+1</text><text textAlign="center">-3</text><text textAlign="center">1st</text></tr>
+</table>
+		<text>   Intermediate Shotshell Ammunition</text>
+		<text>   A box of intermediate shotshells weighs 0.6 lb per 25 rounds.</text>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Caliber Recoil Mod</header><header textAlign="center">Craft Category</header></tr>
+<tr>
+<text textAlign="center">20 Gauge</text><text textAlign="center">4d6</text><text textAlign="center">-5</text><text textAlign="center">1st</text></tr>
+<tr>
+<text textAlign="center">16 Gauge</text><text textAlign="center">4d6+3</text><text textAlign="center">-6</text><text textAlign="center">1st</text></tr>
+<tr>
+<text textAlign="center">12 Gauge</text><text textAlign="center">5d6</text><text textAlign="center">-6</text><text textAlign="center">1st</text></tr>
+</table>
+		<text>   Heavy Shotshell Ammunition</text>
+		<text>   A box of heavy shotshells weighs 0.8 lb per 25 rounds.</text>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Caliber Recoil Mod</header><header textAlign="center">Craft Category</header></tr>
+<tr>
+<text textAlign="center">10 Gauge</text><text textAlign="center">7d6</text><text textAlign="center">-9</text><text textAlign="center">1st</text></tr>
+</table>
+		<text>   00 Buckshot</text>
+<box>
+<text>This ammunition consists of .33 caliber heavy lead balls fired </text>
+</box>
+<box>
+<text>This ammunition consists of .24 caliber heavy lead balls fired but still an effective defensive load. It grants a +2 attack bonus within the first 2 range increments and a −4 damage penalty.</text>
+</box>
+<box>
+<text>This ammunition is similar in design to buckshot, except that the shot provide different bonuses and penalties.</text>
+</box>
+		<text>   #6 Birdshot Provides a +4 attack bonus and −2 damage dice.</text>
+		<text>   #3 Birdshot Provides a +2 attack bonus and −1 damage die.</text>
+		<text>   Slug</text>
+<box>
+<text>This ammunition consists of a single massive cylinder of lead. It </text>
+</box>
+<box>
+<text>This ammunition consists of birdshot that has been solidified in slug barrel.</text>
+</box>
+<box>
+<text>This ammunition increases a shotgun&#x27;s range. This ammunition nearest 5&#x27;, and provides +1 damage die.</text>
+</box>
+<box>
+<text>This ammunition is specifically constructed to pierce armor. It armored or have natural armor to ballistic damage, it provides −1 ballistic damage die, but also provides +2 piercing damage dice, plus +1 piercing damage dice per 2 damage dice over 2.</text>
+</box>
+<box>
+<text>This ammunition is comprised of larger shells that allow for more bonuses and penalties, but still retain any non bonus or penalty benefits and properties that come with the ammunition. All modern-day shotguns with internal magazines can chamber magnum shells, but when using it with any shotguns with an internal magazine above 3, they lose 1 round of capacity per 3 when using magnum ammunition.</text>
+</box>
+		<text>   #4 Buckshot Provides a +2 attack bonus, and increases the</text>
+		<text>   #9 Birdshot Provides a −3 damage dice, a +6 attack bonus, a +2</text>
+		<text>   #6 Birdshot Provides a −2 damage dice, a +4 attack bonus, a +3</text>
+		<text>   #3 Birdshot Provides a −1 damage die, a +2 attack bonus, a +4</text>
+		<text>   Slug Provides a +2 damage dice, a −2 attack penalty, a +6</text>
+		<text>   Mini</text>
+<box>
+<text>This ammunition is comprised of smaller shells that allow for powder and shot. Different sizes of shot provide different bonuses and penalties, but still retain any non bonus or penalty benefits and properties that come with the ammunition. All modern-day shotguns with internal magazines can chamber mini shells, but when using it with any shotguns with an internal magazine above 3, they gain 1 round of capacity per 3 when using mini ammunition.</text>
+</box>
+		<text>   Slug Provides a +1 damage dice, a −2 attack penalty, reduces</text>
+		<text>   Non-lethal</text>
+<box>
+<text>This ammunition converts all damage to non-lethal damage and </text>
+</box>
+		<text>   Beanbag Provides a −2 attack penalty and +2 damage dice.</text>
+		<text>   Rock salt Provides a +1 attack bonus and −3 damage dice.</text>
+		<text>   Stun Ammunition</text>
+<box>
+<text>This ammunition is a shotgun-launchable flashbang shell, that of 45&#x27; and a blast radius of 15&#x27;. Any target caught in the blast must make a Will Saving Throw [TN16] or be blinded for 1d4 rounds, and a Fortitude Saving Throw [TN16] to avoid being deafened for 1d4 rounds. It provides a +55% error range.</text>
+</box>
+<box>
+<text>This ammunition is designed not to pierce solid surfaces, such as range, regardless of the type of shot. Any object with a hardness of 2 or greater immediately defeats this ammunition. It comes in various shot configurations</text>
+</box>
+		<text>   #3 Birdshot Provides a +2 attack bonus, a −9 damage penaltytargets.</text>
+		<text>   00 Buckshot Provides a −6 damage penalty against armored</text>
+		<text>   Blank</text>
+<box>
+<text>This ammunition lacks any projectile, simply creating a loud bang provides a +40% error range. If blank ammunition makes up more than one-fifth of the rounds fired, the firearm does no damage.</text>
+</box>
+<box>
+<text>This ammunition is specially made for the purposes of door on contact. When fired at an object it ignores 10 points of hardness, provides −2 damage dice, and +30% error range. They have a maximum range of 20&#x27;.</text>
+</box>
+<box>
+<text>This ammunition is a bundle of flechette darts packed into a converts all ballistic damage to piercing damage.</text>
+</box>
+<box>
+<text>This ammunition leaves a string of light when fired, allowing for bonus for all multi-shot attack rolls as long as 50% of the fired rounds are tracers.</text>
+</box>
+<box>
+<text>This ammunition is a small shotgun grenade that works like a ignores 6 points of hardness. It provides a −1 attack penalty and −1 damage die, but all damage is converted to concussion damage and it affects a 5&#x27; blast radius.</text>
+</box>
+<box>
+<text>A shell that consists of tightly packed irritant powder. It all those caught in the blast to make a Fortitude Saving Throw [TN15] or be blinded for 1d4 rounds. If a character is already blinded due to an effect that would be ineffective due to a gas mask, the original blinding effect is removed, and the new effect immediately takes place. No attack roll is necessary. A gas mask renders the target immune to the effects and a wet cloth held over the eyes, nose, and mouth provides a +2 bonus to the Fortitude Saving Throw. It provides a +50% error range.</text>
+</box>
+<box>
+<text>A shell that consists of tightly packed magnesium powder. It points of fire damage to all creatures and objects in its path. No attack roll is necessary. A flamethrower shell can also ignite flammable material and fluids. Any creature caught in the line of flame can make a Reflex Saving Throw [TN15] to take half damage. It provides a +50% error range.</text>
+</box>
+<box>
+<text>A flare that illuminates a 30&#x27; radius as if it were lit by be spotted at a distance of 3 miles with a successful Perception check, [TN20] during the day or [TN15] at night. A flare may also be used as a weapon, with a maximum range of 30&#x27; and the potential to do 2d4 fire damage. Anyone shot with a flare round must make a Reflex Saving Throw [TN18] or be caught on fire. A flare shell can also ignite flammable material and fluids. This ammunition provides a +45% error range.</text>
+</box>
+<box>
+<text>A miniaturized taser unit packed into a shell that releases a shell deals 1d3 electricity damage and 1 non-lethal damage die. The target must make a Fortitude Saving Throw [TN15] or be paralyzed for 1d6 rounds.</text>
+</box>
+<box>
+<text>This ammunition consists of two heavy lead balls connected with a penalty. </text>
+</box>
+<box>
+<text>The most common type of launched grenade. Uses a small explosive caught in the blast must make a Fortitude Saving Throw [TN18] or be knocked prone.</text>
+</box>
+<box>
+<text>These grenades are packed with a shaped charge that detonates on Any target caught in the blast must make a Fortitude Saving Throw [TN12] or be knocked prone An HE grenade ignores 15 points of hardness.</text>
+</box>
+<box>
+<text>These grenades combine high explosive and fragmentation grenades grenade ignores 10 points of hardness. Any target caught in the blast must make a Fortitude Saving Throw [TN14] or be knocked prone.</text>
+</box>
+<box>
+<text>These grenades are used to disperse crowds and smoke out hostage all squares within 10&#x27; with tear gas and on the second round it fills all squares within 15&#x27; with tear gas. Any target caught in the cloud of tear gas must make a Fortitude Saving Throw [TN15] or be blinded and stunned for 2d4 rounds. A gas mask renders the target immune to this effect, and a wet cloth held over the eyes, nose, and mouth provides a +2 to the Fortitude Saving Throw.</text>
+</box>
+<box>
+<text>These grenades create smoke to serve as signals or concealment. squares within 15&#x27; with smoke. On the following round it fills all squares within 20&#x27; and on the third round it fills all squares within 25&#x27;. The smoke obscures all sight, including night vision goggles. Anyone within the area has total concealment. It disperses after 10 rounds. Smoke grenades are available in several colors including white, red, yellow, green, blue, orange, and purple.</text>
+</box>
+<box>
+<text>These grenades fire a bundle of flechette darts that rip and every range increment. This grenade must be used against a specific target, and does not gain the bludgeoning damage or incur the attack penalty from normally firing a grenade at a target.</text>
+</box>
+<box>
+<text>These grenades consists of a large foam slug, used when a specific target and does not gain the bludgeoning damage or incur the attack penalty from normally firing a grenade at a target.</text>
+</box>
+<box>
+<text>These grenades fire a bundle of buckshot rounds that penetrate Has the same damage penalty for range as shotguns. This grenade must be used against a specific target, and does not gain the bludgeoning damage or incur the attack penalty from normally firing a grenade at a target.</text>
+</box>
+<box>
+<text>These grenades illuminates a 60&#x27; radius as if it were lit by be spotted at a distance of 5 miles with a successful Perception check [TN20] during the day or [TN15] at night. Anyone shot with a flare round must make a Reflex Saving Throw [TN18] or be caught on fire. A flare round can also ignite flammable material and fluids. Does not gain the bludgeoning damage or incur the attack penalty from normally firing a grenade at a specific target.</text>
+</box>
+<box>
+<text>An insert that holds 10 .22 Long Rifle rounds that all get fired Can be refilled and reused. Only usable with 40x46mm launchers. This grenade must be used against a specific target, and does not gain the bludgeoning damage or incur the attack penalty from normally firing a grenade at a target.</text>
+</box>
+<box>
+<text>These are an upscaled version of taser shells capable of being for military use, they easily outrange the standard taser offerings allowing for a long distance takedown. On a successful hit, the darts deal electricity damage and the target must make a Fortitude Saving Throw [TN20] or be paralyzed for 2d4 rounds. Only usable with 40x46mm launchers. This grenade must be used against a specific target and does not gain the bludgeoning damage or incur the attack penalty from normally firing a grenade at a target.</text>
+</box>
+<box>
+<text>These grenades are fused to explode before they hit the ground, </text>
+</box>
+<box>
+<text>These grenades are a fuel-air explosive, that use the surrounding caught in the burst radius of the explosion is immediately set on fire.</text>
+</box>
+<box>
+<text>These grenades come with 120&#x27; of paracord, and a hook built into a specific target or square.</text>
+</box>
+<table>
+<tr><header textAlign="center">Grenade Type</header><header textAlign="center">Damage</header><header textAlign="center">Damage Type</header><header textAlign="center">Blast Radius</header><header textAlign="center">Rng.</header><header textAlign="center">Sz.</header><header textAlign="center">Wt.</header><header textAlign="center">Cost</header><header textAlign="center">Restr.</header></tr>
+<tr>
+<text textAlign="center">Fragmentation</text><text textAlign="center">5d6</text><text textAlign="center">Slashing</text><text textAlign="center">20&#x27;</text><text textAlign="center">—</text><text textAlign="center">T</text><text textAlign="center">1.0</text><text textAlign="center">6</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">High Explosive</text><text textAlign="center">10d6</text><text textAlign="center">Concussion</text><text textAlign="center">15&#x27;</text><text textAlign="center">—</text><text textAlign="center">T</text><text textAlign="center">1.0</text><text textAlign="center">10</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">HEDP</text><text textAlign="center">7d6</text><text textAlign="center">Slashing/Concussion</text><text textAlign="center">20&#x27;</text><text textAlign="center">—</text><text textAlign="center">T</text><text textAlign="center">1.0</text><text textAlign="center">8</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Tear Gas</text><text textAlign="center">Special</text><text textAlign="center">Special</text><text textAlign="center">Special</text><text textAlign="center">—</text><text textAlign="center">T</text><text textAlign="center">1.0</text><text textAlign="center">5</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Smoke</text><text textAlign="center">—</text><text textAlign="center">—</text><text textAlign="center">Special</text><text textAlign="center">—</text><text textAlign="center">T</text><text textAlign="center">0.8</text><text textAlign="center">2</text><text textAlign="center">L</text></tr>
+<tr>
+<text textAlign="center">Beehive</text><text textAlign="center">8d6</text><text textAlign="center">Slashing</text><text textAlign="center">—</text><text textAlign="center">20&#x27;</text><text textAlign="center">T</text><text textAlign="center">1.0</text><text textAlign="center">8</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Foam Slug</text><text textAlign="center">4d6 Non-lethal</text><text textAlign="center">Bludgeoning</text><text textAlign="center">—</text><text textAlign="center">—</text><text textAlign="center">T</text><text textAlign="center">0.5</text><text textAlign="center">9</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Buckshot</text><text textAlign="center">3d10</text><text textAlign="center">Ballistic</text><text textAlign="center">—</text><text textAlign="center">25&#x27;</text><text textAlign="center">T</text><text textAlign="center">0.9</text><text textAlign="center">4</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Flare</text><text textAlign="center">2d4</text><text textAlign="center">Fire</text><text textAlign="center">—</text><text textAlign="center">60&#x27; Max</text><text textAlign="center">T</text><text textAlign="center">1.0</text><text textAlign="center">1</text><text textAlign="center">L</text></tr>
+<tr>
+<text textAlign="center">Hornet&#x27;s Nest</text><text textAlign="center">6d4</text><text textAlign="center">Ballistic</text><text textAlign="center">—</text><text textAlign="center">10&#x27;</text><text textAlign="center">T</text><text textAlign="center">1.3</text><text textAlign="center">25</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Taser Grenade</text><text textAlign="center">2d6</text><text textAlign="center">Electric</text><text textAlign="center">—</text><text textAlign="center">—</text><text textAlign="center">T</text><text textAlign="center">1.3</text><text textAlign="center">34</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Airburst</text><text textAlign="center">6d8</text><text textAlign="center">Slashing</text><text textAlign="center">25&#x27;</text><text textAlign="center">—</text><text textAlign="center">T</text><text textAlign="center">1.0</text><text textAlign="center">14</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Thermobaric</text><text textAlign="center">4d6</text><text textAlign="center">Concussion/Fire</text><text textAlign="center">30&#x27;</text><text textAlign="center">—</text><text textAlign="center">T</text><text textAlign="center">1.0</text><text textAlign="center">10</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Grapnel</text><text textAlign="center">—</text><text textAlign="center">—</text><text textAlign="center">—</text><text textAlign="center">—</text><text textAlign="center">T</text><text textAlign="center">2.8</text><text textAlign="center">15</text><text textAlign="center">R</text></tr>
+</table>
+		<header level = "1">Rocket Launcher Ammunition Types</header>
+<box>
+<text>These rockets are packed with a shaped charge, that when ignores 20 points of Hardness.</text>
+</box>
+<box>
+<text>These rockets are packed with a shaped charge as well as both armor and personnel. A HEDP rocket ignores 15 points of Hardness.</text>
+</box>
+<box>
+<text>These rockets are packed with fragmentation shrapnel, primarily </text>
+</box>
+<box>
+<text>These rockets are a fuel-air explosive, that use the surrounding caught in the burst fire radius of the explosion is immediately set on fire.</text>
+</box>
+<table>
+<tr><header textAlign="center">Rocket Type</header><header textAlign="center">Damage</header><header textAlign="center">Damage Type</header><header textAlign="center">Blast Radius</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">HEAT</text><text textAlign="center">19d12</text><text textAlign="center">Concussion</text><text textAlign="center">10&#x27;</text><text textAlign="center">M</text><text textAlign="center">5.7</text><text textAlign="center">23</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">HEDP</text><text textAlign="center">22d12</text><text textAlign="center">Concussion/Slashing</text><text textAlign="center">15&#x27;</text><text textAlign="center">M</text><text textAlign="center">7.2</text><text textAlign="center">34</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Fragmentation</text><text textAlign="center">10d12</text><text textAlign="center">Slashing</text><text textAlign="center">20&#x27;</text><text textAlign="center">M</text><text textAlign="center">4.0</text><text textAlign="center">18</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Thermobaric</text><text textAlign="center">13d12</text><text textAlign="center">Fire</text><text textAlign="center">25&#x27;</text><text textAlign="center">M</text><text textAlign="center">9.9</text><text textAlign="center">30</text><text textAlign="center">M&amp;P</text></tr>
+</table>
+		<header level = "1">Mortar Ammunition Types</header>
+<box>
+<text>These shells are packed with a shaped charge, that when impacted, points of Hardness.</text>
+</box>
+<box>
+<text>These shells create smoke to serve as signals or concealment. squares within 20&#x27; with smoke. On the following round it fills all squares within 25&#x27;, and on the third round it fills all squares within 30&#x27;. The smoke obscures all sight, including night vision goggles. Anyone within the area has total concealment. It disperses after 10 rounds. Smoke shells are available in several colors, including white, red, yellow, green, blue, orange, and purple.</text>
+</box>
+<box>
+<text>These mortars are fused to explode before they hit the ground, </text>
+</box>
+<table>
+<tr><header textAlign="center">Mortar Type</header><header textAlign="center">Damage</header><header textAlign="center">Damage Type</header><header textAlign="center">Blast Radius</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">High Explosive</text><text textAlign="center">20d6</text><text textAlign="center">Concussion/Fire</text><text textAlign="center">30&#x27;</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">100</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Smoke</text><text textAlign="center">—</text><text textAlign="center">—</text><text textAlign="center">Special</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">80</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Airburst</text><text textAlign="center">18d6</text><text textAlign="center">Concussion/Slashing</text><text textAlign="center">45&#x27;</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">120</text><text textAlign="center">M&amp;P</text></tr>
+</table>
+		<header level = "1">Ammunition Modifications and Reloading</header>
+<box>
+<text>Ammunition can be purchased in a multitude of ways: Refer to the ammunition can be purchased. </text>
+</box>
+<box>
+<text>This ammunition upgrade links ammunition to be fired by weapons price listed is for 100 rounds of any ammunition.</text>
+</box>
+<box>
+<text>This ammunition loading is ammunition with a reduced propellant their report. It provides a −1 damage bonus and reduces the recoil penalty by 1 per damage dice the caliber has. This is calculated after any increase or decrease of damage dice due to ammunition type. It also provides a −15 penalty to the Perception check to hear the weapon when used with a suppressor, and +25% error range. Any cased ammunition may be purchased as low pressure.</text>
+</box>
+<box>
+<text>This ammunition loading loads the ammunition to it&#x27;s standard or recoil. When purchasing ammunition in boxes, these are the rounds normally purchased.</text>
+</box>
+<box>
+<text>This ammunition upgrade loads the ammunition to a slightly higher caliber. It provides a +1 damage bonus and increases the recoil penalty by 1 per damage dice the caliber has. This is calculated after any increase or decrease of damage dice due to ammunition type. Any cased ammunition may be purchased as high pressure.</text>
+</box>
+<box>
+<text>This ammunition upgrade loads the ammunition to a much higher caliber. It provides a +2 damage bonus, increases the recoil penalty by 2 per damage dice the caliber has, and +20% error range. This is calculated after any increase or decrease of damage dice due to ammunition type. If a character&#x27;s firearm jams, it explodes, causing 1d6 slashing damage and completely destroying the firearm. This affects all firearms unless otherwise noted that it will not explode due to over pressure ammunition. Any cased ammunition may be purchased as over pressure.</text>
+</box>
+<table>
+<tr><header textAlign="center">Type</header><header textAlign="center">Cost Increase</header><header textAlign="center">Time</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Linked</text><text textAlign="center">2 per 100 rounds</text><text textAlign="center">30 minutes</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Low Pressure</text><text textAlign="center">1 WP per Box</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Standard Pressure</text><text textAlign="center">—</text><text textAlign="center">—</text><text textAlign="center">—</text></tr>
+<tr>
+<text textAlign="center">High Pressure</text><text textAlign="center">1 WP per Box</text><text textAlign="center">—</text></tr>
+<tr>
+<text textAlign="center">Over Pressure</text><text textAlign="center">2 WP per Box</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+</table>
+<box>
+<text>Reloading is the act of creating complete ammunition from casing, the primer, the powder, and the payload.</text>
+</box>
+<box>
+<text>The casing is the part of the ammunition that holds all of the is fired, and can be used again, if it is undamaged. The casing for cased ammunition is usually composed of brass, or less frequently, aluminum or steel.</text>
+</box>
+<box>
+<text>The primer is a small metal cup containing the primary explosive primer, it ignites the explosive, which in turn ignites the powder and sends the payload on its way. Primers are a one-time use object, but are generally inexpensive. There are certain types of ammunition where the primer is actually embedded in the casing. These types of ammo are unreloadable, as they require massive, complex manufacturing equipment.</text>
+</box>
+<box>
+<text>The powder is the main explosive for ammunition, and is the Powder spans from the archaic black powder, still in use by some handloaders, to modern smokeless powder which is used in nearly all modern ammunition. Since the powder is burnt up when the ammunition is fired, it is impossible to reuse (as there isn&#x27;t any to reuse). One pound of powder is enough to create a single batch of ammunition. </text>
+</box>
+<box>
+<text>The payload is the object fired from the firearm, which can range always destroyed or deformed too much to be reusable, if it can even be found.</text>
+</box>
+		<text>   Creating a batch of ammunition requires a full batch of eachthe type of ammunition created. It takes about 4 hours to create a batch of ammunition. If a character fails the Craft check the ammunition is still made, but for every point below the Craft TN, 10% of the ammunition is unusable and unrecoverable and should be thrown out. If any of this ammunition is used, the firearm will explode, dealing the caliber&#x27;s damage to the user and destroying the firearm in the process. Cased ammunition can be loaded to Low Pressure, Standard Pressure, High Pressure, or Over Pressure loading.</text>
+		<text>   Reloading can not be done without a reloading kit and anyall of the components in the process.</text>
+<table>
+<tr><header textAlign="center">Ammunition Category</header><header textAlign="center">Craft TN</header><header textAlign="center">Rounds/Batch</header></tr>
+<tr>
+<text textAlign="center">Tiny Pistol</text><text textAlign="center">15</text><text textAlign="center">500</text></tr>
+<tr>
+<text textAlign="center">Small Pistol</text><text textAlign="center">20</text><text textAlign="center">400</text></tr>
+<tr>
+<text textAlign="center">Large Pistol</text><text textAlign="center">23</text><text textAlign="center">300</text></tr>
+<tr>
+<text textAlign="center">Tiny Rifle</text><text textAlign="center">18</text><text textAlign="center">300</text></tr>
+<tr>
+<text textAlign="center">Small Rifle</text><text textAlign="center">20</text><text textAlign="center">250</text></tr>
+<tr>
+<text textAlign="center">Medium Rifle</text><text textAlign="center">20</text><text textAlign="center">200</text></tr>
+<tr>
+<text textAlign="center">Large Rifle</text><text textAlign="center">20</text><text textAlign="center">100</text></tr>
+<tr>
+<text textAlign="center">Huge Rifle</text><text textAlign="center">25</text><text textAlign="center">50</text></tr>
+<tr>
+<text textAlign="center">Shotgun Shell</text><text textAlign="center">13</text><text textAlign="center">300</text></tr>
+</table>
+		<text>   Reloading supplies span everything from the powder to the cases,</text>
+		<text>   Cases</text>
+<box>
+<text>Cases are split into eight different categories, based on the unit, which is enough to create a single batch of ammunition. When purchasing a unit of cases, a specific caliber must be specified.</text>
+</box>
+<box>
+<text>Tiny pistol calibers are</text>
+</box>
+		<text>   .25 ACP</text>
+		<text>   .32 ACP</text>
+		<text>   .32-20 Winchester</text>
+		<text>   Small pistol</text>
+<box>
+<text>Small pistol calibers are</text>
+</box>
+		<text>   9x19mm</text>
+		<text>   .38 Special</text>
+		<text>   .38 Long Colt</text>
+		<text>   .38/200</text>
+		<text>   .38 S&amp;W</text>
+		<text>   .380 ACP</text>
+		<text>   8x22mm Nambu</text>
+		<text>   9x18mm PM</text>
+		<text>   .40 S&amp;W</text>
+		<text>   .41 Long Colt</text>
+		<text>   9mm Jap. Revolver</text>
+		<text>   7.63 Mannlicher</text>
+		<text>   7.63x25mm Mauser</text>
+		<text>   7.62x25mm Tokarev</text>
+		<text>   .38 ACP</text>
+		<text>   .38 Super</text>
+		<text>   .22 TCM</text>
+		<text>   .327 Federal Magnum</text>
+		<text>   7.65 Longue</text>
+		<text>   .38-40 Winchester</text>
+		<text>   7.62x38mmR</text>
+		<text>   Large pistol</text>
+<box>
+<text>Large pistol calibers are</text>
+</box>
+		<text>   .45 ACP</text>
+		<text>   .45 GAP</text>
+		<text>   .455 Webley</text>
+		<text>   .44 American</text>
+		<text>   .44 Russian</text>
+		<text>   .44 Special</text>
+		<text>   .44 Magnum</text>
+		<text>   .44-40 Winchester</text>
+		<text>   .45 Long Colt</text>
+		<text>   .357 Magnum</text>
+		<text>   .357 SIG</text>
+		<text>   10mm Auto</text>
+		<text>   .50 Action Express</text>
+		<text>   9x23mm Steyr</text>
+		<text>   .454 Casull</text>
+		<text>   .50 GI</text>
+		<text>   .460 Rowland</text>
+		<text>   .44 AMP</text>
+		<text>   .45 Win. Mag.</text>
+		<text>   .500 S&amp;W Special</text>
+		<text>   .500 S&amp;W Magnum</text>
+		<text>   .500 WE</text>
+		<text>   .50 Action Express</text>
+		<text>   .476 Enfield</text>
+		<text>   Tiny Rifle</text>
+<box>
+<text>Tiny rifle calibers are</text>
+</box>
+		<text>   5.7x28mm</text>
+		<text>   4.6x30mm</text>
+		<text>   Small Rifle</text>
+<box>
+<text>Small rifle calibers are .30 Carbine</text>
+</box>
+<box>
+<text>Medium rifle calibers are</text>
+</box>
+		<text>   5.56x45mm</text>
+		<text>   5.8x42mm</text>
+		<text>   6.5x50mm Arisaka</text>
+		<text>   5.45x39mm</text>
+		<text>   .243 Winchester</text>
+		<text>   .300 AAC Blackout</text>
+		<text>   .17 Remington</text>
+		<text>   6.8mm Remington SPC</text>
+		<text>   9x39mm</text>
+		<text>   Large Rifle</text>
+<box>
+<text>Large Rifle calibers are</text>
+</box>
+		<text>   7.62x51mm</text>
+		<text>   .303 British</text>
+		<text>   7.92x57mm Mauser</text>
+		<text>   .30-06 Springfield</text>
+		<text>   .30-40 Krag</text>
+		<text>   7.7x58mm Arisaka</text>
+		<text>   6.5mm Grendel</text>
+		<text>   .300 Win. Mag.</text>
+		<text>   .45-70 Government</text>
+		<text>   7.62x54mmR</text>
+		<text>   6.5x52 Carcano</text>
+		<text>   8mm Lebel</text>
+		<text>   7.62x39mm</text>
+		<text>   .458 SOCOM</text>
+		<text>   7.5x55mm Swiss</text>
+		<text>   7.5x54mm French</text>
+		<text>   7x57mm Mauser</text>
+		<text>   7.92x33mm Kurz</text>
+		<text>   .30-30 Winchester</text>
+		<text>   6mm Lee Navy</text>
+		<text>   Huge Rifle</text>
+<box>
+<text>Huge Rifle calibers are</text>
+</box>
+		<text>   .338 Lapua</text>
+		<text>   .50 BMG</text>
+		<text>   .56-56 Spencer</text>
+		<text>   .50-70 Government</text>
+		<text>   7.92x94mm</text>
+		<text>   14.5x114mm</text>
+		<text>   20x125mm</text>
+		<text>   20x105mm</text>
+		<text>   12.7x108mm</text>
+		<text>   13.9x99mmB</text>
+		<text>   20x102mm</text>
+		<text>   Shotgun Shell</text>
+<box>
+<text>Shotgun shells are</text>
+</box>
+		<text>   .410 Bore</text>
+		<text>   20 Gauge</text>
+		<text>   16 Gauge</text>
+		<text>   12 Gauge</text>
+		<text>   10 Gauge</text>
+		<text>   Powder and Primers</text>
+<box>
+<text>The powder listed here is modern smokeless powder and provides enough primers for one batch of ammunition.</text>
+</box>
+<box>
+<text>Payloads are split into two categories, cased and shell, and the for a single batch of ammunition, but a specific caliber must be specified.</text>
+</box>
+<box>
+<text>Hardball These are plain cast lead bullets with a rounded nose. </text>
+</box>
+<box>
+<text>Steel Core These are lead bullets with a hardened steel core. It piercing damage, rounded down.</text>
+</box>
+<box>
+<text>JHP, Standard These are standard Jacketed Hollow Points. They 3, against unarmored targets.</text>
+</box>
+<box>
+<text>JHP, Match These are match Jacketed Hollow Points, designed for attack bonus when used with a match barrel and a +2 attack bonus when used with a precision barrel.</text>
+</box>
+<box>
+<text>SP, Standard These are standard Soft Points. It provides a +2 </text>
+</box>
+<box>
+<text>Tungsten These heavy rounds are the best penetrators available. </text>
+</box>
+		<text>   Shell Ammunition Payloads</text>
+<box>
+<text>Lead These are simple lead balls. They come in slug, 00 buckshot, </text>
+</box>
+<box>
+<text>Wood These are wooden dowels cut to fit in the selected shell. range increment of the firearm by half.</text>
+</box>
+<box>
+<text>Silver These are cast silver pellets. They come in slug, 00 </text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Cases, Tiny Pistol</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Cases, Small Pistol</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Cases, Large Pistol</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Cases, Tiny Rifle</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Cases, Small Rifle</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Cases, Medium Rifle</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Cases, Large Rifle</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Cases, Huge Rifle</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Hulls, Shotgun Shells</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Cased, Hardball</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Cased, Wadcutter</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Cased, Steel Core</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Cased, JHP, Light</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Cased, JHP, Standard</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Cased, JHP, Heavy</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Cased, JHP, Match</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Cased, JHP, Supermatch</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">7</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Cased, SP, Standard</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Cased, SP, Heavy</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Cased, Tungsten</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Cased, Silver</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">15</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Shell, Lead</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Shell, Glass</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Shell, Wood</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Shell, Buck/Bird Mix</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Payload, Shell, Silver</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">15</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Powder and Primers</text><text textAlign="center">S</text><text textAlign="center">4.0</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+</table>
+	</item>
+</body>

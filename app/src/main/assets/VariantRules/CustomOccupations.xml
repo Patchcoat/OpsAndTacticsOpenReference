@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Custom Occupations</header>
+<box>
+<text>Custom Occupations  Custom occupations replaces the standard occupations of Ops and Tactics, allowing players and GMs to build their own occupation instead of using the prebuilt occupations. </text>
+</box>
+<box>
+<text>Feats Occupations have 0 feats by default. A character can choose </text>
+</box>
+<box>
+<text>Wealth Occupations have 4d4 WP as their starting Wealth Points. </text>
+</box>
+<table>
+<tr><header textAlign="center">Cost</header><header textAlign="center">Benefit</header></tr>
+<tr>
+<text textAlign="center">2 OOP</text><text textAlign="center">+1 Feat</text></tr>
+<tr>
+<text textAlign="center">2 OOP</text><text textAlign="center">+1 Skill</text></tr>
+<tr>
+<text textAlign="center">1 OOP</text><text textAlign="center">+4d4 Wealth</text></tr>
+</table>
+	</item>
+</body>

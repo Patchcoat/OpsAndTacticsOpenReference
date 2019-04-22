@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Concealed Weapons and Objects</header>
+<box>
+<text>Concealed Weapons and Objects  It is assumed that when attempting to conceal a weapon or other object, a character is wearing appropriate clothing. Drawing a concealed weapon is more difficult than drawing a regularly holstered weapon. Keeping the weapon in an easier-to-draw position makes concealing it more difficult.</text>
+</box>
+		<text>   Waistband carry is holstering a weapon in the waistband withoutproperly secured, and will fall out under any strenuous movement. When waistband carrying, a character must make a Reflex Saving Throw [TN15] to keep their weapon in their belt when doing any actions that cause them to roll an attack roll or a DEX or STR based skill check. If they fail this check, the weapon falls to the ground.</text>
+		<header level = "1">Stealth Checks</header>
+		<text>   To conceal a weapon or other object, make a Stealth check. Acan usually take 10 unless they are rushed, trying to conceal it when others might see, or under other unusual constraints. Stealth may be used untrained in this instance, but the character must take 10.</text>
+		<header level = "1">Concealment</header>
+		<text>   The object&#x27;s size affects the check result, as shown below. Theweapon easier to draw can also affect the check.</text>
+<table>
+<tr><header textAlign="center">Condition</header><header textAlign="center">Stealth Modifier</header></tr>
+<tr>
+<text textAlign="center">Clothing is tight or small</text><text textAlign="center">−4</text></tr>
+<tr>
+<text textAlign="center">Clothing is especially loose or bulky</text><text textAlign="center">+2</text></tr>
+<tr>
+<text textAlign="center">Clothing is specifically modified for concealing objects</text><text textAlign="center">+2</text></tr>
+<tr>
+<text textAlign="center">Size of weapon or object</text></tr>
+<tr>
+<text textAlign="center">Fine</text><text textAlign="center">+12</text></tr>
+<tr>
+<text textAlign="center">Diminutive</text><text textAlign="center">+8</text></tr>
+<tr>
+<text textAlign="center">Tiny</text><text textAlign="center">+4</text></tr>
+<tr>
+<text textAlign="center">Small</text><text textAlign="center">+0</text></tr>
+<tr>
+<text textAlign="center">Medium</text><text textAlign="center">−4</text></tr>
+<tr>
+<text textAlign="center">Large</text><text textAlign="center">−8</text></tr>
+<tr>
+<text textAlign="center">Huge or larger</text><text textAlign="center">Can&#x27;t conceal</text></tr>
+</table>
+		<header level = "1">Spotting Concealed Objects</header>
+		<text>   Noticing a concealed weapon or other object requires aconcealing an object, the TN of the Perception check to notice the object is the same as the target&#x27;s check result (an opposed check, in other words). If the target took 10 on their Stealth check, use this formula:</text>
+		<text>   Target&#x27;s Stealth skill modifier (including modifiers from the</text>
+		<text>   An observer attempting to spot a concealed object receives a −1a −5 penalty if distracted. Patting someone down for a hidden weapon requires a similar check. However, the skill employed is Perception, and the searcher receives a +4 circumstance bonus for the hands-on act of frisking the target. Some devices may also offer bonuses under certain circumstances (a metal detector offers a bonus to Perception checks to find metal objects, for example).</text>
+		<header level = "1">Spotting Concealable Armor</header>
+		<text>   Concealable armor can be worn under clothing if the wearer wantsConcealing weapons and objects when wearing concealable armor. Instead, anyone attempting to notice the armor must make a Perception check [TN30].</text>
+	</item>
+</body>

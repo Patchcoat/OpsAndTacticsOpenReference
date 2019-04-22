@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Speechcraft (CHA)</header>
+<box>
+<text>Speechcraft (CHA)  The character is skilled at detecting falsehoods and true intentions, threaten and persuade others, solve arguments, and gather valuable information from people.</text>
+</box>
+		<text>   With a successful Speechcraft check, you can convince yourlie are modified depending upon the plausibility of the lie. The TN for lying is [TN20 + Modifiers].</text>
+<table>
+<tr><header textAlign="center">Lie Modifier</header></tr>
+<tr>
+<text textAlign="center">The target wants to believe you, and the lie is plausible to them</text><text textAlign="center">−5</text></tr>
+<tr>
+<text textAlign="center">The lie is believable</text><text textAlign="center">+0</text></tr>
+<tr>
+<text textAlign="center">The lie is unlikely</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">The lie is far-fetched</text><text textAlign="center">+15</text></tr>
+<tr>
+<text textAlign="center">The lie is impossible</text><text textAlign="center">+25</text></tr>
+<tr>
+<text textAlign="center">The target is drunk or impaired</text><text textAlign="center">−5</text></tr>
+<tr>
+<text textAlign="center">You possess convincing proof</text><text textAlign="center">up to −10</text></tr>
+</table>
+		<header level = "1">Secret message</header>
+		<text>   You can use the Speechcraft skill to pass a hidden message toThis check is TN15 for simple messages and TN20 for complex messages. If you are successful, the target automatically understands you, assuming you are speaking in a language that it understands. If your check fails by 5 or more, you deliver the wrong message. Other creatures that hear the message can decipher the message by succeeding at an opposed Speechcraft check against your Speechcraft result.</text>
+		<header level = "1">Diplomacy</header>
+		<text>   You can also use this skill to persuade others to agree withinformation or rumors from people. This skill is also used to negotiate conflicts by using the proper etiquette and manners suitable to the problem.</text>
+		<text>   You can change the initial attitudes of non-player characterscreature&#x27;s starting attitude toward you, adjusted by its CHA modifier.</text>
+<table>
+<tr><header textAlign="center">Starting Attitude</header><header textAlign="center">Diplomacy TN</header></tr>
+<tr>
+<text textAlign="center">Hostile</text><text textAlign="center">30 + character&#x27;s CHA modifier</text></tr>
+<tr>
+<text textAlign="center">Unfriendly</text><text textAlign="center">25 + character&#x27;s CHA modifier</text></tr>
+<tr>
+<text textAlign="center">Indifferent</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">Friendly</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">Helpful</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">Diplomacy Modifiers</text></tr>
+<tr>
+<text textAlign="center">Give simple advice or directions</text><text textAlign="center">−5</text></tr>
+<tr>
+<text textAlign="center">Give detailed advice</text><text textAlign="center">+0</text></tr>
+<tr>
+<text textAlign="center">Give simple aid</text><text textAlign="center">+0</text></tr>
+<tr>
+<text textAlign="center">Reveal an unimportant secret</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">Give lengthy or complicated aid</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">Give dangerous aid</text><text textAlign="center">+10</text></tr>
+<tr>
+<text textAlign="center">Reveal secret knowledge</text><text textAlign="center">+10 or more</text></tr>
+<tr>
+<text textAlign="center">Give aid that could result in punishment</text><text textAlign="center">+15 or more</text></tr>
+</table>
+		<text>   If you succeed, the character&#x27;s attitude toward you is improvedTN, the character&#x27;s attitude toward you increases by one additional step. A creature&#x27;s attitude cannot be shifted more than two steps up in this way, although the GM can override this rule in some situations. If you fail the check by 4 or less, the character&#x27;s attitude toward you is unchanged. If you fail by 5 or more, the character&#x27;s attitude toward you is decreased by one step.</text>
+		<text>   If a creature&#x27;s attitude toward you is at least indifferent, youSpeechcraft check, using the creature&#x27;s current attitude to determine the base TN, with one of the following modifiers. Once a creature&#x27;s attitude has shifted to helpful, the creature gives in to most requests without a check, unless the request is against its nature or puts it in serious peril. Some requests automatically fail if the request goes against the creature&#x27;s values or its nature, subject to GM discretion.</text>
+		<header level = "1">Confuse</header>
+		<text>   You can also use this skill to utterly puzzle all targets50&#x27; of the character, who have a have an INT score above 2, and are able to see, hear, and understand the character are affected. To confuse, the character makes a Speechcraft check [TN18]. If they succeed, the target can try to resist by making a Will Saving Throw [TN (10 + 1 for every 1 point the character succeeded over the Confuse TN]. If the targets fail, they are considered Confused for 1d6 rounds. The effect ends immediately if the target is attacked. The character cannot take 10 on this check.</text>
+		<header level = "1">Captivate</header>
+		<text>   You can also use this skill to captivate targets through sheertargets within 50&#x27; of the character, who have a have an INT score above 2, and are able to see, hear, and understand the character are affected. To captivate, the character makes a Speechcraft check [TN14]. If they succeed, the target can try to resist by making a Will Saving Throw [TN (10 + 1 for every 1 point the character succeeded over the Captivate TN]. If the targets fail, they are considered Stunned, and receive a -4 to all Perception checks for 1d3 rounds. The effect ends immediately if the target is attacked. The character cannot take 10 on this check.</text>
+		<header level = "1">Bolster</header>
+		<text>   You can also use this skill to restore the morale of those whowho have a have an INT score above 2, and are able to see, hear, and understand the character are affected. To bolster, the character makes a Speechcraft check [TN18]. If they succeed, all friendly and neutral targets that are shaken, rattled, stunned, unnerved,  dazed, frightened, or panicked return to normal. The character cannot take 10 on this check.</text>
+		<header level = "1">Intimidate</header>
+		<text>   Finally, the Speechcraft skill can be used to frighten your</text>
+		<text>   You can use Speechcraft to force an opponent to act friendly</text>
+		<text>   The TN of this check is equal to 10 + the target&#x27;s level + the</text>
+<table>
+<tr><header textAlign="center">Intimidation Modifiers</header></tr>
+<tr>
+<text textAlign="center">PC&#x27;s are Armed</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">Target is Armed</text><text textAlign="center">−5</text></tr>
+<tr>
+<text textAlign="center">PC&#x27;s possess visible authority of a higher power</text></tr>
+</table>
+		<text>   If successful, the opponent will</text>
+<list type="unordered">
+<text>Give you information you desire.</text>
+<text>Take actions that do not endanger it.</text>
+<text>Offer other limited assistance.</text>
+</list>
+		<text>   Time</text>
+		<text>   Attempting to deceive someone takes at least 1 round, but canthe GM on a case-by-case basis). Delivering a secret message generally takes twice as long as the message would otherwise take to relay. To influence a creature&#x27;s attitude takes 1 minute of continuous interaction. Making a request of a creature takes 1 or more rounds of interaction, depending upon the complexity of the request. Confusing, Captivating, and Bolstering targets takes 8 Combat Points.</text>
+		<text>   Try again?</text>
+		<text>   If you fail to deceive someone, any further checks made todiscretion). Secret messages can be relayed again if the first attempt fails. You cannot use Speechcraft to influence a given creature&#x27;s attitude more than once in a 24 hour period. If a request is refused, the result does not change with additional checks, although other requests might be made. You can attempt to Intimidate, Confuse, or Captivate an opponent again, but each additional check increases the TN by 5.You can attempt to bolster again, but each additional check increases the TN by 2 This increase resets after one hour has passed.</text>
+	</item>
+</body>

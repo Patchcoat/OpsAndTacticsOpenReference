@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Encounter Goals</header>
+<box>
+<text>Encounter Goals  Players receive experience points for overcoming obstacles that stand in the way of achieving the goals of the adventure. Feel free, however, to adjust the experience awards depending on how easily the players achieve an encounter goal.</text>
+</box>
+		<text>   Every encounter is rated with a Battle Value (BV), thatgeneral, an encounter with a Battle Value around the same as the characters is moderately challenging; difficult or dangerous enough to make the characters pay attention, but probably not life threatening if they&#x27;re reasonably careful. A Battle Value of two to three times higher than the characters is a much more dangerous. On the other hand, minor encounters throughout the adventure might have a BV of two to three times lower than the characters. In addition to indicating challenge level, the BV is also used to determine the amount of experience characters get for succeeding in those encounters.</text>
+		<header level = "1">Determining Encounter Levels</header>
+		<text>   Determining the level of an encounter involves four steps:overall Battle Value from those individual BVs; considering the threat level of the encounter; and considering the encounter circumstances.</text>
+<table>
+<tr><header textAlign="center">Character Enemy</header></tr>
+<tr>
+<text textAlign="center">Modifier</text><text textAlign="center">BV Worth</text></tr>
+<tr>
+<text textAlign="center">Character level</text><text textAlign="center">1×Level</text></tr>
+<tr>
+<text textAlign="center">Character is armed with…</text></tr>
+<tr>
+<text textAlign="center">A Simple Melee Weapon</text><text textAlign="center">+1</text></tr>
+<tr>
+<text textAlign="center">An Archaic Melee Weapon</text><text textAlign="center">+2</text></tr>
+<tr>
+<text textAlign="center">An Exotic Melee Weapon</text><text textAlign="center">+4</text></tr>
+<tr>
+<text textAlign="center">An Improvised Weapon</text><text textAlign="center">+2</text></tr>
+<tr>
+<text textAlign="center">A Single Shot Firearm</text><text textAlign="center">+1</text></tr>
+<tr>
+<text textAlign="center">A Semi-Automatic Firearm¹</text><text textAlign="center">+2</text></tr>
+<tr>
+<text textAlign="center">A Firearm with Burst fire¹</text><text textAlign="center">+3</text></tr>
+<tr>
+<text textAlign="center">A Fully Automatic Firearm¹</text><text textAlign="center">+4</text></tr>
+<tr>
+<text textAlign="center">A Bow or Crossbow</text><text textAlign="center">+3</text></tr>
+<tr>
+<text textAlign="center">A taser or chemical irritant</text><text textAlign="center">+1</text></tr>
+<tr>
+<text textAlign="center">A Ranged Thrown Weapon</text><text textAlign="center">+2</text></tr>
+<tr>
+<text textAlign="center">An Explosive</text><text textAlign="center">+3</text></tr>
+<tr>
+<text textAlign="center">Character is wearing…</text></tr>
+<tr>
+<text textAlign="center">Light armor</text><text textAlign="center">+2</text></tr>
+<tr>
+<text textAlign="center">Medium armor</text><text textAlign="center">+3</text></tr>
+<tr>
+<text textAlign="center">Heavy armor</text><text textAlign="center">+4</text></tr>
+<tr>
+<text textAlign="center">Environments</text></tr>
+<tr>
+<text textAlign="center">Slightly Hostile</text><text textAlign="center">Total BV×1.10</text></tr>
+<tr>
+<text textAlign="center">Moderately Hostile</text><text textAlign="center">Total BV×1.25</text></tr>
+<tr>
+<text textAlign="center">Severely Hostile</text><text textAlign="center">Total BV×1.50</text></tr>
+<tr>
+<text textAlign="center">Extremely Hostile</text><text textAlign="center">Total BV×2.00</text></tr>
+</table>
+<box>
+<text>These bonuses stack for multiple firing modes for a firearm</text>
+</box>
+		<header level = "1">Hostile Environments</header>
+		<text>   A hostile environment is an environment that does not promotean actively hostile hazards such as land mines. An example of a slightly hostile environment would be fighting out on populated city streets. A moderately hostile environment would be fighting in a densely populated mall. An example of a severely hostile environment would be fighting in the middle of a sandstorm. An example of an extremely hostile environment would be fighting in the middle of an active warzone.</text>
+		<header level = "1">Calculating XP Gain</header>
+		<text>   There is one form of experience points: party experience. Partybattle, and is what they learn from being in combat. </text>
+<list type="unordered">
+<text>Party (Total Enemy BV)d2×25xp</text>
+</list>
+	</item>
+</body>

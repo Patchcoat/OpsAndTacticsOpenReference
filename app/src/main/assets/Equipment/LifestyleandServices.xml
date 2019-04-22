@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Lifestyle and Services</header>
+<box>
+<text>Lifestyle and Services86.1 Housing</text>
+</box>
+		<text>   The small apartment is a one- or two bedroom apartment completesingle vehicle, and can house two people comfortably. </text>
+		<text>   The large apartment is a three- or two bedroom apartmentspace for two vehicles, and can house four people comfortably. </text>
+		<text>   The small house is a one- or two-bedroom house, usuallycan house two people comfortably. The garage can also be converted into a workshop that can hold one deluxe sized kit.</text>
+		<text>   The medium house is a three- or four-bedroom house, usuallyhouse four people comfortably. The garage can also be converted into a workshop that can hold two deluxe sized kits.</text>
+		<text>   The large house is a five- or six-bedroom house, containing asix people comfortably. The garage can also be converted into a workshop that can hold four deluxe sized kits.</text>
+		<text>   The small mansion is a seven- or eight-bedroom house, containingcan house eight people very comfortably. The garage can also be converted into a workshop that can hold eight deluxe sized kits.</text>
+		<text>   The large mansion is a house with nine or more bedrooms,can house can house nine or more people extremely comfortably. The garage can also be converted into a workshop that can hold twelve deluxe sized kits, with room to spare for a billiards table.</text>
+<box>
+<text>A character (or group of characters) can always decide to rent It costs 10% of the price of the domicile to rent it for a month.</text>
+</box>
+		<header level = "1">Transportation</header>
+		<text>   Airfare tickets are for a single passenger round trip. One-wayup. Car rentals and lodging rates are per day.</text>
+<table>
+<tr><header textAlign="center">Lifestyle</header><header textAlign="center">Cost</header></tr>
+<tr>
+<text textAlign="center">Housing, Small Apartment</text><text textAlign="center">150</text></tr>
+<tr>
+<text textAlign="center">Housing, Large Apartment</text><text textAlign="center">250</text></tr>
+<tr>
+<text textAlign="center">Housing, Small House</text><text textAlign="center">620</text></tr>
+<tr>
+<text textAlign="center">Housing, Medium House</text><text textAlign="center">740</text></tr>
+<tr>
+<text textAlign="center">Housing, Large House</text><text textAlign="center">800</text></tr>
+<tr>
+<text textAlign="center">Housing,Small Mansion</text><text textAlign="center">1000</text></tr>
+<tr>
+<text textAlign="center">Housing, Large Mansion</text><text textAlign="center">3500</text></tr>
+<tr>
+<text textAlign="center">Transportation, Airfare, Domestic, Coach</text><text textAlign="center">6</text></tr>
+<tr>
+<text textAlign="center">Transportation, Airfare, Domestic, First Class</text><text textAlign="center">12</text></tr>
+<tr>
+<text textAlign="center">Transportation, Airfare, Int&#x27;l, Coach</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">Transportation, Airfare, Int&#x27;l, First Class</text><text textAlign="center">30</text></tr>
+<tr>
+<text textAlign="center">Transportation, Car Rental, Economy Car</text><text textAlign="center">4</text></tr>
+<tr>
+<text textAlign="center">Transportation, Car Rental, Mid-size Car or Truck</text><text textAlign="center">6</text></tr>
+<tr>
+<text textAlign="center">Transportation, Car Rental, Luxury Car</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Lodging, Budget Motel</text><text textAlign="center">2</text></tr>
+<tr>
+<text textAlign="center">Lodging, Average Motel</text><text textAlign="center">4</text></tr>
+<tr>
+<text textAlign="center">Lodging, Upscale Hotel</text><text textAlign="center">10</text></tr>
+</table>
+		<header level = "1">Auto Repair</header>
+		<text>   Having a car repaired can be expensive; the level of expensecost for damage repair assumes that the vehicle has not actually been disabled; if it has, increase the WP cost by 50%, rounded up. Repair generally takes 1 day for every 10 HP of damage dealt and results in the vehicle being returned to full HP.</text>
+		<header level = "1">Gunsmithing, Blacksmithing and Engineering Services</header>
+		<text>   Characters can hire gunsmiths, blacksmiths or engineers toby the TN of the Craft check required, at 3 WP per TN, and the character must also pay for any material cost. Characters are restricted to the level of license they currently have, and can not request the smith or engineer to build something that is out of their license level. </text>
+		<header level = "1">Bail Bonds and Legal Services</header>
+		<text>   Characters jailed for crimes can seek bail. Bail is a monetaryamount is set by a judge or magistrate, sometimes immediately following arrest (for minor crimes) and sometimes days later (for serious crimes). If bail is granted, a character can arrange for a bail bond, a loan that covers bail. The costs represent the fees associated with the loan; the bond itself is paid back to the bond agency when the character shows up for trial. If the character fails to show up, the agency loses the bail loan and may send bounty hunters or other thugs after the character.</text>
+		<text>   Bail amounts vary dramatically, depending on the seriousness oftheir family life, and other factors the judge believes indicate that the character will or will not flee (or commit other crimes) before the trial. An upstanding citizen with a good job and a family who has never before been charged with a crime gets minimal bail; a career criminal with nothing to lose receives maximum bail or may not be granted bail at all. The WP cost shown assumes the suspect is viewed positively by the court. If not, increase the cost by as much as 25%, rounded up. Whatever the base cost, a successful Presence check [TN15] by the suspect reduces the purchase price by 10%, rounded up.</text>
+		<text>   The cost of legal services is 15 + the lawyer&#x27;s Knowledge</text>
+		<text>   This crime involved civil matters, no one was threatened or hurt</text>
+		<text>   The crime involved only the destruction of property; no one was</text>
+		<text>   The crime involved an attack intended to capture, kill, or</text>
+		<text>   Someone died as a result of the crime.</text>
+		<header level = "1">Medical Services</header>
+		<text>   A character&#x27;s medical insurance is built into their salary; thecovered by insurance. Medical services must be paid for in full regardless of whether they are successful. See the Treat Injury skill for more information on the medical services described below. In a hospital setting the necessary Treat Injury checks are always successful. The Wealth Point cost is per check.</text>
+		<text>   The cost represents treatment for regaining HP or ability score</text>
+		<text>   The cost represents treatment for HP damage from wounds or</text>
+		<text>   The cost represents a single surgical procedure.</text>
+		<text>   Represents one application of treatment for a poison or disease.</text>
+<table>
+<tr><header textAlign="center">Service</header><header textAlign="center">Cost</header></tr>
+<tr>
+<text textAlign="center">Auto Repair, 1-10 HP Damage</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Auto Repair, 11-20 HP Damage</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">Auto Repair, 21-30 HP Damage</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">Auto Repair, 30+ HP Damage</text><text textAlign="center">35</text></tr>
+<tr>
+<text textAlign="center">Auto Repair, Towing</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">Smithing and Engineering services</text><text textAlign="center">1 per TN</text></tr>
+<tr>
+<text textAlign="center">Bail Bonds, Civil Crime</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">Bail Bonds, Property Crime</text><text textAlign="center">25</text></tr>
+<tr>
+<text textAlign="center">Bail Bonds, Assault Crime</text><text textAlign="center">120</text></tr>
+<tr>
+<text textAlign="center">Bail Bonds, Death Crime</text><text textAlign="center">250</text></tr>
+<tr>
+<text textAlign="center">Bribery, Bouncer</text><text textAlign="center">2</text></tr>
+<tr>
+<text textAlign="center">Bribery, Bureaucrat</text><text textAlign="center">25</text></tr>
+<tr>
+<text textAlign="center">Bribery, Informant</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">Bribery, Police Officer</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Legal Services</text><text textAlign="center">See text</text></tr>
+<tr>
+<text textAlign="center">Medical Services, Long-Term Care</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Medical Services, Restore HP</text><text textAlign="center">12</text></tr>
+<tr>
+<text textAlign="center">Medical Services, Surgery</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">Medical Services, Treat Poison/Disease</text><text textAlign="center">See text</text></tr>
+</table>
+	</item>
+</body>

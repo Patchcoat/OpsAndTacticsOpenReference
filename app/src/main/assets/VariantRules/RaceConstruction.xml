@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Race Construction</header>
+<box>
+<text>Race Construction  This variant rule adds the ability for players and GMs to build their own races.</text>
+</box>
+		<text>   This is a template for a GM and players to build their own racesindependent thought and have some way to manipulate tools and weapons.</text>
+		<text>   When designing a race, be sure to think of how they look asand females)?, What are their cultural norms? What languages do they speak? What places are they from and what is the geometry of their homelands? Do they generally prefer one form of combat or area of study over another? These are just a few questions you can ask yourself, and your players in order to flesh out the created races.</text>
+		<text>   A race&#x27;s Dominant Traits are its Combat Point Score and Core Hitabilities. A race can have up to 9 Racial Ability Points worth of Racial Abilities, and can have as many handicaps as they wish.</text>
+<box>
+<text>Medium Sized Races This race is of Medium size, being the standard size.</text>
+</box>
+<list type="unordered">
+<text>The race has a base CHP formula of CON−1.</text>
+<text>The race receives two feats.</text>
+<text>The race receives 9 Racial Ability Points, which they can spend on abilities. Each ability can only be taken once, unless otherwise specified.</text>
+</list>
+		<text>   This race is of a smaller stature, being harder to hit butweapons.</text>
+<list type="unordered">
+<text>The race gains a +1 size bonus to Defense, for their size.</text>
+<text>The race gains a −1 size penalty to melee attacks, for their size.</text>
+<text>The race has a base Combat Point Score of 14.</text>
+<text>The race has a base CHP Formula of CON−2.</text>
+<text>The race has the Small Frame Handicap but does not receive the bonus points from the handicap.</text>
+<text>The race is not allowed to take the Large Frame Handicap.</text>
+<text>The race receives two feats.</text>
+<text>The race receives 9 Racial Ability Points, which they can spend on abilities. Each ability can only be taken once, unless otherwise specified.</text>
+</list>
+		<text>   +1 CHP</text>
+<box>
+<text>This ability grants a +1 to the CHP formula. It can be taken a </text>
+</box>
+<box>
+<text>This ability grants a +1 to the Combat Point score. It can be </text>
+</box>
+<box>
+<text>This ability grants a +10 bonus to the Mental Limit Formula. It </text>
+</box>
+<box>
+<text>This ability grants the race a single preselected feat. This feat </text>
+</box>
+<box>
+<text>This ability grants the race the ability to select any one feat </text>
+</box>
+<box>
+<text>This ability allows the race to ignore all Combat Point </text>
+</box>
+<box>
+<text>This ability allows the race to not become flatfooted or provoke </text>
+</box>
+<box>
+<text>This ability allows the race to treat all melee weapons as one concealing.</text>
+</box>
+<box>
+<text>This ability allows the race to treat all ranged weapons as one concealing.</text>
+</box>
+<box>
+<text>This ability gives the race a new formula for a single Saving Modifier+Misc. Modifiers. This ability may be taken a maximum of 3 times, each time applying to a different Saving Throw.</text>
+</box>
+<box>
+<text>This ability grants a +1 to the Recoil Modifier Formula. It can </text>
+</box>
+<box>
+<text>This ability grants the race the ability to use non-visual or echolocation, the race maneuvers and fights as well as a sighted creature. Invisibility and darkness are irrelevant. This ability has a 35&#x27; range.</text>
+</box>
+<box>
+<text>This ability gives the race the ability to crush their opponents and will continue to deal 1d8+POW damage for every round the grapple lasts.</text>
+</box>
+<box>
+<text>This ability grants the race the ability to see in total is otherwise like normal light.</text>
+</box>
+<box>
+<text>This ability grants the race the ability to regenerate 1 CHP per HP or fewer. Fast Healing also doesn&#x27;t restore HP lost to starvation, thirst, or suffocation, and it doesn&#x27;t allow a creature to regrow or reattach severed body parts.</text>
+</box>
+<box>
+<text>This ability grants the race the ability to see twice as far as distinguish colors, even in dim lighting.</text>
+</box>
+<box>
+<text>This ability grants the race the ability to produce poison non-lethal, non damaging bite which must be accomplished after a successful grapple attack or spits it which is a ranged attack that cost 3 Combat Points with a total range of 10&#x27;. A race with natural weapons can, on a successful attack, poison the target.</text>
+</box>
+<table>
+<tr><header textAlign="center">Poison</header><header textAlign="center">Damage</header></tr>
+<tr>
+<text textAlign="center">Neurotoxin</text><text textAlign="center">1d4 CON / 1d8 CON</text></tr>
+<tr>
+<text textAlign="center">Dendrotoxin</text><text textAlign="center">1d4 DEX / 1d8 DEX</text></tr>
+<tr>
+<text textAlign="center">Cardiotoxin</text><text textAlign="center">1d4 STR / 1d8 STR</text></tr>
+<tr>
+<text textAlign="center">Hemotoxin</text><text textAlign="center">1d6 CHP / 2d6 CHP</text></tr>
+</table>
+		<text>   Poison attacks deal initial damage to the opponent on a failedThrow is required 1 minute later (regardless of the first save&#x27;s result) to avoid secondary damage. Select one kind of poison. The race&#x27;s poison provides this initial and secondary damage. A race is immune to its own poison, and can not poison itself, even purposely.</text>
+		<text>   The Fortitude Saving Throw against poison is [TN10 + poisoningdamage.</text>
+		<text>   Regeneration Ability</text>
+<box>
+<text>This ability grants the race the ability to regrow and reattach normal, and stop bleeding at the rate of 1 bleed damage per 5 rounds. Severed parts that aren&#x27;t reattached wither and die normally. Regeneration doesn&#x27;t restore HP lost to starvation, thirst, or suffocation. Regeneration stops working when the race is reduced to -10 CHP or fewer.</text>
+</box>
+<box>
+<text>This ability allows the race to detect approaching enemies, sniff Scent ability can identify familiar odors. The creature can detect any object or creature that has an odor within 150 feet by sense of smell. If the object or creature is upwind, the range increases to 300 feet; if downwind, it drops to 75 feet. Strong odors can be detected at twice the ranges noted above. Overpowering odors can be detected at triple normal range.</text>
+</box>
+		<text>   This ability can also be used to follow tracks by smell, makingis 10 (no matter what kind of surface holds the scent). This TN increases or decreases depending on the strength of the odor, the number of objects or creatures being tracked, and the age of the trail. For each hour that the trail is cold, the TN increases by 2. Every additional object or creature reduces the TN by 1. Strong odors decrease the TN by half rounded down, and overpowering odors decrease the TN to a third rounded down.</text>
+		<text>   Water Breathing Ability</text>
+<box>
+<text>This ability grants the race the ability to breathe underwater, does not have to make CON checks in order to hold their breath in water.</text>
+</box>
+<box>
+<text>This ability grants the race the ability to move through water as any swim check to perform some special action or avoid a hazard. The race always can choose to take 10, even if distracted or endangered when swimming.</text>
+</box>
+<box>
+<text>This ability grants the race a natural melee weapon that has a bludgeoning damage, and has a critical range of 16-18. This weapon is considered a small simple melee weapon, that the race is proficient in using. This ability can be taken a maximum of 3 times, each time choosing a different kind of damage. A race with the poison ability can also use this attack to poison a target.</text>
+</box>
+<box>
+<text>This ability grants the race a natural ranged weapon that has a bludgeoning damage, has a range of 30&#x27; and has a critical range of 16-18. This weapon costs 5 Combat Points to use. The race is proficient in using this weapon. This ability can be taken a maximum of 3 times, each time choosing a different kind of damage. A race with the poison ability can also use this attack to poison a target.</text>
+</box>
+<box>
+<text>This ability grants the race the ability to ignore any Mental </text>
+</box>
+<box>
+<text>This ability grants the race a permanent −1 Combat Point cost psionics.</text>
+</box>
+<box>
+<text>This ability grants the race the ability to complete completely communications can take the form of anything as small as facial twitches to as overt as dances. This communication is complete, in the fact that all forms of communication (literal words, tone, context, etc.) are passed through it, requiring no verbal clarification. This functions as a second, spoken-only language, that the race receives at creation.</text>
+</box>
+<box>
+<text>This ability grants the race immunity to a single environment, as environment.</text>
+</box>
+<list type="unordered">
+<text>Hot Do not have to make a Saving Throw against hot environments.</text>
+<text>Wet Do not have to make a Saving Throw against diseases.</text>
+<text>Dry Do not require additional water beyond the normal amount in hot or very hot climates.</text>
+</list>
+<box>
+<text>This ability grants a race a bonus to all attacks equal to their psionics, or incantation that they are proficient in. The available damages for this ability are cold, fire, electricity, concussion, or acid. This ability may be taken multiple times, each time selecting a different damage.</text>
+</box>
+<box>
+<text>This ability grants the race natural energy resistance of 1 ability can be taken a maximum of 5 times.</text>
+</box>
+<box>
+<text>This ability grants the race the ability to heal at a quickened medicinal and magical healing, and heals twice as fast through normal healing.</text>
+</box>
+<table>
+<tr><header textAlign="center">Point Cost</header><header textAlign="center">Benefit</header></tr>
+<tr>
+<text textAlign="center">1</text><text textAlign="center">+1 CHP (+5 max)</text></tr>
+<tr>
+<text textAlign="center">1</text><text textAlign="center">+1 CP (+5 max)</text></tr>
+<tr>
+<text textAlign="center">1</text><text textAlign="center">+10 Mental Limit (+30 max)</text></tr>
+<tr>
+<text textAlign="center">2</text><text textAlign="center">1 specific feat</text></tr>
+<tr>
+<text textAlign="center">3</text><text textAlign="center">any 1 feat</text></tr>
+<tr>
+<text textAlign="center">1</text><text textAlign="center">No encumbrance penalty to CP</text></tr>
+<tr>
+<text textAlign="center">1</text><text textAlign="center">Extra Effort does not flatfoot/AoO</text></tr>
+<tr>
+<text textAlign="center">1</text><text textAlign="center">−1 size category with melee weapons</text></tr>
+<tr>
+<text textAlign="center">2</text><text textAlign="center">−1 size category with ranged weapons</text></tr>
+<tr>
+<text textAlign="center">2</text><text textAlign="center">1.5× on one Saving Throw</text></tr>
+<tr>
+<text textAlign="center">1</text><text textAlign="center">+1 Natural Recoil Bonus (Maximum increase of +6)</text></tr>
+<tr>
+<text textAlign="center">3</text><text textAlign="center">Blindsight</text></tr>
+<tr>
+<text textAlign="center">2</text><text textAlign="center">Constrict</text></tr>
+<tr>
+<text textAlign="center">2</text><text textAlign="center">Darkvision</text></tr>
+<tr>
+<text textAlign="center">2</text><text textAlign="center">Fast Healing</text></tr>
+<tr>
+<text textAlign="center">1</text><text textAlign="center">Low-Light Vision</text></tr>
+<tr>
+<text textAlign="center">4</text><text textAlign="center">Poison</text></tr>
+<tr>
+<text textAlign="center">2</text><text textAlign="center">Regeneration</text></tr>
+<tr>
+<text textAlign="center">2</text><text textAlign="center">Scent</text></tr>
+<tr>
+<text textAlign="center">2</text><text textAlign="center">Water Breathing</text></tr>
+<tr>
+<text textAlign="center">2</text><text textAlign="center">Swim</text></tr>
+<tr>
+<text textAlign="center">2</text><text textAlign="center">Natural Melee Weapons</text></tr>
+<tr>
+<text textAlign="center">3</text><text textAlign="center">Natural Ranged Weapons</text></tr>
+<tr>
+<text textAlign="center">2</text><text textAlign="center">ML Cybernetic Exclusion</text></tr>
+<tr>
+<text textAlign="center">2</text><text textAlign="center">1 CP reduction with all Magic types</text></tr>
+<tr>
+<text textAlign="center">2</text><text textAlign="center">Non-verbal complete communication</text></tr>
+<tr>
+<text textAlign="center">2</text><text textAlign="center">Environment Immunity</text></tr>
+<tr>
+<text textAlign="center">3</text><text textAlign="center">Racial Damage Preference</text></tr>
+<tr>
+<text textAlign="center">3</text><text textAlign="center">Natural Energy Resistance</text></tr>
+<tr>
+<text textAlign="center">1</text><text textAlign="center">Receptive Healing Ability</text></tr>
+</table>
+		<text>   Handicaps are negative restrictions that can offset a race&#x27;sHandicaps grant racial ability points equal to their value. A race can only gain +5 points worth of racial ability points from handicaps.</text>
+		<text>   Small Frame</text>
+<box>
+<text>This handicap disallows the race to use Gargantuan sized weapons, inflicts a −2 attack penalty to all Large weapons, and inflicts a −1 attack penalty to all Medium weapons.</text>
+</box>
+<box>
+<text>This handicap disallows the race to use Fine, Diminutive, or Tiny weapons.</text>
+</box>
+<box>
+<text>This handicap grants a −4 Combat Point penalty to the race when ability are cold, hot, specific gas rich (such as oxygen, nitrogen, hydrogen, helium, etc.), a specific atmospheric pressure, light, or dark.</text>
+</box>
+<box>
+<text>This handicap grants a −5 Mental Limit reduction to the race. </text>
+</box>
+<box>
+<text>This handicap reduces two ability scores of a race by 3 when the free at creation, and must cost 3 WP or less to replace if lost or broken. The racial creator may choose what effects happen if the key gear is not possessed.</text>
+</box>
+<box>
+<text>This handicap makes the race weak to a specific substance, physical contact with the substance. The amount of points gained from this handicap depends on the rarity of the substance.</text>
+</box>
+<list type="unordered">
+<text>Common (+4) Precious metals, or wood.</text>
+<text>Uncommon (+3) Specific metals or materials.</text>
+<text>Rare (+2) Specific precious metals.</text>
+<text>Very Rare (+1) Specific radioactive materials, a singular rare specimen of tree.</text>
+</list>
+<box>
+<text>This handicap makes the race weak to a specific environment. penalties as long as they are in that environment. A race can not be vulnerable to the same environment they are immune to.</text>
+</box>
+<list type="unordered">
+<text>Hot The Fortitude Saving Throw to resist hot environments is doubled.</text>
+<text>Wet The Fortitude Saving Throw to resist diseases is doubled.</text>
+<text>Dry Requires double the normal water intake in dry environments.</text>
+</list>
+<box>
+<text>This handicap makes the race weak to a specific kind of damage. spell, incantation or power, they take 1.5× the damage, rounded up. The available damages for this handicap are cold, fire, electricity, concussion, or acid. This handicap may be taken multiple times, each time selecting a different damage.</text>
+</box>
+<box>
+<text>This handicap limits what the race can eat for substance. The restrictive the diet is. Consuming food out of diet will sustain the race, but it makes them sick, and the character is considered sickened until they eat food from their selected diet. Below are listed diets and their point values.</text>
+</box>
+<list type="unordered">
+<text>Light Monophagous Herbivore or Carnivore (+2) Specific subset of plants, such as any kinds of leaves or fruits, or specific subset of animals, such as any kind of fish or birds.</text>
+<text>Heavy Monophagous Herbivore or Carnivore (+3) Specific plant, such as the eucalyptus plant or a specific animal, such as the rainbow trout.</text>
+<text>Scavenger (+4) Carnivore, but the meat must be dead for more than 24 hours.</text>
+</list>
+<box>
+<text>This handicap disallows a race to communicate through verbal occur through a different mean.</text>
+</box>
+<box>
+<text>This handicap slows the rate at which a race heals. A race takes handicap and have the fast healing ability.</text>
+</box>
+<box>
+<text>This handicap changes how a race&#x27;s biochemistry is, for the standard medicines and pharmaceuticals, and instead must have specific pharmaceuticals made for them. All medicines, drugs, and pharmaceuticals cost twice as much and when crafting pharmaceuticals for the race, the TN is increased by +6</text>
+</box>
+<box>
+<text>This handicap makes the creature blind in any bright light, or wearing some kind of dimming glasses or goggles.</text>
+</box>
+<box>
+<text>This ability grants a −1 to the Recoil Modifier Formula. It can </text>
+</box>
+<table>
+<tr><header textAlign="center">Point Gain</header><header textAlign="center">Benefit</header></tr>
+<tr>
+<text textAlign="center">+1</text><text textAlign="center">Small Frame</text></tr>
+<tr>
+<text textAlign="center">+1</text><text textAlign="center">Large Frame</text></tr>
+<tr>
+<text textAlign="center">+1</text><text textAlign="center">Environment Bound</text></tr>
+<tr>
+<text textAlign="center">+1</text><text textAlign="center">Mental Limit Reduction</text></tr>
+<tr>
+<text textAlign="center">+3</text><text textAlign="center">Key Gear</text></tr>
+<tr>
+<text textAlign="center">+1-5</text><text textAlign="center">Substance Vulnerability</text></tr>
+<tr>
+<text textAlign="center">+2</text><text textAlign="center">Environment Vulnerability</text></tr>
+<tr>
+<text textAlign="center">+1</text><text textAlign="center">Damage Vulnerability</text></tr>
+<tr>
+<text textAlign="center">+1-4</text><text textAlign="center">Specific Diet</text></tr>
+<tr>
+<text textAlign="center">+2</text><text textAlign="center">Verbal Non-Communication</text></tr>
+<tr>
+<text textAlign="center">+2</text><text textAlign="center">Slow Healing</text></tr>
+<tr>
+<text textAlign="center">+4</text><text textAlign="center">Alternate Biochemistry</text></tr>
+<tr>
+<text textAlign="center">+2</text><text textAlign="center">Light Blindness</text></tr>
+<tr>
+<text textAlign="center">+1</text><text textAlign="center">-1 Natural Recoil Penalty (maximum decrease of -6)</text></tr>
+</table>
+	</item>
+</body>

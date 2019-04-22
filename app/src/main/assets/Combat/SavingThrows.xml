@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Saving Throws</header>
+<box>
+<text>Saving Throws</text>
+</box>
+		<text>   Generally, when a character is subject to an unusual attack,Saving Throw is a 3d6 roll plus a bonus based on the character&#x27;s level (the character&#x27;s Base Save Bonus) and an ability modifier. A natural 3 on a Saving Throw is always a failure. A natural 18 is always a success. A character&#x27;s Saving Throw bonus is:</text>
+		<text>   BSB+Ability modifier+Misc. modifiers</text>
+		<text>   The TN for a Saving Throw is determined by the attack itself.</text>
+		<header level = "1">Saving Throw Types</header>
+		<text>   The three kinds of Saving Throws are:</text>
+		<text>   Fortitude Saving Throw</text>
+<box>
+<text>These Saving Throws measure a character&#x27;s ability to stand up to health such as poison and paralysis. Apply a character&#x27;s CON modifier to their Fortitude Saving Throws.</text>
+</box>
+<box>
+<text>These Saving Throws test a character&#x27;s ability to dodge massive inevitable, a character receives a Reflex Saving Throw to take only half damage. Apply the character&#x27;s AGL modifier to their Reflex Saving Throw.</text>
+</box>
+<box>
+<text>These Saving Throws reflect a character&#x27;s resistance to mental modifier to their Will Saving Throw.</text>
+</box>
+	</item>
+</body>

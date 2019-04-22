@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Stealth (DEX)</header>
+<box>
+<text>Stealth (DEX)  The character is skilled at avoiding detection, allowing them to slip past foes or strike from an unseen position, and pick pockets, draw hidden weapons, and take a variety of actions without being noticed. This skill covers hiding and moving silently.</text>
+</box>
+		<text>   Your Stealth check is opposed by the Perception check of anyonestill use Stealth at no penalty. When moving at normal Combat Point cost, you take a −5 penalty. It is impossible to use Stealth while attacking or running. If people are observing you using any of their senses (typically sight) you can&#x27;t use Stealth.</text>
+		<header level = "1">Pocketing an item</header>
+		<text>   A Stealth check [TN10] lets you palm a coin-sized, unattendedcoin disappear, is also TN10 unless an observer is determined to note where the item went.</text>
+		<text>   When you use this skill under close observation, your skillobserver&#x27;s success doesn&#x27;t prevent you from performing the action, just from doing it unnoticed.</text>
+		<header level = "1">Conceal</header>
+		<text>   You can hide a small object (including a Medium or smallerPerception check of anyone observing you or of anyone frisking you. In the latter case, the searcher gains a +4 bonus on the Perception check, since it is generally easier to find such an object than to hide it. Heavy or baggy clothing (such as an overcoat) grants you a +2 bonus on the check.</text>
+		<text>   Drawing a hidden weapon is dependent on how it is holstered or</text>
+		<header level = "1">Pickpocket</header>
+		<text>   If you try to take something from a creature, you must make adetect the attempt, opposed by the Stealth check result you achieved when you tried to grab the item. An opponent who succeeds on this check notices the attempt, regardless of whether you got the item. You cannot use this skill to take an object from another creature during combat if the creature is aware of your presence.</text>
+		<text>   You can use Presence to allow you to use Stealth. A successfulattempt a Stealth check while people are aware of you.</text>
+		<text>   Time</text>
+		<text>   Normally, you make a Stealth check to hide or move silently asUsing Stealth to hide or move silently immediately after a ranged attack costs 6 Combat Points. Any Stealth check to conceal, or take an object costs 5 Combat Points. However, you may perform this Stealth check for 2 Combat Points by taking a −10 penalty on the check.</text>
+	</item>
+</body>

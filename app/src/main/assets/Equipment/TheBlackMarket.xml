@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">The Black Market</header>
+<box>
+<text>The Black Market  Sometimes a character wants to obtain an object without going through the hassle of getting a license first. Almost anything is available on the black market. Knowledge (Streetwise) checks can be used to locate a black market merchant. The TN is based on where the character is searching: 15 in a big city, 20 in small towns, 25 or higher in rural areas. Objects purchased on the black market are more expensive than those purchased legally. Add the black market purchase percentage increase to the object&#x27;s cost. Obtaining an object on the black market takes a number of days according to the Time Required column on Table: Licenses. The process can be hurried, but each day cut out of the process (to a minimum of one day) increases the purchase cost by an additional 25%.</text>
+</box>
+<table>
+<tr><header textAlign="center">Registration Rating</header><header textAlign="center">Black Market</header></tr>
+<tr>
+<text textAlign="center">Licensed</text><text textAlign="center">25%</text></tr>
+<tr>
+<text textAlign="center">Restricted</text><text textAlign="center">50%</text></tr>
+<tr>
+<text textAlign="center">Military &amp; Police</text><text textAlign="center">100%</text></tr>
+<tr>
+<text textAlign="center">Illegal</text><text textAlign="center">200%</text></tr>
+</table>
+	</item>
+</body>

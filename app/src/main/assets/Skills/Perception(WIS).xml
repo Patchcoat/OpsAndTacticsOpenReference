@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Perception (WIS)</header>
+<box>
+<text>Perception (WIS)  This skill allows a character to notice fine details and alert them to danger. Perception covers all five senses, including sight, hearing, touch, taste, and smell.</text>
+</box>
+		<text>   Perception is also used to notice fine details in thedistance, the environment, and how noticeable the detail is. The following table gives a number of guidelines.</text>
+<table>
+<tr><header textAlign="center">Perception</header><header textAlign="center">TN</header></tr>
+<tr>
+<text textAlign="center">Gunfire</text><text textAlign="center">−40</text></tr>
+<tr>
+<text textAlign="center">Hear the sound of battle</text><text textAlign="center">−20</text></tr>
+<tr>
+<text textAlign="center">Notice the stench of rotting garbage</text><text textAlign="center">−15</text></tr>
+<tr>
+<text textAlign="center">Detect the smell of smoke</text><text textAlign="center">0</text></tr>
+<tr>
+<text textAlign="center">Hear the details of a conversation</text><text textAlign="center">0</text></tr>
+<tr>
+<text textAlign="center">Notice a visible creature</text><text textAlign="center">0</text></tr>
+<tr>
+<text textAlign="center">Determine if food is spoiled</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">Hear the sound of footsteps</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Hear a gun being loaded and/or cocked</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Hear the details of a whispered conversation</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">Find the average concealed door</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">Hear the sound of a key being turned in a lock</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">Notice a typical secret compartment or a simple trap</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">Notice a pickpocket</text><text textAlign="center">Opposed by Stealth</text></tr>
+<tr>
+<text textAlign="center">Notice a creature using Stealth</text><text textAlign="center">Opposed by Stealth</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Perception Modifiers</header><header textAlign="center">TN</header></tr>
+<tr>
+<text textAlign="center">Distance to the source, object, or creature</text><text textAlign="center">+3 per 10 feet</text></tr>
+<tr>
+<text textAlign="center">Through a closed door</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">Through a wall</text><text textAlign="center">+10 per foot of thickness</text></tr>
+<tr>
+<text textAlign="center">Favorable conditions</text><text textAlign="center">−2</text></tr>
+<tr>
+<text textAlign="center">Unfavorable conditions</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">Terrible conditions</text><text textAlign="center">+10</text></tr>
+<tr>
+<text textAlign="center">Creature making the check is distracted</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">Creature making the check is asleep</text><text textAlign="center">+10</text></tr>
+<tr>
+<text textAlign="center">Creature or object is camouflaged</text><text textAlign="center">+15</text></tr>
+</table>
+		<text>   Favorable and unfavorable conditions depend upon the senseincrease the TN of checks involving sight, while torchlight or moonlight might give a penalty. Background noise might reduce a TN involving hearing, while competing odors might penalize any TN involving scent.</text>
+		<text>   Terrible conditions are like unfavorable conditions, but moreroaring engine for TNs involving hearing, and an overpowering stench covering the area for TNs involving scent.</text>
+		<text>   Special</text>
+		<text>   Creatures with the scent special quality have a +8 bonus on</text>
+		<text>   Try Again</text>
+		<text>   Yes. You can try to sense something you missed the first time,</text>
+		<text>   Time</text>
+		<text>   Most Perception checks are reactive, made in response toCombat Points.</text>
+	</item>
+</body>

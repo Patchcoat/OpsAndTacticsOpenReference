@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Occupations</header>
+<text><b>Occupations</b></text>
+		<text>   Starting Occupation</text>
+		<text>   A character may hold other jobs as their career unfolds, butthe time of character creation. Many starting occupations have initial requirements that the character must meet to qualify for the occupation. If a character is selecting their first occupation they only need to meet the initial requirements, not the hiring requirements. Each occupation provides a number of additional permanent focused skills that the character can select from a list of choices. Once selected, a permanent focused skill is always considered to be a focused skill for the character. If the skill selected is already a focused skill for the character, they also gain a +1 bonus for that skill.</text>
+		<text>   Every level, a character also receives an additional +1 in the</text>
+		<text>   Some starting occupations provide a bonus feat. A character</text>
+		<text>   Finally, a starting occupation determines how many Wealthsalary is. The Wealth Points that are received to start with and biweekly are considered surplus for whatever a character may need. Their housing, basic food, and clothing needs are taken care of. </text>
+		<text>   Choose one occupation from the available selections and applydescription.</text>
+		<text>   Changing Occupations</text>
+		<text>   A character will rarely keep one job their entire life. Whenbecomes unemployed for at least two weeks, relinquishing their old salary. Then, if a character meets the requirements to enter their new job, they enter it, and pick from the skills listed, and receive the new job&#x27;s biweekly salary from now on. They do not select any of the bonus feats for the job, when entering it. They must meet both the starting requirements, and the job change requirements, in order to qualify for the job.</text>
+<text><b>Occupations</b></text>
+		<header level = "1">Academic</header>
+		<text>   Academics include librarians, archaeologists, scholars,</text>
+<box>
+<text>Starting Requirements Age 23+Job Change Requirements A Knowledge (Any), Craft (Writing), or Technology Use skill modifier of +15 or greater, or at least two points in two Linguistics languages.</text>
+</box>
+<box>
+<text>Starting Wealth Points 4d4×10 (Average 100) Biweekly Wealth Points 2d4×10 (Average 50)</text>
+</box>
+		<text>   Adventurers include professional daredevils, big game hunters,scientists, thrill-seekers and others called to face danger for a variety of reasons.</text>
+<box>
+<text>Starting Requirements Age 15+Job Change Requirements An Athletics, Acrobatics, Drive, Pilot, or Ride skill modifier of +15 or greater.</text>
+</box>
+<box>
+<text>Occupational Feats (1) Archaic Weapon Proficiency (Any), Brawl, </text>
+</box>
+<box>
+<text>Biweekly Wealth Points 4d4 (Average 10)11.3 Athlete</text>
+</box>
+<box>
+<text>Starting Requirements DEX or STR 13, Age 14+Job Change Requirements An Athletics, Acrobatics, or Drive skill modifier of +15 or greater.</text>
+</box>
+<box>
+<text>Occupational Feats (1) Combat Martial Arts, Evasive Martial Arts, Skill Focus(Acrobatics)</text>
+</box>
+<box>
+<text>Biweekly Wealth Points (1d4+3)×10 (Average 55)11.4 Blue Collar</text>
+</box>
+<box>
+<text>Starting Requirements Age 18+Job Change Requirements An Animal Handling, Drive, or Ride skill modifier of +15 or greater, or a Craft (Mechanical, Structural, Chemical, or Electronic) skill modifier of +10 or greater.</text>
+</box>
+<box>
+<text>Starting Wealth Points (1d4+3)×10 (Average 55) Biweekly Wealth Points 11d4 (Average 28)</text>
+</box>
+		<text>   A celebrity is anyone who has been thrust into the spotlight ofradio and television personalities and more fall under celebrity. </text>
+<box>
+<text>Starting Requirements Age 15+Job Change Requirements A Craft (Visual Art or Writing) or Perform (Any) skill modifier of +10 or greater and 300 WP which must be paid out for expenses.</text>
+</box>
+<box>
+<text>Starting Wealth Points 12d4×10 (Average 300)Biweekly Wealth Points 6d4×10 (Average 150)</text>
+</box>
+		<text>   The creative occupation covers artists of all types of peoplecopywriters, cartoonists, graphic artists, novelists, columnists, actors, sculptors, game designers, musicians, screenwriters, photographers and web designers all fall under this occupation.</text>
+<box>
+<text>Starting Requirements Age 15+Job Change Requirements A Craft (Visual Art or Writing) or Perform (Any) skill modifier of +18 or greater or a Technology Use or Knowledge (Arcane Lore or Art) of +15 or greater.</text>
+</box>
+<box>
+<text>Occupational Feats (1) Skill Focus (Visual Arts), Skill Focus </text>
+</box>
+<box>
+<text>Biweekly Wealth Points 5d4 (Average 13)11.7 Criminal</text>
+</box>
+<box>
+<text>Starting Requirements Age 15+Job Change Requirements None</text>
+</box>
+<box>
+<text>Occupational Feats (1) Personal Firearms Proficiency, Simple </text>
+</box>
+<box>
+<text>Biweekly Wealth Points 7d4 (Average 17)11.8 Doctor</text>
+</box>
+<box>
+<text>Starting Requirements Age 25+Job Change Requirements A Craft (Pharmaceutical), Knowledge (Behavioral Sciences or Earth and Life Sciences), or Treat Injury skill modifier of +18 or greater.</text>
+</box>
+<box>
+<text>Occupational Feats (1) Skill Focus (Knowledge) or Skill Focus </text>
+</box>
+<box>
+<text>Biweekly Wealth Points 4d4×10 (Average 100)Equipment Notes Doctors receive the Restricted license for all medical related equipment.</text>
+</box>
+		<text>   Rescue workers, firefighters, paramedics, hazardous materialcategory.</text>
+<box>
+<text>Starting Requirements Age 18+Job Change Requirements An Acrobatics or Athletics skill modifier of +10 or greater, a Treat Injury skill modifier of +10 or greater and a Drive, Knowledge (Earth and Life sciences or Technology) or Ride skill modifier of +10 or greater.</text>
+</box>
+<box>
+<text>Occupational Feats (1) Skill Focus (Treat Injury) or Skill Focus </text>
+</box>
+<box>
+<text>Biweekly Wealth Points 6d4  (Average 15)</text>
+</box>
+<box>
+<text>Firefighters and Rescue Workers are issued a Turnout coat, and can also be issued a full “Red Bag” (See GM Notes). All emergency services receive the Restricted license for all medical related equipment.</text>
+</box>
+		<header level = "1">Entrepreneur</header>
+		<text>   Entrepreneurs are business owners, obsessed about being theirability to acquire funds to fuel their money-making ventures.</text>
+<box>
+<text>Starting Requirements Age 18+Job Change Requirements A Knowledge (Business, Civics or Technology) skill modifier of +15 or greater and 200 WP which must be paid out for various start up costs.</text>
+</box>
+<box>
+<text>Starting Wealth Points 10d4×10 (Average 250)Biweekly Wealth Points 5d4×10 (Average 125)</text>
+</box>
+		<text>   There are a number of jobs that fit within this occupation,investigators, police detectives, criminologists, federal agents, criminal profilers, espionage agents, and any others who use their skills to gather information and analyze clues.</text>
+<box>
+<text>Starting Requirements Age 23+Job Change Requirements A Craft (Visual Art or Writing) or a Knowledge (Streetwise) skill modifier of +15 or greater and a Perception skill modifier of +15 or greater.</text>
+</box>
+<box>
+<text>Occupational Feats (1) Skill Focus (Perception), Skill Focus </text>
+</box>
+<box>
+<text>Biweekly Wealth Points (1d4+2)×10 (Average 30)</text>
+</box>
+<box>
+<text>Federal agents and police detectives are issued the badge of semi-automatic handgun in either 9x19mm, .38 Special, .357 Magnum, .357 Sig, .40 S&amp;W, or .45 ACP that costs 30 WP or less, a pair of steel handcuffs, and a tactical holster. They may take the WP given to them, and add their own money, and purchase a more expensive firearm, as long as it meets the caliber requirements. The WP allocated for the issued firearm is for the firearm and extra magazines or speedloaders only, and does not cover any upgrades. JHP ammunition is provided for this firearm by the department. Federal agents or police detectives will only be issued a handgun if they have the Personal Firearms Proficiency feat. Federal agents, police detectives, and other Law Enforcement related jobs receive the Military and Police license for firearms and other job-related equipment.</text>
+</box>
+		<header level = "1">Law Enforcement</header>
+		<text>   Law enforcement personnel include uniformed state police, deputy</text>
+<box>
+<text>Starting Requirements Age 20+Job Change Requirements An Athletics or Acrobatics skill modifier of +10 or greater, a Knowledge (Civics) skill modifier of +10 or greater, a Drive skill modifier of +10 or greater, and a Knowledge (Streetwise) or Perception skill modifier of +10 or greater.</text>
+</box>
+<box>
+<text>Occupational Feats (1) Brawl, Evasive Martial Arts, or Light </text>
+</box>
+<box>
+<text>Biweekly Wealth Points 11d4 (Average 28)</text>
+</box>
+<box>
+<text>Police officers, state troopers, deputy sheriffs, and S.W.A.T. </text>
+</box>
+<box>
+<text>Choosing a sidearm can be an arduous choice. There are many points, as well as cost. A good alternative to this to have the GM select a firearm as a standard issue sidearm for the police force. This guarantees uniformity in magazines, spare parts, and ammunition, as well as familiarity. Popular firearms include the Glock 17, Glock 19, Glock 22, Glock 23, Beretta 92FS, Smith and Wesson M&amp;P, Sig-Sauer P320, and Springfield Armory GI 1911A1.</text>
+</box>
+		<header level = "1">Military</header>
+		<text>   Military covers any of the branches of the armed forces,the Coast Guard, as well as the various elite training units.</text>
+<box>
+<text>Starting Requirements Age 18+Job Change Requirements An Athletics or Acrobatics skill modifier of +10 or greater.</text>
+</box>
+<box>
+<text>Occupational Feats (1) Brawl, Combat Martial Arts, Evasive Proficiency, or Weapon Focus.</text>
+</box>
+<box>
+<text>Biweekly Wealth Points 6d4  (Average 15)Equipment Notes Military personnel are issued Fatigues of their branch, as well as a dress uniform. If a character is on active duty in a combat area or on assignment, the equipment for a character in the military profession is based on what branch, type of classification, and country they belong to. While on active duty in a combat area or on assignment military personnel have the Military and Police license.</text>
+</box>
+		<text>   Ordained clergy of all persuasions, as well as theologicalof this occupation.</text>
+<box>
+<text>Starting Requirements Age 23+Job Change Requirements None</text>
+</box>
+<box>
+<text>Occupational Feats (1) Focused Saving Throw (Will) or Skill Focus </text>
+</box>
+<box>
+<text>Biweekly Wealth Points 1d4×10  (Average 25)11.15 Rural</text>
+</box>
+<box>
+<text>Starting Requirements Age 15+Job Change Requirements An Athletics or Acrobatics skill modifier of +10 or greater and an Animal Handling or Ride skill modifier of +12 or greater</text>
+</box>
+<box>
+<text>Occupational Feats (1) Personal Firearms Proficiency, Archaic </text>
+</box>
+<box>
+<text>Biweekly Wealth Points 4d4  (Average 10)</text>
+</box>
+		<header level = "1">Security</header>
+		<text>   Security includes private armed security, private militaryis paid money to protect an object, person, or location.</text>
+<box>
+<text>Starting Requirements Age 21+Job Change Requirements An Athletics or Acrobatics skill modifier of +10 or greater and a Knowledge (Streetwise) or Perception skill modifier of +10 or greater.</text>
+</box>
+<box>
+<text>Occupational Feats (1) Brawl, Combat Martial Arts, or Simple </text>
+</box>
+<box>
+<text>Biweekly Wealth Points 1d4×10 (Average 25)11.17 Student</text>
+</box>
+<box>
+<text>Starting Requirements Age 15+Job Change Requirements None</text>
+</box>
+<box>
+<text>Starting Wealth Points 6d4 (Average 15)Biweekly Wealth Points 3d4  (Average 8)</text>
+</box>
+		<text>   Scientists and engineers of all types fit within the scope of</text>
+<box>
+<text>Starting Requirements Age 23+Job Change Requirements A Craft (Chemical, Electronics, Mechanical, or Structural), Knowledge (Behavioral Sciences, Technology, Physical Sciences, or Earth and Life Sciences) or Technology Use skill modifier of +16 or greater.</text>
+</box>
+<box>
+<text>Starting Wealth Points (3d4+1)×10 (Average 85)Biweekly Wealth Points 16d4  (Average 40)</text>
+</box>
+		<text>   This occupation is a placeholder for when someone is betweenhave a fully steady job. People working with temp services, vagabonds and panhandlers, children, and those that scrape by doing odd jobs all fall into this category.</text>
+<box>
+<text>Starting Requirements None Job Change Requirements None</text>
+</box>
+<box>
+<text>Occupational Feats (1) Any.Starting Wealth Points 2d4 (Average 5)</text>
+</box>
+		<header level = "1">White Collar</header>
+		<text>   Office workers and desk jockeys, lawyers, accountants, insurancesales personnel, real estate agents and a variety of middle management all fall within the scope of this occupation.</text>
+<box>
+<text>Starting Requirements Age 23+Job Change Requirements A Knowledge (Art, Business, Civics, History, or Technology) or Technology Use skill modifier of +15 or greater.</text>
+</box>
+<box>
+<text>Starting Wealth Points 6d4×10 (Average 150)Biweekly Wealth Points 3d4×10  (Average 75)</text>
+</box>
+	</item>
+</body>

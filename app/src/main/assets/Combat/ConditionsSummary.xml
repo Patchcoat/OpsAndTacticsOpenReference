@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Conditions Summary</header>
+<box>
+<text>Conditions Summary  If more than one condition affects a character, apply them all. If certain effects can&#x27;t combine, apply the most severe effect. If a character is already suffering from an identical summary, the new summary&#x27;s length will not add to previous one unless the duration is greater, and only the difference in duration will be added. </text>
+</box>
+		<text>   The character has temporarily lost 1 or more ability scoreotherwise by the condition dealing the damage. A character with STR 0 falls to the ground and is helpless. A character with DEX 0 is paralyzed. A character with CON 0 is dead. A character with INT, WIS, or CHA 0 is unconscious. Ability damage is different from penalties to ability scores, which go away when the conditions causing them go away.</text>
+		<header level = "1">Ability Drained</header>
+		<text>   The character has permanently lost 1 or more ability scorehelpless. A character with DEX 0 is paralyzed. A character with CON 0 is dead. A character with INT, WIS, or CHA 0 is unconscious.</text>
+		<header level = "1">Blinded</header>
+		<text>   The character cannot see. He takes a −2 penalty to Defense,doubled, and takes a −4 penalty on Perception checks and on most STR and DEX based skill checks. All checks and activities that rely on vision automatically fail. All opponents are considered to have total concealment to the blinded character. Characters who remain blinded for a long time grow accustomed to these drawbacks and can overcome some of them.</text>
+		<header level = "1">Confused</header>
+<box>
+<text>The character is puzzled by something they have seen or heard, confused character’s action costs are increased by 3 Combat Points.</text>
+</box>
+		<text>   The creature is unable to act normally. A dazed creature cantypically lasts 1 round.</text>
+		<header level = "1">Dead</header>
+		<text>   The character&#x27;s CHP have been reduced to −10, his CON is reducedsoul/aura/nothing leaves his body. Dead characters cannot benefit from normal healing. A dead body decays normally unless preserved.</text>
+		<header level = "1">Deafened</header>
+		<text>   A deafened character cannot hear. They take a −4 penalty oninvolve hearing. Characters who remain deafened for a long time grow accustomed to these drawbacks and can overcome some of them.</text>
+		<header level = "1">Disabled</header>
+		<text>   A character with 0 CHP, or one who has negative core hit pointscan only spend 5 Combat Points. Performing any action the game master deems strenuous deals 1 point of damage after the completion of the act. Unless the action increased the disabled character&#x27;s hit points, they are now in negative CHP and dying. A disabled character with negative CHP recovers CHP naturally if they are being helped. Otherwise, each day they have a 10% chance to start recovering CHP naturally (starting with that day); otherwise, they lose 1 CHP. Once an unaided character starts recovering CHP naturally they are no longer in danger of losing hit points (even if their current hit points are negative).</text>
+		<header level = "1">Dying</header>
+		<text>   A dying character is unconscious and near death. They haveis unconscious. At the end of each round (starting with the round in which the character dropped below 0 CHP), the character loses 1 HP. If a dying character reaches −10 CHP they are dead.</text>
+		<header level = "1">Entangled</header>
+		<text>   The character is ensnared. Being entangled impedes movement, butimmobile object or tethered by an opposing force. An entangled creature moves at twice the Combat Point cost and takes a −2 penalty on all attack rolls and a −4 penalty to DEX.</text>
+		<header level = "1">Exhausted</header>
+		<text>   An exhausted character moves at twice the Combat Point cost andan exhausted character becomes fatigued. A fatigued character becomes exhausted by doing something else that would normally cause fatigue.</text>
+		<header level = "1">Fatigued</header>
+		<text>   A fatigued character takes a −2 penalty to STR and DEX. Doingcharacter to become exhausted. After 8 hours of complete rest, fatigued characters are no longer fatigued.</text>
+		<header level = "1">Flat-Footed</header>
+		<text>   A character who has not yet acted during a combat is flat-footedcharacter loses his DEX bonus to Defense (if any) and cannot make an AoO.</text>
+		<header level = "1">Frightened</header>
+		<text>   A frightened creature flees from the source of its fear as besttakes a −2 penalty on all attack rolls, Saving Throws, skill checks, and ability checks. A frightened creature can use special abilities, to flee; indeed, the creature must use such means if they are the only way to escape. Frightened is like Shaken, except that the creature must flee if possible. Panicked is a more extreme state of fear.</text>
+		<header level = "1">Grappling</header>
+		<text>   Engaged in wrestling or some other form of hand-to-hand struggleonly a limited number of actions. He does not threaten any squares and loses his DEX bonus to Defense (if any) against opponents he isn&#x27;t grappling. See Grapple.</text>
+		<header level = "1">Helpless</header>
+		<text>   A helpless character is paralyzed, held, bound, sleeping,helpless target is treated as having a DEX of 0 (−5 modifier). Melee attacks against a helpless target get a +4 bonus (equivalent to attacking a prone target). Ranged attacks receive no special bonus against helpless targets.</text>
+		<header level = "1">Inebriated</header>
+		<text>   Drunken and consumed too much alcohol. An inebriated charactermove is doubled.</text>
+		<header level = "1">Invisible</header>
+		<text>   Visually undetectable. An invisible creature gains a +2 bonus onDEX bonuses to Defense (if any).</text>
+		<header level = "1">Knocked Down</header>
+		<text>   Depending on their size, creatures can be knocked down by windsthe force of the wind. Flying creatures are instead blown back 1d6×10&#x27;.</text>
+		<header level = "1">Nauseated</header>
+		<text>   Experiencing stomach distress. Nauseated creatures are unable torequiring attention. The only action such a character can spend Combat Points on are move actions.</text>
+		<header level = "1">Panicked</header>
+		<text>   A panicked creature must drop anything it holds and flee at topit encounters, along a random path. It can&#x27;t take any other actions. In addition, the creature takes a −2 penalty on all Saving Throws, skill checks, and ability checks. If cornered, a panicked creature cowers. A panicked creature can use special abilities to flee; indeed, the creature must use such means if they are the only way to escape. Panicked is a more extreme state of fear than shaken or frightened.</text>
+		<header level = "1">Paralyzed</header>
+		<text>   A paralyzed character is frozen in place and unable to move orand is helpless, but can take purely mental actions. A winged creature flying in the air at the time that it becomes paralyzed cannot flap its wings and falls. A paralyzed swimmer can&#x27;t swim and may drown. A creature can move through a space occupied by a paralyzed creature—ally or not. Each square occupied by a paralyzed creature, however, counts as 2 squares.</text>
+		<header level = "1">Pinned</header>
+		<text>   Held immobile (but not helpless) in a grapple.</text>
+		<header level = "1">Prone</header>
+		<text>   The character is on the ground. An attacker who is prone has arolls. A defender who is prone gains a +4 bonus to Defense against ranged attacks, but takes a −4 penalty to Defense against melee attacks.</text>
+		<header level = "1">Rattled</header>
+		<text>   A rattled character is visibly disturbed, and can barelySaving Throws, skill checks, and ability checks.</text>
+		<header level = "1">Shaken</header>
+		<text>   A shaken character takes a −2 penalty on attack rolls, Savingstate of fear than frightened, rattled or panicked, but worse than unnerved.</text>
+		<header level = "1">Sickened</header>
+		<text>   The character takes a −2 penalty on all attack rolls, meleechecks.</text>
+		<header level = "1">Stable</header>
+		<text>   A character who was dying but who has stopped losing hit pointslonger dying, but is still unconscious. If the character has become stable because of aid from another character (such as a Treat Injury check), then the character no longer loses hit points. He has a 10% chance each hour of becoming conscious and disabled (even though his hit points are still negative). If the character became stable on his own and hasn&#x27;t had help he is still at risk of losing hit points. Each hour, he has a 10% chance of becoming conscious and disabled. Otherwise he loses 1 hit point.</text>
+		<header level = "1">Stunned</header>
+		<text>   A stunned creature can only spend half of their Combat Points,bonus to Defense (if any).</text>
+		<header level = "1">Unconscious</header>
+		<text>   Knocked out and helpless. Unconsciousness can result from havingnon-lethal attack.</text>
+		<header level = "1">Unnerved</header>
+		<text>   An unnerved character has lost their demeanor. They take a −1checks. Unnerved is a less severe state of fear than shaken, frightened, or panicked.</text>
+	</item>
+</body>

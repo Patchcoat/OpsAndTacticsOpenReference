@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Creating Ability Scores</header>
+<box>
+<text>Creating Ability Scores  3d6</text>
+</box>
+		<text>   4d6</text>
+<box>
+<text>Roll 4d6, drop the lowest die, and then take the sum of the </text>
+</box>
+<box>
+<text>The GM assigns a set number of points that the characters may use points. Each ability starts at 8 for free and then you must spend points to increase the ability score. No ability score may be increased above 18 using this method.</text>
+</box>
+<table>
+<tr><header textAlign="center">Score</header><header textAlign="center">Point Cost</header></tr>
+<tr>
+<text textAlign="center">9</text><text textAlign="center">1</text></tr>
+<tr>
+<text textAlign="center">10</text><text textAlign="center">2</text></tr>
+<tr>
+<text textAlign="center">11</text><text textAlign="center">3</text></tr>
+<tr>
+<text textAlign="center">12</text><text textAlign="center">4</text></tr>
+<tr>
+<text textAlign="center">13</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">14</text><text textAlign="center">6</text></tr>
+<tr>
+<text textAlign="center">15</text><text textAlign="center">8</text></tr>
+<tr>
+<text textAlign="center">16</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">17</text><text textAlign="center">13</text></tr>
+<tr>
+<text textAlign="center">18</text><text textAlign="center">16</text></tr>
+</table>
+		<text>   Grid</text>
+<box>
+<text>Draw a 3×3 grid. Label the columns as STR, DEX, CON, and the rows generate nine scores and fill in the grid. Then for each ability, choose one score from the corresponding row or column. Once you&#x27;ve picked a cell, you can&#x27;t use it again.</text>
+</box>
+<box>
+<text>The GM assigns a set array of 6 scores, and the players choose </text>
+</box>
+	</item>
+</body>

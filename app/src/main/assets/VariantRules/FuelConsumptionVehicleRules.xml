@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Fuel Consumption Vehicle Rules</header>
+<box>
+<text>Fuel Consumption Vehicle Rules  This variant rule Created by Conscript Gary. Thank him for it!</text>
+</box>
+		<text>   Fuel of a higher quality than the vehicle demands can be usedfuel efficiency will be halved and the engine may need repairs after doing so.</text>
+<table>
+<tr><header textAlign="center">Name</header><header textAlign="center">Efficiency</header><header textAlign="center">Tank Size</header><header textAlign="center">Lowest Fuel Grade</header></tr>
+<tr>
+<text textAlign="center">Standard Car Categories</text></tr>
+<tr>
+<text textAlign="center">Toy Car</text><text textAlign="center">Terrible</text><text textAlign="center">Tiny</text><text textAlign="center">Poor</text></tr>
+<tr>
+<text textAlign="center">Microcar</text><text textAlign="center">Great</text><text textAlign="center">Medium</text><text textAlign="center">Mediocre</text></tr>
+<tr>
+<text textAlign="center">Compact Car</text><text textAlign="center">Great</text><text textAlign="center">Large</text><text textAlign="center">Mediocre</text></tr>
+<tr>
+<text textAlign="center">Mid-Sized Car</text><text textAlign="center">Good</text><text textAlign="center">Huge</text><text textAlign="center">Mediocre</text></tr>
+<tr>
+<text textAlign="center">Entry Level Luxury Car</text><text textAlign="center">Good</text><text textAlign="center">Huge</text><text textAlign="center">Good</text></tr>
+<tr>
+<text textAlign="center">Full-Sized Car</text><text textAlign="center">Acceptable</text><text textAlign="center">Gargantuan</text><text textAlign="center">Mediocre</text></tr>
+<tr>
+<text textAlign="center">Full Size Luxury Car</text><text textAlign="center">Acceptable</text><text textAlign="center">Gargantuan</text><text textAlign="center">Great</text></tr>
+<tr>
+<text textAlign="center">Standard Van Categories</text></tr>
+<tr>
+<text textAlign="center">Multi-Purpose Van</text><text textAlign="center">Great</text><text textAlign="center">Huge</text><text textAlign="center">Mediocre</text></tr>
+<tr>
+<text textAlign="center">Cargo Van</text><text textAlign="center">Bad</text><text textAlign="center">2 Huge</text><text textAlign="center">Good</text></tr>
+<tr>
+<text textAlign="center">Passenger Van</text><text textAlign="center">Bad</text><text textAlign="center">2 Huge</text><text textAlign="center">Good</text></tr>
+<tr>
+<text textAlign="center">Standard Truck Categories</text></tr>
+<tr>
+<text textAlign="center">Mini Pickup Truck</text><text textAlign="center">Acceptable</text><text textAlign="center">Huge</text><text textAlign="center">Mediocre</text></tr>
+<tr>
+<text textAlign="center">Mid-sized Pickup Truck</text><text textAlign="center">Acceptable</text><text textAlign="center">Gargantuan</text><text textAlign="center">Mediocre</text></tr>
+<tr>
+<text textAlign="center">Full-Sized Pickup Truck</text><text textAlign="center">Bad</text><text textAlign="center">Huge</text><text textAlign="center">Good</text></tr>
+<tr>
+<text textAlign="center">Heavy Duty Pickup Truck</text><text textAlign="center">Bad</text><text textAlign="center">Gargantuan</text><text textAlign="center">Great</text></tr>
+<tr>
+<text textAlign="center">Standard SUV Categories</text></tr>
+<tr>
+<text textAlign="center">Mini SUV</text><text textAlign="center">Good</text><text textAlign="center">Huge</text><text textAlign="center">Mediocre</text></tr>
+<tr>
+<text textAlign="center">Compact SUV</text><text textAlign="center">Good</text><text textAlign="center">Huge</text><text textAlign="center">Mediocre</text></tr>
+<tr>
+<text textAlign="center">Mid-Sized SUV</text><text textAlign="center">Acceptable</text><text textAlign="center">2 Large</text><text textAlign="center">Mediocre</text></tr>
+<tr>
+<text textAlign="center">Full-Sized SUV</text><text textAlign="center">Bad</text><text textAlign="center">Huge</text><text textAlign="center">Good</text></tr>
+<tr>
+<text textAlign="center">Standard Motorcycle Categories</text></tr>
+<tr>
+<text textAlign="center">Standard Bike</text><text textAlign="center">Great</text><text textAlign="center">Small</text><text textAlign="center">Mediocre</text></tr>
+<tr>
+<text textAlign="center">Cruiser Bike</text><text textAlign="center">Good</text><text textAlign="center">Small</text><text textAlign="center">Good</text></tr>
+<tr>
+<text textAlign="center">Sport Bike</text><text textAlign="center">Acceptable</text><text textAlign="center">Small</text><text textAlign="center">Great</text></tr>
+<tr>
+<text textAlign="center">Touring Bike</text><text textAlign="center">Great</text><text textAlign="center">3 Tiny</text><text textAlign="center">Mediocre</text></tr>
+<tr>
+<text textAlign="center">Dual Sport</text><text textAlign="center">Acceptable</text><text textAlign="center">3 Tiny</text><text textAlign="center">Great</text></tr>
+<tr>
+<text textAlign="center">Dirt Bike</text><text textAlign="center">Good</text><text textAlign="center">Tiny</text><text textAlign="center">Good</text></tr>
+<tr>
+<text textAlign="center">ATV</text><text textAlign="center">Bad</text><text textAlign="center">Small</text><text textAlign="center">Good</text></tr>
+<tr>
+<text textAlign="center">Scooter</text><text textAlign="center">Great</text><text textAlign="center">Tiny</text><text textAlign="center">Mediocre</text></tr>
+<tr>
+<text textAlign="center">Standard Rotary Aircraft</text></tr>
+<tr>
+<text textAlign="center">Utility Helicopter</text><text textAlign="center">Bad</text><text textAlign="center">2 Gargantuan</text><text textAlign="center">Great</text></tr>
+<tr>
+<text textAlign="center">Gunship Helicopter</text><text textAlign="center">Bad</text><text textAlign="center">2 Gargantuan</text><text textAlign="center">Exquisite</text></tr>
+<tr>
+<text textAlign="center">Transport Helicopter</text><text textAlign="center">Good</text><text textAlign="center">2 Gargantuan</text><text textAlign="center">Great</text></tr>
+<tr>
+<text textAlign="center">Standard Fixed Wing Aircraft</text></tr>
+<tr>
+<text textAlign="center">Standard Prop Aircraft</text><text textAlign="center">Acceptable</text><text textAlign="center">2 Gargantuan</text><text textAlign="center">Great</text></tr>
+<tr>
+<text textAlign="center">Military Prop Aircraft</text><text textAlign="center">Acceptable</text><text textAlign="center">2 Gargantuan</text><text textAlign="center">Exquisite</text></tr>
+<tr>
+<text textAlign="center">Standard Jet Aircraft</text><text textAlign="center">Terrible</text><text textAlign="center">10 Gargantuan</text><text textAlign="center">Great</text></tr>
+<tr>
+<text textAlign="center">Military Jet Aircraft</text><text textAlign="center">Terrible</text><text textAlign="center">10 Gargantuan</text><text textAlign="center">Exquisite</text></tr>
+<tr>
+<text textAlign="center">Other Vehicles</text></tr>
+<tr>
+<text textAlign="center">Moving Truck</text><text textAlign="center">Terrible</text><text textAlign="center">4 Large</text><text textAlign="center">Good</text></tr>
+<tr>
+<text textAlign="center">Bus</text><text textAlign="center">Terrible</text><text textAlign="center">2 Gargantuan</text><text textAlign="center">Good</text></tr>
+<tr>
+<text textAlign="center">Armored Truck</text><text textAlign="center">Terrible</text><text textAlign="center">2 Huge</text><text textAlign="center">Good</text></tr>
+<tr>
+<text textAlign="center">Tow Truck</text><text textAlign="center">Acceptable</text><text textAlign="center">Gargantuan</text><text textAlign="center">Good</text></tr>
+<tr>
+<text textAlign="center">Golf Cart</text><text textAlign="center">Great</text><text textAlign="center">3 Tiny</text><text textAlign="center">Poor</text></tr>
+<tr>
+<text textAlign="center">Semi-Trailer Truck</text><text textAlign="center">Special¹</text><text textAlign="center">6 Gargantuan</text><text textAlign="center">Good</text></tr>
+<tr>
+<text textAlign="center">RV</text><text textAlign="center">Terrible</text><text textAlign="center">4 Gargantuan</text><text textAlign="center">Good</text></tr>
+<tr>
+<text textAlign="center">Military &amp; Police Vehicles</text></tr>
+<tr>
+<text textAlign="center">APC</text><text textAlign="center">Bad</text><text textAlign="center">Gargantuan</text><text textAlign="center">Great</text></tr>
+<tr>
+<text textAlign="center">IFV</text><text textAlign="center">Bad</text><text textAlign="center">Gargantuan</text><text textAlign="center">Great</text></tr>
+<tr>
+<text textAlign="center">MBT</text><text textAlign="center">Special¹</text><text textAlign="center">3 Gargantuan</text><text textAlign="center">Exquisite</text></tr>
+<tr>
+<text textAlign="center">MUV, 2-Door Pickup</text><text textAlign="center">Bad</text><text textAlign="center">Gargantuan</text><text textAlign="center">Mediocre</text></tr>
+<tr>
+<text textAlign="center">MUV, 4-Door Pickup</text><text textAlign="center">Terrible</text><text textAlign="center">2 Huge</text><text textAlign="center">Mediocre</text></tr>
+<tr>
+<text textAlign="center">MUV, SUV w/o Gun</text><text textAlign="center">Bad</text><text textAlign="center">2 Large</text><text textAlign="center">Mediocre</text></tr>
+<tr>
+<text textAlign="center">MUV, SUV w/ Gun</text><text textAlign="center">Bad</text><text textAlign="center">2 Large</text><text textAlign="center">Mediocre</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Name</header><header textAlign="center">Efficiency</header><header textAlign="center">Tank Size</header><header textAlign="center">Lowest Fuel Grade</header></tr>
+<tr>
+<text textAlign="center">Sports Car Categories</text></tr>
+<tr>
+<text textAlign="center">Grand Tourer Car</text><text textAlign="center">Bad</text><text textAlign="center">Gargantuan</text><text textAlign="center">Great</text></tr>
+<tr>
+<text textAlign="center">Supercar</text><text textAlign="center">Terrible</text><text textAlign="center">2 Large</text><text textAlign="center">Great</text></tr>
+<tr>
+<text textAlign="center">Muscle Car</text><text textAlign="center">Acceptable</text><text textAlign="center">Gargantuan</text><text textAlign="center">Great</text></tr>
+<tr>
+<text textAlign="center">Other Transportation</text></tr>
+<tr>
+<text textAlign="center">Horse</text><text textAlign="center">Special²</text><text textAlign="center">Special²</text><text textAlign="center">Special²</text></tr>
+</table>
+<box>
+<text>Semi-Trailer Trucks and MBTs have half the fuel efficiency of </text>
+</box>
+<table>
+<tr><header textAlign="center">Tank</header><header textAlign="center">Holds</header></tr>
+<tr>
+<text textAlign="center">Tiny</text><text textAlign="center">32 Units</text></tr>
+<tr>
+<text textAlign="center">Small</text><text textAlign="center">64 Units</text></tr>
+<tr>
+<text textAlign="center">Medium</text><text textAlign="center">128 Units</text></tr>
+<tr>
+<text textAlign="center">Large</text><text textAlign="center">192 Units</text></tr>
+<tr>
+<text textAlign="center">Huge</text><text textAlign="center">256 Units</text></tr>
+<tr>
+<text textAlign="center">Gargantuan</text><text textAlign="center">320 Units</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Fuel</header><header textAlign="center">Wt/Unit</header><header textAlign="center">Cost</header></tr>
+<tr>
+<text textAlign="center">Poor</text><text textAlign="center">16.0/128</text><text textAlign="center">1</text></tr>
+<tr>
+<text textAlign="center">Mediocre</text><text textAlign="center">16.0/128</text><text textAlign="center">2</text></tr>
+<tr>
+<text textAlign="center">Good</text><text textAlign="center">16.0/128</text><text textAlign="center">3</text></tr>
+<tr>
+<text textAlign="center">Great</text><text textAlign="center">8.0/64</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Exquisite</text><text textAlign="center">4.0/32</text><text textAlign="center">16</text></tr>
+<tr>
+<text textAlign="center">Perfect</text><text textAlign="center">2.0/16</text><text textAlign="center">30</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Efficiency</header><header textAlign="center">Miles(km)/Gal</header><header textAlign="center">Miles(km)/Unit</header><header textAlign="center">Feet(km)/Unit</header></tr>
+<tr>
+<text textAlign="center">Terrible</text><text textAlign="center">10(16.09)</text><text textAlign="center">0.6250(1.01)</text><text textAlign="center">3,300(1.01)</text></tr>
+<tr>
+<text textAlign="center">Bad</text><text textAlign="center">15(24.14)</text><text textAlign="center">0.9375(1.50)</text><text textAlign="center">4,950(1.50)</text></tr>
+<tr>
+<text textAlign="center">Acceptable</text><text textAlign="center">20(32.18)</text><text textAlign="center">1.2500(2.01)</text><text textAlign="center">6,600(2.01)</text></tr>
+<tr>
+<text textAlign="center">Good</text><text textAlign="center">25(40.23)</text><text textAlign="center">1.5625(2.51)</text><text textAlign="center">8,250(2.51)</text></tr>
+<tr>
+<text textAlign="center">Great</text><text textAlign="center">30(48.28)</text><text textAlign="center">1.8750(3.02)</text><text textAlign="center">9,900(3.02)</text></tr>
+</table>
+		<header level = "1">Vehicle Upgrades</header>
+		<text>   A vehicle can be upgraded with various upgrades to make thembe upgraded in a number of slots.</text>
+<list type="unordered">
+<text>Body The frame, the plating, and any other superficial equipment such as the lighting, windshields, paint job, and interior.</text>
+<text>Wheels The tires, rims, and the brakes of a vehicle.</text>
+<text>Powertrain The engine and any auxiliary equipment hooked up to it, such as a turbocharger.</text>
+<text>Drivetrain The transmission and the suspension.</text>
+<text>Fuel System The fuel system that fuels and powers the vehicle</text>
+</list>
+		<text>   This upgrade makes modifications to the fuel system, thatpurchase of this upgrade increases by one level.</text>
+		<text>   This upgrade makes modifications to the fuel system, thatpurchase of this upgrade decrease by one level.</text>
+		<text>   This upgrade changes the standard fuel system to a plasma enginethe highest possible efficiency rating. This upgrade should only be available when using the Advanced Arms Supplement Book. </text>
+<table>
+<tr><header textAlign="center">Upgrade</header><header textAlign="center">Time</header><header textAlign="center">Cost</header></tr>
+<tr>
+<text textAlign="center">Efficiency Increase</text><text textAlign="center">6 hours</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">Fuel Requirement Decrease</text><text textAlign="center">6 hours</text><text textAlign="center">25</text></tr>
+<tr>
+<text textAlign="center">Plasma Engine</text><text textAlign="center">2 days</text><text textAlign="center">120</text></tr>
+</table>
+	</item>
+</body>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Movement and Position</header>
+<box>
+<text>Movement and Position  When using a grid to represent character&#x27;s movement, the standard scale equates one inch (or a one square) to five feet in the game world. One round is six seconds.</text>
+</box>
+		<text>   If a character moves when they can&#x27;t see, such as in total</text>
+		<header level = "1">Diagonals</header>
+		<text>   When measuring distance, the first diagonal counts as 1 square,as 2, and so on.</text>
+		<text>   You can&#x27;t move diagonally past a corner. You can move diagonally</text>
+		<text>   You can also move diagonally past other impassable obstacles</text>
+		<header level = "1">Passing Through</header>
+		<text>   Sometimes a character can pass through an area occupied by</text>
+		<text>   A character can move through a square occupied by a friendly</text>
+		<text>   There are two ways to move through a square occupied by an</text>
+		<text>   A character can attempt to slip through a square occupied by a</text>
+		<text>   A character can move through a square occupied by an unfriendlycharacter was friendly.</text>
+		<text>   Any creature can move through a square occupied by a creatureis.</text>
+		<header level = "1">Combat Modifiers</header>
+		<text>   This section covers offensive and defensive modifiers provided</text>
+		<text>   Generally speaking, any situational modifier created by theany situational modifier created by the defender&#x27;s position, state, or tactics applies to the defender&#x27;s DEF. The GM judges what bonuses and penalties apply using Table: Defense Modifiers and Table: Attack Roll Modifiers as guides.</text>
+<table>
+<tr><header textAlign="center">Circumstance</header><header textAlign="center">Melee</header><header textAlign="center">Range</header></tr>
+<tr>
+<text textAlign="center">Attacker flanking defender</text><text textAlign="center">+2</text><text textAlign="center">+2</text></tr>
+<tr>
+<text textAlign="center">Attacker to the rear of defender</text><text textAlign="center">+4</text><text textAlign="center">+4</text></tr>
+<tr>
+<text textAlign="center">Attacker on higher ground</text><text textAlign="center">+1</text><text textAlign="center">+0</text></tr>
+<tr>
+<text textAlign="center">Attacker sitting or kneeling</text><text textAlign="center">−2</text><text textAlign="center">+1</text></tr>
+<tr>
+<text textAlign="center">Attacker prone</text><text textAlign="center">−4</text><text textAlign="center">+2</text></tr>
+<tr>
+<text textAlign="center">Attacker has not been seen yet</text><text textAlign="center">+2¹</text><text textAlign="center">+2¹</text></tr>
+</table>
+<box>
+<text>The defender loses any AGL bonus to Defense.</text>
+</box>
+<table>
+<tr><header textAlign="center">Circumstance</header><header textAlign="center">Melee</header><header textAlign="center">Ranged</header></tr>
+<tr>
+<text textAlign="center">Defender prone</text><text textAlign="center">−2</text><text textAlign="center">+4¹</text></tr>
+<tr>
+<text textAlign="center">Defender sitting or kneeling</text><text textAlign="center">−4</text><text textAlign="center">+4¹</text></tr>
+<tr>
+<text textAlign="center">Defender stunned</text><text textAlign="center">−2²</text><text textAlign="center">−2²</text></tr>
+<tr>
+<text textAlign="center">Defender climbing</text><text textAlign="center">−2²</text><text textAlign="center">−2²</text></tr>
+<tr>
+<text textAlign="center">Defender flat-footed</text><text textAlign="center">+0²</text><text textAlign="center">+0²</text></tr>
+<tr>
+<text textAlign="center">Defender grappling (attacker not)</text><text textAlign="center">+0²</text><text textAlign="center">+0³</text></tr>
+<tr>
+<text textAlign="center">Defender pinned</text><text textAlign="center">−4⁴</text><text textAlign="center">+0⁴</text></tr>
+<tr>
+<text textAlign="center">Defender helpless (such as paralyzed, sleeping, or bound)</text><text textAlign="center">+0²</text><text textAlign="center">+0²</text></tr>
+<tr>
+<text textAlign="center">Defender has cover</text><text textAlign="center">— See Cover —</text></tr>
+<tr>
+<text textAlign="center">Defender concealed or invisible</text><text textAlign="center">– See Concealment –</text></tr>
+</table>
+<box>
+<text>Does not apply if target is adjacent to attacker. This cover. See Cover, below.</text>
+</box>
+<box>
+<text>Roll randomly to see which grappling combatant the character </text>
+</box>
+		<text>   Concealment includes circumstances in which nothinginterferes with an attacker&#x27;s accuracy. Things that substantially physically blocks a blow can also provide concealment.</text>
+<table>
+<tr><header textAlign="center">Concealment (Example)</header><header textAlign="center">Miss Chance</header></tr>
+<tr>
+<text textAlign="center">One-quarter (light fog; light foliage)</text><text textAlign="center">10%</text></tr>
+<tr>
+<text textAlign="center">One-Half (shadows; dense fog at 5&#x27;)</text><text textAlign="center">20%</text></tr>
+<tr>
+<text textAlign="center">Three-quarters (dense foliage, fighting around a corner)</text><text textAlign="center">30%</text></tr>
+<tr>
+<text textAlign="center">Nine-tenths (near total darkness)</text><text textAlign="center">40%</text></tr>
+<tr>
+<text textAlign="center">Total (attacker blind; total darkness;</text></tr>
+</table>
+		<text>   Degree of Concealment</text>
+<box>
+<text>Concealment is subjectively measured as to how well concealed the various degrees are given in Table: Concealment. Concealment always depends on the point of view of the attacker.</text>
+</box>
+<box>
+<text>Concealment gives the subject of a successful attack a chance attacker hits, the defender must make a miss chance d% roll to avoid being struck. When multiple concealment conditions apply to a defender, use the one that would produce the highest miss chance. Do not add the miss chances together.</text>
+</box>
+<box>
+<text>When attacking through concealment, the GM rolls a d% dice. If misses. If the d% is higher than the concealment miss chance, the attack is successful as normal.</text>
+</box>
+		<text>   Cover is specifically provided by objects that would reasonablysandbags. Cover provides a bonus to Defense. The more cover a character has, the bigger the bonus. In a melee, if a character has cover against an opponent, that opponent probably has cover against the character too. With ranged weapons, however, it is easy to have better cover than the opponent. The GM may impose other penalties or restrictions on attacks depending on the details of the cover.</text>
+		<text>   Degree of Cover</text>
+<box>
+<text>Cover is assessed in subjective measurements of how much measure is not a strict mathematical calculation because a character gains more value from covering the parts of their body that are more likely to be struck. If the bottom half of a character&#x27;s body is covered, that only gives ¼ cover because most vital areas are still fully exposed. If one side or the other of a character&#x27;s body is covered, the</text>
+</box>
+<table>
+<tr><header textAlign="center">Degree of Cover (Example)</header><header textAlign="center">Cover Bonus to Defense</header><header textAlign="center">Reflex Saving Throws</header><header textAlign="center">Concealment</header></tr>
+<tr>
+<text textAlign="center">One-quarter (standing behind a 3&#x27; high wall)</text><text textAlign="center">+3</text><text textAlign="center">+2</text><text textAlign="center">—</text></tr>
+<tr>
+<text textAlign="center">One-half (fighting from around a corner or a tree; standing at an</text></tr>
+<tr>
+<text textAlign="center">Three-quarters (peering around a corner or a big tree)</text><text textAlign="center">+9</text><text textAlign="center">+6¹</text><text textAlign="center">20%</text></tr>
+<tr>
+<text textAlign="center">Nine-tenths (standing at an arrow slit; behind a door that&#x27;s</text></tr>
+<tr>
+<text textAlign="center">Total (on the other side of a solid wall)</text><text textAlign="center">—</text><text textAlign="center">—</text><text textAlign="center">—</text></tr>
+</table>
+<box>
+<text>Half damage if save is failed; no damage if successful.  Cover Defense Bonus</text>
+</box>
+		<text>   Cover Reflex Saving Throw Bonus</text>
+<box>
+<text>Table: Cover gives the Reflex Saving Throw bonuses for different attacks that affect an area. This bonus only applies to attacks that originate or burst out from a point on the other side of the cover.</text>
+</box>
+<box>
+<text>Table: Cover gives concealment when a character is behind an </text>
+</box>
+<box>
+<text>If it ever becomes important to know whether the cover was target, the GM should determine if the attack roll would have hit the protected target without the cover. If the attack roll falls within a range low enough to miss the target with cover but high enough to strike the target if there had been no cover, the object used for cover was struck. This can be particularly important to know in cases when a character uses another character as cover. In such a case, if the cover is struck and the attack roll exceeds the Defense of the covering character, the covering character takes the damage intended for the target. If the covering character has a AGL bonus to Defense or a dodge bonus, and this bonus keeps the covering character from being hit, then the original target is hit instead. The covering character has dodged out of the way and didn&#x27;t provide cover after all. A covering character can choose not to apply their AGL bonus to Defense and/or their dodge bonus if the character so desires.</text>
+</box>
+		<text>   Usually a character acts as soon as they can in combat, butresponse to the actions of someone else.</text>
+		<text>   By choosing to delay, the character takes no action and thencharacter decides to act. When a character delays they voluntarily reduce their own Initiative result for the rest of the combat. When the character&#x27;s new, lower Initiative count comes up later in the same round, the character can act normally. The character can specify this new Initiative result or just wait until some time later in the round and act then, thus fixing the character&#x27;s new Initiative count at that point. A character cannot interrupt anyone&#x27;s action with a delayed action (as a character can with a readied action; see below).</text>
+		<text>   Delaying Limits</text>
+<box>
+<text>The longest a character can delay before taking an action is the delaying character must act or else forfeit any action in that round. If multiple characters are delaying, the one with the highest Initiative modifier (or highest AGL in case of a tie) has the advantage. If two or more delaying characters both want to act on the same Initiative count, the one with the highest Initiative modifier can go first. If two or more delaying characters are trying to go after one another, the one with the highest Initiative modifier can go last; the others must go first or lose their action for the round. If a character loses an action due to delaying, they may act on any count on the next turn. Again, the character cannot interrupt an action.</text>
+</box>
+		<text>   The ready action lets a character prepare to take an actionthey prepare to take an action later if a specific trigger is met. Later in the round, if the readied action is triggered, the character takes their action before the triggering action. Readying does not provoke an AoO.</text>
+		<text>   Readying an Action</text>
+<box>
+<text>A character can ready an attack action. To do so the character which the character will take it. Then, any time before the character&#x27;s next action, the character may take the readied attack action in response to those conditions. The readied action occurs just before the event that triggers it. If the trigger is part of another character&#x27;s actions, the readied action interrupts the other character. The other character continues their actions once the readied action is completed. The waiting character acts immediately ahead of the character whose action triggered the readied action. A character can move as normal, but only as long as the character doesn&#x27;t spend the Combat Points needed to accomplish the readied action. A character may only ready one attack action. If the character comes to their next action and has not yet performed the readied action, the character doesn&#x27;t get to take the readied action (though the character can ready the same action again). If the character takes their readied action in the next round before their regular turn comes up the character&#x27;s Initiative count doesn&#x27;t change.</text>
+</box>
+		<text>   This section covers firearms, grappling, explosives, attacking</text>
+		<text>   In combat, a character can help a friend attack or defend byin position to attack an opponent with which a friend of the character is engaged in melee combat, the character can attempt to aid the friend. The character makes an attack roll against DEF 10. If the character succeeds, they don&#x27;t actually damage the opponent, but the character&#x27;s friend gains either a +2 circumstance bonus against that opponent or a +2 circumstance bonus to DEF against that opponent (aiding character&#x27;s choice) on the friend&#x27;s next turn.</text>
+		<text>   A planted explosive is set in place with a timer or fuseplant an explosive; the explosive sits where it is placed until it is moved or goes off. When a planted explosive detonates, it deals its damage to all targets within the blast radius of the weapon.</text>
+		<text>   Sometimes a character needs to attack or break an object.</text>
+		<text>   Strike an Object</text>
+<box>
+<text>Objects are easier to hit than characters because they usually from each blow.</text>
+</box>
+<box>
+<text>Objects are harder or easier to hit depending on their size and opponents. The base Defense of objects is shown on Table: Size and Defense of Objects.</text>
+</box>
+<table>
+<tr><header textAlign="center">Size (Example)</header><header textAlign="center">Defense</header></tr>
+<tr>
+<text textAlign="center">Colossal (jetliner)</text><text textAlign="center">−3</text></tr>
+<tr>
+<text textAlign="center">Gargantuan (army tank)</text><text textAlign="center">1</text></tr>
+<tr>
+<text textAlign="center">Huge (typical car)</text><text textAlign="center">3</text></tr>
+<tr>
+<text textAlign="center">Large (big door)</text><text textAlign="center">4</text></tr>
+<tr>
+<text textAlign="center">Medium (dirt bike)</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">Small (chair)</text><text textAlign="center">6</text></tr>
+<tr>
+<text textAlign="center">Tiny (College textbook)</text><text textAlign="center">7</text></tr>
+<tr>
+<text textAlign="center">Diminutive (paperback book)</text><text textAlign="center">9</text></tr>
+<tr>
+<text textAlign="center">Fine (pencil)</text><text textAlign="center">13</text></tr>
+</table>
+		<text>   If a character attempts to make an attack against an inanimate,melee weapon, or a +5 bonus on their attack roll with a ranged weapon (all ranged weapons are firing single shot). An object being held, carried, or worn has a Defense equal to the above figure + 5 + the opponent&#x27;s AGL modifier. Striking a held, carried, or worn object provokes an AoO from the character who holds it. If a character has the Sunder feat, they don&#x27;t incur an AoO for making the attempt.</text>
+		<text>   Hardness</text>
+<box>
+<text>Each object has hardness, a number that represents how well it hardness from the damage. Only damage in excess of its hardness is deducted from the object&#x27;s hit points (see Table: Substance Hardness and Hit Points and Table: Object Hardness and Hit Points).</text>
+</box>
+<box>
+<text>An object&#x27;s HP total depends on what it is made of or how big it </text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Hardness</header><header textAlign="center">HP</header><header textAlign="center">Break TN</header></tr>
+<tr>
+<text textAlign="center">Lock</text></tr>
+<tr>
+<text textAlign="center">Cheap</text><text textAlign="center">0</text><text textAlign="center">1</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Average</text><text textAlign="center">3</text><text textAlign="center">5</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">High quality</text><text textAlign="center">5</text><text textAlign="center">10</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">High security</text><text textAlign="center">10</text><text textAlign="center">120</text><text textAlign="center">35</text></tr>
+<tr>
+<text textAlign="center">Ultrahigh security</text><text textAlign="center">20</text><text textAlign="center">150</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Manufactured Objects¹</text></tr>
+<tr>
+<text textAlign="center">Fine</text><text textAlign="center">0</text><text textAlign="center">1</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Diminutive</text><text textAlign="center">0</text><text textAlign="center">1</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Tiny</text><text textAlign="center">1</text><text textAlign="center">2</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Small</text><text textAlign="center">3</text><text textAlign="center">3</text><text textAlign="center">12</text></tr>
+<tr>
+<text textAlign="center">Medium</text><text textAlign="center">5</text><text textAlign="center">5</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">Large</text><text textAlign="center">5</text><text textAlign="center">10</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">Huge</text><text textAlign="center">8</text><text textAlign="center">10</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">Gargantuan</text><text textAlign="center">8</text><text textAlign="center">20</text><text textAlign="center">30</text></tr>
+<tr>
+<text textAlign="center">Colossal</text><text textAlign="center">10</text><text textAlign="center">30</text><text textAlign="center">50</text></tr>
+<tr>
+<text textAlign="center">Firearm, medium-size</text><text textAlign="center">3</text><text textAlign="center">5</text><text textAlign="center">17</text></tr>
+<tr>
+<text textAlign="center">Rope</text><text textAlign="center">0</text><text textAlign="center">2</text><text textAlign="center">23</text></tr>
+<tr>
+<text textAlign="center">Simple wooden door</text><text textAlign="center">5</text><text textAlign="center">10</text><text textAlign="center">13</text></tr>
+<tr>
+<text textAlign="center">Strong wooden door</text><text textAlign="center">5</text><text textAlign="center">20</text><text textAlign="center">23</text></tr>
+<tr>
+<text textAlign="center">Steel door</text><text textAlign="center">10</text><text textAlign="center">120</text><text textAlign="center">35</text></tr>
+<tr>
+<text textAlign="center">Cinderblock wall</text><text textAlign="center">8</text><text textAlign="center">90</text><text textAlign="center">35</text></tr>
+<tr>
+<text textAlign="center">Chain</text><text textAlign="center">10</text><text textAlign="center">5</text><text textAlign="center">26</text></tr>
+<tr>
+<text textAlign="center">Handcuffs</text><text textAlign="center">10</text><text textAlign="center">10</text><text textAlign="center">30</text></tr>
+<tr>
+<text textAlign="center">Metal bars</text><text textAlign="center">10</text><text textAlign="center">15</text><text textAlign="center">30</text></tr>
+</table>
+<box>
+<text>Figures for manufactured objects are minimum values. The GM may durability.</text>
+</box>
+<table>
+<tr><header textAlign="center">Substance</header><header textAlign="center">Hardness</header><header textAlign="center">Hit Points</header></tr>
+<tr>
+<text textAlign="center">Paper</text><text textAlign="center">0</text><text textAlign="center">2/inch of thickness</text></tr>
+<tr>
+<text textAlign="center">Rope</text><text textAlign="center">0</text><text textAlign="center">2/inch of thickness</text></tr>
+<tr>
+<text textAlign="center">Plastic, soft</text><text textAlign="center">0</text><text textAlign="center">3/inch of thickness</text></tr>
+<tr>
+<text textAlign="center">Glass</text><text textAlign="center">1</text><text textAlign="center">1/inch of thickness</text></tr>
+<tr>
+<text textAlign="center">Ceramic</text><text textAlign="center">1</text><text textAlign="center">2/inch of thickness</text></tr>
+<tr>
+<text textAlign="center">Ice</text><text textAlign="center">0</text><text textAlign="center">3/inch of thickness</text></tr>
+<tr>
+<text textAlign="center">Plastic, hard</text><text textAlign="center">2</text><text textAlign="center">5/inch of thickness</text></tr>
+<tr>
+<text textAlign="center">Wood</text><text textAlign="center">5</text><text textAlign="center">10/inch of thickness</text></tr>
+<tr>
+<text textAlign="center">Aluminum</text><text textAlign="center">6</text><text textAlign="center">10/inch of thickness</text></tr>
+<tr>
+<text textAlign="center">Concrete</text><text textAlign="center">8</text><text textAlign="center">15/inch of thickness</text></tr>
+<tr>
+<text textAlign="center">Steel</text><text textAlign="center">10</text><text textAlign="center">30/inch of thickness</text></tr>
+</table>
+		<text>   Energy Attacks</text>
+<box>
+<text>Acid and Concussive attacks deal normal damage to most objects. divide the damage by 2 before applying the hardness. Cold attacks deal ¼ damage to most objects; divide the damage by 4 before applying the hardness.</text>
+</box>
+<box>
+<text>The GM may determine that certain weapons just can&#x27;t deal damage </text>
+</box>
+<box>
+<text>Objects are immune to non-lethal damage.  Saving Throws</text>
+</box>
+		<text>   Breaking Objects</text>
+<box>
+<text>When a character tries to break something with sudden force they succeed. The TN depends more on the construction of the object than on the material. If an object has lost half or more of its hit points, the TN to break it decreases by 2.</text>
+</box>
+<box>
+<text>Repairing damage to an object takes a full hour of work and −6 penalty on their Craft check. At the end of the hour, make a Craft (Structural) check [TN20]. Success restores 2d6 HP. If damage remains, the character may continue to make repairs for as many hours as it takes to restore all the object&#x27;s HP.</text>
+</box>
+		<header level = "1">Facing</header>
+		<text>   All characters have a facing: the direction to the adjacentthat a Medium creature standing in a given square has eight possible facings. The three squares a Small or Medium character is pointing toward are its front area. The three squares behind it are its rear area. The squares to its left and right are its flanks. Larger characters have more squares to deal with, but they still face toward one of eight directions. Their front areas remain the squares in front of them (including those on the front corners); their rear areas remain the squares behind them (including those on the rear corners); and their flanks remain the squares directly to their sides.</text>
+		<text>   Changing facing</text>
+		<text>   As you move, you can freely change your facing, rotating yourchange facing at the end of your move.</text>
+		<text>   If you do not move during your turn, you may change facing oncedirection you like but you cannot change facing more than once.</text>
+		<header level = "1">Normal Movement</header>
+		<text>   You can move into any square in your front area at the normalenter each new square. Make it clear which way you&#x27;re facing as you move if it matters (such as when enemies are near), and set your miniature&#x27;s facing when you&#x27;re done moving.</text>
+		<text>   Moving Backward or Sideways</text>
+		<text>   You&#x27;ll usually turn your character in the direction of movementsuch changes in facing during movement. However, sometimes you&#x27;ll want to move without changing your facing to avoid exposing your flank or rear area to an AoO while you move. It costs two squares of movement to enter a square on your flank or in your rear area.</text>
+		<text>   Facing And Attacking</text>
+		<text>   In general, a character can attack into any square in his frontfacing to point toward a foe can attack into their flank areas at a −5 penalty and into their rear areas at a −10 penalty.</text>
+		<text>   Characters can make ranged attacks into any square beyond theirattacks into flank and rear areas are the same as for melee combat.</text>
+		<text>   Opponent Facing</text>
+		<text>   Not only does your facing matter when you&#x27;re attacking, but thefoe&#x27;s flank area (or the squares beyond it, if you have a reach or ranged weapon), you get a +2 bonus on the attack roll. You don&#x27;t need anyone opposite you on the other side of your foe. If you&#x27;re attacking from a foe&#x27;s rear area (or the squares beyond it), you get a +4 bonus on the attack roll.</text>
+		<text>   Faceless Creatures</text>
+<box>
+<text>Some creatures have no real facing because they can move, attack, creatures can move or attack into any adjacent square and they can&#x27;t be flanked or attacked from the rear because they don&#x27;t have flanks or rears.</text>
+</box>
+<box>
+<text>Tiny and smaller creatures don&#x27;t have facing. They can move or </text>
+</box>
+		<text>   You can&#x27;t ready an action to respond to a trigger that occurs inturning), but you can ready an action for a sound-based trigger (such as the click of latch opening).</text>
+	</item>
+</body>

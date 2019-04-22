@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Combat Points</header>
+<box>
+<text>Combat Points  A character&#x27;s Combat Point score determines how many actions a character can perform during their turn. A character can perform as many actions as they have Combat Points. Any Combat Points left over do not cycle over between rounds. Every character has 15 Combat Points to spend per round.</text>
+</box>
+	</item>
+</body>

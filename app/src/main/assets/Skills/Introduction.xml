@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <body>
-    <item>
-        <header>Skills</header>
-        <text>   Skills represent a wide variety of abilities, and a character gets better at them as their ability score increases, or as they gain levels.</text>
-    </item>
+	<item>
+		<header level = "0">Skills</header>
+<text><b>Skills</b></text>
+		<text>   Skills represent a wide variety of abilities, and a charactergain levels.</text>
+		<header level = "1">Acquiring Skills</header>
+		<text>   At each level, a character gets skill points that are used todetermine the number of points received. If the character buys a focused skill, they get 1 rank in the skill for each skill point spent. If the character buys a unfocused skill, they get ½ rank per skill point. The rules assume that a character can always find a way to learn any skill. However, the GM may impose limits depending on the circumstances.</text>
+		<header level = "1">Using Skills</header>
+		<text>   To make a skill check, roll 3d6+skill modifier</text>
+		<text>   The skill modifier is equal to the sum of the skill ranks,</text>
+<list type="unordered">
+<text>Skill Ranks A character&#x27;s rank in a skill is based on the number of skill points the character has invested in the skill. Some skills may be used even if the character has no ranks in the skill; doing this is known as making an untrained skill check. When making a skill check, a character adds the skill&#x27;s rank to the roll as part of the skill modifier. Ranks indicate how much training or experience a character has with a given skill.</text>
+<text>Ability Modifier The ability modifier used in the skill check is the modifier for the skill&#x27;s key ability (the ability associated with the skill&#x27;s use). The key ability of a skill is noted in its description.</text>
+<text>Miscellaneous Modifiers Miscellaneous modifiers include bonuses provided by feats, and penalties such as the ones associated with the non-proficient use of armor, among others.</text>
+</list>
+		<text>   Some skill checks are opposed checks. They are made against aresult.</text>
+		<text>   For ties on opposed checks, the character with the higher key</text>
+		<text>   When your character is not being threatened or distracted, youcalculate the result as if you had rolled a 10. For many routine tasks, taking 10 makes them automatically successful. Distractions or threats (such as combat) make it impossible for a character to take 10.</text>
+		<text>   A character can assist another character in their skill checksdivided by 4, and the assisting character rolls their skill check in the applicable skill. If the character succeeds, the original character making the check gets a +1 bonus. For every full success beyond the original, the original character gains an additional +1 bonus.</text>
+<box>
+<text>Example: If the assist TN is 4 and the assisting character rolls the assistance.</text>
+</box>
+	</item>
 </body>

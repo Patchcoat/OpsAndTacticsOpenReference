@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Weapon Upgrades</header>
+<box>
+<text>Weapon UpgradesWhen calculating cost as a percentage, use the weapon&#x27;s original cost. When calculating weight as a percentage, use the weapon&#x27;s original weight.</text>
+</box>
+		<text>   There are 2 locations where an upgrade may be place. The handleper location. Certain upgrades can only be performed on certain types of weapons.</text>
+		<text>   Composite (Contact/Handle)</text>
+<box>
+<text>The weapon is upgraded with non-ferrous materials, which allow a +10 bonus on Stealth checks against metal detectors, but only for the part upgraded.</text>
+</box>
+<box>
+<text>The weapon&#x27;s hilt or handle is fitted to a mold of the made with the weapon. The purchaser can also have the weapon&#x27;s grip enlarged or reduced, making the weapon one size larger or smaller when using, but not concealing. Anyone else who tries to use the weapon suffers a −2 penalty to their attack rolls.</text>
+</box>
+<box>
+<text>This upgrade disguises the weapon as an everyday, inconspicuous weapon. Only weapons of Medium or smaller size may use this upgrade.</text>
+</box>
+<box>
+<text>Gives the weapon an engraved or precious metal inlay, granting target has line of sight to it. This upgrade also increases the weapon&#x27;s worth by 75%. The weapon loses this quality if it suffers any damage, though it may be restored with a successful Craft (Structural) repair check.</text>
+</box>
+<box>
+<text>The weapon&#x27;s contact is replaced with a wooden, softened, or weapon&#x27;s standard damage.</text>
+</box>
+<box>
+<text>This upgrade completely rebuilds the weapon from the ground up, cost of the weapon plus 2 WP per Craft (Structural) TN the weapon costs to make. The weapon has a +4 attack bonus, a +1 damage bonus, and the Combat Point cost for any action involving the weapon is reduced by 1 for the intended user. Anyone who is not the weapon&#x27;s intended user does not receive any of these upgrades. The user must be proficient in the weapon in order to gain the benefits of the upgrades. Any upgrades performed on the weapon before it undergoes this upgrade will have to be re-performed, as it removes all upgrades performed on the weapon.</text>
+</box>
+<box>
+<text>The weapon&#x27;s blade is made as sharp as possible, granting a +3 blades or points.</text>
+</box>
+<box>
+<text>This upgrade allows the weapon to be folded down to one size Folding or unfolding the weapon requires 1 Combat Point.</text>
+</box>
+<box>
+<text>This upgrade adds weight to the contact of a blunt weapon, attack penalty, +1 damage die, and increases the weapon&#x27;s weight by 50%. Only weapons that deal bludgeoning damage may be weighted.</text>
+</box>
+<box>
+<text>This upgrade adds ridges and serrations to the knife or sword, weapon with the jagged upgrade, the creature is immediately takes 2 bleed dice (as if they had taken 6 damage) as long as they are not wearing protective armor.</text>
+</box>
+<box>
+<text>This upgrade adds a shelf to allow the resting of firearms on Medium sized weapon while being held at the ready. When the firearm is used in this manner, it loses all benefit from optics upgrades, as well as any benefit given from vertical grips, angled foregrips, grippods or magazine handgrip. The firearm also gains a -5 penalty to all attacks. Only shields can use this upgrade.</text>
+</box>
+<box>
+<text>This upgrade reinforces the handle of any staff or spear, making center. It grants a +2 damage bonus for all bludgeoning attacks, and increases the weapon&#x27;s weight by 10%. Only staffs or spears may be reinforced.</text>
+</box>
+<table>
+<tr><header textAlign="center">Upgrade</header><header textAlign="center">Available for</header><header textAlign="center">Loc</header><header textAlign="center">Cost</header><header textAlign="center">Time</header><header textAlign="center">Wt</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Composite</text><text textAlign="center">Any weapon</text><text textAlign="center">C H</text><text textAlign="center">300%</text><text textAlign="center">1 week</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Concealed</text><text textAlign="center">Any Medium or smaller weapon</text><text textAlign="center">C</text><text textAlign="center">100%</text><text textAlign="center">3 days</text><text textAlign="center">25%</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Custom Handle</text><text textAlign="center">Any weapon</text><text textAlign="center">H</text><text textAlign="center">6</text><text textAlign="center">8 hours</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Detailing</text><text textAlign="center">Any weapon</text><text textAlign="center">C H</text><text textAlign="center">70%</text><text textAlign="center">1 week</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Practice Weapon</text><text textAlign="center">Any weapon</text><text textAlign="center">C</text><text textAlign="center">50%</text><text textAlign="center">4 hours</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Personalized Weapon</text><text textAlign="center">Any Weapon</text><text textAlign="center">—</text><text textAlign="center">500% + 2 WP per Craft TN</text><text textAlign="center">2 weeks</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Razor Sharp</text><text textAlign="center">Any Piercing or Slashing</text><text textAlign="center">C</text><text textAlign="center">100%</text><text textAlign="center">2 days</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Retractable</text><text textAlign="center">Any Diminutive or larger weapon</text><text textAlign="center">C</text><text textAlign="center">25%</text><text textAlign="center">1 week</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Weighted</text><text textAlign="center">Any Bludgeoning weapon</text><text textAlign="center">C</text><text textAlign="center">4</text><text textAlign="center">1 day</text><text textAlign="center">50%</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Jagged</text><text textAlign="center">Any sword or knife</text><text textAlign="center">C</text><text textAlign="center">3</text><text textAlign="center">2 day</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Support</text><text textAlign="center">Any Shield</text><text textAlign="center">C</text><text textAlign="center">5</text><text textAlign="center">1 hour</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Reinforced</text><text textAlign="center">Any staff or spear</text><text textAlign="center">H</text><text textAlign="center">10</text><text textAlign="center">4 days</text><text textAlign="center">10%</text><text textAlign="center">None</text></tr>
+</table>
+		<header level = "1">Ranged Weapon Upgrades</header>
+		<text>   Ranged weapons can be customized with plenty of upgrades,upgrade may be placed. The Optic mount, the Tactical mount, the Barrel, and the Frame. Each ranged weapon listed has a certain amount of mounts, and some upgrades can only be performed on certain types of weapons. A character can only benefit from ranged weapon upgrades, if they are proficient in the ranged weapon the upgrade is performed on.</text>
+		<text>   Optic Mount</text>
+<box>
+<text>The optic mount is a mount that can accept lasers, flashlights, optic point.</text>
+</box>
+<box>
+<text>The tactical mount is a system of rails that can accept lasers, shotguns or grenade launchers. A ranged weapon can have no more than one upgrade per tactical point.</text>
+</box>
+<box>
+<text>The barrel can be modified to accept suppressors, muzzle brakes, more than three upgrades per barrel at one time.</text>
+</box>
+<box>
+<text>Ranged weapons typically are built around a frame. This frame may stocks, attach slings, or permit modified internal workings. It can also be customized to fit the user&#x27;s style. A ranged weapon can have no more than four upgrades on its frame at one time.</text>
+</box>
+<box>
+<text>Upgrades with no requirements take up no slots, and don&#x27;t require </text>
+</box>
+		<text>   Extended Barrel (Barrel)</text>
+<box>
+<text>This longer replacement barrel increases accuracy but adds weight increment increases by 10&#x27; but the Perception TN to detect it decreases by 2. This upgrade also increases the weapon&#x27;s weight by 5%, (rounded up to the nearest 0.1 lb). If this upgrade is placed on a carbine, assault, target, or battle rifle with a self loading rate of fire, the character can change it&#x27;s designation to DMR for the purpose of feats. If this upgrade is placed on a SMG with a self loading rate of fire, the character can change it&#x27;s designation to carbine rifle for the purpose of feats. A firearm can only have one designation at a time, and conversion removes it&#x27;s previous designation.</text>
+</box>
+<box>
+<text>This replacement barrel increases a rifle&#x27;s range increment by (rounded up to the nearest 0.1 lb). Only rifles and machine guns may use this upgrade.</text>
+</box>
+<box>
+<text>This replacement barrel has large grooves or holes in the upper ported barrel reduces the Caliber Recoil Penalty by 1. If a barrel is threaded, it cannot be ported.</text>
+</box>
+<box>
+<text>This replacement barrel is machined with screw threads on its may accept only one accessory at a time. If a barrel is ported, it cannot be threaded. Only rifles, handguns, machine guns, machine pistols, and SMGs may use this upgrade.</text>
+</box>
+<box>
+<text>This replacement barrel is machined to tight specifications and attack bonus when used with match grade and a +5 attack bonus when used with supermatch grade ammunition. If a barrel is match, it cannot be precision.Only rifles, handguns, machine pistols, SMGs, and machine guns may use this upgrade. </text>
+</box>
+<box>
+<text>This barrel is machined to specifications to provide a benefit +1 attack bonus when using all non-match ammo and a +2 attack bonus when using match or supermatch grade ammunition. If a barrel is precision, it cannot be match. Only rifles, handguns, SMGs, machine pistols, and machine guns may use this upgrade.</text>
+</box>
+<box>
+<text>This replacement barrel is the standard smooth barrel for a penalty applies to both its attack and damage. Only shotguns may use this upgrade.</text>
+</box>
+<box>
+<text>This replacement barrel is machined with rifling made +2 attack bonus when using slugs, armor piercing slugs, or saboted slugs but takes a −4 attack penalty when using any other type of ammunition. Also, when using the slug barrel with slug, armor piercing slug, or saboted slug ammunition the range increments for the shotgun only affect the attack roll, not the damage roll. Only shotguns may use this upgrade.</text>
+</box>
+<box>
+<text>This replacement barrel is choked, allowing for better spread or buckshot ammunition. Only shotguns may use this upgrade.</text>
+</box>
+<box>
+<text>This replacement barrel is a straight barrel that has been threaded barrel may accept only one accessory at a time. Only shotguns may use this upgrade.</text>
+</box>
+<box>
+<text>This replacement barrel is a shortened version of the original bonus to conceal, but decreases the handgun&#x27;s range increment by 20%, rounded to the nearest 5&#x27;. The weapon is also unable to take any other barrel upgrades and all other barrel upgrades are removed. Only handguns may use this upgrade.</text>
+</box>
+<box>
+<text>This upgrade turns a target rifle, assault rifle, battle rifle, rifle it was before. A SBR loses 15% of its range increment, rounded to the nearest 5&#x27;, but can be used against an adjacent opponent with any stock for no penalty. Only target, battle, and assault rifles, and DMRs can use this upgrade. If this upgrade is placed on an assault, target, or battle rifle, the character can change it&#x27;s designation to carbine rifle for the purpose of feats. If this upgrade is placed on a DMR, the character can change it&#x27;s designation to battle rifle for the purpose of feats. A firearm can only have one designation at a time, and conversion removes it&#x27;s previous designation.</text>
+</box>
+<box>
+<text>This upgrade installs a bayonet mount which can be used to attach Points. Only rifles and shotguns may use this upgrade.</text>
+</box>
+<box>
+<text>This accessory attaches to the tip of a firearm&#x27;s barrel, threaded in order to use the muzzle brake. It may be removed for 10 Combat Points.</text>
+</box>
+<box>
+<text>A suppressor is a device attached to or part of the barrel of a firing the weapon. The barrel must be threaded in order to use the suppressor. When the suppressor is attached, each Perception check made to hear this weapon firing suffers a −10 penalty. This penalty increases to −15 if low pressure ammunition is used. Suppressors are rated by how many damage dice a caliber has, and by any modifications that the ammunition makes to those dice damage. A suppressor&#x27;s level must meet or exceed the amount of damage dice it is rated for in order to suppress the firearm successfully. Attaching a suppressor to a weapon with a restriction rating below Restricted raises it&#x27;s restriction rating to Restricted, and removing it reduces it back to the highest restriction rating on the weapon.</text>
+</box>
+<box>
+<text>Example: A level 2 suppressor can suppress 9x19mm, which uses </text>
+</box>
+		<text>   Compensator (Barrel)</text>
+		<text>   A compensator is a weighted attachment that helps offset thePenalty by 2, but gives  a −2 to all Stealth checks made to hide the firearm. If a firearm has a compensator, it may not be threaded or ported. Only handguns and machine pistols may use this upgrade.</text>
+		<text>   Removable Choke Barrel (Barrel)</text>
+<box>
+<text>This replacement barrel is threaded for different types of changing out the choke tubes. The barrel comes with 7 types of choke tubes, as listed below. </text>
+</box>
+<list type="unordered">
+<text>Extra Full Choke Increases a shotgun&#x27;s range by 35&#x27; when using birdshot.</text>
+<text>Full Choke Grants a +2 to attack rolls and increases a shotgun&#x27;s range by 20&#x27; when using birdshot.</text>
+<text>Modified Choke Increases a shotgun&#x27;s range by 10&#x27; when using birdshot or buckshot.</text>
+<text>Improved Cylinder Choke Grants a +1 attack bonus when using birdshot or buckshot but gives a −2 attack penalty when using any other type of ammunition.</text>
+<text>Cylinder Choke Retains all the bonuses, penalties, and features of a Straight Barrel.</text>
+<text>Breaching Choke Retains all the bonuses, penalties, and features of a Straight Barrel, reduces a shotgun&#x27;s range by 10&#x27;, and gives the shotgun&#x27;s buttstroke attack an additional damage die of slashing damage. </text>
+</list>
+		<text>   Insert (Barrel)</text>
+<box>
+<text>An insert is a piece of rifled metal, usually steel, that allows larger ammunition. They come in various calibers in both reduction and original calibers. Below are the listings for the original calibers, and their available reductions. Only single shot weapons, shotguns with 2 or more barrels, and cylinder firearms may use this upgrade.</text>
+</box>
+<text><b>Gauge</b></text>
+		<text>   20 Gauge</text>
+		<text>   .45 ACP</text>
+		<text>   .44 Magnum / .44 Special</text>
+		<text>   9x19mm</text>
+<text><b>Gauge</b></text>
+		<text>   20 Gauge</text>
+		<text>   16 Gauge</text>
+		<text>   .45 ACP</text>
+		<text>   .40 S&amp;W</text>
+		<text>   .410 Bore</text>
+		<text>   .44 Magnum / .44 Special</text>
+		<text>   .357 Magnum / .38 Special</text>
+		<text>   9x19mm</text>
+		<text>   .380 ACP</text>
+		<text>   .22 Long Rifle / .22 Short</text>
+		<text>   .22 WMR</text>
+		<text>   .17 HMR</text>
+<text><b>Gauge</b></text>
+		<text>   .45 ACP</text>
+		<text>   .410 Bore</text>
+		<text>   .44 Magnum / .44 Special</text>
+		<text>   .357 Magnum / .38 Special</text>
+		<text>   9x19mm</text>
+		<text>   .22 Long Rifle / .22 Short</text>
+		<header level = "1">Bore</header>
+		<text>   .22 Long Rifle / .22 Short</text>
+		<text>   9x19mm</text>
+		<text>   .380 ACP</text>
+		<text>   12 Gauge</text>
+<table>
+<tr><header textAlign="center">Upgrade</header><header textAlign="center">Available for</header><header textAlign="center">Loc</header><header textAlign="center">Cost</header><header textAlign="center">Time</header><header textAlign="center">Wt</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Extended Barrel</text><text textAlign="center">Any firearm</text><text textAlign="center">B</text><text textAlign="center">15</text><text textAlign="center">1 hour</text><text textAlign="center">See text</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Heavy Barrel</text><text textAlign="center">Any rifle or machine gun</text><text textAlign="center">B</text><text textAlign="center">8</text><text textAlign="center">1 hour</text><text textAlign="center">See text</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Ported Barrel</text><text textAlign="center">Any firearm</text><text textAlign="center">B</text><text textAlign="center">3</text><text textAlign="center">2 hours</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Threaded Barrel</text><text textAlign="center">Any rifle, handgun, machine pistol, machine gun, or SMG</text><text textAlign="center">B</text><text textAlign="center">10</text><text textAlign="center">1 hour</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Match Barrel</text><text textAlign="center">Any rifle, handgun, machine pistol, machine gun, or SMG</text><text textAlign="center">B</text><text textAlign="center">20</text><text textAlign="center">1 day</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Precision Barrel</text><text textAlign="center">Any rifle, handgun, machine pistol, machine gun, or SMG</text><text textAlign="center">B</text><text textAlign="center">15</text><text textAlign="center">1 day</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Straight Barrel</text><text textAlign="center">Any shotgun</text><text textAlign="center">B</text><text textAlign="center">4</text><text textAlign="center">30 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Slug Barrel</text><text textAlign="center">Any shotgun</text><text textAlign="center">B</text><text textAlign="center">5</text><text textAlign="center">30 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Choked Barrel</text><text textAlign="center">Any shotgun</text><text textAlign="center">B</text><text textAlign="center">5</text><text textAlign="center">30 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Threaded Straight Barrel</text><text textAlign="center">Any shotgun</text><text textAlign="center">B</text><text textAlign="center">6</text><text textAlign="center">30 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Compact Barrel</text><text textAlign="center">Any handgun</text><text textAlign="center">B</text><text textAlign="center">3</text><text textAlign="center">15 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Short Barrel Rifle</text><text textAlign="center">Any target, battle, or assault rifle, or DMR</text><text textAlign="center">B</text><text textAlign="center">26</text><text textAlign="center">1 week</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Bayonet Lug</text><text textAlign="center">Any rifle or shotgun</text><text textAlign="center">B</text><text textAlign="center">1</text><text textAlign="center">2 hours</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Muzzle Brake</text><text textAlign="center">Any firearm</text><text textAlign="center">B</text><text textAlign="center">12</text><text textAlign="center">12 CP</text><text textAlign="center">1.0</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Suppressor</text><text textAlign="center">Any rifle, SMG, machine pistol, machine gun, shotgun, or</text></tr>
+<tr>
+<text textAlign="center">Compensator</text><text textAlign="center">Any handgun or machine pistol</text><text textAlign="center">B</text><text textAlign="center">9</text><text textAlign="center">4 hours</text><text textAlign="center">1.0</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Removable Choke Barrel</text><text textAlign="center">Any shotgun</text><text textAlign="center">B</text><text textAlign="center">12</text><text textAlign="center">30 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Inserts</text><text textAlign="center">Single shot weapons, shotguns with 2 or more barrels, and</text></tr>
+</table>
+		<text>   Optic Mount (Frame)</text>
+<box>
+<text>The firearm or crossbow gains an optic upgrade location if it mount.</text>
+</box>
+<box>
+<text>This accessory combines the benefits of a red dot sight and this sight, a character does not suffer the −4 penalty for the first range increment, as would be on the normal telescopic sight, and they must spend 3 Combat Points to acquire their target. Shotguns, grenade launchers, machine-pistols, bows, crossbows, and handguns do not gain the benefit of using any telescopic sight stronger than 3×.</text>
+</box>
+<box>
+<text>This accessory combines the benefits of a night vision sight and costs 12 Combat Points.</text>
+</box>
+<box>
+<text>This accessory projects an illuminated red dot onto a piece of vision as he looks through the sight. It visually resembles a laser sight to the shooter, but no actual dot is projected downrange. A red dot sight grants a +1 attack bonus to all attack rolls made within the weapon&#x27;s first 5 range increments.</text>
+</box>
+<box>
+<text>A telescopic sight is a sighting device that makes it easier to the image of the target it has a very limited field of view, making it difficult to use at close range. The telescopic sight increases the range increment for a ranged weapon. To use a scoped weapon, a character must spend 6 Combat Points acquiring their target. If the character changes targets or otherwise loses sight of the target, they must spend 6 Combat Points to reacquire the target. Any character attempting to attack a target within the weapon&#x27;s first range increment suffers a −4 attack penalty. Shotguns, grenade launchers, machine-pistols, bows, crossbows, and handguns do not gain the benefit of using any telescopic sight stronger than 3×, SMGs and rocket launchers do not gain the benefit of using any telescopic sight stronger than 6×, and carbine rifles do not gain the benefit from using any telescopic sight stronger than 9×.</text>
+</box>
+<list type="unordered">
+<text>1.5×-3× Multiply range increment by 1.25</text>
+<text>3.1×-6× Multiply range increment by 1.5</text>
+<text>6.1×-9× Multiply range increment by 1.75</text>
+<text>9.1×-12× Multiply range increment by 2</text>
+<text>12.1×-15× Multiply range increment by 2.25</text>
+<text>15.1×-18× Multiply range increment by 2.5</text>
+<text>18.1×-21× Multiply range increment by 2.75</text>
+<text>21.1×+ Multiply range increment by 3</text>
+</list>
+<box>
+<text>This accessory is an adjustable telescopic sight, allowing for purchased in a variety of different magnifications. Switching between magnification levels costs 12 Combat Points.</text>
+</box>
+<box>
+<text>This accessory literally sees heat. It negates all vision creatures, and objects warmer than the surrounding scenery, but only when looking at sources of heat—ambient or otherwise—between 60-120°F (outside this range, everything appears cold blue or white hot). Further, a thermal sight cannot register warmth through heat-shielded scenery or through any scenery over 2 inches thick. If the accessory is purchased with magnification it operates like an equivalent telescopic sight.</text>
+</box>
+<box>
+<text>Night vision optics amplify existing low levels of visible and image. In twilight or brighter lighting conditions, a night vision sight is useless as the electronics shut down to prevent damage. So long as at least Dim light is available, this accessory negates the vision penalties applied by low ambient light. The accessory can be purchased with magnification and operates like an equivalent telescopic sight.</text>
+</box>
+<box>
+<text>This accessory projects a visible-frequency laser beam, usually to all single shot attack rolls and a +2 attack bonus to all potshot attack rolls made against any target within 40&#x27;. A laser sight can also be purchased in blue, green, or purple, but these cost 3 more than the original WP cost.</text>
+</box>
+<box>
+<text>This accessory operates like a standard laser sight but projects grants a +1 attack bonus to all single shot and potshot attack rolls made against any target within 120&#x27;.</text>
+</box>
+<box>
+<text>This accessory combines a standard laser sight and an IR laser Points.</text>
+</box>
+<box>
+<text>This accessory is a 1-2 inch long tube, with the post mounted at still utilizes the standard end sight. It reduces the range increment of the weapon by 25%, rounded to the nearest 5&#x27;, but grants a +2 attack bonus to all attack rolls made within the weapon&#x27;s first 4 range increments.</text>
+</box>
+<box>
+<text>These are sights with a built-in glowing insert, usually tritium, reduces all concealment due to darkness by ½. This upgrade does not take up any upgrade slots.</text>
+</box>
+<box>
+<text>These are sights that can be adjusted to fire at a longer range, of combat styled sights. This upgrade grants a +2 attack bonus on the weapon&#x27;s second range increment.</text>
+</box>
+<box>
+<text>These are sights that are at a 45° cant, allowing for a weapon using these sights, the weapon can use its standard range even if it has a telescopic sight, but using these sights grants a −10&#x27; range penalty on any weapon they are attached to.</text>
+</box>
+<box>
+<text>This is an adapter for telescopic sights that makes them more telescopic sight. When installed, it grants a +2 bonus to all Stealth checks to hide any weapon with a telescopic sight. This upgrade is installed on any telescopic sight. This upgrade does not take up any upgrade slots.</text>
+</box>
+<table>
+<tr><header textAlign="center">Upgrade</header><header textAlign="center">Available for</header><header textAlign="center">Loc</header><header textAlign="center">Cost</header><header textAlign="center">Time</header><header textAlign="center">Wt</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Optic Mount</text><text textAlign="center">Any firearm or crossbow</text><text textAlign="center">F</text><text textAlign="center">2</text><text textAlign="center">30 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Advanced Combat Sight, 1.5-3×</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">50</text><text textAlign="center">30 min.</text><text textAlign="center">1.5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Advanced Combat Sight, 3.1-6×</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">80</text><text textAlign="center">30 min.</text><text textAlign="center">1.5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Adjustable Telescopic Sight</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">10 per category</text><text textAlign="center">30 min.</text><text textAlign="center">2.0</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Day/Night Sight, 1.5-3×</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">150</text><text textAlign="center">30 min.</text><text textAlign="center">2.0</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Day/Night Sight, 3.1-6×</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">200</text><text textAlign="center">30 min.</text><text textAlign="center">2.0</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Day/Night Sight, 6.1-9×</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">250</text><text textAlign="center">30 min.</text><text textAlign="center">2.0</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Red Dot Sight</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">12</text><text textAlign="center">30 min.</text><text textAlign="center">0.9</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Telescopic Sight, 1.5-3×</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">4</text><text textAlign="center">30 min.</text><text textAlign="center">0.9</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Telescopic Sight, 3.1-6×</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">8</text><text textAlign="center">30 min.</text><text textAlign="center">1.0</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Telescopic Sight, 6.1-9×</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">12</text><text textAlign="center">30 min.</text><text textAlign="center">1.1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Telescopic Sight, 9.1-12×</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">16</text><text textAlign="center">30 min.</text><text textAlign="center">1.3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Telescopic Sight, 12.1-15×</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">20</text><text textAlign="center">30 min.</text><text textAlign="center">1.4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Telescopic Sight, 15.5-18×</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">24</text><text textAlign="center">30 min.</text><text textAlign="center">1.5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Telescopic Sight, 18.5-21×</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">28</text><text textAlign="center">30 min.</text><text textAlign="center">1.6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Telescopic Sight, 21.1×+</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">32</text><text textAlign="center">30 min.</text><text textAlign="center">1.6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Thermal Sight, no magnification</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">240</text><text textAlign="center">30 min.</text><text textAlign="center">3.0</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Thermal Sight, 1.5-3×</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">320</text><text textAlign="center">30 min.</text><text textAlign="center">4.0</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Night Vision Sight, no magnification</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">100</text><text textAlign="center">30 min.</text><text textAlign="center">2.0</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Night Vision Sight, 1.5-3×</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">150</text><text textAlign="center">30 min.</text><text textAlign="center">2.0</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Night Vision Sight, 3.1-6×</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">200</text><text textAlign="center">30 min.</text><text textAlign="center">2.1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Standard Laser Sight</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O T</text><text textAlign="center">3</text><text textAlign="center">30 min.</text><text textAlign="center">0.1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Infrared Laser Sight</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O T</text><text textAlign="center">28</text><text textAlign="center">30 min.</text><text textAlign="center">0.5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Multi-Mode Laser Sight</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O T</text><text textAlign="center">32</text><text textAlign="center">30 min.</text><text textAlign="center">0.8</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Ghost Ring Sight</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">O</text><text textAlign="center">4</text><text textAlign="center">20 min.</text><text textAlign="center">0.2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">High Visibility Sights</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">—</text><text textAlign="center">14</text><text textAlign="center">4 hours</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Adjustable Iron Sights</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">F</text><text textAlign="center">12</text><text textAlign="center">4 hours</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Canted Sights</text><text textAlign="center">Any rifle, shotgun, SMG, machine pistol, or machine gun</text><text textAlign="center">T</text><text textAlign="center">10</text><text textAlign="center">5 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Killflash</text><text textAlign="center">Any weapon with a telescopic sight</text><text textAlign="center">—</text><text textAlign="center">4</text><text textAlign="center">1 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Custom Grip (Frame)</text>
+<box>
+<text>The weapon&#x27;s grip is fitted to a mold of the purchaser&#x27;s hand, weapon. The purchaser can also have the weapon&#x27;s grip enlarged or reduced, making the weapon one size larger or smaller when using, but not concealing. Anyone else who tries to use the weapon suffers a −2 attack penalty. Only handguns may use this upgrade.</text>
+</box>
+<box>
+<text>This upgrade is a laser sight built into the grip of the weapon, cost. It grants a +1 attack bonus to all single shot attack rolls and a +2 attack bonus to all potshot attack rolls made against any target within 40&#x27;. A grip sight can also be purchased in blue, green, or purple, but these cost 6 more than the original WP cost. Only handguns may use this upgrade.</text>
+</box>
+<box>
+<text>This upgrade gives the weapon an engraved or a precious metal while the target has line of sight to it. This upgrade also increases the weapon&#x27;s worth by 75%. The weapon loses this quality if it suffers any damage. Though it may be restored by repairing it with a successful Craft (Mechanical) check.</text>
+</box>
+<box>
+<text>This upgrade changes the finish to either blued (a dark finish), winter), or rainbow (any color not black, chrome or a camo pattern). To change the finish of the gun to a camouflage color, it costs 6 more than the original WP cost. When used in the appropriate setting, camouflage gives a +10 to all Stealth checks for all Large and larger firearms. This upgrade does not take up any upgrade slots.</text>
+</box>
+<box>
+<text>A bipod gives a weapon additional stability and improves aim be able to place it on a solid surface at roughly shoulder height. The most common method of using a bipod is to fire from the prone position, so that the user&#x27;s shoulder, like the weapon and the bipod, is close to the ground. However, a weapon with a bipod can be used from a crouched or even standing position if the bipod is set on a suitable surface. Only Medium or larger weapons can benefit from a bipod. A bipod used with a Medium or larger weapon grants the user a +3 attack bonus. Any Huge or larger weapon must be used with a bipod or other type of mount. Most bipods can be folded up for ease of transport. Deploying a folded bipod costs 1 Combat Point.</text>
+</box>
+<box>
+<text>This upgrade is usually seen on sniper rifles and competition wielder&#x27;s upper body (which takes 1d3 hours to acquire) to ensure that the gun perfectly matches his shooting posture. It grants the intended wielder a +3 attack bonus on all single shot attack rolls made using the firearm and decreases the Combat Point cost to perform a single shot attack by 1. Anyone else who tries to use the weapon suffers a −4 attack penalty, unless it is readjusted for that user, which also takes 1d3 hours. When a Medium or smaller weapon is upgraded with a stock its size rating increases to large. A weapon can only have one stock upgrade at a time. Only rifles, SMGs, shotguns, and machine guns may use this upgrade.</text>
+</box>
+<box>
+<text>This upgrade gives the weapon a fixed stock that increases weapon. It reduces the Caliber Recoil Penalty by 2 and decreases the Combat Point cost to perform a single shot attack by 1. When a Medium or smaller weapon is upgraded with a stock its size rating increases to Large. A weapon can only have one stock upgrade at a time. Only rifles, SMGs, machine pistols, shotguns, stand alone grenade launchers, and machine guns may use this upgrade.</text>
+</box>
+<box>
+<text>This upgrade removes the stock and gives the weapon a pistol like of accuracy. It grants a +3 to Stealth checks to hide the weapon, doubles the range increment attack penalty, decreases the Combat Point cost to perform all multi-shot attacks by 1, and removes penalties when fighting an adjacent enemy. When a Large or larger weapon is upgraded with a pistol grip, its size rating decreases by one size category. A pistol grip may not be used to buttstroke. This upgrade is considered a stock upgrade, and a weapon can only have one stock upgrade at a time. Only rifles, SMGs, shotguns, and machine guns may use this upgrade.</text>
+</box>
+<box>
+<text>This upgrade gives the weapon a collapsible stock that increases carry. When the stock is extended, it reduces the Caliber Recoil Penalty by 2 and decreases the Combat Point cost to perform a single shot attack by 1. A folding stock may not be used to buttstroke. When it is folded, it doubles the range increment attack penalty, decreases the Combat Point cost to perform all multi-shot attacks by 1 and removes penalties when fighting an adjacent enemy. When folded, the weapon&#x27;s size rating is reduced to Medium, or goes back to it&#x27;s original size rating as if it did not have the stock attached, whichever size is smaller. A weapon can only have one stock upgrade at a time. Only rifles, SMGs, machine pistols, shotguns, stand alone grenade launchers, and machine guns may use this upgrade.</text>
+</box>
+<box>
+<text>This upgrade gives the weapon a synthetic stock that increases cost to perform a single shot attack by 2 and decreases a weapon&#x27;s weight by 30%. A synthetic stock may not be used to buttstroke. When a Medium or smaller weapon is upgraded with a stock its size rating increases to Large. A weapon can only have one stock upgrade at a time. Only rifles, SMGs, machine pistols, shotguns, stand alone grenade launchers, and machine guns may use this upgrade.</text>
+</box>
+<box>
+<text>This upgrade gives the weapon a stock with a recoil tube spring, rounds. It reduces the Caliber Recoil Penalty by 5. A buffer stock may not be used to buttstroke. When a Medium or smaller weapon is upgraded with a stock its size rating increases to Large. A weapon can only have one stock upgrade at a time. Only rifles, SMGs, machine pistols, shotguns, and machine guns may use this upgrade.</text>
+</box>
+<box>
+<text>This upgrade gives the weapon a stock that recesses back as the grants a +4 attack bonus to all bumpfire attack rolls but a −2 attack penalty to all single shot and double tap attack rolls. A bumpfire stock may not be used to buttstroke. When a Medium or smaller weapon is upgraded with a stock its size rating increases to Large. A weapon can only have one stock upgrade at a time. Only rifles, machine pistols, and shotguns may use this upgrade.</text>
+</box>
+<box>
+<text>This upgrade gives the weapon a stock that may be removed from and decreases the Combat Point cost to perform a single shot attack by 1. When attached to a weapon a detachable stock always increases the size rating of the weapon to Medium. A detachable stock may not be used to buttstroke. Attaching or removing a detachable stock cost 6 Combat Points. A weapon can only have one stock upgrade at a time. Only handguns and machine pistols may use this upgrade.</text>
+</box>
+<box>
+<text>This upgrade gives the weapon a stock built into the weapon, balancing stock to be pulled out if needed. When the stock is extended, it reduces the Caliber Recoil Penalty by 1 and decreases the Combat Point cost to perform a single shot attack by 1. An integral stock may not be used to buttstroke. A weapon can only have one stock upgrade at one time. Only handguns, and machine pistols may use this upgrade.</text>
+</box>
+<box>
+<text>This upgrade gives the weapon a stock with built in shell the Combat Point cost to perform a single shot attack by 1, and stores 4 shotgun shells for use without needing to reach into a pack to retrieve ammunition. A speedfeed stock may not be used to buttstroke. When a Medium or smaller weapon is upgraded with a stock, its size rating increases to Large. A weapon can only have one stock upgrade at one time. Only shotguns may use this upgrade.</text>
+</box>
+		<text>   Stock Mag Pouch (None)</text>
+<box>
+<text>This upgrade adds a small pouch on the stock that may be used to pouch negates the necessity to reach into a pack to retrieve ammunition. A stock mag pouch can only be attached to a stock and if the stock is removed, the mag pouch is as well. A stock can only have one pouch at a time. This upgrade does not take up any upgrade slots. This upgrade can not be used with the Pistol Grip stock.</text>
+</box>
+<box>
+<text>This upgrade adds small pouch on the stock that may be used to necessity to reach into a pack to retrieve ammunition. A stock cartridge holder can only be attached to a stock and if the stock is removed, the mag pouch is as well. A stock can only have one pouch at a time. This upgrade does not take up any upgrade slots. This upgrade can not be used with the Pistol Grip stock.</text>
+</box>
+<box>
+<text>This upgrade adds a soft padding to the butt of a stock of a attack bonus when double tapping, slamfiring, or burst firing. A buttpad can only be attached to a stock and if the stock is removed, the buttpad is as well. This upgrade does not take up any upgrade slots. This upgrade can not be used with the Pistol Grip stock.</text>
+</box>
+<box>
+<text>This upgrade cuts a tapered bevel in the magazine well so that it machine pistols. It decreases the Combat Point cost to reload a handgun or machine pistol with a magazine by 1. Only handguns and machine pistols may use this upgrade.</text>
+</box>
+<table>
+<tr><header textAlign="center">Upgrade</header><header textAlign="center">Available for</header><header textAlign="center">Loc</header><header textAlign="center">Cost</header><header textAlign="center">Time</header><header textAlign="center">Wt</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Custom Grip</text><text textAlign="center">Any handgun</text><text textAlign="center">F</text><text textAlign="center">12</text><text textAlign="center">8 hours</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Grip Sight</text><text textAlign="center">Any handgun</text><text textAlign="center">F</text><text textAlign="center">10</text><text textAlign="center">20 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Detailing</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">F</text><text textAlign="center">70%</text><text textAlign="center">1 week</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Finish</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">F</text><text textAlign="center">5</text><text textAlign="center">4 hours</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Bipod</text><text textAlign="center">Any Medium or larger ranged weapon</text><text textAlign="center">F T</text><text textAlign="center">6</text><text textAlign="center">25 min.</text><text textAlign="center">2.0</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Ergonomic Stock</text><text textAlign="center">Any rifle, shotgun, SMG, or machine gun</text><text textAlign="center">F</text><text textAlign="center">50</text><text textAlign="center">3 days</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Fixed Stock</text><text textAlign="center">Any rifle, shotgun, SMG, machine pistol, stand alone grenade</text></tr>
+<tr>
+<text textAlign="center">Pistol Grip</text><text textAlign="center">Any rifle, shotgun, SMG, or machine gun</text><text textAlign="center">F</text><text textAlign="center">1</text><text textAlign="center">30 min.</text><text textAlign="center">0.5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Folding Stock</text><text textAlign="center">Any rifle, shotgun, SMG, machine pistol, stand alone grenade</text></tr>
+<tr>
+<text textAlign="center">Synthetic Stock</text><text textAlign="center">Any rifle, shotgun, SMG, machine pistol, stand alone grenade</text></tr>
+<tr>
+<text textAlign="center">Buffer Stock</text><text textAlign="center">Any rifle, shotgun, SMG, machine pistol, or machine gun</text><text textAlign="center">F</text><text textAlign="center">20</text><text textAlign="center">30 min.</text><text textAlign="center">2.0</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Bumpfire Stock</text><text textAlign="center">Any rifle, shotgun, or machine pistol</text><text textAlign="center">F</text><text textAlign="center">17</text><text textAlign="center">30 min.</text><text textAlign="center">2.0</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Detachable Stock</text><text textAlign="center">Any handgun or machine pistol</text><text textAlign="center">F</text><text textAlign="center">5</text><text textAlign="center">1 day</text><text textAlign="center">1.1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Integral Stock</text><text textAlign="center">Any handgun or machine pistol</text><text textAlign="center">F</text><text textAlign="center">6</text><text textAlign="center">2 hours</text><text textAlign="center">1.0</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Speedfeed Stock</text><text textAlign="center">Any shotgun</text><text textAlign="center">F</text><text textAlign="center">5</text><text textAlign="center">30 min.</text><text textAlign="center">1.8</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Stock Mag Pouch</text><text textAlign="center">Any weapon with a stock</text><text textAlign="center">—</text><text textAlign="center">2</text><text textAlign="center">5 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Stock Cartridge Holder</text><text textAlign="center">Any weapon with a stock</text><text textAlign="center">—</text><text textAlign="center">1</text><text textAlign="center">5 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Buttpad</text><text textAlign="center">Any weapon with a stock</text><text textAlign="center">—</text><text textAlign="center">3</text><text textAlign="center">5 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Beveled Magazine Well</text><text textAlign="center">Any handgun or machine pistol</text><text textAlign="center">F</text><text textAlign="center">6</text><text textAlign="center">2 hours</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Full Auto Upgrade (Frame)</text>
+<box>
+<text>This upgrade allows the weapon to fire in full auto mode, fitting upgrade lets the person performing the upgrade choose their rate of fire, either slow, medium, or fast. This upgrade raises the weapon&#x27;s restriction rating to Military and Police. You can also use this upgrade to remove full auto mode from a firearm, reducing it&#x27;s restriction rating down to Licensed if it has no other upgrades, or down to Restricted if it has a Burst Fire feature.</text>
+</box>
+<box>
+<text>This upgrade allows the weapon to fire in three or two round stress of automatic fire. This upgrade raises the weapon&#x27;s restriction rating to Restricted, if it is the only firing mode upgrade installed. If it is not, then the weapon restriction rating defaults to the highest on the weapon. You can also use this upgrade to remove burst fire mode from a firearm, reducing it&#x27;s restriction rating to Licensed if it has no other upgrades.</text>
+</box>
+<box>
+<text>This upgrade removes the trigger disconnect of a pump action upgrade increases the weapon&#x27;s error range by 15%.</text>
+</box>
+<box>
+<text>This upgrade turns a double action revolver into a SAO revolver, the ability to perform double tap attacks.</text>
+</box>
+<table>
+<tr><header textAlign="center">Upgrade</header><header textAlign="center">Available for</header><header textAlign="center">Loc</header><header textAlign="center">Cost</header><header textAlign="center">Time</header><header textAlign="center">Wt</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Full Auto Upgrade</text><text textAlign="center">Any semi-automatic firearm</text><text textAlign="center">F</text><text textAlign="center">15</text><text textAlign="center">4 days</text><text textAlign="center">—</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Burst Fire Upgrade</text><text textAlign="center">Any semi or fully automatic firearm</text><text textAlign="center">F</text><text textAlign="center">19</text><text textAlign="center">4 days</text><text textAlign="center">—</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Slamfire Upgrade</text><text textAlign="center">Any pump action firearm</text><text textAlign="center">F</text><text textAlign="center">8</text><text textAlign="center">3 days</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Single Action Modification</text><text textAlign="center">Any DA cylinder firearm</text><text textAlign="center">F</text><text textAlign="center">8</text><text textAlign="center">4 days</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Precision Upgrade (None)</text>
+<box>
+<text>These upgrades improve the weapon&#x27;s accuracy by competitive does not take up any upgrade slots.</text>
+</box>
+<list type="unordered">
+<text>If the weapon doesn&#x27;t have an error range from manufacturing or modification, it becomes a mastercraft +2 firearm.</text>
+<text>If the weapon is considered to be mastercraft +1 or +2, it becomes a grandmastercraft +3 firearm.</text>
+</list>
+<box>
+<text>This upgrade completely tears down and examines the gun&#x27;s inner and treating the weapon for durability and resilience. The weapon&#x27;s error range due to the manufacture or modification of the weapon is removed. This upgrade takes no frame upgrades.</text>
+</box>
+<box>
+<text>A shotgun may be cut down to one of the following 4 lengths. Any Cutting the barrel doesn&#x27;t change how the shotgun&#x27;s barrel functions.</text>
+</box>
+<list type="unordered">
+<text>Coach Cut (6-14”) The weapon&#x27;s range increment decreases by 10&#x27; and gains a +2 bonus to Stealth checks to hide it. It does not take the ranged attack penalty when fighting an adjacent opponent.</text>
+<text>Compact Cut (6” standard minimum) The weapon&#x27;s range increment decreases by half (rounded down, minimum 10&#x27;), its size becomes Medium, and its weight decreases by 40%. If a shotgun is a semi-automatic or pump action with an internal magazine, its capacity decreases by 50%. Only self loading, pump action, lever action, bolt action, single- or double-fire shotguns may use this upgrade. It does not take the ranged attack penalty when fighting an adjacent opponent.</text>
+<text>Pistol Cut (less than 6” of barrel and a pistol grip) The weapon&#x27;s range increment decreases to 5&#x27;, its size becomes Small and its weight decreases by 60%. Only shotguns with single or doublefire may use this upgrade. It does not take the ranged attack penalty when fighting an adjacent opponent.</text>
+</list>
+<box>
+<text>This upgrade replaces a shotgun&#x27;s internal magazine cap with an increases the shotgun&#x27;s capacity by the rounds indicated. Different magazine extension sizes have different requirements. </text>
+</box>
+<list type="unordered">
+<text>Two Round Any internal magazine shotgun with a barrel that isn&#x27;t Compact Cut, or Pistol Cut.</text>
+<text>Three Round Any internal magazine shotgun with a barrel that isn&#x27;t Coach cut, Compact Cut, or Pistol Cut</text>
+<text>Five Round Any internal magazine shotgun with a barrel that isn&#x27;t Combat Cut, Coach Cut, Compact Cut, or Pistol Cut</text>
+</list>
+		<text>   Stripper Clip Guide (Frame)</text>
+<box>
+<text>This upgrade gives a rifle with a box magazine the ability to firearm, using stripper clips. Only magazine fed rifles may accept this upgrade.</text>
+</box>
+<box>
+<text>This upgrade partially re-engineers the firearm to turn it into a carrying and concealment. When broken down, the firearm is completely unusable. A firearm&#x27;s magazine can be loaded in this state, but can not have a round in it&#x27;s chamber. It takes 12 CP to breakdown a whole firearm, or put a firearm back together. When broken down, the firearm is split into two objects, each one being one size smaller than the firearm&#x27;s most compact size. Only Medium or larger ranged weapons may accept this upgrade.</text>
+</box>
+<box>
+<text>This upgrade strengthens and fortifies the firearm&#x27;s parts to destruction on failure, but increases the weight of the firearm by 10%, rounded up. The firearm will not explode from over pressure ammunition. </text>
+</box>
+		<text>   This upgrade makes the drawstring of a bow, or crossbowdamage from POW for recurve bows, use POW×1.5, rounded up. When calculating damage for the upgraded crossbow, the crossbow gains a +1 damage bonus per damage dice. Only recurve bows and crossbows may accept this upgrade.</text>
+<table>
+<tr><header textAlign="center">Upgrade</header><header textAlign="center">Available for</header><header textAlign="center">Loc</header><header textAlign="center">Cost</header><header textAlign="center">Time</header><header textAlign="center">Wt</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Precision Upgrade</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">—</text><text textAlign="center">25</text><text textAlign="center">2 weeks</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Clockwork Action</text><text textAlign="center">Any firearm</text><text textAlign="center">F</text><text textAlign="center">10</text><text textAlign="center">2 days</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Sawed-off</text><text textAlign="center">Shotguns (see text)</text><text textAlign="center">F/B</text><text textAlign="center">—</text><text textAlign="center">5 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Extended Shotgun Magazine Tube</text><text textAlign="center">Shotguns (see text)</text><text textAlign="center">—</text><text textAlign="center">1/Round</text><text textAlign="center">10 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Stripper Clip Guide</text><text textAlign="center">Magazine Fed Rifles</text><text textAlign="center">F</text><text textAlign="center">15</text><text textAlign="center">1 day</text><text textAlign="center">0.3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Breakdown</text><text textAlign="center">Any Medium or larger ranged weapon</text><text textAlign="center">F</text><text textAlign="center">25</text><text textAlign="center">1 week</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Fortified</text><text textAlign="center">Any firearm</text><text textAlign="center">F</text><text textAlign="center">30</text><text textAlign="center">1 week</text><text textAlign="center">See text</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tightened Drawstring</text><text textAlign="center">Recurve Bows and Crossbows</text><text textAlign="center">F</text><text textAlign="center">4</text><text textAlign="center">5 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Extra Rail (None)</text>
+<box>
+<text>The firearm, bow or crossbow gains 1 additional tactical rail rail locations. This upgrade does not take up any upgrade slots.</text>
+</box>
+<box>
+<text>This accessory is an M26 Taser that attaches to the bottom rail used similarly to one. It may be attached or removed with 12 Combat Points. Only rifles and SMGs may use this upgrade.</text>
+</box>
+<box>
+<text>This accessory is a shortened Remington 870 Express shotgun that a grenade launcher. It may be attached or removed with 12 Combat Points. The masterkey has an internal magazine of 3, a range increment of 20&#x27;, uses 12 Gauge shells, and does not gain error range due to ammunition. Only rifles and SMGs may use this upgrade.</text>
+</box>
+<box>
+<text>This accessory is a standalone bolt action shotgun, that attaches grenade launcher. It may be attached, or removed with 12 Combat Points. The M26 has a box magazine of either 3 rounds, or 5 rounds, a range increment of 20&#x27;, uses 12 Gauge shells and does not gain error range due to ammunition. The 3 round magazines cost 1 WP, and the 5 round magazines cost 2 WP. Only rifles and SMGs may use this upgrade.</text>
+</box>
+<box>
+<text>This accessory is a standalone semi automatic shotgun, that a grenade launcher. It may be attached, or removed with 12 Combat Points. The SIX12 has a removable cylinder that holds 6 rounds, a range increment of 25&#x27;, uses 12 Gauge shells and does not gain error range due to ammunition. This weapon is made from the SIX12 kit, which must be purchased in order to build this upgrade. The SIX12 can use it&#x27;s cylinders like magazines, and each cylinder cost 2 WP. Only rifles and SMGs may use this upgrade.</text>
+</box>
+<box>
+<text>This accessory is a standalone miniature flamethrower, that rail, much like a grenade launcher. It may be attached, or removed with 12 Combat Points. The flamer has a fuel cylinder that holds 5 shots. It shoots a 5-foot wide, 15-foot long line of flame or a 10&#x27; cone of flame that deals 2d3 points of fire damage to all creatures and objects in its path. No attack roll is necessary. Any creature caught in the line of flame can make a Reflex Saving Throw [TN15] to take half damage. Any creature or flammable object that takes damage from a flamer catches on fire, taking 1d6 points of fire damage each subsequent round until the flames are extinguished. A flamer can shoot 5 times before the fuel supply is depleted and the fuel canister must be replaced for 4 Combat Points.. The Exotic Firearms Proficiency (Flamethrowers) feat is required to use this weapon without penalty. Only rifles, shotguns, and SMGs may use this upgrade.</text>
+</box>
+<box>
+<text>This item allows the wielder to hang a weapon from his shoulder, weapon is considered holstered when hanging off of the wielder&#x27;s shoulder. Only shotguns, rifles, SMGs, machine guns, grenade launchers, and crossbows may use this upgrade. This upgrade does not take up any upgrade slots.</text>
+</box>
+<box>
+<text>This item works just as a patrol sling, but also holds 15 shotgun upgrade. Using a shotgun sling negates the necessity to reach into a pack to retrieve ammunition. This upgrade does not take up any upgrade slots.</text>
+</box>
+<box>
+<text>This item holds a firearm or crossbow across the wearer&#x27;s body, wielder is always considered armed with the weapon, but it cannot be concealed. Only shotguns, rifles, SMGs, machine guns, grenade launchers, and crossbows may use this upgrade. This upgrade does not take up any upgrade slots.</text>
+</box>
+<box>
+<text>This accessory mounts on the frame or tactical mount of a shotgun caliber. Using a shotshell holder negates the necessity to reach into a pack to retrieve ammunition.</text>
+</box>
+<box>
+<text>A secure-clip is a metal clip mounted on the frame of a handgun, falling out from rough movement. While using a secure-clip a character does not have to roll a Reflex Saving Throw to catch their firearm while Waistband carrying it. Only Small or smaller firearms may use this upgrade.</text>
+</box>
+<box>
+<text>This accessory mounts on the frame or tactical mount of a rifle, to 10 cartridges of its caliber. Using a cartridge holder negates the necessity to reach into a pack to retrieve ammunition.</text>
+</box>
+<box>
+<text>This accessory mounts a quiver onto the crossbow or bow to hold crossbow bolts or arrows. Using a mounted quiver negates the necessity to reach into a pack to retrieve ammunition.</text>
+</box>
+<box>
+<text>This is a flashlight that attaches to a firearm. It comes in one </text>
+</box>
+<list type="unordered">
+<text>High Output High output projects light out to 40&#x27; in front of the firearm, as opposed to the standard 20&#x27;. </text>
+<text>Light/Laser Combo The light/laser combo has dual modes; one mode that projects light out to 20&#x27; of the firearm, and the other mode that projects a standard laser. When using the laser, it is identical to a standard laser sight. Only one mode may be used at a time.</text>
+<text>Strobe Output Strobe has dual modes; one mode that projects light out to 20&#x27; of the firearm, and the other mode that strobes the light to temporary blind. When any creature is within 20&#x27; of the light and is looking in it&#x27;s direction, they must make a Will Saving Throw [TN12] or be blinded for 1 round. This may only be attempted once per creature per combat.</text>
+</list>
+		<text>   Vertical Foregrip (Frame/Tactical)</text>
+<box>
+<text>This accessory offers a shooter more leverage than a standard Caliber Recoil Penalty by 2. Only rifles, shotguns, SMGs, machine pistols, and machine guns may use this upgrade.</text>
+</box>
+<box>
+<text>This accessory offers a shooter less leverage than a standard bipod in additon.When gripped by the user while firing, it reduces the Caliber Recoil Penalty by 1, and grants a +1 attack bonus when the bipod is deployed and used. When deployed, this upgrade uses the same rules and requirements that a standard bipod has. It costs 4 Combat Points to deploy or retract the bipod. Only rifles, shotguns, SMGs, machine pistols, and machine guns may use this upgrade.</text>
+</box>
+<box>
+<text>This accessory offers a shooter more leverage than a standard attack bonus on all single shot and double tap attacks. Only rifles, shotguns, SMGs, and machine guns may use this upgrade.</text>
+</box>
+<box>
+<text>This accessory is a coiled lanyard for handguns, that allows a dropped. The lanyard can stretch a maximum of 5&#x27; from the person or object its attached to and can be used to retrieve or pull back the pistol if it is dropped without dropping to kneeling or prone to pick it up. Only handguns and machine pistols may use this upgrade. This upgrade does not take up any upgrade slots.</text>
+</box>
+<box>
+<text>This accessory is a mount for a handgun to mount it on one of the Mounting a handgun on the mount costs 12 Combat Points. Only rifles may use this upgrade, and only handguns may be mounted.</text>
+</box>
+<box>
+<text>This accessory is an escape knife attached to the tactical rail or used while still attached to the gun. Only handguns may use this upgrade.</text>
+</box>
+<box>
+<text>This accessory fits the tactical rail with a clip that may be magazine as a vertical foregrip, giving a shooter more leverage. Attaching a magazine from or to the grip costs 7 Combat Points. When a magazine is attached and gripped by the user while firing, it reduces the Caliber Recoil Penalty by 1. Only handguns and machine pistols may use this upgrade.</text>
+</box>
+<table>
+<tr><header textAlign="center">Upgrade</header><header textAlign="center">Available for</header><header textAlign="center">Loc</header><header textAlign="center">Cost</header><header textAlign="center">Time</header><header textAlign="center">Wt</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Extra Rail</text><text textAlign="center">Any firearm, bow, or crossbow</text><text textAlign="center">—</text><text textAlign="center">2</text><text textAlign="center">2 hours</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Taser Mount</text><text textAlign="center">Any rifle or SMG</text><text textAlign="center">T</text><text textAlign="center">18</text><text textAlign="center">12 CP</text><text textAlign="center">0.9</text><text textAlign="center">L</text></tr>
+<tr>
+<text textAlign="center">KAC Masterkey</text><text textAlign="center">Any rifle or SMG</text><text textAlign="center">T</text><text textAlign="center">15</text><text textAlign="center">12 CP</text><text textAlign="center">3.1</text><text textAlign="center">L</text></tr>
+<tr>
+<text textAlign="center">M26 MASS</text><text textAlign="center">Any rifle or SMG</text><text textAlign="center">T</text><text textAlign="center">22</text><text textAlign="center">12 CP</text><text textAlign="center">2.7</text><text textAlign="center">L</text></tr>
+<tr>
+<text textAlign="center">SIX12 Mounted</text><text textAlign="center">Any rifle or SMG</text><text textAlign="center">T</text><text textAlign="center">—</text><text textAlign="center">12 CP</text><text textAlign="center">3.4</text><text textAlign="center">L</text></tr>
+<tr>
+<text textAlign="center">Flamer</text><text textAlign="center">Any rifle, shotgun, or SMG</text><text textAlign="center">T</text><text textAlign="center">16</text><text textAlign="center">12 CP</text><text textAlign="center">1.9</text><text textAlign="center">L</text></tr>
+<tr>
+<text textAlign="center">Patrol Sling</text><text textAlign="center">Any rifle, shotgun, SMG, machine gun, or crossbow</text><text textAlign="center">—</text><text textAlign="center">1</text><text textAlign="center">5 min.</text><text textAlign="center">0.3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Shotgun Sling</text><text textAlign="center">Any shotgun</text><text textAlign="center">—</text><text textAlign="center">3</text><text textAlign="center">5 min.</text><text textAlign="center">0.6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Secure-Clip</text><text textAlign="center">Any Small or smaller firearm</text><text textAlign="center">F</text><text textAlign="center">2</text><text textAlign="center">25 min.</text><text textAlign="center">0.1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tactical Sling</text><text textAlign="center">Any rifle, shotgun, SMG, machine gun, or crossbow</text><text textAlign="center">—</text><text textAlign="center">4</text><text textAlign="center">5 min.</text><text textAlign="center">0.5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Shotshell Holder</text><text textAlign="center">Any shotgun</text><text textAlign="center">F</text><text textAlign="center">4</text><text textAlign="center">10 min.</text><text textAlign="center">0.2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Cartridge Holder</text><text textAlign="center">Any rifle</text><text textAlign="center">F</text><text textAlign="center">4</text><text textAlign="center">10 min.</text><text textAlign="center">0.2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Mounted Quiver</text><text textAlign="center">Crossbows and bows</text><text textAlign="center">F</text><text textAlign="center">2</text><text textAlign="center">10 CP</text><text textAlign="center">0.8</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tactical Flashlight</text><text textAlign="center">Any ranged weapon</text><text textAlign="center">F O T</text><text textAlign="center">4</text><text textAlign="center">5 min.</text><text textAlign="center">0.6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Vertical Foregrip</text><text textAlign="center">Any Medium or larger firearm</text><text textAlign="center">F T</text><text textAlign="center">5</text><text textAlign="center">5 min.</text><text textAlign="center">0.5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Vertical Grippod</text><text textAlign="center">Any rifle, shotguns, machine pistol, machine gun, or SMG</text><text textAlign="center">F T</text><text textAlign="center">9</text><text textAlign="center">5 min.</text><text textAlign="center">0.8</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Angled Foregrip</text><text textAlign="center">Any rifle, shotguns, machine gun, or SMG</text><text textAlign="center">F T</text><text textAlign="center">5</text><text textAlign="center">5 min.</text><text textAlign="center">0.9</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Lanyard</text><text textAlign="center">Any handgun or machine pistol</text><text textAlign="center">—</text><text textAlign="center">1</text><text textAlign="center">10 min.</text><text textAlign="center">0.1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Handgun Mount</text><text textAlign="center">See text</text><text textAlign="center">See text</text><text textAlign="center">20</text><text textAlign="center">10 min.</text><text textAlign="center">0.3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Pistol Bayonet</text><text textAlign="center">Any handgun</text><text textAlign="center">T</text><text textAlign="center">10</text><text textAlign="center">12 CP</text><text textAlign="center">0.5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Magazine Foregrip</text><text textAlign="center">Any handgun or machine pistol</text><text textAlign="center">T</text><text textAlign="center">8</text><text textAlign="center">5 min.</text><text textAlign="center">—</text><text textAlign="center">None</text></tr>
+</table>
+	</item>
+</body>

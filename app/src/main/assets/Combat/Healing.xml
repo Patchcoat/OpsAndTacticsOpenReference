@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Healing</header>
+<text><b>Healing</b></text>
+		<text>   After taking damage, a character can recover HP through natural(somewhat faster). In any case, a character can&#x27;t regain HP past their full normal total. A character&#x27;s CHP heal first and then their XHP.</text>
+		<header level = "1">Natural Healing</header>
+		<text>   A character recovers 1 HP per level per evening of rest (8 hoursnothing for an entire day) recovers 2 HP per level instead.</text>
+		<header level = "1">Healing Ability Damage</header>
+		<text>   Ability damage returns at the rate of 1 point per evening of(doing nothing for an entire day) recovers 2 points instead.</text>
+		<header level = "1">Recovering from Extremity Wounds</header>
+		<text>   When a character is hit in the extremity, they lose all abilityextremity damage needs at least two weeks of long term care to be partially functional. For every two weeks beyond the initial two weeks of care the character recovers 2 HP that were lost by being hit in an extremity.</text>
+	</item>
+</body>

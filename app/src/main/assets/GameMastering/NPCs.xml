@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">NPCs</header>
+<text><b>NPCs</b></text>
+		<header level = "1">Ordinaries</header>
+		<text>   “Ordinaries” are supporting characters and extras. Ordinariesoccupations, skills, and feats. As they gain levels, ordinaries increase their skill points, and BAB. However, ordinaries differ from characters in three ways. An ordinary character has</text>
+<list type="unordered">
+<text>The standard starting ability score package.</text>
+<text>No ability focuses.</text>
+<text>No COP to spend on any upgrades.</text>
+</list>
+		<text>   Ordinaries do not roll their ability scores. They start with thethe scores as they see fit. At 3rd level and 6th character level, an ordinary adds 1 point to one ability score.</text>
+		<text>   Ordinaries receive the standard set Hit Points as if they did</text>
+		<text>   Children (newborns to age 11) are handled differently from otherability score package as ordinaries, but their ability scores are reduced as follows: −3 STR, −1 DEX, −3 CON, −1 INT, −1 WIS, −1 CHA. </text>
+		<text>   Children have 1d4 CHP plus their CON modifier (minimum 1 CHP).they have a +0 modifier on all Saving Throws (plus any ability score modifiers). Children have a +0 modifier to Defense and 10 Combat Points. Children have no effective attacks and should be treated as noncombatants.</text>
+		<text>   When a child turns 12, they are considered a young adult andordinary (or character, in some cases).</text>
+		<text>   An ordinary character has a BV based on their Character Level.</text>
+		<text>   Children have a BV of 0 and characters receive no experience</text>
+<text><b>Aloof</b></text>
+<box>
+<text>Bad breath3 Bald</text>
+</box>
+<box>
+<text>Braces or dentures6 Brave</text>
+</box>
+<text><b>Careless</b></text>
+<text><b>Clean</b></text>
+<text><b>Collector</b></text>
+<text><b>Condescending</b></text>
+<text><b>Cowardly</b></text>
+<box>
+<text>Unusually Straight Teeth14 Crooked Teeth</text>
+</box>
+<box>
+<text>Cryptic, evasive, or secretive17 Dirty and unkempt</text>
+</box>
+<box>
+<text>Distinctive nose20 Distinctive scar</text>
+</box>
+<text><b>Drunkard</b></text>
+<box>
+<text>Easy going24 Enunciates very clearly</text>
+</box>
+<text><b>Exacting</b></text>
+<text><b>Eyeglasses</b></text>
+<box>
+<text>Eye patch29 Fanatical</text>
+</box>
+<box>
+<text>Fidgets nervously32 Foppish</text>
+</box>
+<text><b>Forging</b></text>
+<text><b>Foul-mouthed</b></text>
+<box>
+<text>Hacking cough37 Hard of hearing</text>
+</box>
+<box>
+<text>Hot tempered40 Hyperactive</text>
+</box>
+<text><b>Inquisitive</b></text>
+<text><b>Jealous</b></text>
+<text><b>Jokester</b></text>
+<text><b>Jumpy</b></text>
+<text><b>Lazy</b></text>
+<text><b>Loquacious</b></text>
+<text><b>Melancholy</b></text>
+<box>
+<text>Missing tooth50 Missing finger</text>
+</box>
+<box>
+<text>Multiple piercings53 Nasal voice</text>
+</box>
+<text><b>Neurotic</b></text>
+<box>
+<text>Never shuts up57 No sense of humor</text>
+</box>
+<text><b>Obsequious</b></text>
+<text><b>Obese</b></text>
+<text><b>Opinionated</b></text>
+<text><b>Optimistic</b></text>
+<text><b>Overbearing</b></text>
+<box>
+<text>Particularly high voice65 Particularly long hair</text>
+</box>
+<box>
+<text>Passionate artist or hobbyist68 Perfect teeth</text>
+</box>
+<text><b>Pleasant-smelling</b></text>
+<text><b>Preachy</b></text>
+<text><b>Reclusive</b></text>
+<box>
+<text>Self destructive74 Self glorifying</text>
+</box>
+<text><b>Promiscuous</b></text>
+<box>
+<text>Shaky hands78 Sings or hums a lot</text>
+</box>
+<box>
+<text>Stooped back81 Strong body odor</text>
+</box>
+<text><b>Suave</b></text>
+<text><b>Suspicious</b></text>
+<text><b>Sweaty</b></text>
+<text><b>Theatrical</b></text>
+<text><b>Unfeeling</b></text>
+<box>
+<text>Unusual hair style or color89 Uses big words</text>
+</box>
+<box>
+<text>Very short92 Very tall</text>
+</box>
+<box>
+<text>Visible tattoo95 Walks with a limp</text>
+</box>
+<box>
+<text>Wears toupee or wig98 Well-read</text>
+</box>
+<text><b>Whistles</b></text>
+	</item>
+</body>

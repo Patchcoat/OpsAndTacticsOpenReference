@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Treat Injury (WIS)</header>
+<box>
+<text>Treat Injury (WIS)  The character knows how to use first aid kits to restore health, treat poison, and stabilize characters.</text>
+</box>
+<box>
+<text>With a first aid kit this check allows a patient to restore CHP, full day of rest. A new check is required each day. You can tend to as many patients as you have ranks. The patient must spend all their time resting and the user must dedicate 30 minutes of care per day per patient.</text>
+</box>
+<box>
+<text>With a first aid kit you can restore 1d4 CHP or XHP to a once per day per character. This costs 12 Combat Points.</text>
+</box>
+<box>
+<text>With a first aid kit or applicable supplies you can stop a points the character achieves beyond the TN, they heal an additional bleed dice. This costs 8 Combat Points.</text>
+</box>
+<box>
+<text>With a first aid kit you can remove the Dazed, Stunned, or character that is at −1 or lower CHP without stabilizing them first. This costs 8 Combat Points.</text>
+</box>
+<box>
+<text>With a first aid kit you can tend to a dying character. The other actions, this action cannot be performed without a first aid kit.</text>
+</box>
+<box>
+<text>With a surgery kit you can conduct field surgery, allowing you to grievous wounds. Surgery restores 1d6 CHP or XHP per 2 skill modifiers the character has in Treat Injury, heals all extremity damage, and removes all bleed damage. XHP is always restored first. Undergoing surgery causes fatigue for 24 hours, minus 2 hours for every point above the TN the surgeon achieves. Surgery requires 1d4 hours plus one hour for each point the character&#x27;s CHP has fallen below 0.</text>
+</box>
+<box>
+<text>With a first aid kit, you make a check when a poisoned character effect. If you succeed, you add your Treat Injury rank as a bonus to their Fortitude Saving Throw. This costs 8 Combat Points.</text>
+</box>
+		<text>   Yes for restoring HP, reviving Dazed, Stunned, or Unconscioussurgery. No for all other uses of the skill.</text>
+		<text>   Time</text>
+		<text>   Treat Injury checks take different amounts of time based on the</text>
+	</item>
+</body>

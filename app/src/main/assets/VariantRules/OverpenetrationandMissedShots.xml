@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Overpenetration and Missed Shots</header>
+<box>
+<text>Overpenetration and Missed Shots  On a base level, Ops and Tactics ignores the aftereffects of using improper ammunition when in combat, or when one misses their shot. This variant rule adds the notion of missing or shooting through your target.</text>
+</box>
+		<text>   If an attack roll results in a missed attack by a ranged weapon,continues on for 5 range increments in the direction it was fired until it loses momentum force and lands on the ground or collides with another object.</text>
+		<text>   If an object or target is within the line of fire of thecollides with that target, but the target is considered flat-footed, as they are unaware that the attack is even coming for them. If the roll succeeds, then it is considered a hit and damage is rolled as it would be if it were a normal attack.</text>
+		<text>   The hardness of an object also effects if it can be penetrated.stop the round at all, and the round passes through. Treat that object as concealment, not cover.</text>
+		<header level = "1">Overpenetrating a target</header>
+		<text>   If the ammunition does half or more more of the total possiblethough the target and has the possibility to hit someone else. This only happens with the following kinds of ammunition:</text>
+<list type="unordered">
+<text>Cased Rounds</text>
+<text>FMJ</text>
+<text>Surplus</text>
+<text>Wadcutter</text>
+<text>Semi-Wadcutter</text>
+<text>Solid</text>
+<text>Match Grade</text>
+<text>Super Match Grade</text>
+<text>Semi Jacketed Soft Points</text>
+<text>Armor Piercing</text>
+<text>Tracer</text>
+<text>Shell Rounds</text>
+<text>Slug</text>
+<text>Magnum Slug</text>
+<text>Saboted Slug</text>
+<text>Armor Piercing Slug</text>
+<text>Caseless Rounds</text>
+<text>FMJ</text>
+<text>Match Grade</text>
+<text>Armor Piercing</text>
+<text>Tracer</text>
+<text>Black Powder</text>
+<text>All rounds</text>
+</list>
+		<text>   When using Armor Piercing ammunition, Armor Piercing Slug orfirst target, without exception.</text>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Half Damage</header></tr>
+<tr>
+<text textAlign="center">.41 Rimfire</text><text textAlign="center">1</text><text textAlign="center">0</text></tr>
+<tr>
+<text textAlign="center">.22 Short</text><text textAlign="center">1d2</text><text textAlign="center">1</text></tr>
+<tr>
+<text textAlign="center">.22 Long Rifle</text><text textAlign="center">1d4</text><text textAlign="center">2</text></tr>
+<tr>
+<text textAlign="center">.32 Rimfire</text><text textAlign="center">2d3</text><text textAlign="center">3</text></tr>
+<tr>
+<text textAlign="center">.17 HMR</text><text textAlign="center">1d4+2</text><text textAlign="center">3</text></tr>
+<tr>
+<text textAlign="center">.22 WMR</text><text textAlign="center">2d4+2</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">.44 Henry</text><text textAlign="center">2d6+1</text><text textAlign="center">6</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Half Damage</header></tr>
+<tr>
+<text textAlign="center">.25 ACP</text><text textAlign="center">1d3</text><text textAlign="center">1</text></tr>
+<tr>
+<text textAlign="center">.32 ACP</text><text textAlign="center">1d6</text><text textAlign="center">3</text></tr>
+<tr>
+<text textAlign="center">7.65mm Longue</text><text textAlign="center">1d4+2</text><text textAlign="center">3</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Half Damage</header></tr>
+<tr>
+<text textAlign="center">.380 ACP</text><text textAlign="center">2d4</text><text textAlign="center">4</text></tr>
+<tr>
+<text textAlign="center">8x22mm Nambu</text><text textAlign="center">2d4</text><text textAlign="center">4</text></tr>
+<tr>
+<text textAlign="center">9x18mm PM</text><text textAlign="center">2d4+1</text><text textAlign="center">4</text></tr>
+<tr>
+<text textAlign="center">9x19mm</text><text textAlign="center">2d6</text><text textAlign="center">6</text></tr>
+<tr>
+<text textAlign="center">.40 S&amp;W</text><text textAlign="center">3d4</text><text textAlign="center">6</text></tr>
+<tr>
+<text textAlign="center">.38 ACP</text><text textAlign="center">2d6+1</text><text textAlign="center">6</text></tr>
+<tr>
+<text textAlign="center">.38 Super</text><text textAlign="center">3d4+3</text><text textAlign="center">7</text></tr>
+<tr>
+<text textAlign="center">7.63x25mm Mauser</text><text textAlign="center">2d8</text><text textAlign="center">8</text></tr>
+<tr>
+<text textAlign="center">.22 TCM</text><text textAlign="center">2d3+3</text><text textAlign="center">4</text></tr>
+<tr>
+<text textAlign="center">7.63mm Mannlicher</text><text textAlign="center">1d6+4</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">.357 SIG</text><text textAlign="center">2d6+2</text><text textAlign="center">7</text></tr>
+<tr>
+<text textAlign="center">7.62x25mm Tokarev</text><text textAlign="center">2d8+2</text><text textAlign="center">9</text></tr>
+<tr>
+<text textAlign="center">9x23mm Steyr</text><text textAlign="center">2d6+3</text><text textAlign="center">7</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Half Damage</header></tr>
+<tr>
+<text textAlign="center">.45 ACP</text><text textAlign="center">3d4+2</text><text textAlign="center">7</text></tr>
+<tr>
+<text textAlign="center">.45 GAP</text><text textAlign="center">3d4+2</text><text textAlign="center">7</text></tr>
+<tr>
+<text textAlign="center">10mm Auto</text><text textAlign="center">2d6+4</text><text textAlign="center">8</text></tr>
+<tr>
+<text textAlign="center">.44 AMP</text><text textAlign="center">3d6</text><text textAlign="center">9</text></tr>
+<tr>
+<text textAlign="center">.45 Winchester Magnum</text><text textAlign="center">3d6+1</text><text textAlign="center">9</text></tr>
+<tr>
+<text textAlign="center">.50 GI</text><text textAlign="center">6d3+2</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">.475 Wildey Magnum</text><text textAlign="center">3d6+5</text><text textAlign="center">11</text></tr>
+<tr>
+<text textAlign="center">.460 Rowland</text><text textAlign="center">4d4+2</text><text textAlign="center">9</text></tr>
+<tr>
+<text textAlign="center">.50 Action Express</text><text textAlign="center">3d6+2</text><text textAlign="center">10</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Half Damage</header></tr>
+<tr>
+<text textAlign="center">.38 Long Colt</text><text textAlign="center">1d4</text><text textAlign="center">2</text></tr>
+<tr>
+<text textAlign="center">.38/200</text><text textAlign="center">1d4+3</text><text textAlign="center">3</text></tr>
+<tr>
+<text textAlign="center">.38 S&amp;W</text><text textAlign="center">1d4+3</text><text textAlign="center">3</text></tr>
+<tr>
+<text textAlign="center">.38 Special</text><text textAlign="center">2d4+1</text><text textAlign="center">4</text></tr>
+<tr>
+<text textAlign="center">.476 Enfield</text><text textAlign="center">1d4</text><text textAlign="center">2</text></tr>
+<tr>
+<text textAlign="center">9mm Japanese Revolver</text><text textAlign="center">1d6+2</text><text textAlign="center">4</text></tr>
+<tr>
+<text textAlign="center">7.62x38mmR</text><text textAlign="center">1d8+2</text><text textAlign="center">5</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Half Damage</header></tr>
+<tr>
+<text textAlign="center">.44 American</text><text textAlign="center">1d6+3</text><text textAlign="center">4</text></tr>
+<tr>
+<text textAlign="center">.44 Russian</text><text textAlign="center">1d6+3</text><text textAlign="center">4</text></tr>
+<tr>
+<text textAlign="center">.45 Schofield</text><text textAlign="center">2d4+3</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">.327 Federal Magnum</text><text textAlign="center">2d6+1</text><text textAlign="center">6</text></tr>
+<tr>
+<text textAlign="center">.45 Long Colt</text><text textAlign="center">2d6+1</text><text textAlign="center">6</text></tr>
+<tr>
+<text textAlign="center">.41 Long Colt</text><text textAlign="center">3d4+1</text><text textAlign="center">6</text></tr>
+<tr>
+<text textAlign="center">.455 Webley</text><text textAlign="center">3d4+1</text><text textAlign="center">6</text></tr>
+<tr>
+<text textAlign="center">.357 Magnum</text><text textAlign="center">3d4+3</text><text textAlign="center">7</text></tr>
+<tr>
+<text textAlign="center">.32-20 Winchester</text><text textAlign="center">1d10</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">.44 Special</text><text textAlign="center">1d6+4</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">.38-40 Winchester</text><text textAlign="center">1d6+5</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">.44-40 Winchester</text><text textAlign="center">1d10+5</text><text textAlign="center">7</text></tr>
+<tr>
+<text textAlign="center">.44 Magnum</text><text textAlign="center">3d6</text><text textAlign="center">9</text></tr>
+<tr>
+<text textAlign="center">.454 Casull</text><text textAlign="center">3d6+2</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">.500 S&amp;W Special</text><text textAlign="center">5d6+4</text><text textAlign="center">17</text></tr>
+<tr>
+<text textAlign="center">.500 Wyoming Express</text><text textAlign="center">4d6+2</text><text textAlign="center">13</text></tr>
+<tr>
+<text textAlign="center">.500 S&amp;W Magnum</text><text textAlign="center">7d6</text><text textAlign="center">21</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Half Damage</header></tr>
+<tr>
+<text textAlign="center">.17 Remington</text><text textAlign="center">2d6</text><text textAlign="center">6</text></tr>
+<tr>
+<text textAlign="center">4.6x30mm</text><text textAlign="center">3d4−1</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">5.7x28mm</text><text textAlign="center">3d4−1</text><text textAlign="center">5</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Half Damage</header></tr>
+<tr>
+<text textAlign="center">.30 Carbine</text><text textAlign="center">3d6+1</text><text textAlign="center">9</text></tr>
+<tr>
+<text textAlign="center">5.45x39mm</text><text textAlign="center">4d4</text><text textAlign="center">8</text></tr>
+<tr>
+<text textAlign="center">5.8x42mm</text><text textAlign="center">5d4</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">5.56x45mm</text><text textAlign="center">5d4</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">9x39mm</text><text textAlign="center">4d4+4</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">6mm Lee Navy</text><text textAlign="center">5d4+2</text><text textAlign="center">11</text></tr>
+<tr>
+<text textAlign="center">6.8mm Remington SPC</text><text textAlign="center">5d4+3</text><text textAlign="center">11</text></tr>
+<tr>
+<text textAlign="center">4.73x33mm</text><text textAlign="center">4d4+1</text><text textAlign="center">9</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Half Damage</header></tr>
+<tr>
+<text textAlign="center">6.5x50mm Arisaka</text><text textAlign="center">4d6</text><text textAlign="center">12</text></tr>
+<tr>
+<text textAlign="center">7.92x33mm Kurz</text><text textAlign="center">3d8</text><text textAlign="center">12</text></tr>
+<tr>
+<text textAlign="center">.243 Winchester</text><text textAlign="center">4d6+2</text><text textAlign="center">13</text></tr>
+<tr>
+<text textAlign="center">.300 AAC Blackout</text><text textAlign="center">4d6</text><text textAlign="center">12</text></tr>
+<tr>
+<text textAlign="center">.30-30 Winchester</text><text textAlign="center">4d6+1</text><text textAlign="center">12</text></tr>
+<tr>
+<text textAlign="center">6.5mm Grendel</text><text textAlign="center">4d6+1</text><text textAlign="center">12</text></tr>
+<tr>
+<text textAlign="center">7.62x39mm</text><text textAlign="center">4d6+2</text><text textAlign="center">13</text></tr>
+<tr>
+<text textAlign="center">7.5x54mm French</text><text textAlign="center">4d6+4</text><text textAlign="center">14</text></tr>
+<tr>
+<text textAlign="center">7.62x51mm</text><text textAlign="center">5d6</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">8mm Lebel</text><text textAlign="center">5d6+1</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">7x57mm Mauser</text><text textAlign="center">5d6+2</text><text textAlign="center">16</text></tr>
+<tr>
+<text textAlign="center">7.62x54mmR</text><text textAlign="center">5d6+2</text><text textAlign="center">16</text></tr>
+<tr>
+<text textAlign="center">.303 British</text><text textAlign="center">5d6+3</text><text textAlign="center">16</text></tr>
+<tr>
+<text textAlign="center">.30-40 Krag</text><text textAlign="center">5d6+4</text><text textAlign="center">17</text></tr>
+<tr>
+<text textAlign="center">7.7x58mm Arisaka</text><text textAlign="center">5d6+4</text><text textAlign="center">17</text></tr>
+<tr>
+<text textAlign="center">7.5x55mm Swiss</text><text textAlign="center">5d6+4</text><text textAlign="center">17</text></tr>
+<tr>
+<text textAlign="center">7.92x57mm Mauser</text><text textAlign="center">5d6+5</text><text textAlign="center">17</text></tr>
+<tr>
+<text textAlign="center">.30-06 Springfield</text><text textAlign="center">6d6</text><text textAlign="center">18</text></tr>
+<tr>
+<text textAlign="center">.56-56 Spencer</text><text textAlign="center">2d10+5</text><text textAlign="center">12</text></tr>
+<tr>
+<text textAlign="center">.45-70 Government</text><text textAlign="center">3d10</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">.50-70 Government</text><text textAlign="center">3d10+5</text><text textAlign="center">17</text></tr>
+<tr>
+<text textAlign="center">.458 SOCOM</text><text textAlign="center">3d12</text><text textAlign="center">18</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Half Damage</header></tr>
+<tr>
+<text textAlign="center">.300 Winchester Magnum</text><text textAlign="center">7d6</text><text textAlign="center">21</text></tr>
+<tr>
+<text textAlign="center">.338 Lapua Magnum</text><text textAlign="center">7d8</text><text textAlign="center">28</text></tr>
+<tr>
+<text textAlign="center">7.92x94mm</text><text textAlign="center">7d8</text><text textAlign="center">28</text></tr>
+<tr>
+<text textAlign="center">.50 BMG</text><text textAlign="center">10d8</text><text textAlign="center">40</text></tr>
+<tr>
+</tr>
+</table>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Half Damage</header></tr>
+<tr>
+<text textAlign="center">.410 Bore</text><text textAlign="center">3d4+1</text><text textAlign="center">6</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Half Damage</header></tr>
+<tr>
+<text textAlign="center">20 Gauge</text><text textAlign="center">4d6</text><text textAlign="center">12</text></tr>
+<tr>
+<text textAlign="center">16 Gauge</text><text textAlign="center">4d6+3</text><text textAlign="center">13</text></tr>
+<tr>
+<text textAlign="center">12 Gauge</text><text textAlign="center">5d6</text><text textAlign="center">15</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Damage</header><header textAlign="center">Half Damage</header></tr>
+<tr>
+<text textAlign="center">10 Gauge</text><text textAlign="center">7d6</text><text textAlign="center">21</text></tr>
+</table>
+		<header level = "1">Uses for this rule</header>
+		<text>   This rule can be used if you want to add a more simulation typemindful of what&#x27;s behind their target, as well as not act as recklessly with the wrong kinds of ammunition, and gives more incentive for anti-personnel ammunition purchases.</text>
+	</item>
+</body>

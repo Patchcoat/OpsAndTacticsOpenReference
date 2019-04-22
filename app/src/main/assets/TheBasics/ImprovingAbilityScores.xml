@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Improving Ability Scores</header>
+<box>
+<text>Improving Ability Scores  A character&#x27;s ability scores can change in a multitude of ways, from poisons and diseases to training. A character may also improve their ability score by practicing the ability. In order for a character to improve an ability they must practice it for one week per ability point they wish to improve, plus one additional week per point that the score you are attempting to improve is above 10. After they have practiced the number of weeks they wish to study or practice for, their ability score goes up by the number of points selected. No ability score may be increased higher than 26 using this method. A character must maintain these upgrades with regular practice, by taking at least two hours out of each week to practice and keep their skills up. </text>
+</box>
+<box>
+<text>Example: A character increasing a score from 12 to 13 will take 3 </text>
+</box>
+<box>
+<text>Common ways to practice to improve ability scores include</text>
+</box>
+<text><b>Strength</b></text>
+<list type="unordered">
+<text>Weight training</text>
+<text>Anaerobic gym exercise</text>
+<text>Melee weapon practice</text>
+</list>
+<list type="unordered">
+<text>Yoga and stretching</text>
+<text>Gymnastics</text>
+<text>Marksmanship practice</text>
+</list>
+<list type="unordered">
+<text>Cardiovascular training</text>
+<text>Aerobic gym exercise</text>
+</list>
+<text><b>Intelligence</b></text>
+<list type="unordered">
+<text>Studying academic subjects</text>
+<text>Studying debates, logic, and reasoning</text>
+</list>
+<list type="unordered">
+<text>Situational awareness training</text>
+<text>Meditation</text>
+</list>
+<list type="unordered">
+<text>Practice debating, arguing, and talking</text>
+<text>Practice persuading, intimidating, and beguiling</text>
+</list>
+	</item>
+</body>

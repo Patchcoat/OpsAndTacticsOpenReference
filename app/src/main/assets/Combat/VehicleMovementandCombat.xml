@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Vehicle Movement and Combat</header>
+<box>
+<text>Vehicle Movement and Combat  For simply traveling from point to point, the vehicle used is largely a matter of personal style and finances. Skill checks are only required in extraordinary circumstances. These rules are primarily focused on ground vehicles: cars, trucks, and light military vehicles. The rules can be modified for heavier armored vehicles, and aircraft.</text>
+</box>
+		<text>   A character in a vehicle fills one of several possible roles,</text>
+		<text>   Driver The driver of the vehicle controls its movement. Mostdriven, so the person seated there is the driver. Driving a vehicle costs a minimum of 6 Combat Points, which means that the driver may be able to do something else with their Combat Points. There can be only one driver in a vehicle at one time.</text>
+		<text>   Copilot A copilot can help the driver by taking an aid anothersee the road and advise the driver (in a car, this generally means the front passenger seat). Aiding the driver costs 6 Combat Points. A vehicle can have only one copilot at a time. A copilot can also drive the vehicle if the driver cannot or chooses not to, provided there is a second set of controls at the copilot&#x27;s seat (usually true in aircraft, but not ground vehicles).</text>
+		<text>   Gunner Some vehicles have built-in weapons. If such a weapon ischaracter can man that position and become the gunner. A vehicle can have as many gunners as it has gunner positions.</text>
+		<text>   Passenger All other personnel aboard the vehicle are consideredoperation, but may be able to fire weapons from the vehicle or take other actions.</text>
+		<header level = "1">Scale</header>
+		<text>   These rules use two scales. If the encounter involves bothscene involves only vehicles and they&#x27;re likely to move at much higher speeds than characters or creatures on foot, use vehicle scale.</text>
+		<text>   Character scale is identical to the standard scale: It&#x27;s carriedscale, most vehicles are large enough to occupy multiple squares on the map grid. How many squares a vehicle occupies is specified in the vehicle&#x27;s description.</text>
+		<text>   When moving a vehicle, count the squares from the vehicle&#x27;sthe direction which it is turning. When firing weapons, count squares from the location of the weapon. In character scale, more than one ground vehicle cannot occupy the same square.</text>
+		<text>   In Vehicle scale, grids are not used. Instead the GM willthe character&#x27;s location. It is important to use numerical feet values for anything the characters will target, and reference how long it will take the characters to reach a particular obstacle, based on their speed.</text>
+		<header level = "1">Vehicle Sizes</header>
+		<text>   Vehicles use the same size categories as characters andmodifier applies to its Initiative modifier, maneuver modifier, and Defense. The size modifier is already included in the vehicle statistics.</text>
+<table>
+<tr><header textAlign="center">Vehicle Size</header><header textAlign="center">Size Mod.</header><header textAlign="center">Examples</header></tr>
+<tr>
+<text textAlign="center">Colossal</text><text textAlign="center">−8</text><text textAlign="center">Jumbo Jets, Semi-trucks</text></tr>
+<tr>
+<text textAlign="center">Gargantuan</text><text textAlign="center">−4</text><text textAlign="center">IFVs, APCs, and most aircraft</text></tr>
+<tr>
+<text textAlign="center">Huge</text><text textAlign="center">−2</text><text textAlign="center">Mid-sized cars, Luxury cars</text></tr>
+<tr>
+<text textAlign="center">Large</text><text textAlign="center">−1</text><text textAlign="center">Compact cars, Compact trucks</text></tr>
+<tr>
+<text textAlign="center">Medium</text><text textAlign="center">+0</text><text textAlign="center">Motorcycles, Toy cars, and Mini cars</text></tr>
+</table>
+		<header level = "1">Facing and Firing Arcs</header>
+		<text>   When dealing with vehicles, the vehicle&#x27;s facing (the directionwhich the vehicle is traveling, assuming it isn&#x27;t moving in reverse. It can also determine which weapons aboard the vehicle can be brought to bear on a target.</text>
+		<text>   A weapon built into a vehicle can be mounted to fire in one ofinto a partial or full turret. A partial turret lets a weapon fire into three adjacent fire arcs (such as forward, left, and right), while a full turret lets it fire in any direction. For vehicles with weapons, a weapon&#x27;s arc of fire is given in the vehicle&#x27;s description.</text>
+		<header level = "1">Getting Started</header>
+		<text>   Most vehicles can be entered with 4 Combat Points and starteddescription when it applies.</text>
+		<text>   Vehicle combat differs from Character combat, in that there are</text>
+		<text>   Initiative is determined by rolling Initiative for each vehicle,</text>
+		<header level = "1">Movement Phase</header>
+		<text>   The movement phase is the phase where the vehicles move. Theincreasing or decreasing the speed category, and performing maneuvers. Initiative order goes as normal, and once every vehicle in combat has moved, the Attack Phase begins.</text>
+		<header level = "1">Attack Phase</header>
+		<text>   The attack phase is the phase that allows both the vehicle andPoints as they possess attacking or shifting within the vehicle.</text>
+		<header level = "1">Vehicle Speed</header>
+		<text>   Vehicle speed is expressed in eight categories: Stationary,Street Speed, Highway Speed, and All Out Speed. Each of these speed categories represents a range of possible movement (see Table: Vehicle Speeds and Modifiers). Each movement phase, a vehicle moves according to its current speed category.</text>
+<table>
+<tr><header textAlign="center">Speed</header><header textAlign="center">Req Turn Dist</header><header textAlign="center">Def Mod</header><header textAlign="center">Check/Roll Mod</header></tr>
+<tr>
+<text textAlign="center">Stationary</text><text textAlign="center">—</text><text textAlign="center">+0</text><text textAlign="center">—</text></tr>
+<tr>
+<text textAlign="center">Observing</text><text textAlign="center">—</text><text textAlign="center">+0</text><text textAlign="center">+0</text></tr>
+<tr>
+<text textAlign="center">Cruising</text><text textAlign="center">5&#x27;</text><text textAlign="center">+1</text><text textAlign="center">+0</text></tr>
+<tr>
+<text textAlign="center">Alley</text><text textAlign="center">10&#x27;</text><text textAlign="center">+1</text><text textAlign="center">−1</text></tr>
+<tr>
+<text textAlign="center">Avenue</text><text textAlign="center">15&#x27;</text><text textAlign="center">+2</text><text textAlign="center">−2</text></tr>
+<tr>
+<text textAlign="center">Street</text><text textAlign="center">20&#x27;</text><text textAlign="center">+3</text><text textAlign="center">−4</text></tr>
+<tr>
+<text textAlign="center">Highway</text><text textAlign="center">30&#x27;</text><text textAlign="center">+5</text><text textAlign="center">−6</text></tr>
+<tr>
+<text textAlign="center">All Out</text><text textAlign="center">35&#x27;</text><text textAlign="center">+7</text><text textAlign="center">−8</text></tr>
+</table>
+		<text>   Declaring Speed</text>
+		<text>   At the beginning of their action, a driver must declare theircategory faster or slower than the vehicle&#x27;s speed category at the end of the previous round. A stationary vehicle can change to observing speed in either forward or reverse. Most vehicles cannot go faster than alley speed in reverse. Not all vehicles can reach all speeds, and some vehicles can skip speeds with upgrades.</text>
+<list type="unordered">
+<text>Stationary The vehicle is motionless.</text>
+<text>Observing Speed The vehicle is rolling at a very slow speed, usually used to survey areas. It tops out at about 15 miles per hour.</text>
+<text>Cruising Speed The vehicle is moving at a brisk pace, faster than what would be moved to observe, often used in parking lots and school zones. This speed tops out at about 30 miles per hour.</text>
+<text>Alley Speed This speed is used for safely maneuvering a vehicle in tight spaces, such as alleys and parking garages. It tops out at about 45 miles per hour.</text>
+<text>Avenue Speed This speed is for open roads at a decent speed, up to about 60 miles per hour.</text>
+<text>Street Speed The vehicle is traveling at a moderate speed, up to about 75 miles per hour.</text>
+<text>Highway Speed The vehicle is moving at a typical highway speed, up to about 90 miles per hour.</text>
+<text>All Out Speed The vehicle is traveling extremely fast, more than 110 miles per hour.</text>
+</list>
+		<text>   A fast-moving vehicle is harder to hit than a stationary one butVehicle Speeds and Modifiers, when a vehicle travels at street speed or faster, it gains a bonus to Defense. However, that speed brings along with it a penalty on all skill checks and attack rolls made by characters aboard the vehicle, including Drive checks to control the vehicle and attacks made from it.</text>
+		<header level = "1">Driving a Vehicle</header>
+		<text>   Driving a vehicle cost 6 Combat Points, taken by the vehicle&#x27;sdistance within its speed category. The driver can attempt maneuvers to change the vehicle&#x27;s course or speed. These maneuvers can be attempted at any point along the vehicle&#x27;s route.</text>
+		<text>   The two kinds of vehicle movement are simple maneuvers and</text>
+		<text>   Simple Maneuvers</text>
+		<text>   A simple maneuver, such as a 45-degree turn, is easy to perform.while they move the vehicle for no Combat Point cost. However, simple maneuvers do cost movement, so a vehicle that makes a lot of simple maneuvers will not get as far as one going in a straight line. Simple maneuvers do not require the driver to make skill checks.</text>
+		<text>   Stunts</text>
+		<text>   Stunts are difficult and sometimes daring maneuvers that enableradically than a simple maneuver allows. A stunt costs 6 Combat Points. Stunts always require Drive checks.</text>
+		<header level = "1">Simple Maneuvers</header>
+		<text>   During a vehicle&#x27;s movement, the driver can perform any one of</text>
+		<text>   45° Turn</text>
+		<text>   Any vehicle can make a simple 45° turn as part of its movement.its required turn distance (shown on Table: Vehicle Speeds and Modifiers) before it can turn. After the turn, the vehicle must move at least a number of feet equal to its required turn distance.</text>
+		<text>   Ram</text>
+		<text>   At character scale, a driver does not have to perform a maneuvervehicle into the other vehicle, and a collision occurs (see Collisions and Ramming).</text>
+		<text>   At vehicle scale, however, more than one vehicle can occupy thea simple maneuver. The driver moves their vehicle into the other vehicle and states that they are attempting to ram. Resolve the ram as a collision except that the driver of the target vehicle can make a Reflex Saving Throw [TN15] to reduce the damage to both vehicles by half.</text>
+		<header level = "1">Stunts</header>
+		<text>   Stunts are maneuvers that require a Drive check to performending up someplace other than where the driver intended. When this happens, the vehicle collides with any objects that are in its path. Remember that the check/roll modifier from Table: Vehicle Speeds and Modifiers affects all Drive checks made by the driver and attack rolls made by all occupants of the vehicle.</text>
+		<text>   Avoid Hazard</text>
+		<text>   Vehicle combat rarely occurs on a perfectly flat, featurelessa hazard the driver must succeed on a Drive check to avoid the hazard and continue moving.</text>
+		<text>   Structures simply cannot be avoided. Also, if a driver cannotround in performing other stunts) they automatically fail to avoid the hazard. In such cases, a collision occurs.</text>
+		<text>   The TN to avoid a hazard varies with the nature of the hazard.</text>
+		<text>   On a failed check, the vehicle hits the obstacle. An oil slickof the vehicle. Failing to avoid an object results in a collision with the object.</text>
+		<text>   Caltrops</text>
+		<text>   Caltrops are four-pronged steel spikes designed so that onevehicle fails its avoid hazard check, the caltrops make an attack against the vehicle with a +2 attack bonus. If the attack is successful, the vehicle&#x27;s tires are destroyed and the driver is forced to make a Drive check [TN19] to retain control. The vehicle&#x27;s max speed is reduced to observing speed until the tires are changed.</text>
+		<text>   Oil Slick</text>
+		<text>   An oil slick is a large pool of oil (or any hydrophobic,are forced to make a Drive check [TN18] to retain control of the vehicle.</text>
+<table>
+<tr><header textAlign="center">Hazard</header><header textAlign="center">TN</header></tr>
+<tr>
+<text textAlign="center">Caltrops</text><text textAlign="center">16</text></tr>
+<tr>
+<text textAlign="center">Oil Slick</text><text textAlign="center">18</text></tr>
+<tr>
+<text textAlign="center">Small Object (tire, light debris)</text><text textAlign="center">8</text></tr>
+<tr>
+<text textAlign="center">Medium Object (crate)</text><text textAlign="center">12</text></tr>
+<tr>
+<text textAlign="center">Large Object (pile of wreckage)</text><text textAlign="center">19</text></tr>
+<tr>
+<text textAlign="center">Structure</text><text textAlign="center">—</text></tr>
+</table>
+		<text>   Bootleg Turn</text>
+		<text>   By making a bootleg turn a driver can radically change directioncomes to a stop.</text>
+		<text>   Before a vehicle can make a bootleg turn it must move in aturn distance. To make a bootleg turn, simply change the vehicle&#x27;s facing to the desired direction. The vehicle ends its movement in that location, at stationary speed.</text>
+		<text>   The TN for a bootleg turn depends on the change in facing.</text>
+		<text>   On a failed check, instead of facing the desired direction, theretain control against a TN equal to the TN for the bootleg turn attempted.</text>
+<table>
+<tr><header textAlign="center">Facing Change</header><header textAlign="center">TN</header></tr>
+<tr>
+<text textAlign="center">45°</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">90°</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">135°</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">180°</text><text textAlign="center">20</text></tr>
+</table>
+		<text>   Dash</text>
+		<text>   With a dash stunt, a driver can increase the vehicle&#x27;s speed bymade at the beginning of the driver&#x27;s action; if the driver increased speed at that time, they can accelerate a total of two categories in the same round. </text>
+		<text>   The TN for a dash is 15. The driver can only succeed at one dash</text>
+		<text>   On a failed check the vehicle does not change speed categories.</text>
+		<text>   Hard Brake</text>
+		<text>   With a hard brake stunt, a driver can reduce the vehicle&#x27;s speedmade at the beginning of his action; if the driver reduced speed at that time, they can drop a total of two categories in the same round. The vehicle&#x27;s movement for the round ends immediately.</text>
+		<text>   The TN for a hard brake is 15. The driver can only succeed atchange speed categories. Make a Drive check [TN15] to retain control (see Losing Control).</text>
+		<text>   Hard Turn</text>
+		<text>   A hard turn allows a vehicle to make a turn in a short distance</text>
+		<text>   A hard turn functions like a 45° turn simple maneuver, exceptequal to half its required turn distance (rounded down).</text>
+		<text>   The TN for a hard turn is 15.</text>
+		<text>   On a failed check the vehicle continues to move forward a numberas with a simple 45° turn. Make a Drive check [TN15] to retain control.</text>
+		<text>   Jump</text>
+		<text>   A driver can attempt to jump their vehicle across a gap in their</text>
+		<text>   To make a jump the vehicle must move in a straight line a number</text>
+		<text>   The TN for a jump depends on the width of the gap modified by</text>
+		<text>   On a failed check, the vehicle fails to clear the gap, anddamage as for a collision (see Collisions and Ramming).</text>
+<table>
+<tr><header textAlign="center">Gap Width</header><header textAlign="center">TN</header></tr>
+<tr>
+<text textAlign="center">1-3&#x27; (ditch)</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">4-7&#x27; (culvert)</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">8-15&#x27; (creek, small ravine)</text><text textAlign="center">25</text></tr>
+<tr>
+<text textAlign="center">16-25&#x27; (narrow road, small pond)</text><text textAlign="center">30</text></tr>
+<tr>
+<text textAlign="center">26-40&#x27; (wide road, small river)</text><text textAlign="center">35</text></tr>
+<tr>
+<text textAlign="center">Vehicle Speed Category</text><text textAlign="center">TN Mod</text></tr>
+<tr>
+<text textAlign="center">Observational</text><text textAlign="center">+20</text></tr>
+<tr>
+<text textAlign="center">Cruising</text><text textAlign="center">+15</text></tr>
+<tr>
+<text textAlign="center">Alley</text><text textAlign="center">+10</text></tr>
+<tr>
+<text textAlign="center">Avenue</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">Street</text><text textAlign="center">+0</text></tr>
+<tr>
+<text textAlign="center">Highway</text><text textAlign="center">−5</text></tr>
+<tr>
+<text textAlign="center">All Out</text><text textAlign="center">−10</text></tr>
+</table>
+		<text>   A shallow gap (1 to 3 feet deep) is equivalent to a Medium-sizefrom the failed jump by treating the far side as a hazard and then continue moving (see Avoid Hazard, above).</text>
+		<text>   A moderately deep gap (4 to 10 feet deep) is equivalent to awalls are not too steep.</text>
+		<text>   A deeper gap (11 feet or deeper) is equivalent to a Colossalare not too steep.</text>
+		<text>   If the gap is filled with water, the vehicle takes only halfis too deep or the bottom is too soft (GM&#x27;s discretion), the vehicle might not be able to move.</text>
+		<text>   Sideswipe</text>
+		<text>   During a vehicle&#x27;s movement, a driver can attempt to sideswipe aramming it or to cause another driver to lose control of their vehicle.</text>
+		<text>   At character scale, a vehicle must be side by side with itsside) and moving in the same direction. Attempting a sideswipe costs 1 square of movement.</text>
+		<text>   If the stunt is successful the sideswiping vehicle and theand Ramming), except that the collision multiplier is ¼, and the target (or driver of the target vehicle) can make a Reflex Saving Throw [TN15] to reduce the damage to both by half. If the target is another vehicle the driver must succeed at a Drive check [TN15] at the beginning of their next action or lose control of the vehicle. The TN for a sideswipe is 15 and is modified by the relative size and speed of the target.</text>
+<table>
+<tr><header textAlign="center">Target Condition</header><header textAlign="center">TN Modifier</header></tr>
+<tr>
+<text textAlign="center">Each size category larger</text><text textAlign="center">−5</text></tr>
+<tr>
+<text textAlign="center">Each size category smaller</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">Each speed category of difference</text><text textAlign="center">−2</text></tr>
+</table>
+		<text>   On a failed check, both vehicles take damage as though thenot need to make a check to retain control.</text>
+		<header level = "1">Terrain</header>
+		<text>   The terrain a vehicle is driving on can also change how a</text>
+<list type="unordered">
+<text>Paved Road Paved roads are roads made of cement, asphalt, or any other kind of standard paving. They have no special rules.</text>
+<text>Semi-Paved Road These roads include gravel, hard compacted dirt roads, and any other kind of road where traditional paving is not used. They grant a −1 penalty to all Drive checks.</text>
+<text>Wilderness Wilderness includes loose dirt roads, sand, or any kind of road off the beaten path. When driving on this type of surface, the maximum speed is reduced by 4 categories.</text>
+<text>Icy and Snow Modifier Ice and snow remove traction from the road, making it harder to steer and gain control. When driving on any kind of road that is considered icy or snowy, there is a −4 penalty to Drive checks.</text>
+<text>Rain Modifier Rain makes it somewhat more difficult to drive, with the loss of traction. When driving on any kind of road that has been rained on, there is a −2 penalty to Drive checks.</text>
+</list>
+		<text>   Here is what a vehicle driver can do during the Movement Phase:</text>
+<list type="unordered">
+<text>Choose the Vehicle&#x27;s Speed The driver may increase or decrease their vehicle&#x27;s speed category by one (or keep it the same).</text>
+<text>Movement Move and maneuver, and attempt a single stunt as part of the movement.</text>
+</list>
+		<text>   A collision occurs when a vehicle strikes another vehicle or aor other moving vehicle, the target can attempt a Reflex Saving Throw [TN15] to reduce the damage by half.</text>
+		<text>   Resolving Collisions</text>
+		<text>   The base damage dealt by a vehicle collision depends on thethe largest size of the two colliding objects and refer to Table: Collision Damage.</text>
+<table>
+<tr><header textAlign="center">Highest Speed</header><header textAlign="center">Damage Die</header></tr>
+<tr>
+<text textAlign="center">Observational</text><text textAlign="center">1</text></tr>
+<tr>
+<text textAlign="center">Cruising</text><text textAlign="center">d2</text></tr>
+<tr>
+<text textAlign="center">Alley</text><text textAlign="center">d4</text></tr>
+<tr>
+<text textAlign="center">Avenue</text><text textAlign="center">d6</text></tr>
+<tr>
+<text textAlign="center">Street</text><text textAlign="center">d8</text></tr>
+<tr>
+<text textAlign="center">Highway</text><text textAlign="center">d10</text></tr>
+<tr>
+<text textAlign="center">All Out</text><text textAlign="center">d12</text></tr>
+<tr>
+<text textAlign="center">Smallest Object or Creature Size</text><text textAlign="center"># of Dice</text></tr>
+<tr>
+<text textAlign="center">Colossal</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">Gargantuan</text><text textAlign="center">16</text></tr>
+<tr>
+<text textAlign="center">Huge</text><text textAlign="center">12</text></tr>
+<tr>
+<text textAlign="center">Large</text><text textAlign="center">8</text></tr>
+<tr>
+<text textAlign="center">Medium</text><text textAlign="center">4</text></tr>
+<tr>
+<text textAlign="center">Small</text><text textAlign="center">2</text></tr>
+<tr>
+<text textAlign="center">Tiny</text><text textAlign="center">1</text></tr>
+<tr>
+<text textAlign="center">Smaller than Tiny</text><text textAlign="center">0</text></tr>
+</table>
+		<text>   After finding the base damage, determine the collision&#x27;s damagevehicle or object. For vehicles moving in reverse, consider the back end to be the vehicle&#x27;s “front” for determining the collision multiplier. Consult Table: Collision Direction for a multiplier.</text>
+		<text>   Once the damage has been determined, apply it to both vehiclesvehicles reduce their speed by two speed categories. If the colliding vehicle moved the minimum number of feet for its new speed category before the collision it ends its movement immediately. If not, it pushes the other vehicle or object aside, if possible, and continues until it has moved the minimum number of feet for its new speed category.</text>
+<table>
+<tr><header textAlign="center">Colliding Vehicle&#x27;s Target</header><header textAlign="center">Multiplier</header></tr>
+<tr>
+<text textAlign="center">A stationary object</text><text textAlign="center">×1</text></tr>
+<tr>
+<text textAlign="center">A moving vehicle,</text></tr>
+</table>
+<box>
+<text>striking from the rear or 45° from the rear  |     ×½     || A vehicle being sideswiped (see Sideswipe)                      |     ×¼     |+-----------------------------------------------------------------+------------+</text>
+</box>
+		<text>   The driver of the vehicle that caused the collision mustvehicle (see Losing Control, below). The driver of the other vehicle must succeed on a Drive check [TN15] at the beginning of their next action or lose control of their vehicle.</text>
+		<text>   Damage to Vehicles Occupants</text>
+		<text>   When a vehicle takes damage from a collision its occupants maycover offered by the vehicle.</text>
+<table>
+<tr><header textAlign="center">Cover</header><header textAlign="center">Damage</header></tr>
+<tr>
+<text textAlign="center">None</text><text textAlign="center">Same damage taken by vehicle</text></tr>
+<tr>
+<text textAlign="center">¼</text><text textAlign="center">½ damage taken by vehicle</text></tr>
+<tr>
+<text textAlign="center">½</text><text textAlign="center">¼ damage taken by vehicle</text></tr>
+<tr>
+<text textAlign="center">¾ or more</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Each of the occupants may make a Reflex Saving Throw [TN15] to</text>
+		<header level = "1">Losing Control</header>
+		<text>   A collision or a failed stunt can cause a driver to loseDrive check to retain control of the vehicle. If this check is successful the driver maintains control of the vehicle.</text>
+		<text>   If the check fails the vehicle goes into a spin. If it fails bymodifier from Table: Vehicle Speeds and Modifiers applies to all Drive checks.</text>
+		<text>   An out-of-control vehicle may strike an object or other vehicle.</text>
+		<text>   Spin</text>
+		<text>   The vehicle skids, spinning wildly.</text>
+		<text>   At character scale, the vehicle moves in its current direction athen ends its movement. Once it stops, roll 1d8 to determine its new facing.</text>
+		<text>   At vehicle scale, the vehicle moves 5&#x27; and stops. Roll to</text>
+<table>
+<tr><header textAlign="center">1</header><header textAlign="center">no change</header></tr>
+<tr>
+<text textAlign="center">2</text><text textAlign="center">right 45°</text></tr>
+<tr>
+<text textAlign="center">3</text><text textAlign="center">right 90°</text></tr>
+<tr>
+<text textAlign="center">4</text><text textAlign="center">right 135°</text></tr>
+</table>
+		<text>   Roll</text>
+		<text>   The vehicle tumbles, taking damage.</text>
+		<text>   At character scale, the vehicle rolls in a straight line in itsdistance for its speed, then ends its movement. At the end of the vehicle&#x27;s roll, reorient the vehicle perpendicular to its original direction of travel (determine left or right randomly).</text>
+		<text>   At vehicle scale, the vehicle rolls 5&#x27; before stopping and</text>
+		<text>   At either scale, a vehicle takes damage equal to 2d6 x therequired turn distance from character scale even at vehicle scale). The vehicle&#x27;s occupants take damage equal to 2d4 x the character scale required turn distance for its speed (Reflex Saving Throw [TN15] for half damage).</text>
+		<header level = "1">Hide and Seek</header>
+		<text>   When being pursued, a driver can attempt a Stealth check to losethe pursuer before turning onto an off-ramp or a side street.</text>
+		<text>   To make a Stealth check use the normal rules for hiding (see thebecause the driver is hiding among other vehicles, most of which are size Large or Huge, they gain a +8 bonus on the check. This use of the Stealth skill can only be attempted in fairly heavy traffic; in lighter traffic the GM might not allow it or might apply a penalty to the check.</text>
+		<text>   A driver can use Presence to make a pursuer think they are goingmaking a turn onto an off-ramp or side street, make a Presence check opposed by the pursuer&#x27;s Presence check. If the driver is successful the pursuer takes a −5 penalty on any Drive check needed to make the turn to follow the driver. If the other driver can make the turn using only simple maneuvers and does not have to make a Drive check the Presence attempt has no effect.</text>
+		<header level = "1">Fighting from Vehicles</header>
+		<text>   The following rules provide a further framework for combat</text>
+		<text>   Actions during the Attack Phase of vehicle combat are handled</text>
+		<text>   Changing position within a vehicle is usually 5 Combat Points,character. If the character&#x27;s movement is short and unobstructed, the character can do it at the cost of regular movement.</text>
+		<text>   Anyone aboard a vehicle can make an attack with a personalvehicle-mounted weapons controlled from their positions.</text>
+		<header level = "1">Crew Quality</header>
+		<text>   Rather than force the GM to create, or remember, statistics for“crew quality” descriptor. This indicates a typical crew&#x27;s aptitude with the vehicle&#x27;s systems. Table: Crew Quality shows the five levels of crew quality for GM-controlled vehicle crews, along with the appropriate check modifier. Use the check modifier for all skill checks related to the operation of the vehicle (including Drive and Craft (Mechanical, Electronic, or Structural) checks). Use the attack bonus for all attack rolls performed by the crew. For quick reference, Table: Crew Quality shows the typical crew quality, and the crew&#x27;s total Initiative and maneuver modifiers, for the vehicles covered in this book.</text>
+		<text>   This by no means restricts the GM from creating unique vehiclescharacters&#x27; abilities when they drive or attack from vehicles. It&#x27;s merely a shortcut to save time if the GM doesn&#x27;t have particular characters behind the wheel.</text>
+<table>
+<tr><header textAlign="center">Crew Quality</header><header textAlign="center">Check Modifier</header><header textAlign="center">Attack Bonus</header></tr>
+<tr>
+<text textAlign="center">Untrained</text><text textAlign="center">−4</text><text textAlign="center">−2</text></tr>
+<tr>
+<text textAlign="center">Normal</text><text textAlign="center">+2</text><text textAlign="center">+0</text></tr>
+<tr>
+<text textAlign="center">Skilled</text><text textAlign="center">+4</text><text textAlign="center">+2</text></tr>
+<tr>
+<text textAlign="center">Expert</text><text textAlign="center">+8</text><text textAlign="center">+4</text></tr>
+<tr>
+<text textAlign="center">Ace</text><text textAlign="center">+12</text><text textAlign="center">+6</text></tr>
+</table>
+		<header level = "1">Attack Options</header>
+		<text>   Firing a vehicle&#x27;s weapon requires the use of Combat Points,ranged attack modifier.</text>
+		<text>   A driver with 5 or more ranks in the Drive skill gains a +2</text>
+		<text>   Some military vehicles are equipped with fire-control computers.vehicle-mounted weapons to which they apply.</text>
+<box>
+<text>Driving Defensively Just as in melee combat, one can fight bonus to the vehicle&#x27;s Defense and applies a −4 penalty on attack rolls made by occupants of the vehicle. It has the same Combat Point cost as normal.</text>
+</box>
+		<text>   An attack made against a vehicle uses the vehicle&#x27;s Defensetarget specific vehicle occupants.</text>
+		<text>   An attack against a vehicle occupant is made like any otherbonuses to Defense from both the vehicle&#x27;s speed and any cover it provides.</text>
+		<text>   When a character fires from a vehicle, objects or other vehicles</text>
+		<header level = "1">Damaging Vehicles</header>
+		<text>   All vehicles have Hit Points which are roughly equivalent to aalso have hardness. Whenever a vehicle takes damage, subtract the vehicle&#x27;s hardness from the damage dealt.</text>
+		<text>   When a vehicle is reduced to 0 Hit Points, it is disabled.that is disabled while moving drops one speed category each round until it comes to a stop. The driver cannot attempt any maneuvers except a 45-degree turn.</text>
+		<text>   A vehicle is destroyed when it loses Hit Points equal to twice</text>
+		<text>   Tires</text>
+		<text>   Most ground vehicles need tires to move. Targeting a tire is athe driver must make a Drive check [TN16] or lose control of the vehicle. For every tire lost, the vehicle loses one-quarter of its speed.</text>
+		<text>   Energy Attacks</text>
+		<text>   Vehicles are treated as objects when subjected to energy</text>
+		<text>   Exploding Vehicles</text>
+		<text>   If the attack that disables a vehicle deals damage equal to half1d6 rounds. This explosion deals 15d6 points of Fire damage to everyone within the vehicle (Reflex Saving Throw [TN20] for half damage) and half that much to everyone and everything within 30 feet of the explosion (Reflex Saving Throw [TN15] for half damage).</text>
+		<text>   Repairing Damage</text>
+		<text>   Repairing damage to a vehicle takes a full hour of work, afacility. Without the tool kit, a character takes a −4 penalty on their Craft check. At the end of the hour, make a Craft (Structural) check [TN20]. Success restores 2d6 HP. If damage remains, the character may continue to make repairs for as many hours as it takes to restore all of the vehicle&#x27;s HP.</text>
+	</item>
+</body>

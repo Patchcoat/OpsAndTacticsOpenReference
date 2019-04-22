@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Linguistics (None) Trained Only</header>
+<box>
+<text>Linguistics (None) Trained Only  This skill allows a character to speak, read, and write a language. The Linguistics skill doesn&#x27;t work like a standard skill.</text>
+</box>
+<list type="unordered">
+<text>To read, write and speak a language costs 1 rank.</text>
+<text>A character never makes Linguistics checks. A character either knows how to read and write a specific language or doesn&#x27;t.</text>
+<text>A character may choose any language, modern or ancient. The GM may rule that a character can&#x27;t learn a specific language due to the circumstances of the campaign.</text>
+</list>
+		<text>   There are thousands of languages to choose from when a charactertheir general language groups. A language&#x27;s group doesn&#x27;t matter when a character is buying ranks in Linguistics. This list is by no means exhaustive—there are many more language groups and most groups contain more languages than those listed here.</text>
+<list type="unordered">
+<text>Greek</text>
+<text>Gaelic</text>
+<text>Chinese Cantonese, Mandarin, </text>
+<text>Germanic English, German</text>
+<text>Indic Hindi, Punjabi</text>
+<text>Pashto</text>
+<text>Japanese</text>
+<text>Korean</text>
+<text>Romantic French, Italian, Latin*, Portuguese, Spanish</text>
+<text>Semitic Arabic, Hebrew</text>
+<text>Slavic Czech, Polish, Russian</text>
+<text>Turkish</text>
+</list>
+	</item>
+</body>

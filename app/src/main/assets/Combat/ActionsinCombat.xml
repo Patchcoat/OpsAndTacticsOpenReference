@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Actions in Combat</header>
+<box>
+<text>Actions in Combat  The fundamental actions of moving and attacking cover most of what a character wants to do in a battle. They are described here.</text>
+</box>
+		<text>   Each round represents 6 seconds in the game world. A round is anaction. Anything that a person could reasonably do in 6 seconds, a character can do in 1 round. Each round&#x27;s activity begins with the character with the highest Initiative result and then proceeds, in order from there. Each round of a combat uses the same Initiative order. When a character&#x27;s turn comes up in the Initiative sequence that character use their Combat Points to perform actions. For exceptions, see AoO and Special Initiative Actions. For almost all purposes there is no special meaning to the beginning or end of a round. A round can be a segment of game time starting with the first character to act and ending with the last, but it usually means a span of time from a certain round to the same Initiative number in the next round. Effects that last a certain number of rounds end just before the same Initiative count that they began on.</text>
+		<text>   Combat Points</text>
+		<text>   Combat Points are a measurement of how much a character can dothey possess, but once they spend all of their Combat Points their turn is over.</text>
+		<text>   Action Types</text>
+		<text>   The three types of actions are attack, move, and speak actions.they&#x27;d like, as long as they have enough Combat Points for all of their actions. In some situations (such as in the surprise round) a character may be limited to a certain amount of Combat Points they can spend.</text>
+		<text>   Attack Action</text>
+<box>
+<text>An attack action is an action where a character attacks attacks as they have Combat Points to spend. A character can physically move some distance before or after performing an attack action.</text>
+</box>
+<box>
+<text>A move action is an action where a character moves in some way. other object, standing up, sitting down, or picking up or manipulating an object.</text>
+</box>
+<box>
+<text>A speak action allows a character to convey information in the during this action and it is usually spoken all the while he performs his actions.</text>
+</box>
+<table>
+<tr><header textAlign="center">Attack Actions</header><header textAlign="center">AoO¹</header></tr>
+<tr>
+<text textAlign="center">Attack (melee)</text><text textAlign="center">Maybe</text></tr>
+<tr>
+<text textAlign="center">Attack (ranged)</text><text textAlign="center">Yes⁶</text></tr>
+<tr>
+<text textAlign="center">Attack (unarmed)</text><text textAlign="center">Yes</text></tr>
+<tr>
+<text textAlign="center">Attack (aid another)</text><text textAlign="center">No</text></tr>
+<tr>
+<text textAlign="center">Escape a grapple</text><text textAlign="center">No</text></tr>
+<tr>
+<text textAlign="center">Ready (triggers an attack action)</text><text textAlign="center">No</text></tr>
+<tr>
+<text textAlign="center">Attack a weapon</text><text textAlign="center">Yes</text></tr>
+<tr>
+<text textAlign="center">Attack an object</text><text textAlign="center">Maybe²</text></tr>
+<tr>
+<text textAlign="center">Call a Shot</text><text textAlign="center">No</text></tr>
+<tr>
+<text textAlign="center">Coup de Grâce</text><text textAlign="center">Yes</text></tr>
+<tr>
+<text textAlign="center">Move Actions</text><text textAlign="center">AoO¹</text></tr>
+<tr>
+<text textAlign="center">Move actual distance</text><text textAlign="center">Yes</text></tr>
+<tr>
+<text textAlign="center">Use a piece of equipment</text><text textAlign="center">No</text></tr>
+<tr>
+<text textAlign="center">Retrieve a stored object from a MOLLE pouch</text><text textAlign="center">Yes</text></tr>
+<tr>
+<text textAlign="center">Climb</text><text textAlign="center">No</text></tr>
+<tr>
+<text textAlign="center">Climb, accelerated</text><text textAlign="center">No</text></tr>
+<tr>
+<text textAlign="center">Crawl</text><text textAlign="center">No</text></tr>
+<tr>
+<text textAlign="center">Draw a weapon from a holster or sheath³</text><text textAlign="center">No</text></tr>
+<tr>
+<text textAlign="center">Holster a weapon</text><text textAlign="center">Yes</text></tr>
+<tr>
+<text textAlign="center">Move a heavy object</text><text textAlign="center">Yes</text></tr>
+<tr>
+<text textAlign="center">Open a door</text><text textAlign="center">No</text></tr>
+<tr>
+<text textAlign="center">Pick up an object</text><text textAlign="center">Yes</text></tr>
+<tr>
+<text textAlign="center">Reload</text><text textAlign="center">Yes</text></tr>
+<tr>
+<text textAlign="center">Stand up from prone, sitting, or kneeling</text><text textAlign="center">Yes</text></tr>
+<tr>
+<text textAlign="center">Swim</text><text textAlign="center">No</text></tr>
+<tr>
+<text textAlign="center">Use a skill that requires movement</text><text textAlign="center">Usually</text></tr>
+<tr>
+<text textAlign="center">Make a dying character stable</text><text textAlign="center">Yes</text></tr>
+<tr>
+<text textAlign="center">Withdraw</text><text textAlign="center">No</text></tr>
+<tr>
+<text textAlign="center">Reaction</text><text textAlign="center">No</text></tr>
+<tr>
+<text textAlign="center">Speak Action</text><text textAlign="center">AoO¹</text></tr>
+<tr>
+<text textAlign="center">Speak</text><text textAlign="center">No</text></tr>
+<tr>
+<text textAlign="center">Action Type Varies</text><text textAlign="center">AoO¹</text></tr>
+<tr>
+<text textAlign="center">Disarm⁴</text><text textAlign="center">Yes</text></tr>
+<tr>
+<text textAlign="center">Grapple⁴</text><text textAlign="center">Yes</text></tr>
+<tr>
+<text textAlign="center">Trip an opponent⁴</text><text textAlign="center">No</text></tr>
+<tr>
+<text textAlign="center">Use a feat⁵</text><text textAlign="center">Varies</text></tr>
+<tr>
+<text textAlign="center">No Action</text><text textAlign="center">AoO¹</text></tr>
+<tr>
+<text textAlign="center">Delay</text><text textAlign="center">No</text></tr>
+<tr>
+<text textAlign="center">Ready</text><text textAlign="center">No</text></tr>
+</table>
+<box>
+<text>Regardless of the action, if a character moves out of a column indicates whether the action itself, not moving, provokes an AoO.</text>
+</box>
+<box>
+<text>If the character has the Two-Weapon Melee Fighting or one-handed weapons in the Combat Point cost it would normally take to draw one.</text>
+</box>
+<box>
+<text>The description of a feat defines its effect.6 The AoO happens after the original attack has been complete.</text>
+</box>
+	</item>
+</body>

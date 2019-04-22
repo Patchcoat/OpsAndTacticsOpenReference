@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Athletics (STR)</header>
+<box>
+<text>Athletics (STR)  The character is skilled at scaling vertical surfaces and knows how to swim, even in stormy water.</text>
+</box>
+		<text>   Make an Athletics check once per round while you are in theyou fail by 4 or less, you make no progress. If you fail by 5 or more, you go underwater.</text>
+		<text>   If you are underwater, either because you failed an Athleticsmust hold your breath. You can hold your breath for a number of rounds equal to twice your CON score, but only if you spend less than 4 Combat Points during your turn. If you spend more than 4 Combat Points, that round counts as you having been underwater for 2 turns. After this period of time you must make a CON check [TN10] to continue holding your breath. For every round you pass this check the TN is increased by 1. If this check is failed, the character begins to drown. The TN for the check depends on the water, as given on the table below.</text>
+		<text>   Each hour that you swim, you must make an Athletics check [TN20]</text>
+<table>
+<tr><header textAlign="center">Swim</header><header textAlign="center">TN</header></tr>
+<tr>
+<text textAlign="center">Calm Water</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Rough Water</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">Stormy Water</text><text textAlign="center">20¹</text></tr>
+</table>
+<box>
+<text>You can&#x27;t take 10 on a Swim check in stormy water, even if you </text>
+</box>
+		<text>   With a successful Athletics check, you can advance up, down, orceiling, provided it has handholds) at 5&#x27; per 4 Combat Points. A slope is considered to be any incline at an angle measuring less than 60°; a wall is any incline at an angle measuring 60° or more.</text>
+		<text>   The TN of the check depends on the conditions of the climb.an appropriate TN. An Athletics check that fails by 4 or less means that you make no progress, and one that fails by 5 or more means that you fall from whatever height you have already attained.</text>
+		<text>   You need both hands free to climb, but you may cling to a wallrequires only one hand. While climbing, you can&#x27;t move to avoid a blow, so you lose your DEX bonus to DEF (if any). Anytime you take damage while climbing, make an Athletics check against the TN of the slope or wall. Failure means you fall from your current height and sustain the appropriate falling damage.</text>
+		<text>   You can make your own handholds and footholds by pounding pitonsneeded per 5&#x27; of distance. As with any surface that offers handholds and footholds, a wall with pitons in it has a TN of 15. In the same way, a climber with a hand axe or similar implement can cut handholds in an ice wall.</text>
+		<text>   It is practically impossible to catch yourself on a wall whilecan make an Athletic check [TN(20+wall TN)] to do so. It is much easier to catch yourself on a slope with a Athletic check [TN(10+slope TN)].</text>
+		<text>   If someone climbing above or adjacent to you falls, you canreach. Doing so requires a successful melee touch attack against the falling character (though they can voluntarily forgo any DEX bonus to DEF if desired). If you hit, you must immediately make a Athletics check [TN(10+wall TN)]. Success indicates that you catch the falling character, but his total weight, including equipment, cannot exceed your heavy load limit or you lose your grip and fall. If you fail the Athletics check by 4 or less, you fail to stop the character&#x27;s fall but don&#x27;t lose your grip on the wall. If you fail it by 5 or more, you fail to stop the character&#x27;s fall and lose your grip on the wall as well.</text>
+		<text>   Special</text>
+		<text>   Creatures that are adapted to swimming can swim through waterbonus on any Athletics check to perform a special action or avoid a hazard. The creature can always choose to take 10 on an Athletics check, even if distracted or endangered when swimming. You can use a rope to haul a character upward (or lower a character) through sheer strength. You can lift double your maximum load in this manner.</text>
+<table>
+<tr><header textAlign="center">Climbing</header><header textAlign="center">TN</header></tr>
+<tr>
+<text textAlign="center">A slope too steep to walk up, or a knotted rope with a wall to</text></tr>
+<tr>
+<text textAlign="center">A rope with a wall to brace against, or a knotted rope</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">Surface with ledges to hold on to and stand on</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Any surface with adequate handholds and footholds (natural or</text></tr>
+<tr>
+<text textAlign="center">An uneven surface with narrow handholds and footholds</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">A rough surface</text><text textAlign="center">25</text></tr>
+<tr>
+<text textAlign="center">An overhang or ceiling with handholds only</text><text textAlign="center">30</text></tr>
+<tr>
+<text textAlign="center">A perfectly smooth, flat vertical (or inverted) surface</text><text textAlign="center">—</text></tr>
+<tr>
+<text textAlign="center">Climb TN Modifiers¹</text></tr>
+<tr>
+<text textAlign="center">Climbing a location where you can brace against two opposite</text></tr>
+<tr>
+<text textAlign="center">Climbing a corner where you can brace against perpendicular walls</text><text textAlign="center">−5</text></tr>
+<tr>
+<text textAlign="center">Surface is slippery</text><text textAlign="center">+5</text></tr>
+</table>
+<box>
+<text>These modifiers are cumulative; use all that apply.  Try Again?</text>
+</box>
+		<text>   Time</text>
+		<text>   A successful Athletics check allows you to swim at 3 Combatmovement rate. Each movement that includes any climbing requires a separate Athletics check. Catching yourself or another falling character doesn&#x27;t take any Combat Points.</text>
+	</item>
+</body>

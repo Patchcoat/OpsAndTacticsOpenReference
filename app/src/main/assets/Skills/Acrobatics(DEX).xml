@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Acrobatics (DEX)</header>
+<box>
+<text>Acrobatics (DEX)  This skill allows a character to keep their balance while traversing narrow or treacherous surfaces. The character can also dive, flip, jump, and roll to overcome obstacles and twist their body to escape.</text>
+</box>
+		<text>   In addition, you can move through a threatened square withoutin this way, you move at 1 Combat Point per 5&#x27;. You cannot use Acrobatics to move past foes if your Combat Point cost is increased due to carrying a medium or heavy load or wearing medium or heavy armor. The TNs listed are used to avoid an AoO due to movement. This TN increases by 2 for each additional opponent avoided in 1 round.</text>
+		<text>   You can also use the Acrobatics skill to make jumps or tohorizontal distance to be crossed or four times the vertical height. These TNs double if you do not have at least 10 feet of space to get a running start. The only Acrobatics modifiers that apply are those concerning the surface you are jumping from. If you fail this check by 4 or less, you can attempt a Reflex Saving Throw [TN15] to grab hold of the other side after having missed the jump. If you fail the Reflex Saving Throw, you fail to make the jump completely and fall (or land prone, in the case of a vertical jump). For a running jump, the result of your Acrobatics check indicates the distance traveled in the jump (and if the check fails, the distance at which you actually land and fall prone). Halve this result for a standing long jump to determine where you land.</text>
+		<text>   You can also use the Acrobatics skill to to slip out of bonds</text>
+<table>
+<tr><header textAlign="center">Use</header><header textAlign="center">TN</header></tr>
+<tr>
+<text textAlign="center">Move through a threatened area</text><text textAlign="center">10 + Opponent&#x27;s BAB</text></tr>
+<tr>
+<text textAlign="center">Move through an enemy&#x27;s space</text><text textAlign="center">15 + Opponent&#x27;s BAB</text></tr>
+<tr>
+<text textAlign="center">Rope/Bindings</text><text textAlign="center">10 + Binder&#x27;s BAB</text></tr>
+<tr>
+<text textAlign="center">Grapple</text><text textAlign="center">10 + Grappler&#x27;s BAB + FOC</text></tr>
+<tr>
+<text textAlign="center">Surface Width</text><text textAlign="center">TN</text></tr>
+<tr>
+<text textAlign="center">&gt; 3&#x27; wide</text><text textAlign="center">0¹</text></tr>
+<tr>
+<text textAlign="center">1-3&#x27; wide</text><text textAlign="center">5¹</text></tr>
+<tr>
+<text textAlign="center">7-11” wide</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">2-6” wide</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">&lt; 2” wide</text><text textAlign="center">25</text></tr>
+<tr>
+<text textAlign="center">Acrobatics TN Modifiers</text></tr>
+<tr>
+<text textAlign="center">Slightly obstructed (gravel, sand)</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">Severely obstructed (cavern, rubble)</text><text textAlign="center">+10</text></tr>
+<tr>
+<text textAlign="center">Slightly slippery (wet)</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">Severely slippery (icy)</text><text textAlign="center">+10</text></tr>
+<tr>
+<text textAlign="center">Slightly sloped (less than 45°)</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">Severely sloped (45° or more)</text><text textAlign="center">+10</text></tr>
+<tr>
+<text textAlign="center">Slightly unsteady (boat in rough water)</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">Moderately unsteady (boat in a storm)</text><text textAlign="center">+10</text></tr>
+<tr>
+<text textAlign="center">Severely unsteady (earthquake)</text><text textAlign="center">+15</text></tr>
+<tr>
+<text textAlign="center">Move at normal CP cost on narrow or uneven surfaces</text><text textAlign="center">+5²</text></tr>
+</table>
+<box>
+<text>No Acrobatics check is needed to move across these surfaces higher.</text>
+</box>
+		<text>   Try Again?</text>
+		<text>   Varies. If the situation permits, you may make additionalto escape from rope or bindings is higher than 18 + your Acrobatics skill bonus, you can&#x27;t escape from the bonds using Acrobatics.</text>
+		<text>   Time</text>
+		<text>   Making an Acrobatics check to escape from bindings requires 1Points. All other Acrobatics check are made as part of another action or as a reaction to a situation.</text>
+	</item>
+</body>

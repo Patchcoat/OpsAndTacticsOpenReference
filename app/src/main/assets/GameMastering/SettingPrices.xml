@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Setting Prices</header>
+<box>
+<text>Setting Prices  Ops &amp; Tactics uses a wealth system called Wealth Points, where 1 WP is equal to about 20 USD. This makes the setting of prices very easy. If a character wishes to purchase something that isn&#x27;t in the book, you can set the price for it, based on Wealth Points. If it falls somewhere in the middle, always round up for the price. If the cost of the item is less than half a single Wealth Point, then the character can purchase multiples of the object, for a single Wealth Point.</text>
+</box>
+		<text>   Every character has a a profession, and that profession providesthinks it&#x27;s applicable, the players get to roll their salary. This is added to their total wealth point pool. It is assumed that when the characters are not adventuring, the are off doing their respective jobs, in the background.</text>
+	</item>
+</body>

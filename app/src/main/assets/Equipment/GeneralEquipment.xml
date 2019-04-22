@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">General Equipment</header>
+<box>
+<text>General Equipment</text>
+</box>
+<box>
+<text>Units are a general representation of liquid volume.For any liquids not listed in the book, a GM or player can use this formula for calculating the amount of units of any liquid: 1 Unit = 8 fl. oz/236ml</text>
+</box>
+<box>
+<text>A GM can convert distances from feet to meters. When doing so, </text>
+</box>
+		<header level = "1">Bags and Boxes</header>
+		<text>   With the wide variety of equipment available, it is quite oftenaround in.</text>
+		<text>   Aluminum Travel Case</text>
+<box>
+<text>A travel case is a reinforced metal box with foam inserts. case can hold 30 lbs of objects that are Medium or smaller size, the medium case can hold 60 lbs of objects that are Large or smaller size,and the large case can hold 120 lbs of objects that are Large or smaller.</text>
+</box>
+<box>
+<text>This is a good-sized backpack, made of tough water-resistant exterior pockets and straps for attaching tents, bedrolls, or other gear. It can carry up to 60 lbs of objects that are medium or smaller. A backpack gives a character a +3 lbs carrying capacity bonus.</text>
+</box>
+<box>
+<text>A briefcase can carry up to 12 lbs worth of objects that are lock is not very secure; the lock can be picked with a Disable Device check [TN15], break [TN10].</text>
+</box>
+<box>
+<text>A combination tool bag and notebook computer case, this has clear plastic flap for maps or plans. Made of durable fabric, it holds 10 lbs worth of objects that are small size or smaller and comes with a shoulder strap.</text>
+</box>
+<box>
+<text>This is a small backpack, the sort often used by students to hikes. It holds 15 lbs worth of objects that are Medium size or smaller, and fits comfortably over one shoulder in a messenger type style or on both shoulders in a traditional pack type.</text>
+</box>
+<box>
+<text>Handbags provide another way to carry 2 lbs of objects that are basic bag; high-fashion purses can be exponentially expensive.</text>
+</box>
+<box>
+<text>This lightweight black bag has a spacious inner compartment sized or smaller and two zippered components that can hold 2 lbs of Small objects or smaller each. The larger version has a internal compartment that can hold 25 lbs of objects that are Large sized or smaller and another 6 lbs in the zippered external pouch. A range pack gives a character a +3 lbs carrying capacity bonus.</text>
+</box>
+<box>
+<text>A simple bag with either zipper or draw sting closures and a small bag can hold about 20 lbs of objects that are Medium sized or smaller, while the large can hold up to 100 lbs of objects that are Large sized or smaller.</text>
+</box>
+<box>
+<text>This small zippered pouch is fitted with an integral belt or a comes in two sizes, small and large. The small pack can hold 3 lbs of objects that are Small or smaller comfortably, and the large pack can hold 6.5 lbs of objects that are Small or smaller comfortably. All items in a waist pack are considered to be stored in LBE gear. </text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Backpack</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Small Aluminum Travel Case, 30 lb. cap</text><text textAlign="center">M</text><text textAlign="center">4.4</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Medium Aluminum Travel Case, 60 lb. cap</text><text textAlign="center">L</text><text textAlign="center">9.0</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Large Aluminum Travel Case, 120 lb. cap</text><text textAlign="center">L</text><text textAlign="center">15.0</text><text textAlign="center">7</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Briefcase</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Contractor&#x27;s Field Bag</text><text textAlign="center">M</text><text textAlign="center">1.1</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Day Pack</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Handbag</text><text textAlign="center">S</text><text textAlign="center">0.6</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Range Pack, Standard</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">7</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Range Pack, Oversized</text><text textAlign="center">L</text><text textAlign="center">8.0</text><text textAlign="center">11</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Duffel Bag, Small</text><text textAlign="center">M</text><text textAlign="center">0.8</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Duffel Bag, Large</text><text textAlign="center">L</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Waist Pack, Small</text><text textAlign="center">S</text><text textAlign="center">0.5</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Waist Pack, Large</text><text textAlign="center">S</text><text textAlign="center">0.9</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+</table>
+		<header level = "1">Clothing</header>
+		<text>   The items described here represent special clothing types ormost part, clothing choice is based on character concept. It is assumed that a character owns a reasonable wardrobe of the sorts of clothes that fit their lifestyle. Sometimes, however, a character might need something out of the ordinary. When that&#x27;s the case, they will have to purchase it like any other piece of gear. Clothes have three effects on game mechanics: one on Presence checks, one on Stealth checks, and one on environmental factors. First, clothing is part of a disguise.</text>
+		<text>   See the Presence skill description for more on how appropriatefirearms, body armor, and small objects. Tightly tailored clothing imposes a penalty on an attempt to conceal an object; clothing purposely tailored to conceal objects provides a bonus. Clothing also includes worn accessories, such as holsters, sheathes, and armor.</text>
+		<text>   An outfit of clothing represents everything a character needs toshoes or boots, socks or stockings, and any necessary belt or suspenders. The clothes a character wears does not count against the weight limit for encumbrance. Each outfit has a level that is appropriate for a given temperature range (very hot, hot, mild, cold, or very cold), and the wearer can remove layers or roll up cuffs to make it acceptable, if not completely comfortable, for the next higher range. The price listed is for the base set of clothes, high-fashion clothing can be exponentially expensive. </text>
+		<text>   Clothing can also hold equipment. As a general rule, a set ofthat is tiny or smaller, per pocket. Different styles and clothing configurations can change this, up to the GM&#x27;s discretion. Clothing itself, and any items or equipment that is carried within clothing is not counted against a character&#x27;s total carrying capacity. Any weapons carried within a pocket without a holster or sheath, are considered waistband carried.</text>
+		<text>   Business</text>
+<box>
+<text>A business outfit generally includes a jacket or blazer, but can Business clothing tends to look sharp and well groomed without being overly formal.</text>
+</box>
+<box>
+<text>Casual clothes range from cut-off jeans and a T-shirt to neatly </text>
+</box>
+<box>
+<text>From a little black dress to a fully appointed tuxedo, formal designer creations can have a cost much higher than shown on the table.</text>
+</box>
+<box>
+<text>Called “battle dress uniforms” (or BDUs) in the United States alike. They&#x27;re rugged, comfortable, and provide lots of pockets. They are also printed in various camouflage patterns: woodland, desert, winter, urban (gray patterned), and black are available. When worn in an appropriate setting, fatigues grant a +2 bonus on Stealth checks. </text>
+</box>
+<box>
+<text>From the cable guy to a senior Air Force officer, people on the of some disguises since a uniform inclines people to trust the wearer. Wearing a uniform grants a +2 circumstance bonus on all applicable Presence checks. The price of the uniform is based on what particular uniform a character is trying to acquire and is set by the GM. </text>
+</box>
+<box>
+<text>The ultimate in camouflage, a ghillie suit is a loose mesh over purchaser&#x27;s choice. Other camouflaging elements can easily be added. A figure under a ghillie suit is nearly impossible to discern. A character wearing a ghillie suit with appropriate coloration gains a +10 bonus on Stealth checks. It takes 20 minutes to change the suit&#x27;s coloration. However, the bulky suit imposes a penalty of −4 on all DEX checks, DEX-based skill checks (except Stealth), and melee attack rolls.</text>
+</box>
+<box>
+<text>In addition to keeping a character warm and dry, coats and carrying (they often qualify as loose or bulky clothing; see Concealed Weapons and Objects).</text>
+</box>
+<box>
+<text>An outer garment worn on the upper body. Its length and style Fortitude Saving Throws made to resist the effects of cold weather. The price listed is for a simple coat or hoodie, high-fashion clothing can be exponentially expensive. Coats have two pockets than can hold 1.5 lbs of equipment that is Tiny sized or smaller each.</text>
+</box>
+<box>
+<text>A lightweight outer garment fashioned after the fatigue uniforms </text>
+</box>
+<box>
+<text>A warm coat worn over a suit jacket or indoor clothing. The price exponentially expensive. Overcoats have two pockets than can hold 2.0 lbs of equipment that is Tiny sized or smaller each, and an internal pocket that can hold 1 lbs of equipment that is Diminutive sized or smaller.</text>
+</box>
+<box>
+<text>This winter coat grants the wearer a +2 to Fortitude Saving four pockets than can hold 4 lbs of equipment that is Small sized or smaller each</text>
+</box>
+<box>
+<text>These gloves are thick leather working gloves, protecting from someone to work comfortably with these objects and elements.</text>
+</box>
+<box>
+<text>Tool belts and police gun belts fall into this category. They can keep them on hand at all times. They can also attach tactical holsters and tactical holders to them.</text>
+</box>
+		<text>   Flotation Vest</text>
+<box>
+<text>A character wearing a flotation vest need not make Athletics 50 lbs. lighter for the purpose of determining weight penalties with Athletics checks to swimming. A flotation vest can be worn over normal clothing and light to medium armor.</text>
+</box>
+<box>
+<text>The gas mask provides full protection against the effects of tear +6 bonus to Fortitude Saving Throws made to resist inhaled contaminants. The character can also purchase filters that can protect against a single specific type of inhaled poison for 2 WP.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Business, Hot</text><text textAlign="center">M</text><text textAlign="center">3.0</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Business, Mild</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Business, Cold</text><text textAlign="center">M</text><text textAlign="center">4.0</text><text textAlign="center">6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Casual, Very Hot</text><text textAlign="center">M</text><text textAlign="center">1.8</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Casual, Hot</text><text textAlign="center">M</text><text textAlign="center">3.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Casual, Mild</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Casual, Cold</text><text textAlign="center">M</text><text textAlign="center">4.0</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Formal, Hot</text><text textAlign="center">M</text><text textAlign="center">3.0</text><text textAlign="center">6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Formal, Mild</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">7</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Formal, Cold</text><text textAlign="center">M</text><text textAlign="center">3.0</text><text textAlign="center">8</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Fatigues, Hot</text><text textAlign="center">M</text><text textAlign="center">3.0</text><text textAlign="center">7</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Fatigues, Mild</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Fatigues, Cold</text><text textAlign="center">M</text><text textAlign="center">4.0</text><text textAlign="center">9</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Uniform</text><text textAlign="center">M</text><text textAlign="center">3.0</text><text textAlign="center">See text</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Ghillie Suit</text><text textAlign="center">M</text><text textAlign="center">6.0</text><text textAlign="center">6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Coat</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Fatigue Jacket</text><text textAlign="center">M</text><text textAlign="center">1.8</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Overcoat</text><text textAlign="center">M</text><text textAlign="center">3.1</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Parka</text><text textAlign="center">M</text><text textAlign="center">5.0</text><text textAlign="center">7</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Work Gloves</text><text textAlign="center">S</text><text textAlign="center">0.4</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Utility Belt</text><text textAlign="center">S</text><text textAlign="center">1.8</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Flotation Vest</text><text textAlign="center">M</text><text textAlign="center">1.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Gas Mask</text><text textAlign="center">M</text><text textAlign="center">1.5</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Filters, Gas Mask</text><text textAlign="center">T</text><text textAlign="center">0.3</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+</table>
+		<header level = "1">Eyewear</header>
+		<text>   Eyewear encompass everything from basic sunglasses, to the mostof eyewear on at one time.</text>
+		<text>   Flash Goggles</text>
+<box>
+<text>These eye coverings provide total protection against blinding the wearer suffers a −4 ranged attack roll while wearing them.</text>
+</box>
+<box>
+<text>Sunglasses are tinted glasses that block UV rays and bright blindness.</text>
+</box>
+<box>
+<text>Infared goggles are goggles that use heat signatures to locate is warmer than their surroundings in darkness, but because of the restricted view, grant a −5 penalty to all sight based perception checks made by someone wearing them. Mounts can be purchased to mount the IRGs to a combat helmet, at +1 WP to the cost.</text>
+</box>
+<box>
+<text>Night vision goggles are goggles that use passive light gathering the user the ability to see in darkness, but because of the restricted view, grant a −5 penalty to all sight based perception checks made by someone wearing them. When in complete darkness, NVGs must either be used with an infrared illuminator (+8 to the cost), or use another source of infrared light. Mounts can be purchased to mount the NVGs to a combat helmet, at +1 to the cost.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Flash Goggles</text><text textAlign="center">T</text><text textAlign="center">0.4</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Sunglasses</text><text textAlign="center">T</text><text textAlign="center">0.4</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">IRGs</text><text textAlign="center">S</text><text textAlign="center">1.3</text><text textAlign="center">40</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">NVGs</text><text textAlign="center">S</text><text textAlign="center">1.6</text><text textAlign="center">7</text><text textAlign="center">None</text></tr>
+</table>
+		<header level = "1">MOLLE</header>
+		<text>   Modular Lightweight Load-carrying Equipment (MOLLE) isforces. MOLLE can be configured to the user&#x27;s specifications, based on the needs of the user. MOLLE has a number of attachment slots, that can be filled by various pouches.</text>
+		<text>   Kit Pouch (1 slot per 5 pounds)</text>
+<box>
+<text>This pouch can hold a small kit, keeping it on hand at all times </text>
+</box>
+<box>
+<text>This pouch encompasses a holster that holds a firearm of Medium </text>
+</box>
+<box>
+<text>This pouch can hold a single rifle, machine pistol, or SMG magazine a capacity of 10 rounds or less.</text>
+</box>
+<box>
+<text>This pouch can hold two rifle, machine pistol, or SMG magazines capacity of 10 rounds or less.</text>
+</box>
+<box>
+<text>This pouch can hold four rifle, machine pistol, or SMG magazines capacity of 10 rounds or less.</text>
+</box>
+<box>
+<text>This pouch can hold six rifle, machine pistol, or SMG magazines capacity of 10 rounds or less.</text>
+</box>
+<box>
+<text>This pouch can hold up to two handgun magazines or two </text>
+</box>
+<box>
+<text>This pouch can hold twenty five shotgun shells of any caliber.  Cased Ammunition Pouch (1 slot)</text>
+</box>
+		<text>   Grenade Pouch (1 slot)</text>
+<box>
+<text>This pouch can hold two grenades, either hand grenades or grenade </text>
+</box>
+<box>
+<text>This pouch is a simple group of elastic loops made to hold shell loops negates the necessity to spend CP to reach into a pack to retrieve ammunition.</text>
+</box>
+<box>
+<text>This pouch is a simple group of elastic loops made to hold cased cartridge loops negates the necessity to spend CP to reach into a pack to retrieve ammunition.</text>
+</box>
+<box>
+<text>This general purpose pouch can hold small electronic devices, pouches can also be used to carry up to 100 round linked belts of ammunition. It can comfortably hold 4 lbs of gear that is small sized or smaller.</text>
+</box>
+<box>
+<text>This pouch is specially built to hold trauma plates that can help </text>
+</box>
+<box>
+<text>These loops secure a Large weapon to the back of the wearer, minutes to attach or remove a weapon from these loops.</text>
+</box>
+<box>
+<text>This pouch holds 20 arrows or crossbow bolts.  Sheath Pouch (1 slot)</text>
+</box>
+		<text>   Canteen Pouch (1 slot)</text>
+<box>
+<text>This pouch can hold a single canteen for easy use and access.   Backpack Pouch (5 slots)</text>
+</box>
+		<text>   Magazine Feeder Pouch (7 slots)</text>
+<box>
+<text>This pouch can hold ten rifle, machine pistol, or SMG magazines capacity of 5 rounds or less, in a hopper type system.</text>
+</box>
+<box>
+<text>This pouch carries a hydration bladder that holds 16 units of </text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Kit Pouch</text><text textAlign="center">S</text><text textAlign="center">0.5</text><text textAlign="center">3/slot</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Holster Pouch</text><text textAlign="center">S</text><text textAlign="center">0.5</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Single Large Magazine Pouch</text><text textAlign="center">S</text><text textAlign="center">0.5</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Dual Large Magazine Pouch</text><text textAlign="center">S</text><text textAlign="center">0.7</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Quad Large Magazine Pouch</text><text textAlign="center">S</text><text textAlign="center">0.8</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Sextuple Large Magazine Pouch</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Small Magazine/Speedloader Pouch</text><text textAlign="center">S</text><text textAlign="center">0.5</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Shell Pouch</text><text textAlign="center">S</text><text textAlign="center">0.5</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Cased Ammo Pouch</text><text textAlign="center">S</text><text textAlign="center">0.5</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Grenade Pouch</text><text textAlign="center">S</text><text textAlign="center">0.6</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Shell Loops</text><text textAlign="center">S</text><text textAlign="center">0.3</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Cartridge Loops</text><text textAlign="center">S</text><text textAlign="center">0.3</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Utility Pouch</text><text textAlign="center">S</text><text textAlign="center">0.7</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Plate Carrier Pouch</text><text textAlign="center">L</text><text textAlign="center">1.1</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Weapon Carrier Loops</text><text textAlign="center">M</text><text textAlign="center">0.7</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Quiver Pouch</text><text textAlign="center">M</text><text textAlign="center">1.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Sheath Pouch</text><text textAlign="center">S</text><text textAlign="center">0.6</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Canteen Pouch</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Backpack Pouch</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Magazine Feeder Pouch</text><text textAlign="center">M</text><text textAlign="center">4.0</text><text textAlign="center">22</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Hydration Pouch</text><text textAlign="center">M</text><text textAlign="center">2.5</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+</table>
+		<header level = "1">General Kits</header>
+		<text>   General kits are professional gear packages that support skillof each set of kits is widely varied, all kits share the same rules. The kits list everything that comes with the selected kit.</text>
+		<text>   Small Kit</text>
+<box>
+<text>This bare essentials kit reduces the penalty to a +0 with skill </text>
+</box>
+<box>
+<text>This specialized field package confers the benefits of the small </text>
+</box>
+<box>
+<text>This expert tool suite confers the benefits of the small and Often, however, deluxe kits are too large or bulky for easy transport.</text>
+</box>
+<box>
+<text>Generally, most kits can be used multiple times without worrying the bandages, disinfectant, and disposable medical supplies are to be disposed of and will eventually need to be replenished.</text>
+</box>
+<list type="unordered">
+<text>A standard first aid kit can be used 10 times and costs 3 WP to replenish.</text>
+<text>A deluxe first aid kit can be used 25 times and costs 9 WP to replenish.</text>
+<text>A surgery kit can be used 12 times and costs 9 WP to replenish.</text>
+</list>
+		<text>   Small Chemistry Kit</text>
+<box>
+<text>Personal microscope, scale, test tube stand, analytical and cylinders, alcohol lamp, digital multimeter, 12” thermometer, ten shallow 4” dishes, plastic funnel, legal chemical samples.</text>
+</box>
+<box>
+<text>Small chemistry kit plus professional burner, professional personal centrifuge, water bath, flash evaporator, licensed chemical samples.</text>
+</box>
+<box>
+<text>Standard chemistry kit plus wide-angle dissection microscope, viewer, professional centrifuge, illegal chemical samples.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Chemistry Kit, Small</text><text textAlign="center">H</text><text textAlign="center">30.0</text><text textAlign="center">70</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Chemistry Kit, Standard</text><text textAlign="center">H</text><text textAlign="center">75.0</text><text textAlign="center">140</text><text textAlign="center">L</text></tr>
+<tr>
+<text textAlign="center">Chemistry Kit, Deluxe</text><text textAlign="center">G</text><text textAlign="center">250.0</text><text textAlign="center">210</text><text textAlign="center">R</text></tr>
+</table>
+		<text>   Small Construction Kit</text>
+<box>
+<text>Sledgehammer (non-weapons grade), power drill, power saw, nail tool belt, trowel, steel-toe boots, stud finder, duct tape, sand paper, tape measure, and building supplies (cement and drywall mix, lumber, glass, and so on as needed), paint and painting supplies (brushes, mixing tins, etc.), Do-It-Yourself handbook.</text>
+</box>
+<box>
+<text>Small construction kit plus drill press, grinder, lathe, table tools, and metalworking tools.</text>
+</box>
+<box>
+<text>Standard construction kit plus anvil, cement mixer, furnace, portable generator,</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Construction Kit, Small</text><text textAlign="center">H</text><text textAlign="center">50.0</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Construction Kit, Standard</text><text textAlign="center">G</text><text textAlign="center">500.0</text><text textAlign="center">35</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Construction Kit, Deluxe</text><text textAlign="center">C</text><text textAlign="center">750.0</text><text textAlign="center">200</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Small Demolitions Kit</text>
+<box>
+<text>Dentist&#x27;s mirror, non-conductive simple tools (sticks, tweezers, pocket knife, cigarette lighter or waterproof matches, tape (duct, masking, and electrical, 25&#x27; each), grease pencils, chem-lights, pen flashlight, good-luck charm.</text>
+</box>
+<box>
+<text>Small demolitions kit plus hand-held blasting machine, electrical </text>
+</box>
+<box>
+<text>Standard demolitions kit plus fiber optic probe, spectrometer, copy).</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Demolitions Kit, Small</text><text textAlign="center">S</text><text textAlign="center">5.0</text><text textAlign="center">6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Demolitions Kit, Standard</text><text textAlign="center">L</text><text textAlign="center">50.0</text><text textAlign="center">20</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Demolitions Kit, Deluxe</text><text textAlign="center">L</text><text textAlign="center">60.0</text><text textAlign="center">25</text><text textAlign="center">R</text></tr>
+</table>
+		<text>   Small Disguise Kit</text>
+<box>
+<text>Makeup base (flesh tones, shadows, highlights, rouge, etc.), disguise), putty and liquid latex compound (for sculpting scars, boils, warts, etc.), spirit gum adhesive, clear adhesive surgical tape, assorted fake facial hair, makeup brushes and sponges, facial cleanser, general personal grooming items (hairbrush, comb, toothbrush, nail clippers, tweezers, razor), lighted makeup mirror.</text>
+</box>
+<box>
+<text>Small disguise kit plus 2 or 3 changes of casual clothing, teeth, glasses, etc.), hair net or bandanna, soap and hand towels, hair dyes and colors (whitener, highlights, etc.).</text>
+</box>
+<box>
+<text>Standard disguise kit plus wound and deformity prostheses with records of potential subjects, minor props (canes, height-altering shoes, etc.), digital photo makeover software.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Disguise Kit, Small</text><text textAlign="center">M</text><text textAlign="center">20.0</text><text textAlign="center">6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Disguise Kit, Standard</text><text textAlign="center">M</text><text textAlign="center">35.0</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Disguise Kit, Deluxe</text><text textAlign="center">H</text><text textAlign="center">50.0</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Small Electronics Kit</text>
+<box>
+<text>Wire crimper/cutter/stripper, screwdrivers (assorted small flux, electrical tape (40&#x27;), epoxy glue, voltage meter, circuit tester, compressed air duster, wire (varying lengths and widths), assorted spare components (resistors, capacitors, screws, LEDs, etc.), assorted spare batteries, pocket reference of component color codes and mathematical conversions.</text>
+</box>
+<box>
+<text>Small electronics kit plus electrostatic mat, de-soldering lamp with magnifying glass, common schematic manuals.</text>
+</box>
+<box>
+<text>Standard electronics kit plus 2-person clean room, EPROM burner, </text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Electronics Kit, Small</text><text textAlign="center">L</text><text textAlign="center">20.0</text><text textAlign="center">7</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Electronics Kit, Standard</text><text textAlign="center">H</text><text textAlign="center">200.0</text><text textAlign="center">15</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Electronics Kit, Deluxe</text><text textAlign="center">C</text><text textAlign="center">350.0</text><text textAlign="center">40</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Small First Aid Kit</text>
+<box>
+<text>Adhesive bandages (various shapes and sizes), gauze (pads and latex gloves, thermometer, tweezers, razor blades, safety pins, cotton swabs (dry and alcohol-saturated), antibacterial soap, bottle of weak antiseptic solution, antibiotic cream, surgical tape, two 1d4 painkiller pills, antihistamine pills, antacid pills, salt tablets.</text>
+</box>
+<box>
+<text>Small first aid kit plus CPR mask, stethoscope, shears, forceps, pills, folding stretcher, antivenin solution, disposable syringes, blankets, stuffed animal, medical reporting forms and waterproof marker.</text>
+</box>
+<box>
+<text>Standard first aid kit plus portable defibrillator, intravenous cervical collar, local anesthetic solution, field surgical tools. This kit can be used as a small surgery kit.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">First Aid Kit, Small</text><text textAlign="center">S</text><text textAlign="center">5.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">First Aid Kit, Standard</text><text textAlign="center">M</text><text textAlign="center">20.0</text><text textAlign="center">6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">First Aid Kit, Deluxe</text><text textAlign="center">L</text><text textAlign="center">80.0</text><text textAlign="center">15</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Small Lockpicking Kit</text>
+<box>
+<text>Picks and shims (assorted sizes and shapes), tweezers, </text>
+</box>
+<box>
+<text>Small lockpicking kit plus slim jim auto entry tools, keyhole </text>
+</box>
+<box>
+<text>Standard lockpicking kit, plus key blanks, key grinder, lock probe, library of lock manufacturer&#x27;s catalogs.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Lockpicking Kit, Small</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Lockpicking Kit, Standard</text><text textAlign="center">L</text><text textAlign="center">25.0</text><text textAlign="center">7</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Lockpicking Kit, Deluxe</text><text textAlign="center">H</text><text textAlign="center">150.0</text><text textAlign="center">15</text><text textAlign="center">L</text></tr>
+</table>
+		<text>   Small Mechanics Kit</text>
+<box>
+<text>Tool box, car jack, screwdrivers (assorted sizes), wrenches metal file, hammer, measuring tape, flashlight, pressure gauge, waterproof markers, baling wire, epoxy glue, tape (duct, masking, and electrical), machine oil, wax, work gloves, safety goggles, professional solvents/cleaners, rubber gaskets, tarp, electrical wires and tubing, clamps, tap and die set.</text>
+</box>
+<box>
+<text>Small mechanics kit, plus diagnostic machine, timing light, crowbar, snake light, paint sprayer.</text>
+</box>
+<box>
+<text>Standard mechanics kit, plus 1-ton crane, hydraulic car lift, compressor, angle grinder, block and tackle.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Mechanics Kit, Small</text><text textAlign="center">L</text><text textAlign="center">30.0</text><text textAlign="center">7</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Mechanics Kit, Standard</text><text textAlign="center">H</text><text textAlign="center">100.0</text><text textAlign="center">15</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Mechanics Kit, Deluxe</text><text textAlign="center">G</text><text textAlign="center">400.0</text><text textAlign="center">50</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Small Visual Art Kit</text>
+<box>
+<text>Sketchpads of various sizes, colored chalk, art gum, pencils of colors, various small brushes.</text>
+</box>
+<box>
+<text>Small visual art kit, plus pose-able wooden model, small cloth chart, calligraphy paper with brushes and various bottles of colored ink, and medium sized brushes.</text>
+</box>
+<box>
+<text>Standard visual art kit, plus plaster mix, pure pigments, mortar cloth canvas, large brushes, paper of various textures and materials, hammer and chisel, and a beret.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Visual Art Kit, Small</text><text textAlign="center">L</text><text textAlign="center">5.0</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Visual Art Kit, Standard</text><text textAlign="center">L</text><text textAlign="center">10.0</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Visual Art Kit, Deluxe</text><text textAlign="center">G</text><text textAlign="center">25.0</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+</table>
+		<header level = "1">Specialty Kits</header>
+		<text>   While the kits listed provide bonuses to general aspects ofof a skill. Specialty kits provide a bonus to a specific aspect of a skill.</text>
+		<text>   Firearm Cleaning Kit</text>
+<box>
+<text>A firearm cleaning kit contains various brushes, oils, bore Without one, it is impossible to maintain and clean a firearm. One cleaning kit will work for all types of firearms. A cleaning kit grants a +4 equipment bonus when restoring a weapon&#x27;s unreliability level due to age.</text>
+</box>
+<box>
+<text>Most gunsmiths assemble their toolkits gradually as their skills experienced gunsmith, including watchmaker&#x27;s screwdrivers, metal files, clamps, punches, a small hammer, and a micrometer calipers. It also contains a firearm cleaning kit (above) with brushes and rods suitable for all calibers and barrel lengths. A gunsmithing kit grants a +5 equipment bonus when repairing a firearm, building firearms, or when performing upgrades on any firearm.</text>
+</box>
+<box>
+<text>A firearms parts kit is a collection of various firearm springs, and other miscellaneous hardware pieces used for creating firearms. Because it has a lot of the necessary components, lots of labor can be saved. A firearm parts kit grants a +20 equipment bonus when building a firearm, but is consumed after it has been used.</text>
+</box>
+<box>
+<text>A reloading kit contains all of the tools necessary for reloading press, a small digital scale, a case cleaner, and ballistics reference manuals, as well as the various dies needed to reload all kinds of ammunition. It allows a character to reload ammunition.</text>
+</box>
+<box>
+<text>A surgery kit is a kit used for performing surgery, such as latex gloves, surgical scissors, scalpels and extra blades, surgical needles and suturing thread, forceps, a small box of 20 disposable syringes, gauze (pads and rolls), sponges, surgical tape, cotton swabs (dry and alcohol-saturated), disinfectant solution, sedative pills, head-mounted flashlight, a small pack of surgical masks, sterile draping cloth, plastic safety goggles, surgical staple gun, local anesthetic and antibiotics, blood coagulant solution, suction bulb, clamps, intravenous blood expander, fluid packs, a rib spreader, bone saws, a heart monitor, a defibrillator, intravenous blood packs, an anesthesia tank and mask, and an oxygen tank and mask. A surgery kit grants a +4 equipment bonus while performing a surgery.</text>
+</box>
+<box>
+<text>A forgery kit is used in the finer points of creating fake a fine-edge knife set, ink pads with various inks, blank stamps, colored pens, paint and fine brushes, stencils, a magnifying glass, a disposable camera, a scale, calipers, tweezers, fine-grain sandpaper, a document scanner, a laminator, a foil press, a shrink wrapper, a table arm lamp with magnifying glass, holographic film, currency/document manual, a display case, a personal printing press, and casting supplies and various molding materials (plaster, plastic, etc.). It grants a +6 equipment bonus while creating forgeries.</text>
+</box>
+<box>
+<text>A climbing kit is a kit used to scale tall landmarks, such as waist pack, rope (150 feet, rated for 1,200 pounds), a wristwatch altimeter, climbing harness, leather gloves and finger tape, rock shoes or crampons, carabiners, various markers, belayers, cams, quickdraws, ascenders, cordlettes, a chalk bag, pitons and a hammer, crampons, and an ice ax. It grants a +5 to Athletics checks while climbing, and on failing a check, a character does not completely fall from their height when they fail a check by 5 or more.</text>
+</box>
+<box>
+<text>An authentication kit is a kit used to verify the authenticity of artifacts or objects. It includes a hand-held microscope, a magnifying glass, personal standard and black lights, an infrared viewer, a document scanner, a chemical analyzer, 3D modeling and comparison software, signature analysis software (DVD-ROM or flash drive), a video spectral comparator (with built-in microscope, video camera, and high-resolution color printer), and a back-illuminated comparison table. It grants a +6 while checking for forgeries.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Firearm Cleaning Kit</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Gunsmithing Kit</text><text textAlign="center">L</text><text textAlign="center">20.0</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Firearm Parts Kit</text><text textAlign="center">M</text><text textAlign="center">10.0</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Reloading Kit</text><text textAlign="center">H</text><text textAlign="center">50.0</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Surgery Kit</text><text textAlign="center">L</text><text textAlign="center">35.0</text><text textAlign="center">40</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Forgery Kit</text><text textAlign="center">G</text><text textAlign="center">120.0</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Climbing Kit</text><text textAlign="center">H</text><text textAlign="center">30.0</text><text textAlign="center">18</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Authentication Kit</text><text textAlign="center">G</text><text textAlign="center">170.0</text><text textAlign="center">40</text><text textAlign="center">None</text></tr>
+</table>
+		<header level = "1">Computers and Consumer Electronics</header>
+		<text>   Rules for operating computers appear under the Technology Usesubscription costs as well as initial purchase costs. The Wealth Point cost accounts for both costs; once a character has obtained the item, they don&#x27;t have to worry about ongoing subscription costs.</text>
+		<text>   Cell Phone</text>
+<box>
+<text>A digital communications device that comes in a hand-held model, </text>
+</box>
+<box>
+<text>Standard This cell phone is the standard slide or flip phone, battery life of five days before it needs recharging.</text>
+</box>
+		<text>   Computers and Upgrades</text>
+<box>
+<text>Whether a desktop or notebook model, a computer includes a BW-RE/DVD-RW drive, a network card, and the latest processor. A character needs a computer to make Technology Use checks. Computers can also run software modules. Computers have two major areas of software module slot storage: RAM and Storage. </text>
+</box>
+		<text>   The Storage represents how many modules can be Stored on theis activated at will. The module will always sit in storage unless it is uninstalled.</text>
+<box>
+<text>Desktop Bulky but powerful, these machines are common on desks and 2 additional storage device upgrades.</text>
+</box>
+<box>
+<text>Tablet A tablet computer is a computer that consists of nothing usually only contain two slots: the charging port which doubles as a data port and the headphone jack. They are significantly smaller than even the smallest of notebooks, and are extremely portable. You can purchase higher end models with more storage and RAM built in, but you can not upgrade tablet computers.</text>
+</box>
+<box>
+<text>Storage Upgrade This upgrade installs an additional digital given is determined by what device is selected.</text>
+</box>
+		<text>   Digital Storage Devices</text>
+<box>
+<text>Digital storage devices are devices that store digital data. They and Fixed.</text>
+</box>
+		<text>   Fixed digital storage devices are devices of magnetic, optical,instead installed in upgrade slots of desktops or notebooks. What they lose in portability, they gain in storage size and access speed. Software modules can be run from fixed digital storage devices.</text>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">RAM</header><header textAlign="center">Storage</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Cell Phone, Standard</text><text textAlign="center">D</text><text textAlign="center">0.4</text><text textAlign="center">1</text><text textAlign="center">0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Cell Phone, Smartphone, Basic</text><text textAlign="center">D</text><text textAlign="center">0.5</text><text textAlign="center">12</text><text textAlign="center">1</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Cell Phone, Smartphone, High end</text><text textAlign="center">D</text><text textAlign="center">0.5</text><text textAlign="center">21</text><text textAlign="center">2</text><text textAlign="center">6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Desktop Computer</text><text textAlign="center">L</text><text textAlign="center">10.0</text><text textAlign="center">16</text><text textAlign="center">1</text><text textAlign="center">8</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Notebook Computer</text><text textAlign="center">M</text><text textAlign="center">2.2</text><text textAlign="center">20</text><text textAlign="center">1</text><text textAlign="center">8</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tablet, Basic</text><text textAlign="center">S</text><text textAlign="center">1.3</text><text textAlign="center">20</text><text textAlign="center">1</text><text textAlign="center">6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tablet, High End</text><text textAlign="center">S</text><text textAlign="center">1.3</text><text textAlign="center">30</text><text textAlign="center">2</text><text textAlign="center">8</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Ram Upgrade</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">2</text><text textAlign="center">1</text><text textAlign="center">−</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Digital Storage Device, Portable, Fine</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">2</text><text textAlign="center">−</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Digital Storage Device, Portable, Diminutive</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">4</text><text textAlign="center">−</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Digital Storage Device, Portable, Tiny</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">6</text><text textAlign="center">−</text><text textAlign="center">8</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Digital Storage Device, Portable, Small</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">8</text><text textAlign="center">−</text><text textAlign="center">16</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Digital Storage Device, Fixed, Large</text><text textAlign="center">S</text><text textAlign="center">0.5</text><text textAlign="center">10</text><text textAlign="center">−</text><text textAlign="center">32</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Digital Storage Device, Fixed, Huge</text><text textAlign="center">S</text><text textAlign="center">0.5</text><text textAlign="center">12</text><text textAlign="center">−</text><text textAlign="center">64</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Digital Storage Device, Fixed, Gargantuan</text><text textAlign="center">S</text><text textAlign="center">0.5</text><text textAlign="center">14</text><text textAlign="center">−</text><text textAlign="center">128</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Digital Storage Device, Fixed, Colossal</text><text textAlign="center">S</text><text textAlign="center">0.5</text><text textAlign="center">16</text><text textAlign="center">−</text><text textAlign="center">256</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Software Modules</text>
+		<text>   Software modules are programs installed that give the user of aprogrammed to do. Modules come in three varieties:</text>
+<list type="unordered">
+<text>Lite A lite module has the bare essentials necessary for use and has a lighter footprint to take up less space. This module provides a +1 to all bonuses listed in the module description unless specified otherwise and takes up 1 storage slot.</text>
+<text>Standard A standard module contains most of the core features that most would find useful, leaving out only a few specialized programs. This module provides a +3 to all bonuses listed in the module description unless specified otherwise and takes up 2 storage slots.</text>
+<text>Full-featured Contains all of the features that anyone could ever need or use, sparing no expense. Because of this, they take up a significant amount of space. This module provides a +4 to all bonuses listed in the module description unless specified otherwise and takes up 3 storage slots.</text>
+</list>
+<box>
+<text>This software module is the OS for all computer hardware. It well as a web browser, an audio and video player, a clock and calendar, a text editor, a calculator, some basic games, and a basic image viewer and editor. All computer hardware is preloaded with this software, it takes up no RAM, but does take up 1 storage slot and is always active.</text>
+</box>
+<box>
+<text>This software module is a quick look up resource, consisting of called upon in an instant. This software module provides a bonus to any one Knowledge skill that it is programmed for and must be active to receive the bonus.</text>
+</box>
+<box>
+<text>This software module provides assistance when playing a musical information such as pitch, octave, tone, and harmonies, as well as a wide database of free and public domain sheet music that can be played. The software module also can be used by beginners for hand placement, and instruction when learning an instrument. This software module also features musical detection software, than will listen to songs, and produce information on the song such as composer, key, and if available, sheet music. This software module provides a bonus to any one Perform check that it is programmed for, and must be active to receive the bonus.</text>
+</box>
+<box>
+<text>This software module contains various schematics for bandages, how to give first aid. This software module provides a bonus to all Treat Injury checks as long as the software module is active.</text>
+</box>
+<box>
+<text>This software module provides schematics for various types of database consisting of compiled notes on specific models to aid in the disabling of various locks, and area denial objects. This software module provides a bonus to all Disable Device checks as long as the module is active.</text>
+</box>
+<box>
+<text>This software module provides common bomb schematics, timer, and other explosive devices, as well as construction advice and instructions, as well as planting suggestions based on the target to be detonated. This software module provides a bonus to all Demolitions checks as long as the module is active.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Data, Lite</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Data, Standard</text><text textAlign="center">12</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Data, Full</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Music, Lite</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Music, Standard</text><text textAlign="center">8</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Music, Full</text><text textAlign="center">12</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Medical, Lite</text><text textAlign="center">6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Medical, Standard</text><text textAlign="center">14</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Medical, Full</text><text textAlign="center">22</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Lockpick, Lite</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Lockpick, Standard</text><text textAlign="center">8</text><text textAlign="center">L</text></tr>
+<tr>
+<text textAlign="center">Lockpick, Full</text><text textAlign="center">12</text><text textAlign="center">L</text></tr>
+<tr>
+<text textAlign="center">EOD, Lite</text><text textAlign="center">10</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">EOD, Standard</text><text textAlign="center">18</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">EOD, Full</text><text textAlign="center">40</text><text textAlign="center">M&amp;P</text></tr>
+</table>
+		<text>   Cameras</text>
+<box>
+<text>Still and video cameras let a character capture a record of what of the Craft (Visual Art) skill.</text>
+</box>
+<box>
+<text>Commercial Grade Encompassing hundreds of “brick” digital cameras and can take hundreds of pictures before needing to be downloaded.</text>
+</box>
+		<text>   Radio</text>
+<box>
+<text>This hand-held radio transceiver communicates with any similar </text>
+</box>
+<box>
+<text>Basic This dime-store variety has only a few channels. Anyone character&#x27;s conversations. It has a range of 2 miles.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Camera, Commercial</text><text textAlign="center">T</text><text textAlign="center">0.8</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Camera, Professional</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">13</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Radio, Basic</text><text textAlign="center">T</text><text textAlign="center">1.3</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Radio, Professional</text><text textAlign="center">T</text><text textAlign="center">2.1</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+</table>
+		<header level = "1">Weapon Accessories</header>
+		<text>   Weapon accessories include holsters and sheaths to hold weapons,cases to store larger weapons.</text>
+		<text>   Holsters</text>
+		<text>   A device used to hold or restrict the undesired movement of awithdrawn for immediate use. Holsters allow a character to draw a firearm for 3 Combat Points. Holsters are generally available for all Medium or smaller firearms. A character can not have more than 5 belt devices on their belt at one time, including holsters, holders, caddys, and sheaths.</text>
+<box>
+<text>Belt Holster A simple, no-frills holster that slips through a or smaller firearm. Because of its placement, it can only be concealed with outerwear and even then it grants a −4 penalty to all Stealth checks to hide the gun.</text>
+</box>
+<box>
+<text>Pocket Holster This holster may be a fake wallet or a formed pocket. This holster grants a +3 bonus to Stealth checks to hide all Tiny or smaller guns.</text>
+</box>
+<box>
+<text>Tactical Holster and Holder This holster is worn on the thigh, a belt. It also comes with a tactical holder, which can be purchased in any combination to hold handgun magazines, speedloaders, taser cartridges, standard flashlights, three shotgun shells, six loose cased rounds, or pairs of handcuffs. A tactical holder can be purchased to hold a single handgun magazine and a pair of handcuffs, for example. A tactical holder can also be purchased to hold a single PDW or rifle magazine that holds 20 rounds or less, or a single shotgun magazine that holds 5 rounds or less. Using a tactical holder eliminates the need to spend CP to reach into a pocket or bag to retrieve the holstered items. A tactical holder can also be purchased by itself for 1 WP.</text>
+</box>
+<box>
+<text>Undercover Holster This holster is padded to break up the outline +6 stealth to hide all Small or smaller guns, however it costs 6 additional Combat Points to draw the firearm from this holster.</text>
+</box>
+<box>
+<text>Quick Draw Holster This holster, worn on the belt or hip, is weapon. A quick draw holster is designed for a specific firearm, and can not be used with any other firearm but the one it was designed for. A quick draw holster can be purchased for all Medium or smaller firearms. When drawing from a quick draw holster it cost 1 less Combat Point.</text>
+</box>
+		<text>   Sheaths</text>
+<box>
+<text>A sheath is a device used to restrict the movement of a melee immediate use, and kept out of the way when not being used. Sheaths are generally available for all large or smaller melee weapons. A character can not have more than 5 belt devices on their belt at one time, including holsters, holders, caddys, and sheaths.</text>
+</box>
+<box>
+<text>Concealed Sheath This sheath is a worn on the inside of the hide all Small or smaller melee or thrown weapons.</text>
+</box>
+<box>
+<text>Holdout Sheath This sheath is an ankle strap or thigh clip. melee or thrown weapons.</text>
+</box>
+<box>
+<text>Undercover Sheath This sheath is padded to break up the outline pocket. It grants a +6 bonus to Stealth checks to hide all Small or smaller weapons, however it costs +6 Combat Points to draw a weapon from this sheath.</text>
+</box>
+<table>
+<tr><header textAlign="center">Size</header><header textAlign="center">Damage</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Tiny and Smaller</text><text textAlign="center">1d3</text><text textAlign="center">0.9</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Small</text><text textAlign="center">1d4</text><text textAlign="center">1.1</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Medium</text><text textAlign="center">1d6</text><text textAlign="center">1.4</text><text textAlign="center">6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Large</text><text textAlign="center">2d4</text><text textAlign="center">1.8</text><text textAlign="center">9</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Huge and larger</text><text textAlign="center">2d6</text><text textAlign="center">2.0</text><text textAlign="center">11</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   LBE Gear</text>
+<box>
+<text>Load Bearing Equipment is equipment used to carry a fighting weight of all weapons and equipment in the rig is halved. LBE gear can be worn over any armor that doesn&#x27;t have any MOLLE slots or attachments. They are also printed in camouflage patterns: woodland, desert, winter, urban (gray patterned), and black are available. When worn in an appropriate setting, LBE gear grants a +2 bonus on Stealth checks. Using LBE gear eliminates the need to spend CP to reach into a pocket or bag to retrieve ammunition or magazines/speedloaders stored on the LBE gear, but not holstered weapons or items.</text>
+</box>
+<box>
+<text>Pistol Rig A pistol rig has a tactical holster, spaces for six single grenade and two utility pouches, that can comfortably hold 6 lbs of Small or smaller objects each.</text>
+</box>
+<box>
+<text>Hunting Rig A hunting rig has shell/cartrige loops that can hold can hold a single grenade each and two utility pouches that can comfortably hold 6 lbs of Small or smaller objects.</text>
+</box>
+		<text>   Concealment Case</text>
+<box>
+<text>A case disguised as an inconspicuous object, such as a guitar for storing a Large or smaller weapon. A concealment case can comfortably hold a single Large weapon, two Medium weapons, four Small weapons, eight Tiny weapons, or sixteen Diminutive weapons. The case grants a +10 bonus to Stealth checks when hiding a Large or smaller weapon within it.</text>
+</box>
+<box>
+<text>A soft case designed to be rolled up while carried. It allows for securely. A small roll case can hold a single firearm of Medium size or smaller and 40 rounds of ammunition, with the larger version holding two Medium sized weapons or smaller and 100 rounds of ammunition.</text>
+</box>
+<box>
+<text>A container for arrows or crossbow bolts worn either on the back can hold 20 arrows or crossbow bolts.</text>
+</box>
+<box>
+<text>A device that stores cartridges in an encasing, that is removable stored in the magazine into a position where they may be loaded into the chamber by the action of the firearm. For weapons that use a removable magazine, a character can purchase extras. Loading these extra magazines ahead of time and keeping them in a handy place makes it easy to reload a weapon in combat. The price and capacity of a removable magazine is listed with the weapon&#x27;s statistics.</text>
+</box>
+<box>
+<text>Sometimes referred to as a “jungle-style magazine”, this shotgun box magazines together for quicker reloading, allowing the user to perform one reload at 1 less Combat Point, and negates the need to reach into a pack to retrieve the stored magazine. The character must be proficient in the weapon he is using in order to take advantage of this accessory. A character may also duct tape two magazines together for the same effect but the weapon gets a −5 penalty to Stealth checks to hide the weapon when using this method. The clip must be purchased for a specific type of magazine, and is not compatible with any other magazine.</text>
+</box>
+<box>
+<text>A speedloader holds a number of cartridges in a ring, in a a speedloader saves time in reloading a revolver, since a character can insert all the cartridges at once, however a character has to remove all of the cartridges, both fired and unfired, from the revolver&#x27;s cylinder. Speedloaders come in sizes from five to nine rounds, in various calibers. Speedloaders can be purchased in any size and any caliber, and cost 1 WP per 2 speedloaders in that configuration.</text>
+</box>
+<box>
+<text>A wallet made of cloth or leather and keeps ammunition dry and 10 cartridges. They are often used for special ammunition that is best kept away from general ammunition.</text>
+</box>
+<box>
+<text>A belt that is specially made to hold 25 shotgun shells for quick worn. Using a shell belt eliminates the need to spend CP to reach into a pack to retrieve ammunition.</text>
+</box>
+<box>
+<text>A canvas bag worn on the waist that holds up to 45 shotgun shells multiple shells will often mix up in the bag. Using a shell bag eliminates the need to spend CP to reach into a pack to retrieve ammunition.</text>
+</box>
+<box>
+<text>A small metal caddy worn on the belt, that discreetly holds 4 easily concealable and grants a +3 to all Stealth checks to hide it. Using a shell caddy eliminates the need to spend CP to reach into a pack to retrieve ammunition. A character can not have more than 5 belt devices on their belt at one time, including holsters, holders, caddys, and sheaths.</text>
+</box>
+<box>
+<text>A small metal or plastic caddy worn on the belt and holds a less, or a single shotgun magazine with a capacity of 10 rounds or less. Using a magazine caddy eliminates the need to spend CP to reach into a pack to retrieve ammunition. A character can not have more than 5 belt devices on their belt at one time, including holsters, holders, caddys, and sheaths.</text>
+</box>
+<box>
+<text>A cartridge belt is a belt that is specially made to hold 55 belt holster, quick draw holster, tactical holster, concealed carry holster, undercover holster, or a gunbelt when worn. Using a cartridge belt eliminates the need to spend CP to reach into a pack to retrieve ammunition.</text>
+</box>
+<box>
+<text>A strap of leather or nylon webbing that is worn around the hunting or to carry more items readily available. Using a bandolier eliminates the need to spend CP to reach into a pack to retrieve a stored object but also makes it clearly visible.</text>
+</box>
+<box>
+<text>Shell Bandolier Holds 60 shotgun shells.Cased Round Bandolier Holds 45 rounds of cased ammunition.</text>
+</box>
+		<text>   Refill Tube</text>
+<box>
+<text>A plastic tube that holds 100 paintballs for quick reloading. access</text>
+</box>
+<box>
+<text>This is a plastic, cloth, or metal box that is used to hold </text>
+</box>
+<box>
+<text>Stripper clips are used to keep ammunition together in order to internal magazines.</text>
+</box>
+<table>
+<tr><header textAlign="center">Box Capacity</header><header textAlign="center">WP</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">75 Rounds</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">100 Rounds</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">150 Rounds</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">200 Rounds</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">250 Rounds</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Caliber</header><header textAlign="center">Capacity</header><header textAlign="center">Clips/WP</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">5.56x45mm</text><text textAlign="center">10</text><text textAlign="center">40</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">7.62x51mm</text><text textAlign="center">5</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">7.62x51mm</text><text textAlign="center">10</text><text textAlign="center">40</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">.30-06 Springfield</text><text textAlign="center">5</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">M1 Garand Enbloc</text><text textAlign="center">8</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Berthier Enbloc</text><text textAlign="center">5</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">7.62x39mm</text><text textAlign="center">10</text><text textAlign="center">40</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">7.62x54mmR</text><text textAlign="center">5</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">.303 British</text><text textAlign="center">5</text><text textAlign="center">15</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">7.63x25mm Mauser/7.62x25mm Tokarev</text><text textAlign="center">10</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">7.92x57mm Mauser</text><text textAlign="center">5</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">7.63 Mannlicher</text><text textAlign="center">8</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">7.7x58mm Arisaka</text><text textAlign="center">5</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">6.5x50mm Arisaka</text><text textAlign="center">5</text><text textAlign="center">15</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Carcano Enbloc</text><text textAlign="center">6</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Fusil Enbloc</text><text textAlign="center">5</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Double Magazine clip</text><text textAlign="center">T</text><text textAlign="center">0.3</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Speedloader (2)</text><text textAlign="center">T</text><text textAlign="center">0.5</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Shell Belt</text><text textAlign="center">M</text><text textAlign="center">1.0</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Cartridge Belt</text><text textAlign="center">M</text><text textAlign="center">1.0</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Bandolier, Shell</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Bandolier, Cased Round</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Bandolier, Grenade</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Shell Bag</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Shell Caddy</text><text textAlign="center">D</text><text textAlign="center">0.4</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Magazine Caddy</text><text textAlign="center">D</text><text textAlign="center">0.4</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Cartridge Wallet</text><text textAlign="center">S</text><text textAlign="center">0.4</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Refill Tube (4)</text><text textAlign="center">S</text><text textAlign="center">6.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Concealment Case</text><text textAlign="center">L</text><text textAlign="center">4.0</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Quiver</text><text textAlign="center">S</text><text textAlign="center">0.9</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Roll Case, Small</text><text textAlign="center">L</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Roll Case, Large</text><text textAlign="center">L</text><text textAlign="center">2.8</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Holster, Belt</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Holster, Pocket</text><text textAlign="center">T</text><text textAlign="center">0.5</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Holster, Concealed Carry</text><text textAlign="center">S</text><text textAlign="center">0.6</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Holster, Ankle</text><text textAlign="center">T</text><text textAlign="center">0.6</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Holster, Tactical</text><text textAlign="center">S</text><text textAlign="center">1.2</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Holster, Shoulder</text><text textAlign="center">M</text><text textAlign="center">1.0</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Holster, Quick Draw</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">9</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Holster, Tummy</text><text textAlign="center">S</text><text textAlign="center">0.6</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Holster, Undercover</text><text textAlign="center">S</text><text textAlign="center">0.8</text><text textAlign="center">6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Holster, Gunbelt</text><text textAlign="center">M</text><text textAlign="center">3.0</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Sheath, Concealed</text><text textAlign="center">S</text><text textAlign="center">0.5</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Sheath, Holdout</text><text textAlign="center">T</text><text textAlign="center">0.4</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Sheath, Tactical</text><text textAlign="center">—</text><text textAlign="center">0.8</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Sheath, Shoulder</text><text textAlign="center">M</text><text textAlign="center">0.8</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Sheath, Undercover</text><text textAlign="center">S</text><text textAlign="center">0.4</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">LBE Gear, Pistol Rig</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">LBE Gear, PDW Rig</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">LBE Gear, Hunting Rig</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">LBE Gear, Rifle Rig</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+</table>
+		<header level = "1">Survival, Security and Professional Gear</header>
+		<text>   This is a list of gear that can be useful to characters. Whilecan use, it is a guide. If a character wishes to purchase something not in the book, the GM can simply set a wealth point cost based on the real cost of the item, where 1 WP is equal to 20 USD.</text>
+		<text>   Metal Detector</text>
+<box>
+<text>This handheld device provides a +10 bonus on all Perception </text>
+</box>
+<box>
+<text>When fired into the air at night, a flare illuminates a 60&#x27; signal, a flare may be spotted at a distance of 5 miles with a successful Perception check, [TN20] during the day or [TN15] at night. A flare gun may also be used as a weapon, having a maximum range of 40&#x27; and doing 1d4 Fire damage. Anyone shot with a flare gun must make a Reflex Saving Throw [TN15] or be caught on fire. A flare gun can also ignite flammable material and fluids.</text>
+</box>
+<box>
+<text>An exceptionally heavy wire cutter, a bolt cutter can snip requires a STR check [TN10].</text>
+</box>
+<box>
+<text>The usefulness of duct tape is limited only by a character&#x27;s or up to 300 pounds for 1d6 rounds. Characters bound with duct tape must make a STR check [TN20] to free themselves. A roll provides 70 feet of 2 inch wide tape.</text>
+</box>
+<box>
+<text>Cheap and promiscuously available, these headsets allow you to radios can sync with them.</text>
+</box>
+<box>
+<text>A musical instrument is a device created or adapted for the Perform skills that involve instruments without a musical instrument.</text>
+</box>
+<box>
+<text>Keyboard A portable keyboard or Keytar needed to use the Perform </text>
+</box>
+<box>
+<text>Stringed An electric or acoustic guitar, a harp, a sitar, or (Stringed Instrument) Skill.</text>
+</box>
+		<text>   Shovel</text>
+<box>
+<text>A shovel is a tool for lifting and moving loose material such as entrenching tool, a compact version of the full sized shovel. When pressed into battle as a weapon, it carries the same stats as a shortsword, but always has a −2 to attack as it is an improvised weapon.</text>
+</box>
+<box>
+<text>Caltrops are four-pronged steel spikes designed so that one prong scatters caltrops on the ground to injure opponents, or at least slow them down. One bag of twenty-five caltrops covers a single 5&#x27; square. Each time a creature moves through a square containing caltrops at any rate greater than 15 feet a turn or each round a creature spends fighting in such an area, the caltrops make a touch attack roll (BAB +0). A caltrop deals 1 point of damage on a successful hit, and the injury reduces foot speed to 2 Combat Points per 5&#x27; (a successful Treat Injury check [TN15] or one day&#x27;s rest removes this penalty). Improvised versions of this weapon include jacks and d4 gaming dice. These improvised weapons do not work on vehicles, however. A running creature (Moving more than 30&#x27; per turn) must immediately stop if it steps on a caltrop. See the avoid hazard stunt for the effect of caltrops on vehicles.</text>
+</box>
+<box>
+<text>Ball bearings are little metal balls, often used to maintain the ball bearings covers a single 5&#x27; square thoroughly. Each time a creature moves through a square containing ball bearings or each round a creature spends fighting in such an area, the character makes a Reflex Saving Throw [TN16] or be knocked prone. Improvised versions of this weapon include marbles. </text>
+</box>
+<box>
+<text>Binoculars are useful for watching opponents, wild game, and </text>
+</box>
+<box>
+<text>Standard Standard binoculars reduce the range penalty for 10&#x27;). Using binoculars for Perception checks takes five times as long as making the check unaided.</text>
+</box>
+<box>
+<text>Night Vision Binoculars Night vision binoculars function the same users looking through them see as if they were using night vision goggles.</text>
+</box>
+		<text>   Camp Axe</text>
+<box>
+<text>This axe can be used to chop down small trees, as an impromptu </text>
+</box>
+<box>
+<text>A flare is a bright chemical burning reaction in a stick, that projects light in a 40&#x27; circle from itself, and lasts for 1 hour per flare. Once activated, it can&#x27;t be turned off or reused. It can also be used to immediately set any flammable material or substances ablaze.</text>
+</box>
+<box>
+<text>A compass relies on the Earth&#x27;s magnetic field to determine the </text>
+</box>
+<box>
+<text>This disposable plastic stick, when activated, uses a chemical circle from itself. Once activated, it can&#x27;t be turned off or reused.</text>
+</box>
+<box>
+<text>Flashlights come in a wide variety of sizes and quality levels. enough to withstand the rigors of heavy modern use. Flashlights negate penalties for darkness within their illuminated areas.</text>
+</box>
+<box>
+<text>Penlight This small flashlight can be carried on a key ring. It </text>
+</box>
+<box>
+<text>Battery Flood Practically a handheld spotlight, this item </text>
+</box>
+		<text>   Rope</text>
+<box>
+<text>feet of paracord that can support up to 500 pounds.  Tent</text>
+</box>
+		<text>   Multipurpose Tool</text>
+<box>
+<text>This device contains several different screwdrivers, a knife ruler, scissors, tweezers, and wire cutters. The whole thing unfolds into a handy pair of pliers. A multipurpose tool can lessen the penalty for making Craft (Mechanical), Craft (Electronics), Craft (Structural), Demolitions, or Disable Device checks without appropriate tools to −4 instead of the normal −6. The tool is useful for certain tasks as determined by the GM, but may not be useful in all situations.</text>
+</box>
+<box>
+<text>A water bottle designed to be used by hikers, campers, soldiers, </text>
+</box>
+<box>
+<text>This portable apparatus uses a chemical spray to extinguish small chemicals to put out a fire in a 10&#x27;-by-10&#x27; area and contains enough material for two such uses. It does 1d4 Cold damage when sprayed.</text>
+</box>
+<box>
+<text>Handcuffs are restraints designed to lock two limbs—normally the human or other creature that has an appropriate body structure.</text>
+</box>
+<box>
+<text>Steel These heavy-duty cuffs have Hardness 10, 10 HP, Break check [TN35] to remove without the key.</text>
+</box>
+		<text>   Map</text>
+<box>
+<text>While a compass or GPS receiver can help characters find their they&#x27;re going and what to expect when they get there.</text>
+</box>
+<box>
+<text>Road Atlas Road atlases are available for the entire Country and also be purchased for most major metropolitan areas and detail every street in the entire region.</text>
+</box>
+		<text>   Lighter</text>
+<box>
+<text>This is either an oil or butane cigarette lighter that can be </text>
+</box>
+<box>
+<text>For the cigar connoisseur or one who simply likes to strike wood listed is for one hundred boxes of twenty matches.</text>
+</box>
+<box>
+<text>This lightweight sleeping bag rolls up compactly. It can keep a bonus on Fortitude Saving Throws against the effects of cold weather.</text>
+</box>
+<box>
+<text>A parachute is a device used to slow down an object in free fall but all stop fall damage from heights greater than 100&#x27; and reduce falling damage by 1 die per round spent descending.</text>
+</box>
+<box>
+<text>Military Parachute A typical circular canopy used for static line being designed for simplicity and reliability. These parachutes fall straight down.</text>
+</box>
+<box>
+<text>Sports Parachute A rectangular aerobatic parachute. Consumer emergency visibility, but a character can purchase a darker parachute at request. Sports parachutes allow a character to glide at 200 feet per round forward as they fall, as well as make a turn after moving 100 feet.</text>
+</box>
+		<text>   Battering Ram</text>
+<box>
+<text>A battering ram is rather self explanatory, a heavy metal ram character is considered to have +4 STR.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Metal Detector</text><text textAlign="center">S</text><text textAlign="center">14.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Bluetooth Headset</text><text textAlign="center">D</text><text textAlign="center">0.1</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Bolt cutter</text><text textAlign="center">M</text><text textAlign="center">5.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Multipurpose tool</text><text textAlign="center">T</text><text textAlign="center">1.0</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Shovel</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Caltrops (25)</text><text textAlign="center">S</text><text textAlign="center">0.1</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Ball Bearings(100)</text><text textAlign="center">S</text><text textAlign="center">0.4</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Duct tape</text><text textAlign="center">T</text><text textAlign="center">2.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Canteen (2)</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Parachute, Military</text><text textAlign="center">L</text><text textAlign="center">6.0</text><text textAlign="center">22</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Parachute, Reserve</text><text textAlign="center">M</text><text textAlign="center">1.0</text><text textAlign="center">30</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Parachute, Sports</text><text textAlign="center">L</text><text textAlign="center">8.0</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Parachute, BASE Jumping</text><text textAlign="center">L</text><text textAlign="center">10.0</text><text textAlign="center">28</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Handcuffs, Steel</text><text textAlign="center">T</text><text textAlign="center">1.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Handcuffs, Zip-tie (10)</text><text textAlign="center">D</text><text textAlign="center">0.5</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Instrument, Keyboard</text><text textAlign="center">L</text><text textAlign="center">12.3</text><text textAlign="center">13</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Percussion Instruments</text><text textAlign="center">H</text><text textAlign="center">50.0</text><text textAlign="center">14</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Stringed Instruments</text><text textAlign="center">L</text><text textAlign="center">7.0</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Wind Instruments</text><text textAlign="center">T</text><text textAlign="center">1.0</text><text textAlign="center">8</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Camp Axe</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Flare (2)</text><text textAlign="center">T</text><text textAlign="center">0.5</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Binoculars, Standard</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Binoculars, Rangefinding</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">8</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Binoculars, Night Vision</text><text textAlign="center">S</text><text textAlign="center">4.0</text><text textAlign="center">12</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Chemical Light Sticks (5)</text><text textAlign="center">T</text><text textAlign="center">0.2</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Compass</text><text textAlign="center">D</text><text textAlign="center">0.1</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Fire Extinguisher</text><text textAlign="center">M</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Flashlight, Penlight</text><text textAlign="center">D</text><text textAlign="center">0.6</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Flashlight, Standard</text><text textAlign="center">T</text><text textAlign="center">0.9</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Flashlight, Battery Flood</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Flashlight, Lantern</text><text textAlign="center">S</text><text textAlign="center">2.3</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Road Atlas</text><text textAlign="center">T</text><text textAlign="center">0.6</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tactical Map</text><text textAlign="center">T</text><text textAlign="center">0.5</text><text textAlign="center">5</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Rope (200&#x27;)</text><text textAlign="center">L</text><text textAlign="center">12</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Band-It</text>
+<box>
+<text>The band-it is an elastic sleeve that is placed on prisoners leg When activated, it sends a strong electrical pulse through the wearer&#x27;s body, that incapacitate the person wearing it. When Activated, the band-it, the wearer of the band-it must make a Fortitude Saving Throw [TN17] or be paralyzed for 1d4 rounds. The band-it comes with one remote that has a 200 foot range.</text>
+</box>
+<box>
+<text>A spotting scope is a highly magnified scope that is used for in acquiring a target. When used by a spotter who is within hearing range of a sniper, and is able to see the same targets the sniper can see using the spotting scope, the sniper gains a bonus to all ranged attacks equal to the spotter&#x27;s ranged attack bonus, as long as the spotter is spotting for that sniper. Spotting for a sniper uses all of the character&#x27;s combat points per round. Only one sniper can take advantage of a spotter and their scope at a time.</text>
+</box>
+		<text>   Hearing Protection</text>
+<box>
+<text>Hearing protection are plugs, earmuffs, or molded inserts that firing firearms or working with heavy machinery. As a general rule, hearing loss due to gunfire is not modeled in Ops and Tactics, but wearing hearing protection can protect against unexpected loud noises. Only basic protection can be worn under helmets.</text>
+</box>
+<box>
+<text>Basic Hearing Protection Encompasses foam plugs, wax balls, and Will Saving Throws against being deafened.</text>
+</box>
+<box>
+<text>Active Hearing Protection Encompasses thin electronic active it hears loud noises, but otherwise allows for the wearer to hear as normal through microphones and speakers in the earmuffs. When worn, the wearer will automatically succeed against all Will Saving Throws against being deafened, and the user can hear as normal.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Sleeping Bag</text><text textAlign="center">M</text><text textAlign="center">4.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tent, 2-person dome</text><text textAlign="center">M</text><text textAlign="center">4.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tent, 4-person dome</text><text textAlign="center">M</text><text textAlign="center">7.0</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tent, 8-person dome</text><text textAlign="center">L</text><text textAlign="center">10.0</text><text textAlign="center">8</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Lighter</text><text textAlign="center">D</text><text textAlign="center">0.1</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Matches</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Battering Ram</text><text textAlign="center">M</text><text textAlign="center">17.6</text><text textAlign="center">13</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Band-It</text><text textAlign="center">S</text><text textAlign="center">0.2</text><text textAlign="center">30</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Spotting Scope</text><text textAlign="center">M</text><text textAlign="center">1.5</text><text textAlign="center">25</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Flare Gun</text><text textAlign="center">S</text><text textAlign="center">0.6</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Hearing Protection, Basic(500)</text><text textAlign="center">S</text><text textAlign="center">0.1</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Hearing Protection, Passive</text><text textAlign="center">S</text><text textAlign="center">0.5</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Hearing Protection, Active</text><text textAlign="center">S</text><text textAlign="center">0.9</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+</table>
+		<header level = "1">Food, Drink, and Recreational Equipment</header>
+		<text>   Food and drink range from fine wine with a nice Italian meal torepresentative of what a character would encounter out in the field. All food provides Nutritional Value (NV). A character must consume at least 8 NV worth of food every day to sustain themselves. </text>
+<box>
+<text>Generally, a GM can assume that their players are eating and consumption if they are within any kind of civilization that has some kind of established way to receive sustenance. This can range from fast food restaurants all the way to a place to purchase ingredients and make home cooked meals. GMs should only worry about Nutritional Values, starvation, and thirst if the players do not have a readily available way to continuously consume meals. Also, it is assumed that character are spending some of their non-received salaries on food, and do not have to spend any of their given incomes on food, unless they otherwise want to purchase something specific.</text>
+</box>
+		<text>   MRE</text>
+<box>
+<text>A MRE (Meal, Ready to Eat) is a self contained individual field from organized food facilities. They are also popular with survivalists and hikers for their compact size and filling nature. MREs come in various versions, suitable for carnivores, omnivores, and herbivores.</text>
+</box>
+<box>
+<text>Military The Military MRE has enough food to feed a single </text>
+</box>
+		<text>   Trail Rations</text>
+<box>
+<text>A trail ration is a mix of high calorie content foods, usually 12. Trail rations will feed a character 1 NV.</text>
+</box>
+<box>
+<text>A food bar is a solid baked bar, consumed by people on the go as will feed a character 2 NV.</text>
+</box>
+<box>
+<text>Snack foods encompass a multitude of foods you&#x27;d expect to find biscuits, cookies, cakes, pastries, snack mixes and various miscellaneous candies. A pack of snack food will feed a character for anywhere from 1 NV to 3 NV, depending on what kind of snack food they find. The price listed is for 10 packs. It is recommended that a GM roll 1d3 to determine the NV of the pack of snack food.</text>
+</box>
+<box>
+<text>A candy bar is a bar, usually coated in chocolate, that contains toffee. They are poor in nutrients, but taste very good. The price listed is for a box of 15. A candy bar will feed a character 1 NV.</text>
+</box>
+<box>
+<text>These are sausages that don&#x27;t require refrigeration, usually made sausage and 0.2 lb of sausage will feed a character 2 NV.</text>
+</box>
+<box>
+<text>This is bread in a sealed plastic pouch, capable of keeping freshness. The price listed is for a 4 pack of pouch bread. Each pouch will feed a character 3 NV.</text>
+</box>
+<box>
+<text>Aged cheddar, aged gouda, and parmigiano reggiano are some of the without refrigeration. The price listed is for 2 lbs of cheese, and 0.2 lb of cheese will feed a character 3 NV. </text>
+</box>
+<box>
+<text>These are a multitude of various grains, such as rice, oats, boiled with water and eaten with a variety of additions. The price listed is for 20 lbs, and 0.5 lb will feed a character 3 NV.</text>
+</box>
+<box>
+<text>Jerky is lean meat that has been trimmed of fat, cut into strips, made into jerky and is often carried by outdoorsmen, hikers, and campers as a source of low fat, high protein food. The packaging listed is for 6 bags. A single bag will feed a character 3 NV.</text>
+</box>
+<box>
+<text>These are freeze dried instant noodles that come in a pack. They way, or they can be boiled with water, and the flavor package added for a simple, decently tasting meal, especially when coupled with dried vegetables. Due to their low cost, they can sustain someone for very low price, though they also lack in nutritional value. The price listed is for 4 packs of 10 each. A single pack of noodles will feed a character 4 NV. </text>
+</box>
+<box>
+<text>These are freeze dried vegetables that have had moisture removed re-hydrated with water and consumed, or used as an ingredient. The price listed is for 6 lbs of mixed dried vegetables. 1 lb of re-hydrated vegetables will feed a character for 2 NV.</text>
+</box>
+<box>
+<text>Fresh vegetables include fresh produce, fruit, and leafy greens. fresh vegetables will feed a character for 4 NV.</text>
+</box>
+<box>
+<text>Fresh meat includes freshly slaughtered meats of various animals, and 1 lb of cooked fresh meat will feed a character for 4 NV.</text>
+</box>
+<box>
+<text>Preserved meat includes meat that has been cured or smoked, and and 1 lb of preserved meat will feed a character for 5 NV.</text>
+</box>
+<box>
+<text>This food encompasses both manufactured canning, where the food method where the food is preserved and placed into a glass jar. Canned food contents can vary greatly, anything from canned vegetables or meats to complete meals in a jar. Canned food will feed a character for anywhere from 1 NV to 8 NV, depending on the contents of the can. The price listed is for 10 cans. It is recommended that a GM roll 1d8 to determine the NV of the can.</text>
+</box>
+<box>
+<text>Water is the transparent, tasteless, odorless, and nearly survive. This water is in 16 oz/2 units plastic bottles. The price listed is for 4 cases of 30 bottles of water per case. </text>
+</box>
+<box>
+<text>Including both hot drinks like powdered cocoa and instant coffee, The price listed is for 5 boxes of 20 per box. </text>
+</box>
+<box>
+<text>Canned soda is a 12 oz aluminum can. These serve as tasty drinks The price listed is for 4 cases of 12 cans per case. </text>
+</box>
+<box>
+<text>Drinks are a wide variety of flavors and types, all having their Saving Throw [TN10 + number of servings they have had at a time], or become inebriated.</text>
+</box>
+<box>
+<text>Beer Beer is the world&#x27;s most widely consumed and probably oldest after water and tea. It is produced by the brewing and fermentation of sugars, typically derived from malted cereal grains, particularly barley and wheat. The price for beer is for a pack of 12. Each beer is a serving.</text>
+</box>
+<box>
+<text>Brandy Brandy is a spirit produced by distilling wine, typically bottle, which contains about 30 servings.</text>
+</box>
+<box>
+<text>Rum Rum is a distilled spirit made from sugarcane by-products of fermentation and distillation. It is used in drinks such as rum punch, mojitos, and pina coladas. The price listed is for a single bottle, which contains about 35 servings.</text>
+</box>
+<box>
+<text>Vodka Vodka is a distilled beverage composed primarily of water made by distillation of fermented substances such as grains, potatoes, or sometimes fruits. The price listed is for a single bottle, which contains about 25 servings.</text>
+</box>
+<box>
+<text>Liqueur Liqueur is a type of distilled alcoholic beverage that is sugar or sweetener added. It is often used for mixed drinks, but can be consumed by itself. Common liqueur examples include triple sec, schnapps, campari, chocolate liqueur, and amaretto. The price listed is for a single bottle, which contains about 20 servings.</text>
+</box>
+		<text>   Cigarettes and Cigars</text>
+<box>
+<text>A cigarette is a small roll of finely cut tobacco leaves wrapped tightly-rolled bundle of dried and fermented tobacco that is ignited so that its smoke may be drawn into the mouth. Smoking a pack of cigarettes or a single cigar causes 1 XHP damage per pack smoked. If a character loses their last non-lethal hit point due to smoking, they are nauseated for two hours and gain that hit point back after those two hours. The price listed is for a box of 20 cigars, or a carton of cigarettes, which contains 10 packs of 20 cigarettes each.</text>
+</box>
+<box>
+<text>An electronic cigarette, also known as an e-cig, is a battery the lungs via a nicotine, propylene glycol, and flavoring mixture, designed to look like, but be much healthier than, cigarettes, as instead of smoke, it produces water vapor as its byproduct. Electronic cigarettes come in a massive array of flavors, from regular tobacco flavor to things such as mint, key lime pie, and even cinnamon roll. They take on a variety of appearances as well, from a thin cigarette like look, to a customizable tank and battery. The price listed is for a full kit that includes one tank, one battery with charging apparatus, and two flavors.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">MRE, Civilian</text><text textAlign="center">S</text><text textAlign="center">1.2</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">MRE, Military (2)</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Trail Rations (12)</text><text textAlign="center">S</text><text textAlign="center">2.4</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Food Bars (5)</text><text textAlign="center">S</text><text textAlign="center">0.5</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Snack Foods (10)</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Candy Bars (15)</text><text textAlign="center">S</text><text textAlign="center">1.5</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Dried Sausages</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Pouch Bread (4)</text><text textAlign="center">S</text><text textAlign="center">1.5</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Hard Cheese</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Dried Grains</text><text textAlign="center">S</text><text textAlign="center">20.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Jerky(6)</text><text textAlign="center">S</text><text textAlign="center">3.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Dried Noodles (40)</text><text textAlign="center">S</text><text textAlign="center">8.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Dried Vegetables</text><text textAlign="center">S</text><text textAlign="center">6.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Fresh Vegetables</text><text textAlign="center">S</text><text textAlign="center">5.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Fresh Meat</text><text textAlign="center">S</text><text textAlign="center">4.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Preserved Meat</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Canned Food (10)</text><text textAlign="center">S</text><text textAlign="center">10.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Bottled Water(120)</text><text textAlign="center">T</text><text textAlign="center">132.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Powdered Drinks(100)</text><text textAlign="center">D</text><text textAlign="center">10.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Canned Soda (48)</text><text textAlign="center">T</text><text textAlign="center">38.4</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Beer(12)</text><text textAlign="center">S</text><text textAlign="center">9.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Wine</text><text textAlign="center">S</text><text textAlign="center">1.5</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Brandy</text><text textAlign="center">S</text><text textAlign="center">1.5</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Gin</text><text textAlign="center">S</text><text textAlign="center">1.5</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Rum</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tequila</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Vodka</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Whiskey</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Liquer</text><text textAlign="center">S</text><text textAlign="center">2.0</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Cigarettes</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Cigars</text><text textAlign="center">D</text><text textAlign="center">0.2</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">E-cig Kit</text><text textAlign="center">S</text><text textAlign="center">0.8</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">E-cig, Additional Flavors (4)</text><text textAlign="center">T</text><text textAlign="center">0.1</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+</table>
+		<header level = "1">Pharmaceutical Drugs, Medical supplies and Poisons</header>
+		<text>   Pharmaceutical drugs, also referred to as medicine, can bemedical diagnosis, cure, treatment, or prevention of disease. When using medicine, only the highest modifier applies.</text>
+		<text>   Antibacterials and Antivirals</text>
+<box>
+<text>An antibacterial is a compound or substance that kills or slows medication used specifically for treating viral infections. Both are used to combat against diseases, and grant a bonus to Fortitude Saving Throws toward disease. The cost of the drug is dependent on the actual Fortitude Saving Throw of the disease. The price listed is for three doses.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">+1 bonus (3)</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">+2 bonus(3)</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">+3 bonus(3)</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">6</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">+4 bonus(3)</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">8</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">+5 bonus(3)</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">10</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">+6 bonus(3)</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">12</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">+7 bonus(3)</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">14</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Analgesics/Painkillers</text>
+<box>
+<text>These medicines allow a character to ignore pain, and allow them effects wear off, the healing affect of the painkillers go with it. Painkillers can only be given to a character with at least 1 CHP. A player who has 0 or less CHP has suffered serious injuries and must receive medical attention and can not use painkillers. The price listed is for one dose, and each dose lasts for 1d3 hours. The dosage can come in the form of digestible pills or an injectable liquid.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Restore 1d4 XHP</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Restore 2d4 XHP</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Restore 3d4 XHP</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">3</text><text textAlign="center">L</text></tr>
+<tr>
+<text textAlign="center">Restore 4d4 XHP</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">4</text><text textAlign="center">L</text></tr>
+<tr>
+<text textAlign="center">Restore 5d4 XHP</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">5</text><text textAlign="center">R</text></tr>
+</table>
+		<text>   Hemostat</text>
+<box>
+<text>These medicines promote the clotting of blood. They reduce the is for two doses.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Remove 3 bleed damage(2)</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Remove 5 bleed damage(2)</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">3</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Remove 8 bleed damage(2)</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">7</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Remove 13 bleed damage(2)</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">11</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Remove All bleed damage(2)</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">20</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Antiseptics</text>
+<box>
+<text>Antiseptics are substances that are applied to destroy bonus to all Treat Injury checks when used, but the user must have at least 1 rank in the Treat Injury skill. The amount listed is for two doses.</text>
+</box>
+<box>
+<text>Weak Antiseptic These include distilled spirits, as well as </text>
+</box>
+<box>
+<text>Strong Antiseptics This includes iodine. They grant a +5 to Treat </text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz.</header><header textAlign="center">Wt.</header><header textAlign="center">Cost</header><header textAlign="center">Restr.</header></tr>
+<tr>
+<text textAlign="center">Weak(2)</text><text textAlign="center">F</text><text textAlign="center">0.2</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Standard(2)</text><text textAlign="center">F</text><text textAlign="center">0.2</text><text textAlign="center">4</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Strong(2)</text><text textAlign="center">F</text><text textAlign="center">0.2</text><text textAlign="center">7</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Concentrated(2)</text><text textAlign="center">F</text><text textAlign="center">0.2</text><text textAlign="center">13</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Antidote</text>
+<box>
+<text>Antidote is a substance used to counteract a specific poison. The and the character purchasing must know the specific poison used. The cost is for a single dose. The dosage can come in the form of digestable pills or an injectable liquid.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Antidote</text><text textAlign="center">F</text><text textAlign="center">0.2</text><text textAlign="center">See text</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Cold Pack</text>
+<box>
+<text>A cold pack is a strong plastic bag filled with water and a broken, it becomes very cold. It heals 2d3 damage per 10 minutes and can only be used to restore XHP that was lost by bludgeoning, fire, or non-lethal damage. The price listed is for eight packs, and the packs last for 1 hour.</text>
+</box>
+<box>
+<text>Spray-on bandage is antiseptic and bandage all in one convenient damage per use and can only be used to restore XHP that was lost by by Slashing or Piercing damage. The price listed is for four, 20 dose bottles.</text>
+</box>
+		<text>   Tourniquet</text>
+<box>
+<text>A tourniquet is a constricting device used to control bleeding on from extremity damage for 2d3 rounds, and reduces all bleed dice by 3 on that appendage for 2d3 minutes. Tourniquets can only be applied on arms or legs.</text>
+</box>
+<box>
+<text>Field dressing are bandages used to control bleeding in general. Field dressings can also be used in conjunction with the Treat Injury skill when stopping bleeding. When used in this manner, they stop an additional 3 bleed damage per field dressing used, up to a maximum of 4 field dressing. </text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Cold Pack(8)</text><text textAlign="center">T</text><text textAlign="center">0.4</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Spray-on Bandage(4)</text><text textAlign="center">T</text><text textAlign="center">0.2</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Tourniquet</text><text textAlign="center">T</text><text textAlign="center">0.3</text><text textAlign="center">2</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Field Dressing(4)</text><text textAlign="center">T</text><text textAlign="center">0.1</text><text textAlign="center">1</text><text textAlign="center">None</text></tr>
+</table>
+		<text>   Poisons</text>
+<box>
+<text>Poisons are chemical substances that can cause disturbances to molecular scale, when a sufficient quantity is absorbed by an organism. While nearly any substance ingested, injected, or inhaled into the body technically counts as a poison, the poisons listed here are specifically listed for their effects. The price listed is for 5 doses in a synthesized solid, liquid poison stored in a bottle, or a gas stored in a pressurized cylinder.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Arsenic</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">8</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Atropine (2)</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">3</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Blue Vitriol (2)</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">3</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Chloral Hydrate</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">15</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Cyanide</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">35</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Cyanogen</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">12</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">DDT</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">13</text><text textAlign="center">I</text></tr>
+<tr>
+<text textAlign="center">Lead Arsenate (Gas)</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">2</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Lead Arsenate (Solid)</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">2</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Mustard Gas</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">3</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Paris Green (Gas)</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">8</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Paris Green (Solid)</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">8</text><text textAlign="center">None</text></tr>
+<tr>
+<text textAlign="center">Sarin</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">35</text><text textAlign="center">I</text></tr>
+<tr>
+<text textAlign="center">Strychnine</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">12</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Tear Gas</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">8</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Tranquilizer</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">4</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">VX</text><text textAlign="center">S</text><text textAlign="center">1.0</text><text textAlign="center">300</text><text textAlign="center">I</text></tr>
+</table>
+		<header level = "1">Narcotics</header>
+		<text>   Cannabis</text>
+<box>
+<text>A genus of flowering plants that has long been used for fiber recreational drug. A character may smoke one dose of cannabis and roll a set of dice dependent on the potency. This roll is both the penalty to Will Saving Throws and their AGL modifier and a bonus to their XHP. The effect lasts for 5d12 minutes. Should the AGL penalty exceed the character&#x27;s DEX score, it is treated as 0 until the drug&#x27;s effect wears off. There are 50 doses in 0.1 lbs of cannabis. Any amount less than 50 doses is considered weightless.</text>
+</box>
+<table>
+<tr><header textAlign="center">Potency</header><header textAlign="center">Dice Rolled</header></tr>
+<tr>
+<text textAlign="center">Weak</text><text textAlign="center">1d2</text></tr>
+<tr>
+<text textAlign="center">Normal</text><text textAlign="center">1d3</text></tr>
+<tr>
+<text textAlign="center">Strong</text><text textAlign="center">2d3</text></tr>
+<tr>
+<text textAlign="center">Concentrated</text><text textAlign="center">2d3+1</text></tr>
+</table>
+		<text>   Coca Leaf</text>
+<box>
+<text>The leafy part of the coca plant, chewed to reduce tiredness and hour. If a character is exhausted, they are now fatigued. If a character is fatigued, it takes half the amount of time to become well rested. Sold in packs of 16 leaves. </text>
+</box>
+<box>
+<text>Cocaine is the processed version of the coca plant, used as a character may ingest, inject, or inhale one dose of cocaine (0.01 lb) to gain 5 additional Combat Points every round for 1 minute. The character may ingest, inject, or inhale subsequent doses to lengthen the time this bonus lasts by 1 minute, but it does not grant any additional Combat Points. After each dose is ingested, injected, or inhaled, a character immediately makes a Fortitude Saving Throw [TN25]. If a character fails this Saving Throw, they take CHP damage equal to the Combat Point bonus they received. The TN increases by 5 for each dose of Cocaine taken within 6 weeks of the first dose. There are 8 doses in 0.1 lbs of cocaine. Any amount less than 8 doses is considered weightless.</text>
+</box>
+<box>
+<text>A pharmaceutical pill marketed as a treatment for ADHD, ADD, and which reduces Craft checks of 24 hours in length or more by 1d4 hours, and Craft checks of 1 week in length or more by 1d3 days. This effect lasts for one week. Adderall is packaged in a small bottle containing 10 pills.</text>
+</box>
+<box>
+<text>An empathogenic drug that causes euphoria, a diminished sense of pill which grants a +2 bonus to all Reflex and Will Saving Throws. This bonus lasts for 30 minutes. After the effect wears off the character is considered Exhausted. A character can consume at least 4 units of water to halve the time it takes to recover from their exhaustion. MDMA is is packaged in a small bottle containing 10 pills.</text>
+</box>
+<box>
+<text>These medicines allow a character to ignore pain, and allow them stronger versions of the over the counter painkillers and as such require proper documentation to possess. When the effects wear off, the healing effect of the opioid goes with it. Opioids can be given to a character with at least 1 CHP. Opioids will restore both CHP and XHP, but will always restore CHP before XHP. The price listed is for one dose and each dose lasts for 1d3 hours. After taking a single dose, the character takes 1 CON damage that heals normally.</text>
+</box>
+<box>
+<text>These vary in presentation, type, and duration, but they all do takes a single dose of a hallucinogen, they take 3d3 WIS damage. This effect lasts 2d2 hours and the damage lasts as long as the effect.</text>
+</box>
+<table>
+<tr><header textAlign="center">Object</header><header textAlign="center">Sz</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Cannabis, Weak</text><text textAlign="center">T</text><text textAlign="center">−</text><text textAlign="center">1</text><text textAlign="center">I</text></tr>
+<tr>
+<text textAlign="center">Cannabis, Normal</text><text textAlign="center">T</text><text textAlign="center">−</text><text textAlign="center">2</text><text textAlign="center">I</text></tr>
+<tr>
+<text textAlign="center">Cannabis, Strong</text><text textAlign="center">T</text><text textAlign="center">−</text><text textAlign="center">4</text><text textAlign="center">I</text></tr>
+<tr>
+<text textAlign="center">Cannabis, Concentrated</text><text textAlign="center">T</text><text textAlign="center">−</text><text textAlign="center">8</text><text textAlign="center">I</text></tr>
+<tr>
+<text textAlign="center">Coca Leaf (16)</text><text textAlign="center">T</text><text textAlign="center">0.1</text><text textAlign="center">2</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Cocaine</text><text textAlign="center">T</text><text textAlign="center">−</text><text textAlign="center">80</text><text textAlign="center">I</text></tr>
+<tr>
+<text textAlign="center">Adderall (10)</text><text textAlign="center">D</text><text textAlign="center">0.1</text><text textAlign="center">4</text><text textAlign="center">L</text></tr>
+<tr>
+<text textAlign="center">MDMA</text><text textAlign="center">D</text><text textAlign="center">0.1</text><text textAlign="center">2</text><text textAlign="center">I</text></tr>
+<tr>
+<text textAlign="center">Opioid, Restore 2d10+1 HP</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">5</text><text textAlign="center">L</text></tr>
+<tr>
+<text textAlign="center">Opioid, Restore 3d10+1 HP</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">10</text><text textAlign="center">R</text></tr>
+<tr>
+<text textAlign="center">Opioid, Restore 4d10+1 HP</text><text textAlign="center">F</text><text textAlign="center">0.1</text><text textAlign="center">15</text><text textAlign="center">I</text></tr>
+<tr>
+<text textAlign="center">Hallucinogens</text><text textAlign="center">F</text><text textAlign="center">0.2</text><text textAlign="center">1d6</text><text textAlign="center">I</text></tr>
+</table>
+	</item>
+</body>

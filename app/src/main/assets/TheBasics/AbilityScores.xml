@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Ability Scores</header>
+<box>
+<text>Ability Scores  The ability scores are the six scores that are the core of your character. They affect everything else about your character.</text>
+</box>
+		<text>   Each ability has a modifier, which is calculated using this</text>
+		<text>   This is the number you add or subtract from a die roll when your</text>
+<table>
+<tr><header textAlign="center">Score</header><header textAlign="center">Mod</header></tr>
+<tr>
+<text textAlign="center">3</text><text textAlign="center">−4</text></tr>
+<tr>
+<text textAlign="center">4-5</text><text textAlign="center">−3</text></tr>
+<tr>
+<text textAlign="center">6-7</text><text textAlign="center">−2</text></tr>
+<tr>
+<text textAlign="center">8-9</text><text textAlign="center">−1</text></tr>
+<tr>
+<text textAlign="center">10-11</text><text textAlign="center">+0</text></tr>
+<tr>
+<text textAlign="center">12-13</text><text textAlign="center">+1</text></tr>
+<tr>
+<text textAlign="center">14-15</text><text textAlign="center">+2</text></tr>
+<tr>
+<text textAlign="center">16-17</text><text textAlign="center">+3</text></tr>
+<tr>
+<text textAlign="center">18</text><text textAlign="center">+4</text></tr>
+</table>
+<box>
+<text>When a character assigns ability scores and determines their into FOC &amp; POW and DEX into MRK &amp; AGL, equal to the total ability modifier for that ability.</text>
+</box>
+<box>
+<text>Example: A modifier of +2 could be divided into +2/+0, +1/+1, or </text>
+</box>
+		<header level = "1">Strength (STR)</header>
+		<text>   Strength measures your character&#x27;s muscle and physical power.carry and determines the Recoil Modifier for the character. Strength is split into two aspects,</text>
+<list type="unordered">
+<text>Focus (FOC), which represents a character&#x27;s hand-eye coordination with a melee weapon.</text>
+<text>Power (POW), which is the actual strength of the character.</text>
+</list>
+<list type="unordered">
+<text>Recoil Reduction (STR SCORE - 10)</text>
+<text>Carrying Capacity (STR SCORE * 3 lbs)</text>
+</list>
+<list type="unordered">
+<text>The skill that has STR as its key ability: Athletics.</text>
+<text>Strength checks (for breaking down doors and the like).</text>
+</list>
+<list type="unordered">
+<text>Melee attack rolls.</text>
+</list>
+<list type="unordered">
+<text>Damage rolls when using a melee weapon or a thrown weapon.</text>
+</list>
+		<header level = "1">Dexterity (DEX)</header>
+		<text>   Dexterity measures hand-eye coordination, agility, reflexes, and</text>
+<list type="unordered">
+<text>Marksmanship (MRK), which represents a character&#x27;s hand-eye coordination with a ranged weapon.</text>
+<text>Agility (AGL), which represents the character&#x27;s overall ability to move, dodge and avoid attacks and other hazards.</text>
+</list>
+<list type="unordered">
+<text>The skills that have DEX as their key ability: Acrobatics, Drive, Pilot, and Ride.</text>
+</list>
+<list type="unordered">
+<text>Ranged attack rolls.</text>
+</list>
+<list type="unordered">
+<text>Defense Score.</text>
+<text>Reflex Saving Throws.</text>
+<text>Initiative Score.</text>
+</list>
+		<text>   Constitution represents your character&#x27;s health and stamina. Ascore and modifier respectively. If either value changes, the CHP or XHP are increased or decreased accordingly. You apply your character&#x27;s Constitution modifier to</text>
+<list type="unordered">
+<text>Determining CHP and XHP.</text>
+<text>Fortitude Saving Throws</text>
+</list>
+		<text>   Intelligence represents how well your character learns andhave a wide assortment of skills. You apply your character&#x27;s Intelligence modifier to</text>
+<list type="unordered">
+<text>The number of skill points a character gets at first level and each level thereafter.</text>
+<text>The skills that have INT as their key ability: Craft, Demolitions, Disable Device, Knowledge, and Technology Use.</text>
+</list>
+		<text>   Wisdom represents a character&#x27;s willpower, common sense,analyze information, WIS represents being in tune with and aware of one&#x27;s surroundings. If you want your character to have acute senses, put a high score in WIS. You apply your character&#x27;s WIS modifier to</text>
+<list type="unordered">
+<text>Will Saving Throws</text>
+<text>The skills that have WIS as their key ability: Perception and Treat Injury.</text>
+</list>
+		<text>   Charisma represents a character&#x27;s force of personality,attractiveness. This ability represents actual strength of personality, not merely how one is perceived by others in a social setting. You apply your character&#x27;s Charisma modifier to</text>
+<list type="unordered">
+<text>The skills that have CHA as their key ability: Animal Handling, Perform, Presence, and Speechcraft.</text>
+</list>
+	</item>
+</body>

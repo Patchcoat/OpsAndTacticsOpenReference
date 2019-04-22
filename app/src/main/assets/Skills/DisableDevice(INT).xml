@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Disable Device (INT)</header>
+<box>
+<text>Disable Device (INT)  The character is skilled at disarming security devices and opening locks. In addition, this skill lets you sabotage simple mechanical devices, such as locks, and firearms.</text>
+</box>
+		<text>   A character can pick conventional locks, finesse combinationlockpicking kit (for a mechanical lock) or an electronics kit (for an electronic lock). The TN depends on the quality of the lock.</text>
+		<text><b>Cheap Locks [TN20]</b></text>
+<text>   Examples of cheap locks include briefcase locks, combinationlocks, and weak padlocks.</text>
+		<text><b>Average Locks [TN25]</b></text>
+<text>   Examples of average locks include home deadbolt locks, standardpadlocks, keypad locks, and RFID locks.</text>
+		<text><b>High Quality Locks [TN30]</b></text>
+<text>   Examples of high quality locks include business deadbolt locks,high quality padlocks, and encrypted card readers.</text>
+		<text><b>High Security Locks [TN35]</b></text>
+<text>   Examples of high security locks include bank branch vaults, andbiometric locks.</text>
+		<text><b>Ultra-High Security Locks [TN50]</b></text>
+<text>   Examples of ultra-high security locks include bank headquartersvault, or locks to a government high security area.</text>
+		<header level = "1">Disable Security Device</header>
+		<text>   A character can disable a security device, such as an electricable to reach the actual device. If the device is monitored, the fact that the character attempted to disable it will probably be noticed. When disabling a monitored device, the character can prevent their tampering from being noticed. Doing so requires 10 minutes and an electrical kit, and increases the TN of the check by +5.</text>
+		<text><b>Cheap Device [TN21]</b></text>
+<text>   Examples of cheap security devices include home door alarms,barbed wire, and improvised alarms such as noisemakers or tripwires.</text>
+		<text><b>Average Device [TN25]</b></text>
+<text>   Examples of average security devices include store securitycameras, razor wire, and simple motion detectors.</text>
+		<text><b>High Quality Devices [TN30]</b></text>
+<text>   Examples of high security devices include infrared securitycameras, advanced motion detectors, and electric fences.</text>
+		<text><b>High Security Devices [TN40]</b></text>
+<text>   Examples of high security devices include alarms to a bank vault,land mines, and glass sensors.</text>
+		<text><b>Ultra-high Security Devices [TN50]</b></text>
+<text>   Examples of ultrahigh security devices include military motiondetectors.</text>
+		<header level = "1">Sabotage Device</header>
+		<text>   A character can sabotage a mechanical or electrical device, suchskill check is made to see how well the sabotage attempt is made versus Perception checks, and the Disable Device check sets the TN for the repair check.</text>
+		<text>   Special</text>
+		<text>   A character can take 10 when using the Disable Device skill.</text>
+		<text>   Try again?</text>
+		<text>   If the character does not succeed on the first attempt, they canlong as they are not interrupted. They can make another attempt, adding the value of the first attempt to the current attempt. They can do this as long as they have time to perform the check.</text>
+		<text>   Time</text>
+		<text>   Opening a lock and disabling a device takes 1 minute per</text>
+	</item>
+</body>

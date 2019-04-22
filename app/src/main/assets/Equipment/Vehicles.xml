@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Vehicles</header>
+<text><b>Vehicles</b></text>
+		<text>   Vehicles are described by a number of statistics:</text>
+<list type="unordered">
+<text>Crew The standard number of crew. In most cases, only one person is needed to drive the vehicle; other crew members serve as gunners or copilots.</text>
+<text>Passengers The number of passengers (in addition to the crew) the vehicle is designed to carry. Vehicles that carry passengers can use that space to carry additional cargo when passengers aren&#x27;t present. Each unused passenger slot allows the vehicle to carry an additional 100 pounds of cargo.</text>
+<text>Cargo Capacity The amount of cargo the vehicle is designed to carry. Many vehicles can carry extra passengers instead of cargo, but doing so is usually a cramped, uncomfortable, and unsafe experience for those passengers. As a rule of thumb, one additional passenger can be carried for every 200 pounds of unused cargo capacity.</text>
+<text>Initiative The modifier added to the driver&#x27;s or pilot&#x27;s Initiative check when operating the vehicle.</text>
+<text>Maneuver (Man) The modifier added to any Drive or Pilot checks attempted with the vehicle.</text>
+<text>Top Speed The highest speed category the vehicle can reach.</text>
+<text>Defense The vehicle&#x27;s Defense.</text>
+<text>Hardness The vehicle&#x27;s hardness. Subtract this number from any damage dealt to the vehicle.</text>
+<text>Hit Points The vehicle&#x27;s full normal Hit Points.</text>
+<text>Size Vehicle size categories are defined differently from the size categories for weapons and other objects.</text>
+<text>Cost This is the Wealth Point cost to acquire the vehicle. This number reflects the base price and doesn&#x27;t include any modifiers for purchasing the vehicle on the black market.</text>
+<text>Restriction The restriction rating for the vehicle, if any.</text>
+</list>
+		<text>   Most new standard cars include such standard features as airentry, and an AM/FM radio with CD player. Luxury vehicles often also include extras such as heated side mirrors, power seats, leather upholstery, and sunroofs. In general, these luxury amenities can be added to a non-luxury car with an increase of 10% to the Wealth Point cost. It takes 4 Combat Points to enter or exit a car. It takes 1 Combat Point to start or stop the engine of a car.</text>
+		<text>   Unless otherwise noted, civilian cars provide three-quarterswindows or sunroofs, perhaps to fire weapons, may be reduced to one-half or even one-quarter cover).</text>
+		<text>   A toy car is any kind of single passenger recreational vehicle,covering at all and does not provide cover of any type for its occupant. Examples include go-karts of various makes and models. Toy cars are a single 5&#x27; square.</text>
+		<text>   A micro car is a tiny car, built to hold two passengers, usedcan fit in spaces that would be otherwise impossible for other cars. Examples include the Ford Fiesta and the Smart TwoFor. Microcars are 10&#x27; long and 10&#x27; wide.</text>
+		<text>   A compact car is a car that is not as small as a microcar, butmajority of vehicles on the road, hailed for their adequate passenger space, cargo room, and fuel efficiency. Examples include the Ford Focus, Honda Civic, and the Toyota Corolla. Compact cars are 15&#x27; long, and 10&#x27; wide.</text>
+		<text>   Mid-sized cars are larger than compact cars, usually boastingcargo space over a compact car. Examples include the Chevrolet Malibu and the Ford Fusion. Mid-sized cars are 15&#x27; long and 10&#x27; wide.</text>
+		<text>   Entry level luxury cars are cars that are the size of aand power seating. They also tend to have a slightly more powerful engine. Examples include the BMW 3, the Audi A4, and the Mercedes-Benz C-Class. Entry level luxury cars are 15&#x27; long and 10&#x27; wide.</text>
+		<text>   Full-size cars are cars with a wide body, a very large,they are often used as police cars. Examples include the Chevrolet Impala, Ford Taurus, and the Ford Crown Victoria. Full-sized cars are 20&#x27; long and 10&#x27; wide.</text>
+		<text>   These are roomy, comfortable towncars, often driven by carthese cars include the Audi A8, BMW 7 Series, Lexus LS, and the Mercedes-Benz S Class. Full-size luxury cars are 20&#x27; long and 10&#x27; wide.</text>
+		<header level = "1">Sports Car Classifications</header>
+		<text>   Sports cars are cars made for the sole purpose of racing; theyas luxury cars such as heated side mirrors, power seats, and leather upholstery.</text>
+		<text>   A Grand Tourer is a luxury vehicle, capable of both longfinely tuned machines that can be driven as a normal car, or driven on a racetrack. Examples include the Maserati GranTurismo, The Porsche 911 GT, the Nissan Skyline and GT-R, and the Ford GT. Grand Tourer cars are 20&#x27; long and 10&#x27; wide.</text>
+		<text>   Supercars are even more expensive versions of Grand Tourers.or are vehicles that are custom built for power and performance. Examples include the Bugatti Veyron and the Lamborghini Reventon. Supercars are 20&#x27; long and 10&#x27; wide.</text>
+		<text>   Muscle cars are the American version of a Grand Tourer, butcars are built for torque and drag racing, with high horsepower engines. Examples include the Dodge Challenger and Charger, the Pontiac GTO, and the Chevrolet Camaro. Muscle cars are 20&#x27; long and 10&#x27; wide.</text>
+		<header level = "1">Standard Van Classifications</header>
+		<text>   Vans include transport and cargo vans of all types. They aretheir cargo as well. They also have the same standard features that cars have, such as anti-lock brakes, air bags, and AM/FM radio with CD player. Unless otherwise noted, vans provide three-quarters cover to their occupants.</text>
+		<text>   A Multi-purpose vehicle is a van designed for personal use,Chevrolet Orlando, Chrysler Town and Country, the Ford Galaxy, and the Volkswagen Touran. Multi-purpose vehicles are 20&#x27; long and 10&#x27; wide.</text>
+		<text>   Cargo vans are large vans that have a large opening in the rearusually have two rear doors that can be opened. Any cargo or passengers that are in the cargo area have full cover. Examples include the Chevrolet Express 150, Ford e350 van, and the GMC Vandura. Cargo vans are 20&#x27; long and 10&#x27; wide.</text>
+		<text>   Passenger vans are vans used to transport large amounts ofExamples include Chevrolet Express 1500 and the Ford E350 Wagon. Passenger vans are 25&#x27; long and 10&#x27; wide.</text>
+		<header level = "1">Standard Truck Classifications</header>
+		<text>   Trucks include pickups of all types. They generally have thethree-quarters cover to their occupants. The rear bed of a pickup truck, however, provides only one-half cover.</text>
+		<text>   A mini pickup truck is a compact pickup truck, usually used forMontana and the Volkswagen Saveiro. Mini pickup trucks are 15&#x27; long and 10&#x27; wide.</text>
+		<text>   A mid-sized pickup truck is a pickup truck with a larger cabinclude the Ford Ranger, the Chevrolet Colorado, and the Nissan Navara. Mid-sized pickup trucks are 15&#x27; long and 10&#x27; wide.</text>
+		<text>   Full sized pickup trucks are trucks that have a large bed and amaterial. Examples include the Dodge Ram, the Ford F150, and the Toyota Tundra. Full-sized pickup trucks are 20&#x27; long and 10&#x27; wide.</text>
+		<text>   Heavy duty trucks are large trucks made for hauling the heaviestHeavy Duty, and the Ford Superduty. Heavy duty pickup trucks are 20&#x27; long and 10&#x27; wide.</text>
+		<header level = "1">Standard SUV Classifications</header>
+		<text>   Sport utility vehicles are vehicles that are made for both ontough terrain. Like trucks, they usually have the same amenities as cars. Unless otherwise noted, they provide their passengers with three-fourths cover.</text>
+		<text>   A mini SUV is a small, but powerful SUV, built for compactness.Wrangler, and the ford EcoSport. Mini SUVs are 15&#x27; long and 10&#x27; wide.</text>
+		<text>   A compact SUV is a small SUV, larger than a mini SUV thatthe Jeep Compass, and the Chevrolet Equinox. Compact SUVs are 15&#x27; long and 10&#x27; wide.</text>
+		<text>   A mid-sized SUV is a large SUV, complete with good cargo spacethe Jeep Grand Cherokee, and the Volkswagen Touareg. Mid-sized SUVs are 15&#x27; long and 10&#x27; wide.</text>
+		<text>   A full sized SUV is the largest of SUVs, usually including athe Cadillac Escalade, Chevrolet Suburban, and the Ford Explorer: Full-sized SUVs are 20&#x27; long and 10&#x27; wide.</text>
+		<header level = "1">Standard Motorcycle Classifications</header>
+		<text>   Unlike getting into a vehicle, mounting a motorcycle cost 3engine of a motorcycle. Motorcycles tend to perform better than automobiles in the terms of acceleration and maneuverability, but they provide no cover to their occupants. All motorcycles are 10&#x27; long and 5ft wide.</text>
+		<text>   A standard bike is a general use motorcycle, with a naturalhave good speed and good handling. Examples include the Suzuki GS500E and a Honda Hornet 599.</text>
+		<text>   These bikes are styled after american machines from the 1930s toof torque and power. Examples include various Harley-Davidsons, Indians and Excelsior-Hendersons.</text>
+		<text>   These bikes emphasize speed, acceleration, braking and corneringthe Kawasaki Ninja and the Suzuki GSX.</text>
+		<text>   Touring bikes are bikes designed for long distance riding, offertanks and expansive luggage. Examples include the BMW R1200RT and K1600GL, and the Honda Gold Wing.</text>
+		<text>   Dual sport bikes are dirtbikes that have street legal tires,bikes are built for dual purpose and have the ability to drive off road, as well as on road with no issues. Examples include the Honda XRV series, the Yamaha XT series, and the Kawasaki KLR series.</text>
+		<text>   Dirtbikes are off-road motorcycles used primarily fornecessary fairings, mirrors, or lights to be driven safely on roads, and the tires are usually knobby and built for dirt. Dirtbikes come equipped with all terrain tires. Examples include the Yamaha YZ250F and Kawasaki KDX220.</text>
+		<text>   All terrain vehicles, or ATVs are off-road vehicles usedhave four wheels instead of two, making them more stable at slower speeds. They lack the necessary fairings, mirrors, or lights to be driven safely on roads, and the tires are usually knobby and built for dirt, but their wider size gives them the ability to carry cargo at the cost of speed. ATVs come equipped with all terrain tires, but can not take sidecar upgrades. Examples include the Yamaha YZ450R and Kawasaki Brute Force 300.</text>
+		<text>   Scooters are two wheeled vehicles with a step through frame,ridden in a sitting posture. While not being as fast as a motorcycle, they are more economic, usually ridden around town for light travel. Examples include the Vespa PX and Yamaha Vino.</text>
+		<header level = "1">Standard Rotary Aircraft</header>
+		<text>   A rotary-wing aircraft is a heavier-than-air flying machine thatblades, that revolve around a mast. They are called helicopters. It takes 4 Combat Points to enter or exit a rotary aircraft. It takes 15 minutes to start the engine of a rotary aircraft, and 10 combat points to stop it.</text>
+		<text>   This is a general all purpose helicopter, that has an averageroles. Examples include the Bell JetRanger. It is 40&#x27; long and 15&#x27; wide.</text>
+		<text>   This is a helicopter that has a primary role of engaging groundexternal hardpoints that can mount rockets, missiles or guns. All weapons are forward firing arc. It is 60&#x27; long and 15&#x27; wide.</text>
+		<text>   This is a large helicopter who&#x27;s sole purpose is to transport aanother. It is 65&#x27; long and 15&#x27; wide.</text>
+		<header level = "1">Standard Fixed Wing Aircraft</header>
+		<text>   A fixed-wing aircraft is an aircraft capable of flight usingand the shape of the wings. It takes 4 Combat Points to enter or exit a fixed wing aircraft. It takes 5 minutes to start the engine of a fixed wing aircraft, and 10 combat points to stop it.</text>
+		<text>   This is a standard aircraft that is powered by a singleExamples include the Cessna 172. It is 60&#x27; long and 20&#x27; wide at the cabin, with a 100&#x27; wingspan.</text>
+		<text>   This is an aircraft built for military specifications. It ishardpoints that can accept rockets, missiles, or guns. All weapons are forward firing arc. Examples include the A-29 Super Tucano and the P51 Mustang. It is 80&#x27; long and 20&#x27; wide at the cabin, with a 140&#x27; wingspan.</text>
+		<text>   These aircraft are similar in size to prop aircraft, but insteadtransportation. It is 120&#x27; long and 30&#x27; wide at the cabin, with a 150&#x27; wingspan.</text>
+		<text>   These aircraft are jet aircraft built for militaryand have 6 external and 2 internal hardpoints for rockets, missiles or guns. All weapons are forward firing arc. Examples include the F/A-18, the F-16, and the F-15. It is 150&#x27; long and 30&#x27; wide at the cabin, with a 140&#x27; wingspan.</text>
+		<header level = "1">Other Vehicles</header>
+		<text>   A few types of vehicles don&#x27;t fit neatly into the categoriesbus) are usually custom built, so the model name isn&#x27;t specified as it is with most other vehicles in this section. The description and stats reflect a typical model. </text>
+		<text>   This is a large cargo truck used to move furniture or deliverprovides three-quarters cover for occupants in the cab and full cover for any in the back. It is 25&#x27; long and 10&#x27; wide.</text>
+		<text>   This is a large vehicle for transporting large amounts ofhalfway down the right-hand side or a door at the rear. It provides three-quarters cover for crew and passengers. It is 60&#x27; long and 10&#x27; wide.</text>
+		<text>   Used to transport money between businesses and financialthieves. The truck has three doors and firing ports that allow the crew to use their firearms without leaving the vehicle. It provides nine-tenths cover for its occupants. It is equipped with run-flat tires. It Is 20&#x27; long and 10&#x27; wide.</text>
+		<text>   This is a vehicle specifically made to hook up, and transportany vehicle of the same size or smaller, but when towing a vehicle it incurs a −5 to Maneuverability. It provides three-quarters cover for crew and passengers. It is 40&#x27; long and 10&#x27; wide.</text>
+		<text>   This electrical vehicle is primarily used for light transportareas such as shopping plazas. It provides no cover for crew and passengers. It is 10&#x27; long and 10&#x27; wide.</text>
+		<text>   Used to transport all sorts of cargo long distances, this truckoccupants in the trailer have full cover, while those in the cab have three-quarters cover. The cab can hold 1,000 lbs of cargo, while the trailer can hold 80,000 lbs of cargo. It Is 80&#x27; long and 15&#x27; wide.</text>
+		<text>   Recreational Vehicles, or RVs, are motor vehicles equipped withtravel, long term vacations, and for comfortable living in remote areas. RVs contain a bathroom, two bedrooms, and a small kitchenette. All occupants in the RV have full cover, while those in the driving and passenger seats have three-quarters cover. It Is 50&#x27; long and 10&#x27; wide.</text>
+		<header level = "1">Military and Police Vehicles</header>
+		<text>   Several military and police vehicles are covered here. Incommonly seen in military and police service.</text>
+		<text>   Armored personnel carriers are vehicles designed to carry troopsSome are equipped with a full turret mounted General Purpose Machine gun, while others are unarmed, usually those in police roles. APCs provide full cover for all of the occupants and the driver, and three-quarters cover for the gunner, if applicable. It takes 12 Combat Points to enter the driver or gunner seat of an APC and another 12 Combat Points to start it moving. It takes 4 Combat Points to Enter the passenger seat of an APC. Examples include the M113, BMP-2, Lenco Bearcat, and Cougar. APCs are 20&#x27; long and 10&#x27; wide. APCs do not lose speed due to terrain.</text>
+		<text>   Infantry fighting vehicles are vehicles designed to carry troopsthe weaponry they carry, built for more heavy fighting. They have a 30mm cannon and a secondary machinegun, mounted on the same axis as the 30mm cannon, with a full turret. IFVs provide full cover for all of the occupants, the driver and the gunner. It takes 12 Combat Points to enter the driver or gunner seat of an IFV and another 12 Combat Points to start it moving. It takes 4 Combat Points to Enter the passenger seat of an IFV. Examples include the BMP-3 and M1126 ICV Stryker. APCs are 20&#x27; long and 10&#x27; wide. IFVs are 25&#x27; long and 15&#x27; wide. IFVs do not lose speed due to terrain.</text>
+		<text>   A main battle tank is a tank that fills the heavy direct firethe M1 Abrams and T90. Main battle tanks have a tank gun, a general purpose machine gun mounted on the same axis as the Tank Gun, and a secondary machine gun of its choice. The secondary machine gun is also in a seperate, full turret. MBTs are 40&#x27; long and 15&#x27; wide. MBTs do not lose speed due to terrain.</text>
+		<text>   A multi-use vehicle is a vehicle that is used when armoredThis version can be configured in a variety of ways, including a two-door pickup, a four-door pickup with a short bed, and a completely enclosed, SUV-like body with a hatchback and four doors, and a heavy machine gun full turret mount on the top, which provides one-half cover. When the MUV is configured with the machine gun, it has one less passenger, and one more additional crew. It is equipped with Run flat tires. A MUV is 20&#x27; long and 10&#x27; wide. </text>
+		<header level = "1">Other Transportation</header>
+		<text>   A horse is a hooved, quadrupedal mammal that has beenof horses, the one listed representing the average work horse. The cost listed includes two saddle bags, and a saddle. Unlike other vehicles, horses die if their hit points reach −10, and are disabled like characters if their Hit Points reach 0. Horses also do not reduce their speed based on terrain. They can be healed using the Treat Injury skill. Mounting a horse costs 3 Combat Points.</text>
+		<text>   A tripod is a stationary mounted pintle, that is used forAll tripods have the weapon pintle upgrade built in. Tripods must be constructed. When they are in their deconstructed form, they are considered a Huge object. Tripods take 10 minutes to construct. When they are constructed, they can be used in any direction, but the user must be standing on the opposite direction of the tripod when using the mounted weapon. Tripods can not accept any vehicle upgrades. </text>
+		<header level = "1">Vehicle Upgrades</header>
+		<text>   A vehicle can be upgraded with various upgrades to make thembe upgraded in a number of slots.</text>
+<list type="unordered">
+<text>Body The frame, the plating, and any other superficial equipment such as the lighting, windshields, paint job, and interior.</text>
+<text>Wheels The tires, rims, and the brakes of a vehicle.</text>
+<text>Powertrain The engine and any auxiliary equipment hooked up to it, such as a turbocharger.</text>
+<text>Drivetrain The transmission and the suspension.</text>
+</list>
+		<text>   This upgrade gives the vehicle a brand new color, tint, and hue.</text>
+		<text>   This upgrade gives the vehicle either a hard top or soft topa button. It takes 1 round for the top to retract or extend. When the top is retracted, all characters in the vehicle have one-half cover. Only cars, trucks, SUVs, and vans may take this upgrade.</text>
+		<text>   This upgrade is used for Fire, EMS, and auxiliary vehicles tovehicle lights, sirens, and markings for the selected use. Cars receive space for a standard equipment kit, and trucks, vans, and SUVs receive space for a deluxe equipment kit.</text>
+		<text>   This upgrade gives the vehicle lights and sirens, markings (if atrucks, SUVs, and vans also receive two long-gun mounts, capable of securely storing two large firearms in a lock (Handcuff Lock). APCs, IFVs and MBTs that take this kit have all of their weapons removed.</text>
+		<text>   This upgrade adds a spoiler, and removes all non-essential partsplayer, and the AC and heat. This upgrade reduces the passenger rating to 1, and reduces the weight of the vehicle by 20%. The racing kit also reduces damage given to occupants, due to rolling or collisions, by half.</text>
+		<text>   This upgrade adds a sidecar to a motorcycle or scooter, giving aupgrade increases the passenger rating by 1, but reduces the Maneuverability of a motorcycle by 2, and reduces the top speed of a motorcycle by one category. Anyone sitting in the sidecar has one-half cover. Only motorcycles may take this upgrade.</text>
+		<text>   This upgrade fits the car with bullet resistant windows, andunmodified vehicle. It increases the HP of the vehicle by 10%, and the hardness of the vehicle by 2 points. Only cars, trucks, SUVs, vans, and military and police vehicles may take this upgrade.</text>
+		<text>   This upgrade fits the vehicle with heavy plating and thick,vehicle by 30%, the hardness of the vehicle by 10 points, but reduces the max speed category by 1. Only cars, trucks, SUVs, vans and military and police vehicles may take this upgrade.</text>
+		<text>   This upgrade fits the vehicle with a mount that allows for aweapon&#x27;s Recoil penalty is reduced by 6. Only trucks and vans can use this upgrade. When used on trucks this upgrade puts the mount in the bed of the truck, and the pintle has full range of motion. When this upgrade is placed on vans, the mount is put either at the rear doors or on the side doors, if the vehicle has one, and gains only the firing arc of the opening doors. A vehicle can only have one weapon pintle mount.</text>
+		<text>   This upgrade fits the vehicle with an internal hardpoint thatlarger weapon. These can be fired by the driver, or wired to a gunner position. If it is wired to a gunner position, remove one passenger location and add one crew location to the vehicle, and increase the cost by 25 WP. Only cars, trucks, vans, SUVs, and military and police vehicles may take this upgrade, and this upgrade may be taken a maximum of six times. Because of its internal nature, it is impossible to detect when not in use. When taking this upgrade, a firing arc must be selected.</text>
+		<text>   This upgrade fits the vehicle with external hardpoints, that canweapon. These can be fired by the driver, or wired to a gunner position. If it is wired to a gunner position, remove one passenger location and add one crew location to the vehicle, and increase the cost by 20 WP. This upgrade may be taken a maximum of six times. When taking this upgrade, a firing arc must be selected.</text>
+		<text>   This upgrade is the standard, general use tires. They grant no</text>
+		<text>   This upgrade changes the standard tires for high performanceany paved roads, but grants a -3 penalty when driving on any other kind of surface, and when driving on wilderness, the car becomes stuck immediately and can not move.</text>
+		<text>   This upgrade changes the standard tires for knobby snow tires,maneuverability while on any ice or snow terrain, but grant a −5 penalty to maneuvering when driving on paved roads, and a −3 penalty when driving on any other kind of surface.</text>
+		<text>   This upgrade changes the standard tires for off-roading tires,driving on wilderness, or semi-paved roads, the vehicle&#x27;s speed loss due to terrain is reduced by 2 categories.</text>
+		<text>   This upgrade will upgrade any set of tires to their run-flatdestroyed, and the penalties incurred from that is negated for 45 minutes. After 45 minutes, the tires are damaged as normal, and any skill checks or Saving Throws are then completed, if necessary.</text>
+		<text>   This upgrade replaces the standard brakes with a set of hightwo levels every round.</text>
+		<text>   This upgrade fits the vehicle with a turbocharger and anof a vehicle&#x27;s engine. It increases the maximum speed category of a vehicle by 1.</text>
+		<text>   This upgrade fits the vehicle with a single nitrous oxide tank,activates the tank for 2 Combat Points, and the vehicle immediately gains two speed categories. Each tank can be activated only once before it must be refilled, spare nitrous costing 4 WP per refill. The vehicle must not be stationary in order to gain this benefit. This upgrade can be taken up to three times, each time giving an additional tank.</text>
+		<text>   This transmission is the standard transmission installed in</text>
+		<text>   This transmission reduces the overall speed of a vehicle, butvehicle can immediately go from stationary to Avenue speed, but has a maximum speed of Street speed.</text>
+		<text>   This transmission reduces the acceleration of a vehicle, butusing this upgrade, it takes two rounds to increase to the next speed, but the maximum speed is increased by 3.</text>
+		<text>   This transmission is a customizable transmission, allowing foror Long Distance, and uses the same rules as the selected transmission.</text>
+		<text>   This transmission ties all of the wheels together to increaseWhen driving on wilderness or semi-paved roads, the vehicle&#x27;s speed loss due to terrain is reduced by 1 category.</text>
+		<text>   This upgrade increases the effectiveness of the suspension,</text>
+<table>
+<tr><header textAlign="center">Name</header><header textAlign="center">Crew</header><header textAlign="center">Pass</header><header textAlign="center">Cargo</header><header textAlign="center">Init</header><header textAlign="center">Maneu</header><header textAlign="center">Top Speed</header><header textAlign="center">Defense</header><header textAlign="center">Hardness</header><header textAlign="center">HP</header><header textAlign="center">Size</header><header textAlign="center">Cost</header></tr>
+<tr>
+<text textAlign="center">Standard Car Categories</text></tr>
+<tr>
+<text textAlign="center">Toy Car</text><text textAlign="center">1</text><text textAlign="center">0</text><text textAlign="center">0 lb.</text><text textAlign="center">−3</text><text textAlign="center">+0</text><text textAlign="center">Alley</text><text textAlign="center">12</text><text textAlign="center">0</text><text textAlign="center">25</text><text textAlign="center">M</text><text textAlign="center">12</text></tr>
+<tr>
+<text textAlign="center">Microcar</text><text textAlign="center">1</text><text textAlign="center">1</text><text textAlign="center">50 lb.</text><text textAlign="center">−2</text><text textAlign="center">−1</text><text textAlign="center">Street</text><text textAlign="center">9</text><text textAlign="center">3</text><text textAlign="center">40</text><text textAlign="center">L</text><text textAlign="center">180</text></tr>
+<tr>
+<text textAlign="center">Compact Car</text><text textAlign="center">1</text><text textAlign="center">3</text><text textAlign="center">125 lb.</text><text textAlign="center">−2</text><text textAlign="center">−2</text><text textAlign="center">Highway</text><text textAlign="center">8</text><text textAlign="center">5</text><text textAlign="center">45</text><text textAlign="center">H</text><text textAlign="center">200</text></tr>
+<tr>
+<text textAlign="center">Mid-Sized Car</text><text textAlign="center">1</text><text textAlign="center">4</text><text textAlign="center">145 lb.</text><text textAlign="center">−2</text><text textAlign="center">−2</text><text textAlign="center">Highway</text><text textAlign="center">8</text><text textAlign="center">5</text><text textAlign="center">45</text><text textAlign="center">H</text><text textAlign="center">450</text></tr>
+<tr>
+<text textAlign="center">Entry Level Luxury Car</text><text textAlign="center">1</text><text textAlign="center">4</text><text textAlign="center">190 lb.</text><text textAlign="center">−1</text><text textAlign="center">−2</text><text textAlign="center">Highway</text><text textAlign="center">8</text><text textAlign="center">5</text><text textAlign="center">48</text><text textAlign="center">H</text><text textAlign="center">1,100</text></tr>
+<tr>
+<text textAlign="center">Full-Sized Car</text><text textAlign="center">1</text><text textAlign="center">4</text><text textAlign="center">225 lb.</text><text textAlign="center">−1</text><text textAlign="center">−3</text><text textAlign="center">Highway</text><text textAlign="center">7</text><text textAlign="center">5</text><text textAlign="center">50</text><text textAlign="center">H</text><text textAlign="center">750</text></tr>
+<tr>
+<text textAlign="center">Full Size Luxury Car</text><text textAlign="center">1</text><text textAlign="center">4</text><text textAlign="center">235 lb.</text><text textAlign="center">−1</text><text textAlign="center">−3</text><text textAlign="center">Highway</text><text textAlign="center">7</text><text textAlign="center">5</text><text textAlign="center">55</text><text textAlign="center">H</text><text textAlign="center">2,000</text></tr>
+<tr>
+<text textAlign="center">Standard Van Categories</text></tr>
+<tr>
+<text textAlign="center">Multi-Purpose Van</text><text textAlign="center">1</text><text textAlign="center">7</text><text textAlign="center">280 lb.</text><text textAlign="center">−1</text><text textAlign="center">−2</text><text textAlign="center">Highway</text><text textAlign="center">7</text><text textAlign="center">6</text><text textAlign="center">55</text><text textAlign="center">H</text><text textAlign="center">400</text></tr>
+<tr>
+<text textAlign="center">Cargo Van</text><text textAlign="center">1</text><text textAlign="center">1</text><text textAlign="center">2,800 lb.</text><text textAlign="center">+0</text><text textAlign="center">−2</text><text textAlign="center">Highway</text><text textAlign="center">6</text><text textAlign="center">6</text><text textAlign="center">48</text><text textAlign="center">H</text><text textAlign="center">500</text></tr>
+<tr>
+<text textAlign="center">Passenger Van</text><text textAlign="center">1</text><text textAlign="center">12</text><text textAlign="center">250 lb.</text><text textAlign="center">−2</text><text textAlign="center">−2</text><text textAlign="center">Street</text><text textAlign="center">6</text><text textAlign="center">6</text><text textAlign="center">46</text><text textAlign="center">G</text><text textAlign="center">650</text></tr>
+<tr>
+<text textAlign="center">Standard Truck Categories</text></tr>
+<tr>
+<text textAlign="center">Mini Pickup Truck</text><text textAlign="center">1</text><text textAlign="center">1</text><text textAlign="center">800 lb.</text><text textAlign="center">−1</text><text textAlign="center">−1</text><text textAlign="center">Highway</text><text textAlign="center">8</text><text textAlign="center">5</text><text textAlign="center">38</text><text textAlign="center">L</text><text textAlign="center">220</text></tr>
+<tr>
+<text textAlign="center">Mid-sized Pickup Truck</text><text textAlign="center">1</text><text textAlign="center">2</text><text textAlign="center">1,200 lb.</text><text textAlign="center">−1</text><text textAlign="center">−2</text><text textAlign="center">Highway</text><text textAlign="center">8</text><text textAlign="center">5</text><text textAlign="center">45</text><text textAlign="center">H</text><text textAlign="center">310</text></tr>
+<tr>
+<text textAlign="center">Full-Sized Pickup Truck</text><text textAlign="center">1</text><text textAlign="center">3</text><text textAlign="center">2,000 lb.</text><text textAlign="center">−1</text><text textAlign="center">−2</text><text textAlign="center">Highway</text><text textAlign="center">7</text><text textAlign="center">5</text><text textAlign="center">60</text><text textAlign="center">H</text><text textAlign="center">380</text></tr>
+<tr>
+<text textAlign="center">Heavy Duty Pickup Truck</text><text textAlign="center">1</text><text textAlign="center">4</text><text textAlign="center">3,500 lb.</text><text textAlign="center">−2</text><text textAlign="center">−3</text><text textAlign="center">Highway</text><text textAlign="center">7</text><text textAlign="center">5</text><text textAlign="center">70</text><text textAlign="center">G</text><text textAlign="center">420</text></tr>
+<tr>
+<text textAlign="center">Standard SUV Categories</text></tr>
+<tr>
+<text textAlign="center">Mini SUV</text><text textAlign="center">1</text><text textAlign="center">3</text><text textAlign="center">280 lb.</text><text textAlign="center">−1</text><text textAlign="center">−1</text><text textAlign="center">Highway</text><text textAlign="center">7</text><text textAlign="center">5</text><text textAlign="center">50</text><text textAlign="center">L</text><text textAlign="center">220</text></tr>
+<tr>
+<text textAlign="center">Compact SUV</text><text textAlign="center">1</text><text textAlign="center">4</text><text textAlign="center">320 lb.</text><text textAlign="center">−1</text><text textAlign="center">−2</text><text textAlign="center">Highway</text><text textAlign="center">7</text><text textAlign="center">5</text><text textAlign="center">60</text><text textAlign="center">H</text><text textAlign="center">310</text></tr>
+<tr>
+<text textAlign="center">Mid-Sized SUV</text><text textAlign="center">1</text><text textAlign="center">4</text><text textAlign="center">430 lb.</text><text textAlign="center">−1</text><text textAlign="center">−2</text><text textAlign="center">Highway</text><text textAlign="center">6</text><text textAlign="center">5</text><text textAlign="center">70</text><text textAlign="center">H</text><text textAlign="center">380</text></tr>
+<tr>
+<text textAlign="center">Full-Sized SUV</text><text textAlign="center">1</text><text textAlign="center">5</text><text textAlign="center">650 lb.</text><text textAlign="center">−2</text><text textAlign="center">−3</text><text textAlign="center">Highway</text><text textAlign="center">6</text><text textAlign="center">5</text><text textAlign="center">80</text><text textAlign="center">G</text><text textAlign="center">420</text></tr>
+<tr>
+<text textAlign="center">Standard Motorcycle Categories</text></tr>
+<tr>
+<text textAlign="center">Standard Bike</text><text textAlign="center">1</text><text textAlign="center">1</text><text textAlign="center">100 lb.</text><text textAlign="center">+2</text><text textAlign="center">+2</text><text textAlign="center">Highway</text><text textAlign="center">10</text><text textAlign="center">2</text><text textAlign="center">25</text><text textAlign="center">M</text><text textAlign="center">500</text></tr>
+<tr>
+<text textAlign="center">Cruiser Bike</text><text textAlign="center">1</text><text textAlign="center">1</text><text textAlign="center">150 lb.</text><text textAlign="center">+1</text><text textAlign="center">+1</text><text textAlign="center">Highway</text><text textAlign="center">9</text><text textAlign="center">2</text><text textAlign="center">45</text><text textAlign="center">M</text><text textAlign="center">700</text></tr>
+<tr>
+<text textAlign="center">Sport Bike</text><text textAlign="center">1</text><text textAlign="center">1</text><text textAlign="center">0 lb.</text><text textAlign="center">+3</text><text textAlign="center">+3</text><text textAlign="center">All Out</text><text textAlign="center">10</text><text textAlign="center">2</text><text textAlign="center">26</text><text textAlign="center">M</text><text textAlign="center">725</text></tr>
+<tr>
+<text textAlign="center">Touring Bike</text><text textAlign="center">1</text><text textAlign="center">1</text><text textAlign="center">300 lb.</text><text textAlign="center">+1</text><text textAlign="center">+2</text><text textAlign="center">Highway</text><text textAlign="center">8</text><text textAlign="center">2</text><text textAlign="center">28</text><text textAlign="center">M</text><text textAlign="center">800</text></tr>
+<tr>
+<text textAlign="center">Dual Sport</text><text textAlign="center">1</text><text textAlign="center">1</text><text textAlign="center">50 lb.</text><text textAlign="center">+1</text><text textAlign="center">+2</text><text textAlign="center">Highway</text><text textAlign="center">10</text><text textAlign="center">2</text><text textAlign="center">25</text><text textAlign="center">M</text><text textAlign="center">650</text></tr>
+<tr>
+<text textAlign="center">Dirt Bike</text><text textAlign="center">1</text><text textAlign="center">0</text><text textAlign="center">0 lb.</text><text textAlign="center">+0</text><text textAlign="center">+4</text><text textAlign="center">Street</text><text textAlign="center">11</text><text textAlign="center">0</text><text textAlign="center">19</text><text textAlign="center">M</text><text textAlign="center">250</text></tr>
+<tr>
+<text textAlign="center">ATV</text><text textAlign="center">1</text><text textAlign="center">0</text><text textAlign="center">225 lb.</text><text textAlign="center">+0</text><text textAlign="center">-1</text><text textAlign="center">Alley</text><text textAlign="center">9</text><text textAlign="center">0</text><text textAlign="center">22</text><text textAlign="center">M</text><text textAlign="center">245</text></tr>
+<tr>
+<text textAlign="center">Scooter</text><text textAlign="center">1</text><text textAlign="center">1</text><text textAlign="center">20 lb.</text><text textAlign="center">+0</text><text textAlign="center">+1</text><text textAlign="center">Alley</text><text textAlign="center">10</text><text textAlign="center">0</text><text textAlign="center">14</text><text textAlign="center">M</text><text textAlign="center">100</text></tr>
+<tr>
+<text textAlign="center">Standard Rotary Aircraft</text></tr>
+<tr>
+<text textAlign="center">Utility Helicopter</text><text textAlign="center">2</text><text textAlign="center">3</text><text textAlign="center">250 lb.</text><text textAlign="center">−3</text><text textAlign="center">−4</text><text textAlign="center">All Out</text><text textAlign="center">4</text><text textAlign="center">5</text><text textAlign="center">45</text><text textAlign="center">G</text><text textAlign="center">8,750</text></tr>
+<tr>
+<text textAlign="center">Gunship Helicopter</text><text textAlign="center">2</text><text textAlign="center">0</text><text textAlign="center">50 lb.</text><text textAlign="center">−2</text><text textAlign="center">−3</text><text textAlign="center">All Out</text><text textAlign="center">5</text><text textAlign="center">20</text><text textAlign="center">90</text><text textAlign="center">G</text><text textAlign="center">12,000</text></tr>
+<tr>
+<text textAlign="center">Transport Helicopter</text><text textAlign="center">2</text><text textAlign="center">10</text><text textAlign="center">6,000 lb.</text><text textAlign="center">−4</text><text textAlign="center">−4</text><text textAlign="center">All Out</text><text textAlign="center">4</text><text textAlign="center">5</text><text textAlign="center">50</text><text textAlign="center">G</text><text textAlign="center">9,000</text></tr>
+<tr>
+<text textAlign="center">Standard Fixed Wing Aircraft</text></tr>
+<tr>
+<text textAlign="center">Standard Prop Aircraft</text><text textAlign="center">2</text><text textAlign="center">2</text><text textAlign="center">150 lb.</text><text textAlign="center">−6</text><text textAlign="center">+0</text><text textAlign="center">All Out</text><text textAlign="center">3</text><text textAlign="center">5</text><text textAlign="center">23</text><text textAlign="center">C</text><text textAlign="center">7,000</text></tr>
+<tr>
+<text textAlign="center">Military Prop Aircraft</text><text textAlign="center">1</text><text textAlign="center">0</text><text textAlign="center">0 lb.</text><text textAlign="center">−6</text><text textAlign="center">+0</text><text textAlign="center">All Out</text><text textAlign="center">3</text><text textAlign="center">12</text><text textAlign="center">40</text><text textAlign="center">C</text><text textAlign="center">11,000</text></tr>
+<tr>
+<text textAlign="center">Standard Jet Aircraft</text><text textAlign="center">2</text><text textAlign="center">8</text><text textAlign="center">500 lb.</text><text textAlign="center">−5</text><text textAlign="center">−2</text><text textAlign="center">All Out</text><text textAlign="center">2</text><text textAlign="center">5</text><text textAlign="center">25</text><text textAlign="center">C</text><text textAlign="center">150K</text></tr>
+<tr>
+<text textAlign="center">Military Jet Aircraft</text><text textAlign="center">2</text><text textAlign="center">0</text><text textAlign="center">0 lb.</text><text textAlign="center">−5</text><text textAlign="center">−2</text><text textAlign="center">All Out</text><text textAlign="center">2</text><text textAlign="center">18</text><text textAlign="center">60</text><text textAlign="center">C</text><text textAlign="center">300K</text></tr>
+<tr>
+<text textAlign="center">Other Vehicles</text></tr>
+<tr>
+<text textAlign="center">Moving Truck</text><text textAlign="center">1</text><text textAlign="center">2</text><text textAlign="center">33,000 lb.</text><text textAlign="center">−4</text><text textAlign="center">−4</text><text textAlign="center">Avenue</text><text textAlign="center">6</text><text textAlign="center">5</text><text textAlign="center">44</text><text textAlign="center">G</text><text textAlign="center">400</text></tr>
+<tr>
+<text textAlign="center">Bus</text><text textAlign="center">1</text><text textAlign="center">39</text><text textAlign="center">50,000 lb.</text><text textAlign="center">−4</text><text textAlign="center">−4</text><text textAlign="center">Avenue</text><text textAlign="center">6</text><text textAlign="center">5</text><text textAlign="center">48</text><text textAlign="center">G</text><text textAlign="center">5,000</text></tr>
+<tr>
+<text textAlign="center">Armored Truck</text><text textAlign="center">2</text><text textAlign="center">0</text><text textAlign="center">3,600 lb.</text><text textAlign="center">−2</text><text textAlign="center">−2</text><text textAlign="center">Street</text><text textAlign="center">8</text><text textAlign="center">10</text><text textAlign="center">36</text><text textAlign="center">H</text><text textAlign="center">520</text></tr>
+<tr>
+<text textAlign="center">Tow Truck</text><text textAlign="center">1</text><text textAlign="center">2</text><text textAlign="center">300 lb.</text><text textAlign="center">−4</text><text textAlign="center">−2</text><text textAlign="center">Street</text><text textAlign="center">8</text><text textAlign="center">6</text><text textAlign="center">52</text><text textAlign="center">H</text><text textAlign="center">900</text></tr>
+<tr>
+<text textAlign="center">Golf Cart</text><text textAlign="center">1</text><text textAlign="center">3</text><text textAlign="center">250 lb.</text><text textAlign="center">−2</text><text textAlign="center">+1</text><text textAlign="center">Alley</text><text textAlign="center">11</text><text textAlign="center">0</text><text textAlign="center">21</text><text textAlign="center">L</text><text textAlign="center">250</text></tr>
+<tr>
+<text textAlign="center">Semi-Trailer Truck</text><text textAlign="center">1</text><text textAlign="center">1</text><text textAlign="center">81,000 lb.</text><text textAlign="center">−5</text><text textAlign="center">−7</text><text textAlign="center">Street</text><text textAlign="center">5</text><text textAlign="center">7</text><text textAlign="center">60</text><text textAlign="center">G</text><text textAlign="center">2,000</text></tr>
+<tr>
+<text textAlign="center">RV</text><text textAlign="center">1</text><text textAlign="center">7</text><text textAlign="center">4,000 lb.</text><text textAlign="center">−3</text><text textAlign="center">−5</text><text textAlign="center">Highway</text><text textAlign="center">8</text><text textAlign="center">4</text><text textAlign="center">40</text><text textAlign="center">H</text><text textAlign="center">720</text></tr>
+<tr>
+<text textAlign="center">Military &amp; Police Vehicles</text></tr>
+<tr>
+<text textAlign="center">APC</text><text textAlign="center">2</text><text textAlign="center">8</text><text textAlign="center">250 lb.</text><text textAlign="center">−3</text><text textAlign="center">−3</text><text textAlign="center">Street</text><text textAlign="center">6</text><text textAlign="center">25</text><text textAlign="center">180</text><text textAlign="center">H</text><text textAlign="center">6,000</text></tr>
+<tr>
+<text textAlign="center">IFV</text><text textAlign="center">2</text><text textAlign="center">8</text><text textAlign="center">280 lb.</text><text textAlign="center">−4</text><text textAlign="center">−3</text><text textAlign="center">Street</text><text textAlign="center">6</text><text textAlign="center">30</text><text textAlign="center">190</text><text textAlign="center">H</text><text textAlign="center">12,000</text></tr>
+<tr>
+<text textAlign="center">MBT</text><text textAlign="center">4</text><text textAlign="center">0</text><text textAlign="center">50 lb.</text><text textAlign="center">−6</text><text textAlign="center">−4</text><text textAlign="center">Avenue</text><text textAlign="center">2</text><text textAlign="center">50</text><text textAlign="center">240</text><text textAlign="center">G</text><text textAlign="center">100K</text></tr>
+<tr>
+<text textAlign="center">MUV, 2-Door Pickup</text><text textAlign="center">1</text><text textAlign="center">1</text><text textAlign="center">1,800 lb.</text><text textAlign="center">−2</text><text textAlign="center">−2</text><text textAlign="center">Street</text><text textAlign="center">7</text><text textAlign="center">10</text><text textAlign="center">55</text><text textAlign="center">H</text><text textAlign="center">5,000</text></tr>
+<tr>
+<text textAlign="center">MUV, 4-Door Pickup</text><text textAlign="center">1</text><text textAlign="center">3</text><text textAlign="center">1,000 lb.</text><text textAlign="center">−2</text><text textAlign="center">−2</text><text textAlign="center">Street</text><text textAlign="center">7</text><text textAlign="center">10</text><text textAlign="center">55</text><text textAlign="center">H</text><text textAlign="center">5,000</text></tr>
+<tr>
+<text textAlign="center">MUV, SUV w/o Gun</text><text textAlign="center">1</text><text textAlign="center">4</text><text textAlign="center">250 lb.</text><text textAlign="center">−2</text><text textAlign="center">−2</text><text textAlign="center">Street</text><text textAlign="center">7</text><text textAlign="center">10</text><text textAlign="center">55</text><text textAlign="center">H</text><text textAlign="center">5,000</text></tr>
+<tr>
+<text textAlign="center">MUV, SUV w/ Gun</text><text textAlign="center">2</text><text textAlign="center">3</text><text textAlign="center">100 lb.</text><text textAlign="center">−2</text><text textAlign="center">−2</text><text textAlign="center">Street</text><text textAlign="center">7</text><text textAlign="center">10</text><text textAlign="center">55</text><text textAlign="center">H</text><text textAlign="center">5,000</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Name</header><header textAlign="center">Crew</header><header textAlign="center">Pass.</header><header textAlign="center">Cargo</header><header textAlign="center">Init</header><header textAlign="center">Maneu</header><header textAlign="center">Top Speed</header><header textAlign="center">Defense</header><header textAlign="center">Hardness</header><header textAlign="center">HP</header><header textAlign="center">Size</header><header textAlign="center">Cost</header></tr>
+<tr>
+<text textAlign="center">Sports Car Categories</text></tr>
+<tr>
+<text textAlign="center">Grand Tourer Car</text><text textAlign="center">1</text><text textAlign="center">1</text><text textAlign="center">50 lb.</text><text textAlign="center">−1</text><text textAlign="center">−2</text><text textAlign="center">All Out</text><text textAlign="center">7</text><text textAlign="center">3</text><text textAlign="center">40</text><text textAlign="center">H</text><text textAlign="center">5,000</text></tr>
+<tr>
+<text textAlign="center">Supercar</text><text textAlign="center">1</text><text textAlign="center">1</text><text textAlign="center">75 lb.</text><text textAlign="center">+0</text><text textAlign="center">−2</text><text textAlign="center">All Out</text><text textAlign="center">7</text><text textAlign="center">3</text><text textAlign="center">55</text><text textAlign="center">H</text><text textAlign="center">8,000</text></tr>
+<tr>
+<text textAlign="center">Muscle Car</text><text textAlign="center">1</text><text textAlign="center">1</text><text textAlign="center">250 lb.</text><text textAlign="center">−2</text><text textAlign="center">−2</text><text textAlign="center">All Out</text><text textAlign="center">7</text><text textAlign="center">5</text><text textAlign="center">62</text><text textAlign="center">H</text><text textAlign="center">1,800</text></tr>
+<tr>
+<text textAlign="center">Other Transportation</text></tr>
+<tr>
+<text textAlign="center">Horse</text><text textAlign="center">1</text><text textAlign="center">1</text><text textAlign="center">100 lb.</text><text textAlign="center">+1</text><text textAlign="center">+2</text><text textAlign="center">Cruising</text><text textAlign="center">12</text><text textAlign="center">0</text><text textAlign="center">25</text><text textAlign="center">L</text><text textAlign="center">250</text></tr>
+<tr>
+<text textAlign="center">Tripod</text><text textAlign="center">1</text><text textAlign="center">0</text><text textAlign="center">0 lb.</text><text textAlign="center">+1</text><text textAlign="center">N/a</text><text textAlign="center">N/a</text><text textAlign="center">0</text><text textAlign="center">3</text><text textAlign="center">10</text><text textAlign="center">L</text><text textAlign="center">60</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Weapon</header><header textAlign="center">Damage</header><header textAlign="center">Critical</header><header textAlign="center">Damage Type</header><header textAlign="center">Rng.</header><header textAlign="center">RoF</header><header textAlign="center">Magazine</header><header textAlign="center">Sz.</header><header textAlign="center">Cost</header><header textAlign="center">Restr</header></tr>
+<tr>
+<text textAlign="center">Cannons [Requires Exotic Firearms Proficiency (Cannons) feat]</text></tr>
+<tr>
+<text textAlign="center">30mm Cannon</text><text textAlign="center">16d12</text><text textAlign="center">16-18</text><text textAlign="center">Ballistic</text><text textAlign="center">300&#x27;</text><text textAlign="center">Auto(F)</text><text textAlign="center">Linked</text><text textAlign="center">H</text><text textAlign="center">*</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Tank Cannon</text><text textAlign="center">45d12</text><text textAlign="center">16-18</text><text textAlign="center">Ballistic</text><text textAlign="center">300&#x27;</text><text textAlign="center">Single</text><text textAlign="center">1</text><text textAlign="center">H</text><text textAlign="center">*</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Machine Guns</text></tr>
+<tr>
+<text textAlign="center">HMG</text><text textAlign="center">10d8</text><text textAlign="center">16-18</text><text textAlign="center">Ballistic</text><text textAlign="center">180&#x27;</text><text textAlign="center">Auto(F)</text><text textAlign="center">Linked</text><text textAlign="center">H</text><text textAlign="center">190</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">GPMG</text><text textAlign="center">5d6</text><text textAlign="center">16-18</text><text textAlign="center">Ballistic</text><text textAlign="center">120&#x27;</text><text textAlign="center">Auto(F)</text><text textAlign="center">Linked</text><text textAlign="center">H</text><text textAlign="center">100</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">LMG</text><text textAlign="center">5d4</text><text textAlign="center">16-18</text><text textAlign="center">Ballistic</text><text textAlign="center">100&#x27;</text><text textAlign="center">Semi/Auto(F)</text><text textAlign="center">Linked</text><text textAlign="center">L</text><text textAlign="center">75</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Rockets and Missiles</text></tr>
+<tr>
+<text textAlign="center">Rocket Pod¹</text><text textAlign="center">8d12</text><text textAlign="center">16-18</text><text textAlign="center">Concussion</text><text textAlign="center">130&#x27;</text><text textAlign="center">Semi</text><text textAlign="center">12</text><text textAlign="center">H</text><text textAlign="center">220</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Missile²</text><text textAlign="center">26d6</text><text textAlign="center">16-18</text><text textAlign="center">Concussion</text><text textAlign="center">250&#x27;</text><text textAlign="center">Single</text><text textAlign="center">1</text><text textAlign="center">H</text><text textAlign="center">400</text><text textAlign="center">M&amp;P</text></tr>
+<tr>
+<text textAlign="center">Grenade Launcher</text></tr>
+<tr>
+<text textAlign="center">Grenade Launcher³</text><text textAlign="center">10d6</text><text textAlign="center">16-18</text><text textAlign="center">Concussion/Fire</text><text textAlign="center">90&#x27;</text><text textAlign="center">Semi</text><text textAlign="center">Linked</text><text textAlign="center">L</text><text textAlign="center">90</text><text textAlign="center">M&amp;P</text></tr>
+</table>
+<box>
+<text>This weapon has a splash damage of 15&#x27;, and ignores 10 points </text>
+</box>
+<box>
+<text>This Weapon has a splash damage of 10&#x27;, and ignores 15 points </text>
+</box>
+<table>
+<tr><header textAlign="center">Upgrade</header><header textAlign="center">Time</header><header textAlign="center">Cost</header></tr>
+<tr>
+<text textAlign="center">Paint Job</text><text textAlign="center">2 hours</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">Convertible</text><text textAlign="center">4 hours</text><text textAlign="center">50</text></tr>
+<tr>
+<text textAlign="center">Service Kit</text><text textAlign="center">4 hours</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">Police Kit</text><text textAlign="center">3 hours</text><text textAlign="center">25</text></tr>
+<tr>
+<text textAlign="center">Racing Kit</text><text textAlign="center">4 hours</text><text textAlign="center">30</text></tr>
+<tr>
+<text textAlign="center">Sidecar Kit</text><text textAlign="center">8 hours</text><text textAlign="center">50</text></tr>
+<tr>
+<text textAlign="center">Light Armor Kit</text><text textAlign="center">6 hours</text><text textAlign="center">45</text></tr>
+<tr>
+<text textAlign="center">Heavy Armor Kit</text><text textAlign="center">8 hours</text><text textAlign="center">65</text></tr>
+<tr>
+<text textAlign="center">Weapon Pintle</text><text textAlign="center">2 hours</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Internal Hardpoint</text><text textAlign="center">8 hours</text><text textAlign="center">22</text></tr>
+<tr>
+<text textAlign="center">External Hardpoint</text><text textAlign="center">3 hours</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Standard Tires</text><text textAlign="center">20 min.</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Racing Tires</text><text textAlign="center">20 min.</text><text textAlign="center">30</text></tr>
+<tr>
+<text textAlign="center">Snow and Ice Tires</text><text textAlign="center">20 min.</text><text textAlign="center">12</text></tr>
+<tr>
+<text textAlign="center">All Terrain Tires</text><text textAlign="center">20 min.</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">Run-Flat Upgrade</text><text textAlign="center">20 min.</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">Racing Brakes</text><text textAlign="center">10 min.</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">Nitrous Oxide Kit</text><text textAlign="center">1 hour</text><text textAlign="center">8</text></tr>
+<tr>
+<text textAlign="center">Turbocharger Kit</text><text textAlign="center">2 hours</text><text textAlign="center">18</text></tr>
+<tr>
+<text textAlign="center">Standard Transmission</text><text textAlign="center">1 day</text><text textAlign="center">100</text></tr>
+<tr>
+<text textAlign="center">Sprint Transmission</text><text textAlign="center">1 day</text><text textAlign="center">150</text></tr>
+<tr>
+<text textAlign="center">Long Distance Transmission</text><text textAlign="center">1 day</text><text textAlign="center">150</text></tr>
+<tr>
+<text textAlign="center">Racing Transmission</text><text textAlign="center">1 day</text><text textAlign="center">300</text></tr>
+<tr>
+<text textAlign="center">All Wheel Drive Transmission</text><text textAlign="center">1 day</text><text textAlign="center">180</text></tr>
+<tr>
+<text textAlign="center">Improved Suspension</text><text textAlign="center">1 day</text><text textAlign="center">50</text></tr>
+</table>
+	</item>
+</body>

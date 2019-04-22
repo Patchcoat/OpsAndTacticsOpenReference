@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Injury and Death</header>
+<box>
+<text>Injury and Death  There are two types of HP, Core and Extended. CHP measures how much true physical damage a character can take and XHP measures a character&#x27;s ability to turn a more serious hit into a graze or glancing blow. A character&#x27;s XHP are always deducted first unless a character is affected by a critical strike.</text>
+</box>
+		<text>   Non-lethal damage is dealt by unarmed attacks and some weapons.deal non-lethal damage, but the attacker takes a −4 penalty on attack rolls for trying to deal non-lethal damage instead of lethal damage. A ranged weapon that deals lethal damage can&#x27;t be made to deal non-lethal damage (unless it is used as an improvised melee weapon).</text>
+		<text>   Non-lethal damage affects the target&#x27;s XHP only. If themust make a Fortitude Saving Throw [TN15]. If the target succeeds on the Saving Throw, the target is dazed for 1 round and they fall to 1 XHP. If the target fails, they are knocked unconscious for 1d4+1 rounds.</text>
+		<text>   If the non-lethal damage from a single hit equals or exceedsFortitude Saving Throw [TN18]. If the target fails the Saving Throw, they are stunned for 1d4 rounds and drop any held weapon.</text>
+		<header level = "1">Bleeding</header>
+		<text>   When a character takes more than 3 points of slashing, piercing,are not wearing armor to stop the type of damage, they are now bleeding. When a character is bleeding, they lose HP at the rate of 1d3 per 3 points of applicable damage taken per attack. Bleed damage will stack with any bleed damage the character already has.</text>
+<box>
+<text>Example: A character already has 1d3 bleed damage and takes </text>
+</box>
+		<text>   Bleed damage is accounted for after the player has finishedaid (Treat Injury check [TN10]). </text>
+		<text>   Bleeding does not stop if a character is considered disabled, or</text>
+		<text>   Embedding</text>
+		<text>   Objects that can be embedded cause a rather nasty wound. Anyembedded gains +1 bleed dice for that attack.</text>
+<box>
+<text>Example: A character is hit with a throwing knife (which can be instead of 1d3.</text>
+</box>
+		<header level = "1">Extremity Damage</header>
+		<text>   If a character is hit anywhere during a called shot attack withand that weapon does more than 3 points of damage to that extremity, then the character takes extremity damage. A character can both bleed and take extremity damage.</text>
+<list type="unordered">
+<text>If the character is hit in the arm they take a −6 penalty to any skill or ability check using that arm.</text>
+<text>If the character is hit in the hand they take a −12 penalty to any skill or ability check using that hand and cannot use weapons in that hand.</text>
+<text>If the character is hit in the leg the Combat Point cost to move is doubled.</text>
+</list>
+		<text>   – If both legs are hit they drop prone, can only spend enough    themselves up, but can otherwise spend Combat Points as     normal.</text>
+<list type="unordered">
+<text>If the character is hit in the foot the Combat Point cost to move is tripled.</text>
+</list>
+		<text>   – If both feet are hit they drop prone, can only spend enough    themselves up, but can otherwise spend Combat Points as     normal.</text>
+<list type="unordered">
+<text>If a character is hit in the head and is not wearing a helmet that protects against the damage, the attack is automatically considered to be a critical strike and they are stunned for 1d3 rounds.</text>
+</list>
+		<header level = "1">Disabled (0 Hit Points)</header>
+		<text>   When a character&#x27;s current CHP drop to exactly 0 the characterto it. The character can only spend 5 Combat Points. If the character attacks or perform any other action the GM deems as strenuous, the character takes 1 point of CHP damage after completing the act. Unless the activity increased the character&#x27;s CHP the character is now at −1 CHP and is dying. Healing that raises the character above 0 CHP makes them fully functional again, just as if the character had never been reduced to 0 or lower. A character can also become disabled when recovering from dying. In this case it is a step up along the road to recovery and the character can have fewer than 0 CHP.</text>
+		<header level = "1">Dying (−1 to −9 Hit Points)</header>
+		<text>   When a character&#x27;s current CHP drop below 0, the character is−9.</text>
+		<text>   A dying character immediately falls unconscious and can take no</text>
+		<text>   A dying character still takes bleed damage at the end of their</text>
+		<text>   Recovering without Help</text>
+		<text>   Each round a dying character makes a Fortitude Saving Throwconsidered dying and must make another Saving Throw on their turn the next round.</text>
+		<text>   If the Saving Throw succeeds the character becomes stable. Acharacter&#x27;s current CHP total remains where it is unless otherwise affected, however, even though it is negative. If the Saving Throw fails the character remains unconscious. A dying character still takes bleed damage at the end of their turn.</text>
+		<text>   An unaided stable, conscious character who has negative CHP (anda Fortitude Saving Throw [TN20] each day to start recovering HP naturally that day; if the Saving Throw fails, they lose 1 CHP. Once an unaided character starts recovering HP naturally the character is no longer in danger of losing additional CHP (even if their current CHP total is still negative).</text>
+		<text>   Recovering with Help</text>
+		<text>   A dying character can be made stable with a Treat Injury checkdisabled the character recovers HP naturally and they can return to normal activity when their CHP goes above 0.</text>
+		<header level = "1">Dead (−10 hit points or lower)</header>
+		<text>   When a character&#x27;s current CHP drop to −10 or lower they arecharacters can perform no actions, have 0 Combat Points, and may take no actions.</text>
+		<text>   There are times where rolling damage would be completelyrolled. At the discretion of the GM, If any character or creature would be damaged by an attack or action that has 1.5x or more damage dice than the character has both CHP and XHP combined, the GM can immediately reduce this character or creature&#x27;s XHP and CHP to 0. If a GM does want to apply bleed damage in this case, treat each damage dice as if it rolled the lowest possible value per dice. Also, if any character or creature would be damaged by an attack or action that has more than 2x damage dice than the character or creature has in both CHP and XHP combined, the GM can immediately consider this character dead. Bleed damage is usually unnecessary in this case, but can be applied in the same manner as stated before. If an object or vehicle would be damaged by an attack or action that has more than 2x damage dice than the object or vehicle has in HP, the GM can immediately consider the object destroyed, and blown to pieces.</text>
+	</item>
+</body>

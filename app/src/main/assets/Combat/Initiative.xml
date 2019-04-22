@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Initiative</header>
+<text><b>Initiative</b></text>
+		<text>   Each combatant can do something every round. The combatants&#x27;which they act, from first to last. If characters enter a battle after it has begun, they roll Initiative at that time and act whenever their turn comes up in the existing order.</text>
+		<header level = "1">Initiative Wagering</header>
+		<text>   Before the battle starts, a character can choose to wager theirtheir initiative checks. The character can wager as many Combat Points as they have, as long as they have 8 Combat Points after the wager. The character may only wager one amount of Combat Points and Attack Penalty for one bonus modifier. A character must declare that they are wagering before they perform their initiative check and the amount they are wagering for the initiative bonus. If they do not, then they are unable to wager. Below is a chart with the total wager cost and the bonuses to initiative. </text>
+<table>
+<tr><header textAlign="center">Initiative Bonus Modifier</header><header textAlign="center">Wager Cost</header></tr>
+<tr>
+<text textAlign="center">+1</text><text textAlign="center">-1 CP and -1 Atk penalty</text></tr>
+<tr>
+<text textAlign="center">+2</text><text textAlign="center">-3 CP and -3 Atk penalty</text></tr>
+<tr>
+<text textAlign="center">+3</text><text textAlign="center">-6 CP and -6 Atk penalty</text></tr>
+<tr>
+<text textAlign="center">+4</text><text textAlign="center">-10 CP and -10 Atk penalty</text></tr>
+<tr>
+<text textAlign="center">+5</text><text textAlign="center">-15 CP and -15 Atk penalty</text></tr>
+</table>
+		<text>   After the 1st round is complete, these penalties are removed,Combat Points return to normal, unless some other status effect has modified them. Characters joining a battle already in progress can not initiative wager.</text>
+		<header level = "1">Initiative Checks</header>
+		<text>   At the start of a battle, each combatant makes a singlecharacter applies their AGL modifier to the roll, plus any other modifiers. The GM finds out what order characters are acting in, counting down from highest result to lowest, and each character acts in turn. On all following rounds the characters act in the same order unless a character takes an action that results in their Initiative changing (see Special Initiative Actions). If two or more combatants have the same Initiative check result, the combatants who are tied go in order of total Initiative modifier (including DEX modifier and Improved Initiative bonus, if applicable). If there is still a tie, the character with the highest DEX goes first. If there is still a tie, the characters who tie reroll for the position.</text>
+	</item>
+</body>

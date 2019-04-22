@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Presence (CHA)</header>
+<box>
+<text>Presence (CHA)  The character is skilled at threatening and persuading others, and changing their appearance.</text>
+</box>
+		<text>   You can also use Presence to disguise your appearance. Youris opposed by others&#x27; Perception check results. If you don&#x27;t draw any attention to yourself, others do not get to make Perception checks. If you come to the attention of people who are suspicious (such as a security guard who is observing people), it can be assumed that such observers are taking 10 on their Perception checks.</text>
+		<text>   You get only one Presence check per use of the skill, even if</text>
+		<text>   The Disguise check is made secretly, so that you can&#x27;t be sure</text>
+		<text>   The effectiveness of your disguise depends in part on how muchassociated with it.</text>
+<table>
+<tr><header textAlign="center">Disguise Check Modifiers</header></tr>
+<tr>
+<text textAlign="center">Minor details only</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">Disguised as different gender</text><text textAlign="center">−5</text></tr>
+<tr>
+<text textAlign="center">Disguised as different race</text><text textAlign="center">−10</text></tr>
+<tr>
+<text textAlign="center">Disguised as different age category</text><text textAlign="center">−5</text></tr>
+</table>
+		<text>   If you are impersonating a particular individual, those who knowchecks according to the table below. Furthermore, they are automatically considered to be suspicious of you, so opposed checks are always called for.</text>
+<table>
+<tr><header textAlign="center">Familiarity</header><header textAlign="center">Bonus</header></tr>
+<tr>
+<text textAlign="center">Recognizes on sight</text><text textAlign="center">+6</text></tr>
+<tr>
+<text textAlign="center">Friends or associates</text><text textAlign="center">+8</text></tr>
+<tr>
+<text textAlign="center">Close friends</text><text textAlign="center">+10</text></tr>
+<tr>
+<text textAlign="center">Intimate</text><text textAlign="center">+15</text></tr>
+</table>
+		<header level = "1">Terrify</header>
+		<text>   You can also use Presence to scare hostile targets in combat.</text>
+		<text>   The TN of this check is equal to 10 + the target&#x27;s level + the</text>
+<table>
+<tr><header textAlign="center">Terrify Modifiers</header></tr>
+<tr>
+<text textAlign="center">PC&#x27;s are Armed</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">Target is Armed</text><text textAlign="center">−5</text></tr>
+<tr>
+<text textAlign="center">PC&#x27;s possess visible authority of a higher power</text></tr>
+</table>
+		<text>   If successful, all targets within range are considered Shaken</text>
+		<text>   The effect ends immediately if the target is attacked. The</text>
+		<header level = "1">Intimidate</header>
+		<text>   Finally, the Presence skill can be used to frighten yourskill includes displays of prowess.</text>
+		<text>   You can use Presence to force an opponent to act friendly toward</text>
+		<text>   The TN of this check is equal to 10 + the target&#x27;s level + the</text>
+<table>
+<tr><header textAlign="center">Intimidation Modifiers</header></tr>
+<tr>
+<text textAlign="center">PC&#x27;s are Armed</text><text textAlign="center">+5</text></tr>
+<tr>
+<text textAlign="center">Target is Armed</text><text textAlign="center">−5</text></tr>
+<tr>
+<text textAlign="center">PC&#x27;s possess visible authority of a higher power</text></tr>
+</table>
+		<text>   If successful, the opponent will</text>
+<list type="unordered">
+<text>Give you information you desire.</text>
+<text>Take actions that do not endanger it.</text>
+<text>Offer other limited assistance.</text>
+</list>
+		<text>   Special</text>
+		<text>   A character without a disguise kit takes a −6 penalty on</text>
+		<text>   Time</text>
+		<text>   To influence a creature&#x27;s attitude takes 1 minute of continuousthem requires 1 minute of conversation. Making a request of a creature takes 1 or more rounds of interaction, depending upon the complexity of the request. Disguising oneself requires 1d4×10 minutes of preparation. Terrifying takes 8 Combat Points.</text>
+		<text>   Try again?</text>
+		<text>   You may try to redo a failed disguise, but once others know thatattempt to intimidate or terrify an opponent again, but each additional check increases the TN by +5. This increase resets after one hour has passed.</text>
+	</item>
+</body>

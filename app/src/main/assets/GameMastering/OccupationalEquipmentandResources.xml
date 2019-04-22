@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Occupational Equipment and Resources</header>
+<box>
+<text>Occupational Equipment and Resources</text>
+</box>
+		<text>   Character occupations can determine the personality,Below are notes on equipment, based on the occupation of the character. This is usually in addition to the normal equipment nearly all people carry, such as writing utensils, wallets and identification, and currency. This also includes any vehicles, or housing arrangements that the character may have. Generally, it&#x27;s assumed that the rest of the character&#x27;s salary is going to paying for utilities such as car payments, insurance, and housing payments, so there&#x27;s no need to track or bother with keeping up with those funds.</text>
+<box>
+<text>It&#x27;s not required that a GM give players housing, cars or access GM is telling. These rules are to be used as a guide to more flesh out characters secondary assets before the campaign starts. It&#x27;s also a good idea to give players a choice: If they choose not to purchase a car with the allotted funds, to instead give them 10% of the listed value for their own personal use. </text>
+</box>
+		<header level = "1">Academic</header>
+		<text>   Academics of all types are often nearby computers, and usuallyspecific focuses will have small to standard kits available at their disposal, for instructional purposes. They also have access to non-internet sources for information in the form of white papers, private college research networks, contacts within their chosen form of field of study.</text>
+		<text>   Housing can vary greatly, depending on how successful theapartment, while more tenured academics may have a small to medium house.</text>
+		<text>   An academic would possess a vehicle that cost 400 WP or less.</text>
+		<header level = "1">Adventurer</header>
+		<text>   Adventurers such as daredevils and extreme sports enthusiastssuch as a motorcycle, sports equipment, or parachute. This should be given to them instead of required for them to buy outright, due to the cost involved. GMs are encouraged to talk with the player about this equipment</text>
+		<text>   Big game hunters will always have a high powered assault rifle,7.62x39mm, 7.62x51mm, .30-06 Springfield, or .243 Winchester.</text>
+		<text>   Explorers and field scientists will always have campingequations in the field. Small kits are usually brought with them.</text>
+		<text>   Housing can vary, depending on the type of adventurer. Somechoice or camp out in the stars, while others may have a small apartment.</text>
+		<text>   An adventurer would possess a vehicle that cost 400 WP or less.</text>
+		<header level = "1">Athlete</header>
+		<text>   Athletes, regardless of type, are always nearby their athleticthe inherent danger of competing.</text>
+		<text>   Housing generally follows normal means. Professional athletes,to a large mansion.</text>
+		<text>   An athlete would possess a vehicle that cost anywhere from 250</text>
+		<header level = "1">Blue Collar</header>
+		<text>   A blue collar character&#x27;s equipment can vary wildly based on thesome kind of mechanical kit available to them, as well as a small first aid kit for on-the-job injuries.</text>
+		<text>   Housing usually follows more conventional means. Blue collarhouses.</text>
+		<text>   A blue collar would possess a vehicle that cost 400 WP or less.</text>
+		<header level = "1">Celebrity</header>
+		<text>   A celebrity always has a smartphone, a camera, and any otherto perform.</text>
+		<text>   Housing is almost always in the upper echelon, ranging from a</text>
+		<text>   A celebrity usually possess multiple vehicles, having 5,000 WP</text>
+		<header level = "1">Creative</header>
+		<text>   Creative characters always have their medium of choice nearbygood DSLR camera.</text>
+		<text>   Housing usually follows more conventional means. Creativehouses.</text>
+		<text>   A creative would possess a vehicle that cost 400 WP or less.</text>
+		<header level = "1">Criminal</header>
+		<text>   Criminals such as bank robbers, crime family soldiers, gangwhich is usually cheap, concealable, and powerful, as well as a kit that suits their job, such as a lockpicking kit for burglars and thieves, or a forgery kit for con artists. Pirates, regardless of the locale, are often armed with heavy automatic weapons.</text>
+		<text>   Hitmen usually keep .22 Long Rifle, .32 ACP, or .25 ACP Pistolswell as sub-sonic ammunition.</text>
+		<text>   Criminal housing can vary greatly, but it is usually on the</text>
+		<text>   A criminal would possess a vehicle that cost 350 WP or less.</text>
+		<header level = "1">Doctor</header>
+		<text>   Doctors of all types on call will always have plenty of medicallimited to a small first aid kit.</text>
+		<text>   Pharmacists would have access to a deluxe chemistry kit while at</text>
+		<text>   Housing usually follows more conventional means. Doctors may</text>
+		<text>   A doctor would possess a vehicle that cost 675 WP or less.</text>
+		<header level = "1">Emergency Services</header>
+		<text>   Rescue workers, firefighters, paramedics, hazardous materialcategory.</text>
+		<text>   Firefighters and rescue workers are issued a turnout coat assledgehammers, and other gear necessary to complete rescue operations in burning buildings.</text>
+		<text>   EMTs and Paramedics are issued what is called a “Red Bag”, whichhave to deal with as an EMT/Paramedic. Below is an example of a bag.</text>
+<list type="unordered">
+<text>Large Duffel Bag(Red Colored)</text>
+<text>Standard First aid Kit (10/10 uses)</text>
+<text>3x Tourniquets </text>
+<text>8x Cold Packs </text>
+<text>10x Field Dressings</text>
+<text>2x Spray On Bandages </text>
+<text>2x 3 Bleed hemostats </text>
+<text>5x 2d4 XHP Painkillers</text>
+<text>2x Standard Antispetics</text>
+<text>3x 2d10+1 HP Opioids </text>
+<text>1x 3d10+1 HP Opioids </text>
+<text>6x Candybars</text>
+</list>
+		<text>   Housing usually follows more conventional means. Emergencyto medium houses.</text>
+		<text>   An Emergency Service character would possess a vehicle that cost</text>
+		<header level = "1">Entrepreneur</header>
+		<text>   Entrepreneurs always have some form of computer on their person</text>
+		<text>   Housing usually follows more conventional means. Entrepreneurs</text>
+		<text>   A creative would possess a vehicle that cost 850 WP or less.</text>
+		<header level = "1">Investigative</header>
+		<text>   Federal agents and police detectives are issued the badge ofsemi-automatic handgun in either 9x19mm, .38 Special, .357 Magnum, .357 Sig, .40 S&amp;W, or .45 ACP that costs 30 Wealth Points or less, a pair of steel handcuffs and a tactical holster. They may take the Wealth Points given to them, and add their own money to purchase a more expensive firearm, as long as it meets the caliber requirements. The WP allocated for the issued firearm is for the firearm only, and does not cover any upgrades. Ammunition is provided for this firearm by the department, either FMJ or JHP (GM choice). Federal agents or police detectives will only be issued a handgun if they take the Personal Firearm Proficiency feat. The issued weapon does come with a condition however; that they act and perform in the role becoming of a proper agent or officer. A serious break to this code could result in consequences such as the weapon and position being revoked, the character being demoted in position, or in the most severe cases, the firing of the agent or officer.</text>
+		<text>   Federal agents and police detectives have the Military andapproved by their superior officer (the GM).</text>
+		<text>   Private investigators also carry firearms, usually sticking to</text>
+		<text>   Photojournalist and investigative reporters always have a cameracamcorder for investigative reporters. </text>
+		<text>   Espionage agents are a special case. Because of the nature ofassignment, making any weapon a potential weapon. Espionage agents prefer smaller, more easily concealed weapons as a general rule.</text>
+		<text>   Housing usually follows more conventional means, unlessapartments, or small to large houses.</text>
+		<text>   An investigative would possess a vehicle that cost 600 WP or</text>
+		<header level = "1">Law Enforcement</header>
+		<text>   Police officers, state troopers, deputy sheriffs, and S.W.A.T.departments, a backup or full-sized semi-automatic handgun in either 9x19mm,.38 Special, .357 Magnum, .357 Sig, .40 S&amp;W, or .45 ACP that costs 30 Wealth Points or less, a pair of steel handcuffs and a tactical holster. They may take the Wealth Points given to them, and add their own money, and purchase a more expensive firearm, as long as it meets the caliber requirements. The Wealth Points allocated for the issued firearm are for the firearm and extra magazines or speedloaders only, and does not cover any upgrades. Ammunition is provided for this firearm by the department, either FMJ or JHP (GM choice). Police officers, state troopers, deputy sheriffs, or S.W.A.T. members will only be issued a handgun if they take the Personal Firearm Proficiency feat. The issued weapon does come with a condition however; that they perform in the role becoming to an officer. A serious break to this code could have the weapon and position revoked, a demoted position, or in the most severe cases, the firing of the agent or officer.</text>
+		<text>   In addition to the service handgun officers are issued, policeinclude ArmaLite AR-15s and Remington 700 rifles, Remington 870 Express Tactical shotguns, and Mossberg 590A1 and Shockwave model shotguns, as well as a well stocked ammunition depot, with boxes of 9x19mm, .38 Special, .357 Magnum, .40 S&amp;W, .45 ACP, and 5.56x45mm FMJ and JHP rounds, and boxes of 12 gauge 00 buckshot and non-lethal rounds. The armory also has X26 tasers, taser cartridges, and extendable batons (light club) for issue.</text>
+		<text>   S.W.A.T. team members have access to much heavier weapons,UMP40, UMP45, and FN P90, assault rifles such as the FN SCAR-L and SCAR-H, carbines such as the Colt M4A1, and M4, shotguns such as the Benelli M1, M2, M1014, Mossberg 590A1, Remington 870 Express Tactical and Remington 1100 Tactical, and sniper rifles such as the Remington 700 and the Accuracy International AWM. They also have grenades, such as tear gas, stun, sting, and concussion.</text>
+		<text>   A concealable vest is issue for all police officers, stateis turned in when off duty.</text>
+		<text>   Military police are issued a uniform, a badge, and a sidearmactive duty.</text>
+		<text>   United States</text>
+<box>
+<text>Sig-Sauer P320 Full Size with three 17 round magazines.  United Kingdom</text>
+</box>
+		<text>   Canada</text>
+<box>
+<text>Browning Hi-Power with three 13 round magazines.  Israel</text>
+</box>
+		<text>   China</text>
+<box>
+<text>Norinco QSZ-92 with three 15 round magazines.</text>
+</box>
+		<text>   Law enforcement personnel have the Military and Police licenseapproved by their superior officer (the GM).</text>
+		<text>   Housing usually follows more conventional means, unlesslarge apartments, or small to large houses.</text>
+		<text>   A law enforcement officer would possess a vehicle that cost 400</text>
+		<header level = "1">Military</header>
+		<text>   Military personnel are issued fatigues of their branch, as wellduty. If a character is on active duty in a combat area or on assignment, the equipment for a character in the military profession is based on what branch, type of classification, and country they belong to. While on active duty in a combat area or on assignment military personnel have the Military and Police license for free.</text>
+		<text>   Military personnel are usually an exception to housing. Thosethose on leave would have a home of any size, if they qualify to live off base. </text>
+		<text>   Military personnel would possess a vehicle that cost 475 WP or</text>
+		<header level = "1">Religious </header>
+		<text>   Ordained clergymen own traditional garb and text of theiracademics would be.</text>
+		<header level = "1">Rural</header>
+		<text>   Farm workers, hunters, and others who make a living in rural</text>
+		<text>   Farm workers favor target and heavy handguns, lever action</text>
+		<text>   The preference of a hunter depends on what he is hunting. Forrifle is more than sufficient. For medium to large game, a larger caliber rifle or a shotgun would be more suited.</text>
+		<text>   Housing usually follows more conventional means, but because of</text>
+		<text>   A rural character would would possess a vehicle that cost 450 WPfunction well off road.</text>
+		<header level = "1">Student </header>
+		<text>   Students will always have a computer of some type, their text of</text>
+		<text>   Students usually either live together in small to largeto live by themselves.</text>
+		<text>   Students usually don&#x27;t have vehicles for themselves.</text>
+		<header level = "1">Security</header>
+		<text>   Security personnel usually have at least a flashlight and radioconstant basis, a firearm. They also have handcuffs, to keep suspects secured so they do not attack innocents or them. Lesser security personnel will keep non-lethal weapons such as chemical irritants or tasers.</text>
+		<text>   Housing usually follows more conventional means. Securityhouses.</text>
+		<text>   A security officer would possess a vehicle that cost 350 WP or</text>
+		<header level = "1">Technician</header>
+		<text>   A technician&#x27;s equipment depends on what kind of technician theykit on site, and a small chemical kit at their home. A mechanical engineer would have access to a deluxe mechanics kit on site, and a small mechanics kit at home. An electrical engineer would have access to a deluxe electronics kit on site, and a small electronics kit at home. A programmer or computer technician would have a notebook computer. A civil engineer would have his sketching and surveying equipment.</text>
+		<text>   Housing usually follows more conventional means. Technicians may</text>
+		<text>   A security officer would possess a vehicle that cost 450 WP or</text>
+		<header level = "1">Unemployed</header>
+		<text>   An unemployed character doesn&#x27;t have any other resource besides</text>
+		<text>   Unemployed characters are either barely making ends meet within their place of residence.</text>
+		<text>   Unemployed characters don&#x27;t have vehicles.</text>
+		<header level = "1">White collar</header>
+		<text>   White collar characters would always have access to a computer,a company car.</text>
+		<text>   Housing usually follows more conventional means. White collar</text>
+		<text>   In addition to the company car, which is usually a full sizedhave a vehicle or two that cost 1500 WP or less.</text>
+		<header level = "1">All Occupations</header>
+<box>
+<text>Below are listings for equipment that all occupations could for people to use.</text>
+</box>
+		<text>   An IFAK is an individual first aid kit, carried by multitudes ofstandard IFAK; many variants exist, but they usually all contain these components.</text>
+<list type="unordered">
+<text>Waist Pack (Usually red colored, but can be any color. A velcro “First aid” cross is also a common insignia on these bags)</text>
+<text>2x 3 Bleed hemostats </text>
+<text>2x Weak Antiseptic</text>
+<text>1x Tourniquet</text>
+<text>4x Field Dressing</text>
+</list>
+<box>
+<text>A conceal carry setup is a way for characters to carry weapons unacceptable, or illegally when carrying a weapon is legally unacceptable. A conceal carry setup usually contains two components; A holster or sheath, and a weapon.</text>
+</box>
+		<text>   – A Small or smaller firearm, usually filled with Hollow Point    multitude of firearms, depending on the user&#x27;s taste.)</text>
+		<text>   – A spare magazine or speed loader, filled with the same kind</text>
+<list type="unordered">
+<text>Concealed Sheath</text>
+<text>Small or smaller melee weapon, often with the Retractable upgrade.</text>
+</list>
+	</item>
+</body>

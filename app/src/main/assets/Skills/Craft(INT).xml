@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Craft (INT)</header>
+<box>
+<text>Craft (INT)  You are skilled at making various objects and substances.</text>
+</box>
+		<text>   Craft skills are specifically focused on creating objects. Tosome other set of basic tools. The WP cost of this equipment varies according to the particular Craft skill.</text>
+		<text>   To use Craft, first decide what the character is trying to makeenough WP to purchase the raw materials, make the Craft check against the given TN for the object in question. If the character fails the check, they do not make the object, and the raw materials are wasted (unless otherwise noted).</text>
+		<text>   Generally, a character may take 10, when using a Craft skill toaccomplish a jury-rig repair. Multiple attempts may be attempted, stacking on the previous attempt, each time using the same amount of raw materials each time, taking the same amount of time and adding each subsequent roll together, until the TN is achieved or the character chooses to stop.</text>
+		<text>   The character may try as many times as they like, as long as</text>
+		<header level = "1">Craft (Chemical) Trained Only</header>
+		<text>   This skill allows a character to mix chemicals to create acids,</text>
+		<text>   A character without a chemistry kit takes a −6 penalty on Craft</text>
+<box>
+<text>Acids are corrosive substances that react with metals and acids, that neutralize acids but are not as strong as acids. A base of a certain type counteracts an acid of the same or less potent type. A character may use Craft (Pharmaceutical) instead of Craft (Chemical) when creating acids or bases.</text>
+</box>
+<table>
+<tr><header textAlign="center">Item</header><header textAlign="center">Cost</header><header textAlign="center">Craft TN</header><header textAlign="center">Time</header><header textAlign="center">Yield</header></tr>
+<tr>
+<text textAlign="center">Mild Acid</text><text textAlign="center">2</text><text textAlign="center">15</text><text textAlign="center">15 minutes</text><text textAlign="center">32 units</text></tr>
+<tr>
+<text textAlign="center">Mild Base</text><text textAlign="center">2</text><text textAlign="center">10</text><text textAlign="center">15 minutes</text><text textAlign="center">32 units</text></tr>
+<tr>
+<text textAlign="center">Potent Acid</text><text textAlign="center">4</text><text textAlign="center">20</text><text textAlign="center">20 minutes</text><text textAlign="center">16 units</text></tr>
+<tr>
+<text textAlign="center">Potent Base</text><text textAlign="center">4</text><text textAlign="center">15</text><text textAlign="center">20 minutes</text><text textAlign="center">16 units</text></tr>
+<tr>
+<text textAlign="center">Concentrated Acid</text><text textAlign="center">8</text><text textAlign="center">30</text><text textAlign="center">30 minutes</text><text textAlign="center">8 units</text></tr>
+<tr>
+<text textAlign="center">Concentrated Base</text><text textAlign="center">8</text><text textAlign="center">25</text><text textAlign="center">30 minutes</text><text textAlign="center">8 units</text></tr>
+</table>
+<box>
+<text>Building an explosive from scratch is dangerous. If the Craft check fails by 5 or more, the explosive compound detonates as it is being made, dealing half of its intended damage to the builder and anyone else in the blast radius.</text>
+</box>
+<table>
+<tr><header textAlign="center">Item</header><header textAlign="center">Cost</header><header textAlign="center">Craft TN</header><header textAlign="center">Time</header><header textAlign="center">Yield</header></tr>
+<tr>
+<text textAlign="center">ANFO</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">1 hour</text><text textAlign="center">100 lbs</text></tr>
+<tr>
+<text textAlign="center">Black Powder</text><text textAlign="center">1</text><text textAlign="center">15</text><text textAlign="center">15 minutes</text><text textAlign="center">5 lbs</text></tr>
+<tr>
+<text textAlign="center">Dynamite</text><text textAlign="center">1</text><text textAlign="center">20</text><text textAlign="center">4 hours</text><text textAlign="center">4.5 lbs</text></tr>
+<tr>
+<text textAlign="center">Nitroglycerin</text><text textAlign="center">2</text><text textAlign="center">15</text><text textAlign="center">3 hours</text><text textAlign="center">1 lbs</text></tr>
+<tr>
+<text textAlign="center">Plastic Explosives</text><text textAlign="center">1</text><text textAlign="center">25</text><text textAlign="center">1 day</text><text textAlign="center">1 lbs</text></tr>
+<tr>
+<text textAlign="center">Tannerite</text><text textAlign="center">3</text><text textAlign="center">8</text><text textAlign="center">15 minutes</text><text textAlign="center">5 lbs</text></tr>
+<tr>
+<text textAlign="center">Thermite</text><text textAlign="center">1</text><text textAlign="center">9</text><text textAlign="center">5 minutes</text><text textAlign="center">8 lbs</text></tr>
+<tr>
+<text textAlign="center">TNT</text><text textAlign="center">5</text><text textAlign="center">25</text><text textAlign="center">1 day</text><text textAlign="center">1 lbs</text></tr>
+</table>
+<box>
+<text>Solid poisons are usually ingested. Liquid poisons are most poisons must be inhaled to be effective. The table summarizes the characteristics of various poisons.</text>
+</box>
+		<text>   Craft TN</text>
+<box>
+<text>The TN of the Craft check to create the given quantity of </text>
+</box>
+<box>
+<text>The amount of time required for the Craft check.  Raw Material Wealth Point Cost</text>
+</box>
+		<text>   Save TN</text>
+<box>
+<text>The Target Number of the Fortitude Saving Throw to halve the </text>
+</box>
+<box>
+<text>The damage a character takes immediately upon failing their Fortitude Saving Throw.</text>
+</box>
+<box>
+<text>The damage a character takes after 30 seconds of being exposed to Throw. This damage is halved upon a successful Fortitude Saving Throw, rounded up. Ability score damage is temporary, unless marked with an asterisk, in which case the damage is a permanent ability drain. Multiple entries notate that this is checked every 30 seconds.</text>
+</box>
+<table>
+<tr><header textAlign="center">Poisons</header><header textAlign="center">Material Cost</header><header textAlign="center">Type</header><header textAlign="center">Save TN</header><header textAlign="center">Craft TN</header><header textAlign="center">Damage</header></tr>
+<tr>
+<text textAlign="center">Arsenic</text><text textAlign="center">4</text><text textAlign="center">Solid</text><text textAlign="center">15</text><text textAlign="center">24</text><text textAlign="center">1d4 STR / 2d4 CON</text><text textAlign="center">R</text><text textAlign="center">4 hours</text></tr>
+<tr>
+<text textAlign="center">Atropine (2)</text><text textAlign="center">1</text><text textAlign="center">Liquid</text><text textAlign="center">13</text><text textAlign="center">14</text><text textAlign="center">1d6 DEX / 1d6 STR</text><text textAlign="center">R</text><text textAlign="center">1 hour</text></tr>
+<tr>
+<text textAlign="center">Blue Vitriol (2)</text><text textAlign="center">1</text><text textAlign="center">Liquid</text><text textAlign="center">12</text><text textAlign="center">9</text><text textAlign="center">1d2 CON / 1d4 CON</text><text textAlign="center">R</text><text textAlign="center">1 hour</text></tr>
+<tr>
+<text textAlign="center">Chloral hydrate</text><text textAlign="center">10</text><text textAlign="center">Solid</text><text textAlign="center">15</text><text textAlign="center">28</text><text textAlign="center">1d6 DEX / Unconscious 1d3 hours</text><text textAlign="center">R</text><text textAlign="center">8 hours</text></tr>
+<tr>
+<text textAlign="center">Cyanide</text><text textAlign="center">27</text><text textAlign="center">Liquid</text><text textAlign="center">16</text><text textAlign="center">30</text><text textAlign="center">1d6 CON / 2d6 CON/ 2d6 CON</text><text textAlign="center">M&amp;P</text><text textAlign="center">15 hours</text></tr>
+<tr>
+<text textAlign="center">Cyanogen</text><text textAlign="center">10</text><text textAlign="center">Gas</text><text textAlign="center">19</text><text textAlign="center">28</text><text textAlign="center">1d4 DEX / 1d6 CON/ 1d6 CON</text><text textAlign="center">M&amp;P</text><text textAlign="center">8 hours</text></tr>
+<tr>
+<text textAlign="center">DDT</text><text textAlign="center">5</text><text textAlign="center">Gas</text><text textAlign="center">17</text><text textAlign="center">20</text><text textAlign="center">1d2 STR / 1d4 STR</text><text textAlign="center">I</text><text textAlign="center">4 hours</text></tr>
+<tr>
+<text textAlign="center">Lead Arsenate (gas)</text><text textAlign="center">2</text><text textAlign="center">Gas</text><text textAlign="center">12</text><text textAlign="center">17</text><text textAlign="center">1d2 STR / 1d4 CON</text><text textAlign="center">R</text><text textAlign="center">2 hours</text></tr>
+<tr>
+<text textAlign="center">Lead Arsenate (solid)</text><text textAlign="center">2</text><text textAlign="center">Solid</text><text textAlign="center">12</text><text textAlign="center">18</text><text textAlign="center">1d2 STR / 1d4 CON</text><text textAlign="center">R</text><text textAlign="center">2 hours</text></tr>
+<tr>
+<text textAlign="center">Mustard gas</text><text textAlign="center">3</text><text textAlign="center">Gas</text><text textAlign="center">17</text><text textAlign="center">26</text><text textAlign="center">1d4 CON / 2d4 CON/ 2d4 CON/ 2d4 CON/ 2d4 CON</text><text textAlign="center">M&amp;P</text><text textAlign="center">8 hours</text></tr>
+<tr>
+<text textAlign="center">Paris green (gas)</text><text textAlign="center">5</text><text textAlign="center">Gas</text><text textAlign="center">14</text><text textAlign="center">20</text><text textAlign="center">1d2 CON / 1d4 CON/ 1d4 CON</text><text textAlign="center">None</text><text textAlign="center">4 hours</text></tr>
+<tr>
+<text textAlign="center">Paris green (solid)</text><text textAlign="center">5</text><text textAlign="center">Solid</text><text textAlign="center">14</text><text textAlign="center">24</text><text textAlign="center">1d2 CON / 1d4 CON/ 1d4 CON</text><text textAlign="center">None</text><text textAlign="center">4 hours</text></tr>
+<tr>
+<text textAlign="center">Sarin</text><text textAlign="center">25</text><text textAlign="center">Gas</text><text textAlign="center">18</text><text textAlign="center">30</text><text textAlign="center">1d4 CON / 2d4 CON/ 2d4 CON</text><text textAlign="center">I</text><text textAlign="center">15 hours</text></tr>
+<tr>
+<text textAlign="center">Strychnine</text><text textAlign="center">5</text><text textAlign="center">Liquid</text><text textAlign="center">19</text><text textAlign="center">23</text><text textAlign="center">1d3 DEX / 2d4 CON/ 2d4 CON</text><text textAlign="center">R</text><text textAlign="center">4 hours</text></tr>
+<tr>
+<text textAlign="center">Tear gas</text><text textAlign="center">5</text><text textAlign="center">Gas</text><text textAlign="center">15</text><text textAlign="center">21</text><text textAlign="center">Both—Blinded and Stunned 2d4 rounds</text><text textAlign="center">R</text><text textAlign="center">4 hours</text></tr>
+<tr>
+<text textAlign="center">Tranquilizer</text><text textAlign="center">2</text><text textAlign="center">Liquid</text><text textAlign="center">15</text><text textAlign="center">24</text><text textAlign="center">1d6 DEX / Unconscious 1d4 hours</text><text textAlign="center">R</text><text textAlign="center">6 hours</text></tr>
+<tr>
+<text textAlign="center">VX</text><text textAlign="center">125</text><text textAlign="center">Gas/Solid</text><text textAlign="center">30</text><text textAlign="center">42</text><text textAlign="center">1d6 CON / 2d6 CON / 2d6 CON / 2d6 CON / 2d6 CON</text><text textAlign="center">I</text><text textAlign="center">2 days</text></tr>
+</table>
+		<header level = "1">Craft (Electronics)</header>
+		<text>   This skill allows a character to build electronic equipmentlistening devices, or radios and communication devices. When building an electronic device from scratch, the character describes the kind of device they want to construct; then the GM decides whether the device fits the definition of a simple, moderate, complex, or advanced device compared to current technology.</text>
+		<text>   A character without an electronics tool kit takes a −6 penalty</text>
+		<text>   This category includes items such as clocks, timers, simpleThe TN for these items is 15, the WP cost for a simple device will not exceed 4, and the time taken to build it will not exceed 2 hours.</text>
+		<text>   This category includes items such as electronic locks, radios,the WP cost for a moderate device will not exceed 20, and the time taken to build it will not exceed 12 hours.</text>
+		<text>   This category includes items such as computers, cell phones, GPScost for a complex device will not exceed 25, and the time taken to build it will not exceed 24 hours.</text>
+		<text>   This category includes items such as server towers, the wiringThe TN for these items is 30, the WP cost for a complex device will not exceed 500, and the time taken to build it will not exceed 60 hours.</text>
+		<text>   Most Repair checks are made to fix complex or advancedrepairs have a TN of 10 to 15 and require no more than a few minutes to accomplish. More complex repair work has a TN of 20 or higher and can require an hour or more to complete. Making repairs also involves a monetary cost when spare parts or new components are needed, represented by either buying or procuring them. If the GM decides this isn&#x27;t necessary for the type of repair the character is attempting, then the parts are not required.</text>
+		<text>   A character can choose to attempt to jury-rig, or make temporarythe character to make the checks for 12 Combat Points. However, a jury-rigged repair can only fix a single problem with a check, and the temporary repair only lasts until the end of the current scene or encounter. The jury-rigged object must be fully repaired thereafter.</text>
+		<text>   A character can also jury-rig and jump-start an electronicdepending on the presence of security devices.</text>
+<table>
+<tr><header textAlign="center">Repair Task Example</header><header textAlign="center">Cost</header><header textAlign="center">Repair TN</header><header textAlign="center">Time</header></tr>
+<tr>
+<text textAlign="center">Simple</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">1 min.</text></tr>
+<tr>
+<text textAlign="center">Moderate</text><text textAlign="center">3</text><text textAlign="center">15</text><text textAlign="center">10 min.</text></tr>
+<tr>
+<text textAlign="center">Complex</text><text textAlign="center">6</text><text textAlign="center">20</text><text textAlign="center">1 hour</text></tr>
+<tr>
+<text textAlign="center">Advanced</text><text textAlign="center">12</text><text textAlign="center">25</text><text textAlign="center">10 hours</text></tr>
+</table>
+		<header level = "1">Craft (Mechanical)</header>
+		<text>   This skill allows a character to build mechanical devices fromgadgets. When building a mechanical device from scratch, the character describes the kind of device they want to construct, then the GM decides whether the device fits the definition of a simple, moderate, complex, or advanced device compared to current technology.</text>
+<box>
+<text>This category includes items such as simple mechanical these items is 15, the WP cost for a simple device will not exceed 4, and the time taken to build it will not exceed 2 hours. </text>
+</box>
+<box>
+<text>This category includes items such as mechanical locks, components complex tools. The TN for these items is 20, the WP cost for a moderate device will not exceed 11, and the time taken to build it will not exceed 12 hours.</text>
+</box>
+<box>
+<text>This category includes items such as car engines, and the WP cost for a complex device will not exceed 25, and the time taken to build it will not exceed 24 hours.</text>
+</box>
+<box>
+<text>This category includes items such as jet engines, complete firearms. The TN for these items is 30, the WP cost for a complex device will not exceed 500, and the time taken to build it will not exceed 60 hours.</text>
+</box>
+		<text>   Most repair checks are made to fix complex or advancedrepairs have a TN of 10 to 15 and require no more than a few minutes to accomplish. More complex repair work has a TN of 20 or higher and can require an hour or more to complete. Making repairs also involves a monetary cost when spare parts or new components are needed, represented by either buying or procuring them. If the GM decides this isn&#x27;t necessary for the type of repair the character is attempting, then the parts are not required.</text>
+		<text>   A character can choose to attempt to jury-rig, or make temporarythe character to make the checks for 12 Combat Points. However, a jury-rigged repair can only fix a single problem with a check, and the temporary repair only lasts until the end of the current scene or encounter. The jury-rigged object must be fully repaired thereafter.</text>
+		<text>   A character can also jury-rig and hot-wire a car or jump-startdepending on the presence of security devices.</text>
+<table>
+<tr><header textAlign="center">Repair Task Example</header><header textAlign="center">Cost</header><header textAlign="center">Repair TN</header><header textAlign="center">Time</header></tr>
+<tr>
+<text textAlign="center">Simple</text><text textAlign="center">1</text><text textAlign="center">10</text><text textAlign="center">1 minutes</text></tr>
+<tr>
+<text textAlign="center">Moderate</text><text textAlign="center">3</text><text textAlign="center">15</text><text textAlign="center">10 minutes</text></tr>
+<tr>
+<text textAlign="center">Complex</text><text textAlign="center">6</text><text textAlign="center">20</text><text textAlign="center">1 hour</text></tr>
+<tr>
+<text textAlign="center">Advanced</text><text textAlign="center">12</text><text textAlign="center">25</text><text textAlign="center">10 hours</text></tr>
+</table>
+		<text>   A character may perform their own upgrades for their weapons,the case of more illegal upgrades, attracting the attention of police.</text>
+<table>
+<tr><header textAlign="center">Classification</header><header textAlign="center">Upgrade Cost</header><header textAlign="center">Time</header><header textAlign="center">Craft TN</header></tr>
+<tr>
+<text textAlign="center">Barrel Upgrades</text><text textAlign="center">50%</text><text textAlign="center">100%</text><text textAlign="center">15 + 5 per barrel upgrade already performed on the firearm</text></tr>
+<tr>
+<text textAlign="center">Optics Upgrades</text><text textAlign="center">80%</text><text textAlign="center">100%</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Ergonomics and Aesthetics Upgrades</text><text textAlign="center">50%</text><text textAlign="center">80%</text><text textAlign="center">13 + 5 per frame upgrade already performed on the firearm</text></tr>
+<tr>
+<text textAlign="center">Firing Mode Upgrades</text><text textAlign="center">30%</text><text textAlign="center">100%</text><text textAlign="center">17 + 10 per firing mode upgrade already performed on the firearm</text></tr>
+<tr>
+<text textAlign="center">Internal Upgrades</text><text textAlign="center">60%</text><text textAlign="center">100%</text><text textAlign="center">40 for Precision Upgrade and Clockwork action</text></tr>
+</table>
+		<text>   Special</text>
+		<text>   A character without a mechanics tool kit takes a −6 penalty on</text>
+		<header level = "1">Craft (Pharmaceutical) Trained Only</header>
+		<text>   This skill allows a character to compound medicinal drugs to aidhealth.</text>
+		<text>   Antibacterial/Antiviral</text>
+<box>
+<text>These are medicines that help combat disease. An Throws made to resist the effects of a disease. The amount listed is for five doses.</text>
+</box>
+<table>
+<tr><header textAlign="center">Material Cost</header><header textAlign="center">Craft TN</header><header textAlign="center">Effect</header></tr>
+<tr>
+<text textAlign="center">3</text><text textAlign="center">15</text><text textAlign="center">+1 to Fort Save for disease</text></tr>
+<tr>
+<text textAlign="center">6</text><text textAlign="center">20</text><text textAlign="center">+2 to Fort Save for disease</text></tr>
+<tr>
+<text textAlign="center">9</text><text textAlign="center">25</text><text textAlign="center">+3 to Fort Save for disease</text></tr>
+<tr>
+<text textAlign="center">12</text><text textAlign="center">30</text><text textAlign="center">+4 to Fort Save for disease</text></tr>
+<tr>
+<text textAlign="center">15</text><text textAlign="center">35</text><text textAlign="center">+5 to Fort Save for disease</text></tr>
+<tr>
+<text textAlign="center">18</text><text textAlign="center">40</text><text textAlign="center">+6 to Fort Save for disease</text></tr>
+<tr>
+<text textAlign="center">21</text><text textAlign="center">45</text><text textAlign="center">+7 to Fort Save for disease</text></tr>
+</table>
+		<text>   Analgesics/Painkillers</text>
+<box>
+<text>These medicines allow a character to ignore pain and continue the healing effect of the painkillers go with it. Painkillers can only be given to a character with at least 1 XHP. A player who has 0 or less CHP has suffered serious injuries and must receive medical attention, and can not use painkillers. Painkillers only affect XHP. Painkillers can be crafted to last longer, heal more XHP, or both. Each upgrade increases the raw material WP cost by 3. The amount listed is for one dose.</text>
+</box>
+<table>
+<tr><header textAlign="center">Name</header><header textAlign="center">Base Craft TN</header><header textAlign="center">Length</header><header textAlign="center">Strength</header></tr>
+<tr>
+<text textAlign="center">Painkillers</text><text textAlign="center">10</text><text textAlign="center">+4 TN and +3 WP per 1d3 hours</text><text textAlign="center">+2 TN and +2 WP per 1d4 XHP restoration</text></tr>
+</table>
+		<text>   Hemostat Medicine</text>
+<box>
+<text>These medicines promote the clotting of blood. They reduce the </text>
+</box>
+<table>
+<tr><header textAlign="center">Name</header><header textAlign="center">Base Craft TN</header><header textAlign="center">Length</header><header textAlign="center">Strength</header></tr>
+<tr>
+<text textAlign="center">Hemostat</text><text textAlign="center">12</text><text textAlign="center">+2 TN and +2 WP per 1d4 hours</text><text textAlign="center">+1 TN and +2 WP per bleed decrease</text></tr>
+</table>
+		<text>   Antiseptic Medicine</text>
+<box>
+<text>Antiseptics are substances that are applied to destroy bonus to all Treat Injury checks when used. The amount listed is for four doses.</text>
+</box>
+<table>
+<tr><header textAlign="center">Name</header><header textAlign="center">Mat Cost</header><header textAlign="center">Craft TN</header><header textAlign="center">Effect</header></tr>
+<tr>
+<text textAlign="center">Weak Antiseptics</text><text textAlign="center">1</text><text textAlign="center">8</text><text textAlign="center">+1 bonus</text></tr>
+<tr>
+<text textAlign="center">Standard Antiseptics</text><text textAlign="center">3</text><text textAlign="center">14</text><text textAlign="center">+3 bonus</text></tr>
+<tr>
+<text textAlign="center">Strong Antiseptics</text><text textAlign="center">6</text><text textAlign="center">18</text><text textAlign="center">+5 bonus</text></tr>
+<tr>
+<text textAlign="center">Concentrated Antiseptics</text><text textAlign="center">12</text><text textAlign="center">25</text><text textAlign="center">+8 bonus</text></tr>
+</table>
+		<text>   Antidote</text>
+<box>
+<text>Antidotes are substances that are used to counteract poison. A character must figure out what kind of poison was used by using Knowledge (Earth and Life Sciences) [TN22]. The amount listed is for a single dose.</text>
+</box>
+<table>
+<tr><header textAlign="center">Name</header><header textAlign="center">Material Cost</header><header textAlign="center">Base Craft TN</header></tr>
+<tr>
+<text textAlign="center">Antidote</text><text textAlign="center">Poison&#x27;s WP cost + 8</text><text textAlign="center">Craft TN of poison + 5</text></tr>
+</table>
+		<text>   Special</text>
+		<text>   A character without a chemistry kit takes a −6 penalty on Craft</text>
+		<header level = "1">Craft (Structural)</header>
+		<text>   This skill allows a character to build wooden, concrete, orhouses, and so forth, and includes handyman skills like plumbing, house painting, drywall, laying cement, and building cabinets, as well as craft and repair armor and the structural integrity of vehicles. When building a structural device from scratch, the character describes the kind of device they want to construct, then the GM decides whether the device fits the definition of a simple, moderate, complex, or advanced device based on the difficulty.</text>
+		<text>   This category includes items such as bookshelves, chairs, smallthe WP cost for a simple device will not exceed 4, and the time taken to build it will not exceed 2 hours.</text>
+		<text>   This category includes items such as decks, small boats, sheds,cost for a moderate device will not exceed 20, and the time taken to build it will not exceed 12 hours.</text>
+		<text>   This category includes items such as bunkers, armories, and somefor a complex device will not exceed 25, and the time taken to build it will not exceed 60 hours.</text>
+		<text>   This category includes houses of all types. The TN for these500, and the time taken to build it will not exceed 600 hours.</text>
+		<text>   Weaponsmithing is the process of repairing, building, designingwoodworking and metalworking to create functional, strong weapons.</text>
+		<text>   Crafting a brand new melee weapon</text>
+<box>
+<text>When crafting a new weapon, a character must first pick what of weapon. Variations on a weapon can quickly change a weapon&#x27;s category and type.</text>
+</box>
+		<text>   The time listed when crafting the weapons is the average,</text>
+<table>
+<tr><header textAlign="center">Weapon</header><header textAlign="center">Craft TN</header><header textAlign="center">Mat Cost</header><header textAlign="center">Time</header></tr>
+<tr>
+<text textAlign="center">Simple Melee Weapons</text></tr>
+<tr>
+<text textAlign="center">Brass Knuckles</text><text textAlign="center">13</text><text textAlign="center">1</text><text textAlign="center">1 day</text></tr>
+<tr>
+<text textAlign="center">Push Blade/Punch Dagger</text><text textAlign="center">16</text><text textAlign="center">1</text><text textAlign="center">1 day</text></tr>
+<tr>
+<text textAlign="center">Field Knife</text><text textAlign="center">17</text><text textAlign="center">1</text><text textAlign="center">3 days</text></tr>
+<tr>
+<text textAlign="center">Survival Knife</text><text textAlign="center">15</text><text textAlign="center">1</text><text textAlign="center">2 days</text></tr>
+<tr>
+<text textAlign="center">Pocket Knife</text><text textAlign="center">12</text><text textAlign="center">1</text><text textAlign="center">2 days</text></tr>
+<tr>
+<text textAlign="center">Escape Knife</text><text textAlign="center">9</text><text textAlign="center">1</text><text textAlign="center">1 day</text></tr>
+<tr>
+<text textAlign="center">Light Club</text><text textAlign="center">8</text><text textAlign="center">1</text><text textAlign="center">3 hours</text></tr>
+<tr>
+<text textAlign="center">Medium Club</text><text textAlign="center">9</text><text textAlign="center">1</text><text textAlign="center">3 Hours</text></tr>
+<tr>
+<text textAlign="center">Heavy Club</text><text textAlign="center">10</text><text textAlign="center">1</text><text textAlign="center">3 hours</text></tr>
+<tr>
+<text textAlign="center">Tool Hammer</text><text textAlign="center">14</text><text textAlign="center">2</text><text textAlign="center">1 day</text></tr>
+<tr>
+<text textAlign="center">Sledgehammer</text><text textAlign="center">16</text><text textAlign="center">2</text><text textAlign="center">1 day</text></tr>
+<tr>
+<text textAlign="center">Sap</text><text textAlign="center">13</text><text textAlign="center">2</text><text textAlign="center">4 hours</text></tr>
+<tr>
+<text textAlign="center">Riot Shield</text><text textAlign="center">15</text><text textAlign="center">4</text><text textAlign="center">2 hours</text></tr>
+<tr>
+<text textAlign="center">Entry Shield</text><text textAlign="center">18</text><text textAlign="center">11</text><text textAlign="center">10 hours</text></tr>
+</table>
+<table>
+<tr><header textAlign="center">Weapon</header><header textAlign="center">Craft TN</header><header textAlign="center">Mat Cost</header><header textAlign="center">Time</header></tr>
+<tr>
+<text textAlign="center">Archaic Melee Weapons</text></tr>
+<tr>
+<text textAlign="center">Battle-axe</text><text textAlign="center">20</text><text textAlign="center">3</text><text textAlign="center">4 days</text></tr>
+<tr>
+<text textAlign="center">Broadaxe</text><text textAlign="center">18</text><text textAlign="center">2</text><text textAlign="center">3 days</text></tr>
+<tr>
+<text textAlign="center">Hand Axe</text><text textAlign="center">16</text><text textAlign="center">1</text><text textAlign="center">2 days</text></tr>
+<tr>
+<text textAlign="center">Shortsword</text><text textAlign="center">15</text><text textAlign="center">1</text><text textAlign="center">5 days</text></tr>
+<tr>
+<text textAlign="center">Bastard sword</text><text textAlign="center">18</text><text textAlign="center">4</text><text textAlign="center">1 week</text></tr>
+<tr>
+<text textAlign="center">Broadsword</text><text textAlign="center">23</text><text textAlign="center">3</text><text textAlign="center">1 week</text></tr>
+<tr>
+<text textAlign="center">Longsword</text><text textAlign="center">26</text><text textAlign="center">5</text><text textAlign="center">5 days</text></tr>
+<tr>
+<text textAlign="center">Rapier</text><text textAlign="center">28</text><text textAlign="center">4</text><text textAlign="center">1 week</text></tr>
+<tr>
+<text textAlign="center">Sabre</text><text textAlign="center">27</text><text textAlign="center">4</text><text textAlign="center">1 week</text></tr>
+<tr>
+<text textAlign="center">Cutlass</text><text textAlign="center">25</text><text textAlign="center">5</text><text textAlign="center">1 week</text></tr>
+<tr>
+<text textAlign="center">Parrying Dagger</text><text textAlign="center">19</text><text textAlign="center">1</text><text textAlign="center">5 days</text></tr>
+<tr>
+<text textAlign="center">Long Staff</text><text textAlign="center">14</text><text textAlign="center">2</text><text textAlign="center">1 day</text></tr>
+<tr>
+<text textAlign="center">Quarterstaff</text><text textAlign="center">13</text><text textAlign="center">1</text><text textAlign="center">1 day</text></tr>
+<tr>
+<text textAlign="center">Short Staff</text><text textAlign="center">12</text><text textAlign="center">1</text><text textAlign="center">1 day</text></tr>
+<tr>
+<text textAlign="center">Long Spear</text><text textAlign="center">16</text><text textAlign="center">2</text><text textAlign="center">1 day</text></tr>
+<tr>
+<text textAlign="center">Short Spear</text><text textAlign="center">14</text><text textAlign="center">2</text><text textAlign="center">1 day</text></tr>
+<tr>
+<text textAlign="center">Light Mace</text><text textAlign="center">25</text><text textAlign="center">3</text><text textAlign="center">6 days</text></tr>
+<tr>
+<text textAlign="center">Heavy Mace</text><text textAlign="center">28</text><text textAlign="center">4</text><text textAlign="center">6 days</text></tr>
+<tr>
+<text textAlign="center">Light Pick</text><text textAlign="center">30</text><text textAlign="center">5</text><text textAlign="center">5 days</text></tr>
+<tr>
+<text textAlign="center">Heavy Pick</text><text textAlign="center">34</text><text textAlign="center">8</text><text textAlign="center">5 days</text></tr>
+<tr>
+<text textAlign="center">Halberd</text><text textAlign="center">21</text><text textAlign="center">7</text><text textAlign="center">2 days</text></tr>
+<tr>
+<text textAlign="center">Exotic Melee Weapons</text></tr>
+<tr>
+<text textAlign="center">Weighted Chain</text><text textAlign="center">26</text><text textAlign="center">4</text><text textAlign="center">1 day</text></tr>
+<tr>
+<text textAlign="center">Whip Chain</text><text textAlign="center">28</text><text textAlign="center">5</text><text textAlign="center">1 day</text></tr>
+<tr>
+<text textAlign="center">Great Sword</text><text textAlign="center">32</text><text textAlign="center">5</text><text textAlign="center">2 weeks</text></tr>
+<tr>
+<text textAlign="center">Garrote</text><text textAlign="center">12</text><text textAlign="center">1</text><text textAlign="center">1 hour</text></tr>
+<tr>
+<text textAlign="center">Flail</text><text textAlign="center">26</text><text textAlign="center">5</text><text textAlign="center">3 days</text></tr>
+<tr>
+<text textAlign="center">Kama</text><text textAlign="center">21</text><text textAlign="center">3</text><text textAlign="center">2 days</text></tr>
+<tr>
+<text textAlign="center">Khepesh</text><text textAlign="center">22</text><text textAlign="center">11</text><text textAlign="center">1 week</text></tr>
+<tr>
+<text textAlign="center">Kukri</text><text textAlign="center">27</text><text textAlign="center">3</text><text textAlign="center">1 week</text></tr>
+<tr>
+<text textAlign="center">Maquahuitl</text><text textAlign="center">8</text><text textAlign="center">9</text><text textAlign="center">4 hours</text></tr>
+<tr>
+<text textAlign="center">Nunchaku</text><text textAlign="center">15</text><text textAlign="center">1</text><text textAlign="center">2 hours</text></tr>
+<tr>
+<text textAlign="center">Sai/Jitte</text><text textAlign="center">14</text><text textAlign="center">3</text><text textAlign="center">3 days</text></tr>
+<tr>
+<text textAlign="center">Three Section Staff</text><text textAlign="center">21</text><text textAlign="center">2</text><text textAlign="center">9 hours</text></tr>
+<tr>
+<text textAlign="center">Thrown weapons and Non-ballistic Ranged weapons</text></tr>
+<tr>
+<text textAlign="center">Ballistic Knife</text><text textAlign="center">28</text><text textAlign="center">10</text><text textAlign="center">3 hours</text></tr>
+<tr>
+<text textAlign="center">Slingshot</text><text textAlign="center">9</text><text textAlign="center">1</text><text textAlign="center">15 minutes</text></tr>
+<tr>
+<text textAlign="center">Whip</text><text textAlign="center">15</text><text textAlign="center">3</text><text textAlign="center">2 days</text></tr>
+<tr>
+<text textAlign="center">Throwing Knives/Stars (4)</text><text textAlign="center">11</text><text textAlign="center">1</text><text textAlign="center">2 days</text></tr>
+<tr>
+<text textAlign="center">Giant Throwing Star</text><text textAlign="center">13</text><text textAlign="center">1</text><text textAlign="center">2 days</text></tr>
+<tr>
+<text textAlign="center">Throwing Axe</text><text textAlign="center">18</text><text textAlign="center">1</text><text textAlign="center">1 day</text></tr>
+<tr>
+<text textAlign="center">Bolas</text><text textAlign="center">15</text><text textAlign="center">3</text><text textAlign="center">6 hours</text></tr>
+<tr>
+<text textAlign="center">Javelin</text><text textAlign="center">22</text><text textAlign="center">1</text><text textAlign="center">1 day</text></tr>
+<tr>
+<text textAlign="center">Compound bow</text><text textAlign="center">25</text><text textAlign="center">3 per size</text><text textAlign="center">5 days</text></tr>
+<tr>
+<text textAlign="center">Recurve Bow</text><text textAlign="center">20</text><text textAlign="center">4 per size</text><text textAlign="center">4 days</text></tr>
+<tr>
+<text textAlign="center">Brick (5)</text><text textAlign="center">2</text><text textAlign="center">1</text><text textAlign="center">1 CP</text></tr>
+<tr>
+<text textAlign="center">Boomerang</text><text textAlign="center">18</text><text textAlign="center">1</text><text textAlign="center">1 hour</text></tr>
+</table>
+		<text>   Personalized Weapons</text>
+<box>
+<text>A personalized weapon is a weapon built from the ground up for a other specifications. A character may craft a personalized weapon for anyone at their request, but the user must be proficient in the weapon in order to gain the benefit. A personalized weapon grants a +4 to attack, a +1 to damage and the Combat Point cost for any action involving the weapon is reduced by 1 for the intended user. Anyone who is not the weapon&#x27;s intended user uses the weapon as if it were a normal weapon. When crafting a personalized weapon, the TN for the weapon is increased by 10, the raw material WP cost is increased by 4× and the time is doubled. A personalized weapon must be named either by the intended user or by the crafter, if the intended user does not give a name.</text>
+</box>
+<box>
+<text>A weaponsmith may perform his own upgrades to weapons, at half upgrade is 17 and it takes the normal amount of time to perform the upgrade.</text>
+</box>
+<box>
+<text>A weapon may be crafted with extra slots for melee weapon cost is doubled and the time increases by a day. A weapon may also be crafted with the upgrades already built in, taking up the slot that would normally take when upgrading it as normal. The upgrade costs the same amount as it would to normally upgrade but only takes half the time, and the TN to craft the weapon is +1 per upgrade.</text>
+</box>
+<box>
+<text>A character can use Craft (Structural) to repair used armor and </text>
+</box>
+		<text>   Repairing damage to armor takes 30 minutes of work, a mechanicalcharacter takes a −6 penalty on their Craft check. At the end of the half hour, make a Craft (Structural) check [TN20]. Success restores 1d4+2 armor points. If damage remains, the character may continue to make repairs for as many minutes as it takes to restore all of the armors armor points.</text>
+		<text>   Special</text>
+		<text>   A character without a construction tool kit takes a −6 penalty</text>
+		<header level = "1">Craft (Visual Art)</header>
+		<text>   This skill allows a character to create paintings or drawings,a work of visual art. When attempting to create a work of visual art, the character simply makes a Craft (Visual Art) check, the result of which determines the quality of the work. Unless the effort is particularly elaborate or the character must acquire an expensive piece of equipment, the basic components have a WP cost of 4.</text>
+		<text>   Creating a work of visual art requires at least 12 Combatthe scope of the project.</text>
+<table>
+<tr><header textAlign="center">Skill Check Result</header><header textAlign="center">Effort Achieved</header></tr>
+<tr>
+<text textAlign="center">0-9</text><text textAlign="center">Untalented Amateur</text></tr>
+<tr>
+<text textAlign="center">10-19</text><text textAlign="center">Talented Amateur</text></tr>
+<tr>
+<text textAlign="center">20-24</text><text textAlign="center">Professional</text></tr>
+<tr>
+<text textAlign="center">25-30</text><text textAlign="center">Expert</text></tr>
+<tr>
+<text textAlign="center">31+</text><text textAlign="center">Master</text></tr>
+</table>
+		<text>   The character can also use Craft (Visual Art) to create falseof familiarity with it, and whether the character needs to reproduce the signature or handwriting of a specific individual, provide modifiers to the Craft check.</text>
+		<text>   The Craft (Visual Art) skill is also used to detect someonecheck that created the document is opposed by a Craft check by the person who examines the document to check its authenticity. If the examiner&#x27;s check result is equal to or higher than the original check, the document is determined to be fraudulent. The examiner gains bonuses or penalties on their check. A character can not try again since the forger isn&#x27;t sure of the quality of the original forgery.</text>
+<table>
+<tr><header textAlign="center">Document Type</header><header textAlign="center">Modifier</header><header textAlign="center">Time Taken</header></tr>
+<tr>
+<text textAlign="center">Simple (Business Card, Name Tag, Typed Letter)</text><text textAlign="center">+0</text><text textAlign="center">10 minutes</text></tr>
+<tr>
+<text textAlign="center">Moderate (Letterhead, Business Form)</text><text textAlign="center">−2</text><text textAlign="center">20 minutes</text></tr>
+<tr>
+<text textAlign="center">Complex (Stock Certificate, Driver&#x27;s License)</text><text textAlign="center">−4</text><text textAlign="center">1 hour</text></tr>
+<tr>
+<text textAlign="center">Difficult (Passport)</text><text textAlign="center">−8</text><text textAlign="center">4 hours</text></tr>
+<tr>
+<text textAlign="center">Impossible (Military/Law Enforcement ID)</text><text textAlign="center">−15</text><text textAlign="center">1 day</text></tr>
+<tr>
+<text textAlign="center">Familiarity</text><text textAlign="center">Modifier</text></tr>
+<tr>
+<text textAlign="center">Document includes specific insignia or signature</text><text textAlign="center">−4</text></tr>
+<tr>
+<text textAlign="center">Forger is unfamiliar with document</text><text textAlign="center">−4</text></tr>
+<tr>
+<text textAlign="center">Forger is slightly familiar with document</text><text textAlign="center">+0</text></tr>
+<tr>
+<text textAlign="center">Forger is very familiar with document</text><text textAlign="center">+4</text></tr>
+<tr>
+<text textAlign="center">Forger has experience in type of document</text><text textAlign="center">+6</text></tr>
+<tr>
+<text textAlign="center">Forgery Check Modifier</text><text textAlign="center">Modifier</text></tr>
+<tr>
+<text textAlign="center">Type of document unknown to examiner</text><text textAlign="center">−4</text></tr>
+<tr>
+<text textAlign="center">Type of document somewhat known to examiner</text><text textAlign="center">−2</text></tr>
+<tr>
+<text textAlign="center">Type of document well known to examiner</text><text textAlign="center">+0</text></tr>
+<tr>
+<text textAlign="center">Examiner only casually reviews the document</text><text textAlign="center">−2</text></tr>
+<tr>
+<text textAlign="center">Document is put through additional tests</text><text textAlign="center">+4</text></tr>
+</table>
+		<text>   Special</text>
+		<text>   To forge documents and detect forgeries, one must be able to</text>
+		<text>   A character can take 10 when making a Forgery check.</text>
+		<text>   A character without a forgery kit takes a −6 penalty on Forgeryauthentication kit takes a −6 on Forgery checks to detect a forgery.</text>
+		<header level = "1">Craft (Writing)</header>
+		<text>   This skill allows a character to create short stories, novels,similar works of writing. When creating a work of writing, the player simply makes a Craft (Writing) check, the result of which determines the quality of the work. The WP cost is negligible.</text>
+		<text>   Creating a work of writing requires at least 1 hour, but usuallyproject.</text>
+<table>
+<tr><header textAlign="center">Skill Check Result</header><header textAlign="center">Effort Achieved</header></tr>
+<tr>
+<text textAlign="center">0-9</text><text textAlign="center">Untalented Amateur</text></tr>
+<tr>
+<text textAlign="center">10-19</text><text textAlign="center">Talented Amateur</text></tr>
+<tr>
+<text textAlign="center">20-24</text><text textAlign="center">Professional</text></tr>
+<tr>
+<text textAlign="center">25-30</text><text textAlign="center">Expert</text></tr>
+<tr>
+<text textAlign="center">31+</text><text textAlign="center">Master</text></tr>
+</table>
+	</item>
+</body>

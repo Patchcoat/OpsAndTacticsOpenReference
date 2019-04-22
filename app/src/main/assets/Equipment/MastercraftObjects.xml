@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Mastercraft Objects</header>
+<box>
+<text>Mastercraft Objects  Weapons, armor, and some other types of equipment can be constructed as mastercraft objects. The exceptional quality of these objects provides the user a bonus on attack rolls, defense, or some other characteristic that improves when the object is used. A mastercraft object that provides a +1 bonus and can usually be purchased on the open market as a custom version of a common object. The increased cost of this item is 75% of the item&#x27;s cost.</text>
+</box>
+		<text>   Mastercraft objects with a bonus of +2 or +3 are consideredsale. If a grandmastercraft +2 object could be found for purchase, its cost would add 125% to the normal cost. The cost of a grandmastercraft +3 object would add 200% to the normal cost.</text>
+	</item>
+</body>

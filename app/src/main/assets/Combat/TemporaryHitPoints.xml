@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Temporary Hit Points</header>
+<box>
+<text>Temporary Hit Points  Certain effects can give a character temporary HP. When a character gains temporary HP make a note of their current HP before adding the temporary HP. When the temporary HP goes away, the character&#x27;s HP drop to that score. If the character&#x27;s HP are already below that score, all the temporary HP have already been lost and the character&#x27;s HP total does not drop. When temporary HP are lost, they can&#x27;t be restored as real HP can be, even with medical treatment.</text>
+</box>
+<box>
+<text>An increase in a character&#x27;s CON score, even a temporary one, can HP. They can be restored through normal healing. When a character&#x27;s CON goes back to normal after a temporary increase or is permanently reduced the character&#x27;s full normal HP go down accordingly.</text>
+</box>
+	</item>
+</body>

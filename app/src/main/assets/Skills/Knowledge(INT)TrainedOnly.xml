@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Knowledge (INT) Trained Only</header>
+<box>
+<text>Knowledge (INT) Trained Only  This skill allows a character to be knowledgeable in a particular area of lore.</text>
+</box>
+		<text>   Knowledge checks can also be used to create opportunities thatin the area.</text>
+<table>
+<tr><header textAlign="center">Question/Opportunity</header><header textAlign="center">TN</header></tr>
+<tr>
+<text textAlign="center">Very Easy</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">Easy</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Basic</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">Difficult</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">Hard</text><text textAlign="center">25</text></tr>
+<tr>
+<text textAlign="center">Very Hard</text><text textAlign="center">30</text></tr>
+<tr>
+<text textAlign="center">Nearly Impossible</text><text textAlign="center">40</text></tr>
+</table>
+		<text>   The fourteen Knowledge categories and the topics each one</text>
+<list type="unordered">
+<text>Arcane Lore Astrology, numerology, the occult, magic, the supernatural, and similar topics. Understand the behaviors of magic and supernatural beings, as well as informational tidbits on anything involving Magic, Psionics, and Incantations.</text>
+<text>Arcane lore can give a synergy bonus to a Spellschool (Any), Psionic (Any), or Incantions (Any) skill. The character must select one specific skill to receive the bonus in.</text>
+<text>Art Fine arts and graphic arts, including art history and artistic techniques, as well as literary works. Antiques, modern art, photography, and performance art forms such as music and dance, among others.</text>
+<text>Art can give a synergy bonus to a Perform (Any), or Craft (Visual art or Writing) skill. The character must select one specific skill to receive the bonus in.</text>
+<text>Behavioral Sciences Psychology, sociology, and criminology. Understand the personal thoughts and feelings of people, their behaviors due to multiple factors and explain the reasoning for their actions.</text>
+<text>Behavioral sciences can give a synergy bonus to the Presence, or Speechcraft skill. The character must select one specific skill to receive the bonus in.</text>
+<text>Business Business procedures, investment strategies, and corporate structures. Bureaucratic procedures and how to navigate them. Understand business concepts, procedures, terms, and best practices, as well as all of the exploitative loopholes in business.</text>
+<text>Civics Law, legislation, litigation, and legal rights and obligations. Political and governmental institutions and processes. Understand the basic workings of all types of governments and laws, how to navigate the legal system, and serve as a lawyer.</text>
+<text>Earth and Life Sciences Understand the workings of biological and geometrical sciences such as organic chemistry, pharmacology, genetics, geology, paleontology, biology, and botany.</text>
+<text>Earth and life sciences can give a synergy bonus to the Craft (Pharmaceutical or Alchemy) or Treat Injury skill. The character must select one specific skill to receive the bonus in.</text>
+<text>History Events, personalities, and cultures of the past. Archaeology and antiquities. Know and recite historical events and their influence on the present.</text>
+<text>History gives a synergy bonus to the Craft (Writing) skill.</text>
+<text>Physical Sciences Astronomy, chemistry, mathematics, physics, and engineering. Understand the workings of physical sciences and the behavior of the universe.</text>
+<text>Physical sciences can give a synergy bonus to a Craft (Mechanical, Structural, Chemical, or Electronics) skill. The character must select one specific skill to receive the bonus in.</text>
+<text>Popular Culture Popular music and personalities, genres of films and books, urban legends, comics, science fiction, and gaming, among others. Recognize pop culture trends.</text>
+<text>Popular Culture can give a synergy bonus to a Perform (Any), or Craft (Visual art or Writing) skill. The character must select one specific skill to receive the bonus in.</text>
+<text>Streetwise Street and urban culture, local underworld personalities and events. Identify commonly used weapons and signatures.</text>
+<text>Streetwise can give a synergy bonus to the Disable Device or Drive skill. The character must select one specific skill to receive the bonus in.</text>
+<text>Survival Rural culture, farming, and wilderness survival knowledge. Identify commonly used weapons, edible plants, as well as knowledge for traps, snares, lures and general hunting knowledge.</text>
+<text>Survival can give a synergy bonus to the Handle Animal or Ride skill. The character must select one specific skill to receive the bonus in.</text>
+<text>Tactics Techniques and strategies for disposing and maneuvering forces in combat. Know the historic and modern use of military tactics, identify weapons, and their intended uses and applications.</text>
+<text>Tactics can give a synergy bonus to the Stealth or Demolitions skill. The character must select one specific skill to receive the bonus in.</text>
+<text>Technology Current developments in cutting-edge devices, as well as the background necessary to identify various technological devices. Understand the inter-workings of various technologies, their uses, protocols, and functions.</text>
+<text>Technology gives a synergy bonus to the Technology Use skill.</text>
+<text>Theology and Philosophy The study of religious faith, practice, and experience as well as liberal arts, ethics, and philosophical concepts. Understand theological lore and logically achievable epistemological concepts.</text>
+<text>Theology and Philosophy gives a synergy bonus to the Craft (Writing) skill.</text>
+</list>
+		<text>   A Synergy is a representation of knowledge that can aid someoneknowledge skill, they can choose the skill that they wish for the synergy to go to immediately. For every +4 total skill modifier the character has in that knowledge skill, and they have at least 1 rank in that knowledge skill, they receive a +1 miscellaneous bonus to the selected skill.</text>
+<box>
+<text>A character can have multiple synergies for a single skill. When add them to the selected skill.</text>
+</box>
+		<text>   An untrained Knowledge check is simply an INT check. Withoutgiven subject.</text>
+		<text>   A character can take 10 when making a Knowledge check.</text>
+		<text>   Try Again?</text>
+		<text>   No. The check represents what a character knows and thinkingsomething they never knew in the first place.</text>
+		<text>   Time</text>
+		<text>   A Knowledge check can be a reaction, but otherwise costs 12</text>
+	</item>
+</body>

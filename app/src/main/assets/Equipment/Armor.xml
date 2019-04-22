@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Armor</header>
+<text><b>Armor</b></text>
+		<text>   Armor comes in three different types:</text>
+		<text>   Impromptu armor includes items that provide protection evenbiker&#x27;s jackets and football pads.</text>
+		<text>   Concealable armor is modern body armor designed to fitof time without fatiguing the wearer. Concealable armor can also be worn under Impromptu or Tactical armor.</text>
+		<text>   Tactical armor is modern body armor that fits over clothing andimpractical to wear all the time and is generally only donned when a specific dangerous confrontation is likely. Because it is worn over clothing in tactical situations, tactical armor often has pockets, clips, and MOLLE attachment points for carrying weapons, grenades, ammunition, flashlights, first aid kits, and other items.</text>
+<list type="unordered">
+<text>Equipment Bonus The equipment bonus is the bonus to DEF a character gets if they are proficient in the armor, and it&#x27;s AP has not been depleted. The equipment bonus only applies to areas it protects.</text>
+<text>Maximum AGL Bonus The maximum AGL bonus you can apply toward your defense, when wearing the armor.</text>
+<text>Armor Penalty This penalty applies to the following skills if the character isn&#x27;t proficient in the worn armor: Acrobatics, Athletics, Craft (All), Demolitions, Disable Device, Drive, Perform, Pilot, Ride, and Stealth. If a character is proficient in the armor, the penalty only applies to Athletics, Acrobatics, and Stealth.</text>
+<text>CP Loss How much the armor slows a character down when worn. The character has to spend this amount of Combat Points from their Combat Point pool before they can move.</text>
+<text>Damage Reduction This represents how much damage the armor negates, and what type of damage is reduced. Any slashing, piercing, ballistic, or concussive damage that exceeds all the damage reduction of all worn armors is considered bludgeoning damage.</text>
+</list>
+		<text>   – Sl Slashing | Pi Piercing | Bl Bludgeoning | Ba Ballistic</text>
+		<text>   – F Fire | C Concussion | Un Unarmed</text>
+<list type="unordered">
+<text>AP Armor points are a representation of how much damage armor can take. When armor protects a character from damage using its damage reduction, it subtracts the damage done from its AP score. Armor points are only subtracted to applicable damage. Armor can be repaired at 1 WP per armor point. Armor only protects against certain types of damage. If a character is attacked and the character&#x27;s armor does not cover the certain type of damage, the Damage Reduction for the armor does not apply, and the character take the full damage to their hit points. When an armor has run out of AP, it also stops providing an Equipment Bonus to DEF.</text>
+<text>Weight The weight of the armor. Unlike clothing, Armor is counted as equipment, and goes against your carrying capacity.</text>
+</list>
+		<text>   Light Football Pads</text>
+<box>
+<text>This suit of armor is worn by professional and amateur players normally worn by running backs and quarterbacks, sacrificing extra armor for range of motion.</text>
+</box>
+		<text>   Motorcycle Jacket</text>
+<box>
+<text>This is the bare minimum for the modern motorcyclist and consists wearer a +1 to Fortitude Saving Throws made to resist the effects of cold weather. Motorcycle Jackets have two pockets than can hold 1.5 lbs of equipment that is Tiny sized or smaller each.</text>
+</box>
+		<text>   Motorcycle Cut</text>
+<box>
+<text>This is a thick leather vest worn by motorcyclists, a particular that contain a holster-sheath that will hold one Small or smaller sized weapon, and a pouch that can hold 2 magazines or speedloaders. Any objects in these pockets gain a +1 to Stealth checks to hide these objects.</text>
+</box>
+<box>
+<text>Designed for deep undercover work where the user must not appear band of Kevlar sewn in around the torso.</text>
+</box>
+<box>
+<text>A flak vest is a light vest worn by aircraft personnel to protect grenades.</text>
+</box>
+<box>
+<text>This set of body armor is visually indistinguishable from a by employees of corporations, particularly those employed as security or bodyguard personnel.</text>
+</box>
+<box>
+<text>Covering a larger area of the torso, this vest provides better but is also more easily noticed. It is best used when the armor should remain unseen but the wearer doesn&#x27;t expect to face much scrutiny.</text>
+</box>
+		<text>   Turnout Coat</text>
+<box>
+<text>This fireman&#x27;s coat is made of a thick, flame resistant and </text>
+</box>
+		<text>   Corrections Vest</text>
+<box>
+<text>This armor is designed for use in prisons, where firearms are </text>
+</box>
+<box>
+<text>This tactical gear is covered in MOLLE, which allows different This armor has 12 MOLLE slots.</text>
+</box>
+<box>
+<text>Fencers wear this quilted canvas armor, which protects the torso, epees, and sabres.</text>
+</box>
+		<header level = "1">Medium Armor</header>
+		<text>   Concealable Vest</text>
+<box>
+<text>This standard Kevlar vest is worn by most law enforcement </text>
+</box>
+		<text>   Concealable Fight Vest</text>
+<box>
+<text>This is a variation on the standard Kevlar vest is worn by most some ballistic damage protection to protect against swords and arrows.</text>
+</box>
+		<text>   Motorcycle Armor</text>
+<box>
+<text>This suit of modern armor is worn by motorcyclist to protect from wearer a +1 to Fortitude Saving Throws made to resist the effects of cold weather.</text>
+</box>
+		<text>   Light Duty Vest</text>
+<box>
+<text>A lightweight tactical vest with Kevlar designed for extend use tactical gear is covered in MOLLE, which allows different accessories to be mounted according to the user&#x27;s specifications. This armor has 5 MOLLE slots.</text>
+</box>
+<box>
+<text>This vest is a variation on the light duty vest, designed for tactical gear is covered in MOLLE, which allows different accessories to be mounted on according to the user&#x27;s specifications. This armor has 5 MOLLE slots.</text>
+</box>
+<box>
+<text>The standard body armor for police tactical units, this vest protective materials available. This tactical gear is covered in MOLLE, which allows different accessories to be mounted according to the user&#x27;s specifications. This armor has 6 MOLLE slots.</text>
+</box>
+<box>
+<text>This suit of armor is worn by professional and amateur players normally worn by linebackers and “heavy hitter” positions, sacrificing movement for extra padding and armor.</text>
+</box>
+		<header level = "1">Heavy Armor</header>
+		<text>   Red Man Suit</text>
+<box>
+<text>This heavily padded suit is used primarily for unarmed and full-force blows without injuring their training partners.</text>
+</box>
+<box>
+<text>This suit of modern armor is worn by motorcyclist to protect from armored jacket. It grants the wearer a +1 to Fortitude Saving Throws made to resist the effects of cold weather.</text>
+</box>
+		<text>   Special Response Vest</text>
+<box>
+<text>Built like the tactical vest, but incorporating groin and neck This tactical gear is covered in MOLLE, which allows different accessories to be mounted according to the user&#x27;s specifications. This armor has 7 MOLLE slots.</text>
+</box>
+<box>
+<text>This armor consist of heavy torso jacket, with trauma plate arm protection. This tactical gear is covered in MOLLE, which allows different accessories to be mounted on to the user&#x27;s specifications. This armor has 8 MOLLE slots.</text>
+</box>
+		<text>   Crash Rescue Suit</text>
+<box>
+<text>This reflective, full-body suit is exclusive to fire departments liquids. It is rated to protect against sustained exposure to temperatures of 1,500°F and short exposure to 2,000°F, and includes a hood with a reflective faceplate, mittens, and boots. A crash rescue suit contains a 30 minute air supply.</text>
+</box>
+		<text>   EOD Suit</text>
+<box>
+<text>This armor consists of a complete anti-explosive armor setup, includes heavy ballistic armor, as well as a see-through ballistic visor and helmet.</text>
+</box>
+		<text>   Special Notes This armor protects the head, arms, legs, feet,areas.</text>
+<table>
+<tr><header textAlign="center">Type</header><header textAlign="center">Equipment Bonus</header><header textAlign="center">Max AGL Bonus</header><header textAlign="center">Armor Penalty</header><header textAlign="center">CP Loss</header><header textAlign="center">Damage Reduction</header><header textAlign="center">AP</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header></tr>
+<tr>
+<text textAlign="center">MOLLE Vest</text><text textAlign="center">Lt.T</text><text textAlign="center">+0</text><text textAlign="center">+6</text><text textAlign="center">+0</text><text textAlign="center">0</text><text textAlign="center">0/None</text><text textAlign="center">—</text><text textAlign="center">3.0</text><text textAlign="center">8</text></tr>
+<tr>
+<text textAlign="center">Motorcycle Jacket</text><text textAlign="center">Lt.I</text><text textAlign="center">+0</text><text textAlign="center">+6</text><text textAlign="center">+0</text><text textAlign="center">0</text><text textAlign="center">2/Sl</text><text textAlign="center">10</text><text textAlign="center">2.0</text><text textAlign="center">6</text></tr>
+<tr>
+<text textAlign="center">Motorcycle Cut</text><text textAlign="center">Lt.I</text><text textAlign="center">+0</text><text textAlign="center">+6</text><text textAlign="center">+0</text><text textAlign="center">0</text><text textAlign="center">2/Sl</text><text textAlign="center">8</text><text textAlign="center">1.3</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">Flak Vest</text><text textAlign="center">Lt.T</text><text textAlign="center">+0</text><text textAlign="center">+5</text><text textAlign="center">+0</text><text textAlign="center">0</text><text textAlign="center">3/Sl</text><text textAlign="center">12</text><text textAlign="center">2.0</text><text textAlign="center">3</text></tr>
+<tr>
+<text textAlign="center">Light Football Pads</text><text textAlign="center">Lt.I</text><text textAlign="center">+1</text><text textAlign="center">+6</text><text textAlign="center">+0</text><text textAlign="center">0</text><text textAlign="center">3/Bl</text><text textAlign="center">15</text><text textAlign="center">4.0</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">Turnout Coat</text><text textAlign="center">Lt.I</text><text textAlign="center">+1</text><text textAlign="center">+5</text><text textAlign="center">+0</text><text textAlign="center">0</text><text textAlign="center">2/F 1/Pi, S</text><text textAlign="center">10</text><text textAlign="center">10.0</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Light Undercover Shirt</text><text textAlign="center">Lt.C</text><text textAlign="center">+1</text><text textAlign="center">+4</text><text textAlign="center">−1</text><text textAlign="center">0</text><text textAlign="center">4/Ba</text><text textAlign="center">8</text><text textAlign="center">2.0</text><text textAlign="center">13</text></tr>
+<tr>
+<text textAlign="center">Undercover Vest</text><text textAlign="center">Lt.C</text><text textAlign="center">+1</text><text textAlign="center">+4</text><text textAlign="center">−1</text><text textAlign="center">0</text><text textAlign="center">10/Ba</text><text textAlign="center">30</text><text textAlign="center">3.0</text><text textAlign="center">16</text></tr>
+<tr>
+<text textAlign="center">Low-Profile Armor</text><text textAlign="center">Lt.C</text><text textAlign="center">+2</text><text textAlign="center">+4</text><text textAlign="center">−1</text><text textAlign="center">0</text><text textAlign="center">6/Ba</text><text textAlign="center">18</text><text textAlign="center">2.0</text><text textAlign="center">18</text></tr>
+<tr>
+<text textAlign="center">Corrections Vest</text><text textAlign="center">Lt.C</text><text textAlign="center">+2</text><text textAlign="center">+3</text><text textAlign="center">−2</text><text textAlign="center">1</text><text textAlign="center">6/Sl, Pi</text><text textAlign="center">18</text><text textAlign="center">4.0</text><text textAlign="center">17</text></tr>
+<tr>
+<text textAlign="center">Plastron</text><text textAlign="center">Lt.I</text><text textAlign="center">+2</text><text textAlign="center">+4</text><text textAlign="center">−1</text><text textAlign="center">0</text><text textAlign="center">4/Sl, Pi</text><text textAlign="center">16</text><text textAlign="center">3.0</text><text textAlign="center">10</text></tr>
+<tr>
+<text textAlign="center">Motorcycle Armor</text><text textAlign="center">Md.I</text><text textAlign="center">+2</text><text textAlign="center">+5</text><text textAlign="center">−1</text><text textAlign="center">1</text><text textAlign="center">4/Bl, Sl</text><text textAlign="center">20</text><text textAlign="center">5.0</text><text textAlign="center">11</text></tr>
+<tr>
+<text textAlign="center">Concealable Vest</text><text textAlign="center">Md.C</text><text textAlign="center">+2</text><text textAlign="center">+3</text><text textAlign="center">−2</text><text textAlign="center">2</text><text textAlign="center">11/Ba 2/Sl</text><text textAlign="center">35</text><text textAlign="center">4.0</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">Concealable Fight Vest</text><text textAlign="center">Md.C</text><text textAlign="center">+2</text><text textAlign="center">+3</text><text textAlign="center">−2</text><text textAlign="center">2</text><text textAlign="center">4/Ba, Sl, Pi</text><text textAlign="center">45</text><text textAlign="center">4.0</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">Light Duty Vest</text><text textAlign="center">Md.T</text><text textAlign="center">+3</text><text textAlign="center">+2</text><text textAlign="center">−3</text><text textAlign="center">2</text><text textAlign="center">12/Ba, Bl 3/Sl</text><text textAlign="center">38</text><text textAlign="center">7.0</text><text textAlign="center">30</text></tr>
+<tr>
+<text textAlign="center">Riot Vest</text><text textAlign="center">Md.T</text><text textAlign="center">+3</text><text textAlign="center">+2</text><text textAlign="center">−3</text><text textAlign="center">2</text><text textAlign="center">7/Sl, Pi 4/Ba 3/Bl, Un</text><text textAlign="center">45</text><text textAlign="center">7.0</text><text textAlign="center">30</text></tr>
+<tr>
+<text textAlign="center">Tactical Vest</text><text textAlign="center">Md.T</text><text textAlign="center">+4</text><text textAlign="center">+2</text><text textAlign="center">−3</text><text textAlign="center">2</text><text textAlign="center">13/Ba 4/Sl</text><text textAlign="center">45</text><text textAlign="center">9.0</text><text textAlign="center">32</text></tr>
+<tr>
+<text textAlign="center">Heavy Football Pads</text><text textAlign="center">Md.I</text><text textAlign="center">+1</text><text textAlign="center">+4</text><text textAlign="center">+0</text><text textAlign="center">1</text><text textAlign="center">5/Bl</text><text textAlign="center">25</text><text textAlign="center">8.0</text><text textAlign="center">5</text></tr>
+<tr>
+<text textAlign="center">Red Man Suit</text><text textAlign="center">Hv.T</text><text textAlign="center">+3</text><text textAlign="center">+1</text><text textAlign="center">−5</text><text textAlign="center">3</text><text textAlign="center">10/Bl 9/Un</text><text textAlign="center">50</text><text textAlign="center">12.0</text><text textAlign="center">24</text></tr>
+<tr>
+<text textAlign="center">Motorcycle Suit</text><text textAlign="center">Hv.I</text><text textAlign="center">+3</text><text textAlign="center">+4</text><text textAlign="center">−2</text><text textAlign="center">1</text><text textAlign="center">7/Bl, Sl</text><text textAlign="center">35</text><text textAlign="center">8.1</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">Crash Rescue Suit</text><text textAlign="center">Hv.T</text><text textAlign="center">+4</text><text textAlign="center">+2</text><text textAlign="center">−4</text><text textAlign="center">3</text><text textAlign="center">25/F</text><text textAlign="center">50</text><text textAlign="center">25.0</text><text textAlign="center">40</text></tr>
+<tr>
+<text textAlign="center">Special Response Vest</text><text textAlign="center">Hv.T</text><text textAlign="center">+4</text><text textAlign="center">+1</text><text textAlign="center">−5</text><text textAlign="center">3</text><text textAlign="center">18/Ba, Pi 6/Sl</text><text textAlign="center">65</text><text textAlign="center">17.0</text><text textAlign="center">45</text></tr>
+<tr>
+<text textAlign="center">Forced Entry Unit</text><text textAlign="center">Hv.T</text><text textAlign="center">+3</text><text textAlign="center">+0</text><text textAlign="center">−5</text><text textAlign="center">4</text><text textAlign="center">21/Ba, Pi, Sl</text><text textAlign="center">80</text><text textAlign="center">22.0</text><text textAlign="center">50</text></tr>
+<tr>
+<text textAlign="center">EOD Suit</text><text textAlign="center">Hv.T</text><text textAlign="center">+4</text><text textAlign="center">+0</text><text textAlign="center">−7</text><text textAlign="center">4</text><text textAlign="center">40/C, Pi, Sl</text><text textAlign="center">50</text><text textAlign="center">35.0</text><text textAlign="center">95</text></tr>
+</table>
+		<header level = "1">Armor Plates</header>
+		<text>   These are plates that can be placed in armor, either by beingeffectiveness against bullets and shells. Armor plates cannot be repaired, and must be replaced after they are used up. The price and listing are for a set of plates that protect the center mass area, which includes the back and torso. Only one set of plates may be used at a time.</text>
+		<text>   Trauma Plates</text>
+<box>
+<text>These plates are made from kevlar, designed to give additional </text>
+</box>
+<box>
+<text>These plates are made from high grade titanium, and provide </text>
+</box>
+<box>
+<text>These are ballistic ceramic plates, built for a compromise </text>
+</box>
+<box>
+<text>These are heavy steel inserts, used for multiple rifle round </text>
+</box>
+<table>
+<tr><header textAlign="center">Plate Type</header><header textAlign="center">CP Loss</header><header textAlign="center">DR</header><header textAlign="center">AP</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header></tr>
+<tr>
+<text textAlign="center">Trauma</text><text textAlign="center">0</text><text textAlign="center">8/Ba</text><text textAlign="center">32</text><text textAlign="center">1.8</text><text textAlign="center">7</text></tr>
+<tr>
+<text textAlign="center">Titanium</text><text textAlign="center">0</text><text textAlign="center">6/Ba, Pi</text><text textAlign="center">18</text><text textAlign="center">3.0</text><text textAlign="center">8</text></tr>
+<tr>
+<text textAlign="center">Ceramic</text><text textAlign="center">1</text><text textAlign="center">18/Ba, Pi</text><text textAlign="center">36</text><text textAlign="center">4.0</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">Steel</text><text textAlign="center">2</text><text textAlign="center">9/Ba, Pi</text><text textAlign="center">54</text><text textAlign="center">5.5</text><text textAlign="center">10</text></tr>
+</table>
+		<header level = "1">Helmets</header>
+		<text>   Helmets keep the most important part of most creature&#x27;s bodythe head, use the damage reduction (if any) for the hat or helmet.</text>
+		<text>   Motorcycle Helmet</text>
+<box>
+<text>These helmets come in various sizes and colors and protect the well as when falling.</text>
+</box>
+<box>
+<text>Used in various sporting events to protect the wearer&#x27;s head.  Ballistic Combat Helmet</text>
+</box>
+		<text>   Steel Combat Helmet</text>
+<box>
+<text>A surplus helmet from wars gone by, having fallen out of favor in thrift stores and army-navy stores alike.</text>
+</box>
+<box>
+<text>Used by police forces when containing a disturbance or riot. It thrown objects and chemical weapons.</text>
+</box>
+<table>
+<tr><header textAlign="center">Helmet Type</header><header textAlign="center">Type</header><header textAlign="center">DR</header><header textAlign="center">Wt</header><header textAlign="center">Cost</header><header textAlign="center">AP</header></tr>
+<tr>
+<text textAlign="center">Motorcycle</text><text textAlign="center">I</text><text textAlign="center">6/Bl, Sl</text><text textAlign="center">1.9</text><text textAlign="center">5</text><text textAlign="center">12</text></tr>
+<tr>
+<text textAlign="center">Sports</text><text textAlign="center">I</text><text textAlign="center">4/Bl</text><text textAlign="center">2.0</text><text textAlign="center">2</text><text textAlign="center">15</text></tr>
+<tr>
+<text textAlign="center">Combat, Ballistic</text><text textAlign="center">T</text><text textAlign="center">5/Ba, Bl, Sl</text><text textAlign="center">3.0</text><text textAlign="center">10</text><text textAlign="center">20</text></tr>
+<tr>
+<text textAlign="center">Combat, Steel</text><text textAlign="center">T</text><text textAlign="center">2/Ba, Bl</text><text textAlign="center">3.0</text><text textAlign="center">3</text><text textAlign="center">25</text></tr>
+<tr>
+<text textAlign="center">Riot</text><text textAlign="center">T</text><text textAlign="center">8/Bl</text><text textAlign="center">1.9</text><text textAlign="center">3</text><text textAlign="center">18</text></tr>
+</table>
+		<header level = "1">Armor Upgrades</header>
+		<text>   Armor can be customized to grant additional bonuses toward</text>
+		<text>   Camouflage Patterning</text>
+<box>
+<text>This upgrade covers a piece of armor or clothing in camouflage applicable setting.</text>
+</box>
+<box>
+<text>This upgrade fits armor or clothing with MOLLE slots, which user&#x27;s specifications. Gives 2 MOLLE slots per upgrade. Armor or clothing can have no more than 20 MOLLE slots.</text>
+</box>
+<box>
+<text>This upgrade fits armor or clothing with a hidden compartment or smaller size may be hidden in the compartment.</text>
+</box>
+<box>
+<text>This upgrade fits the armor to a specific wearer, granting the equipment bonus to DEF.</text>
+</box>
+		<text>   Limb Protections</text>
+<box>
+<text>This upgrade fits the armor with limb protectors that protect protectors can be installed on any armor that lacks limb protection for that area. The character selects either arm and hand protection, or leg and foot protection with the protectors providing DR and Defense that the original armor grants to all selected areas. Limb protectors can also only be installed on the same or higher level of armor, and can only be installed on armor that has Armor Points.</text>
+</box>
+<box>
+<text>Light Increases the Armor Points by 10, but reduces the Maximum </text>
+</box>
+<box>
+<text>Heavy Increases the Armor Points by 25, but reduces the Maximum </text>
+</box>
+<table>
+<tr><header textAlign="center">Armor Upgrade</header><header textAlign="center">Cost</header></tr>
+<tr>
+<text textAlign="center">Camouflage Patterning</text><text textAlign="center">2</text></tr>
+<tr>
+<text textAlign="center">MOLLE Fitting</text><text textAlign="center">1</text></tr>
+<tr>
+<text textAlign="center">Hidden Compartment Fitting</text><text textAlign="center">3</text></tr>
+<tr>
+<text textAlign="center">Custom Fitting</text><text textAlign="center">100%</text></tr>
+<tr>
+<text textAlign="center">Limb Protectors, Light</text><text textAlign="center">6</text></tr>
+<tr>
+<text textAlign="center">Limb Protectors, Medium</text><text textAlign="center">14</text></tr>
+<tr>
+<text textAlign="center">Limb Protectors, Heavy</text><text textAlign="center">31</text></tr>
+</table>
+	</item>
+</body>

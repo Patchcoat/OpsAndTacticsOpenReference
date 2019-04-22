@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Restricted Objects</header>
+<box>
+<text>Restricted Objects  Some objects require licenses to own or operate, or are restricted in use to qualifying organizations or individuals. In such cases, a character must purchase a license or pay a fee to legally own the object. A license or fee is a separate item, purchased in addition to (and usually before) the object to which it applies. The four levels of restriction are as follows. When dealing with licenses and weapons, the license type includes any papers or cards necessary to carry the weapon, open or concealed, without being hassled by law enforcement.</text>
+</box>
+<list type="unordered">
+<text>Licensed The owner must obtain a license to own or operate the object legally. Generally, the license is not expensive, and obtaining it has few if any additional legal requirements.</text>
+<text>Restricted Only specially qualified individuals or organizations are technically allowed to own the object. However, the real obstacles to ownership are time and money; anyone with sufficient patience and cash can eventually acquire the necessary license.</text>
+<text>Military &amp; Police The object is sold primarily to legitimate police and military organizations. An M&amp;P restriction is essentially the same as Restricted, except that manufacturers and dealers are generally under tight government scrutiny and are therefore especially wary of selling to private individuals.</text>
+<text>Illegal The object is illegal in all but specific, highly regulated circumstances.</text>
+</list>
+	</item>
+</body>

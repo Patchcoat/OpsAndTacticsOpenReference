@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Character Creation and Character Option Points</header>
+<box>
+<text>Character Creation and Character Option Points A character gains Character Option Points every level, that they can use to increase their XHP, Saving Throws, or Skill Points when they level.</text>
+</box>
+<box>
+<text>XHP Formula per level 3+CON ModifierCombat Points 15 or Racial Combat Point score</text>
+</box>
+<box>
+<text>Skill Points per level 3+INT ModCharacter Option Points per level +4</text>
+</box>
+<table>
+<tr><header textAlign="center">Cost</header><header textAlign="center">Benefit</header></tr>
+<tr>
+<text textAlign="center">1 COP</text><text textAlign="center">+1 Base Save Bonus in one area (Max twice per lvl, per save)</text></tr>
+<tr>
+<text textAlign="center">1 COP</text><text textAlign="center">+3 additional Skill Points</text></tr>
+<tr>
+<text textAlign="center">1 COP</text><text textAlign="center">+1 additional XHP</text></tr>
+</table>
+	</item>
+</body>

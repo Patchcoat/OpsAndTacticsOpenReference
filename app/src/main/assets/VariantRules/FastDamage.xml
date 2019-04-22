@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<item>
+		<header level = "0">Fast Damage</header>
+<box>
+<text>Fast Damage  This variant rule Created by Twixman. Thank him for it!</text>
+</box>
+<box>
+<text>Example: .45 ACP has a damage of 3d4+2. Using the Fast Damage the calculated number.</text>
+</box>
+		<text>   Fast damage can make the game faster, but at the cost ofthe options when using this variant rule.</text>
+	</item>
+</body>
