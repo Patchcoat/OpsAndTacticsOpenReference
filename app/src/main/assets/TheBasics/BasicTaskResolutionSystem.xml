@@ -5,10 +5,10 @@
 <box>
 <text>Basic Task Resolution System These rules assume a standardized system for determining the success or failure of any given task. That system is</text>
 </box>
-		<text>   The Modifiers and TN are determined by the type of task. If theother result is a failure. A “natural 18” or “natural 3” on the roll is not an automatic success or failure unless the rules state otherwise.</text>
+		<text>   The Modifiers and TN are determined by the type of task. If the other result is a failure. A “natural 18” or “natural 3” on the roll is not an automatic success or failure unless the rules state otherwise.</text>
 		<header level = "1">Rounding Fractions</header>
 		<text>   If you end up with a fractional amount, round down unless stated</text>
 		<header level = "1">Multiplying</header>
-		<text>   Sometimes a special rule will make you multiply a number or amultiply the number normally. When two or more multipliers apply, add them together into a single multiple.</text>
+		<text>   Sometimes a special rule will make you multiply a number or multiply the number normally. When two or more multipliers apply, add them together into a single multiple.</text>
 	</item>
 </body>

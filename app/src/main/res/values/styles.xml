@@ -1,74 +1,19 @@
 <resources>
-
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="standard">
-        <item name="android:textColorPrimary">@color/black</item>
-        <item name="android:textColorSecondary">@color/white</item>
-        <item name="android:background">@color/white</item>
-        <item name="android:shadowColor">@color/standardAltBackground</item>
-        <item name="android:color">@color/black</item>
-        <item name="android:keyTextColor">@color/standardBoxBorder</item>
-    </style>
-
-    <style name="dark">
-        <item name="android:textColorPrimary">@color/white</item>
-        <item name="android:textColorSecondary">@color/black</item>
-        <item name="android:background">@color/black</item>
-        <item name="android:shadowColor">@color/darkAltBackground</item>
-        <item name="android:color">@color/white</item>
-        <item name="android:keyTextColor">@color/darkBoxBorder</item>
-    </style>
-
-    <style name="low_contrast">
-        <item name="android:textColorPrimary">@color/lowContrastDark</item>
-        <item name="android:textColorSecondary">@color/lowContrastLight</item>
-        <item name="android:background">@color/lowContrastLight</item>
-        <item name="android:shadowColor">@color/lowContrastAltBackground</item>
-        <item name="android:color">@color/lowContrastDark</item>
-        <item name="android:keyTextColor">@color/lowContrastBoxBorder</item>
-    </style>
-
-    <style name="low_contrast_dark">
-        <item name="android:textColorPrimary">@color/lowContrastDarkLight</item>
-        <item name="android:textColorSecondary">@color/lowContrastDarkDark</item>
-        <item name="android:background">@color/lowContrastDarkDark</item>
-        <item name="android:shadowColor">@color/lowContrastDarkAltBackground</item>
-        <item name="android:color">@color/lowContrastDarkLight</item>
-        <item name="android:keyTextColor">@color/lowContrastDarkBoxBorder</item>
-    </style>
-
-    <style name="solarized_light">
-        <item name="android:textColorPrimary">@color/solarizedBase01</item>
-        <item name="android:textColorSecondary">@color/solarizedBase03</item>
-        <item name="android:background">@color/solarizedBase3</item>
-        <item name="android:shadowColor">@color/solarizedBase2</item>
-        <item name="android:color">@color/solarizedOrange</item>
-        <item name="android:keyTextColor">@color/solarizedRed</item>
-    </style>
-
-    <style name="solarized_dark">
-        <item name="android:textColorPrimary">@color/solarizedBase1</item>
-        <item name="android:textColorSecondary">@color/solarizedBase3</item>
-        <item name="android:background">@color/solarizedBase03</item>
-        <item name="android:shadowColor">@color/solarizedBase02</item>
-        <item name="android:color">@color/solarizedBlue</item>
-        <item name="android:keyTextColor">@color/solarizedCyan</item>
-    </style>
-
-    <style name="terminal">
-        <item name="android:textColorPrimary">@color/terminalGreen</item>
-        <item name="android:textColorSecondary">@color/terminalBlack</item>
-        <item name="android:background">@color/terminalBlack</item>
-        <item name="android:shadowColor">@color/terminalBlack</item>
-        <item name="android:color">@color/terminalGreen</item>
-        <item name="android:keyTextColor">@color/terminalGreen</item>
+    <style name="AppTheme.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="actionMenuTextColor">#FFFFFF</item>
+        <item name="titleTextColor">#FFFFFF</item>
+        <item name="android:textColorSecondary">#FFFFFF</item>
     </style>
 
 </resources>
