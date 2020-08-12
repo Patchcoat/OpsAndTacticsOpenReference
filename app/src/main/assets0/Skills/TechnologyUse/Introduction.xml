@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<body>
-    <item>
-        <header>Technology Use (INT)</header>
-        <text>   Your character is skilled at using computers and technology to bypass security systems, destroy and create programs.</text>
-        <text>   Most normal computer operations don't require a Technology Use check. However, searching an unfamiliar network for a particular file, writing computer programs, altering existing programs to perform differently (better or worse), and breaking through computer security are all relatively difficult and require skill checks. A character without a computer (either a laptop or desktop) cannot use Technology Use.
-        </text>
-    </item>
-</body>
