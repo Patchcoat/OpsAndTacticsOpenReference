@@ -426,12 +426,11 @@ public class XMLActivity extends AppCompatActivity {
                     textAlign = parser.getAttributeValue(null, "textAlign");
                     String listLevelStr = parser.getAttributeValue(null, "level");
                     listLevel = Integer.parseInt(listLevelStr == null ? "0" : listLevelStr);
+                    parser.require(XmlPullParser.END_TAG, ns, "text");
                     if (!ordered)
                         text = listBullet(listLevel).concat(readText(parser));
                     else // TODO ordered layout
                         text = "";
-                    parser.require(XmlPullParser.END_TAG, ns, "text");
-                    Log.d("OaTS", text);
                     textSet = true;
                     break;
                 default:
