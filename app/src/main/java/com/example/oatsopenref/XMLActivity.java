@@ -9,6 +9,9 @@ import android.content.SharedPreferences;
 import android.content.res.AssetManager;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.style.StyleSpan;
 import android.text.style.TextAppearanceSpan;
 import android.util.Log;
 import android.util.Xml;
@@ -176,13 +179,7 @@ public class XMLActivity extends AppCompatActivity {
         }
     }
 
-    private TextView readHeader(XmlPullParser parser) throws IOException, XmlPullParserException {
-        parser.require(XmlPullParser.START_TAG, ns, "header");
-        String level = parser.getAttributeValue(null, "level");
-        String textAlign = parser.getAttributeValue(null, "textAlign");
-        String header = readText(parser);
-        parser.require(XmlPullParser.END_TAG, ns, "header");
-
+    private float headerTextSize(String level) {
         float textSize = headerTextSize;
         if (level != null && !level.isEmpty() &&
                 level.matches("^-?\\d+$") && Float.parseFloat(level) >= 0){
@@ -209,10 +206,19 @@ public class XMLActivity extends AppCompatActivity {
                     textSize = 13;
             }
         }
+        return textSize;
+    }
+
+    private TextView readHeader(XmlPullParser parser) throws IOException, XmlPullParserException {
+        parser.require(XmlPullParser.START_TAG, ns, "header");
+        String level = parser.getAttributeValue(null, "level");
+        String textAlign = parser.getAttributeValue(null, "textAlign");
+        SpannableStringBuilder header = readText(parser);
+        parser.require(XmlPullParser.END_TAG, ns, "header");
 
         TextView textView = new TextView(this);
         textView.setText(header);
-        textView.setTextSize(textSize);
+        textView.setTextSize(headerTextSize(level));
         textView.setPadding(15, 0,15,0);
         textView.setTypeface(null, Typeface.BOLD);
         // the default gravity for a header is END, not NO_GRAVITY
@@ -225,7 +231,7 @@ public class XMLActivity extends AppCompatActivity {
     private TextView readTextTag(XmlPullParser parser) throws IOException, XmlPullParserException {
         parser.require(XmlPullParser.START_TAG, ns, "text");
         String textAlign = parser.getAttributeValue(null, "textAlign");
-        String text = readText(parser);
+        SpannableStringBuilder text = readText(parser);
         parser.require(XmlPullParser.END_TAG, ns, "text");
 
         TextView textView = new TextView(this);
@@ -416,7 +422,7 @@ public class XMLActivity extends AppCompatActivity {
                 continue;
             }
             String name = parser.getName();
-            String text = "";
+            SpannableStringBuilder text = new SpannableStringBuilder("");
             String textAlign = "";
             boolean textSet = false;
             int listLevel = 0;
@@ -426,11 +432,11 @@ public class XMLActivity extends AppCompatActivity {
                     textAlign = parser.getAttributeValue(null, "textAlign");
                     String listLevelStr = parser.getAttributeValue(null, "level");
                     listLevel = Integer.parseInt(listLevelStr == null ? "0" : listLevelStr);
-                    parser.require(XmlPullParser.END_TAG, ns, "text");
                     if (!ordered)
-                        text = listBullet(listLevel).concat(readText(parser));
+                        text = new SpannableStringBuilder(listBullet(listLevel)).append(readText(parser));
                     else // TODO ordered layout
-                        text = "";
+                        text.append(" ");
+                    parser.require(XmlPullParser.END_TAG, ns, "text");
                     textSet = true;
                     break;
                 default:
@@ -456,13 +462,44 @@ public class XMLActivity extends AppCompatActivity {
         return listLayout;
     }
 
-    private String readText(XmlPullParser parser) throws IOException, XmlPullParserException {
-        String result = "";
-        if (parser.next() == XmlPullParser.TEXT) {
+    private SpannableStringBuilder readText(XmlPullParser parser) throws IOException, XmlPullParserException {
+        SpannableStringBuilder result = new SpannableStringBuilder("");
+        //int next = parser.next();
+        /*if (next == XmlPullParser.TEXT) {
             result = parser.getText();
             parser.nextTag();
+        }*/
+        while (parser.next() != XmlPullParser.END_TAG) {
+            switch(parser.getEventType()) {
+                case XmlPullParser.TEXT:
+                    result.append(parser.getText());
+                    //parser.nextTag();
+                    //next = parser.getEventType();
+                    break;
+                case XmlPullParser.START_TAG:
+                    String name = parser.getName();
+                    SpannableStringBuilder text = readText(parser);
+                    switch(name) {
+                        case "b":
+                            text.setSpan(new StyleSpan(Typeface.BOLD), 0, text.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                            break;
+                        case "i":
+                            text.setSpan(new StyleSpan(Typeface.ITALIC), 0, text.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                            break;
+                        case "bi":
+                            text.setSpan(new StyleSpan(Typeface.BOLD_ITALIC), 0, text.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                            break;
+                        default:
+                            break;
+                    }
+                    result.append(text);
+                    //next = parser.next();
+                    break;
+                default:
+                    //next = parser.next();
+                    break;
+            }
         }
-
         return result;
     }
 
