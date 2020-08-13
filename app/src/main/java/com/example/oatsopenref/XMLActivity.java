@@ -9,6 +9,7 @@ import android.content.SharedPreferences;
 import android.content.res.AssetManager;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.text.style.TextAppearanceSpan;
 import android.util.Log;
 import android.util.Xml;
 import android.view.Gravity;
@@ -41,6 +42,8 @@ public class XMLActivity extends AppCompatActivity {
     int boxBackground = 0xff000000;
     int altText = 0xff000000;
     int tableAltBackground = 0xffe2e2e2;
+    int tableHeaderBackground = 0xff000000;
+    int tableHeaderText = 0xffffffff;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -334,6 +337,9 @@ public class XMLActivity extends AppCompatActivity {
             switch (name) {
                 case "header":
                     textView = readHeader(parser);
+                    textView.setTextSize(14);
+                    textView.setBackgroundColor(tableHeaderBackground);
+                    textView.setTextColor(tableHeaderText);
                     break;
                 case "text":
                     textView = readTextTag(parser);
