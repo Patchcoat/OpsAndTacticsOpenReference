@@ -35,7 +35,7 @@
 <text>Example: A modifier of +2 could be divided into +2/+0, +1/+1, or </text>
 </box>
 		<header level = "1">Strength (STR)</header>
-		<text>   Strength measures your character&#x27;s muscle and physical power.carry and determines the Recoil Modifier for the character. Strength is split into two aspects,</text>
+		<text>   Strength measures your character&#x27;s muscle and physical power, carry and determines the Recoil Modifier for the character. Strength is split into two aspects,</text>
 <list type="unordered">
 <text>Focus (FOC), which represents a character&#x27;s hand-eye coordination with a melee weapon.</text>
 <text>Power (POW), which is the actual strength of the character.</text>

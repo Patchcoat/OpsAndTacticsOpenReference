@@ -3,6 +3,7 @@ package com.example.oatsopenref;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.AssetManager;
@@ -15,6 +16,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
+import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
@@ -38,6 +40,7 @@ public class XMLActivity extends AppCompatActivity {
     int altBackground = 0xffffffff;
     int boxBackground = 0xff000000;
     int altText = 0xff000000;
+    int tableAltBackground = 0xffe2e2e2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -129,7 +132,7 @@ public class XMLActivity extends AppCompatActivity {
                 continue;
             }
             String name = parser.getName();
-            switch (name) {
+            switch (name) {// TODO the read functions can go inside addView
                 case "header":
                     TextView headerView = readHeader(parser);
                     container.addView(headerView);
@@ -143,8 +146,12 @@ public class XMLActivity extends AppCompatActivity {
                     container.addView(boxLayout);
                     break;
                 case "table":
-                    LinearLayout tableLayout = readTable(parser);
+                    TableLayout tableLayout = readTable(parser);
                     container.addView(tableLayout);
+                    break;
+                case "list":
+                    LinearLayout listLayout = readList(parser);
+                    container.addView(listLayout);
                     break;
                 default:
                     skip(parser);
@@ -153,9 +160,23 @@ public class XMLActivity extends AppCompatActivity {
         }
     }
 
+    private int textViewGravity(String textAlign) {
+        if (textAlign == null)
+            return Gravity.NO_GRAVITY;
+        switch (textAlign) {
+            case "left":
+                return Gravity.START;
+            case "center":
+                return Gravity.CENTER_HORIZONTAL;
+            default:
+                return Gravity.END;// includes the case for align right
+        }
+    }
+
     private TextView readHeader(XmlPullParser parser) throws IOException, XmlPullParserException {
         parser.require(XmlPullParser.START_TAG, ns, "header");
         String level = parser.getAttributeValue(null, "level");
+        String textAlign = parser.getAttributeValue(null, "textAlign");
         String header = readText(parser);
         parser.require(XmlPullParser.END_TAG, ns, "header");
 
@@ -191,36 +212,46 @@ public class XMLActivity extends AppCompatActivity {
         textView.setTextSize(textSize);
         textView.setPadding(15, 0,15,0);
         textView.setTypeface(null, Typeface.BOLD);
-        textView.setGravity(Gravity.END);
+        // the default gravity for a header is END, not NO_GRAVITY
+        int gravity = textViewGravity(textAlign);
+        textView.setGravity(gravity == Gravity.NO_GRAVITY ? Gravity.END : gravity);
 
         return textView;
     }
 
     private TextView readTextTag(XmlPullParser parser) throws IOException, XmlPullParserException {
         parser.require(XmlPullParser.START_TAG, ns, "text");
+        String textAlign = parser.getAttributeValue(null, "textAlign");
         String text = readText(parser);
         parser.require(XmlPullParser.END_TAG, ns, "text");
 
         TextView textView = new TextView(this);
         textView.setText(text);
+        textView.setGravity(textViewGravity(textAlign));
+
         textView.setPadding(15,0,15,0);
 
         return textView;
     }
 
+    private LinearLayout newBox(Context context, int color) {
+        LinearLayout box = new LinearLayout(context);
+        LinearLayout.LayoutParams boxParams = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
+        boxParams.setMargins(0, 0, 0, 0);
+        box.setLayoutParams(boxParams);
+        box.setOrientation(LinearLayout.VERTICAL);
+        box.setBackgroundColor(color);
+        return box;
+    }
+
     private LinearLayout readBox(XmlPullParser parser) throws IOException, XmlPullParserException {
         parser.require(XmlPullParser.START_TAG, ns, "box");
         LinearLayout boxOuter = new LinearLayout(this);
-        LinearLayout boxInner = null;
+        LinearLayout boxInner = newBox(this, altBackground);
+        boxInner.setPadding(15, 5, 15, 5);
+        boxOuter.addView(boxInner);
         LinearLayout boxHeader;
-        LinearLayout.LayoutParams boxOuterParams = new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
-        boxOuterParams.setMargins(10,10,10,10);
-        boxOuter.setLayoutParams(boxOuterParams);
-        boxOuter.setOrientation(LinearLayout.VERTICAL);
-        boxOuter.setBackgroundColor(boxBorder);
-        boxOuter.setPadding(10,10,10,10);
-
         while (parser.next() != XmlPullParser.END_TAG) {
             if (parser.getEventType() != XmlPullParser.START_TAG) {
                 continue;
@@ -228,30 +259,13 @@ public class XMLActivity extends AppCompatActivity {
             String name = parser.getName();
             switch (name) {
                 case "header":
-                    boxHeader = new LinearLayout(this);
-                    LinearLayout.LayoutParams boxHeaderParams = new LinearLayout.LayoutParams(
-                            LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
-                    boxHeaderParams.setMargins(0, 0, 0, 0);
-                    boxHeader.setLayoutParams(boxHeaderParams);
-                    boxHeader.setOrientation(LinearLayout.VERTICAL);
-                    boxHeader.setBackgroundColor(boxBackground);
+                    boxHeader = newBox(this, boxBackground);
                     boxHeader.setPadding(15, 3, 15, 5);
+                    boxHeader.addView(readHeader(parser));
                     boxOuter.addView(boxHeader);
-                    TextView headerView = readHeader(parser);
-                    boxHeader.addView(headerView);
                     break;
                 case "text":
-                    boxInner = new LinearLayout(this);
-                    LinearLayout.LayoutParams boxInnerParams = new LinearLayout.LayoutParams(
-                            LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
-                    boxInnerParams.setMargins(0, 0, 0, 0);
-                    boxInner.setLayoutParams(boxInnerParams);
-                    boxInner.setOrientation(LinearLayout.VERTICAL);
-                    boxInner.setBackgroundColor(altBackground);
-                    boxInner.setPadding(15, 5, 15, 5);
-                    boxOuter.addView(boxInner);
-                    TextView textView = readTextTag(parser);
-                    boxInner.addView(textView);
+                    boxInner.addView(readTextTag(parser));
                     break;
                 case "box":
                     LinearLayout box = readBox(parser);
@@ -262,60 +276,179 @@ public class XMLActivity extends AppCompatActivity {
                     }
                     break;
                 case "list":
+                    boxInner.addView(readList(parser));
                     break;
                 default:
                     skip(parser);
                     break;
             }
         }
-
         parser.require(XmlPullParser.END_TAG, ns, "box");
+
+        LinearLayout.LayoutParams boxOuterParams = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
+        boxOuterParams.setMargins(10,10,10,10);
+        boxOuter.setLayoutParams(boxOuterParams);
+        boxOuter.setOrientation(LinearLayout.VERTICAL);
+        boxOuter.setBackgroundColor(boxBorder);
+        boxOuter.setPadding(10,10,10,10);
 
         return boxOuter;
     }
 
-    private LinearLayout readTable(XmlPullParser parser) throws IOException, XmlPullParserException {
+    private TableLayout readTable(XmlPullParser parser) throws IOException, XmlPullParserException {
         parser.require(XmlPullParser.START_TAG, ns, "table");
-        LinearLayout tableLayout = new LinearLayout(this);
-
+        TableLayout tableLayout = new TableLayout(this);
+        int count = 0;
         while (parser.next() != XmlPullParser.END_TAG) {
             if (parser.getEventType() != XmlPullParser.START_TAG) {
                 continue;
             }
             if (parser.getName().equals("tr")) {
-                TableRow tableRow = readTableRow(parser);
+                TableRow tableRow = readTableRow(parser, count++);
                 tableLayout.addView(tableRow);
             } else {
                 skip(parser);
             }
         }
-
         parser.require(XmlPullParser.END_TAG, ns, "table");
+
+        tableLayout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT));
+        tableLayout.setStretchAllColumns(true);
 
         return tableLayout;
     }
 
-    private TableRow readTableRow(XmlPullParser parser) throws IOException, XmlPullParserException {
+    private TableRow readTableRow(XmlPullParser parser, int count) throws IOException, XmlPullParserException {
         parser.require(XmlPullParser.START_TAG, ns, "tr");
         TableRow tableRow = new TableRow(this);
+        TableRow.LayoutParams rowParams = new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT,
+                                                                    TableRow.LayoutParams.WRAP_CONTENT);
         while (parser.next() != XmlPullParser.END_TAG) {
             if (parser.getEventType() != XmlPullParser.START_TAG) {
                 continue;
             }
             String name = parser.getName();
+            TextView textView = null;
             switch (name) {
                 case "header":
+                    textView = readHeader(parser);
                     break;
                 case "text":
+                    textView = readTextTag(parser);
                     break;
                 default:
                     skip(parser);
                     break;
             }
+            if (textView != null) {
+                textView.setLayoutParams(rowParams);
+                tableRow.addView(textView);
+            }
         }
         parser.require(XmlPullParser.END_TAG, ns, "tr");
 
+        TableLayout.LayoutParams tableParams = new TableLayout.LayoutParams(TableLayout.LayoutParams.WRAP_CONTENT,
+                                                                            TableLayout.LayoutParams.WRAP_CONTENT);
+        tableRow.setLayoutParams(tableParams);
+        if (count % 2 == 0) {
+            tableRow.setBackgroundColor(tableAltBackground);
+        }
+
         return tableRow;
+    }
+
+    private String listNumber(int listLevel, int count) {
+        String number = "";
+        switch(listLevel) {
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            default:
+                number = " " + Integer.toString(count) + " ";
+                break;
+        }
+        return number;
+    }
+
+    private String listBullet(int listLevel) {
+        String bullet = " ";
+        switch(listLevel) {
+            case 1:
+                bullet = "⁃";
+                break;
+            case 2:
+                bullet = "◦";
+                break;
+            case 3:
+                bullet = "‣";
+                break;
+            case 4:
+                bullet = "◘";
+                break;
+            default: // also case 0
+                bullet = "•";
+                break;
+        }
+        bullet = bullet.concat(" ");
+        return bullet;
+    }
+
+    private LinearLayout readList(XmlPullParser parser) throws IOException, XmlPullParserException {
+        parser.require(XmlPullParser.START_TAG, ns, "list");
+        LinearLayout listLayout = new LinearLayout(this);
+        boolean ordered = parser.getAttributeValue(null, "type").equals("ordered");
+        int count = 0;
+        while (parser.next() != XmlPullParser.END_TAG) {
+            if (parser.getEventType() != XmlPullParser.START_TAG) {
+                continue;
+            }
+            String name = parser.getName();
+            String text = "";
+            String textAlign = "";
+            boolean textSet = false;
+            int listLevel = 0;
+            switch (name) {
+                case "text":
+                    parser.require(XmlPullParser.START_TAG, ns, "text");
+                    textAlign = parser.getAttributeValue(null, "textAlign");
+                    String listLevelStr = parser.getAttributeValue(null, "level");
+                    listLevel = Integer.parseInt(listLevelStr == null ? "0" : listLevelStr);
+                    if (!ordered)
+                        text = listBullet(listLevel).concat(readText(parser));
+                    else // TODO ordered layout
+                        text = "";
+                    parser.require(XmlPullParser.END_TAG, ns, "text");
+                    Log.d("OaTS", text);
+                    textSet = true;
+                    break;
+                default:
+                    skip(parser);
+                    break;
+            }
+            if (textSet) {
+                TextView textView = new TextView(this);
+                textView.setText(text);
+                textView.setGravity(textViewGravity(textAlign));
+
+                textView.setPadding(15 * (listLevel + 1),0,15,0);
+                listLayout.addView(textView);
+            }
+        }
+        parser.require(XmlPullParser.END_TAG, ns, "list");
+
+        LinearLayout.LayoutParams listParams = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        listLayout.setOrientation(LinearLayout.VERTICAL);
+        listLayout.setLayoutParams(listParams);
+
+        return listLayout;
     }
 
     private String readText(XmlPullParser parser) throws IOException, XmlPullParserException {
