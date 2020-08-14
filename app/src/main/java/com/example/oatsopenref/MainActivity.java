@@ -67,25 +67,7 @@ public class MainActivity extends AppCompatActivity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        final List<Contents> contentsListFinal = contentsList;
-        ContentsAdapter mAdapter = new ContentsAdapter(getApplicationContext(), contentsListFinal);
-        for (int i = 0; i < contentsListFinal.size(); i++) {
-            Contents content = contentsListFinal.get(i);
-            for (int j = 0; j < content.getChildItemList().size(); j++) {
-                Category cat = (Category) content.getChildItemList().get(j);
-            }
-        }
-        mAdapter.setExpandCollapseListener(new ExpandableRecyclerAdapter.ExpandCollapseListener() {
-            @Override
-            public void onListItemExpanded(int position) {
-                Contents expandedContents = contentsListFinal.get(position);
-            }
-
-            @Override
-            public void onListItemCollapsed(int position) {
-                Contents collapsedContents = contentsListFinal.get(position);
-            }
-        });
+        ContentsAdapter mAdapter = new ContentsAdapter(getApplicationContext(), contentsList);
         recyclerView.setAdapter(mAdapter);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);

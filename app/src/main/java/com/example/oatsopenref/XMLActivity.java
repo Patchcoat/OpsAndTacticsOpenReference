@@ -254,10 +254,11 @@ public class XMLActivity extends AppCompatActivity {
     private LinearLayout readBox(XmlPullParser parser) throws IOException, XmlPullParserException {
         parser.require(XmlPullParser.START_TAG, ns, "box");
         LinearLayout boxOuter = new LinearLayout(this);
+        LinearLayout boxHeader = newBox(this, boxBackground);
         LinearLayout boxInner = newBox(this, altBackground);
         boxInner.setPadding(15, 5, 15, 5);
+        boxOuter.addView(boxHeader);
         boxOuter.addView(boxInner);
-        LinearLayout boxHeader;
         while (parser.next() != XmlPullParser.END_TAG) {
             if (parser.getEventType() != XmlPullParser.START_TAG) {
                 continue;
@@ -265,10 +266,12 @@ public class XMLActivity extends AppCompatActivity {
             String name = parser.getName();
             switch (name) {
                 case "header":
-                    boxHeader = newBox(this, boxBackground);
-                    boxHeader.setPadding(15, 3, 15, 5);
-                    boxHeader.addView(readHeader(parser));
-                    boxOuter.addView(boxHeader);
+                    boxHeader.setPadding(15, 0, 15, 5);
+                    TextView headerView = readHeader(parser);
+                    headerView.setTextColor(0xffffffff);
+                    headerView.setTextSize(14);
+                    headerView.setGravity(Gravity.START);
+                    boxHeader.addView(headerView);
                     break;
                 case "text":
                     boxInner.addView(readTextTag(parser));
