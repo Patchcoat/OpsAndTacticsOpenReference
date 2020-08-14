@@ -228,60 +228,6 @@
     }
   },
   {
-    "category":"Axe Feats",
-    "name":"Axe Martial Arts",
-    "intro":"",
-    "prerequisite":[
-      "Archaic Weapons Proficiency (Axes)"
-    ],
-    "benefit":"When wielding a battle-axe, broadaxe, or hand axe, the Critical Threat range for any of these weapons is 13-18.",
-    "example":"",
-    "normal":"The Critical Threat range for a battle-axe, broadaxe, or hand axe is 15-18.",
-    "special":"",
-    "tutoring":{
-      "categories":"",
-      "time":"",
-      "benefit":""
-    }
-  },
-  {
-    "category":"Axe Feats",
-    "name":"Axe Specialist",
-    "intro":"",
-    "prerequisite":[
-      "Archaic Weapons Proficiency (Axes)",
-      "Axe Martial Arts"
-    ],
-    "benefit":"When wielding a battle-axe, broadaxe, or hand axe, the Critical Threat range for any of these weapons is 12-18, and the character gains a +2 bonus to attacks.",
-    "example":"",
-    "normal":"",
-    "special":"",
-    "tutoring":{
-      "categories":"",
-      "time":"",
-      "benefit":""
-    }
-  },
-  {
-    "category":"Axe Feats",
-    "name":"Axe Mastery",
-    "intro":"Choose battle-axe, broadaxe, or hand axe.",
-    "prerequisite":[
-      "Archaic Weapons Proficiency (Axes)",
-      "Axe Martial Arts",
-      "Axe Specialist"
-    ],
-    "benefit":"When wielding the chosen weapon, the Critical Threat range for the chosen weapon is 11-18, and any natural roll of a 15-18 is an automatic hit.",
-    "example":"",
-    "normal":"16-18 are automatic hits without this feat.",
-    "special":"A character may take this feat up to three times. Each time a character takes the feat, they select a different weapon.",
-    "tutoring":{
-      "categories":"",
-      "time":"",
-      "benefit":""
-    }
-  },
-  {
     "category":"Automatic Weapons Feats",
     "name":"Autofire Proficiency",
     "intro":"",
@@ -365,6 +311,60 @@
     "example":"",
     "normal":"An autofire attack can only be used on a 10' by 10' area.",
     "special":"A character can only strafe a weapon with autofire, not bumpfire.",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Axe Feats",
+    "name":"Axe Martial Arts",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Axes)"
+    ],
+    "benefit":"When wielding a battle-axe, broadaxe, or hand axe, the Critical Threat range for any of these weapons is 13-18.",
+    "example":"",
+    "normal":"The Critical Threat range for a battle-axe, broadaxe, or hand axe is 15-18.",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Axe Feats",
+    "name":"Axe Specialist",
+    "intro":"",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Axes)",
+      "Axe Martial Arts"
+    ],
+    "benefit":"When wielding a battle-axe, broadaxe, or hand axe, the Critical Threat range for any of these weapons is 12-18, and the character gains a +2 bonus to attacks.",
+    "example":"",
+    "normal":"",
+    "special":"",
+    "tutoring":{
+      "categories":"",
+      "time":"",
+      "benefit":""
+    }
+  },
+  {
+    "category":"Axe Feats",
+    "name":"Axe Mastery",
+    "intro":"Choose battle-axe, broadaxe, or hand axe.",
+    "prerequisite":[
+      "Archaic Weapons Proficiency (Axes)",
+      "Axe Martial Arts",
+      "Axe Specialist"
+    ],
+    "benefit":"When wielding the chosen weapon, the Critical Threat range for the chosen weapon is 11-18, and any natural roll of a 15-18 is an automatic hit.",
+    "example":"",
+    "normal":"16-18 are automatic hits without this feat.",
+    "special":"A character may take this feat up to three times. Each time a character takes the feat, they select a different weapon.",
     "tutoring":{
       "categories":"",
       "time":"",

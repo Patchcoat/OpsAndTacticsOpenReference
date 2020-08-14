@@ -33,17 +33,18 @@ public class Category {
     }
 
     public void gotoSubPage() {
+        Intent intent = new Intent(mContext, MainActivity.class);
         switch (mType) {
             case XML:
-                Intent intent = new Intent(mContext, XMLActivity.class);
-                String message = mLink;
-                intent.putExtra(EXTRA_MESSAGE, message);
-                mContext.startActivity(intent);
+                intent = new Intent(mContext, XMLActivity.class);
                 break;
             case feat:
+                intent = new Intent(mContext, FeatActivity.class);
                 break;
             default:
                 break;
         }
+        intent.putExtra(EXTRA_MESSAGE, mLink);
+        mContext.startActivity(intent);
     }
 }

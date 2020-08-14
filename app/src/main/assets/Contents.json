@@ -209,18 +209,18 @@
 			"type": "feat"
 		},
 		{
-			"text": "Assault Rifle, Carbine Rifle, and SMG Feats",
-			"link": "Assault Rifle, Carbine Rifle, and SMG Feats",
-			"type": "feat"
-		},
-		{
-			"text": "Axe Feats",
-			"link": "Axe Feats",
+			"text": "Assault Rifle and Carbine Rifle Feats",
+			"link": "Assault Rifle and Carbine Rifle Feats",
 			"type": "feat"
 		},
 		{
 			"text": "Automatic Weapons Feats",
 			"link": "Automatic Weapons Feats",
+			"type": "feat"
+		},
+		{
+			"text": "Axe Feats",
+			"link": "Axe Feats",
 			"type": "feat"
 		},
 		{
@@ -269,8 +269,18 @@
 			"type": "feat"
 		},
 		{
+			"text": "PDW Feats",
+			"link": "PDW Feats",
+			"type": "feat"
+		},
+		{
 			"text": "Ranged Combat Feats",
 			"link": "Ranged Combat Feats",
+			"type": "feat"
+		},
+		{
+			"text": "Saving Throw Feats",
+			"link": "Saving Throw Feats",
 			"type": "feat"
 		},
 		{
@@ -284,8 +294,8 @@
 			"type": "feat"
 		},
 		{
-			"text": "Skill and Saving Throw Feats",
-			"link": "Skill and Saving Throw Feats",
+			"text": "Skill Feats",
+			"link": "Skill Feats",
 			"type": "feat"
 		},
 		{

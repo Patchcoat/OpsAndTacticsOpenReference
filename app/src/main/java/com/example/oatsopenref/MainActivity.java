@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
             contents = loadJSONFromAsset(getApplicationContext());
         } catch (JSONException e) {
             e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
 
         // fill recycler view
@@ -73,18 +75,13 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
     }
 
-    public JSONArray loadJSONFromAsset(Context context) throws JSONException {
+    public JSONArray loadJSONFromAsset(Context context) throws JSONException, IOException {
         String json;
-        try {
-            InputStream is = context.getAssets().open("Contents.json");
-            byte[] buffer = new byte[is.available()];
-            is.read(buffer);
-            is.close();
-            json = new String(buffer, "UTF-8");
-        } catch (IOException ex) {
-            ex.printStackTrace();
-            return null;
-        }
+        InputStream is = context.getAssets().open("Contents.json");
+        byte[] buffer = new byte[is.available()];
+        is.read(buffer);
+        is.close();
+        json = new String(buffer, "UTF-8");
         return new JSONArray(json);
     }
 

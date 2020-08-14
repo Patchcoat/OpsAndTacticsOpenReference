@@ -36,6 +36,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class XMLActivity extends AppCompatActivity {
+    public static final String EXTRA_MESSAGE = "com.example.oatsopenref.MESSAGE";
 
     String pageLink;
     private static final String ns = null;
@@ -101,6 +102,11 @@ public class XMLActivity extends AppCompatActivity {
                 finish();
                 return super.onOptionsItemSelected(item);
             case R.id.action_about:
+                Log.d("OaTS", "About");
+                Intent intent = new Intent(this, XMLActivity.class);
+                String message = "About.xml";
+                intent.putExtra(EXTRA_MESSAGE, message);
+                startActivity(intent);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
