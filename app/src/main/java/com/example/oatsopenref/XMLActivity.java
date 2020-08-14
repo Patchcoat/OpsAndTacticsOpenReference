@@ -284,11 +284,7 @@ public class XMLActivity extends AppCompatActivity {
                     break;
                 case "box":
                     LinearLayout box = readBox(parser);
-                    if (boxInner != null) {
-                        boxInner.addView(box);
-                    } else {
-                        boxOuter.addView(box);
-                    }
+                    boxInner.addView(box);
                     break;
                 case "list":
                     boxInner.addView(readList(parser));

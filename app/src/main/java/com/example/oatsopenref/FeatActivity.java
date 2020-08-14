@@ -6,13 +6,19 @@ import androidx.appcompat.widget.Toolbar;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Process;
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.style.StyleSpan;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -30,6 +36,11 @@ public class FeatActivity extends AppCompatActivity {
     LinearLayout container;
     JSONArray contents;
     JSONArray feats;
+    int headerTextSize = 40;
+
+    int boxBorder = 0xff000000;
+    int altBackground = 0xffffffff;
+    int boxBackground = 0xff000000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -153,7 +164,74 @@ public class FeatActivity extends AppCompatActivity {
         displayFeats();
     }
 
+    public TextView featBaseTextView() {
+        TextView textView = new TextView(this);
+        textView.setPadding(15, 0,15,0);
+        return textView;
+    }
+
+    public TextView featElementTextView (String text) {
+        TextView textView = featBaseTextView();
+        textView.setText(text);
+        return textView;
+    }
+    public TextView featElementTextView (SpannableStringBuilder text) {
+        TextView textView = featBaseTextView();
+        textView.setText(text);
+        return textView;
+    }
+
+    public SpannableStringBuilder featElement (String title, String text, boolean indent, boolean plural) {
+        SpannableStringBuilder featTitle = new SpannableStringBuilder("");
+        if (indent)
+            featTitle.append("  ");
+        featTitle.append(title);
+        if (plural)
+            featTitle.append("s");
+        featTitle.append(" ");
+        featTitle.setSpan(new StyleSpan(Typeface.BOLD),
+                         0, featTitle.length(),
+                         Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        SpannableStringBuilder featText = new SpannableStringBuilder(text);
+        featTitle.append(featText);
+        return featTitle;
+    }
+
+    private LinearLayout tutorBox() {
+        LinearLayout boxOuter = new LinearLayout(this);
+        LinearLayout.LayoutParams boxOuterParams = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
+        boxOuterParams.setMargins(10,10,10,10);
+        boxOuter.setLayoutParams(boxOuterParams);
+        boxOuter.setOrientation(LinearLayout.VERTICAL);
+        boxOuter.setBackgroundColor(boxBorder);
+        boxOuter.setPadding(10,10,10,10);
+
+        TextView boxHeader = new TextView(this);
+        boxHeader.setPadding(15, 0, 15, 5);
+        boxHeader.setText("Tutoring");
+        boxHeader.setBackgroundColor(boxBackground);
+        boxHeader.setTextColor(0xffffffff);
+        boxHeader.setTypeface(null, Typeface.BOLD);
+        boxOuter.addView(boxHeader);
+
+        return boxOuter;
+    }
+    private LinearLayout innerTutorBox() {
+        LinearLayout boxInner = new LinearLayout(this);
+        LinearLayout.LayoutParams boxInnerParams = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
+        boxInnerParams.setMargins(0, 0, 0, 0);
+        boxInner.setPadding(15, 5, 15, 5);
+        boxInner.setLayoutParams(boxInnerParams);
+        boxInner.setOrientation(LinearLayout.VERTICAL);
+        boxInner.setBackgroundColor(0xffffffff);
+
+        return boxInner;
+    }
+
     public void displayFeats() throws JSONException {
+        // TODO category
         for (int i = 0; i < feats.length(); i++) {
             JSONObject obj = (JSONObject) feats.get(i);
             Log.d("OaTS", obj.getString("category") + ": " + obj.getString("name"));
@@ -173,8 +251,69 @@ public class FeatActivity extends AppCompatActivity {
             String tutoringTime = tutoringJSONObject.getString("time");
             String tutoringBenefit = tutoringJSONObject.getString("benefit");
 
-            
-            //container.addView();
+            LinearLayout featLayout = new LinearLayout(this);
+            LinearLayout.LayoutParams featLayoutParams = new LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+            featLayout.setOrientation(LinearLayout.VERTICAL);
+            featLayout.setLayoutParams(featLayoutParams);
+
+            // Start create name header
+            TextView nameView = featElementTextView(name);
+            nameView.setTextSize((int)(((float)headerTextSize) * 0.75));
+            nameView.setTypeface(null, Typeface.BOLD);
+            nameView.setGravity(Gravity.END);
+            featLayout.addView(nameView);
+            // End create name header
+            if (!intro.isEmpty()) {
+                intro = "  " + intro;
+                featLayout.addView(featElementTextView(intro));
+            }
+            if (prerequisiteList.size() > 0) {
+                String strList = "";
+                for (int j = 0; j < prerequisiteList.size(); j++) {
+                    strList = strList.concat(prerequisiteList.get(j));
+                    if (j < prerequisiteList.size() - 1)
+                        strList = strList.concat(", ");
+                }
+                featLayout.addView(featElementTextView(featElement("Prerequisite", strList, true,
+                                                                   prerequisiteList.size() > 1)));
+            }
+            if (!benefit.isEmpty()) {
+                featLayout.addView(featElementTextView(
+                        featElement("Benefit", benefit, true, false)));
+            }
+            if (!example.isEmpty()) {
+                featLayout.addView(featElementTextView(
+                        featElement("Example", example, true, false)));
+            }
+            if (!normal.isEmpty()) {
+                featLayout.addView(featElementTextView(
+                        featElement("Normal", normal, true, false)));
+            }
+            if (!special.isEmpty()) {
+                featLayout.addView(featElementTextView(
+                        featElement("Special", special, true, false)));
+            }
+
+            LinearLayout boxOuter = tutorBox();
+            LinearLayout boxInner = innerTutorBox();
+            boxOuter.addView(boxInner);
+
+            if (!tutoringCategories.isEmpty()) {
+                boxInner.addView(featElementTextView(
+                        featElement("Categories", tutoringCategories, false, false)));
+            }
+            if (!tutoringTime.isEmpty()) {
+                boxInner.addView(featElementTextView(
+                        featElement("Time", tutoringTime, false, false)));
+            }
+            if (!tutoringBenefit.isEmpty()) {
+                boxInner.addView(featElementTextView(
+                        featElement("Benefit", tutoringBenefit, false, false)));
+                featLayout.addView(boxOuter);
+            }
+
+            container.addView(featLayout);
         }
 
 
