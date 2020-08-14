@@ -2,6 +2,7 @@ package com.example.oatsopenref;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 
 public class Category {
     private String mName;
@@ -32,9 +33,17 @@ public class Category {
     }
 
     public void gotoSubPage() {
-        Intent intent = new Intent(mContext, XMLActivity.class);
-        String message = mLink;
-        intent.putExtra(EXTRA_MESSAGE, message);
-        mContext.startActivity(intent);
+        switch (mType) {
+            case XML:
+                Intent intent = new Intent(mContext, XMLActivity.class);
+                String message = mLink;
+                intent.putExtra(EXTRA_MESSAGE, message);
+                mContext.startActivity(intent);
+                break;
+            case feat:
+                break;
+            default:
+                break;
+        }
     }
 }
