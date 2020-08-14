@@ -3,23 +3,23 @@
       xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <!-- Search -->
-    <item
+    <!--item
         android:id="@+id/action_search"
         android:icon="@drawable/ic_search_black_24dp"
         android:title="@string/action_search"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom"/-->
 
     <!-- Overflow Menu -->
     <!-- Settings -->
-    <item android:id="@+id/action_settings"
+    <!--item android:id="@+id/action_settings"
         android:title="@string/action_settings"
-        app:showAsAction="never"/>
+        app:showAsAction="never"/-->
     <!-- About -->
     <item android:id="@+id/action_about"
         android:title="@string/action_about"
         app:showAsAction="never"/>
-    <item android:id="@+id/action_bookmark_collection"
+    <!--item android:id="@+id/action_bookmark_collection"
         android:title="@string/action_bookmark_collection"
-        app:showAsAction="never"/>
+        app:showAsAction="never"/-->
 
 </menu>

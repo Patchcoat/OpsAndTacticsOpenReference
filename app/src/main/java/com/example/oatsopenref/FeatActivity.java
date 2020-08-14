@@ -315,8 +315,6 @@ public class FeatActivity extends AppCompatActivity {
 
             container.addView(featLayout);
         }
-
-
     }
 
     public void loadJSONFromAsset(Context context) throws JSONException, IOException {
