@@ -5,27 +5,27 @@
 <box>
 <text>Creating a Character This is a step by step instructions for rolling a character</text>
 </box>
-		<text>   The first step is to acquire ability scores. This can be done inscores. After acquiring your 6 ability scores, set your ability scores. When setting ability scores, be sure to set your Strength ability focuses; Power and Focus, and Dexterity ability focuses; Marksmanship and Agility. After these are filled out, calculate the Core HP of the character.</text>
+		<text>   The first step is to acquire ability scores. This can be done in scores. After acquiring your 6 ability scores, set your ability scores. When setting ability scores, be sure to set your Strength ability focuses; Power and Focus, and Dexterity ability focuses; Marksmanship and Agility. After these are filled out, calculate the Core HP of the character.</text>
 		<text>   Ability Focuses</text>
-		<text>   When a character assigns ability scores and determines theirinto FOC &amp; POW and DEX into MRK &amp; AGL, equal to the total ability modifier for that ability.</text>
+		<text>   When a character assigns ability scores and determines their into FOC &amp; POW and DEX into MRK &amp; AGL, equal to the total ability modifier for that ability.</text>
 <box>
 <text>Example: A modifier of +2 could be divided into +2/+0, +1/+1, or +0/-2</text>
 </box>
 		<text>   Core Hit Points (CHP)</text>
 		<text>   The CHP formula is: CON SCORE + 2 or the Racial Core Hit Point</text>
 		<text>   Recoil Reduction</text>
-		<text>   Recoil reduction is the stat that determines how recoil affectsmay have what is called the “Recoil Penalty”, which is governed by the Caliber Recoil Penalty of the caliber that the character is firing. This is negated firstly by the Recoil Reduction Statistic that the character has, then any bonuses, and finally their attack bonus. It is possible for the Recoil Reduction to be negative, adding penalties to recoil.</text>
+		<text>   Recoil reduction is the stat that determines how recoil affects may have what is called the “Recoil Penalty”, which is governed by the Caliber Recoil Penalty of the caliber that the character is firing. This is negated firstly by the Recoil Reduction Statistic that the character has, then any bonuses, and finally their attack bonus. It is possible for the Recoil Reduction to be negative, adding penalties to recoil.</text>
 <box>
 <text>The formula for Recoil Reduction is: STR SCORE - 108.2 Step 2: Character Option Points</text>
 </box>
 		<text>   Base Save Bonus</text>
-		<text>   Base save bonuses are the basic ability for a character to resistof moving and avoiding things, and is influenced by Agility. Fortitude is the measurement of physical resistance, and is influenced by Constitution, and Will is the measurement of mental resistance, and is influenced by Wisdom. A character can purchase no more than two base save bonuses per save type.</text>
+		<text>   Base save bonuses are the basic ability for a character to resist of moving and avoiding things, and is influenced by Agility. Fortitude is the measurement of physical resistance, and is influenced by Constitution, and Will is the measurement of mental resistance, and is influenced by Wisdom. A character can purchase no more than two base save bonuses per save type.</text>
 		<text>   Skill Points</text>
-		<text>   Skill points are how a character is measured in the variousmore skillpoints you can spend. When rolling a character for level 1, this increase in skill points is multiplied by 5. There is no limit on the amount of purchase a character can spend on these points.</text>
+		<text>   Skill points are how a character is measured in the various more skill points you can spend. When rolling a character for level 1, this increase in skill points is multiplied by 5. There is no limit on the amount of purchase a character can spend on these points.</text>
 		<text>   Extended Hit Points (XHP)</text>
 		<text>   XHP is a measure of a character&#x27;s ability to turn a direct hitWhen rolling a character for level 1, this increase in XHP is included in the formula.</text>
 		<header level = "1">Step 3: Skills </header>
-		<text>   After COP points have been spent, and the ability scores arefrom the list of skills available as focused skills. A focused skill is a skill that a character has focused in, and a character can spend skill points on these skills at the rate of 1 skill point per rank. A character can select any 7 skills, but they receive all of the Magic, Invoking, and Psionic Skills, Linguistics, Knowledge (Pop Culture) and Knowledge (Streetwise) as focused skills. Any skill that is not selected or not apart of the skills that are automatically granted as focused skills are considered non-focused skills, and a character can spend skill points on those skills at the rate of 2 skill points per rank. After skills are selected, the character should then choose an occupation.</text>
+		<text>   After COP points have been spent, and the ability scores are from the list of skills available as focused skills. A focused skill is a skill that a character has focused in, and a character can spend skill points on these skills at the rate of 1 skill point per rank. A character can select any 7 skills, but they receive all of the Magic, Invoking, and Psionic Skills, Linguistics, Knowledge (Pop Culture) and Knowledge (Streetwise) as focused skills. Any skill that is not selected or not apart of the skills that are automatically granted as focused skills are considered non-focused skills, and a character can spend skill points on those skills at the rate of 2 skill points per rank. After skills are selected, the character should then choose an occupation.</text>
 <box>
 <text>The Starting Skill Point formula is: ((3 + INT MODIFIER + COP </text>
 </box>
@@ -33,50 +33,50 @@
 <text>The Maximum Skill Point ranks for unfocused skills is: ((Level + </text>
 </box>
 		<text>   Occupations represent the current line of work that the characterOccupations govern the starting wealth points, bi-weekly wealth points, and any additional skills or feats that are granted by that occupation.</text>
-		<text>   Occupations are not supposed to be a hard representation ofjobs that the character is involved in. When creating a character, try to think of a specific job your character has, and try to place it in one of the categories that you, and the GM best feel would fit. </text>
+		<text>   Occupations are not supposed to be a hard representation of jobs that the character is involved in. When creating a character, try to think of a specific job your character has, and try to place it in one of the categories that you, and the GM best feel would fit. </text>
 		<text>   Occupational Skills</text>
-		<text>   Many occupations grant skills. The number in parenthesis denoteselect a skill that they have already chosen as a focused skill, they gain a +1. Every level, they gain a +1 in the occupational selected skills as well.</text>
+		<text>   Many occupations grant skills. The number in parenthesis denote select a skill that they have already chosen as a focused skill, they gain a +1. Every level, they gain a +1 in the occupational selected skills as well.</text>
 		<text>   Occupational Feats</text>
-		<text>   Select occupations grant feats. These feats are extra featsare selected before the standard feats that a character gets.</text>
+		<text>   Select occupations grant feats. These feats are extra feats are selected before the standard feats that a character gets.</text>
 		<text>   Occupational Wealth and Equipment</text>
 		<text>   All occupations give wealth, both starting and bi-weekly wealth.income that the character has, after things like bills, payments, mortgages and taxes are paid. </text>
-		<text>   Plenty of occupations also issue equipment as a part of theirchanges they may want to make involving issued equipment. </text>
+		<text>   Plenty of occupations also issue equipment as a part of their changes they may want to make involving issued equipment. </text>
 		<header level = "1">Step 5: Feats</header>
-		<text>   Feats are selected after Occupation, allowing a character to useany prerequisites. A character gains 2 feats per level, plus any feats they receive per their race. </text>
+		<text>   Feats are selected after Occupation, allowing a character to use any prerequisites. A character gains 2 feats per level, plus any feats they receive per their race. </text>
 		<header level = "1">Step 6: Character Statistics</header>
-		<text>   After feats are selected, a character then fills out the rest ofattacks.</text>
+		<text>   After feats are selected, a character then fills out the rest of attacks.</text>
 		<text>   Base Attack Bonus</text>
 		<text>   Base attack bonus is the basic fighting ability of the character.makes. Base attack bonus starts at +1 at level 1.</text>
 		<text>   Defense</text>
 		<text>   Defense is the value an attacker must exceed to successfully</text>
 		<text>   Defense is equal to: 10 + Agility Modifier + Equipment Bonuses +</text>
-		<text>   Defense also includes two other styles of Defense; Touch Defensefrom the defense calculation, and Flat-Footed defense removes the touch modifier from the defense calculation. These two should also be calculated.</text>
+		<text>   Defense also includes two other styles of Defense; Touch Defense from the defense calculation, and Flat-Footed defense removes the touch modifier from the defense calculation. These two should also be calculated.</text>
 		<text>   Mental Limit</text>
 		<text>   Mental Limit is a representation of a character&#x27;s mental capacityLimit can be effected by the character&#x27;s race, so be sure to verify that you are using the correct calculation. In games without Magic, Psionics, or Incantations, Mental Limit should not be calculated.</text>
 <box>
 <text>The formula for the Mental Limit is:formula.</text>
 </box>
-		<text>   Combat Points are a representation of how many actions aaction in combat has a Combat Point value, and a character can perform as many actions, in any order, as they have Combat Points for. The value for Combat Points is effected by the character&#x27;s race, so be sure to verify that you are using the correct calculation.</text>
+		<text>   Combat Points are a representation of how many actions an action in combat has a Combat Point value, and a character can perform as many actions, in any order, as they have Combat Points for. The value for Combat Points is effected by the character&#x27;s race, so be sure to verify that you are using the correct calculation.</text>
 		<text>   A character has 15 Combat Points, or the Racial Combat Point</text>
 		<text>   Carrying Capacity</text>
 		<text>   Carrying capacity is a representation of how much a character canScore. The formula for calculating the amount of pounds a character can carry is: (STR SCORE * 3 lbs)</text>
 		<text>   Attack Bonuses</text>
-		<text>   Attack bonuses fall into two categories: Ranged and Melee. Rangedcharacter, their Marksmanship modifier, and any miscellaneous bonuses. Melee attack bonuses are governed by the attack bonus of the character, their Focus modifier, and any miscellaneous bonuses.</text>
+		<text>   Attack bonuses fall into two categories: Ranged and Melee. Ranged character, their Marksmanship modifier, and any miscellaneous bonuses. Melee attack bonuses are governed by the attack bonus of the character, their Focus modifier, and any miscellaneous bonuses.</text>
 <box>
 <text>The Starting Melee Attack formula is: (FOC MODIFIER + BASE ATTACK </text>
 </box>
 		<text>   Saving Throws</text>
-		<text>   Saving Throws are used to avoid or prevent status changes orthe character&#x27;s Constitution modifier, and any miscellaneous modifiers. Reflex is governed by the Reflex Base Save Bonus, the character&#x27;s Agility modifier, and any miscellaneous modifiers. Will is governed by the Will Base Save Bonus, the character&#x27;s Wisdom modifier, and any miscellaneous modifiers.</text>
+		<text>   Saving Throws are used to avoid or prevent status changes or the character&#x27;s Constitution modifier, and any miscellaneous modifiers. Reflex is governed by the Reflex Base Save Bonus, the character&#x27;s Agility modifier, and any miscellaneous modifiers. Will is governed by the Will Base Save Bonus, the character&#x27;s Wisdom modifier, and any miscellaneous modifiers.</text>
 <box>
 <text>The Starting Reflex Saving Throw formula is: (AGI MODIFIER + COP </text>
 </box>
 <box>
 <text>The Starting Will Saving Throw formula is: (WIS MODIFIER + COP </text>
 </box>
-		<text>   XHP is a measure of a character&#x27;s ability to turn a direct hitXHP goes up with level, giving high-level characters more ability to shrug off attacks. Most types of damage reduce XHP.</text>
+		<text>   XHP is a measure of a character&#x27;s ability to turn a direct hit XHP goes up with level, giving high-level characters more ability to shrug off attacks. Most types of damage reduce XHP.</text>
 <box>
 <text>The Starting XHP formula is: ((3 + CON MODIFIER + COP Increase) X </text>
 </box>
-		<text>   This step includes anything that may or may not affect theand dislikes, and other things that flesh out the character. </text>
+		<text>   This step includes anything that may or may not affect the and dislikes, and other things that flesh out the character. </text>
 	</item>
 </body>

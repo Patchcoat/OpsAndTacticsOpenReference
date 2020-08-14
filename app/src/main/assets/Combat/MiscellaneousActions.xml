@@ -7,10 +7,10 @@
 </box>
 		<header level = "1">Use Feat or Skill </header>
 		<text>   Certain feats let a character take special actions in combat.character a bonus when attempting something they can already do. Some feats aren&#x27;t meant to be used within the framework of combat. The individual feat descriptions tell a character what they need to know about them.</text>
-		<text>   Most uses of skills in a combat situation are attack actions butskill provides the time required to use it.</text>
+		<text>   Most uses of skills in a combat situation are attack actions but skill provides the time required to use it.</text>
 		<header level = "1">Attacks of Opportunity</header>
-		<text>   The melee combat rules assume that combatants are activelyspecial for their character to be on the defensive. Sometimes, however, a combatant in a melee lets their guard down and doesn&#x27;t maintain a defensive posture as usual. In this case combatants near him or her can take advantage of this lapse in defense to attack for free. These attacks are called AoO.</text>
-		<text>   A character can use a melee weapon to make AoO whenever thecan make AoO with unarmed attacks if the character&#x27;s unarmed attacks count as armed.</text>
+		<text>   The melee combat rules assume that combatants are actively special for their character to be on the defensive. Sometimes, however, a combatant in a melee lets their guard down and doesn&#x27;t maintain a defensive posture as usual. In this case combatants near him or her can take advantage of this lapse in defense to attack for free. These attacks are called AoO.</text>
+		<text>   A character can use a melee weapon to make AoO whenever they can make AoO with unarmed attacks if the character&#x27;s unarmed attacks count as armed.</text>
 		<text>   A character threatens the squares into which they can make aGenerally, that&#x27;s all squares adjacent to the character&#x27;s position. An enemy that takes certain actions while in a threatened square provokes an AoO from the character. A character can only make AoO with melee weapons, never with ranged weapons. Facing and the penalty that comes with it apply with AoO.</text>
 		<text>   Two actions can provoke an AoO:</text>
 <list type="unordered">
@@ -19,6 +19,6 @@
 </list>
 		<text>   An attack of opportunity is a single unmodified melee attack,not have to make an AoO if they don&#x27;t want to. Making an AoO takes no Combat Points.</text>
 		<header level = "1">Extra Effort</header>
-		<text>   An Extra Effort action is an action where a character pushesmore accomplished in a single round. The character receives 5 extra Combat Points for the round. The following round they are considered flat-footed, have a −4 attack penalty for all attacks, receive half their normal Combat Points (rounded down), and may not take the extra effort action. After the character goes through one round in this state, they return to normal.</text>
+		<text>   An Extra Effort action is an action where a character pushes more accomplished in a single round. The character receives 5 extra Combat Points for the round. The following round they are considered flat-footed, have a −4 attack penalty for all attacks, receive half their normal Combat Points (rounded down), and may not take the extra effort action. After the character goes through one round in this state, they return to normal.</text>
 	</item>
 </body>

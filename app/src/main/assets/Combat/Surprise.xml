@@ -3,9 +3,9 @@
 	<item>
 		<header level = "0">Surprise </header>
 <text><b>Surprise</b></text>
-		<text>   When a combat starts, if a character was not aware of hissurprised. Likewise, a character can surprise their enemies if the character knows about them before they&#x27;re aware of the character.</text>
-		<text>   If some but not all of the combatants are aware of theirThe combatants who are aware of the opponents can act in the surprise round, so they roll for Initiative. In Initiative order (highest to lowest) combatants who started the battle aware of their opponents each can spend half of their Combat Points during the surprise round. If no one or everyone is surprised, the surprise round does not occur.</text>
+		<text>   When a combat starts, if a character was not aware of his surprised. Likewise, a character can surprise their enemies if the character knows about them before they&#x27;re aware of the character.</text>
+		<text>   If some but not all of the combatants are aware of their opponents, a surprise round happens before a regular round begins. The combatants who are aware of the opponents can act in the surprise round, so they roll for Initiative. In Initiative order (highest to lowest) combatants who started the battle aware of their opponents each can spend half of their Combat Points during the surprise round. If no one or everyone is surprised, the surprise round does not occur.</text>
 		<text>   Unaware Combatants</text>
-		<text>   Combatants who are unaware at the start of battle do not get toBecause of this, they lose any AGI bonus to Defense.</text>
+		<text>   Combatants who are unaware at the start of battle do not get to act in the surprise round. Unaware combatants are flat footed. Because of this, they lose any AGI bonus to Defense.</text>
 	</item>
 </body>

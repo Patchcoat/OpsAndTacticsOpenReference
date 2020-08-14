@@ -464,39 +464,37 @@ public class XMLActivity extends AppCompatActivity {
 
     private SpannableStringBuilder readText(XmlPullParser parser) throws IOException, XmlPullParserException {
         SpannableStringBuilder result = new SpannableStringBuilder("");
-        //int next = parser.next();
-        /*if (next == XmlPullParser.TEXT) {
-            result = parser.getText();
-            parser.nextTag();
-        }*/
         while (parser.next() != XmlPullParser.END_TAG) {
             switch(parser.getEventType()) {
                 case XmlPullParser.TEXT:
                     result.append(parser.getText());
-                    //parser.nextTag();
-                    //next = parser.getEventType();
                     break;
                 case XmlPullParser.START_TAG:
                     String name = parser.getName();
                     SpannableStringBuilder text = readText(parser);
                     switch(name) {
                         case "b":
-                            text.setSpan(new StyleSpan(Typeface.BOLD), 0, text.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                            text.setSpan(new StyleSpan(Typeface.BOLD),
+                                        0, text.length(),
+                                         Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
                             break;
                         case "i":
-                            text.setSpan(new StyleSpan(Typeface.ITALIC), 0, text.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                            text.setSpan(new StyleSpan(Typeface.ITALIC),
+                                        0, text.length(),
+                                         Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
                             break;
                         case "bi":
-                            text.setSpan(new StyleSpan(Typeface.BOLD_ITALIC), 0, text.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                            text.setSpan(new StyleSpan(Typeface.BOLD_ITALIC),
+                                        0, text.length(),
+                                        Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
                             break;
                         default:
                             break;
                     }
                     result.append(text);
-                    //next = parser.next();
                     break;
                 default:
-                    //next = parser.next();
+                    skip(parser);
                     break;
             }
         }

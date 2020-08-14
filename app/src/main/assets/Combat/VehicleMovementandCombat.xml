@@ -6,17 +6,17 @@
 <text>Vehicle Movement and Combat  For simply traveling from point to point, the vehicle used is largely a matter of personal style and finances. Skill checks are only required in extraordinary circumstances. These rules are primarily focused on ground vehicles: cars, trucks, and light military vehicles. The rules can be modified for heavier armored vehicles, and aircraft.</text>
 </box>
 		<text>   A character in a vehicle fills one of several possible roles,</text>
-		<text>   Driver The driver of the vehicle controls its movement. Mostdriven, so the person seated there is the driver. Driving a vehicle costs a minimum of 6 Combat Points, which means that the driver may be able to do something else with their Combat Points. There can be only one driver in a vehicle at one time.</text>
-		<text>   Copilot A copilot can help the driver by taking an aid anothersee the road and advise the driver (in a car, this generally means the front passenger seat). Aiding the driver costs 6 Combat Points. A vehicle can have only one copilot at a time. A copilot can also drive the vehicle if the driver cannot or chooses not to, provided there is a second set of controls at the copilot&#x27;s seat (usually true in aircraft, but not ground vehicles).</text>
-		<text>   Gunner Some vehicles have built-in weapons. If such a weapon ischaracter can man that position and become the gunner. A vehicle can have as many gunners as it has gunner positions.</text>
-		<text>   Passenger All other personnel aboard the vehicle are consideredoperation, but may be able to fire weapons from the vehicle or take other actions.</text>
+		<text>   Driver The driver of the vehicle controls its movement. Most driven, so the person seated there is the driver. Driving a vehicle costs a minimum of 6 Combat Points, which means that the driver may be able to do something else with their Combat Points. There can be only one driver in a vehicle at one time.</text>
+		<text>   Copilot A copilot can help the driver by taking an aid another see the road and advise the driver (in a car, this generally means the front passenger seat). Aiding the driver costs 6 Combat Points. A vehicle can have only one copilot at a time. A copilot can also drive the vehicle if the driver cannot or chooses not to, provided there is a second set of controls at the copilot&#x27;s seat (usually true in aircraft, but not ground vehicles).</text>
+		<text>   Gunner Some vehicles have built-in weapons. If such a weapon is character can man that position and become the gunner. A vehicle can have as many gunners as it has gunner positions.</text>
+		<text>   Passenger All other personnel aboard the vehicle are considered operation, but may be able to fire weapons from the vehicle or take other actions.</text>
 		<header level = "1">Scale</header>
-		<text>   These rules use two scales. If the encounter involves bothscene involves only vehicles and they&#x27;re likely to move at much higher speeds than characters or creatures on foot, use vehicle scale.</text>
-		<text>   Character scale is identical to the standard scale: It&#x27;s carriedscale, most vehicles are large enough to occupy multiple squares on the map grid. How many squares a vehicle occupies is specified in the vehicle&#x27;s description.</text>
-		<text>   When moving a vehicle, count the squares from the vehicle&#x27;sthe direction which it is turning. When firing weapons, count squares from the location of the weapon. In character scale, more than one ground vehicle cannot occupy the same square.</text>
-		<text>   In Vehicle scale, grids are not used. Instead the GM willthe character&#x27;s location. It is important to use numerical feet values for anything the characters will target, and reference how long it will take the characters to reach a particular obstacle, based on their speed.</text>
+		<text>   These rules use two scales. If the encounter involves both scene involves only vehicles and they&#x27;re likely to move at much higher speeds than characters or creatures on foot, use vehicle scale.</text>
+		<text>   Character scale is identical to the standard scale: It&#x27;s carried scale, most vehicles are large enough to occupy multiple squares on the map grid. How many squares a vehicle occupies is specified in the vehicle&#x27;s description.</text>
+		<text>   When moving a vehicle, count the squares from the vehicle&#x27;s the direction which it is turning. When firing weapons, count squares from the location of the weapon. In character scale, more than one ground vehicle cannot occupy the same square.</text>
+		<text>   In Vehicle scale, grids are not used. Instead the GM will the character&#x27;s location. It is important to use numerical feet values for anything the characters will target, and reference how long it will take the characters to reach a particular obstacle, based on their speed.</text>
 		<header level = "1">Vehicle Sizes</header>
-		<text>   Vehicles use the same size categories as characters andmodifier applies to its Initiative modifier, maneuver modifier, and Defense. The size modifier is already included in the vehicle statistics.</text>
+		<text>   Vehicles use the same size categories as characters and modifier applies to its Initiative modifier, maneuver modifier, and Defense. The size modifier is already included in the vehicle statistics.</text>
 <table>
 <tr><header textAlign="center">Vehicle Size</header><header textAlign="center">Size Mod.</header><header textAlign="center">Examples</header></tr>
 <tr>
@@ -31,14 +31,14 @@
 <text textAlign="center">Medium</text><text textAlign="center">+0</text><text textAlign="center">Motorcycles, Toy cars, and Mini cars</text></tr>
 </table>
 		<header level = "1">Facing and Firing Arcs</header>
-		<text>   When dealing with vehicles, the vehicle&#x27;s facing (the directionwhich the vehicle is traveling, assuming it isn&#x27;t moving in reverse. It can also determine which weapons aboard the vehicle can be brought to bear on a target.</text>
-		<text>   A weapon built into a vehicle can be mounted to fire in one ofinto a partial or full turret. A partial turret lets a weapon fire into three adjacent fire arcs (such as forward, left, and right), while a full turret lets it fire in any direction. For vehicles with weapons, a weapon&#x27;s arc of fire is given in the vehicle&#x27;s description.</text>
+		<text>   When dealing with vehicles, the vehicle&#x27;s facing (the direction which the vehicle is traveling, assuming it isn&#x27;t moving in reverse. It can also determine which weapons aboard the vehicle can be brought to bear on a target.</text>
+		<text>   A weapon built into a vehicle can be mounted to fire in one of into a partial or full turret. A partial turret lets a weapon fire into three adjacent fire arcs (such as forward, left, and right), while a full turret lets it fire in any direction. For vehicles with weapons, a weapon&#x27;s arc of fire is given in the vehicle&#x27;s description.</text>
 		<header level = "1">Getting Started</header>
-		<text>   Most vehicles can be entered with 4 Combat Points and starteddescription when it applies.</text>
+		<text>   Most vehicles can be entered with 4 Combat Points and started description when it applies.</text>
 		<text>   Vehicle combat differs from Character combat, in that there are</text>
 		<text>   Initiative is determined by rolling Initiative for each vehicle,</text>
 		<header level = "1">Movement Phase</header>
-		<text>   The movement phase is the phase where the vehicles move. Theincreasing or decreasing the speed category, and performing maneuvers. Initiative order goes as normal, and once every vehicle in combat has moved, the Attack Phase begins.</text>
+		<text>   The movement phase is the phase where the vehicles move. The increasing or decreasing the speed category, and performing maneuvers. Initiative order goes as normal, and once every vehicle in combat has moved, the Attack Phase begins.</text>
 		<header level = "1">Attack Phase</header>
 		<text>   The attack phase is the phase that allows both the vehicle andPoints as they possess attacking or shifting within the vehicle.</text>
 		<header level = "1">Vehicle Speed</header>
@@ -63,7 +63,7 @@
 <text textAlign="center">All Out</text><text textAlign="center">35&#x27;</text><text textAlign="center">+7</text><text textAlign="center">−8</text></tr>
 </table>
 		<text>   Declaring Speed</text>
-		<text>   At the beginning of their action, a driver must declare theircategory faster or slower than the vehicle&#x27;s speed category at the end of the previous round. A stationary vehicle can change to observing speed in either forward or reverse. Most vehicles cannot go faster than alley speed in reverse. Not all vehicles can reach all speeds, and some vehicles can skip speeds with upgrades.</text>
+		<text>   At the beginning of their action, a driver must declare their category faster or slower than the vehicle&#x27;s speed category at the end of the previous round. A stationary vehicle can change to observing speed in either forward or reverse. Most vehicles cannot go faster than alley speed in reverse. Not all vehicles can reach all speeds, and some vehicles can skip speeds with upgrades.</text>
 <list type="unordered">
 <text>Stationary The vehicle is motionless.</text>
 <text>Observing Speed The vehicle is rolling at a very slow speed, usually used to survey areas. It tops out at about 15 miles per hour.</text>
@@ -76,28 +76,28 @@
 </list>
 		<text>   A fast-moving vehicle is harder to hit than a stationary one butVehicle Speeds and Modifiers, when a vehicle travels at street speed or faster, it gains a bonus to Defense. However, that speed brings along with it a penalty on all skill checks and attack rolls made by characters aboard the vehicle, including Drive checks to control the vehicle and attacks made from it.</text>
 		<header level = "1">Driving a Vehicle</header>
-		<text>   Driving a vehicle cost 6 Combat Points, taken by the vehicle&#x27;sdistance within its speed category. The driver can attempt maneuvers to change the vehicle&#x27;s course or speed. These maneuvers can be attempted at any point along the vehicle&#x27;s route.</text>
+		<text>   Driving a vehicle cost 6 Combat Points, taken by the vehicle&#x27;s distance within its speed category. The driver can attempt maneuvers to change the vehicle&#x27;s course or speed. These maneuvers can be attempted at any point along the vehicle&#x27;s route.</text>
 		<text>   The two kinds of vehicle movement are simple maneuvers and</text>
 		<text>   Simple Maneuvers</text>
 		<text>   A simple maneuver, such as a 45-degree turn, is easy to perform.while they move the vehicle for no Combat Point cost. However, simple maneuvers do cost movement, so a vehicle that makes a lot of simple maneuvers will not get as far as one going in a straight line. Simple maneuvers do not require the driver to make skill checks.</text>
 		<text>   Stunts</text>
-		<text>   Stunts are difficult and sometimes daring maneuvers that enableradically than a simple maneuver allows. A stunt costs 6 Combat Points. Stunts always require Drive checks.</text>
+		<text>   Stunts are difficult and sometimes daring maneuvers that enable radically than a simple maneuver allows. A stunt costs 6 Combat Points. Stunts always require Drive checks.</text>
 		<header level = "1">Simple Maneuvers</header>
 		<text>   During a vehicle&#x27;s movement, the driver can perform any one of</text>
 		<text>   45° Turn</text>
 		<text>   Any vehicle can make a simple 45° turn as part of its movement.its required turn distance (shown on Table: Vehicle Speeds and Modifiers) before it can turn. After the turn, the vehicle must move at least a number of feet equal to its required turn distance.</text>
 		<text>   Ram</text>
-		<text>   At character scale, a driver does not have to perform a maneuvervehicle into the other vehicle, and a collision occurs (see Collisions and Ramming).</text>
+		<text>   At character scale, a driver does not have to perform a maneuver vehicle into the other vehicle, and a collision occurs (see Collisions and Ramming).</text>
 		<text>   At vehicle scale, however, more than one vehicle can occupy thea simple maneuver. The driver moves their vehicle into the other vehicle and states that they are attempting to ram. Resolve the ram as a collision except that the driver of the target vehicle can make a Reflex Saving Throw [TN15] to reduce the damage to both vehicles by half.</text>
 		<header level = "1">Stunts</header>
-		<text>   Stunts are maneuvers that require a Drive check to performending up someplace other than where the driver intended. When this happens, the vehicle collides with any objects that are in its path. Remember that the check/roll modifier from Table: Vehicle Speeds and Modifiers affects all Drive checks made by the driver and attack rolls made by all occupants of the vehicle.</text>
+		<text>   Stunts are maneuvers that require a Drive check to perfor mending up someplace other than where the driver intended. When this happens, the vehicle collides with any objects that are in its path. Remember that the check/roll modifier from Table: Vehicle Speeds and Modifiers affects all Drive checks made by the driver and attack rolls made by all occupants of the vehicle.</text>
 		<text>   Avoid Hazard</text>
-		<text>   Vehicle combat rarely occurs on a perfectly flat, featurelessa hazard the driver must succeed on a Drive check to avoid the hazard and continue moving.</text>
-		<text>   Structures simply cannot be avoided. Also, if a driver cannotround in performing other stunts) they automatically fail to avoid the hazard. In such cases, a collision occurs.</text>
+		<text>   Vehicle combat rarely occurs on a perfectly flat, featureless a hazard the driver must succeed on a Drive check to avoid the hazard and continue moving.</text>
+		<text>   Structures simply cannot be avoided. Also, if a driver cannot round in performing other stunts) they automatically fail to avoid the hazard. In such cases, a collision occurs.</text>
 		<text>   The TN to avoid a hazard varies with the nature of the hazard.</text>
-		<text>   On a failed check, the vehicle hits the obstacle. An oil slickof the vehicle. Failing to avoid an object results in a collision with the object.</text>
+		<text>   On a failed check, the vehicle hits the obstacle. An oil slick of the vehicle. Failing to avoid an object results in a collision with the object.</text>
 		<text>   Caltrops</text>
-		<text>   Caltrops are four-pronged steel spikes designed so that onevehicle fails its avoid hazard check, the caltrops make an attack against the vehicle with a +2 attack bonus. If the attack is successful, the vehicle&#x27;s tires are destroyed and the driver is forced to make a Drive check [TN19] to retain control. The vehicle&#x27;s max speed is reduced to observing speed until the tires are changed.</text>
+		<text>   Caltrops are four-pronged steel spikes designed so that one vehicle fails its avoid hazard check, the caltrops make an attack against the vehicle with a +2 attack bonus. If the attack is successful, the vehicle&#x27;s tires are destroyed and the driver is forced to make a Drive check [TN19] to retain control. The vehicle&#x27;s max speed is reduced to observing speed until the tires are changed.</text>
 		<text>   Oil Slick</text>
 		<text>   An oil slick is a large pool of oil (or any hydrophobic,are forced to make a Drive check [TN18] to retain control of the vehicle.</text>
 <table>
@@ -116,10 +116,10 @@
 <text textAlign="center">Structure</text><text textAlign="center">—</text></tr>
 </table>
 		<text>   Bootleg Turn</text>
-		<text>   By making a bootleg turn a driver can radically change directioncomes to a stop.</text>
-		<text>   Before a vehicle can make a bootleg turn it must move in aturn distance. To make a bootleg turn, simply change the vehicle&#x27;s facing to the desired direction. The vehicle ends its movement in that location, at stationary speed.</text>
+		<text>   By making a bootleg turn a driver can radically change direction comes to a stop.</text>
+		<text>   Before a vehicle can make a bootleg turn it must move in a turn distance. To make a bootleg turn, simply change the vehicle&#x27;s facing to the desired direction. The vehicle ends its movement in that location, at stationary speed.</text>
 		<text>   The TN for a bootleg turn depends on the change in facing.</text>
-		<text>   On a failed check, instead of facing the desired direction, theretain control against a TN equal to the TN for the bootleg turn attempted.</text>
+		<text>   On a failed check, instead of facing the desired direction, the vehicle only changes facing by 45 degrees. Make a Drive skill check to retain control against a TN equal to the TN for the bootleg turn attempted.</text>
 <table>
 <tr><header textAlign="center">Facing Change</header><header textAlign="center">TN</header></tr>
 <tr>

@@ -65,16 +65,16 @@
 <text textAlign="center">Reload a black powder weapon</text><text textAlign="center">12 per barrel or chamber</text></tr>
 </table>
 		<header level = "1">Movement</header>
-		<text>   The simplest move action is moving. Many nonstandard modes ofand swimming, crawling, and entering a vehicle. For every 10&#x27; beyond the first 30&#x27; a character moves, they gain a +1 to their DEF until their next turn.</text>
+		<text>   The simplest move action is moving. Many nonstandard modes of and swimming, crawling, and entering a vehicle. For every 10&#x27; beyond the first 30&#x27; a character moves, they gain a +1 to their DEF until their next turn.</text>
 		<header level = "1">Manipulating Objects</header>
 		<text>   This move action includes drawing or holstering a weapon,bag, picking up an object, moving a heavy object, and opening a door.</text>
 		<header level = "1">Cycle a weapon</header>
-		<text>   Cycling a weapon is the act of purposely cocking the weaponreadying the next one in the magazine, or letting the cylinder rotate without firing. This is often done for dramatic effect or to ready alternate ammunition in a firearm. Only weapons with a capacity of three or more rounds may be cycled.</text>
+		<text>   Cycling a weapon is the act of purposely cocking the weapon readying the next one in the magazine, or letting the cylinder rotate without firing. This is often done for dramatic effect or to ready alternate ammunition in a firearm. Only weapons with a capacity of three or more rounds may be cycled.</text>
 		<header level = "1">Standing Up</header>
 		<text>   Standing up from a prone position provokes an AoO from opponents</text>
 		<header level = "1">Reload or unload a weapon</header>
-		<text>   The cost to reload or unload a weapon is dependent on how it ismuch faster than reloading a weapon by hand. Reloading includes charging the weapon so that it is ready for use. You need at least one functional hand free to reload or unload a weapon.</text>
+		<text>   The cost to reload or unload a weapon is dependent on how it is much faster than reloading a weapon by hand. Reloading includes charging the weapon so that it is ready for use. You need at least one functional hand free to reload or unload a weapon.</text>
 		<header level = "1">Withdraw</header>
-		<text>   Withdrawing from melee combat is when a character retreats fromwithdraws the Combat Point cost to move is multiplied by 4. The square the character starts from is not considered threatened for purposes of withdrawing and therefore enemies do not get AoO against the character when they move from that square. A character may not withdraw using a form of movement for which that character must make a skill check.</text>
+		<text>   Withdrawing from melee combat is when a character retreats from withdraws the Combat Point cost to move is multiplied by 4. The square the character starts from is not considered threatened for purposes of withdrawing and therefore enemies do not get AoO against the character when they move from that square. A character may not withdraw using a form of movement for which that character must make a skill check.</text>
 	</item>
 </body>

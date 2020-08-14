@@ -5,8 +5,8 @@
 <box>
 <text>Combat Statistics  This section summarizes the fundamental combat statistics.</text>
 </box>
-		<text>   An attack roll represents a character&#x27;s attempts to strike anmakes an attack roll, they roll 3d6 and add their attack bonus. If the result beats the target&#x27;s DEF, the character hits and deals damage. Many modifiers can affect the attack roll.</text>
-		<text>   A natural 3 on the attack roll is always a miss. A natural 18 ispossible critical strike) unless stated otherwise. If the character is not proficient in the weapon they are attacking with, that character takes a −4 penalty on the attack roll.</text>
+		<text>   An attack roll represents a character&#x27;s attempts to strike and make an attack roll, they roll 3d6 and add their attack bonus. If the result beats the target&#x27;s DEF, the character hits and deals damage. Many modifiers can affect the attack roll.</text>
+		<text>   A natural 3 on the attack roll is always a miss. A natural 18 is possible critical strike) unless stated otherwise. If the character is not proficient in the weapon they are attacking with, that character takes a −4 penalty on the attack roll.</text>
 		<header level = "1">Attack Bonus</header>
 		<text>   A character&#x27;s attack bonus with a melee weapon is</text>
 		<text>   BAB + FOC modifier + Size modifier</text>
@@ -16,14 +16,14 @@
 		<text>   Focus in STR helps a character swing a weapon harder and faster,</text>
 		<text>   Marksmanship in DEX measures coordination and steadiness, so aa ranged weapon.</text>
 		<text>   Size Modifier</text>
-		<text>   Creature size categories are defined differently from the sizemodifier applies to Defense against a melee weapon attack or a ranged weapon attack, two creatures of the same size strike each other normally. Creature sizes are compatible with vehicle sizes.</text>
+		<text>   Creature size categories are defined differently from the size modifier applies to Defense against a melee weapon attack or a ranged weapon attack, two creatures of the same size strike each other normally. Creature sizes are compatible with vehicle sizes.</text>
 		<text>   Range Increment and the Range Penalty</text>
-		<text>   The range penalty for a ranged weapon depends on what weapon theweapons and thrown weapons have a range increment. Any attack from a distance of less than one range increment is not penalized for range. However, each full range increment causes a cumulative −2 penalty on the attack roll. When a weapon uses shotgun shells, the range increment affects both its attack roll and its damage roll, providing a cumulative −2 penalty for each. A thrown weapon has a maximum range of five range increments. Ranged weapons that fire projectiles can shoot up to ten increments.</text>
+		<text>   The range penalty for a ranged weapon depends on what weapon the weapons and thrown weapons have a range increment. Any attack from a distance of less than one range increment is not penalized for range. However, each full range increment causes a cumulative −2 penalty on the attack roll. When a weapon uses shotgun shells, the range increment affects both its attack roll and its damage roll, providing a cumulative −2 penalty for each. A thrown weapon has a maximum range of five range increments. Ranged weapons that fire projectiles can shoot up to ten increments.</text>
 		<header level = "1">Damage</header>
-		<text>   When a character hits with a weapon they deal damage accordingapply to unarmed strikes and the natural physical attack forms of creatures. Damage is deducted from the target&#x27;s current HP.</text>
-		<text>   Weapons with multiple damages that appear with a slash providewithout the slash can apply one of the damages, at the discretion of the attacker. The type of damage must be declared before the attack.</text>
+		<text>   When a character hits with a weapon they deal damage according apply to unarmed strikes and the natural physical attack forms of creatures. Damage is deducted from the target&#x27;s current HP.</text>
+		<text>   Weapons with multiple damages that appear with a slash provide without the slash can apply one of the damages, at the discretion of the attacker. The type of damage must be declared before the attack.</text>
 		<text>   Minimum Weapon Damage</text>
-		<text>   If penalties to damage would bring the damage result below 1, areduce the amount of damage taken by the target hit, to zero.</text>
+		<text>   If penalties to damage would bring the damage result below 1, a reduce the amount of damage taken by the target hit, to zero.</text>
 		<text>   Strength Bonus</text>
 		<text>   When a character hits with a melee weapon or thrown weapon, add</text>
 		<text>   When a character deals damage with a weapon in their off hand,</text>
@@ -36,17 +36,17 @@
 </box>
 		<text>   Sometimes damage is multiplied by some factor. In this case,the multiplier.</text>
 		<header level = "1">Critical Strikes</header>
-		<text>   When a character makes an attack roll and receives a naturalcharacter has scored a critical threat.</text>
+		<text>   When a character makes an attack roll and receives a natural character has scored a critical threat.</text>
 		<text>   A critical strike immediately targets a character&#x27;s CHP,has no XHP remaining, then the damage done by the attack is multiplied by 1.5, rounded up. A critical strike is scored when you roll within your critical threat range and are able to successfully hit the character. Some weapons have an expanded critical threat range, making a critical strike more likely. However, even with these weapons, only an 16-18 is an automatic hit unless otherwise noted. Objects (including vehicles) and some types of creatures are immune to critical strikes. A 16-18 is always a successful hit, but does not affect the CHP unless it is a critical strike. All firearms have a critical range of 16-18. Critical strikes ignore any armor that the character is wearing.</text>
 		<header level = "1">Defense (DEF)</header>
-		<text>   A character&#x27;s Defense represents how hard it is for opponents toroll result that an opponent needs to exceed to hit the character. The average unarmored civilian has a DEF of 10. A character&#x27;s DEF is equal to</text>
+		<text>   A character&#x27;s Defense represents how hard it is for opponents to roll result that an opponent needs to exceed to hit the character. The average unarmored civilian has a DEF of 10. A character&#x27;s DEF is equal to</text>
 		<text>   10+AGL+Equipment bonus+Size+Movement+Misc</text>
 		<text>   Agility Modifier(AGL)</text>
-		<text>   If a character&#x27;s agility is high, they are particularly adept atare particularly inept at it. Characters apply their AGL modifier to DEF. Sometimes a character can&#x27;t use their AGL Modifier. If a character can&#x27;t react to a blow, that character can&#x27;t use their AGL bonus to Defense.</text>
+		<text>   If a character&#x27;s agility is high, they are particularly adept at are particularly inept at it. Characters apply their AGL modifier to DEF. Sometimes a character can&#x27;t use their AGL Modifier. If a character can&#x27;t react to a blow, that character can&#x27;t use their AGL bonus to Defense.</text>
 		<text>   Equipment Bonus</text>
-		<text>   Armor provides Damage Reduction to anyone who wears it, but areceives the bonus to DEF. This bonus represents the armor&#x27;s ability to protect the character from blows. Sometimes a character can&#x27;t use their equipment bonus to Defense. If an attack will damage the character just by touching them, that character can&#x27;t add their equipment bonus.</text>
+		<text>   Armor provides Damage Reduction to anyone who wears it, but a receives the bonus to DEF. This bonus represents the armor&#x27;s ability to protect the character from blows. Sometimes a character can&#x27;t use their equipment bonus to Defense. If an attack will damage the character just by touching them, that character can&#x27;t add their equipment bonus.</text>
 		<text>   Size Modifier</text>
-		<text>   The bigger an opponent is, the easier it is to hit in combat.modifier applies to attack rolls a creature doesn&#x27;t have a hard time attacking another creature of the same size.</text>
+		<text>   The bigger an opponent is, the easier it is to hit in combat modifier applies to attack rolls a creature doesn&#x27;t have a hard time attacking another creature of the same size.</text>
 <table>
 <tr><header textAlign="center">Size</header><header textAlign="center">Size Modifier</header></tr>
 <tr>
@@ -80,6 +80,6 @@
 <box>
 <text>Some other DEF bonuses represent actively avoiding blows. These character their AGL modifier also denies their dodge bonuses.</text>
 </box>
-		<text>   Some attacks disregard armor. In these cases, the attacker makestouch attack roll). The attacker makes their attack roll as normal, but a character&#x27;s DEF does not include any equipment or armor bonus. Any other modifiers such as AGL, Size, and Movement apply normally.</text>
+		<text>   Some attacks disregard armor. In these cases, the attacker makes touch attack roll). The attacker makes their attack roll as normal, but a character&#x27;s DEF does not include any equipment or armor bonus. Any other modifiers such as AGL, Size, and Movement apply normally.</text>
 	</item>
 </body>

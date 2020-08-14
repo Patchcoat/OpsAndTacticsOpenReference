@@ -5,20 +5,20 @@
 <box>
 <text>Leveling Characters This is a step by step instructions for increasing a character&#x27;s level. When playing a game that starts at a level higher than level 1, it is highly recommended that you level the character a single level at a time, going through the normal leveling procedures for each level.</text>
 </box>
-		<text>   After setting your ability scores, the next step is to set theselected according to the character&#x27;s specifications, and how the player wishes to play or focus on the character. When playing a character that starts at a level higher than 1, it is best to do the character option points level by level. Each character gains 4 Character Option Points per level. </text>
+		<text>   After setting your ability scores, the next step is to set the selected according to the character&#x27;s specifications, and how the player wishes to play or focus on the character. When playing a character that starts at a level higher than 1, it is best to do the character option points level by level. Each character gains 4 Character Option Points per level. </text>
 		<text>   Base Save Bonus</text>
-		<text>   Base save bonuses are the basic ability for a character to resistof moving and avoiding things, and is influenced by Agility. Fortitude is the measurement of physical resistance, and is influenced by Constitution, and Will is the measurement of mental resistance, and is influenced by Wisdom. A character can purchase no more than two base save bonuses per save type.</text>
+		<text>   Base save bonuses are the basic ability for a character to resist of moving and avoiding things, and is influenced by Agility. Fortitude is the measurement of physical resistance, and is influenced by Constitution, and Will is the measurement of mental resistance, and is influenced by Wisdom. A character can purchase no more than two base save bonuses per save type.</text>
 		<text>   Skill Points</text>
-		<text>   Skill points are how a character is measured in the variousmore skill points you can spend. There is no limit on the amount of purchase a character can spend on these points.</text>
+		<text>   Skill points are how a character is measured in the various more skill points you can spend. There is no limit on the amount of purchase a character can spend on these points.</text>
 		<text>   Extended Hit Points</text>
-		<text>   Extended hit points are a measure of a character&#x27;s ability toconsequences. </text>
+		<text>   Extended hit points are a measure of a character&#x27;s ability to consequences. </text>
 		<header level = "1">Step 3: Skills </header>
-		<text>   After COP points have been spent, a character adds ranks to theircharacter has focused in, and a character can spend skill points on these skills at the rate of 1 skill point per rank. Any skill that is not selected or not apart of the skills that are automatically granted as focused skills are considered non-focused skills, and a character can spend skill points on those skills at the rate of 2 skill points per rank.</text>
+		<text>   After COP points have been spent, a character adds ranks to their character has focused in, and a character can spend skill points on these skills at the rate of 1 skill point per rank. Any skill that is not selected or not apart of the skills that are automatically granted as focused skills are considered non-focused skills, and a character can spend skill points on those skills at the rate of 2 skill points per rank.</text>
 <box>
 <text>The Skill Point formula is: (3 + INT MODIFIER + COP Increase)The Maximum Skill Point ranks for focused skills is: (Level + 4)</text>
 </box>
 		<header level = "1">Step 4: Occupational Upgrades</header>
-		<text>   Occupations represent the current line of work that the characterOccupations govern the starting wealth points, bi-weekly wealth points, and any additional skills or feats that are granted by that occupation.</text>
+		<text>   Occupations represent the current line of work that the character Occupations govern the starting wealth points, bi-weekly wealth points, and any additional skills or feats that are granted by that occupation.</text>
 		<text>   Occupational Skills</text>
 		<text>   Every level, they gain a +1 in the occupational selected skills.</text>
 		<header level = "1">Step 5: Feats</header>
@@ -26,24 +26,24 @@
 		<header level = "1">Step 6: Character Statistics</header>
 		<text>   After feats are selected, a character then fills out the rest of</text>
 		<text>   Mental Limit</text>
-		<text>   Mental limit is a representation of a character&#x27;s mental capacitylimit can be effected by the character&#x27;s race, so be sure to verify that you are using the correct calculation. In games without Magic, Psionics, or Incantations, mental limit should not be calculated.</text>
+		<text>   Mental limit is a representation of a character&#x27;s mental capacity limit can be effected by the character&#x27;s race, so be sure to verify that you are using the correct calculation. In games without Magic, Psionics, or Incantations, mental limit should not be calculated.</text>
 		<text>   The formula for the Mental Limit is:</text>
 		<text>   Base Attack Bonus</text>
-		<text>   Base attack Bonus is the basic fighting ability of the character.makes. Base attack bonus starts at +1 at level 1 and increases every level by +1.</text>
+		<text>   Base attack Bonus is the basic fighting ability of the character makes. Base attack bonus starts at +1 at level 1 and increases every level by +1.</text>
 		<text>   Attack Bonuses</text>
-		<text>   Attack bonuses fall into two categories: Ranged and Melee. Rangedcharacter, their Marksmanship modifier, and any miscellaneous bonuses. Melee attack bonuses are governed by the attack bonus of the character, their Focus modifier, and any miscellaneous bonuses.</text>
+		<text>   Attack bonuses fall into two categories: Ranged and Melee. Ranged character, their Marksmanship modifier, and any miscellaneous bonuses. Melee attack bonuses are governed by the attack bonus of the character, their Focus modifier, and any miscellaneous bonuses.</text>
 <box>
 <text>The Starting Melee Attack formula is: (FOC MODIFIER + BASE ATTACK </text>
 </box>
 		<text>   Saving Throws</text>
-		<text>   Saving Throws are used to avoid or prevent status changes orthe character&#x27;s Constitution modifier, and any miscellaneous modifiers. Reflex is governed by the Reflex Base Save Bonus, the character&#x27;s Agility modifier, and any miscellaneous modifiers. Will is governed by the Will Base Save Bonus, the character&#x27;s Wisdom modifier, and any miscellaneous modifiers.</text>
+		<text>   Saving Throws are used to avoid or prevent status changes or the character&#x27;s Constitution modifier, and any miscellaneous modifiers. Reflex is governed by the Reflex Base Save Bonus, the character&#x27;s Agility modifier, and any miscellaneous modifiers. Will is governed by the Will Base Save Bonus, the character&#x27;s Wisdom modifier, and any miscellaneous modifiers.</text>
 <box>
 <text>The Starting Reflex Saving Throw formula is: (AGI MODIFIER + COP </text>
 </box>
 <box>
 <text>The Starting Will Saving Throw formula is: (WIS MODIFIER + COP </text>
 </box>
-		<text>   XHP are a measure of a character&#x27;s ability to turn a direct hitgoes up with level, giving high-level characters more ability to shrug off attacks. Most types of damage reduce XHP.</text>
+		<text>   XHP are a measure of a character&#x27;s ability to turn a direct hit goes up with level, giving high-level characters more ability to shrug off attacks. Most types of damage reduce XHP.</text>
 <box>
 <text>The XHP formula is: (3 + CON MODIFIER + COP Increase)9.6 Experience Points</text>
 </box>

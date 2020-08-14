@@ -15,16 +15,16 @@
 <text textAlign="center">1 COP</text><text textAlign="center">+1 additional XHP</text></tr>
 </table>
 		<text>   Extended Hit Points (XHP)</text>
-		<text>   Extended Hit Points are a measure of a character&#x27;s ability toserious consequences. XHP goes up with level, giving high-level characters more ability to shrug off attacks. Most types of damage reduce XHP. XHP increases as the character gains levels. </text>
+		<text>   Extended Hit Points are a measure of a character&#x27;s ability to avoid serious consequences. XHP goes up with level, giving high-level characters more ability to shrug off attacks. Most types of damage reduce XHP. XHP increases as the character gains levels. </text>
 <box>
 <text>The Starting XHP formula is: ((3 + CON MODIFIER + COP Increase) X </text>
 </box>
-		<text>   Core Hit Points measure how much serious physical damage aare gone or when a character is struck by a Critical Strike. CHP is equal to CON+2,or uses the Racial Core Hit Point formula for all non-human characters.</text>
+		<text>   Core Hit Points measure how much serious physical damage a are gone or when a character is struck by a Critical Strike. CHP is equal to CON+2,or uses the Racial Core Hit Point formula for all non-human characters.</text>
 <box>
 <text>The CHP formula is: CON SCORE + 2  Combat Points</text>
 </box>
 		<text>   Focused Skills</text>
-		<text>   This section of a character description denotes how many skills athem. A character only chooses these skills at 1[superscript:st]-level. A character gains at least 1 skill point per level, even if the character has an INT modifier penalty. A 1[superscript:st]-level character starts with 5 times the number of skill points they receive upon attaining each level beyond the 1[superscript:st].</text>
+		<text>   This section of a character description denotes how many skills a them. A character only chooses these skills at 1[superscript:st]-level. A character gains at least 1 skill point per level, even if the character has an INT modifier penalty. A 1[superscript:st]-level character starts with 5 times the number of skill points they receive upon attaining each level beyond the 1[superscript:st].</text>
 <box>
 <text>The Starting Skill Point formula is: ((3 + INT Modifier + </text>
 </box>
@@ -33,19 +33,19 @@
 </box>
 		<text>   The character&#x27;s Base Attack Bonus. Base attack Bonuses start at</text>
 		<text>   Base Save Bonus (BSB)</text>
-		<text>   The character&#x27;s Base Save Bonus for Fortitude, Reflex, and Willspends Character Option Points on it.</text>
+		<text>   The character&#x27;s Base Save Bonus for Fortitude, Reflex, and Will spends Character Option Points on it.</text>
 		<text>   Feats</text>
-		<text>   A character may select any feat. Some feats have prerequisitescharacters receive two feats every level. Humans gain an additional feat at the 1[superscript:st] level.</text>
+		<text>   A character may select any feat. Some feats have prerequisites characters receive two feats every level. Humans gain an additional feat at the 1[superscript:st] level.</text>
 		<text>   Carry Capacity</text>
-		<text>   A character&#x27;s carrying capacity depends directly on thepounds a character can carry is: (STR SCORE * 3 lbs)</text>
+		<text>   A character&#x27;s carrying capacity depends directly on the pounds a character can carry is: (STR SCORE * 3 lbs)</text>
 		<text>   Medium Load</text>
 		<text>   A character is medium encumbered when they are carrying overcapacity. A medium encumbered character performs as if their AGL modifier were no higher than +3. In addition, the character takes a −3 encumbrance penalty on attack rolls and checks involving the following skills: Acrobatics, Athletics, and Stealth. This encumbrance penalty stacks with any armor penalty that may also apply. A medium encumbered character spends 2 Combat Points per 5&#x27; to move. </text>
 		<text>   Heavy Load</text>
-		<text>   A character is heavily encumbered when they are carrying overtheir carrying capacity. A heavily encumbered character performs as if their AGL modifier were no higher than +1. In addition, the character takes a −6 encumbrance penalty on attack rolls and checks involving the following skills: Acrobatics, Athletics, and Stealth. This encumbrance penalty stacks with any armor penalty that may also apply. A heavily encumbered character spends 3 Combat Points per 5&#x27; to move. No character can move or perform any other actions while carrying more than their heavy load.</text>
+		<text>   A character is heavily encumbered when they are carrying over their carrying capacity. A heavily encumbered character performs as if their AGL modifier were no higher than +1. In addition, the character takes a −6 encumbrance penalty on attack rolls and checks involving the following skills: Acrobatics, Athletics, and Stealth. This encumbrance penalty stacks with any armor penalty that may also apply. A heavily encumbered character spends 3 Combat Points per 5&#x27; to move. No character can move or perform any other actions while carrying more than their heavy load.</text>
 		<text>   Lifting and Dragging</text>
-		<text>   A character can lift their carrying capacity load over theircapacity off the ground, but they can only stagger around with it. While overloaded in this way, the character loses any AGL bonus to DEF and can only move 5&#x27; per round (for 12 Combat Points). A character can generally push or drag along the ground up to ten times their carrying capacity load. Favorable conditions (smooth ground, dragging a slick object) can double these numbers, and bad circumstances (broken ground, pushing an object that snags) can reduce them.</text>
+		<text>   A character can lift their carrying capacity load over their capacity off the ground, but they can only stagger around with it. While overloaded in this way, the character loses any AGL bonus to DEF and can only move 5&#x27; per round (for 12 Combat Points). A character can generally push or drag along the ground up to ten times their carrying capacity load. Favorable conditions (smooth ground, dragging a slick object) can double these numbers, and bad circumstances (broken ground, pushing an object that snags) can reduce them.</text>
 		<text>   Bigger and Smaller Creatures</text>
-		<text>   The Carry Capacity formula is for Medium bipedal creatures.depending on their size category. Quadrupeds, such as horses can carry heavier loads in general. Multiply the Carry Capacity amounts by the number given on the following table to determine the creature&#x27;s actual carrying capacity, rounded up.</text>
+		<text>   The Carry Capacity formula is for Medium bipedal creatures depending on their size category. Quadrupeds, such as horses can carry heavier loads in general. Multiply the Carry Capacity amounts by the number given on the following table to determine the creature&#x27;s actual carrying capacity, rounded up.</text>
 <table>
 <tr><header textAlign="center">Size</header><header textAlign="center">Bipedal</header><header textAlign="center">Quadruped</header></tr>
 <tr>
@@ -68,19 +68,19 @@
 <text textAlign="center">Colossal</text><text textAlign="center">16</text><text textAlign="center">24</text></tr>
 </table>
 		<text>   Defense</text>
-		<text>   A character&#x27;s Defense represents how hard it is for opponents toroll result that an opponent needs to exceed to hit the character. A character&#x27;s DEF is equal to: 10 + AGL Mod + Equipment bonus + Size Mod + Movement + Misc Mod</text>
+		<text>   A character&#x27;s Defense represents how hard it is for opponents to roll result that an opponent needs to exceed to hit the character. A character&#x27;s DEF is equal to: 10 + AGL Mod + Equipment bonus + Size Mod + Movement + Misc Mod</text>
 		<text>   Agility Modifier</text>
-		<text>   If a character&#x27;s agility is high, they are particularly adept atare particularly inept at it. Characters apply their AGL modifier to defense. Sometimes a character can&#x27;t use their DEX bonus, this is what is what is called being “Flat-Footed”.</text>
+		<text>   If a character&#x27;s agility is high, they are particularly adept at are particularly inept at it. Characters apply their AGL modifier to defense. Sometimes a character can&#x27;t use their DEX bonus, this is what is what is called being “Flat-Footed”.</text>
 		<text>   Equipment Bonus</text>
-		<text>   Armor provides Damage Reduction to anyone who wears it, but areceives the bonus to DEF. This bonus represents the armor&#x27;s ability to protect the character from blows. Sometimes a character can&#x27;t use their equipment bonus to Defense, this is what is called “Touch Defense”. If an attack will damage the character just by touching them, that character can&#x27;t add their equipment bonus.</text>
+		<text>   Armor provides Damage Reduction to anyone who wears it, but a receives the bonus to DEF. This bonus represents the armor&#x27;s ability to protect the character from blows. Sometimes a character can&#x27;t use their equipment bonus to Defense, this is what is called “Touch Defense”. If an attack will damage the character just by touching them, that character can&#x27;t add their equipment bonus.</text>
 		<text>   Size Modifier</text>
-		<text>   The bigger an opponent is, the easier it is to hit in combat.modifier applies to attack rolls a creature doesn&#x27;t have a hard time attacking another creature of the same size.</text>
+		<text>   The bigger an opponent is, the easier it is to hit in combat modifier applies to attack rolls a creature doesn&#x27;t have a hard time attacking another creature of the same size.</text>
 		<text>   Movement Modifier</text>
-		<text>   When a combatant moves during combat, they become harder to hit.gain a +1 bonus to their DEF until their next turn, to a maximum of +15 DEF.</text>
+		<text>   When a combatant moves during combat, they become harder to hit gain a +1 bonus to their DEF until their next turn, to a maximum of +15 DEF.</text>
 		<text>   Miscellaneous Modifiers</text>
-		<text>   Other factors can add to a character&#x27;s DEF, such as Feats, orother DEF bonuses represent actively avoiding blows. These bonuses are called dodge bonuses. Any situation that denies a character their AGL modifier also denies their dodge bonuses.</text>
+		<text>   Other factors can add to a character&#x27;s DEF, such as Feats, or other DEF bonuses represent actively avoiding blows. These bonuses are called dodge bonuses. Any situation that denies a character their AGL modifier also denies their dodge bonuses.</text>
 		<text>   Recoil Reduction</text>
-		<text>   Recoil reduction is the stat that determines how recoil affectsmay have what is called the “Recoil Penalty”, which is governed by the Caliber Recoil Penalty of the caliber that the character is firing. This is negated firstly by the Recoil Reduction Statistic that the character has, then any bonuses, and finally their attack bonus. It is possible for the Recoil Reduction to be negative, adding penalties to recoil.</text>
+		<text>   Recoil reduction is the stat that determines how recoil affects may have what is called the “Recoil Penalty”, which is governed by the Caliber Recoil Penalty of the caliber that the character is firing. This is negated firstly by the Recoil Reduction Statistic that the character has, then any bonuses, and finally their attack bonus. It is possible for the Recoil Reduction to be negative, adding penalties to recoil.</text>
 		<text>   The formula for Recoil Reduction is: STR SCORE - 10</text>
 	</item>
 </body>
