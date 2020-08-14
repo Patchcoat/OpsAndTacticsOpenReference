@@ -19,7 +19,9 @@ import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -138,26 +140,21 @@ public class XMLActivity extends AppCompatActivity {
                 continue;
             }
             String name = parser.getName();
-            switch (name) {// TODO the read functions can go inside addView
+            switch (name) {
                 case "header":
-                    TextView headerView = readHeader(parser);
-                    container.addView(headerView);
+                    container.addView(readHeader(parser));
                     break;
                 case "text":
-                    TextView textView = readTextTag(parser);
-                    container.addView(textView);
+                    container.addView(readTextTag(parser));
                     break;
                 case "box":
-                    LinearLayout boxLayout = readBox(parser);
-                    container.addView(boxLayout);
+                    container.addView(readBox(parser));
                     break;
                 case "table":
-                    TableLayout tableLayout = readTable(parser);
-                    container.addView(tableLayout);
+                    container.addView(readTable(parser));
                     break;
                 case "list":
-                    LinearLayout listLayout = readList(parser);
-                    container.addView(listLayout);
+                    container.addView(readList(parser));
                     break;
                 default:
                     skip(parser);
@@ -305,7 +302,7 @@ public class XMLActivity extends AppCompatActivity {
         return boxOuter;
     }
 
-    private TableLayout readTable(XmlPullParser parser) throws IOException, XmlPullParserException {
+    private HorizontalScrollView readTable(XmlPullParser parser) throws IOException, XmlPullParserException {
         parser.require(XmlPullParser.START_TAG, ns, "table");
         TableLayout tableLayout = new TableLayout(this);
         int count = 0;
@@ -326,7 +323,10 @@ public class XMLActivity extends AppCompatActivity {
                 LinearLayout.LayoutParams.WRAP_CONTENT));
         tableLayout.setStretchAllColumns(true);
 
-        return tableLayout;
+        HorizontalScrollView scrollView = new HorizontalScrollView(this);
+        scrollView.addView(tableLayout);
+
+        return scrollView;
     }
 
     private TableRow readTableRow(XmlPullParser parser, int count) throws IOException, XmlPullParserException {
