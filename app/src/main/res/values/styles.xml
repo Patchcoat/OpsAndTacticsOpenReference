@@ -29,9 +29,6 @@
     </style>
 
     <style name="dark">
-        <item name="colorPrimary"></item>
-        <item name="colorPrimaryDark"></item>
-        <item name="colorAccent"></item>
         <item name="android:textColorPrimary">@color/white</item>
         <item name="android:textColorSecondary">@color/black</item>
         <item name="android:background">@color/black</item>
@@ -41,9 +38,6 @@
     </style>
 
     <style name="low_contrast">
-        <item name="colorPrimary"></item>
-        <item name="colorPrimaryDark"></item>
-        <item name="colorAccent"></item>
         <item name="android:textColorPrimary">@color/lowContrastDark</item>
         <item name="android:textColorSecondary">@color/lowContrastLight</item>
         <item name="android:background">@color/lowContrastLight</item>
@@ -53,9 +47,6 @@
     </style>
 
     <style name="low_contrast_dark">
-        <item name="colorPrimary"></item>
-        <item name="colorPrimaryDark"></item>
-        <item name="colorAccent"></item>
         <item name="android:textColorPrimary">@color/lowContrastDarkLight</item>
         <item name="android:textColorSecondary">@color/lowContrastDarkDark</item>
         <item name="android:background">@color/lowContrastDarkDark</item>
@@ -65,9 +56,6 @@
     </style>
 
     <style name="solarized_light">
-        <item name="colorPrimary"></item>
-        <item name="colorPrimaryDark"></item>
-        <item name="colorAccent"></item>
         <item name="android:textColorPrimary">@color/solarizedBase01</item>
         <item name="android:textColorSecondary">@color/solarizedBase03</item>
         <item name="android:background">@color/solarizedBase3</item>
@@ -77,9 +65,6 @@
     </style>
 
     <style name="solarized_dark">
-        <item name="colorPrimary"></item>
-        <item name="colorPrimaryDark"></item>
-        <item name="colorAccent"></item>
         <item name="android:textColorPrimary">@color/solarizedBase1</item>
         <item name="android:textColorSecondary">@color/solarizedBase3</item>
         <item name="android:background">@color/solarizedBase03</item>
@@ -89,9 +74,6 @@
     </style>
 
     <style name="terminal">
-        <item name="colorPrimary"></item>
-        <item name="colorPrimaryDark"></item>
-        <item name="colorAccent"></item>
         <item name="android:textColorPrimary">@color/terminalGreen</item>
         <item name="android:textColorSecondary">@color/terminalBlack</item>
         <item name="android:background">@color/terminalBlack</item>
