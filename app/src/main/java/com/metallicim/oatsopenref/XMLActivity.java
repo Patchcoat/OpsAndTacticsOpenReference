@@ -1,4 +1,4 @@
-package com.example.oatsopenref;
+package com.metallicim.oatsopenref;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -12,7 +12,6 @@ import android.os.Bundle;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.StyleSpan;
-import android.text.style.TextAppearanceSpan;
 import android.util.Log;
 import android.util.Xml;
 import android.view.Gravity;
@@ -21,7 +20,6 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
-import android.widget.ScrollView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -29,14 +27,11 @@ import android.widget.TextView;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
 
 public class XMLActivity extends AppCompatActivity {
-    public static final String EXTRA_MESSAGE = "com.example.oatsopenref.MESSAGE";
+    public static final String EXTRA_MESSAGE = "com.metallicim.oatsopenref.MESSAGE";
 
     String pageLink;
     private static final String ns = null;

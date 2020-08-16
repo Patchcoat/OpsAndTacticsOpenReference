@@ -1,10 +1,7 @@
-package com.example.oatsopenref;
+package com.metallicim.oatsopenref;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.ViewGroup;
-
-import org.json.JSONException;
 
 import java.util.ArrayList;
 import java.util.HashMap;

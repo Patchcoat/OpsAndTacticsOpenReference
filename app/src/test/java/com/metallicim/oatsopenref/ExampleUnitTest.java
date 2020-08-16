@@ -1,4 +1,4 @@
-package com.example.oatsopenref;
+package com.metallicim.oatsopenref;
 
 import org.junit.Test;
 

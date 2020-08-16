@@ -1,4 +1,4 @@
-package com.example.oatsopenref;
+package com.metallicim.oatsopenref;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -12,7 +12,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -21,12 +20,11 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String EXTRA_MESSAGE = "com.example.oatsopenref.MESSAGE";
+    public static final String EXTRA_MESSAGE = "com.metallicim.oatsopenref.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

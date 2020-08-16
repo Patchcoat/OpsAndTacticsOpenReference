@@ -1,15 +1,14 @@
-package com.example.oatsopenref;
+package com.metallicim.oatsopenref;
 
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
 
 public class Category {
     private String mName;
     private String mLink;
     private PageType mType;
     private Context mContext;
-    public static final String EXTRA_MESSAGE = "com.example.oatsopenref.MESSAGE";
+    public static final String EXTRA_MESSAGE = "com.metallicim.oatsopenref.MESSAGE";
 
     public Category(Context parentContext, String name, String link, String type) {
         mContext = parentContext;

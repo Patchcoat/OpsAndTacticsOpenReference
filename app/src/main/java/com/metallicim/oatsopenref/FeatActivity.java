@@ -1,4 +1,4 @@
-package com.example.oatsopenref;
+package com.metallicim.oatsopenref;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.os.Process;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.StyleSpan;
@@ -30,7 +29,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FeatActivity extends AppCompatActivity {
-    public static final String EXTRA_MESSAGE = "com.example.oatsopenref.MESSAGE";
+    public static final String EXTRA_MESSAGE = "com.metallicim.oatsopenref.MESSAGE";
 
     String pageLink;
     LinearLayout container;
@@ -243,7 +242,7 @@ public class FeatActivity extends AppCompatActivity {
             for (int j = 0; j < prerequisiteJSONArray.length(); j++)
                 prerequisiteList.add((String) prerequisiteJSONArray.get(j));
             String benefit = obj.getString("benefit");
-            String example = obj.getString("example");
+            String example = obj.getString("metallicim");
             String normal = obj.getString("normal");
             String special = obj.getString("special");
             JSONObject tutoringJSONObject = obj.getJSONObject("tutoring");
