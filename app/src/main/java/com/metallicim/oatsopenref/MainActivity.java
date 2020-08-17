@@ -80,6 +80,27 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        Intent intent;
+        switch(item.getItemId()) {
+            case R.id.action_about:
+                Log.d("OaTS", "About");
+                intent = new Intent(this, XMLActivity.class);
+                String message = "About.xml";
+                intent.putExtra(EXTRA_MESSAGE, message);
+                startActivity(intent);
+                return true;
+            case R.id.action_settings:
+                Log.d("OaTS", "About");
+                intent = new Intent(this, SettingsActivity.class);
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
     public JSONArray loadJSONFromAsset(Context context) throws JSONException, IOException {
         String json;
         InputStream is = context.getAssets().open("Contents.json");
@@ -95,20 +116,5 @@ public class MainActivity extends AppCompatActivity {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
         return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch(item.getItemId()) {
-            case R.id.action_about:
-                Log.d("OaTS", "About");
-                Intent intent = new Intent(this, XMLActivity.class);
-                String message = "About.xml";
-                intent.putExtra(EXTRA_MESSAGE, message);
-                startActivity(intent);
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
     }
 }

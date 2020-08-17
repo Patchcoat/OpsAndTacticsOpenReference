@@ -92,15 +92,21 @@ public class XMLActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Intent intent;
         switch(item.getItemId()) {
             case android.R.id.home:
                 finish();
                 return super.onOptionsItemSelected(item);
             case R.id.action_about:
                 Log.d("OaTS", "About");
-                Intent intent = new Intent(this, XMLActivity.class);
+                intent = new Intent(this, XMLActivity.class);
                 String message = "About.xml";
                 intent.putExtra(EXTRA_MESSAGE, message);
+                startActivity(intent);
+                return true;
+            case R.id.action_settings:
+                Log.d("OaTS", "About");
+                intent = new Intent(this, SettingsActivity.class);
                 startActivity(intent);
                 return true;
             default:

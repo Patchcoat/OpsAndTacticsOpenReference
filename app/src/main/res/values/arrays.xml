@@ -1,0 +1,22 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="style_color_entries">
+        <item>Standard</item>
+        <item>Dark</item>
+        <item>Low Contrast</item>
+        <item>Low Contrast Dark</item>
+        <item>Solarized Light</item>
+        <item>Solarized Dark</item>
+        <item>Terminal</item>
+    </string-array>
+
+    <string-array name="style_color_values">
+        <item>standard</item>
+        <item>dark</item>
+        <item>low_contrast</item>
+        <item>low_contrast_dark</item>
+        <item>solarized_light</item>
+        <item>solarized_dark</item>
+        <item>terminal</item>
+    </string-array>
+</resources>
