@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -25,6 +26,12 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "com.metallicim.oatsopenref.MESSAGE";
+
+    int textSize = 40;
+    int textColor = 0xffffffff;
+    int backgroundColor = 0xff000000;
+    int menuBackgroundColor = 0xff000000;
+    int menuTextColor = 0xffffffff;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

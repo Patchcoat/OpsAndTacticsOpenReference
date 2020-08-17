@@ -37,7 +37,9 @@ public class FeatActivity extends AppCompatActivity {
     JSONArray feats;
     int headerTextSize = 40;
 
+    int textColor = 0xff000000;
     int boxBorder = 0xff000000;
+    int boxHeaderTextColor = 0xffffffff;
     int altBackground = 0xffffffff;
     int boxBackground = 0xff000000;
 
@@ -210,7 +212,7 @@ public class FeatActivity extends AppCompatActivity {
         boxHeader.setPadding(15, 0, 15, 5);
         boxHeader.setText("Tutoring");
         boxHeader.setBackgroundColor(boxBackground);
-        boxHeader.setTextColor(0xffffffff);
+        boxHeader.setTextColor(boxHeaderTextColor);
         boxHeader.setTypeface(null, Typeface.BOLD);
         boxOuter.addView(boxHeader);
 
@@ -224,7 +226,7 @@ public class FeatActivity extends AppCompatActivity {
         boxInner.setPadding(15, 5, 15, 5);
         boxInner.setLayoutParams(boxInnerParams);
         boxInner.setOrientation(LinearLayout.VERTICAL);
-        boxInner.setBackgroundColor(0xffffffff);
+        boxInner.setBackgroundColor(boxHeaderTextColor);
 
         return boxInner;
     }
@@ -242,7 +244,7 @@ public class FeatActivity extends AppCompatActivity {
             for (int j = 0; j < prerequisiteJSONArray.length(); j++)
                 prerequisiteList.add((String) prerequisiteJSONArray.get(j));
             String benefit = obj.getString("benefit");
-            String example = obj.getString("metallicim");
+            String example = obj.getString("example");
             String normal = obj.getString("normal");
             String special = obj.getString("special");
             JSONObject tutoringJSONObject = obj.getJSONObject("tutoring");

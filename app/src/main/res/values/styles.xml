@@ -5,21 +5,18 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorSecondary">@color/white</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="actionMenuTextColor">@color/white</item>
-        <item name="titleTextColor">@color/white</item>
-        <item name="android:textColorSecondary">@color/white</item>
-    </style>
-
-    <style name="standard" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme.Standard" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
         <item name="android:textColorPrimary">@color/black</item>
         <item name="android:textColorSecondary">@color/white</item>
         <item name="android:background">@color/white</item>
@@ -28,7 +25,12 @@
         <item name="android:keyTextColor">@color/standardBoxBorder</item>
     </style>
 
-    <style name="dark">
+    <style name="AppTheme.Dark">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDarkVariant</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
         <item name="android:textColorPrimary">@color/white</item>
         <item name="android:textColorSecondary">@color/black</item>
         <item name="android:background">@color/black</item>
@@ -37,7 +39,7 @@
         <item name="android:keyTextColor">@color/darkBoxBorder</item>
     </style>
 
-    <style name="low_contrast">
+    <style name="AppTheme.Low_contrast">
         <item name="android:textColorPrimary">@color/lowContrastDark</item>
         <item name="android:textColorSecondary">@color/lowContrastLight</item>
         <item name="android:background">@color/lowContrastLight</item>
@@ -46,7 +48,7 @@
         <item name="android:keyTextColor">@color/lowContrastBoxBorder</item>
     </style>
 
-    <style name="low_contrast_dark">
+    <style name="AppTheme.Low_contrast_dark">
         <item name="android:textColorPrimary">@color/lowContrastDarkLight</item>
         <item name="android:textColorSecondary">@color/lowContrastDarkDark</item>
         <item name="android:background">@color/lowContrastDarkDark</item>
@@ -55,7 +57,7 @@
         <item name="android:keyTextColor">@color/lowContrastDarkBoxBorder</item>
     </style>
 
-    <style name="solarized_light">
+    <style name="AppTheme.Solarized_light">
         <item name="android:textColorPrimary">@color/solarizedBase01</item>
         <item name="android:textColorSecondary">@color/solarizedBase03</item>
         <item name="android:background">@color/solarizedBase3</item>
@@ -64,7 +66,7 @@
         <item name="android:keyTextColor">@color/solarizedRed</item>
     </style>
 
-    <style name="solarized_dark">
+    <style name="AppTheme.Solarized_dark">
         <item name="android:textColorPrimary">@color/solarizedBase1</item>
         <item name="android:textColorSecondary">@color/solarizedBase3</item>
         <item name="android:background">@color/solarizedBase03</item>
@@ -73,7 +75,7 @@
         <item name="android:keyTextColor">@color/solarizedCyan</item>
     </style>
 
-    <style name="terminal">
+    <style name="AppTheme.Terminal">
         <item name="android:textColorPrimary">@color/terminalGreen</item>
         <item name="android:textColorSecondary">@color/terminalBlack</item>
         <item name="android:background">@color/terminalBlack</item>
