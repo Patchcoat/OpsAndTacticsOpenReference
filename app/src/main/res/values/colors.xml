@@ -6,6 +6,7 @@
     <color name="colorAccent">#C5C5C5</color>
     <color name="colorPrimaryVariant">#949B96</color>
     <color name="colorPrimaryDarkVariant">#2C423F</color>
+    <color name="transparent">#00000000</color>
     <!-- Base Colors -->
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
