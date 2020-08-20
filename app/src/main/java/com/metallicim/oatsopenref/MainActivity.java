@@ -7,7 +7,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -35,12 +34,13 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        super.setTheme(R.style.AppTheme_Dark);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         // setup toolbar
-        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(myToolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         // load contents
         JSONArray contents = new JSONArray();
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        ContentsAdapter mAdapter = new ContentsAdapter(getApplicationContext(), contentsList);
+        ContentsAdapter mAdapter = new ContentsAdapter(getApplicationContext(), contentsList, getTheme());
         recyclerView.setAdapter(mAdapter);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);

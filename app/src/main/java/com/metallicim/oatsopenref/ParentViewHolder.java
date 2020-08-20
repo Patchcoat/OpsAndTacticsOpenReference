@@ -1,5 +1,6 @@
 package com.metallicim.oatsopenref;
 
+import android.content.res.Resources;
 import android.view.View;
 
 import androidx.recyclerview.widget.RecyclerView;

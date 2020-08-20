@@ -2,12 +2,14 @@ package com.metallicim.oatsopenref;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 
 public class Category {
     private String mName;
     private String mLink;
     private PageType mType;
     private Context mContext;
+    private Resources.Theme mTheme;
     public static final String EXTRA_MESSAGE = "com.metallicim.oatsopenref.MESSAGE";
 
     public Category(Context parentContext, String name, String link, String type) {
@@ -29,6 +31,13 @@ public class Category {
 
     public String getName() {
         return mName;
+    }
+
+    public void setTheme(Resources.Theme theme) {
+        mTheme = theme;
+    }
+    public Resources.Theme getTheme() {
+        return mTheme;
     }
 
     public void gotoSubPage() {

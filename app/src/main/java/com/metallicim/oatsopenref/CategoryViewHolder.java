@@ -1,6 +1,8 @@
 package com.metallicim.oatsopenref;
 
+import android.content.res.Resources;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.View;
 import android.widget.TextView;
 
@@ -16,6 +18,10 @@ public class CategoryViewHolder extends ChildViewHolder {
     public void bind(Category categories) {
         mCategory = categories;
         mCategoryTextView.setText(categories.getName());
+        Resources.Theme theme = categories.getTheme();
+        TypedValue color = new TypedValue();
+        theme.resolveAttribute(android.R.attr.textColor, color, true);
+        mCategoryTextView.setTextColor(color.data);
     }
 
     @Override

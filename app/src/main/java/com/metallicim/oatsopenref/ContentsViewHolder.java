@@ -1,5 +1,7 @@
 package com.metallicim.oatsopenref;
 
+import android.content.res.Resources;
+import android.util.TypedValue;
 import android.view.View;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
@@ -20,6 +22,10 @@ public class ContentsViewHolder extends ParentViewHolder {
 
     public void bind(Contents contents) {
         mCategoryTextView.setText(contents.getName());
+        Resources.Theme theme = contents.getTheme();
+        TypedValue color = new TypedValue();
+        theme.resolveAttribute(android.R.attr.textColor, color, true);
+        mCategoryTextView.setTextColor(color.data);
     }
 
     @Override

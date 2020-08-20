@@ -2,11 +2,7 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColor">@color/black</item>
-        <item name="android:textColorSecondary">@color/white</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
@@ -15,25 +11,27 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="background">@color/white</item>
         <item name="actionMenuTextColor">@color/white</item>
         <item name="titleTextColor">@color/white</item>
+        <item name="android:textColor">@color/black</item>
         <item name="android:textColorPrimary">@color/black</item>
         <item name="android:textColorSecondary">@color/white</item>
-        <item name="android:background">@color/white</item>
         <item name="android:shadowColor">@color/standardAltBackground</item>
         <item name="android:color">@color/black</item>
         <item name="android:keyTextColor">@color/standardBoxBorder</item>
     </style>
 
-    <style name="AppTheme.Dark">
-        <item name="colorPrimary">@color/colorPrimaryDark</item>
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorPrimaryDarkVariant</item>
+        <item name="background">@color/black</item>
         <item name="actionMenuTextColor">@color/white</item>
         <item name="titleTextColor">@color/white</item>
+        <item name="android:textColor">@color/white</item>
         <item name="android:textColorPrimary">@color/white</item>
-        <item name="android:textColorSecondary">@color/black</item>
-        <item name="android:background">@color/black</item>
+        <item name="android:textColorSecondary">@color/white</item>
         <item name="android:shadowColor">@color/darkAltBackground</item>
         <item name="android:color">@color/white</item>
         <item name="android:keyTextColor">@color/darkBoxBorder</item>
@@ -42,7 +40,6 @@
     <style name="AppTheme.Low_contrast">
         <item name="android:textColorPrimary">@color/lowContrastDark</item>
         <item name="android:textColorSecondary">@color/lowContrastLight</item>
-        <item name="android:background">@color/lowContrastLight</item>
         <item name="android:shadowColor">@color/lowContrastAltBackground</item>
         <item name="android:color">@color/lowContrastDark</item>
         <item name="android:keyTextColor">@color/lowContrastBoxBorder</item>
@@ -51,7 +48,6 @@
     <style name="AppTheme.Low_contrast_dark">
         <item name="android:textColorPrimary">@color/lowContrastDarkLight</item>
         <item name="android:textColorSecondary">@color/lowContrastDarkDark</item>
-        <item name="android:background">@color/lowContrastDarkDark</item>
         <item name="android:shadowColor">@color/lowContrastDarkAltBackground</item>
         <item name="android:color">@color/lowContrastDarkLight</item>
         <item name="android:keyTextColor">@color/lowContrastDarkBoxBorder</item>
@@ -78,7 +74,6 @@
     <style name="AppTheme.Terminal">
         <item name="android:textColorPrimary">@color/terminalGreen</item>
         <item name="android:textColorSecondary">@color/terminalBlack</item>
-        <item name="android:background">@color/terminalBlack</item>
         <item name="android:shadowColor">@color/terminalBlack</item>
         <item name="android:color">@color/terminalGreen</item>
         <item name="android:keyTextColor">@color/terminalGreen</item>

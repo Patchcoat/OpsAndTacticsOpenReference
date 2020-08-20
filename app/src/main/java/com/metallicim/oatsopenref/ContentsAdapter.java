@@ -1,6 +1,7 @@
 package com.metallicim.oatsopenref;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,10 +10,12 @@ import java.util.List;
 
 public class ContentsAdapter extends ExpandableRecyclerAdapter<ContentsViewHolder, CategoryViewHolder> {
     private LayoutInflater mInflator;
+    private Resources.Theme mTheme;
 
-    public ContentsAdapter(Context context, List<? extends ParentListItem> parentItemList) {
+    public ContentsAdapter(Context context, List<? extends ParentListItem> parentItemList, Resources.Theme theme) {
         super(parentItemList);
         mInflator = LayoutInflater.from(context);
+        mTheme = theme;
     }
 
     @Override
@@ -30,12 +33,14 @@ public class ContentsAdapter extends ExpandableRecyclerAdapter<ContentsViewHolde
     @Override
     public void onBindParentViewHolder(ContentsViewHolder contentsViewHolder, int position, ParentListItem parentListItem) {
         Contents contents = (Contents) parentListItem;
+        contents.setTheme(mTheme);
         contentsViewHolder.bind(contents);
     }
 
     @Override
     public void onBindChildViewHolder(CategoryViewHolder categoryViewHolder, int position, Object childListItem) {
         Category category = (Category) childListItem;
+        category.setTheme(mTheme);
         categoryViewHolder.bind(category);
     }
 }
