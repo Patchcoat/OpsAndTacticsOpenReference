@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -91,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
         String themeColor = sharedPreferences.getString("color", "");
         ParseTheme parseTheme = new ParseTheme();
         int themeID = parseTheme.parseThemeColor(themeColor);
+
         if (mThemeID != themeID) {
             super.setTheme(themeID);
             this.getTheme().applyStyle(themeID, true);

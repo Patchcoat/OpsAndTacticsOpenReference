@@ -1,11 +1,14 @@
 package com.metallicim.oatsopenref;
 
 import android.content.res.Resources;
+import android.os.Build;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.RequiresApi;
 
 public class ContentsViewHolder extends ParentViewHolder {
     private static final float INITIAL_POSITION = 0.0f;
@@ -20,12 +23,16 @@ public class ContentsViewHolder extends ParentViewHolder {
         mArrowExpandImageView = (ImageView) itemView.findViewById(R.id.iv_arrow_expand);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)// this is just for colorButtonNormal
     public void bind(Contents contents) {
         mCategoryTextView.setText(contents.getName());
         Resources.Theme theme = contents.getTheme();
         TypedValue color = new TypedValue();
         theme.resolveAttribute(android.R.attr.textColor, color, true);
         mCategoryTextView.setTextColor(color.data);
+        TypedValue buttonColor = new TypedValue();
+        theme.resolveAttribute(android.R.attr.colorButtonNormal, buttonColor, true);
+        mArrowExpandImageView.setColorFilter(buttonColor.data);
     }
 
     @Override
