@@ -2,11 +2,13 @@ package com.metallicim.oatsopenref;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.preference.PreferenceManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -26,15 +28,16 @@ public class MainActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "com.metallicim.oatsopenref.MESSAGE";
 
-    int textSize = 40;
-    int textColor = 0xffffffff;
-    int backgroundColor = 0xff000000;
-    int menuBackgroundColor = 0xff000000;
-    int menuTextColor = 0xffffffff;
+    int mThemeID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.setTheme(R.style.AppTheme_Dark);
+        SharedPreferences sharedPreferences =
+                PreferenceManager.getDefaultSharedPreferences(this);
+        String themeColor = sharedPreferences.getString("color", "");
+        ParseTheme parseTheme = new ParseTheme();
+        mThemeID = parseTheme.parseThemeColor(themeColor);
+        super.setTheme(mThemeID);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -78,6 +81,21 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(mAdapter);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        SharedPreferences sharedPreferences =
+                PreferenceManager.getDefaultSharedPreferences(this);
+        String themeColor = sharedPreferences.getString("color", "");
+        ParseTheme parseTheme = new ParseTheme();
+        int themeID = parseTheme.parseThemeColor(themeColor);
+        if (mThemeID != themeID) {
+            super.setTheme(themeID);
+            this.getTheme().applyStyle(themeID, true);
+            this.recreate();
+        }
     }
 
     @Override

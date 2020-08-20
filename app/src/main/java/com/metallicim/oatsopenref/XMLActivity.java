@@ -68,7 +68,6 @@ public class XMLActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
 
         // remove everything already in the view
         LinearLayout layout = findViewById(R.id.linear_layout);
