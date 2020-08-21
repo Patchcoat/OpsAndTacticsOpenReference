@@ -22,7 +22,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        android:background="?attr/colorAccent">
+        android:background="?android:attr/centerColor">
         <LinearLayout
             android:id="@+id/linear_layout"
             android:layout_width="match_parent"

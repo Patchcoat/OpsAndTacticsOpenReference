@@ -10,13 +10,14 @@
 
     <style name="AppTheme.Standard" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorAccent">@color/white</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:centerColor">@color/white</item>
         <item name="colorButtonNormal">@color/standardArrow</item>
         <item name="actionMenuTextColor">@color/white</item>
         <item name="titleTextColor">@color/white</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textColorPrimary">@color/black</item>
-        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorSecondary">@color/standardLightGrey</item>
         <item name="android:shadowColor">@color/standardAltBackground</item>
         <item name="android:color">@color/black</item>
         <item name="android:keyTextColor">@color/standardBoxBorder</item>
@@ -25,13 +26,14 @@
 
     <style name="AppTheme.Dark" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/black</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:centerColor">@color/black</item>
         <item name="colorButtonNormal">@color/darkArrow</item>
         <item name="actionMenuTextColor">@color/white</item>
         <item name="titleTextColor">@color/white</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textColorPrimary">@color/white</item>
-        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorSecondary">@color/darkGrey</item>
         <item name="android:shadowColor">@color/darkAltBackground</item>
         <item name="android:color">@color/white</item>
         <item name="android:keyTextColor">@color/darkBoxBorder</item>
@@ -40,13 +42,14 @@
 
     <style name="AppTheme.Low_contrast">
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorAccent">@color/lowContrastLight</item>
+        <item name="colorAccent">@color/lowContrastDark</item>
+        <item name="android:centerColor">@color/lowContrastLight</item>
         <item name="colorButtonNormal">@color/lowContrastArrow</item>
         <item name="actionMenuTextColor">@color/white</item>
         <item name="titleTextColor">@color/white</item>
         <item name="android:textColor">@color/lowContrastDark</item>
         <item name="android:textColorPrimary">@color/lowContrastDark</item>
-        <item name="android:textColorSecondary">@color/lowContrastLight</item>
+        <item name="android:textColorSecondary">@color/lowContrastDark</item>
         <item name="android:shadowColor">@color/lowContrastAltBackground</item>
         <item name="android:color">@color/lowContrastDark</item>
         <item name="android:keyTextColor">@color/lowContrastBoxBorder</item>
@@ -55,13 +58,14 @@
 
     <style name="AppTheme.Low_contrast_dark">
         <item name="colorPrimary">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/lowContrastDarkDark</item>
+        <item name="colorAccent">@color/lowContrastDarkLight</item>
+        <item name="android:centerColor">@color/lowContrastDarkDark</item>
         <item name="colorButtonNormal">@color/lowContrastDarkArrow</item>
         <item name="actionMenuTextColor">@color/white</item>
         <item name="titleTextColor">@color/white</item>
         <item name="android:textColor">@color/lowContrastDarkLight</item>
         <item name="android:textColorPrimary">@color/lowContrastDarkLight</item>
-        <item name="android:textColorSecondary">@color/lowContrastDarkDark</item>
+        <item name="android:textColorSecondary">@color/lowContrastDarkLight</item>
         <item name="android:shadowColor">@color/lowContrastDarkAltBackground</item>
         <item name="android:color">@color/lowContrastDarkLight</item>
         <item name="android:keyTextColor">@color/lowContrastDarkBoxBorder</item>
@@ -70,13 +74,14 @@
 
     <style name="AppTheme.Solarized_light">
         <item name="colorPrimary">@color/solarizedBase2</item>
-        <item name="colorAccent">@color/solarizedBase3</item>
+        <item name="colorAccent">@color/solarizedBase1</item>
+        <item name="android:centerColor">@color/solarizedBase3</item>
         <item name="colorButtonNormal">@color/solarizedBase03</item>
         <item name="actionMenuTextColor">@color/solarizedBase01</item>
         <item name="titleTextColor">@color/solarizedBase01</item>
         <item name="android:textColor">@color/solarizedBase01</item>
         <item name="android:textColorPrimary">@color/solarizedBase01</item>
-        <item name="android:textColorSecondary">@color/solarizedBase03</item>
+        <item name="android:textColorSecondary">@color/solarizedBase00</item>
         <item name="android:shadowColor">@color/solarizedBase2</item>
         <item name="android:color">@color/solarizedOrange</item>
         <item name="android:keyTextColor">@color/solarizedRed</item>
@@ -85,13 +90,14 @@
 
     <style name="AppTheme.Solarized_dark">
         <item name="colorPrimary">@color/solarizedBase02</item>
-        <item name="colorAccent">@color/solarizedBase03</item>
+        <item name="colorAccent">@color/solarizedBase01</item>
+        <item name="android:centerColor">@color/solarizedBase03</item>
         <item name="colorButtonNormal">@color/solarizedBase1</item>
         <item name="actionMenuTextColor">@color/solarizedBase1</item>
         <item name="titleTextColor">@color/solarizedBase1</item>
         <item name="android:textColor">@color/solarizedBase1</item>
         <item name="android:textColorPrimary">@color/solarizedBase1</item>
-        <item name="android:textColorSecondary">@color/solarizedBase1</item>
+        <item name="android:textColorSecondary">@color/solarizedBase01</item>
         <item name="android:shadowColor">@color/solarizedBase02</item>
         <item name="android:color">@color/solarizedBlue</item>
         <item name="android:keyTextColor">@color/solarizedCyan</item>
@@ -100,7 +106,8 @@
 
     <style name="AppTheme.Terminal">
         <item name="colorPrimary">@color/terminalBlack</item>
-        <item name="colorAccent">@color/terminalBlack</item>
+        <item name="colorAccent">@color/terminalGreen</item>
+        <item name="android:centerColor">@color/terminalBlack</item>
         <item name="colorButtonNormal">@color/terminalGreen</item>
         <item name="actionMenuTextColor">@color/terminalGreen</item>
         <item name="titleTextColor">@color/terminalGreen</item>

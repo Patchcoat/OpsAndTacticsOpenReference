@@ -9,8 +9,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -33,12 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        SharedPreferences sharedPreferences =
-                PreferenceManager.getDefaultSharedPreferences(this);
-        String themeColor = sharedPreferences.getString("color", "");
-        ParseTheme parseTheme = new ParseTheme();
-        mThemeID = parseTheme.parseThemeColor(themeColor);
-        super.setTheme(mThemeID);
+        mThemeID = setTheme();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -87,17 +84,23 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onResume() {
         super.onResume();
+        int themeID = setTheme();
+        if (mThemeID != themeID) {
+            this.recreate();
+        }
+    }
+
+    private int setTheme() {
         SharedPreferences sharedPreferences =
                 PreferenceManager.getDefaultSharedPreferences(this);
         String themeColor = sharedPreferences.getString("color", "");
         ParseTheme parseTheme = new ParseTheme();
         int themeID = parseTheme.parseThemeColor(themeColor);
+        super.setTheme(themeID);
+        Resources.Theme theme = getTheme();
 
-        if (mThemeID != themeID) {
-            super.setTheme(themeID);
-            this.getTheme().applyStyle(themeID, true);
-            this.recreate();
-        }
+
+        return themeID;
     }
 
     @Override

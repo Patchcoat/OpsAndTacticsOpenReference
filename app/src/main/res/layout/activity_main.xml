@@ -17,7 +17,7 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
-        android:background="?attr/colorAccent"
+        android:background="?android:attr/centerColor"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:scrollbars="vertical"

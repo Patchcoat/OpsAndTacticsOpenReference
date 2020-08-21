@@ -8,14 +8,14 @@
         android:icon="@drawable/ic_search_24dp"
         android:title="@string/action_search"
         app:showAsAction="ifRoom"
-        app:iconTint="?android:attr/textColorPrimary"/>
+        app:iconTint="?android:attr/textColorSecondary"/>
     <!-- Bookmark -->
     <item
         android:id="@+id/action_bookmark"
         android:icon="@drawable/ic_bookmark_border_24dp"
         android:title="@string/action_bookmark"
         app:showAsAction="ifRoom"
-        app:iconTint="?android:attr/textColorPrimary"/>
+        app:iconTint="?android:attr/textColorSecondary"/>
 
     <!-- Overflow Menu -->
     <!-- Settings -->

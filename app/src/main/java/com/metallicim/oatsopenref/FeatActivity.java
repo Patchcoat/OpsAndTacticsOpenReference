@@ -48,7 +48,6 @@ public class FeatActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         mThemeID = setTheme();
-        super.setTheme(mThemeID);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feat);
 
@@ -95,9 +94,9 @@ public class FeatActivity extends AppCompatActivity {
         ParseTheme parseTheme = new ParseTheme();
         int themeID = parseTheme.parseThemeColor(themeColor);
         super.setTheme(themeID);
+
         Resources.Theme theme = this.getTheme();
         theme.applyStyle(themeID, true);
-
         TypedValue color = new TypedValue();
         theme.resolveAttribute(android.R.attr.color, color, true);
         boxBorder = color.data;
