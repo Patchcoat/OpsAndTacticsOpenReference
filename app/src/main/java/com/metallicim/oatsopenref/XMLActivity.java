@@ -2,17 +2,20 @@ package com.metallicim.oatsopenref;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.preference.PreferenceManager;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.AssetManager;
+import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.StyleSpan;
 import android.util.Log;
+import android.util.TypedValue;
 import android.util.Xml;
 import android.view.Gravity;
 import android.view.Menu;
@@ -37,17 +40,19 @@ public class XMLActivity extends AppCompatActivity {
     private static final String ns = null;
     LinearLayout container;
 
+    int mThemeID;
+
     int headerTextSize = 40;
-    int boxBorder = 0xff000000;
-    int altBackground = 0xffffffff;
-    int boxBackground = 0xff000000;
-    int altText = 0xff000000;
-    int tableAltBackground = 0xffe2e2e2;
-    int tableHeaderBackground = 0xff000000;
-    int tableHeaderText = 0xffffffff;
+    int boxBorder;
+    int boxHeaderTextColor;
+    int boxInnerBackgroundColor;
+    int tableAltBackground;
+    int tableHeaderBackground;
+    int tableHeaderTextColor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        mThemeID = setTheme();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_xml);
 
@@ -80,6 +85,35 @@ public class XMLActivity extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        int themeID = setTheme();
+        if (mThemeID != themeID) {
+            this.recreate();
+        }
+    }
+
+    private int setTheme() {
+        SharedPreferences sharedPreferences =
+                PreferenceManager.getDefaultSharedPreferences(this);
+        String themeColor = sharedPreferences.getString("color", "");
+        ParseTheme parseTheme = new ParseTheme();
+        int themeID = parseTheme.parseThemeColor(themeColor);
+        super.setTheme(themeID);
+
+        Resources.Theme theme = this.getTheme();
+        theme.applyStyle(themeID, true);
+        TypedValue color = new TypedValue();
+        theme.resolveAttribute(android.R.attr.color, color, true);
+        boxBorder = color.data;
+        tableHeaderBackground = color.data;
+        theme.resolveAttribute(android.R.attr.centerColor, color, true);
+        boxHeaderTextColor = color.data;
+        boxInnerBackgroundColor = color.data;
+        tableHeaderTextColor = color.data;
+        theme.resolveAttribute(android.R.attr.shadowColor, color, true);
+        tableAltBackground = color.data;
+
+        return themeID;
     }
 
     @Override
@@ -260,8 +294,8 @@ public class XMLActivity extends AppCompatActivity {
     private LinearLayout readBox(XmlPullParser parser) throws IOException, XmlPullParserException {
         parser.require(XmlPullParser.START_TAG, ns, "box");
         LinearLayout boxOuter = new LinearLayout(this);
-        LinearLayout boxHeader = newBox(this, boxBackground);
-        LinearLayout boxInner = newBox(this, altBackground);
+        LinearLayout boxHeader = newBox(this, boxBorder);
+        LinearLayout boxInner = newBox(this, boxInnerBackgroundColor);
         boxInner.setPadding(15, 5, 15, 5);
         boxOuter.addView(boxHeader);
         boxOuter.addView(boxInner);
@@ -274,7 +308,7 @@ public class XMLActivity extends AppCompatActivity {
                 case "header":
                     boxHeader.setPadding(15, 0, 15, 5);
                     TextView headerView = readHeader(parser);
-                    headerView.setTextColor(0xffffffff);
+                    headerView.setTextColor(boxHeaderTextColor);
                     headerView.setTextSize(14);
                     headerView.setGravity(Gravity.START);
                     boxHeader.addView(headerView);
@@ -350,7 +384,7 @@ public class XMLActivity extends AppCompatActivity {
                     textView = readHeader(parser);
                     textView.setTextSize(14);
                     textView.setBackgroundColor(tableHeaderBackground);
-                    textView.setTextColor(tableHeaderText);
+                    textView.setTextColor(tableHeaderTextColor);
                     break;
                 case "text":
                     textView = readTextTag(parser);

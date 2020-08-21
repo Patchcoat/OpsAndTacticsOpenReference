@@ -97,8 +97,6 @@ public class MainActivity extends AppCompatActivity {
         ParseTheme parseTheme = new ParseTheme();
         int themeID = parseTheme.parseThemeColor(themeColor);
         super.setTheme(themeID);
-        Resources.Theme theme = getTheme();
-
 
         return themeID;
     }

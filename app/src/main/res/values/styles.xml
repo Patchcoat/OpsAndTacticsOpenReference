@@ -50,8 +50,8 @@
         <item name="android:textColor">@color/lowContrastDark</item>
         <item name="android:textColorPrimary">@color/lowContrastDark</item>
         <item name="android:textColorSecondary">@color/lowContrastDark</item>
+        <item name="android:color">@color/lowContrastBoxBorder</item>
         <item name="android:shadowColor">@color/lowContrastAltBackground</item>
-        <item name="android:color">@color/lowContrastDark</item>
         <item name="android:keyTextColor">@color/lowContrastBoxBorder</item>
         <item name="android:itemBackground">@color/lowContrastLight</item>
     </style>

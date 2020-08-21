@@ -17,14 +17,14 @@
     <color name="standardArrowSelected">#829191</color>
     <color name="standardLightGrey">#BBBBBB</color>
     <!-- Dark Theme -->
-    <color name="darkAltBackground">#111111</color>
+    <color name="darkAltBackground">#333333</color>
     <color name="darkBoxBorder">#B5B5B5</color>
     <color name="darkArrow">#B5B5B5</color>
     <color name="darkGrey">#AAAAAA</color>
     <!-- Low Contrast Theme -->
     <color name="lowContrastDark">#444444</color>
     <color name="lowContrastLight">#EEEEEE</color>
-    <color name="lowContrastAltBackground">#DDDDDD</color>
+    <color name="lowContrastAltBackground">#AAAAAA</color>
     <color name="lowContrastBoxBorder">#5B5B5B</color>
     <color name="lowContrastArrow">#444444</color>
     <!-- Low Contrast Dark Theme -->
