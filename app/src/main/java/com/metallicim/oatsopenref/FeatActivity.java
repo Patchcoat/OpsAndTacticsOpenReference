@@ -2,16 +2,19 @@ package com.metallicim.oatsopenref;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.preference.PreferenceManager;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.StyleSpan;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -37,14 +40,15 @@ public class FeatActivity extends AppCompatActivity {
     JSONArray feats;
     int headerTextSize = 40;
 
-    int textColor = 0xff000000;
-    int boxBorder = 0xff000000;
-    int boxHeaderTextColor = 0xffffffff;
-    int altBackground = 0xffffffff;
-    int boxBackground = 0xff000000;
+    int mThemeID;
+    int boxBorder;
+    int boxHeaderTextColor;
+    int boxInnerBackgroundColor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        mThemeID = setTheme();
+        super.setTheme(mThemeID);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feat);
 
@@ -65,7 +69,6 @@ public class FeatActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        SharedPreferences settings = getSharedPreferences("bookmarkCollection", 0);
 
         // remove everything already in the view
         LinearLayout layout = findViewById(R.id.linear_layout);
@@ -78,8 +81,33 @@ public class FeatActivity extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        int themeID = setTheme();
+        if (mThemeID != themeID) {
+            this.recreate();
+        }
     }
 
+    private int setTheme() {
+        SharedPreferences sharedPreferences =
+                PreferenceManager.getDefaultSharedPreferences(this);
+        String themeColor = sharedPreferences.getString("color", "");
+        ParseTheme parseTheme = new ParseTheme();
+        int themeID = parseTheme.parseThemeColor(themeColor);
+        super.setTheme(themeID);
+        Resources.Theme theme = this.getTheme();
+        theme.applyStyle(themeID, true);
+
+        TypedValue color = new TypedValue();
+        theme.resolveAttribute(android.R.attr.color, color, true);
+        boxBorder = color.data;
+        theme.resolveAttribute(android.R.attr.keyTextColor, color, true);
+        boxHeaderTextColor = color.data;
+        theme.resolveAttribute(android.R.attr.shadowColor, color, true);
+        boxInnerBackgroundColor = color.data;
+
+        return themeID;
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -217,7 +245,7 @@ public class FeatActivity extends AppCompatActivity {
         TextView boxHeader = new TextView(this);
         boxHeader.setPadding(15, 0, 15, 5);
         boxHeader.setText("Tutoring");
-        boxHeader.setBackgroundColor(boxBackground);
+        boxHeader.setBackgroundColor(boxBorder);
         boxHeader.setTextColor(boxHeaderTextColor);
         boxHeader.setTypeface(null, Typeface.BOLD);
         boxOuter.addView(boxHeader);
@@ -232,7 +260,7 @@ public class FeatActivity extends AppCompatActivity {
         boxInner.setPadding(15, 5, 15, 5);
         boxInner.setLayoutParams(boxInnerParams);
         boxInner.setOrientation(LinearLayout.VERTICAL);
-        boxInner.setBackgroundColor(boxHeaderTextColor);
+        boxInner.setBackgroundColor(boxInnerBackgroundColor);
 
         return boxInner;
     }

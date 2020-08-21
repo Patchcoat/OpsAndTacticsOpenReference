@@ -109,7 +109,7 @@
         <item name="android:textColorSecondary">@color/terminalGreen</item>
         <item name="android:shadowColor">@color/terminalBlack</item>
         <item name="android:color">@color/terminalGreen</item>
-        <item name="android:keyTextColor">@color/terminalGreen</item>
+        <item name="android:keyTextColor">@color/terminalBlack</item>
         <item name="android:itemBackground">@color/terminalBlack</item>
     </style>
 
