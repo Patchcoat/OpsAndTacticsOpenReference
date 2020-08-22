@@ -79,9 +79,6 @@ public class BookmarkActivity extends AppCompatActivity {
                         bookmarks.getBookmarkCollection(i),
                         bookmarks.getBookmarkName(i),
                         bookmarks.getBookmarkLink(i));
-                Log.d("OaTS Collection", bookmarks.getBookmarkCollection(i));
-                Log.d("OaTS Name", bookmarks.getBookmarkName(i));
-                Log.d("OaTS Link", bookmarks.getBookmarkLink(i));
                 bookmarkList.add(bookmark);
             }
         }

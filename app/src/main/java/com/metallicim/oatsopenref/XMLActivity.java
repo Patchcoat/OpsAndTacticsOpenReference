@@ -10,6 +10,7 @@ import android.content.SharedPreferences;
 import android.content.res.AssetManager;
 import android.content.res.Resources;
 import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
@@ -41,6 +42,7 @@ public class XMLActivity extends AppCompatActivity {
     String pageName;
     private static final String ns = null;
     LinearLayout container;
+    Menu mMenu;
 
     int mThemeID;
     Bookmarks mBookmarks;
@@ -127,6 +129,12 @@ public class XMLActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.content_menu, menu);
+        mMenu = menu;
+        if (mBookmarks.isBookmarked(pageLink)) {
+            mMenu.findItem(R.id.action_bookmark).setIcon(R.drawable.ic_bookmark_24dp);
+        } else {
+            mMenu.findItem(R.id.action_bookmark).setIcon(R.drawable.ic_bookmark_border_24dp);
+        }
         return true;
     }
 
@@ -149,15 +157,18 @@ public class XMLActivity extends AppCompatActivity {
                 startActivity(intent);
                 return true;
             case R.id.action_bookmark:
-                Log.d("OaTS", "Bookmark");
-                Log.d("OaTS Link", pageLink);
                 if (mBookmarks.collectionsLength() > 1) {
                     // ask for collection
                     Log.d("OaTS", "Ask for collection");
                 } else {
                     // add to _all_
-                    Log.d("OaTS", "Add to all");
-                    mBookmarks.addBookmark("_all_", pageName, pageLink);
+                    if (!mBookmarks.isBookmarked(pageLink)) {
+                        mBookmarks.addBookmark(pageName, pageLink);
+                        mMenu.findItem(R.id.action_bookmark).setIcon(R.drawable.ic_bookmark_24dp);
+                    } else {
+                        mBookmarks.removeBookmark("_all_", pageLink);
+                        mMenu.findItem(R.id.action_bookmark).setIcon(R.drawable.ic_bookmark_border_24dp);
+                    }
                 }
                 return true;
             default:

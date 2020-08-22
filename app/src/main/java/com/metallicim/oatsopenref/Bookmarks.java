@@ -36,20 +36,53 @@ public class Bookmarks {
     }
 
     public static class Bookmark {
-        public int mCollectionIndex;
+        public List<Integer> mCollectionIndexs = new ArrayList<Integer>();
         public String mName;
         public String mLink;
 
-        public Bookmark(String collectionLink, String name, String link) {
+        public Bookmark(List<String> collectionLinks, String name, String link) {
             mName = name;
             mLink = link;
-            for (int i = 0; i < mCollections.size(); i++) {
-                if (mCollections.get(i).mLink.equals(collectionLink)) {
-                    mCollectionIndex = i;
-                    return;
+            mCollectionIndexs.add(0);
+            for (int i = 1; i < mCollections.size(); i++) {
+                for (int j = 0; i < collectionLinks.size(); i++) {
+                    if (mCollections.get(i).mLink.equals(collectionLinks.get(j))) {
+                        mCollectionIndexs.add(i);
+                    }
                 }
             }
-            mCollectionIndex = 0;
+        }
+
+        public Bookmark(JSONArray collectionLinks, String name, String link) throws JSONException {
+            mName = name;
+            mLink = link;
+            mCollectionIndexs.add(0);
+            List<String> collectionStrings = new ArrayList<>();
+
+            for (int i = 1; i < collectionLinks.length(); i++) {
+                collectionStrings.add(collectionLinks.getString(i));
+            }
+
+            for (int i = 1; i < mCollections.size(); i++) {
+                for (int j = 0; i < collectionStrings.size(); i++) {
+                    if (mCollections.get(i).mLink.equals(collectionStrings.get(j))) {
+                        mCollectionIndexs.add(i);
+                    }
+                }
+            }
+        }
+
+        public int collectionIndexFromLink(String collectionLink) {
+            for (int i = 0; i < mCollectionIndexs.size(); i++) {
+                if (mCollections.get(mCollectionIndexs.get(i)).mLink.equals(collectionLink)) {
+                    return i;
+                }
+            }
+            return -1;
+        }
+
+        public boolean isInCollection(String collectionLink) {
+            return collectionIndexFromLink(collectionLink) >= 0;
         }
     }
 
@@ -92,7 +125,7 @@ public class Bookmarks {
         for (int i = 0; i < bookmarks.length(); i++) {
             JSONObject jsonBookmark = bookmarks.getJSONObject(i);
             Bookmark bookmark = new Bookmark(
-                    jsonBookmark.getString("collection"),
+                    jsonBookmark.getJSONArray("collection"),
                     jsonBookmark.getString("name"),
                     jsonBookmark.getString("link"));
             mBookmarks.add(bookmark);
@@ -104,7 +137,12 @@ public class Bookmarks {
         JSONArray jsonBookmarkArray = new JSONArray();
         for (int i = 0; i < mBookmarks.size(); i++) {
             JSONObject jsonBookmark = new JSONObject();
-            jsonBookmark.put("collection", mBookmarks.get(i).mCollectionIndex);
+            // TODO collection indexs needs to be an array
+            JSONArray jsonCollections = new JSONArray();
+            for (int j = 0; j < mBookmarks.get(i).mCollectionIndexs.size(); i++) {
+                jsonCollections.put(mBookmarks.get(i).mCollectionIndexs.get(j));
+            }
+            jsonBookmark.put("collection", jsonCollections);
             jsonBookmark.put("name", mBookmarks.get(i).mName);
             jsonBookmark.put("link", mBookmarks.get(i).mLink);
             jsonBookmarkArray.put(jsonBookmark);
@@ -132,9 +170,27 @@ public class Bookmarks {
         return false;
     }
 
-    public void addBookmark(String collection, String name, String link) {
-        Bookmark bookmark = new Bookmark(collection, name, link);
+    public void addBookmark(List<String> collections, String name, String link) {
+        Bookmark bookmark = new Bookmark(collections, name, link);
         mBookmarks.add(bookmark);
+    }
+    public void addBookmark(String name, String link) {
+        Bookmark bookmark = new Bookmark(new ArrayList<String>(), name, link);
+        mBookmarks.add(bookmark);
+    }
+
+    public void removeBookmark(String collection, String link) {
+        int index = findBookmarkIndexByLink(link);
+        if (index != -1) {
+            if (mCollections.size() == 1 || collection.equals("_all_")) {
+                mBookmarks.remove(index);
+            } else {
+                int i = mBookmarks.get(index).collectionIndexFromLink(collection);
+                if (i >= 0) {
+                    mBookmarks.get(index).mCollectionIndexs.remove(i);
+                }
+            }
+        }
     }
 
     public String getCollectionName(int index) {
@@ -144,13 +200,27 @@ public class Bookmarks {
         return mCollections.get(index).mLink;
     }
 
-    public String getBookmarkCollection(int index) {
-        return mCollections.get(mBookmarks.get(index).mCollectionIndex).mLink;
+    public List<String> getBookmarkCollection(int index) {
+        List<String> collectionLinks = new ArrayList<>();
+        for (int i = 0; i < mBookmarks.get(index).mCollectionIndexs.size(); i++) {
+            collectionLinks.add(
+                    mCollections.get(mBookmarks.get(index).mCollectionIndexs.get(i)).mLink);
+        }
+        return collectionLinks;
     }
     public String getBookmarkName(int index) {
         return mBookmarks.get(index).mName;
     }
     public String getBookmarkLink(int index) {
         return mBookmarks.get(index).mLink;
+    }
+
+    public int findBookmarkIndexByLink(String link) {
+        for (int i = 0; i < bookmarksLength(); i++) {
+            if (getBookmarkLink(i).equals(link)) {
+                return i;
+            }
+        }
+        return -1;
     }
 }

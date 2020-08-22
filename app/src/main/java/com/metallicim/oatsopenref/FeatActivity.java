@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
@@ -28,19 +29,25 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.channels.Selector;
 import java.util.ArrayList;
 import java.util.List;
 
 public class FeatActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "com.metallicim.oatsopenref.MESSAGE";
+    public static final String EXTRA_MESSAGE_NAME = "com.metallicim.oatsopenref.MESSAGE_NAME";
 
     String pageLink;
+    String pageName;
     LinearLayout container;
     JSONArray contents;
     JSONArray feats;
     int headerTextSize = 40;
+    Menu mMenu;
 
     int mThemeID;
+    Bookmarks mBookmarks;
+
     int boxBorder;
     int boxHeaderTextColor;
     int boxInnerBackgroundColor;
@@ -54,6 +61,7 @@ public class FeatActivity extends AppCompatActivity {
         // Setup message from start intent
         Intent intent = getIntent();
         pageLink = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        pageName = intent.getStringExtra(MainActivity.EXTRA_MESSAGE_NAME);
 
         // setup toolbar
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -68,6 +76,9 @@ public class FeatActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+
+        // get bookmarks
+        mBookmarks = Bookmarks.getInstance();
 
         // remove everything already in the view
         LinearLayout layout = findViewById(R.id.linear_layout);
@@ -112,6 +123,12 @@ public class FeatActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.content_menu, menu);
+        mMenu = menu;
+        if (mBookmarks.isBookmarked(pageLink)) {
+            mMenu.findItem(R.id.action_bookmark).setIcon(R.drawable.ic_bookmark_24dp);
+        } else {
+            mMenu.findItem(R.id.action_bookmark).setIcon(R.drawable.ic_bookmark_border_24dp);
+        }
         return true;
     }
 
@@ -126,6 +143,7 @@ public class FeatActivity extends AppCompatActivity {
                 intent = new Intent(this, XMLActivity.class);
                 String message = "About.xml";
                 intent.putExtra(EXTRA_MESSAGE, message);
+                intent.putExtra(EXTRA_MESSAGE_NAME, "About");
                 startActivity(intent);
                 return true;
             case R.id.action_settings:
@@ -133,7 +151,19 @@ public class FeatActivity extends AppCompatActivity {
                 startActivity(intent);
                 return true;
             case R.id.action_bookmark:
-                Log.d("OaTS", "Bookmark");
+                if (mBookmarks.collectionsLength() > 1) {
+                    // ask for collection
+                    Log.d("OaTS", "Ask for collection");
+                } else {
+                    // add to _all_
+                    if (!mBookmarks.isBookmarked(pageLink)) {
+                        mBookmarks.addBookmark(pageName, pageLink);
+                        mMenu.findItem(R.id.action_bookmark).setIcon(R.drawable.ic_bookmark_24dp);
+                    } else {
+                        mBookmarks.removeBookmark("_all_", pageLink);
+                        mMenu.findItem(R.id.action_bookmark).setIcon(R.drawable.ic_bookmark_border_24dp);
+                    }
+                }
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
