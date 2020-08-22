@@ -12,6 +12,7 @@ public class Category {
     private Context mContext;
     private Resources.Theme mTheme;
     public static final String EXTRA_MESSAGE = "com.metallicim.oatsopenref.MESSAGE";
+    public static final String EXTRA_MESSAGE_NAME = "com.metallicim.oatsopenref.MESSAGE_NAME";
 
     public Category(Context parentContext, String name, String link, String type) {
         mContext = parentContext;
@@ -65,6 +66,7 @@ public class Category {
                 break;
         }
         intent.putExtra(EXTRA_MESSAGE, mLink);
+        intent.putExtra(EXTRA_MESSAGE_NAME, mName);
         mContext.startActivity(intent);
     }
 }

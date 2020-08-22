@@ -132,6 +132,9 @@ public class FeatActivity extends AppCompatActivity {
                 intent = new Intent(this, SettingsActivity.class);
                 startActivity(intent);
                 return true;
+            case R.id.action_bookmark:
+                Log.d("OaTS", "Bookmark");
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }

@@ -12,6 +12,8 @@ public class BookmarksAdapter extends RecyclerView.Adapter<BookmarksAdapter.Book
 
     List<Bookmarks.Bookmark> mBookmarks;
 
+    // TODO add an OnClick listener
+
     public static class BookmarkViewHolder extends RecyclerView.ViewHolder {
         public TextView textView;
         public BookmarkViewHolder(TextView v) {

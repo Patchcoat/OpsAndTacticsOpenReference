@@ -124,6 +124,14 @@ public class Bookmarks {
         return mCollections.size();
     }
 
+    public boolean isBookmarked(String link) {
+        for (int i = 0; i < bookmarksLength(); i++) {
+            if (mBookmarks.get(i).mLink.equals(link))
+                return true;
+        }
+        return false;
+    }
+
     public void addBookmark(String collection, String name, String link) {
         Bookmark bookmark = new Bookmark(collection, name, link);
         mBookmarks.add(bookmark);

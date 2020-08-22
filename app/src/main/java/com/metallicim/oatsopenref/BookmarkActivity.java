@@ -73,7 +73,7 @@ public class BookmarkActivity extends AppCompatActivity {
         Bookmarks bookmarks = Bookmarks.getInstance();
         List<Bookmarks.Bookmark> bookmarkList = new ArrayList<>();
         for (int i = 0; i < bookmarks.bookmarksLength(); i++) {
-            // add the bookmark if it's category matches the page link, or if the page link includes all bookmarks
+            // add the selector_bookmark if it's category matches the page link, or if the page link includes all bookmarks
             if (bookmarks.getBookmarkCollection(i).equals(pageLink) || pageLink.equals("_all_")) {
                 Bookmarks.Bookmark bookmark = new Bookmarks.Bookmark(
                         bookmarks.getBookmarkCollection(i),

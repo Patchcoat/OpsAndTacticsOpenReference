@@ -30,6 +30,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "com.metallicim.oatsopenref.MESSAGE";
+    public static final String EXTRA_MESSAGE_NAME = "com.metallicim.oatsopenref.MESSAGE_NAME";
 
     int mThemeID;
 
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         JSONArray contents = new JSONArray();
         try {
             contents = loadJSONFromAsset(getApplicationContext());
-            // load bookmark categories into contents
+            // load selector_bookmark categories into contents
             JSONObject jsonBookmarks = (JSONObject) contents.get(0);
             JSONArray jsonBookmarkCollections = jsonBookmarks.getJSONArray("children");
             for (int i = 0; i < bookmarks.collectionsLength(); i++) {

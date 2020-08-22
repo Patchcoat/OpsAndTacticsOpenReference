@@ -12,7 +12,7 @@
     <!-- Bookmark -->
     <item
         android:id="@+id/action_bookmark"
-        android:icon="@drawable/ic_bookmark_border_24dp"
+        android:icon="@drawable/selector_bookmark"
         android:title="@string/action_bookmark"
         app:showAsAction="ifRoom"
         app:iconTint="?android:attr/textColorSecondary"/>

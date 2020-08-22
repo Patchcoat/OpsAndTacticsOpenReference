@@ -35,12 +35,15 @@ import java.io.InputStream;
 
 public class XMLActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "com.metallicim.oatsopenref.MESSAGE";
+    public static final String EXTRA_MESSAGE_NAME = "com.metallicim.oatsopenref.MESSAGE_NAME";
 
     String pageLink;
+    String pageName;
     private static final String ns = null;
     LinearLayout container;
 
     int mThemeID;
+    Bookmarks mBookmarks;
 
     int headerTextSize = 40;
     int boxBorder;
@@ -59,6 +62,7 @@ public class XMLActivity extends AppCompatActivity {
         // Setup message from start intent
         Intent intent = getIntent();
         pageLink = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        pageName = intent.getStringExtra(MainActivity.EXTRA_MESSAGE_NAME);
 
         // setup toolbar
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -73,6 +77,9 @@ public class XMLActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+
+        // get bookmarks
+        mBookmarks = Bookmarks.getInstance();
 
         // remove everything already in the view
         LinearLayout layout = findViewById(R.id.linear_layout);
@@ -134,11 +141,24 @@ public class XMLActivity extends AppCompatActivity {
                 intent = new Intent(this, XMLActivity.class);
                 String message = "About.xml";
                 intent.putExtra(EXTRA_MESSAGE, message);
+                intent.putExtra(EXTRA_MESSAGE_NAME, "About");
                 startActivity(intent);
                 return true;
             case R.id.action_settings:
                 intent = new Intent(this, SettingsActivity.class);
                 startActivity(intent);
+                return true;
+            case R.id.action_bookmark:
+                Log.d("OaTS", "Bookmark");
+                Log.d("OaTS Link", pageLink);
+                if (mBookmarks.collectionsLength() > 1) {
+                    // ask for collection
+                    Log.d("OaTS", "Ask for collection");
+                } else {
+                    // add to _all_
+                    Log.d("OaTS", "Add to all");
+                    mBookmarks.addBookmark("_all_", pageName, pageLink);
+                }
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
