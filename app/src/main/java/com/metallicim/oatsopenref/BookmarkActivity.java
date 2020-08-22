@@ -78,7 +78,8 @@ public class BookmarkActivity extends AppCompatActivity {
                 Bookmarks.Bookmark bookmark = new Bookmarks.Bookmark(
                         bookmarks.getBookmarkCollection(i),
                         bookmarks.getBookmarkName(i),
-                        bookmarks.getBookmarkLink(i));
+                        bookmarks.getBookmarkLink(i),
+                        bookmarks.getBookmarkType(i));
                 bookmarkList.add(bookmark);
             }
         }

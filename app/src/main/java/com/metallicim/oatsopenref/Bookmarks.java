@@ -39,10 +39,12 @@ public class Bookmarks {
         public List<Integer> mCollectionIndexs = new ArrayList<Integer>();
         public String mName;
         public String mLink;
+        public PageType mPageType;
 
-        public Bookmark(List<String> collectionLinks, String name, String link) {
+        public Bookmark(List<String> collectionLinks, String name, String link, PageType type) {
             mName = name;
             mLink = link;
+            mPageType = type;
             mCollectionIndexs.add(0);
             for (int i = 1; i < mCollections.size(); i++) {
                 for (int j = 0; i < collectionLinks.size(); i++) {
@@ -53,9 +55,10 @@ public class Bookmarks {
             }
         }
 
-        public Bookmark(JSONArray collectionLinks, String name, String link) throws JSONException {
+        public Bookmark(JSONArray collectionLinks, String name, String link, PageType type) throws JSONException {
             mName = name;
             mLink = link;
+            mPageType = type;
             mCollectionIndexs.add(0);
             List<String> collectionStrings = new ArrayList<>();
 
@@ -101,6 +104,27 @@ public class Bookmarks {
         return INSTANCE;
     }
 
+    public PageType stringToPageType(String str) {
+        switch(str) {
+            case "feat":
+                return PageType.feat;
+            case "xml":
+                return PageType.XML;
+            default:
+                return PageType.error;
+        }
+    }
+    public String pageTypeToString(PageType type) {
+        switch (type) {
+            case feat:
+                return "feat";
+            case XML:
+                return "xml";
+            default:
+                return "error";
+        }
+    }
+
     public void readFile(Context context) throws IOException, JSONException {
         // Load the file
         File file = new File(context.getFilesDir(), filename);
@@ -124,10 +148,12 @@ public class Bookmarks {
         // fill the bookmarks list with elements from JSON
         for (int i = 0; i < bookmarks.length(); i++) {
             JSONObject jsonBookmark = bookmarks.getJSONObject(i);
+            PageType pageType = stringToPageType(jsonBookmark.getString("type"));
             Bookmark bookmark = new Bookmark(
                     jsonBookmark.getJSONArray("collection"),
                     jsonBookmark.getString("name"),
-                    jsonBookmark.getString("link"));
+                    jsonBookmark.getString("link"),
+                    pageType);
             mBookmarks.add(bookmark);
         }
     }
@@ -145,6 +171,7 @@ public class Bookmarks {
             jsonBookmark.put("collection", jsonCollections);
             jsonBookmark.put("name", mBookmarks.get(i).mName);
             jsonBookmark.put("link", mBookmarks.get(i).mLink);
+            jsonBookmark.put("type", pageTypeToString(mBookmarks.get(i).mPageType));
             jsonBookmarkArray.put(jsonBookmark);
         }
         String bookmarksString = jsonBookmarkArray.toString();
@@ -170,12 +197,12 @@ public class Bookmarks {
         return false;
     }
 
-    public void addBookmark(List<String> collections, String name, String link) {
-        Bookmark bookmark = new Bookmark(collections, name, link);
+    public void addBookmark(List<String> collections, String name, String link, PageType type) {
+        Bookmark bookmark = new Bookmark(collections, name, link, type);
         mBookmarks.add(bookmark);
     }
-    public void addBookmark(String name, String link) {
-        Bookmark bookmark = new Bookmark(new ArrayList<String>(), name, link);
+    public void addBookmark(String name, String link, PageType type) {
+        Bookmark bookmark = new Bookmark(new ArrayList<String>(), name, link, type);
         mBookmarks.add(bookmark);
     }
 
@@ -213,6 +240,9 @@ public class Bookmarks {
     }
     public String getBookmarkLink(int index) {
         return mBookmarks.get(index).mLink;
+    }
+    public PageType getBookmarkType(int index) {
+        return mBookmarks.get(index).mPageType;
     }
 
     public int findBookmarkIndexByLink(String link) {

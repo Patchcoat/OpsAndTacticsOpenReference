@@ -157,7 +157,7 @@ public class FeatActivity extends AppCompatActivity {
                 } else {
                     // add to _all_
                     if (!mBookmarks.isBookmarked(pageLink)) {
-                        mBookmarks.addBookmark(pageName, pageLink);
+                        mBookmarks.addBookmark(pageName, pageLink, PageType.feat);
                         mMenu.findItem(R.id.action_bookmark).setIcon(R.drawable.ic_bookmark_24dp);
                     } else {
                         mBookmarks.removeBookmark("_all_", pageLink);
