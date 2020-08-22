@@ -84,7 +84,7 @@ public class BookmarkActivity extends AppCompatActivity {
             }
         }
 
-        mAdapter = new BookmarksAdapter(bookmarkList);
+        mAdapter = new BookmarksAdapter(bookmarkList, pageLink);
         recyclerView.setAdapter(mAdapter);
     }
 

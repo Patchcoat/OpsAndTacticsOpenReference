@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/textView2"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:orientation="horizontal"
     android:padding="@dimen/standard_padding"
-    android:textSize="@dimen/standard_text_size"
-    android:text="" />
+    tools:ignore="UseCompoundDrawables">
+
+    <com.metallicim.oatsopenref.BookmarkView
+        android:id="@+id/bookmark_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="@dimen/standard_text_size"
+        android:text="" />
+    <com.metallicim.oatsopenref.BookmarkDeleteView android:id="@+id/trash_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:contentDescription="@string/action_about"/>
+
+</LinearLayout>

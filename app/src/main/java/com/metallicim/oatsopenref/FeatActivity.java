@@ -138,6 +138,7 @@ public class FeatActivity extends AppCompatActivity {
         switch(item.getItemId()) {
             case android.R.id.home:
                 finish();
+                super.onBackPressed();
                 return super.onOptionsItemSelected(item);
             case R.id.action_about:
                 intent = new Intent(this, XMLActivity.class);

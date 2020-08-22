@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.List;
@@ -18,53 +20,93 @@ public class BookmarksAdapter extends RecyclerView.Adapter<BookmarksAdapter.Book
     public static final String EXTRA_MESSAGE_NAME = "com.metallicim.oatsopenref.MESSAGE_NAME";
 
     List<Bookmarks.Bookmark> mBookmarks;
+    String mCategory;
 
     public static class BookmarkViewHolder extends RecyclerView.ViewHolder {
-        public TextView textView;
-        public BookmarkViewHolder(TextView v) {
+        public LinearLayout bookmarkView;
+        public BookmarkViewHolder(LinearLayout v) {
             super(v);
-            textView = v;
+            bookmarkView = v;
         }
     }
 
-    public BookmarksAdapter(List<Bookmarks.Bookmark> bookmarks) {
+    public BookmarksAdapter(List<Bookmarks.Bookmark> bookmarks, String category) {
         mBookmarks = bookmarks;
+        mCategory = category;
     }
 
     @Override
     public BookmarksAdapter.BookmarkViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        final TextView v = (TextView) LayoutInflater.from(parent.getContext())
+        LinearLayout v = (LinearLayout) LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.bookmark_view, parent, false);
-        BookmarkViewHolder vh = new BookmarkViewHolder(v);
-        return vh;
+        return new BookmarkViewHolder(v);
     }
 
-    @SuppressLint("ClickableViewAccessibility")
     @Override
     public void onBindViewHolder(BookmarkViewHolder holder, int position) {
-        holder.textView.setText(mBookmarks.get(position).mName);
+        BookmarkView bookmarkView = holder.bookmarkView.findViewById(R.id.bookmark_text_view);
+        BookmarkDeleteView delete = holder.bookmarkView.findViewById(R.id.trash_icon);
+        delete.setColorFilter(bookmarkView.getCurrentTextColor());
+        bookmarkView.setText(mBookmarks.get(position).mName);
         final String name = mBookmarks.get(position).mName;
         final String link = mBookmarks.get(position).mLink;
         final PageType type = mBookmarks.get(position).mPageType;
-        holder.textView.setOnTouchListener(new View.OnTouchListener() {
+        final int mPosition = position;
+        bookmarkView.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
-                Log.d("OaTS", name);
-                Intent intent = new Intent(view.getContext(), MainActivity.class);
-                switch (type) {
-                    case XML:
-                        intent = new Intent(view.getContext(), XMLActivity.class);
+                switch (motionEvent.getAction()) {
+                    case MotionEvent.ACTION_DOWN:
                         break;
-                    case feat:
-                        intent = new Intent(view.getContext(), FeatActivity.class);
-                        break;
-                    default:
+                    case MotionEvent.ACTION_UP:
+                        Intent intent = new Intent(view.getContext(), MainActivity.class);
+                        switch (type) {
+                            case XML:
+                                intent = new Intent(view.getContext(), XMLActivity.class);
+                                break;
+                            case feat:
+                                intent = new Intent(view.getContext(), FeatActivity.class);
+                                break;
+                            default:
+                                break;
+                        }
+                        intent.putExtra(EXTRA_MESSAGE, link);
+                        intent.putExtra(EXTRA_MESSAGE_NAME, name);
+                        view.getContext().startActivity(intent);
+                        view.performClick();
                         break;
                 }
-                intent.putExtra(EXTRA_MESSAGE, link);
-                intent.putExtra(EXTRA_MESSAGE_NAME, name);
-                view.getContext().startActivity(intent);
-                return false;
+                return true;
+            }
+        });
+        delete.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                switch (motionEvent.getAction()) {
+                    case MotionEvent.ACTION_DOWN:
+                        break;
+                    case MotionEvent.ACTION_UP:
+                        Log.d("OaTS", "delete");
+                        // delete from bookmarks data
+                        Bookmarks bookmarks = Bookmarks.getInstance();
+                        if (link.equals("_all_") && bookmarks.collectionsLength() == 1) {
+                            // TODO double check if the user really wants to delete all bookmarks
+                            bookmarks.removeBookmark(mCategory, link);
+                        } else {
+                            bookmarks.removeBookmark(mCategory, link);
+                        }
+                        // delete from local data
+                        mBookmarks.remove(mPosition);
+                        // delete from view
+                        notifyItemRemoved(mPosition);
+                        notifyItemChanged(mPosition, mBookmarks.size());
+                        // TODO update file
+
+                        // this is just to keep the warnings from yelling at me
+                        view.performClick();
+                        break;
+                }
+                return true;
             }
         });
     }
