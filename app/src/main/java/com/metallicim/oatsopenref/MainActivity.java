@@ -53,14 +53,6 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        bookmarks.addBookmark("_all_", "Hello", "hello");
-
-        for (int i = 0; i < bookmarks.bookmarksLength(); i++) {
-            Log.d("OaTS Collection", bookmarks.getBookmarkCollection(i));
-            Log.d("OaTS Name", bookmarks.getBookmarkName(i));
-            Log.d("OaTS Link", bookmarks.getBookmarkLink(i));
-        }
-
         // load contents
         JSONArray contents = new JSONArray();
         try {

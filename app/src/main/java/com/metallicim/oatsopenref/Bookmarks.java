@@ -23,7 +23,7 @@ public class Bookmarks {
 
     private String filename = "bookmarks.json";
     private List<Bookmark> mBookmarks = new ArrayList<>();
-    private List<BookmarkCollection> mCollections = new ArrayList<>();
+    private static List<BookmarkCollection> mCollections = new ArrayList<>();
 
     private class BookmarkCollection {
         public String mName;
@@ -35,7 +35,7 @@ public class Bookmarks {
         }
     }
 
-    private class Bookmark {
+    public static class Bookmark {
         public int mCollectionIndex;
         public String mName;
         public String mLink;
@@ -74,6 +74,9 @@ public class Bookmarks {
         // if the file doesn't exist, create it
         if (!file.exists()) {
             boolean success = file.createNewFile();
+            return;
+        }
+        if (file.length() == 0) {
             return;
         }
         // load the json

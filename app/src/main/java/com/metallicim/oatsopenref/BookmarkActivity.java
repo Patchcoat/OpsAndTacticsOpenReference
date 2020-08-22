@@ -3,6 +3,8 @@ package com.metallicim.oatsopenref;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.preference.PreferenceManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -18,13 +20,19 @@ import android.widget.LinearLayout;
 import org.json.JSONException;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class BookmarkActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "com.metallicim.oatsopenref.MESSAGE";
 
-    String pageLink;
+    private RecyclerView recyclerView;
+    private RecyclerView.Adapter mAdapter;
+    private RecyclerView.LayoutManager layoutManager;
 
-    int mThemeID;
+    private String pageLink;
+
+    private int mThemeID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,17 +64,30 @@ public class BookmarkActivity extends AppCompatActivity {
             this.recreate();
         }
 
+        // set up the recycler view
+        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        recyclerView.setHasFixedSize(true);
+        layoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(layoutManager);
         // Fill the page from bookmarks
-        // TODO fill the recycler view
         Bookmarks bookmarks = Bookmarks.getInstance();
+        List<Bookmarks.Bookmark> bookmarkList = new ArrayList<>();
         for (int i = 0; i < bookmarks.bookmarksLength(); i++) {
             // add the bookmark if it's category matches the page link, or if the page link includes all bookmarks
             if (bookmarks.getBookmarkCollection(i).equals(pageLink) || pageLink.equals("_all_")) {
+                Bookmarks.Bookmark bookmark = new Bookmarks.Bookmark(
+                        bookmarks.getBookmarkCollection(i),
+                        bookmarks.getBookmarkName(i),
+                        bookmarks.getBookmarkLink(i));
                 Log.d("OaTS Collection", bookmarks.getBookmarkCollection(i));
                 Log.d("OaTS Name", bookmarks.getBookmarkName(i));
                 Log.d("OaTS Link", bookmarks.getBookmarkLink(i));
+                bookmarkList.add(bookmark);
             }
         }
+
+        mAdapter = new BookmarksAdapter(bookmarkList);
+        recyclerView.setAdapter(mAdapter);
     }
 
     private int setTheme() {
