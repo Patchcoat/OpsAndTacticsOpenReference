@@ -43,10 +43,38 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        // load bookmarks
+        Bookmarks bookmarks = Bookmarks.getInstance();
+        try {
+            bookmarks.readFile(this);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        bookmarks.addBookmark("_all_", "Hello", "hello");
+
+        for (int i = 0; i < bookmarks.bookmarksLength(); i++) {
+            Log.d("OaTS Collection", bookmarks.getBookmarkCollection(i));
+            Log.d("OaTS Name", bookmarks.getBookmarkName(i));
+            Log.d("OaTS Link", bookmarks.getBookmarkLink(i));
+        }
+
         // load contents
         JSONArray contents = new JSONArray();
         try {
             contents = loadJSONFromAsset(getApplicationContext());
+            // load bookmark categories into contents
+            JSONObject jsonBookmarks = (JSONObject) contents.get(0);
+            JSONArray jsonBookmarkCollections = jsonBookmarks.getJSONArray("children");
+            for (int i = 0; i < bookmarks.collectionsLength(); i++) {
+                JSONObject jsonCollection = new JSONObject();
+                jsonCollection.put("text", bookmarks.getCollectionName(i));
+                jsonCollection.put("link", bookmarks.getCollectionLink(i));
+                jsonCollection.put("type", "bookmark_collection");
+                jsonBookmarkCollections.put(jsonCollection);
+            }
         } catch (JSONException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -58,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         List<Contents> contentsList = new ArrayList<>();
         try {
-            for (int i = 1; i < contents.length(); i++) {
+            for (int i = 0; i < contents.length(); i++) {
                 JSONObject contentsObj = contents.getJSONObject(i);
                 List<Category> categories = new ArrayList<>();
                 for (int j = 0; j < contentsObj.getJSONArray("children").length(); j++) {
@@ -106,14 +134,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent;
         switch(item.getItemId()) {
             case R.id.action_about:
-                Log.d("OaTS", "About");
                 intent = new Intent(this, XMLActivity.class);
                 String message = "About.xml";
                 intent.putExtra(EXTRA_MESSAGE, message);
                 startActivity(intent);
                 return true;
             case R.id.action_settings:
-                Log.d("OaTS", "About");
                 intent = new Intent(this, SettingsActivity.class);
                 startActivity(intent);
                 return true;

@@ -3,6 +3,7 @@ package com.metallicim.oatsopenref;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.util.Log;
 
 public class Category {
     private String mName;
@@ -24,6 +25,8 @@ public class Category {
             mType = PageType.add_collection;
         } else if (type.equals("remove_collection")) {
             mType = PageType.remove_collection;
+        } else if (type.equals("bookmark_collection")) {
+            mType = PageType.bookmark_collection;
         } else {
             mType = PageType.error;
         }
@@ -48,6 +51,15 @@ public class Category {
                 break;
             case feat:
                 intent = new Intent(mContext, FeatActivity.class);
+                break;
+            case add_collection:
+                Log.d("OaTS", "create a new collection");
+                return;
+            case remove_collection:
+                Log.d("OaTS", "remove a collection");
+                return;
+            case bookmark_collection:
+                intent = new Intent(mContext, BookmarkActivity.class);
                 break;
             default:
                 break;

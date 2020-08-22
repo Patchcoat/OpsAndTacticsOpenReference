@@ -5,5 +5,6 @@ public enum PageType {
     feat,
     add_collection,
     remove_collection,
+    bookmark_collection,
     error
 }
