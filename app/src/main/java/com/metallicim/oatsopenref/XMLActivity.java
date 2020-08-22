@@ -1,5 +1,6 @@
 package com.metallicim.oatsopenref;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.preference.PreferenceManager;
@@ -11,6 +12,7 @@ import android.content.res.AssetManager;
 import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
@@ -28,6 +30,7 @@ import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
+import org.json.JSONException;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -162,7 +165,6 @@ public class XMLActivity extends AppCompatActivity {
                     // ask for collection
                     Log.d("OaTS", "Ask for collection");
                 } else {
-                    // add to _all_
                     if (!mBookmarks.isBookmarked(pageLink)) {
                         mBookmarks.addBookmark(pageName, pageLink, PageType.XML);
                         mMenu.findItem(R.id.action_bookmark).setIcon(R.drawable.ic_bookmark_24dp);
@@ -170,6 +172,7 @@ public class XMLActivity extends AppCompatActivity {
                         mBookmarks.removeBookmark("_all_", pageLink);
                         mMenu.findItem(R.id.action_bookmark).setIcon(R.drawable.ic_bookmark_border_24dp);
                     }
+                    mBookmarks.updateFile(this);
                 }
                 return true;
             default:

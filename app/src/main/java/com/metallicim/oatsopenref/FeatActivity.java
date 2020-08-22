@@ -156,7 +156,6 @@ public class FeatActivity extends AppCompatActivity {
                     // ask for collection
                     Log.d("OaTS", "Ask for collection");
                 } else {
-                    // add to _all_
                     if (!mBookmarks.isBookmarked(pageLink)) {
                         mBookmarks.addBookmark(pageName, pageLink, PageType.feat);
                         mMenu.findItem(R.id.action_bookmark).setIcon(R.drawable.ic_bookmark_24dp);
@@ -164,6 +163,7 @@ public class FeatActivity extends AppCompatActivity {
                         mBookmarks.removeBookmark("_all_", pageLink);
                         mMenu.findItem(R.id.action_bookmark).setIcon(R.drawable.ic_bookmark_border_24dp);
                     }
+                    mBookmarks.updateFile(this);
                 }
                 return true;
             default:

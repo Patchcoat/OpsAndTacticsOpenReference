@@ -13,6 +13,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -158,26 +159,33 @@ public class Bookmarks {
         }
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
-    public void updateFile(Context context) throws IOException, JSONException {
-        JSONArray jsonBookmarkArray = new JSONArray();
-        for (int i = 0; i < mBookmarks.size(); i++) {
-            JSONObject jsonBookmark = new JSONObject();
-            // TODO collection indexs needs to be an array
-            JSONArray jsonCollections = new JSONArray();
-            for (int j = 0; j < mBookmarks.get(i).mCollectionIndexs.size(); i++) {
-                jsonCollections.put(mBookmarks.get(i).mCollectionIndexs.get(j));
+    public void updateFile(Context context) {
+        String bookmarksString = "";
+        try {
+            JSONArray jsonBookmarkArray = new JSONArray();
+            for (int i = 0; i < mBookmarks.size(); i++) {
+                JSONObject jsonBookmark = new JSONObject();
+                JSONArray jsonCollections = new JSONArray();
+                for (int j = 0; j < mBookmarks.get(i).mCollectionIndexs.size(); j++) {
+                    jsonCollections.put(mBookmarks.get(i).mCollectionIndexs.get(j));
+                }
+                jsonBookmark.put("collection", jsonCollections);
+                jsonBookmark.put("name", mBookmarks.get(i).mName);
+                jsonBookmark.put("link", mBookmarks.get(i).mLink);
+                jsonBookmark.put("type", pageTypeToString(mBookmarks.get(i).mPageType));
+                jsonBookmarkArray.put(jsonBookmark);
             }
-            jsonBookmark.put("collection", jsonCollections);
-            jsonBookmark.put("name", mBookmarks.get(i).mName);
-            jsonBookmark.put("link", mBookmarks.get(i).mLink);
-            jsonBookmark.put("type", pageTypeToString(mBookmarks.get(i).mPageType));
-            jsonBookmarkArray.put(jsonBookmark);
+            bookmarksString = jsonBookmarkArray.toString();
+        } catch (JSONException e) {
+            e.printStackTrace();
         }
-        String bookmarksString = jsonBookmarkArray.toString();
 
-        try (FileOutputStream fos = context.openFileOutput(filename, Context.MODE_PRIVATE)) {
-            fos.write(bookmarksString.getBytes("UTF-8"));
+        try {
+            OutputStreamWriter outputStreamWriter = new OutputStreamWriter(context.openFileOutput(filename, Context.MODE_PRIVATE));
+            outputStreamWriter.write(bookmarksString);
+            outputStreamWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
