@@ -22,5 +22,6 @@
     <string name="cancel">Cancel</string>
     <string name="collection_creation_error">Error Creating Collection</string>
     <string name="collection_already_exists">Collection already exists</string>
+    <string name="remove_collections">Select Collections to Delete</string>
 
 </resources>

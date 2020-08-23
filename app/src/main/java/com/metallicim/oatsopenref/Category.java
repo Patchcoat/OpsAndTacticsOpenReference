@@ -14,6 +14,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import androidx.appcompat.app.AlertDialog;
@@ -57,6 +58,9 @@ public class Category {
 
     public String getName() {
         return mName;
+    }
+    public String getLink() {
+        return mLink;
     }
 
     public void setTheme(Resources.Theme theme) {
@@ -113,7 +117,69 @@ public class Category {
         builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                // user clickced cancel
+                // user clicked cancel
+            }
+        });
+
+        return builder.create();
+    }
+
+    public Dialog removeCollection() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
+        builder.setTitle(R.string.remove_collections);
+        final List<CharSequence> selectedItems = new ArrayList<>();
+        Bookmarks bookmarks = Bookmarks.getInstance();
+        int length = bookmarks.collectionsLength() - 1;
+        CharSequence[] items = new CharSequence[length];
+        CharSequence[] links = new CharSequence[length];
+        boolean[] checkedItems = new boolean[length];
+        for (int i = 0; i < length; i++) {
+            items[i] = bookmarks.getCollectionName(i+1);
+            links[i] = bookmarks.getCollectionLink(i+1);
+            checkedItems[i] = false;
+        }
+        final CharSequence[] finalLinks = links;
+        builder.setMultiChoiceItems(items, checkedItems,
+                new DialogInterface.OnMultiChoiceClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which, boolean isChecked) {
+                CharSequence link = finalLinks[which];
+                if (isChecked) {
+                    selectedItems.add(link);
+                } else selectedItems.remove(link);
+            }
+        });
+
+        final ContentsAdapter contentsAdapter = mContentsAdapter;
+        builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int id) {
+                // user clicked ok
+                for (int i = selectedItems.size() - 1; i >= 0; i--) {
+                    String itemLink = selectedItems.get(i).toString();
+                    Log.d("OaTS", itemLink);
+                    Bookmarks bookmarks = Bookmarks.getInstance();
+                    bookmarks.removeCollection(itemLink);
+
+                    List<? extends ParentListItem> parentList = contentsAdapter.getParentItemList();
+                    List<Category> list = (List<Category>) parentList.get(0).getChildItemList();
+                    int j = 0;
+                    for (; j < list.size(); j++) {
+                        if (list.get(j).getLink().equals(itemLink)) {
+                            break;
+                        }
+                    }
+                    list.remove(j);
+                    //contentsAdapter.getListItem();
+                    contentsAdapter.notifyChildItemRemoved(0, j);
+                    bookmarks.updateFile(mContext);
+                }
+            }
+        });
+        builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                // user clicked cancel
             }
         });
 
@@ -137,6 +203,8 @@ public class Category {
                 return;
             case remove_collection:
                 Log.d("OaTS", "remove a collection");
+                Dialog removeCollectionDialog = removeCollection();
+                removeCollectionDialog.show();
                 return;
             case bookmark_collection:
                 intent = new Intent(mContext, BookmarkActivity.class);

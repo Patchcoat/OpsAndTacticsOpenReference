@@ -221,6 +221,10 @@ public class Bookmarks {
         }
     }
 
+    public void removeCollection(String link) {
+        mCollections.remove(findCollectionIndexByLink(link));
+    }
+
     public int findCollectionIndexByLink(String link) {
         for (int i = 0; i < collectionsLength(); i++) {
             if (getCollectionLink(i).equals(link)) {
