@@ -170,7 +170,6 @@ public class Category {
                         }
                     }
                     list.remove(j);
-                    //contentsAdapter.getListItem();
                     contentsAdapter.notifyChildItemRemoved(0, j);
                     bookmarks.updateFile(mContext);
                 }

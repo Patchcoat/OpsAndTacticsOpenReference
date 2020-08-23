@@ -1,10 +1,12 @@
 package com.metallicim.oatsopenref;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.preference.PreferenceManager;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
@@ -46,7 +48,7 @@ public class FeatActivity extends AppCompatActivity {
     Menu mMenu;
 
     int mThemeID;
-    Bookmarks mBookmarks;
+    Bookmarks mBookmarks = Bookmarks.getInstance();
 
     int boxBorder;
     int boxHeaderTextColor;
@@ -132,6 +134,68 @@ public class FeatActivity extends AppCompatActivity {
         return true;
     }
 
+    private AlertDialog askForCollection() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(R.string.remove_collections);
+        final List<String> selectedItems = new ArrayList<>();
+        final Bookmarks bookmarks = Bookmarks.getInstance();
+        int length = bookmarks.collectionsLength() - 1;
+        CharSequence[] items = new CharSequence[length];
+        CharSequence[] links = new CharSequence[length];
+        boolean[] checkedItems = new boolean[length];
+        for (int i = 0; i < length; i++) {
+            items[i] = bookmarks.getCollectionName(i+1);
+            links[i] = bookmarks.getCollectionLink(i+1);
+            checkedItems[i] = bookmarks.bookmarkIsInCollection(links[i].toString(),
+                    bookmarks.findBookmarkIndexByLink(pageLink));
+            if (checkedItems[i]) {
+                selectedItems.add(links[i].toString());
+            }
+        }
+        final CharSequence[] finalLinks = links;
+        builder.setMultiChoiceItems(items, checkedItems,
+                new DialogInterface.OnMultiChoiceClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which, boolean isChecked) {
+                        CharSequence link = finalLinks[which];
+                        if (isChecked) {
+                            selectedItems.add(link.toString());
+                        } else selectedItems.remove(link.toString());
+                    }
+                });
+
+        final Context context = this;
+        final int index = bookmarks.findBookmarkIndexByLink(pageLink);
+        builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int id) {
+                // user clicked ok
+                if (index >= 0) { // if the bookmark exists
+                    bookmarks.setBookmarkCollections(selectedItems, index);
+                } else { // if the bookmark doesn't exist
+                    bookmarks.addBookmark(selectedItems, pageName, pageLink, PageType.feat);
+                }
+                mMenu.findItem(R.id.action_bookmark).setIcon(R.drawable.ic_bookmark_24dp);
+            }
+        });
+        builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                // user clicked cancel
+            }
+        });
+        builder.setNeutralButton(R.string.delete_bookmark, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                // user deletes bookmark
+                bookmarks.removeBookmark("_all_", pageLink);
+                mMenu.findItem(R.id.action_bookmark).setIcon(R.drawable.ic_bookmark_border_24dp);
+            }
+        });
+
+        return builder.create();
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         Intent intent;
@@ -154,7 +218,7 @@ public class FeatActivity extends AppCompatActivity {
             case R.id.action_bookmark:
                 if (mBookmarks.collectionsLength() > 1) {
                     // ask for collection
-                    Log.d("OaTS", "Ask for collection");
+                    askForCollection().show();
                 } else {
                     if (!mBookmarks.isBookmarked(pageLink)) {
                         mBookmarks.addBookmark(pageName, pageLink, PageType.feat);

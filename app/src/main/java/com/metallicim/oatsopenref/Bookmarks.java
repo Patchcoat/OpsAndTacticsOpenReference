@@ -2,6 +2,7 @@ package com.metallicim.oatsopenref;
 
 import android.content.Context;
 import android.os.Build;
+import android.util.Log;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -51,7 +52,7 @@ public class Bookmarks {
             mPageType = type;
             mCollectionIndexs.add(0);
             for (int i = 1; i < mCollections.size(); i++) {
-                for (int j = 0; i < collectionLinks.size(); i++) {
+                for (int j = 0; j < collectionLinks.size(); j++) {
                     if (mCollections.get(i).mLink.equals(collectionLinks.get(j))) {
                         mCollectionIndexs.add(i);
                     }
@@ -71,7 +72,7 @@ public class Bookmarks {
             }
 
             for (int i = 1; i < mCollections.size(); i++) {
-                for (int j = 0; i < collectionStrings.size(); i++) {
+                for (int j = 0; j < collectionStrings.size(); j++) {
                     if (mCollections.get(i).mLink.equals(collectionStrings.get(j))) {
                         mCollectionIndexs.add(i);
                     }
@@ -86,10 +87,6 @@ public class Bookmarks {
                 }
             }
             return -1;
-        }
-
-        public boolean isInCollection(String collectionLink) {
-            return collectionIndexFromLink(collectionLink) >= 0;
         }
     }
 
@@ -264,7 +261,7 @@ public class Bookmarks {
         return mCollections.get(index).mLink;
     }
 
-    public List<String> getBookmarkCollection(int index) {
+    public List<String> getBookmarkCollections(int index) {
         List<String> collectionLinks = new ArrayList<>();
         for (int i = 0; i < mBookmarks.get(index).mCollectionIndexs.size(); i++) {
             collectionLinks.add(
@@ -280,6 +277,29 @@ public class Bookmarks {
     }
     public PageType getBookmarkType(int index) {
         return mBookmarks.get(index).mPageType;
+    }
+    public boolean bookmarkIsInCollection(String collectionLink, int index) {
+        if (index < 0)
+            return false;
+        Bookmark bookmark = mBookmarks.get(index);
+        for (int i = 0; i < bookmark.mCollectionIndexs.size(); i++) {
+            if (mCollections.get(bookmark.mCollectionIndexs.get(i)).mLink.equals(collectionLink)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void setBookmarkCollections(List<String> collectionLinks, int index) {
+        mBookmarks.get(index).mCollectionIndexs.clear();
+        mBookmarks.get(index).mCollectionIndexs.add(0);
+        for (int i = 1; i < mCollections.size(); i++) {
+            for (int j = 0; j < collectionLinks.size(); j++) {
+                if (mCollections.get(i).mLink.equals(collectionLinks.get(j))) {
+                    mBookmarks.get(index).mCollectionIndexs.add(i);
+                }
+            }
+        }
     }
 
     public int findBookmarkIndexByLink(String link) {
