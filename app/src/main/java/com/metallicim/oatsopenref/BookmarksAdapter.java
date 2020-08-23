@@ -90,9 +90,10 @@ public class BookmarksAdapter extends RecyclerView.Adapter<BookmarksAdapter.Book
                         // delete from bookmarks data
                         Bookmarks bookmarks = Bookmarks.getInstance();
                         if (link.equals("_all_") && bookmarks.collectionsLength() == 1) {
-                            // TODO double check if the user really wants to delete all bookmarks
+                            // TODO double check if the user really wants to delete bookmark entirely
                             bookmarks.removeBookmark(mCategory, link);
                         } else {
+                            // TODO ask if the user wants to remove just from the category or delete the bookmark entirely
                             bookmarks.removeBookmark(mCategory, link);
                         }
                         // delete from local data
