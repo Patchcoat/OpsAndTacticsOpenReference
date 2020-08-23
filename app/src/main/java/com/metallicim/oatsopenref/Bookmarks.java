@@ -93,8 +93,6 @@ public class Bookmarks {
     private Bookmarks() {
         if (mCollections.size() == 0) {
             mCollections.add(0, new BookmarkCollection("All Bookmarks", "_all_"));
-        } else {
-            mCollections.set(0, new BookmarkCollection("All Bookmarks", "_all_"));
         }
     }
 
@@ -145,7 +143,18 @@ public class Bookmarks {
         is.read(buffer);
         is.close();
         json = new String(buffer, "UTF-8");
-        JSONArray bookmarks = new JSONArray(json);
+        JSONObject bookmarksWithCollections = new JSONObject(json);
+        JSONArray collections = bookmarksWithCollections.getJSONArray("collections");
+        JSONArray bookmarks = bookmarksWithCollections.getJSONArray("bookmarks");
+
+        // fill the collections list with elements from JSON
+        for (int i = 0; i < collections.length(); i++) {
+            JSONObject jsonCollection = collections.getJSONObject(i);
+            BookmarkCollection collection = new BookmarkCollection(
+                    jsonCollection.getString("name"),
+                    jsonCollection.getString("link"));
+            mCollections.add(collection);
+        }
 
         // fill the bookmarks list with elements from JSON
         for (int i = 0; i < bookmarks.length(); i++) {
@@ -162,8 +171,19 @@ public class Bookmarks {
 
     public void updateFile(Context context) {
         // TODO write to collections as well as bookmarks
-        String bookmarksString = "";
+        String jsonString = "";
         try {
+            // Collections Array
+            JSONArray jsonCollectionArray = new JSONArray();
+            // starts at 1 so it doesn't save the _all_ collection
+            for (int i = 1; i < mCollections.size(); i++) {
+                JSONObject jsonCollection = new JSONObject();
+                jsonCollection.put("name", mCollections.get(i).mName);
+                jsonCollection.put("link", mCollections.get(i).mLink);
+                jsonCollectionArray.put(jsonCollection);
+            }
+            JSONObject bookmarksWithCollections = new JSONObject();
+            // Bookmarks Array
             JSONArray jsonBookmarkArray = new JSONArray();
             for (int i = 0; i < mBookmarks.size(); i++) {
                 JSONObject jsonBookmark = new JSONObject();
@@ -177,14 +197,16 @@ public class Bookmarks {
                 jsonBookmark.put("type", pageTypeToString(mBookmarks.get(i).mPageType));
                 jsonBookmarkArray.put(jsonBookmark);
             }
-            bookmarksString = jsonBookmarkArray.toString();
+            bookmarksWithCollections.put("collections", jsonCollectionArray);
+            bookmarksWithCollections.put("bookmarks", jsonBookmarkArray);
+            jsonString = bookmarksWithCollections.toString();
         } catch (JSONException e) {
             e.printStackTrace();
         }
 
         try {
             OutputStreamWriter outputStreamWriter = new OutputStreamWriter(context.openFileOutput(filename, Context.MODE_PRIVATE));
-            outputStreamWriter.write(bookmarksString);
+            outputStreamWriter.write(jsonString);
             outputStreamWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
