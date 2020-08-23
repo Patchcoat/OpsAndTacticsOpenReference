@@ -26,7 +26,6 @@ public class CategoryViewHolder extends ChildViewHolder {
 
     @Override
     public void gotoSubPage(View v) {
-        Log.d("OaTS_", mCategory.getName());
         mCategory.gotoSubPage();
     }
 }

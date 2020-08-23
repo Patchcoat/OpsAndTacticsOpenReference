@@ -100,7 +100,7 @@ public class BookmarksAdapter extends RecyclerView.Adapter<BookmarksAdapter.Book
                         // delete from view
                         notifyItemRemoved(mPosition);
                         notifyItemChanged(mPosition, mBookmarks.size());
-                        // TODO update file
+                        // update file
                         bookmarks.updateFile(view.getContext());
                         // this is just to keep the warnings from yelling at me
                         view.performClick();

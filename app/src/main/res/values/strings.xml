@@ -16,5 +16,11 @@
     <string name="style_color_title">Theme Color</string>
     <string name="style_font_title">Font</string>
     <string name="style_font_size_title">Text Size</string>
+    <string name="create_a_new_collection">Create a New Collection</string>
+    <string name="collection_name">Collection Name</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="collection_creation_error">Error Creating Collection</string>
+    <string name="collection_already_exists">Collection already exists</string>
 
 </resources>

@@ -49,7 +49,7 @@ public abstract class ExpandableRecyclerAdapter<PVH extends ParentViewHolder, CV
     }
 
     @Override
-    public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         Object listItem = getListItem(position);
         if (listItem instanceof ParentWrapper) {
             PVH parentViewHolder = (PVH) holder;

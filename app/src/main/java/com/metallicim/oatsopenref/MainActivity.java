@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         JSONArray contents = new JSONArray();
         try {
             contents = loadJSONFromAsset(getApplicationContext());
-            // load selector_bookmark categories into contents
+            // load bookmark categories into contents
             JSONObject jsonBookmarks = (JSONObject) contents.get(0);
             JSONArray jsonBookmarkCollections = jsonBookmarks.getJSONArray("children");
             for (int i = 0; i < bookmarks.collectionsLength(); i++) {

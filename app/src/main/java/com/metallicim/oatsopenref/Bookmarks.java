@@ -15,9 +15,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import androidx.annotation.RequiresApi;
+import androidx.collection.ArraySet;
 
 public class Bookmarks {
     private static Bookmarks INSTANCE = null;
@@ -26,7 +29,7 @@ public class Bookmarks {
     private List<Bookmark> mBookmarks = new ArrayList<>();
     private static List<BookmarkCollection> mCollections = new ArrayList<>();
 
-    private class BookmarkCollection {
+    private static class BookmarkCollection {
         public String mName;
         public String mLink;
 
@@ -127,6 +130,7 @@ public class Bookmarks {
     }
 
     public void readFile(Context context) throws IOException, JSONException {
+        // TODO read in collections as well as bookmarks
         // Load the file
         File file = new File(context.getFilesDir(), filename);
         // if the file doesn't exist, create it
@@ -160,6 +164,7 @@ public class Bookmarks {
     }
 
     public void updateFile(Context context) {
+        // TODO write to collections as well as bookmarks
         String bookmarksString = "";
         try {
             JSONArray jsonBookmarkArray = new JSONArray();
@@ -203,6 +208,26 @@ public class Bookmarks {
                 return true;
         }
         return false;
+    }
+
+    public boolean addCollection(String name) {
+        String link = name.toLowerCase().replace(" ", "_");
+        if (findCollectionIndexByLink(link) >= 0) {
+            return false;
+        } else {
+            BookmarkCollection collection = new BookmarkCollection(name, link);
+            mCollections.add(collection);
+            return true;
+        }
+    }
+
+    public int findCollectionIndexByLink(String link) {
+        for (int i = 0; i < collectionsLength(); i++) {
+            if (getCollectionLink(i).equals(link)) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     public void addBookmark(List<String> collections, String name, String link, PageType type) {
