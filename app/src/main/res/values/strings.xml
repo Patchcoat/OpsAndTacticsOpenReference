@@ -24,5 +24,9 @@
     <string name="collection_already_exists">Collection already exists</string>
     <string name="remove_collections">Select Collections to Delete</string>
     <string name="delete_bookmark">Delete Bookmark</string>
+    <string name="really_delete_bookmark">Are you sure you want to delete this bookmark from all collections?</string>
+    <string name="really_remove_from_collection">Do you want to delete this bookmark or remove it from this collection?</string>
+    <string name="remove_from_collection">Remove from collection</string>
+    <string name="delete">Delete</string>
 
 </resources>

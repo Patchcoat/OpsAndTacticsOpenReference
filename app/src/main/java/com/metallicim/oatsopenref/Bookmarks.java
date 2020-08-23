@@ -242,9 +242,12 @@ public class Bookmarks {
 
     public void removeBookmark(String collection, String link) {
         int index = findBookmarkIndexByLink(link);
+        Log.d("OaTS Index", Integer.toString(index));
         if (index != -1) {
+            Log.d("OaTS", "Deleting Bookmark");
             if (mCollections.size() == 1 || collection.equals("_all_")) {
                 mBookmarks.remove(index);
+                Log.d("OaTS", "Deleting Bookmark Entirely");
             } else {
                 int i = mBookmarks.get(index).collectionIndexFromLink(collection);
                 if (i >= 0) {

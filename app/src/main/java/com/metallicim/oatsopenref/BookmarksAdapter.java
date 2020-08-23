@@ -1,6 +1,9 @@
 package com.metallicim.oatsopenref;
 
 import android.annotation.SuppressLint;
+import android.app.Dialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -13,6 +16,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class BookmarksAdapter extends RecyclerView.Adapter<BookmarksAdapter.BookmarkViewHolder> {
@@ -42,6 +46,54 @@ public class BookmarksAdapter extends RecyclerView.Adapter<BookmarksAdapter.Book
         return new BookmarkViewHolder(v);
     }
 
+    public void removeBookmark(String link, String category, int position, Context context) {
+        Bookmarks bookmarks = Bookmarks.getInstance();
+        bookmarks.removeBookmark(category, link);
+        // delete from local data
+        mBookmarks.remove(position);
+        // delete from view
+        notifyItemRemoved(position);
+        notifyItemChanged(position, mBookmarks.size());
+        // update file
+        bookmarks.updateFile(context);
+    }
+
+    public Dialog verifyBookmarkDelete(final String link, final int position, final Context context, boolean allBookmarks) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        CharSequence positiveButtonText = "";
+        builder.setTitle(R.string.delete_bookmark);
+        if (allBookmarks) {
+            builder.setMessage(R.string.really_delete_bookmark);
+            positiveButtonText = context.getResources().getString(R.string.delete);
+        } else {
+            builder.setMessage(R.string.really_remove_from_collection);
+            builder.setNeutralButton(R.string.remove_from_collection, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    // user clicked remove from collection
+                    removeBookmark(link, mCategory, position, context);
+                }
+            });
+            positiveButtonText = context.getResources().getString(R.string.delete_bookmark);
+        }
+
+        builder.setPositiveButton(positiveButtonText, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int id) {
+                // user clicked ok
+                removeBookmark(link, "_all_", position, context);
+            }
+        });
+        builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                // user clicked cancel
+            }
+        });
+
+        return builder.create();
+    }
+
     @Override
     public void onBindViewHolder(BookmarkViewHolder holder, int position) {
         BookmarkView bookmarkView = holder.bookmarkView.findViewById(R.id.bookmark_text_view);
@@ -51,7 +103,7 @@ public class BookmarksAdapter extends RecyclerView.Adapter<BookmarksAdapter.Book
         final String name = mBookmarks.get(position).mName;
         final String link = mBookmarks.get(position).mLink;
         final PageType type = mBookmarks.get(position).mPageType;
-        final int mPosition = position;
+        final int finalPosition = position;
         bookmarkView.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
@@ -89,20 +141,11 @@ public class BookmarksAdapter extends RecyclerView.Adapter<BookmarksAdapter.Book
                         Log.d("OaTS", "delete");
                         // delete from bookmarks data
                         Bookmarks bookmarks = Bookmarks.getInstance();
-                        if (link.equals("_all_") && bookmarks.collectionsLength() == 1) {
-                            // TODO double check if the user really wants to delete bookmark entirely
-                            bookmarks.removeBookmark(mCategory, link);
+                        if (mCategory.equals("_all_") && bookmarks.collectionsLength() == 1) {
+                            verifyBookmarkDelete(link, finalPosition, view.getContext(), true).show();
                         } else {
-                            // TODO ask if the user wants to remove just from the category or delete the bookmark entirely
-                            bookmarks.removeBookmark(mCategory, link);
+                            verifyBookmarkDelete(link, finalPosition, view.getContext(), false).show();
                         }
-                        // delete from local data
-                        mBookmarks.remove(mPosition);
-                        // delete from view
-                        notifyItemRemoved(mPosition);
-                        notifyItemChanged(mPosition, mBookmarks.size());
-                        // update file
-                        bookmarks.updateFile(view.getContext());
                         // this is just to keep the warnings from yelling at me
                         view.performClick();
                         break;
