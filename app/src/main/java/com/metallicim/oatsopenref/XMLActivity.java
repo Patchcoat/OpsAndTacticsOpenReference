@@ -17,6 +17,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.Spannable;
+import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
 import android.text.style.StyleSpan;
 import android.util.Log;
@@ -528,6 +529,29 @@ public class XMLActivity extends AppCompatActivity {
         return number;
     }
 
+    private class NumberedListItem {
+        private int mLevel;
+        private String mValue;
+        private String mTextAlign;
+        public List<NumberedListItem> mNumberedList = new ArrayList<>();
+
+        public NumberedListItem(int level, String value, String textAlign) {
+            mLevel = level;
+            mValue = value;
+            mTextAlign = textAlign;
+        }
+
+        public int getLevel() {
+            return mLevel;
+        }
+        public String getValue() {
+            return mValue;
+        }
+        public String getTextAlign() {
+            return mTextAlign;
+        }
+    }
+
     private String listBullet(int listLevel) {
         String bullet = " ";
         switch(listLevel) {
@@ -550,45 +574,137 @@ public class XMLActivity extends AppCompatActivity {
         bullet = bullet.concat(" ");
         return bullet;
     }
+    private String orderedListBullet(int listLevel, int index) {
+        String bullet = " ";
+        switch(listLevel % 3) {
+            case 1: // capital letters
+                bullet = (char)(index%27 + 65) + ".";
+                break;
+            case 2: // lowercase letters
+                bullet = (char)(index%27 + 97) + ".";
+                break;
+            default: // numbers (also case 0)
+                bullet = index + ".";
+                break;
+        }
+        bullet = bullet.concat(" ");
+        return bullet;
+    }
+
+    private List<NumberedListItem> parseNumberedList(int index, int lastLevel, List<NumberedListItem> list) {
+        List<NumberedListItem> fill = new ArrayList<>();
+        // loop through the list
+        while (index < list.size()) {
+            // if the current item is one level higher
+            if (lastLevel < list.get(index).getLevel()) {
+                // call this function on the elements, and add them to the current item
+                fill.get(fill.size()-1).mNumberedList.addAll(parseNumberedList(index, list.get(index).getLevel(), list));
+                // catch the list up to where it should be
+                while (index < list.size() && lastLevel < list.get(index).getLevel())
+                    index++;
+            } else if (lastLevel > list.get(index).getLevel()) { // if the current item is a level lower
+                return fill; // it should go into the parent list
+            } else { // otherwise continue adding items into the list
+                fill.add(list.get(index));
+                index++;
+            }
+        }
+        return fill;
+    }
+
+    private void printNumberedList(List<NumberedListItem> list, int level) {
+        for (int i = 0; i < list.size(); i++) {
+            Log.d("OaTS"+level, i+ " " + list.get(i).getLevel() + " " + list.get(i).getValue());
+            if (list.get(i).mNumberedList.size() > 0) {
+                printNumberedList(list.get(i).mNumberedList, level+1);
+            }
+        }
+    }
+
+    private void placeOrderedList(List<NumberedListItem> list, int level, LinearLayout listLayout) {
+        for (int i = 0; i < list.size(); i++) {
+            SpannableStringBuilder text = new SpannableStringBuilder(orderedListBullet(level, i)).append(list.get(i).getValue());
+            TextView textView = new TextView(this);
+            textView.setText(text);
+            textView.setGravity(textViewGravity(list.get(i).getTextAlign()));
+
+            textView.setPadding(40 * (level) + 30, 0, 15, 0);
+            listLayout.addView(textView);
+            if (list.get(i).mNumberedList.size() > 0) {
+                placeOrderedList(list.get(i).mNumberedList, level+1, listLayout);
+            }
+        }
+    }
 
     private LinearLayout readList(XmlPullParser parser) throws IOException, XmlPullParserException {
         parser.require(XmlPullParser.START_TAG, ns, "list");
         LinearLayout listLayout = new LinearLayout(this);
         boolean ordered = parser.getAttributeValue(null, "type").equals("ordered");
-        int count = 0;
-        while (parser.next() != XmlPullParser.END_TAG) {
-            if (parser.getEventType() != XmlPullParser.START_TAG) {
-                continue;
+        if (ordered) {
+            List<NumberedListItem> numberedList = new ArrayList<>();
+            List<NumberedListItem> intoList = numberedList;
+            int lastLevel = 0;
+            while (parser.next() != XmlPullParser.END_TAG) {
+                if (parser.getEventType() != XmlPullParser.START_TAG) {
+                    continue;
+                }
+                String name = parser.getName();
+                String textAlign = "";
+                String text;
+                int listLevel;
+                switch (name) {
+                    case "text":
+                        parser.require(XmlPullParser.START_TAG, ns, "text");
+                        textAlign = parser.getAttributeValue(null, "textAlign");
+                        String listLevelStr = parser.getAttributeValue(null, "level");
+                        listLevel = Integer.parseInt(listLevelStr == null ? "0" : listLevelStr);
+                        text = readText(parser).toString();
+                        parser.require(XmlPullParser.END_TAG, ns, "text");
+                        if (lastLevel > listLevel) {
+                            intoList = intoList.get(intoList.size()-1).mNumberedList;
+                        }
+                        intoList.add(new NumberedListItem(listLevel, text, textAlign));
+                        break;
+                    default:
+                        skip(parser);
+                        break;
+                }
             }
-            String name = parser.getName();
-            SpannableStringBuilder text = new SpannableStringBuilder("");
-            String textAlign = "";
-            boolean textSet = false;
-            int listLevel = 0;
-            switch (name) {
-                case "text":
-                    parser.require(XmlPullParser.START_TAG, ns, "text");
-                    textAlign = parser.getAttributeValue(null, "textAlign");
-                    String listLevelStr = parser.getAttributeValue(null, "level");
-                    listLevel = Integer.parseInt(listLevelStr == null ? "0" : listLevelStr);
-                    if (!ordered)
+            numberedList = parseNumberedList(0, 0, numberedList);
+            printNumberedList(numberedList, 0);
+            placeOrderedList(numberedList, 0, listLayout);
+        } else {
+            while (parser.next() != XmlPullParser.END_TAG) {
+                if (parser.getEventType() != XmlPullParser.START_TAG) {
+                    continue;
+                }
+                String name = parser.getName();
+                SpannableStringBuilder text = new SpannableStringBuilder("");
+                String textAlign = "";
+                boolean textSet = false;
+                int listLevel = 0;
+                switch (name) {
+                    case "text":
+                        parser.require(XmlPullParser.START_TAG, ns, "text");
+                        textAlign = parser.getAttributeValue(null, "textAlign");
+                        String listLevelStr = parser.getAttributeValue(null, "level");
+                        listLevel = Integer.parseInt(listLevelStr == null ? "0" : listLevelStr);
                         text = new SpannableStringBuilder(listBullet(listLevel)).append(readText(parser));
-                    else // TODO ordered layout
-                        text.append(" ");
-                    parser.require(XmlPullParser.END_TAG, ns, "text");
-                    textSet = true;
-                    break;
-                default:
-                    skip(parser);
-                    break;
-            }
-            if (textSet) {
-                TextView textView = new TextView(this);
-                textView.setText(text);
-                textView.setGravity(textViewGravity(textAlign));
+                        parser.require(XmlPullParser.END_TAG, ns, "text");
+                        textSet = true;
+                        break;
+                    default:
+                        skip(parser);
+                        break;
+                }
+                if (textSet) {
+                    TextView textView = new TextView(this);
+                    textView.setText(text);
+                    textView.setGravity(textViewGravity(textAlign));
 
-                textView.setPadding(15 * (listLevel + 1),0,15,0);
-                listLayout.addView(textView);
+                    textView.setPadding(30 * (listLevel + 1), 0, 15, 0);
+                    listLayout.addView(textView);
+                }
             }
         }
         parser.require(XmlPullParser.END_TAG, ns, "list");
